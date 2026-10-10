@@ -1,0 +1,37 @@
+{
+  "checked_at_utc": "2026-10-10T07:08:56.564859+00:00",
+  "passed": true,
+  "selected_videos": 10,
+  "annotation_files_preserved": 2,
+  "source_copies_byte_identical": true,
+  "archive_reuse_executed": true,
+  "cuda_environment_passed": true,
+  "runs": {
+    "single_video": {
+      "passed": true,
+      "measured_rows": 15,
+      "videos": 1,
+      "all_frame_counts_and_counters_valid": true,
+      "execution_order_matches": true,
+      "expected_rows": 15,
+      "seed_order_reproduced": true,
+      "source_and_weight_hashes_match": true,
+      "warmups_excluded": true
+    },
+    "pilot": {
+      "passed": true,
+      "measured_rows": 150,
+      "videos": 10,
+      "all_frame_counts_and_counters_valid": true,
+      "execution_order_matches": true,
+      "expected_rows": 150,
+      "seed_order_reproduced": true,
+      "source_and_weight_hashes_match": true,
+      "warmups_excluded": true
+    }
+  },
+  "chart_size_pixels": [
+    2250,
+    1656
+  ]
+}

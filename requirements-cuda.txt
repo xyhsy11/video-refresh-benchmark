@@ -1,0 +1,6 @@
+# Exact torch/torchvision CUDA builds used for the published pilot.
+# Requires a compatible NVIDIA driver; see the official selector and README.
+--index-url https://download.pytorch.org/whl/cu132
+--only-binary=:all:
+torch==2.14.1+cu132
+torchvision==0.29.1+cu132

@@ -1,0 +1,87 @@
+{
+  "source_url": "https://download.openmmlab.com/mmaction/kinetics400_tiny.zip",
+  "prepared_at_utc": "2026-10-10T07:03:50.949718+00:00",
+  "archive_path": "data/source/kinetics400_tiny.zip",
+  "archive_sha256": "f8e6bf9381c5d2e48028339fd40a3bd05cae61ac045a505a71d6b1417f73db11",
+  "archive_size_bytes": 18308682,
+  "reused_archive": true,
+  "selected_files": [
+    "data/videos/0pVGiAU6XEA.mp4",
+    "data/videos/AQrbRSnRt8M.mp4",
+    "data/videos/IcLztCtvhb8.mp4",
+    "data/videos/SU_x2LQqSLs.mp4",
+    "data/videos/b6Q_b7vgc7Q.mp4",
+    "data/videos/ddvJ6-faICE.mp4",
+    "data/videos/ik4BW3-SCts.mp4",
+    "data/videos/jqRrH30V0k4.mp4",
+    "data/videos/u4Rm6srmIS8.mp4",
+    "data/videos/y5Iu7XkTqV0.mp4"
+  ],
+  "selected_files_details": [
+    {
+      "filename": "0pVGiAU6XEA.mp4",
+      "source_path": "data/source/kinetics400_tiny/val/0pVGiAU6XEA.mp4",
+      "selected_path": "data/videos/0pVGiAU6XEA.mp4",
+      "sha256": "455be4a450b58237447051c2c501359252e7e58f08ca28ae69a54af7f1633404"
+    },
+    {
+      "filename": "AQrbRSnRt8M.mp4",
+      "source_path": "data/source/kinetics400_tiny/val/AQrbRSnRt8M.mp4",
+      "selected_path": "data/videos/AQrbRSnRt8M.mp4",
+      "sha256": "ef4b397cfe09defb6efc8524294822ced5a7918696e2288cb8073438cdc35b7c"
+    },
+    {
+      "filename": "IcLztCtvhb8.mp4",
+      "source_path": "data/source/kinetics400_tiny/val/IcLztCtvhb8.mp4",
+      "selected_path": "data/videos/IcLztCtvhb8.mp4",
+      "sha256": "4491086492a2ae58c21262580c3989a4053e4e744c394b64701a270d1c4c85a7"
+    },
+    {
+      "filename": "SU_x2LQqSLs.mp4",
+      "source_path": "data/source/kinetics400_tiny/val/SU_x2LQqSLs.mp4",
+      "selected_path": "data/videos/SU_x2LQqSLs.mp4",
+      "sha256": "ae181b5492608109adbd998f46b50d38340070b369d9a5041d2f4ddfd2a7d7ba"
+    },
+    {
+      "filename": "b6Q_b7vgc7Q.mp4",
+      "source_path": "data/source/kinetics400_tiny/val/b6Q_b7vgc7Q.mp4",
+      "selected_path": "data/videos/b6Q_b7vgc7Q.mp4",
+      "sha256": "d5420b03b5a265ec3803a3e41f33cd68a2a959fc00f8551981392b2296d7f5db"
+    },
+    {
+      "filename": "ddvJ6-faICE.mp4",
+      "source_path": "data/source/kinetics400_tiny/val/ddvJ6-faICE.mp4",
+      "selected_path": "data/videos/ddvJ6-faICE.mp4",
+      "sha256": "8ea8d6358563a5accd32a7384115096fa3dafc61fd5cf59e84168ac543fabbdd"
+    },
+    {
+      "filename": "ik4BW3-SCts.mp4",
+      "source_path": "data/source/kinetics400_tiny/val/ik4BW3-SCts.mp4",
+      "selected_path": "data/videos/ik4BW3-SCts.mp4",
+      "sha256": "1abe2870ba52483314af9ecec3c840d1abea87fc0ea86bc46edfae8c70d08eec"
+    },
+    {
+      "filename": "jqRrH30V0k4.mp4",
+      "source_path": "data/source/kinetics400_tiny/val/jqRrH30V0k4.mp4",
+      "selected_path": "data/videos/jqRrH30V0k4.mp4",
+      "sha256": "d895d220521fd01167d309499d884c19ec9318f7d3068cf5fe0b5fcde5dd2066"
+    },
+    {
+      "filename": "u4Rm6srmIS8.mp4",
+      "source_path": "data/source/kinetics400_tiny/val/u4Rm6srmIS8.mp4",
+      "selected_path": "data/videos/u4Rm6srmIS8.mp4",
+      "sha256": "c5387f455fa7ae9e66b9dae34d1d7adafa2772f2929fefa0d3c72730cf57ac4a"
+    },
+    {
+      "filename": "y5Iu7XkTqV0.mp4",
+      "source_path": "data/source/kinetics400_tiny/val/y5Iu7XkTqV0.mp4",
+      "selected_path": "data/videos/y5Iu7XkTqV0.mp4",
+      "sha256": "dce61ba9d61c7b42ebc825595b67c2e88c1b96888e428f74eecbdb802176cb28"
+    }
+  ],
+  "preserved_annotation_files": [
+    "data/source/kinetics400_tiny/kinetics_tiny_train_video.txt",
+    "data/source/kinetics400_tiny/kinetics_tiny_val_video.txt"
+  ],
+  "copy_method": "byte-for-byte shutil.copy2; encoding unchanged"
+}

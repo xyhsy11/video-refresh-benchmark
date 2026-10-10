@@ -1,0 +1,1259 @@
+{
+  "started_at_utc": "2026-10-10T07:02:08.798740+00:00",
+  "status": "passed",
+  "metric": "Encoded-clip-to-features latency (ms)",
+  "boundary": "encoded bytes already in memory -> fresh BytesIO/container open -> complete sequential decode/processing -> container close -> CUDA synchronization",
+  "input": "data/videos",
+  "device": "cuda:0",
+  "gpu_name": "NVIDIA GeForce RTX 3080 Laptop GPU",
+  "seed": 20261010,
+  "modes": [
+    "decode",
+    "dense",
+    "periodic"
+  ],
+  "candidates": 16,
+  "refresh_every": 4,
+  "warmup_trials_per_mode": 2,
+  "measured_repetitions": 5,
+  "decoder": {
+    "thread_count": 1,
+    "thread_type": "NONE",
+    "skip_frame": "NONE",
+    "hardware_acceleration": false
+  },
+  "numerical_settings": {
+    "dtype": "float32",
+    "batch_size": 1,
+    "eval": true,
+    "inference_mode": true,
+    "autocast": false,
+    "compiled": false,
+    "deterministic_algorithms": true,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "cudnn_allow_tf32": false,
+    "matmul_allow_tf32": false,
+    "float32_matmul_precision": "highest",
+    "torch_cpu_threads": 1,
+    "torch_interop_threads": 1,
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+    "transfer_non_blocking": true,
+    "input_cpu_memory_pinned": false,
+    "note": "Pageable CPU transfers; non_blocking does not promise transfer/compute overlap."
+  },
+  "model": {
+    "name": "resnet18",
+    "weights": "ResNet18_Weights.IMAGENET1K_V1",
+    "weights_url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+    "weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "fc": "torch.nn.Identity",
+    "feature_shape": [
+      1,
+      512
+    ],
+    "preprocessing": "ImageClassification(\n    crop_size=[224]\n    resize_size=[256]\n    mean=[0.485, 0.456, 0.406]\n    std=[0.229, 0.224, 0.225]\n    interpolation=InterpolationMode.BILINEAR\n)",
+    "preparation_elapsed_ms_excluded": 440.4426999999487
+  },
+  "environment": {
+    "checked_at_utc": "2026-10-10T06:55:18.240868+00:00",
+    "python": {
+      "version": "3.12.10",
+      "full_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+      "executable": ".venv/Scripts/python.exe",
+      "prefix": ".venv",
+      "in_virtual_environment": true
+    },
+    "os": "Windows-11-10.0.22631-SP0",
+    "cpu": {
+      "name": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+      "logical_processors": 16,
+      "windows_processors": {
+        "Name": "Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz",
+        "NumberOfCores": 8,
+        "NumberOfLogicalProcessors": 16
+      }
+    },
+    "packages": {
+      "torch": {
+        "version": "2.14.1+cu132",
+        "import_ok": true
+      },
+      "torchvision": {
+        "version": "0.29.1+cu132",
+        "import_ok": true
+      },
+      "av": {
+        "version": "19.0.1",
+        "import_ok": true
+      },
+      "numpy": {
+        "version": "2.5.2",
+        "import_ok": true
+      },
+      "pandas": {
+        "version": "3.0.6",
+        "import_ok": true
+      },
+      "matplotlib": {
+        "version": "3.11.2",
+        "import_ok": true
+      },
+      "Pillow": {
+        "version": "12.3.0",
+        "import_ok": true
+      }
+    },
+    "ffmpeg_version": "9.0.2",
+    "ffmpeg_libraries": {
+      "libavcodec": "63.1.102",
+      "libavdevice": "63.1.102",
+      "libavfilter": "12.1.102",
+      "libavformat": "63.1.102",
+      "libavutil": "61.1.102",
+      "libswresample": "7.1.102",
+      "libswscale": "10.1.102"
+    },
+    "nvidia_smi": {
+      "gpus": [
+        {
+          "name": "NVIDIA GeForce RTX 3080 Laptop GPU",
+          "driver_version": "610.62",
+          "memory_mib": 16384
+        }
+      ],
+      "error": null
+    },
+    "cuda": {
+      "build_version": "13.2",
+      "available": true,
+      "visible_devices_setting": null,
+      "devices": [
+        {
+          "index": 0,
+          "name": "NVIDIA GeForce RTX 3080 Laptop GPU",
+          "memory_bytes": 17179344896,
+          "compute_capability": "8.6"
+        }
+      ],
+      "tensor_test": {
+        "passed": true,
+        "operation": "A @ B on cuda:0",
+        "result": [
+          [
+            19.0,
+            22.0
+          ],
+          [
+            43.0,
+            50.0
+          ]
+        ],
+        "device": "cuda:0",
+        "input_a": [
+          [
+            1.0,
+            2.0
+          ],
+          [
+            3.0,
+            4.0
+          ]
+        ],
+        "input_b": [
+          [
+            5.0,
+            6.0
+          ],
+          [
+            7.0,
+            8.0
+          ]
+        ],
+        "expected": [
+          [
+            19.0,
+            22.0
+          ],
+          [
+            43.0,
+            50.0
+          ]
+        ]
+      },
+      "torchvision_test": {
+        "passed": true,
+        "operation": "torchvision.ops.nms on cuda:0",
+        "result": [
+          0,
+          2
+        ],
+        "expected": [
+          0,
+          2
+        ]
+      }
+    },
+    "errors": [],
+    "diagnosis": [],
+    "passed": true
+  },
+  "videos": [
+    {
+      "video_id": "0pVGiAU6XEA",
+      "relative_path": "data/videos/0pVGiAU6XEA.mp4",
+      "file_identity": {
+        "size_bytes": 278301,
+        "mtime_ns": 1791615340341405300,
+        "sha256": "455be4a450b58237447051c2c501359252e7e58f08ca28ae69a54af7f1633404"
+      },
+      "candidate_indices": [
+        0,
+        20,
+        40,
+        60,
+        80,
+        100,
+        120,
+        140,
+        159,
+        179,
+        199,
+        219,
+        239,
+        259,
+        279,
+        299
+      ],
+      "decoded_frame_count": 300,
+      "file_loading_ms_excluded": 0.1785000004019821
+    },
+    {
+      "video_id": "AQrbRSnRt8M",
+      "relative_path": "data/videos/AQrbRSnRt8M.mp4",
+      "file_identity": {
+        "size_bytes": 601572,
+        "mtime_ns": 1791615340344398100,
+        "sha256": "ef4b397cfe09defb6efc8524294822ced5a7918696e2288cb8073438cdc35b7c"
+      },
+      "candidate_indices": [
+        0,
+        20,
+        40,
+        60,
+        80,
+        100,
+        120,
+        140,
+        159,
+        179,
+        199,
+        219,
+        239,
+        259,
+        279,
+        299
+      ],
+      "decoded_frame_count": 300,
+      "file_loading_ms_excluded": 0.2137000001312117
+    },
+    {
+      "video_id": "IcLztCtvhb8",
+      "relative_path": "data/videos/IcLztCtvhb8.mp4",
+      "file_identity": {
+        "size_bytes": 662205,
+        "mtime_ns": 1791615340347390400,
+        "sha256": "4491086492a2ae58c21262580c3989a4053e4e744c394b64701a270d1c4c85a7"
+      },
+      "candidate_indices": [
+        0,
+        17,
+        33,
+        50,
+        66,
+        83,
+        100,
+        116,
+        133,
+        149,
+        166,
+        183,
+        199,
+        216,
+        232,
+        249
+      ],
+      "decoded_frame_count": 250,
+      "file_loading_ms_excluded": 2.6170999999521882
+    },
+    {
+      "video_id": "SU_x2LQqSLs",
+      "relative_path": "data/videos/SU_x2LQqSLs.mp4",
+      "file_identity": {
+        "size_bytes": 364279,
+        "mtime_ns": 1791615340350651400,
+        "sha256": "ae181b5492608109adbd998f46b50d38340070b369d9a5041d2f4ddfd2a7d7ba"
+      },
+      "candidate_indices": [
+        0,
+        15,
+        30,
+        45,
+        61,
+        76,
+        91,
+        106,
+        121,
+        136,
+        151,
+        166,
+        182,
+        197,
+        212,
+        227
+      ],
+      "decoded_frame_count": 228,
+      "file_loading_ms_excluded": 0.2088999999614316
+    },
+    {
+      "video_id": "b6Q_b7vgc7Q",
+      "relative_path": "data/videos/b6Q_b7vgc7Q.mp4",
+      "file_identity": {
+        "size_bytes": 880562,
+        "mtime_ns": 1791615340354642400,
+        "sha256": "d5420b03b5a265ec3803a3e41f33cd68a2a959fc00f8551981392b2296d7f5db"
+      },
+      "candidate_indices": [
+        0,
+        20,
+        39,
+        59,
+        79,
+        99,
+        118,
+        138,
+        158,
+        178,
+        197,
+        217,
+        237,
+        257,
+        276,
+        296
+      ],
+      "decoded_frame_count": 297,
+      "file_loading_ms_excluded": 1.5406000002258224
+    },
+    {
+      "video_id": "ddvJ6-faICE",
+      "relative_path": "data/videos/ddvJ6-faICE.mp4",
+      "file_identity": {
+        "size_bytes": 260126,
+        "mtime_ns": 1791615340357668900,
+        "sha256": "8ea8d6358563a5accd32a7384115096fa3dafc61fd5cf59e84168ac543fabbdd"
+      },
+      "candidate_indices": [
+        0,
+        20,
+        40,
+        60,
+        79,
+        99,
+        119,
+        139,
+        159,
+        179,
+        199,
+        219,
+        238,
+        258,
+        278,
+        298
+      ],
+      "decoded_frame_count": 299,
+      "file_loading_ms_excluded": 0.2522000004319125
+    },
+    {
+      "video_id": "ik4BW3-SCts",
+      "relative_path": "data/videos/ik4BW3-SCts.mp4",
+      "file_identity": {
+        "size_bytes": 454159,
+        "mtime_ns": 1791615340360390600,
+        "sha256": "1abe2870ba52483314af9ecec3c840d1abea87fc0ea86bc46edfae8c70d08eec"
+      },
+      "candidate_indices": [
+        0,
+        19,
+        37,
+        56,
+        75,
+        94,
+        112,
+        131,
+        150,
+        169,
+        187,
+        206,
+        225,
+        244,
+        262,
+        281
+      ],
+      "decoded_frame_count": 282,
+      "file_loading_ms_excluded": 0.5004999993616366
+    },
+    {
+      "video_id": "jqRrH30V0k4",
+      "relative_path": "data/videos/jqRrH30V0k4.mp4",
+      "file_identity": {
+        "size_bytes": 1069005,
+        "mtime_ns": 1791615340367329700,
+        "sha256": "d895d220521fd01167d309499d884c19ec9318f7d3068cf5fe0b5fcde5dd2066"
+      },
+      "candidate_indices": [
+        0,
+        40,
+        80,
+        120,
+        160,
+        200,
+        240,
+        280,
+        319,
+        359,
+        399,
+        439,
+        479,
+        519,
+        559,
+        599
+      ],
+      "decoded_frame_count": 600,
+      "file_loading_ms_excluded": 0.5596000000878121
+    },
+    {
+      "video_id": "u4Rm6srmIS8",
+      "relative_path": "data/videos/u4Rm6srmIS8.mp4",
+      "file_identity": {
+        "size_bytes": 804087,
+        "mtime_ns": 1791615340370323700,
+        "sha256": "c5387f455fa7ae9e66b9dae34d1d7adafa2772f2929fefa0d3c72730cf57ac4a"
+      },
+      "candidate_indices": [
+        0,
+        16,
+        32,
+        48,
+        64,
+        80,
+        96,
+        112,
+        127,
+        143,
+        159,
+        175,
+        191,
+        207,
+        223,
+        239
+      ],
+      "decoded_frame_count": 240,
+      "file_loading_ms_excluded": 1.774499999555701
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "relative_path": "data/videos/y5Iu7XkTqV0.mp4",
+      "file_identity": {
+        "size_bytes": 430841,
+        "mtime_ns": 1791615340374312100,
+        "sha256": "dce61ba9d61c7b42ebc825595b67c2e88c1b96888e428f74eecbdb802176cb28"
+      },
+      "candidate_indices": [
+        0,
+        20,
+        40,
+        60,
+        80,
+        100,
+        120,
+        140,
+        159,
+        179,
+        199,
+        219,
+        239,
+        259,
+        279,
+        299
+      ],
+      "decoded_frame_count": 300,
+      "file_loading_ms_excluded": 0.48009999954956584
+    }
+  ],
+  "source_code_sha256": {
+    "benchmark.py": "d9c2e63d0b888b953b0cb03d583d8176cd579dc6ecd54a04676a0ef4a0d308f1",
+    "research_utils.py": "06b0bd9df2ebbbf314a5a21e086f00e7018d7dbd7a189adac3cf2d79f0352044",
+    "inspect_video.py": "dc272aef3e9a63e69908702276c58adb6b20ecb638a552cb8946ffcdc79b3952",
+    "requirements.txt": "0a7109f132c15c096c2414c0189eb85632a7bc25c224a0216432640bb3c65615"
+  },
+  "warmup_order": [
+    {
+      "video_id": "0pVGiAU6XEA",
+      "mode": "decode",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "0pVGiAU6XEA",
+      "mode": "decode",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "0pVGiAU6XEA",
+      "mode": "dense",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "0pVGiAU6XEA",
+      "mode": "dense",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "0pVGiAU6XEA",
+      "mode": "periodic",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "0pVGiAU6XEA",
+      "mode": "periodic",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "AQrbRSnRt8M",
+      "mode": "decode",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "AQrbRSnRt8M",
+      "mode": "decode",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "AQrbRSnRt8M",
+      "mode": "dense",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "AQrbRSnRt8M",
+      "mode": "dense",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "AQrbRSnRt8M",
+      "mode": "periodic",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "AQrbRSnRt8M",
+      "mode": "periodic",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "IcLztCtvhb8",
+      "mode": "decode",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "IcLztCtvhb8",
+      "mode": "decode",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "IcLztCtvhb8",
+      "mode": "dense",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "IcLztCtvhb8",
+      "mode": "dense",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "IcLztCtvhb8",
+      "mode": "periodic",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "IcLztCtvhb8",
+      "mode": "periodic",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "SU_x2LQqSLs",
+      "mode": "decode",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "SU_x2LQqSLs",
+      "mode": "decode",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "SU_x2LQqSLs",
+      "mode": "dense",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "SU_x2LQqSLs",
+      "mode": "dense",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "SU_x2LQqSLs",
+      "mode": "periodic",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "SU_x2LQqSLs",
+      "mode": "periodic",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "b6Q_b7vgc7Q",
+      "mode": "decode",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "b6Q_b7vgc7Q",
+      "mode": "decode",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "b6Q_b7vgc7Q",
+      "mode": "dense",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "b6Q_b7vgc7Q",
+      "mode": "dense",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "b6Q_b7vgc7Q",
+      "mode": "periodic",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "b6Q_b7vgc7Q",
+      "mode": "periodic",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "ddvJ6-faICE",
+      "mode": "decode",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "ddvJ6-faICE",
+      "mode": "decode",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "ddvJ6-faICE",
+      "mode": "dense",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "ddvJ6-faICE",
+      "mode": "dense",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "ddvJ6-faICE",
+      "mode": "periodic",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "ddvJ6-faICE",
+      "mode": "periodic",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "ik4BW3-SCts",
+      "mode": "decode",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "ik4BW3-SCts",
+      "mode": "decode",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "ik4BW3-SCts",
+      "mode": "dense",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "ik4BW3-SCts",
+      "mode": "dense",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "ik4BW3-SCts",
+      "mode": "periodic",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "ik4BW3-SCts",
+      "mode": "periodic",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "jqRrH30V0k4",
+      "mode": "decode",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "jqRrH30V0k4",
+      "mode": "decode",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "jqRrH30V0k4",
+      "mode": "dense",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "jqRrH30V0k4",
+      "mode": "dense",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "jqRrH30V0k4",
+      "mode": "periodic",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "jqRrH30V0k4",
+      "mode": "periodic",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "u4Rm6srmIS8",
+      "mode": "decode",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "u4Rm6srmIS8",
+      "mode": "decode",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "u4Rm6srmIS8",
+      "mode": "dense",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "u4Rm6srmIS8",
+      "mode": "dense",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "u4Rm6srmIS8",
+      "mode": "periodic",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "u4Rm6srmIS8",
+      "mode": "periodic",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "decode",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "decode",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "dense",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "dense",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "periodic",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "periodic",
+      "warmup_id": 2
+    }
+  ],
+  "execution_order": [
+    {
+      "video_id": "0pVGiAU6XEA",
+      "run_id": 1,
+      "modes": [
+        "periodic",
+        "decode",
+        "dense"
+      ]
+    },
+    {
+      "video_id": "0pVGiAU6XEA",
+      "run_id": 2,
+      "modes": [
+        "dense",
+        "decode",
+        "periodic"
+      ]
+    },
+    {
+      "video_id": "0pVGiAU6XEA",
+      "run_id": 3,
+      "modes": [
+        "decode",
+        "dense",
+        "periodic"
+      ]
+    },
+    {
+      "video_id": "0pVGiAU6XEA",
+      "run_id": 4,
+      "modes": [
+        "decode",
+        "periodic",
+        "dense"
+      ]
+    },
+    {
+      "video_id": "0pVGiAU6XEA",
+      "run_id": 5,
+      "modes": [
+        "decode",
+        "periodic",
+        "dense"
+      ]
+    },
+    {
+      "video_id": "AQrbRSnRt8M",
+      "run_id": 1,
+      "modes": [
+        "periodic",
+        "decode",
+        "dense"
+      ]
+    },
+    {
+      "video_id": "AQrbRSnRt8M",
+      "run_id": 2,
+      "modes": [
+        "periodic",
+        "dense",
+        "decode"
+      ]
+    },
+    {
+      "video_id": "AQrbRSnRt8M",
+      "run_id": 3,
+      "modes": [
+        "periodic",
+        "decode",
+        "dense"
+      ]
+    },
+    {
+      "video_id": "AQrbRSnRt8M",
+      "run_id": 4,
+      "modes": [
+        "decode",
+        "dense",
+        "periodic"
+      ]
+    },
+    {
+      "video_id": "AQrbRSnRt8M",
+      "run_id": 5,
+      "modes": [
+        "decode",
+        "periodic",
+        "dense"
+      ]
+    },
+    {
+      "video_id": "IcLztCtvhb8",
+      "run_id": 1,
+      "modes": [
+        "dense",
+        "decode",
+        "periodic"
+      ]
+    },
+    {
+      "video_id": "IcLztCtvhb8",
+      "run_id": 2,
+      "modes": [
+        "periodic",
+        "dense",
+        "decode"
+      ]
+    },
+    {
+      "video_id": "IcLztCtvhb8",
+      "run_id": 3,
+      "modes": [
+        "decode",
+        "periodic",
+        "dense"
+      ]
+    },
+    {
+      "video_id": "IcLztCtvhb8",
+      "run_id": 4,
+      "modes": [
+        "dense",
+        "periodic",
+        "decode"
+      ]
+    },
+    {
+      "video_id": "IcLztCtvhb8",
+      "run_id": 5,
+      "modes": [
+        "dense",
+        "decode",
+        "periodic"
+      ]
+    },
+    {
+      "video_id": "SU_x2LQqSLs",
+      "run_id": 1,
+      "modes": [
+        "periodic",
+        "dense",
+        "decode"
+      ]
+    },
+    {
+      "video_id": "SU_x2LQqSLs",
+      "run_id": 2,
+      "modes": [
+        "decode",
+        "periodic",
+        "dense"
+      ]
+    },
+    {
+      "video_id": "SU_x2LQqSLs",
+      "run_id": 3,
+      "modes": [
+        "periodic",
+        "decode",
+        "dense"
+      ]
+    },
+    {
+      "video_id": "SU_x2LQqSLs",
+      "run_id": 4,
+      "modes": [
+        "decode",
+        "periodic",
+        "dense"
+      ]
+    },
+    {
+      "video_id": "SU_x2LQqSLs",
+      "run_id": 5,
+      "modes": [
+        "periodic",
+        "dense",
+        "decode"
+      ]
+    },
+    {
+      "video_id": "b6Q_b7vgc7Q",
+      "run_id": 1,
+      "modes": [
+        "dense",
+        "decode",
+        "periodic"
+      ]
+    },
+    {
+      "video_id": "b6Q_b7vgc7Q",
+      "run_id": 2,
+      "modes": [
+        "decode",
+        "dense",
+        "periodic"
+      ]
+    },
+    {
+      "video_id": "b6Q_b7vgc7Q",
+      "run_id": 3,
+      "modes": [
+        "dense",
+        "periodic",
+        "decode"
+      ]
+    },
+    {
+      "video_id": "b6Q_b7vgc7Q",
+      "run_id": 4,
+      "modes": [
+        "periodic",
+        "dense",
+        "decode"
+      ]
+    },
+    {
+      "video_id": "b6Q_b7vgc7Q",
+      "run_id": 5,
+      "modes": [
+        "decode",
+        "periodic",
+        "dense"
+      ]
+    },
+    {
+      "video_id": "ddvJ6-faICE",
+      "run_id": 1,
+      "modes": [
+        "dense",
+        "decode",
+        "periodic"
+      ]
+    },
+    {
+      "video_id": "ddvJ6-faICE",
+      "run_id": 2,
+      "modes": [
+        "decode",
+        "dense",
+        "periodic"
+      ]
+    },
+    {
+      "video_id": "ddvJ6-faICE",
+      "run_id": 3,
+      "modes": [
+        "periodic",
+        "decode",
+        "dense"
+      ]
+    },
+    {
+      "video_id": "ddvJ6-faICE",
+      "run_id": 4,
+      "modes": [
+        "periodic",
+        "decode",
+        "dense"
+      ]
+    },
+    {
+      "video_id": "ddvJ6-faICE",
+      "run_id": 5,
+      "modes": [
+        "decode",
+        "periodic",
+        "dense"
+      ]
+    },
+    {
+      "video_id": "ik4BW3-SCts",
+      "run_id": 1,
+      "modes": [
+        "decode",
+        "dense",
+        "periodic"
+      ]
+    },
+    {
+      "video_id": "ik4BW3-SCts",
+      "run_id": 2,
+      "modes": [
+        "dense",
+        "periodic",
+        "decode"
+      ]
+    },
+    {
+      "video_id": "ik4BW3-SCts",
+      "run_id": 3,
+      "modes": [
+        "dense",
+        "decode",
+        "periodic"
+      ]
+    },
+    {
+      "video_id": "ik4BW3-SCts",
+      "run_id": 4,
+      "modes": [
+        "periodic",
+        "decode",
+        "dense"
+      ]
+    },
+    {
+      "video_id": "ik4BW3-SCts",
+      "run_id": 5,
+      "modes": [
+        "decode",
+        "dense",
+        "periodic"
+      ]
+    },
+    {
+      "video_id": "jqRrH30V0k4",
+      "run_id": 1,
+      "modes": [
+        "decode",
+        "dense",
+        "periodic"
+      ]
+    },
+    {
+      "video_id": "jqRrH30V0k4",
+      "run_id": 2,
+      "modes": [
+        "decode",
+        "dense",
+        "periodic"
+      ]
+    },
+    {
+      "video_id": "jqRrH30V0k4",
+      "run_id": 3,
+      "modes": [
+        "dense",
+        "decode",
+        "periodic"
+      ]
+    },
+    {
+      "video_id": "jqRrH30V0k4",
+      "run_id": 4,
+      "modes": [
+        "dense",
+        "decode",
+        "periodic"
+      ]
+    },
+    {
+      "video_id": "jqRrH30V0k4",
+      "run_id": 5,
+      "modes": [
+        "decode",
+        "periodic",
+        "dense"
+      ]
+    },
+    {
+      "video_id": "u4Rm6srmIS8",
+      "run_id": 1,
+      "modes": [
+        "periodic",
+        "decode",
+        "dense"
+      ]
+    },
+    {
+      "video_id": "u4Rm6srmIS8",
+      "run_id": 2,
+      "modes": [
+        "periodic",
+        "dense",
+        "decode"
+      ]
+    },
+    {
+      "video_id": "u4Rm6srmIS8",
+      "run_id": 3,
+      "modes": [
+        "decode",
+        "periodic",
+        "dense"
+      ]
+    },
+    {
+      "video_id": "u4Rm6srmIS8",
+      "run_id": 4,
+      "modes": [
+        "dense",
+        "periodic",
+        "decode"
+      ]
+    },
+    {
+      "video_id": "u4Rm6srmIS8",
+      "run_id": 5,
+      "modes": [
+        "dense",
+        "decode",
+        "periodic"
+      ]
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "run_id": 1,
+      "modes": [
+        "periodic",
+        "dense",
+        "decode"
+      ]
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "run_id": 2,
+      "modes": [
+        "dense",
+        "decode",
+        "periodic"
+      ]
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "run_id": 3,
+      "modes": [
+        "dense",
+        "periodic",
+        "decode"
+      ]
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "run_id": 4,
+      "modes": [
+        "dense",
+        "periodic",
+        "decode"
+      ]
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "run_id": 5,
+      "modes": [
+        "dense",
+        "decode",
+        "periodic"
+      ]
+    }
+  ],
+  "verification_file": "results/pilot_verification.json",
+  "correctness_checks_inside_timing": false,
+  "features_retained_on_gpu_until_timer_stops": true,
+  "completed_at_utc": "2026-10-10T07:02:54.216262+00:00",
+  "measured_rows": 150,
+  "csv_sha256": "a88a44e05a7e8fe8aff8b586ea480ca6cbf6d91ec0731cddabae9dd92b5275be"
+}

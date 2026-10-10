@@ -1,0 +1,30 @@
+# Tested non-PyTorch dependencies (Python 3.12.10, Windows x64).
+# Install CUDA-enabled torch/torchvision separately; see README.md.
+# Full original environment: results/pilot_2026_10_10/requirements-tested.txt
+--index-url https://pypi.org/simple
+--only-binary=:all:
+
+av==19.0.1
+contourpy==1.4.0
+cycler==0.12.1
+filelock==3.32.3
+fonttools==4.66.1
+fsspec==2026.7.0
+Jinja2==3.1.6
+kiwisolver==1.5.1
+MarkupSafe==3.0.3
+matplotlib==3.11.2
+mpmath==1.3.0
+networkx==3.6.1
+numpy==2.5.2
+packaging==26.3
+pandas==3.0.6
+pillow==12.3.0
+pip==26.2.1
+pyparsing==3.3.3
+python-dateutil==2.9.0.post0
+setuptools==78.1.0
+six==1.17.0
+sympy==1.14.0
+typing_extensions==4.16.0
+tzdata==2026.5

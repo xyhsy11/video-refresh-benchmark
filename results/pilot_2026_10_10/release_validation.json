@@ -1,0 +1,92 @@
+{
+  "checked_at_utc": "2026-10-10T07:43:52.866397+00:00",
+  "project": "video-refresh-benchmark",
+  "author": "Siyu Han",
+  "status": "preliminary feasibility benchmark",
+  "original_measurements_unchanged": true,
+  "original_protected_files_unchanged": 83,
+  "timing_logic_changed": false,
+  "latency_measurements_rerun": false,
+  "non_timing_changes": [
+    "portable adjacent/explicit manifest selection in summarize.py",
+    "separate CUDA installation requirements",
+    "public snapshot, documentation, license, and release validator",
+    "summarizer uses an adjacent single-video CSV when available"
+  ],
+  "checks_executed": {
+    "cuda_environment_and_small_gpu_operations": true,
+    "one_video_gpu_correctness": true,
+    "ten_video_gpu_correctness": true,
+    "summary_regenerated_from_public_raw_csv": true,
+    "public_snapshot_validator": true,
+    "relative_documentation_links": 30,
+    "readme_powershell_syntax_blocks": 11,
+    "cuda_requirements_clean_resolution": true,
+    "non_pytorch_requirements_clean_resolution": true,
+    "installed_dependencies_pip_check": true,
+    "git_ignore_exclusions": true,
+    "documented_one_video_verification_from_repository_root": true,
+    "regenerated_summary_matches_original_numerically": true,
+    "staged_clean_checkout_offline_validation": true,
+    "staged_clean_checkout_summary_matches_original": true,
+    "staged_files_byte_identical_to_worktree": true
+  },
+  "one_video_verification_counters": [
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "decode",
+      "verification_trial": 1,
+      "decoded_frames": 300,
+      "encoder_calls": 0,
+      "cache_reuses": 0,
+      "feature_outputs": 0,
+      "passed": true
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "dense",
+      "verification_trial": 1,
+      "decoded_frames": 300,
+      "encoder_calls": 16,
+      "cache_reuses": 0,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "periodic",
+      "verification_trial": 1,
+      "decoded_frames": 300,
+      "encoder_calls": 4,
+      "cache_reuses": 12,
+      "feature_outputs": 16,
+      "passed": true
+    }
+  ],
+  "verified_statistics": {
+    "videos": 10,
+    "measured_trials": 150,
+    "median_per_video_latency_reduction_pct": 34.73924305435733,
+    "median_per_video_speedup": 1.5323279990559207,
+    "per_video_reduction_range_pct": [
+      17.51774986013659,
+      45.538508782796626
+    ]
+  },
+  "public_copy_privacy": {
+    "project_absolute_paths_replaced_with_relative_paths": true,
+    "base_python_installation_path_omitted": true,
+    "no_unnecessary_usernames_or_hostnames": true
+  },
+  "original_git_state": {
+    "repository_existed": false,
+    "history": [],
+    "remotes": []
+  },
+  "public_files_reviewed": {
+    "file_count": 33,
+    "largest_file": "results/pilot_2026_10_10/latency_comparison.png",
+    "largest_file_bytes": 159128,
+    "datasets_weights_venv_and_secrets_excluded": true
+  }
+}

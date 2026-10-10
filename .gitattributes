@@ -1,0 +1,3 @@
+# Preserve original artifact bytes and recorded hashes on every platform.
+* -text
+*.png binary

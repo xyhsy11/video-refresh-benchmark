@@ -1,0 +1,16 @@
+# Credits and third-party terms
+
+The [MIT LICENSE](LICENSE) covers original project code by Siyu Han. It does not relicense dependencies, datasets, source videos, or pretrained weights. Their copyright notices and terms remain separate. No dependency source code, dataset videos, or model weights are bundled in this Git repository; local downloads and installed packages retain their existing notices.
+
+| Project or resource | Use here | Upstream information |
+| --- | --- | --- |
+| PyTorch | Tensor operations and CUDA inference | [Project](https://pytorch.org/), [license](https://github.com/pytorch/pytorch/blob/main/LICENSE) |
+| torchvision | Pretrained ResNet18 and documented preprocessing | [ResNet18 documentation](https://docs.pytorch.org/vision/stable/models/generated/torchvision.models.resnet18.html), [license](https://github.com/pytorch/vision/blob/main/LICENSE) |
+| PyAV | Python interface for sequential demuxing and decoding | [Project](https://github.com/PyAV-Org/PyAV), [license](https://github.com/PyAV-Org/PyAV/blob/main/LICENSE.txt) |
+| FFmpeg | Video libraries linked by the PyAV wheel | [Project](https://ffmpeg.org/), [license information](https://ffmpeg.org/legal.html) |
+| OpenMMLab / MMAction2 | Distributor of the Kinetics-400 tiny archive | [Project](https://github.com/open-mmlab/mmaction2), [license](https://github.com/open-mmlab/mmaction2/blob/main/LICENSE), [archive](https://download.openmmlab.com/mmaction/kinetics400_tiny.zip) |
+| Kinetics dataset | Source of the selected validation clips | [Dataset paper](https://arxiv.org/abs/1705.06950), [dataset resources](https://github.com/cvdfoundation/kinetics-dataset) |
+
+The dataset annotations, videos, and underlying source-video rights are not covered by this project's MIT license. Consult the dataset distributor and original video rights holders for applicable terms. Likewise, pretrained ResNet18 weights and their training-data terms remain separate from the license for this project's code. MMAction2 is credited as the archive distributor and is not installed or required to run this benchmark.
+
+NumPy, pandas, matplotlib, Pillow, and their transitive dependencies are also used under their respective upstream licenses. Installation metadata and license files in the existing local environment have been preserved.

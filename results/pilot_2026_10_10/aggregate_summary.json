@@ -1,0 +1,27 @@
+{
+  "generated_at_utc": "2026-10-10T07:07:05.216729+00:00",
+  "source_csv": "results/pilot.csv",
+  "source_csv_sha256": "a88a44e05a7e8fe8aff8b586ea480ca6cbf6d91ec0731cddabae9dd92b5275be",
+  "validation": {
+    "passed": true,
+    "measured_rows": 150,
+    "videos": 10,
+    "all_frame_counts_and_counters_valid": true,
+    "execution_order_matches": true,
+    "expected_rows": 150
+  },
+  "aggregation": "Equal weight per video; speedups and reductions calculated before aggregation",
+  "median_of_per_video_speedups": 1.5323279990559207,
+  "mean_of_per_video_speedups": 1.5250650887699084,
+  "median_of_per_video_latency_reductions_pct": 34.73924305435733,
+  "mean_of_per_video_latency_reductions_pct": 33.586026198254764,
+  "min_per_video_latency_reduction_pct": 17.51774986013659,
+  "max_per_video_latency_reduction_pct": 45.538508782796626,
+  "median_of_per_video_median_latencies_ms": {
+    "decode": 161.89429999985805,
+    "dense": 284.72865000003367,
+    "periodic": 196.10405000048559
+  },
+  "videos_with_positive_latency_reduction": 10,
+  "videos_with_periodic_max_below_dense_min": 9
+}

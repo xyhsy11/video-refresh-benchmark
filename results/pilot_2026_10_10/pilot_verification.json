@@ -1,0 +1,623 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-10T07:02:08.794752+00:00",
+  "device": "cuda:0",
+  "verification_trials_per_mode": 2,
+  "rows": [
+    {
+      "video_id": "0pVGiAU6XEA",
+      "mode": "decode",
+      "verification_trial": 1,
+      "decoded_frames": 300,
+      "encoder_calls": 0,
+      "cache_reuses": 0,
+      "feature_outputs": 0,
+      "passed": true
+    },
+    {
+      "video_id": "0pVGiAU6XEA",
+      "mode": "decode",
+      "verification_trial": 2,
+      "decoded_frames": 300,
+      "encoder_calls": 0,
+      "cache_reuses": 0,
+      "feature_outputs": 0,
+      "passed": true
+    },
+    {
+      "video_id": "0pVGiAU6XEA",
+      "mode": "dense",
+      "verification_trial": 1,
+      "decoded_frames": 300,
+      "encoder_calls": 16,
+      "cache_reuses": 0,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "0pVGiAU6XEA",
+      "mode": "dense",
+      "verification_trial": 2,
+      "decoded_frames": 300,
+      "encoder_calls": 16,
+      "cache_reuses": 0,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "0pVGiAU6XEA",
+      "mode": "periodic",
+      "verification_trial": 1,
+      "decoded_frames": 300,
+      "encoder_calls": 4,
+      "cache_reuses": 12,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "0pVGiAU6XEA",
+      "mode": "periodic",
+      "verification_trial": 2,
+      "decoded_frames": 300,
+      "encoder_calls": 4,
+      "cache_reuses": 12,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "AQrbRSnRt8M",
+      "mode": "decode",
+      "verification_trial": 1,
+      "decoded_frames": 300,
+      "encoder_calls": 0,
+      "cache_reuses": 0,
+      "feature_outputs": 0,
+      "passed": true
+    },
+    {
+      "video_id": "AQrbRSnRt8M",
+      "mode": "decode",
+      "verification_trial": 2,
+      "decoded_frames": 300,
+      "encoder_calls": 0,
+      "cache_reuses": 0,
+      "feature_outputs": 0,
+      "passed": true
+    },
+    {
+      "video_id": "AQrbRSnRt8M",
+      "mode": "dense",
+      "verification_trial": 1,
+      "decoded_frames": 300,
+      "encoder_calls": 16,
+      "cache_reuses": 0,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "AQrbRSnRt8M",
+      "mode": "dense",
+      "verification_trial": 2,
+      "decoded_frames": 300,
+      "encoder_calls": 16,
+      "cache_reuses": 0,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "AQrbRSnRt8M",
+      "mode": "periodic",
+      "verification_trial": 1,
+      "decoded_frames": 300,
+      "encoder_calls": 4,
+      "cache_reuses": 12,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "AQrbRSnRt8M",
+      "mode": "periodic",
+      "verification_trial": 2,
+      "decoded_frames": 300,
+      "encoder_calls": 4,
+      "cache_reuses": 12,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "IcLztCtvhb8",
+      "mode": "decode",
+      "verification_trial": 1,
+      "decoded_frames": 250,
+      "encoder_calls": 0,
+      "cache_reuses": 0,
+      "feature_outputs": 0,
+      "passed": true
+    },
+    {
+      "video_id": "IcLztCtvhb8",
+      "mode": "decode",
+      "verification_trial": 2,
+      "decoded_frames": 250,
+      "encoder_calls": 0,
+      "cache_reuses": 0,
+      "feature_outputs": 0,
+      "passed": true
+    },
+    {
+      "video_id": "IcLztCtvhb8",
+      "mode": "dense",
+      "verification_trial": 1,
+      "decoded_frames": 250,
+      "encoder_calls": 16,
+      "cache_reuses": 0,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "IcLztCtvhb8",
+      "mode": "dense",
+      "verification_trial": 2,
+      "decoded_frames": 250,
+      "encoder_calls": 16,
+      "cache_reuses": 0,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "IcLztCtvhb8",
+      "mode": "periodic",
+      "verification_trial": 1,
+      "decoded_frames": 250,
+      "encoder_calls": 4,
+      "cache_reuses": 12,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "IcLztCtvhb8",
+      "mode": "periodic",
+      "verification_trial": 2,
+      "decoded_frames": 250,
+      "encoder_calls": 4,
+      "cache_reuses": 12,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "SU_x2LQqSLs",
+      "mode": "decode",
+      "verification_trial": 1,
+      "decoded_frames": 228,
+      "encoder_calls": 0,
+      "cache_reuses": 0,
+      "feature_outputs": 0,
+      "passed": true
+    },
+    {
+      "video_id": "SU_x2LQqSLs",
+      "mode": "decode",
+      "verification_trial": 2,
+      "decoded_frames": 228,
+      "encoder_calls": 0,
+      "cache_reuses": 0,
+      "feature_outputs": 0,
+      "passed": true
+    },
+    {
+      "video_id": "SU_x2LQqSLs",
+      "mode": "dense",
+      "verification_trial": 1,
+      "decoded_frames": 228,
+      "encoder_calls": 16,
+      "cache_reuses": 0,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "SU_x2LQqSLs",
+      "mode": "dense",
+      "verification_trial": 2,
+      "decoded_frames": 228,
+      "encoder_calls": 16,
+      "cache_reuses": 0,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "SU_x2LQqSLs",
+      "mode": "periodic",
+      "verification_trial": 1,
+      "decoded_frames": 228,
+      "encoder_calls": 4,
+      "cache_reuses": 12,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "SU_x2LQqSLs",
+      "mode": "periodic",
+      "verification_trial": 2,
+      "decoded_frames": 228,
+      "encoder_calls": 4,
+      "cache_reuses": 12,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "b6Q_b7vgc7Q",
+      "mode": "decode",
+      "verification_trial": 1,
+      "decoded_frames": 297,
+      "encoder_calls": 0,
+      "cache_reuses": 0,
+      "feature_outputs": 0,
+      "passed": true
+    },
+    {
+      "video_id": "b6Q_b7vgc7Q",
+      "mode": "decode",
+      "verification_trial": 2,
+      "decoded_frames": 297,
+      "encoder_calls": 0,
+      "cache_reuses": 0,
+      "feature_outputs": 0,
+      "passed": true
+    },
+    {
+      "video_id": "b6Q_b7vgc7Q",
+      "mode": "dense",
+      "verification_trial": 1,
+      "decoded_frames": 297,
+      "encoder_calls": 16,
+      "cache_reuses": 0,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "b6Q_b7vgc7Q",
+      "mode": "dense",
+      "verification_trial": 2,
+      "decoded_frames": 297,
+      "encoder_calls": 16,
+      "cache_reuses": 0,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "b6Q_b7vgc7Q",
+      "mode": "periodic",
+      "verification_trial": 1,
+      "decoded_frames": 297,
+      "encoder_calls": 4,
+      "cache_reuses": 12,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "b6Q_b7vgc7Q",
+      "mode": "periodic",
+      "verification_trial": 2,
+      "decoded_frames": 297,
+      "encoder_calls": 4,
+      "cache_reuses": 12,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "ddvJ6-faICE",
+      "mode": "decode",
+      "verification_trial": 1,
+      "decoded_frames": 299,
+      "encoder_calls": 0,
+      "cache_reuses": 0,
+      "feature_outputs": 0,
+      "passed": true
+    },
+    {
+      "video_id": "ddvJ6-faICE",
+      "mode": "decode",
+      "verification_trial": 2,
+      "decoded_frames": 299,
+      "encoder_calls": 0,
+      "cache_reuses": 0,
+      "feature_outputs": 0,
+      "passed": true
+    },
+    {
+      "video_id": "ddvJ6-faICE",
+      "mode": "dense",
+      "verification_trial": 1,
+      "decoded_frames": 299,
+      "encoder_calls": 16,
+      "cache_reuses": 0,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "ddvJ6-faICE",
+      "mode": "dense",
+      "verification_trial": 2,
+      "decoded_frames": 299,
+      "encoder_calls": 16,
+      "cache_reuses": 0,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "ddvJ6-faICE",
+      "mode": "periodic",
+      "verification_trial": 1,
+      "decoded_frames": 299,
+      "encoder_calls": 4,
+      "cache_reuses": 12,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "ddvJ6-faICE",
+      "mode": "periodic",
+      "verification_trial": 2,
+      "decoded_frames": 299,
+      "encoder_calls": 4,
+      "cache_reuses": 12,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "ik4BW3-SCts",
+      "mode": "decode",
+      "verification_trial": 1,
+      "decoded_frames": 282,
+      "encoder_calls": 0,
+      "cache_reuses": 0,
+      "feature_outputs": 0,
+      "passed": true
+    },
+    {
+      "video_id": "ik4BW3-SCts",
+      "mode": "decode",
+      "verification_trial": 2,
+      "decoded_frames": 282,
+      "encoder_calls": 0,
+      "cache_reuses": 0,
+      "feature_outputs": 0,
+      "passed": true
+    },
+    {
+      "video_id": "ik4BW3-SCts",
+      "mode": "dense",
+      "verification_trial": 1,
+      "decoded_frames": 282,
+      "encoder_calls": 16,
+      "cache_reuses": 0,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "ik4BW3-SCts",
+      "mode": "dense",
+      "verification_trial": 2,
+      "decoded_frames": 282,
+      "encoder_calls": 16,
+      "cache_reuses": 0,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "ik4BW3-SCts",
+      "mode": "periodic",
+      "verification_trial": 1,
+      "decoded_frames": 282,
+      "encoder_calls": 4,
+      "cache_reuses": 12,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "ik4BW3-SCts",
+      "mode": "periodic",
+      "verification_trial": 2,
+      "decoded_frames": 282,
+      "encoder_calls": 4,
+      "cache_reuses": 12,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "jqRrH30V0k4",
+      "mode": "decode",
+      "verification_trial": 1,
+      "decoded_frames": 600,
+      "encoder_calls": 0,
+      "cache_reuses": 0,
+      "feature_outputs": 0,
+      "passed": true
+    },
+    {
+      "video_id": "jqRrH30V0k4",
+      "mode": "decode",
+      "verification_trial": 2,
+      "decoded_frames": 600,
+      "encoder_calls": 0,
+      "cache_reuses": 0,
+      "feature_outputs": 0,
+      "passed": true
+    },
+    {
+      "video_id": "jqRrH30V0k4",
+      "mode": "dense",
+      "verification_trial": 1,
+      "decoded_frames": 600,
+      "encoder_calls": 16,
+      "cache_reuses": 0,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "jqRrH30V0k4",
+      "mode": "dense",
+      "verification_trial": 2,
+      "decoded_frames": 600,
+      "encoder_calls": 16,
+      "cache_reuses": 0,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "jqRrH30V0k4",
+      "mode": "periodic",
+      "verification_trial": 1,
+      "decoded_frames": 600,
+      "encoder_calls": 4,
+      "cache_reuses": 12,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "jqRrH30V0k4",
+      "mode": "periodic",
+      "verification_trial": 2,
+      "decoded_frames": 600,
+      "encoder_calls": 4,
+      "cache_reuses": 12,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "u4Rm6srmIS8",
+      "mode": "decode",
+      "verification_trial": 1,
+      "decoded_frames": 240,
+      "encoder_calls": 0,
+      "cache_reuses": 0,
+      "feature_outputs": 0,
+      "passed": true
+    },
+    {
+      "video_id": "u4Rm6srmIS8",
+      "mode": "decode",
+      "verification_trial": 2,
+      "decoded_frames": 240,
+      "encoder_calls": 0,
+      "cache_reuses": 0,
+      "feature_outputs": 0,
+      "passed": true
+    },
+    {
+      "video_id": "u4Rm6srmIS8",
+      "mode": "dense",
+      "verification_trial": 1,
+      "decoded_frames": 240,
+      "encoder_calls": 16,
+      "cache_reuses": 0,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "u4Rm6srmIS8",
+      "mode": "dense",
+      "verification_trial": 2,
+      "decoded_frames": 240,
+      "encoder_calls": 16,
+      "cache_reuses": 0,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "u4Rm6srmIS8",
+      "mode": "periodic",
+      "verification_trial": 1,
+      "decoded_frames": 240,
+      "encoder_calls": 4,
+      "cache_reuses": 12,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "u4Rm6srmIS8",
+      "mode": "periodic",
+      "verification_trial": 2,
+      "decoded_frames": 240,
+      "encoder_calls": 4,
+      "cache_reuses": 12,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "decode",
+      "verification_trial": 1,
+      "decoded_frames": 300,
+      "encoder_calls": 0,
+      "cache_reuses": 0,
+      "feature_outputs": 0,
+      "passed": true
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "decode",
+      "verification_trial": 2,
+      "decoded_frames": 300,
+      "encoder_calls": 0,
+      "cache_reuses": 0,
+      "feature_outputs": 0,
+      "passed": true
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "dense",
+      "verification_trial": 1,
+      "decoded_frames": 300,
+      "encoder_calls": 16,
+      "cache_reuses": 0,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "dense",
+      "verification_trial": 2,
+      "decoded_frames": 300,
+      "encoder_calls": 16,
+      "cache_reuses": 0,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "periodic",
+      "verification_trial": 1,
+      "decoded_frames": 300,
+      "encoder_calls": 4,
+      "cache_reuses": 12,
+      "feature_outputs": 16,
+      "passed": true
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "periodic",
+      "verification_trial": 2,
+      "decoded_frames": 300,
+      "encoder_calls": 4,
+      "cache_reuses": 12,
+      "feature_outputs": 16,
+      "passed": true
+    }
+  ],
+  "checks": [
+    "decoded frame counts",
+    "encoder calls",
+    "cache reuses",
+    "feature output counts",
+    "shape [1,512]",
+    "float32 and correct device",
+    "finite values",
+    "cache equality",
+    "candidate zero refresh",
+    "fresh outputs across videos/trials",
+    "dense vs refreshed periodic features"
+  ],
+  "requested_device": "cuda",
+  "cuda_blocked": false
+}
