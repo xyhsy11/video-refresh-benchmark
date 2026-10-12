@@ -1,0 +1,226 @@
+{
+  "aggregation": "equal-weight per-video, fixed training models",
+  "validation": {
+    "age_only": {
+      "video_count": 40,
+      "mae": {
+        "mean_per_video": 0.07384543154912174,
+        "median_per_video": 0.07059736390221183,
+        "defined": 40,
+        "undefined": 0
+      },
+      "rmse": {
+        "mean_per_video": 0.08530874870058455,
+        "median_per_video": 0.07660868037645205,
+        "defined": 40,
+        "undefined": 0
+      },
+      "spearman": {
+        "mean_per_video": 0.37072255807463994,
+        "median_per_video": 0.3792181580848657,
+        "defined": 40,
+        "undefined": 0
+      },
+      "undefined_correlation_reasons": {},
+      "clipped_prediction_count": 0
+    },
+    "age_plus_motion": {
+      "video_count": 40,
+      "mae": {
+        "mean_per_video": 0.05680242313104501,
+        "median_per_video": 0.05622716377682822,
+        "defined": 40,
+        "undefined": 0
+      },
+      "rmse": {
+        "mean_per_video": 0.06864305191308037,
+        "median_per_video": 0.062284313607600714,
+        "defined": 40,
+        "undefined": 0
+      },
+      "spearman": {
+        "mean_per_video": 0.46220312920136014,
+        "median_per_video": 0.5589285714285713,
+        "defined": 40,
+        "undefined": 0
+      },
+      "undefined_correlation_reasons": {},
+      "clipped_prediction_count": 0
+    },
+    "constant": {
+      "video_count": 40,
+      "mae": {
+        "mean_per_video": 0.0740032983001819,
+        "median_per_video": 0.0680984582569493,
+        "defined": 40,
+        "undefined": 0
+      },
+      "rmse": {
+        "mean_per_video": 0.08602475575009233,
+        "median_per_video": 0.07733347497097524,
+        "defined": 40,
+        "undefined": 0
+      },
+      "spearman": {
+        "mean_per_video": null,
+        "median_per_video": null,
+        "defined": 0,
+        "undefined": 40
+      },
+      "undefined_correlation_reasons": {
+        "undefined: predicted drift is constant": 40
+      },
+      "clipped_prediction_count": 0
+    },
+    "motion_only": {
+      "video_count": 40,
+      "mae": {
+        "mean_per_video": 0.057509564102832936,
+        "median_per_video": 0.05435023966065504,
+        "defined": 40,
+        "undefined": 0
+      },
+      "rmse": {
+        "mean_per_video": 0.07013928440245543,
+        "median_per_video": 0.06116725827997445,
+        "defined": 40,
+        "undefined": 0
+      },
+      "spearman": {
+        "mean_per_video": 0.4069964028776978,
+        "median_per_video": 0.4892857142857142,
+        "defined": 40,
+        "undefined": 0
+      },
+      "undefined_correlation_reasons": {},
+      "clipped_prediction_count": 0
+    }
+  },
+  "test": {
+    "age_only": {
+      "video_count": 40,
+      "mae": {
+        "mean_per_video": 0.08034902796071242,
+        "median_per_video": 0.07106226881765533,
+        "defined": 40,
+        "undefined": 0
+      },
+      "rmse": {
+        "mean_per_video": 0.09208832900624117,
+        "median_per_video": 0.07934776621530416,
+        "defined": 40,
+        "undefined": 0
+      },
+      "spearman": {
+        "mean_per_video": 0.42536938995917134,
+        "median_per_video": 0.44466998486135656,
+        "defined": 40,
+        "undefined": 0
+      },
+      "undefined_correlation_reasons": {},
+      "clipped_prediction_count": 0
+    },
+    "age_plus_motion": {
+      "video_count": 40,
+      "mae": {
+        "mean_per_video": 0.06696336543685104,
+        "median_per_video": 0.05867079548839639,
+        "defined": 40,
+        "undefined": 0
+      },
+      "rmse": {
+        "mean_per_video": 0.07871347928885084,
+        "median_per_video": 0.06678623921557977,
+        "defined": 40,
+        "undefined": 0
+      },
+      "spearman": {
+        "mean_per_video": 0.4822321428571428,
+        "median_per_video": 0.5821428571428571,
+        "defined": 40,
+        "undefined": 0
+      },
+      "undefined_correlation_reasons": {},
+      "clipped_prediction_count": 0
+    },
+    "constant": {
+      "video_count": 40,
+      "mae": {
+        "mean_per_video": 0.08209827123333262,
+        "median_per_video": 0.0666091296852904,
+        "defined": 40,
+        "undefined": 0
+      },
+      "rmse": {
+        "mean_per_video": 0.09362854726988634,
+        "median_per_video": 0.07582681042159065,
+        "defined": 40,
+        "undefined": 0
+      },
+      "spearman": {
+        "mean_per_video": null,
+        "median_per_video": null,
+        "defined": 0,
+        "undefined": 40
+      },
+      "undefined_correlation_reasons": {
+        "undefined: predicted drift is constant": 40
+      },
+      "clipped_prediction_count": 0
+    },
+    "motion_only": {
+      "video_count": 40,
+      "mae": {
+        "mean_per_video": 0.06833098313257881,
+        "median_per_video": 0.05754172015874712,
+        "defined": 40,
+        "undefined": 0
+      },
+      "rmse": {
+        "mean_per_video": 0.08052409649234452,
+        "median_per_video": 0.0702410236532133,
+        "defined": 40,
+        "undefined": 0
+      },
+      "spearman": {
+        "mean_per_video": 0.41794642857142855,
+        "median_per_video": 0.4678571428571428,
+        "defined": 40,
+        "undefined": 0
+      },
+      "undefined_correlation_reasons": {},
+      "clipped_prediction_count": 0
+    }
+  },
+  "primary_comparison": {
+    "candidate": "age_plus_motion",
+    "reference": "age_only",
+    "mean_paired_absolute_mae_improvement": 0.013385662523861369,
+    "median_paired_absolute_mae_improvement": 0.011391709776784172,
+    "mean_per_video_percentage_improvement": 11.758881887558527,
+    "median_per_video_percentage_improvement": 16.30434886763178,
+    "undefined_percentage_count": 0,
+    "improved": 33,
+    "tied": 0,
+    "worsened": 7,
+    "ci95_low": 0.007742936502004879,
+    "ci95_high": 0.018698877043701642,
+    "bootstrap_resamples": 10000,
+    "bootstrap_seed": 20261013,
+    "bootstrap_unit": "whole source video",
+    "ci_interpretation": "uncertainty over held-out videos conditional on fixed fitted models",
+    "conclusion": "improvement",
+    "net_sum_improvement": 0.5354265009544548,
+    "top_two_gain_video_ids": [
+      "f9R8VWDeXU4_000049_000059",
+      "R6M9eREJy_k_000004_000014"
+    ],
+    "top_two_positive_gains_pct_of_net": 17.175840895632714,
+    "concentration_denominator": "net summed paired MAE improvement; undefined if <=1e-12; can exceed 100% when losses offset gains"
+  },
+  "video_counts": {
+    "train": 120,
+    "validation": 40,
+    "test": 40
+  }
+}

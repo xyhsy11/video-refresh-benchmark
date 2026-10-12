@@ -1,0 +1,104 @@
+{
+  "frozen_at_utc": "2026-10-12T11:50:45.243209+00:00",
+  "protocol": {
+    "experiment": "cache_drift_v2",
+    "sampling_seed": 20261013,
+    "target": "200 distinct new source videos; 20 seeded classes, 10 clips per class",
+    "split": {
+      "per_class": {
+        "train": 6,
+        "validation": 2,
+        "test": 2
+      },
+      "totals": {
+        "train": 120,
+        "validation": 40,
+        "test": 40
+      }
+    },
+    "eligibility": [
+      "H.264",
+      "duration 5..15 seconds",
+      "at least 16 actually decoded frames",
+      "finite increasing candidate PTS timestamps",
+      "successful finite CUDA feature extraction"
+    ],
+    "motion_missing": "valid clips remain eligible when some or all motion side data is missing",
+    "candidates": 16,
+    "refresh_every": 4,
+    "cache_ordinal": "4 * floor((t-1)/4), BEFORE refresh, t=1..15",
+    "age_inputs": [
+      "age_seconds",
+      "age_decoded_frames",
+      "age_candidate_positions",
+      "age_seconds_squared"
+    ],
+    "motion_inputs": [
+      "current_mean_magnitude_px",
+      "current_p90_magnitude_px",
+      "current_mv_available",
+      "interval_mean_available_magnitude_px",
+      "interval_max_available_p90_px",
+      "interval_mv_available_fraction"
+    ],
+    "predictors": [
+      "constant",
+      "age_only",
+      "motion_only",
+      "age_plus_motion"
+    ],
+    "ridge_alpha": 1.0,
+    "standardization": "training-only mean and population std; constants use scale 1",
+    "primary_predictions": "raw saved separately; clip to [0,2] for all primary metrics",
+    "fit": "training videos only; validation never used for fitting or tuning; all four test models fixed",
+    "validation_candidate_rule": "lowest equal-weight mean per-video validation MAE; alphabetical tie break",
+    "metrics": [
+      "MAE",
+      "RMSE",
+      "Spearman, average ranks; constant vectors undefined"
+    ],
+    "aggregation": "per-video then equal weight across videos",
+    "comparisons_candidate_vs_reference": [
+      [
+        "age_plus_motion",
+        "age_only"
+      ],
+      [
+        "motion_only",
+        "constant"
+      ],
+      [
+        "motion_only",
+        "age_only"
+      ],
+      [
+        "age_plus_motion",
+        "constant"
+      ],
+      [
+        "age_plus_motion",
+        "motion_only"
+      ]
+    ],
+    "paired_improvement": "MAE(reference) - MAE(candidate); positive means improvement",
+    "percentage_improvement": "100 * paired_improvement / MAE(reference); undefined when denominator is zero",
+    "bootstrap": {
+      "resamples": 10000,
+      "seed": 20261013,
+      "percentiles": [
+        2.5,
+        97.5
+      ],
+      "method": "linear",
+      "unit": "whole source videos, paired methods together, fixed fitted models",
+      "interpretation": "uncertainty over held-out videos conditional on fitted models"
+    },
+    "concentration": "top two positive per-video absolute gains / positive net summed gain; undefined if net <=1e-12",
+    "offline": "B-frames and future-reference codec vectors; no strict causal streaming claim",
+    "out_of_scope": [
+      "adaptive controller",
+      "recognition accuracy",
+      "new latency measurements"
+    ]
+  }
+}

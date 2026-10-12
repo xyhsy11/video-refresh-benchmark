@@ -1,0 +1,145 @@
+{
+  "predefined_protocol": {
+    "resamples": 10000,
+    "seed": 20261013,
+    "percentiles": [
+      2.5,
+      97.5
+    ],
+    "method": "linear",
+    "unit": "whole source videos, paired methods together, fixed fitted models",
+    "interpretation": "uncertainty over held-out videos conditional on fitted models"
+  },
+  "comparisons": [
+    {
+      "candidate": "age_plus_motion",
+      "reference": "age_only",
+      "mean_paired_absolute_mae_improvement": 0.013385662523861369,
+      "median_paired_absolute_mae_improvement": 0.011391709776784172,
+      "mean_per_video_percentage_improvement": 11.758881887558527,
+      "median_per_video_percentage_improvement": 16.30434886763178,
+      "undefined_percentage_count": 0,
+      "improved": 33,
+      "tied": 0,
+      "worsened": 7,
+      "ci95_low": 0.007742936502004879,
+      "ci95_high": 0.018698877043701642,
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 20261013,
+      "bootstrap_unit": "whole source video",
+      "ci_interpretation": "uncertainty over held-out videos conditional on fixed fitted models",
+      "conclusion": "improvement",
+      "net_sum_improvement": 0.5354265009544548,
+      "top_two_gain_video_ids": [
+        "f9R8VWDeXU4_000049_000059",
+        "R6M9eREJy_k_000004_000014"
+      ],
+      "top_two_positive_gains_pct_of_net": 17.175840895632714,
+      "concentration_denominator": "net summed paired MAE improvement; undefined if <=1e-12; can exceed 100% when losses offset gains"
+    },
+    {
+      "candidate": "motion_only",
+      "reference": "constant",
+      "mean_paired_absolute_mae_improvement": 0.013767288100753814,
+      "median_paired_absolute_mae_improvement": 0.0156433641904204,
+      "mean_per_video_percentage_improvement": 8.36843912890742,
+      "median_per_video_percentage_improvement": 16.457699084678538,
+      "undefined_percentage_count": 0,
+      "improved": 34,
+      "tied": 0,
+      "worsened": 6,
+      "ci95_low": 0.008162958923023822,
+      "ci95_high": 0.019156670658089545,
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 20261013,
+      "bootstrap_unit": "whole source video",
+      "ci_interpretation": "uncertainty over held-out videos conditional on fixed fitted models",
+      "conclusion": "improvement",
+      "net_sum_improvement": 0.5506915240301525,
+      "top_two_gain_video_ids": [
+        "f9R8VWDeXU4_000049_000059",
+        "R6M9eREJy_k_000004_000014"
+      ],
+      "top_two_positive_gains_pct_of_net": 16.690020886425508,
+      "concentration_denominator": "net summed paired MAE improvement; undefined if <=1e-12; can exceed 100% when losses offset gains"
+    },
+    {
+      "candidate": "motion_only",
+      "reference": "age_only",
+      "mean_paired_absolute_mae_improvement": 0.012018044828133612,
+      "median_paired_absolute_mae_improvement": 0.009522482169390879,
+      "mean_per_video_percentage_improvement": 10.255768122627183,
+      "median_per_video_percentage_improvement": 13.987355610529928,
+      "undefined_percentage_count": 0,
+      "improved": 33,
+      "tied": 0,
+      "worsened": 7,
+      "ci95_low": 0.006720516487905534,
+      "ci95_high": 0.017168623359845238,
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 20261013,
+      "bootstrap_unit": "whole source video",
+      "ci_interpretation": "uncertainty over held-out videos conditional on fixed fitted models",
+      "conclusion": "improvement",
+      "net_sum_improvement": 0.48072179312534447,
+      "top_two_gain_video_ids": [
+        "BPdhR_xx4m4_000122_000132",
+        "f9R8VWDeXU4_000049_000059"
+      ],
+      "top_two_positive_gains_pct_of_net": 16.589449623923215,
+      "concentration_denominator": "net summed paired MAE improvement; undefined if <=1e-12; can exceed 100% when losses offset gains"
+    },
+    {
+      "candidate": "age_plus_motion",
+      "reference": "constant",
+      "mean_paired_absolute_mae_improvement": 0.01513490579648157,
+      "median_paired_absolute_mae_improvement": 0.01849782672556554,
+      "mean_per_video_percentage_improvement": 7.173646796838685,
+      "median_per_video_percentage_improvement": 22.485159964952118,
+      "undefined_percentage_count": 0,
+      "improved": 32,
+      "tied": 0,
+      "worsened": 8,
+      "ci95_low": 0.008273640980229374,
+      "ci95_high": 0.021784812776153656,
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 20261013,
+      "bootstrap_unit": "whole source video",
+      "ci_interpretation": "uncertainty over held-out videos conditional on fixed fitted models",
+      "conclusion": "improvement",
+      "net_sum_improvement": 0.6053962318592628,
+      "top_two_gain_video_ids": [
+        "f9R8VWDeXU4_000049_000059",
+        "d_uLBUMJ1NY_000037_000047"
+      ],
+      "top_two_positive_gains_pct_of_net": 19.746345042598048,
+      "concentration_denominator": "net summed paired MAE improvement; undefined if <=1e-12; can exceed 100% when losses offset gains"
+    },
+    {
+      "candidate": "age_plus_motion",
+      "reference": "motion_only",
+      "mean_paired_absolute_mae_improvement": 0.0013676176957277564,
+      "median_paired_absolute_mae_improvement": 0.0007734494787309358,
+      "mean_per_video_percentage_improvement": 1.252460371446158,
+      "median_per_video_percentage_improvement": 1.6353191495188764,
+      "undefined_percentage_count": 0,
+      "improved": 23,
+      "tied": 0,
+      "worsened": 17,
+      "ci95_low": -0.000709162003067992,
+      "ci95_high": 0.003417987634110146,
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 20261013,
+      "bootstrap_unit": "whole source video",
+      "ci_interpretation": "uncertainty over held-out videos conditional on fixed fitted models",
+      "conclusion": "inconclusive",
+      "net_sum_improvement": 0.05470470782911026,
+      "top_two_gain_video_ids": [
+        "d_uLBUMJ1NY_000037_000047",
+        "f9R8VWDeXU4_000049_000059"
+      ],
+      "top_two_positive_gains_pct_of_net": 58.37695005644111,
+      "concentration_denominator": "net summed paired MAE improvement; undefined if <=1e-12; can exceed 100% when losses offset gains"
+    }
+  ]
+}

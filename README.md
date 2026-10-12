@@ -6,7 +6,7 @@ A reproducible benchmark comparing sequential video decoding, dense RGB feature 
 
 **Research question:** If RGB features are computed at only one-quarter of the candidate positions and cached features are reused elsewhere, how much does encoded-clip-to-features latency decrease?
 
-**Status: preliminary feasibility benchmark.** The October 10 RGB pilot and an October 12 codec-vector CPU overhead follow-up have completed CUDA measurements on ten low-resolution Kinetics validation clips. Periodic processing was faster by median latency in every clip in both experiments. Recognition accuracy, a learned motion branch, adaptive refresh policies, and higher-resolution performance remain unevaluated.
+**Status: preliminary feasibility benchmark.** The October 10 RGB pilot and an October 12 codec-vector CPU overhead follow-up have completed CUDA measurements on ten low-resolution Kinetics validation clips. Periodic processing was faster by median latency in every clip in both experiments. Drift-prediction diagnostics are also complete for the ten-video pilot and a separate 200-video subset with forty unseen test videos. Recognition accuracy, a learned motion branch, adaptive refresh policies, and higher-resolution performance remain unevaluated.
 
 ## What the three modes do
 
@@ -326,6 +326,67 @@ See [findings](results/cache_drift_v1/findings.md), [observations](results/cache
 
 Only ten independent videos are evaluated; their 150 observations are correlated. There is no statistical significance, action-recognition accuracy, adaptive refresh benefit, or new latency claim. Simple CPU codec descriptors are not a learned motion-recognition branch. B-frames can supply future-reference vectors, making this an offline diagnostic even though aggregation uses only current/preceding decoded positions. Original encodings are preserved; strictly causal I/P-only evaluation remains separate.
 
+## cache_drift_v2: generalization to unseen videos
+
+The v2 workflow evaluates the same four fixed drift predictors on a custom subset of **200 new Kinetics-400 clips from 20 classes**, excluding the ten original pilot source videos. Within each class, six videos train the models, two validate the pipeline, and two form the untouched test set: **120/40/40 videos**. Source IDs and identical-file hashes cannot overlap. This is a diagnostic subset, not an official full-dataset action-recognition evaluation.
+
+`prepare_cache_drift_v2.py` uses [CVDF's hosted validation archive shards and annotations](https://github.com/cvdfoundation/kinetics-dataset). Seed **20261013** fixes class selection, shard order, within-class ranking, and custom splits before examining drift. Downloads use resumable HTTP ranges and an explicit compressed-archive limit; annotations, source hashes, acquisition events, malformed inputs, and deterministic replacement decisions are recorded. Original encodings are preserved. The limit includes reused/reserved archives, but excludes small annotation/HTTP metadata transfers and possible retransmissions. It does not download the complete dataset.
+
+V2 uses its own manifest; the original collector's published-ten-video checks remain intact. Eligibility requires H.264, 5–15 seconds, at least 16 decoded frames, finite increasing candidate timestamps, and successful finite CUDA feature extraction. Missing motion vectors never disqualify an otherwise valid clip. Sixteen fresh ResNet18 features and fifteen **pre-refresh** cosine-drift labels are collected per video, with unchanged encoder/weights, preprocessing, float32 settings, decoder, age/motion inputs, and interval definitions. B-frames and future-reference vectors keep this an offline diagnostic.
+
+Run from the repository root in the existing environment:
+
+```powershell
+& .\.venv\Scripts\python.exe .\verify_cache_drift_v2.py --output results/cache_drift_v2_checks/software
+if ($LASTEXITCODE -ne 0) { throw 'Software checks failed.' }
+& .\.venv\Scripts\python.exe .\prepare_cache_drift_v2.py --output results/cache_drift_v2 --max-download-gib 12 --download-workers 8
+if ($LASTEXITCODE -ne 0) { throw 'Dataset incomplete; inspect acquisition and shortfall records, then resume.' }
+& .\.venv\Scripts\python.exe .\collect_cache_drift_v2.py --manifest results/cache_drift_v2/dataset_manifest.json --device cuda --smoke --output results/cache_drift_v2_smoke
+if ($LASTEXITCODE -ne 0) { throw 'Training-video smoke collection failed.' }
+& .\.venv\Scripts\python.exe .\collect_cache_drift_v2.py --manifest results/cache_drift_v2/dataset_manifest.json --device cuda --output results/cache_drift_v2
+if ($LASTEXITCODE -ne 0) { throw 'Reference collection incomplete; inspect collection metadata.' }
+& .\.venv\Scripts\python.exe .\analyze_cache_drift_v2.py --input results/cache_drift_v2 --output results/cache_drift_v2_checks/real_verification --verify-only --check-video-files
+if ($LASTEXITCODE -ne 0) { throw 'Real-data audit failed before evaluation.' }
+& .\.venv\Scripts\python.exe .\analyze_cache_drift_v2.py --input results/cache_drift_v2 --output results/cache_drift_v2 --check-video-files
+if ($LASTEXITCODE -ne 0) { throw 'Fixed-model evaluation failed.' }
+```
+
+Preparation or collection can resume with the same arguments plus `--resume`. Repeating a completed run selects and prints a fresh directory; use that directory consistently in subsequent commands. Cached downloads are reused with remote identity and local hash checks. The smoke run uses only training clips. GPU failure is explicitly incomplete and never substitutes CPU feature collection. Expected complete counts are **3,200 features and 3,000 observations**: 1,800 training, 600 validation, 600 testing.
+
+The protocol is saved before acquisition/evaluation; the final split manifest is frozen after feature eligibility, before model evaluation. Scalers, ridge coefficients (`alpha=1.0`), and the constant mean use training rows only. Validation nominates the lowest-mean-MAE candidate for later research, without changing any model or evaluating an adaptive policy. All four fixed methods are evaluated on the same forty unseen test videos. Raw predictions and predictions clipped to `[0,2]` are saved separately; primary metrics consistently use clipped predictions.
+
+MAE, RMSE, and defined Spearman correlations are calculated per video and aggregated with equal weight. Five predefined paired comparisons include age-plus-motion versus age-only and both motion models versus the constant baseline. Percentile bootstrap intervals use **10,000 paired whole-source-video resamples**, seed **20261013**, and fixed fitted models. They describe held-out-video uncertainty conditional on the fitted models. Undefined correlations/zero-denominator percentages remain missing. Negative outcomes and gain concentration are retained; candidate positions are not treated as independent videos.
+
+The workflow saves acquisition/exclusions, manifests, environment/source/weight identities, reference features, per-frame motion, observations, fitted models, separate validation/test predictions, metrics, comparisons, bootstrap intervals, verification, plots, and findings. No recognition accuracy, adaptive-refresh benefit, or new speedup is measured. When auditing saved prediction CSVs, use `pd.read_csv(..., float_precision="round_trip")` to preserve float64 near-ties for Spearman ranks.
+
+### Executed v2 results
+
+Collection completed on **2026-10-12** using the existing RTX 3080 Laptop CUDA environment without package upgrades. Six of twenty validation shards supplied the complete subset, acquiring **8.81 GiB** of compressed archives within the 12 GiB limit. Seven clips failed the predefined duration eligibility check; no feature-collection replacements were needed. The frozen split contains **200 distinct videos**, **3,200 reference features**, and **3,000 observations** (1,800/600/600). The seed is 20261013; it is not the collection date.
+
+All figures below give each of the **40 unseen test videos** equal weight. Lower MAE/RMSE means more accurate drift prediction; higher Spearman indicates better within-video ranking. The constant model has undefined correlation because its prediction is constant. No predictions required clipping.
+
+| Predictor | Mean per-video MAE | Median per-video MAE | Mean per-video RMSE | Mean defined Spearman |
+| --- | ---: | ---: | ---: | ---: |
+| Constant | 0.082098 | 0.066609 | 0.093629 | undefined (40 videos) |
+| Age only | 0.080349 | 0.071062 | 0.092088 | 0.4254 |
+| Motion only | 0.068331 | 0.057542 | 0.080524 | 0.4179 |
+| Age plus motion | 0.066963 | 0.058671 | 0.078713 | 0.4822 |
+
+Age plus motion improves MAE over age only in **33/40 videos**, worsens it in seven, and ties in none. Mean paired absolute improvement is **0.013386**, with conditional 95% bootstrap interval **[0.007743, 0.018699]**. Mean and median per-video percentage improvements are **11.76% and 16.30%**. The two largest positive gains account for **17.18% of net improvement**, so the result is less concentrated than the ten-video pilot. Ranking correlation rises in 26 videos and falls in 14.
+
+| Candidate versus reference | Mean paired MAE improvement | Conditional 95% interval | Improved / tied / worsened |
+| --- | ---: | --- | --- |
+| Motion only versus constant | +0.013767 | [+0.008163, +0.019157] | 34 / 0 / 6 |
+| Motion only versus age only | +0.012018 | [+0.006721, +0.017169] | 33 / 0 / 7 |
+| Age plus motion versus constant | +0.015135 | [+0.008274, +0.021785] | 32 / 0 / 8 |
+| Age plus motion versus motion only | +0.001368 | [-0.000709, +0.003418] | 23 / 0 / 17 |
+
+Motion adds predictive information beyond age and the constant baseline on this custom subset. The MAE difference between motion-only and age-plus-motion is **inconclusive**. Motion-only improves magnitude prediction but does not improve mean ranking over age-only. Validation nominated age plus motion using the predefined rule; test outcomes did not change any models or settings. The results support a separate adaptive-policy study on fresh held-out videos, with recognition accuracy and actual refresh/latency measurements. Prediction improvement alone establishes neither preserved accuracy nor adaptive speedup.
+
+![V2 test MAE](results/cache_drift_v2/test_mae.png)
+
+See the [complete findings](results/cache_drift_v2/findings.md), [paired improvements plot](results/cache_drift_v2/test_paired_improvements.png), [prediction plot](results/cache_drift_v2/test_predicted_vs_observed.png), [per-video metrics](results/cache_drift_v2/per_video_metrics.csv), [all bootstrap comparisons](results/cache_drift_v2/bootstrap_intervals.json), [frozen split](results/cache_drift_v2/split_manifest.json), and [verification](results/cache_drift_v2/verification.json). Eighteen software checks, the training-only smoke collection, independent real-data label/interval audits, saved-prediction metric reproduction, and the existing release validator passed. All 90 protected original sources and snapshot files remain unchanged. Archives, videos, and weights remain local and ignored by Git.
+
 ## Limitations and roadmap
 
 This is a preliminary feasibility benchmark, not evidence of maintained recognition accuracy or a production streaming system.
@@ -350,13 +411,16 @@ The follow-up confirms savings remain with a substantial CPU codec-vector worklo
 - `validate_release.py`: public snapshot and documentation validation.
 - `motion_utils.py` / `inspect_motion.py`: codec-vector export, CPU descriptors, and per-frame diagnostics.
 - `benchmark_motion.py` / `summarize_motion.py`: six-condition correctness/timing and motion-overhead analysis.
+- `prepare_cache_drift_v2.py` / `collect_cache_drift_v2.py` / `analyze_cache_drift_v2.py`: bounded dataset acquisition, CUDA reference collection, and fixed train/validation/test drift evaluation.
+- `cache_drift_v2_utils.py` / `verify_cache_drift_v2.py`: frozen protocol, identity/preservation checks, and isolated software fixtures.
 - `requirements.txt` / `requirements-cuda.txt`: tested dependency installation, with CUDA separated.
 - `results/pilot_2026_10_10/`: curated public results and exact tested environment.
 - `results/motion_overhead_2026_10_11/`: curated codec-vector overhead experiment, with actual run timestamps.
+- `results/cache_drift_v1/` / `results/cache_drift_v2/`: curated drift-prediction diagnostics and their audit artifacts.
 - `data/source/`, `data/videos/`, `.venv/`, and other `results/` subfolders: local, ignored assets and outputs.
 
 ## Credits and license
 
 Original project code is released under the [MIT License](LICENSE), **Copyright (c) 2026 Siyu Han**. Dataset and pretrained-weight terms remain separate.
 
-This project uses **PyTorch/torchvision** for tensors and ResNet18, **PyAV/FFmpeg** for video decoding, and the **OpenMMLab/MMAction2** Kinetics tiny archive derived from the **Kinetics dataset**. NumPy, pandas, matplotlib, and Pillow support analysis and preprocessing. See [third-party notices and upstream terms](THIRD_PARTY_NOTICES.md). No downloaded videos, pretrained weights, or dependency source code are distributed in this repository.
+This project uses **PyTorch/torchvision** for tensors and ResNet18, **PyAV/FFmpeg** for video decoding, and the **OpenMMLab/MMAction2** Kinetics tiny archive derived from the **Kinetics dataset**. V2 uses **CVDF's hosted Kinetics-400 archives and annotations**, credited in its dataset manifest. NumPy, pandas, matplotlib, and Pillow support analysis and preprocessing. See [third-party notices and upstream terms](THIRD_PARTY_NOTICES.md). No downloaded videos, pretrained weights, or dependency source code are distributed in this repository.
