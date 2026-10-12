@@ -1,0 +1,121 @@
+{
+  "aggregation": "equal-weight per-video metrics and paired improvements; not pooled-row independent inference",
+  "video_count": 10,
+  "source_video_count": 10,
+  "observation_count": 150,
+  "prediction_count": 600,
+  "models": {
+    "age_only": {
+      "mae": {
+        "mean_per_video": 0.10020566650155054,
+        "median_per_video": 0.06878849199742783,
+        "defined_video_count": 10,
+        "undefined_video_count": 0
+      },
+      "rmse": {
+        "mean_per_video": 0.11247042193612988,
+        "median_per_video": 0.08254394190164085,
+        "defined_video_count": 10,
+        "undefined_video_count": 0
+      },
+      "spearman": {
+        "mean_per_video": 0.3738378388572238,
+        "median_per_video": 0.3850104410996149,
+        "defined_video_count": 10,
+        "undefined_video_count": 0
+      }
+    },
+    "age_plus_motion": {
+      "mae": {
+        "mean_per_video": 0.08125070083905095,
+        "median_per_video": 0.05145420207195761,
+        "defined_video_count": 10,
+        "undefined_video_count": 0
+      },
+      "rmse": {
+        "mean_per_video": 0.09667317322928222,
+        "median_per_video": 0.06837264976069372,
+        "defined_video_count": 10,
+        "undefined_video_count": 0
+      },
+      "spearman": {
+        "mean_per_video": 0.2849999999999999,
+        "median_per_video": 0.30714285714285705,
+        "defined_video_count": 10,
+        "undefined_video_count": 0
+      }
+    },
+    "constant": {
+      "mae": {
+        "mean_per_video": 0.08326754904207351,
+        "median_per_video": 0.062142710977252894,
+        "defined_video_count": 10,
+        "undefined_video_count": 0
+      },
+      "rmse": {
+        "mean_per_video": 0.09446600535617329,
+        "median_per_video": 0.07331068920027609,
+        "defined_video_count": 10,
+        "undefined_video_count": 0
+      },
+      "spearman": {
+        "mean_per_video": null,
+        "median_per_video": null,
+        "defined_video_count": 0,
+        "undefined_video_count": 10
+      }
+    },
+    "motion_only": {
+      "mae": {
+        "mean_per_video": 0.07416530849450782,
+        "median_per_video": 0.05124917503266012,
+        "defined_video_count": 10,
+        "undefined_video_count": 0
+      },
+      "rmse": {
+        "mean_per_video": 0.08742192846116392,
+        "median_per_video": 0.06881084426627147,
+        "defined_video_count": 10,
+        "undefined_video_count": 0
+      },
+      "spearman": {
+        "mean_per_video": 0.1807142857142857,
+        "median_per_video": 0.13928571428571426,
+        "defined_video_count": 10,
+        "undefined_video_count": 0
+      }
+    }
+  },
+  "age_plus_motion_vs_age_only": {
+    "positive_means": "age plus motion predicts more accurately (smaller clipped-prediction MAE)",
+    "mean_absolute_mae_improvement": 0.018954965662499573,
+    "median_absolute_mae_improvement": 0.009576037263272809,
+    "mean_percentage_mae_improvement": 9.786966975647761,
+    "median_percentage_mae_improvement": 8.23573039678498,
+    "undefined_percentage_count": 0,
+    "improved": 6,
+    "tied": 0,
+    "worsened": 4,
+    "min_percentage_mae_improvement": -34.81776945708379,
+    "max_percentage_mae_improvement": 61.731036199223254
+  },
+  "clipping_counts_by_predictor": {
+    "age_only": 0,
+    "age_plus_motion": 0,
+    "constant": 0,
+    "motion_only": 0
+  },
+  "descriptive_gain_concentration": {
+    "largest_two_gain_video_ids": [
+      "jqRrH30V0k4",
+      "u4Rm6srmIS8"
+    ],
+    "largest_two_sum_absolute_mae_improvement": 0.15338869150810208,
+    "net_sum_absolute_mae_improvement": 0.18954965662499573,
+    "largest_two_percent_of_net_gain": 80.92269552962875,
+    "remaining_videos_mean_absolute_mae_improvement": 0.004520120639611709,
+    "note": "post-evaluation descriptive concentration, not a changed evaluation set or tuned model"
+  },
+  "correlation_missing_policy": "undefined constant-vector correlations are missing, with reasons; average only defined per-video correlations",
+  "independence_limit": "ten source videos; fifteen observations within each are correlated; no statistical significance claim"
+}

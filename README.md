@@ -293,6 +293,39 @@ Negative outcomes are retained: **2/50 same-repetition comparisons** had periodi
 
 ![Caching reductions with and without CPU motion](results/motion_overhead_2026_10_11/caching_reduction_comparison.png)
 
+## Diagnostic: predicting cached appearance-feature drift
+
+This offline diagnostic asks whether codec motion adds predictive information beyond cache age. `collect_cache_drift.py` imports the unchanged encoder, preprocessing, numerical settings, input validation, decoder, and motion-descriptor helpers. CUDA collection fully decodes the same ten videos, records motion at every frame, and computes fresh features at all 16 saved candidates. Saving these reference targets is diagnostic work, not a latency benchmark.
+
+For candidate `t=1..15`, the previous cached ordinal is `r=4*floor((t-1)/4)`. The target is **appearance-feature drift**, the cosine distance between fresh features at `t` and `r`. Labels at `t=4,8,12` are measured against `r=0,4,8` **before** refreshing. Candidate 0 has no prediction label. Four cache-age inputs and six motion inputs are listed in metadata. Interval motion covers decoded frames strictly after `r` through `t`, with explicit missing-vector availability. RGB features, target-derived inputs, identifiers, future decoded-frame positions, and whole-video summaries never enter the predictor matrix.
+
+`analyze_cache_drift.py` evaluates constant, age-only, motion-only, and age-plus-motion predictors using leave-one-source-video-out folds. The three regressions use training-fold-only standardization and fixed ridge `alpha=1.0`, with no tuning or new dependencies. Raw predictions are saved; primary MAE, RMSE, and Spearman use predictions clipped to `[0,2]`. Constant-vector correlations are missing, not zero. Metrics and paired improvements are calculated per video before equal-weight aggregation.
+
+Run from the repository root using the existing `.venv`:
+
+```powershell
+& .\.venv\Scripts\python.exe .\collect_cache_drift.py --input data/videos/y5Iu7XkTqV0.mp4 --candidates 16 --refresh-every 4 --device cuda --output results/cache_drift_smoke
+if ($LASTEXITCODE -ne 0) { throw 'CUDA smoke collection failed.' }
+& .\.venv\Scripts\python.exe .\collect_cache_drift.py --input data/videos --candidates 16 --refresh-every 4 --device cuda --output results/cache_drift_v1
+if ($LASTEXITCODE -ne 0) { throw 'Ten-video reference collection failed.' }
+& .\.venv\Scripts\python.exe .\analyze_cache_drift.py --input results/cache_drift_v1 --output results/cache_drift_v1 --seed 20261012
+if ($LASTEXITCODE -ne 0) { throw 'Drift verification or evaluation failed.' }
+```
+
+Collection preserves existing output directories by selecting and printing a fresh suffix. Use that reported directory for subsequent analysis. Completed analyses are also preserved: choose a fresh `--output` to recompute saved features without CUDA or videos. If CUDA or inputs are unavailable, resolve the environment check or run dataset preparation/inspection above; no CPU collection is substituted.
+
+**Actual result, collected October 12, 2026:** 10 videos, 160 reference features, 150 observations, ten held-out folds, and 600 predictions. All focused checks and the original release validator passed. Adding motion reduced MAE in **6/10** videos and worsened it in **4/10**. Mean paired absolute MAE improvement was **0.018955**, median **0.009576**; mean per-video percentage improvement was **9.79%**, median **8.24%**, range **-34.82% to +61.73%**. These paired percentages differ from dividing aggregate MAE values.
+
+Equal-weight mean per-video MAE was **0.100206** for age only, **0.081251** for age plus motion, **0.074165** for motion only, and **0.083268** for the constant baseline. Two clips account for about **80.92%** of the net absolute improvement. Age-plus-motion mean Spearman was **0.2850**, below age-only **0.3738**. Motion has useful but inconsistent predictive information under these settings; improved average magnitude prediction does not establish reliable ranking for refresh decisions. Validate fixed predictors on a larger untouched dataset before implementing a controller.
+
+See [findings](results/cache_drift_v1/findings.md), [observations](results/cache_drift_v1/observations.csv), [held-out predictions](results/cache_drift_v1/predictions_oof.csv), [per-video metrics](results/cache_drift_v1/per_video_metrics.csv), [folds](results/cache_drift_v1/folds.json), [metadata](results/cache_drift_v1/metadata.json), and [verification](results/cache_drift_v1/verification.json). Saved features and per-frame motion enable independent label and interval audits. The previous scripts and published snapshots are unchanged.
+
+![Per-video held-out MAE](results/cache_drift_v1/mae_age_vs_motion.png)
+
+![Held-out predicted versus observed appearance-feature drift](results/cache_drift_v1/predicted_vs_observed.png)
+
+Only ten independent videos are evaluated; their 150 observations are correlated. There is no statistical significance, action-recognition accuracy, adaptive refresh benefit, or new latency claim. Simple CPU codec descriptors are not a learned motion-recognition branch. B-frames can supply future-reference vectors, making this an offline diagnostic even though aggregation uses only current/preceding decoded positions. Original encodings are preserved; strictly causal I/P-only evaluation remains separate.
+
 ## Limitations and roadmap
 
 This is a preliminary feasibility benchmark, not evidence of maintained recognition accuracy or a production streaming system.

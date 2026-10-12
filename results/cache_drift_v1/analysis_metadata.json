@@ -1,0 +1,39 @@
+{
+  "completed_at_utc": "2026-10-12T11:10:03.085082+00:00",
+  "input_directory": "results/cache_drift_v1",
+  "collection_metadata_sha256": "e1997603c3c282c0603288de78996d1c48a933e9d9cd410c366359321243267d",
+  "regression": {
+    "implementation": "NumPy float64 ridge normal equations; no additional dependency",
+    "objective": "sum((y - intercept - X_standardized @ coefficients)**2) + alpha * sum(coefficients**2)",
+    "alpha": 1.0,
+    "intercept": "training-target mean; not penalized",
+    "standardization": "training-fold column mean and population standard deviation (ddof=0)",
+    "constant_columns": "standard deviation <= 1e-12 replaced by 1; centered constant training columns become zero",
+    "evaluation": "leave one entire source video out; same folds for all four predictors",
+    "tuning": "none; fixed alpha=1.0 specified before evaluation",
+    "primary_predictions": "clip raw held-out predictions to [0,2] for all metrics",
+    "spearman": "Pearson correlation of average ranks for ties; undefined if either vector is constant",
+    "aggregation": "calculate each metric per video, then give videos equal weight",
+    "tie_tolerance_absolute_mae": 1e-12
+  },
+  "seed": 20261012,
+  "source_sha256": "75958cf3f3f4859f65b77bf4fea2bbc147f6d1923201f9549af683003ea614ba",
+  "artifacts_sha256": {
+    "aggregate_metrics.json": "c12935f3cab90faa59de30a963e820b5b23a5243f41b379bacaa39259b43945b",
+    "environment.json": "c40f76026d7095e4231d43a80578ef86e6400719de6c12089785c909b2cf739d",
+    "findings.md": "677478311a72319de6dfaf7bed30bb92c2f68ba3c29c7935830c629d2f8bf277",
+    "folds.json": "910fe1eb4d82b4220ba422dfc88da8388cfd55d25c48192920feac56f636263b",
+    "mae_age_vs_motion.png": "f3499154ffbe4604fbfe73e0b8af50cd748274b5db8f88e69587139c599dd081",
+    "metadata.json": "e1997603c3c282c0603288de78996d1c48a933e9d9cd410c366359321243267d",
+    "motion_frames.csv": "98ee4db2173512ff57d3e9a9492405a8b42492c46f6f2875113a2f97c888b485",
+    "observations.csv": "0feba231d374034f38be57943518ecab0a2015f63a6dbb3469657d9e4a25c138",
+    "paired_improvements.csv": "3d661c33f070cb3213df7ae80932a20320e2d0aca0988e1d7b4f6cfe4d6dbd8a",
+    "per_video_metrics.csv": "29ac633964ff4b9fdcbbc70f5b213311a86b98daab3f9a16883935caa4dd0722",
+    "predicted_vs_observed.png": "ae7e53cf8b5840b804879794445d2c2b8d598138bbb2ffe1e9a0ceb4d8df6199",
+    "predictions_oof.csv": "1e5f8953a62df06fcde277f6e7700a32b65683075291ef9c47741871537146d8",
+    "verification.json": "e2d486139f61cc6fdab91a7c345a886e5137ed627b54d7db28d04f244ad177e5"
+  },
+  "finalized_at_utc": "2026-10-12T11:11:22.554910+00:00",
+  "finalized_snapshot_directory": "results/cache_drift_v1",
+  "initial_analysis_preserved_locally": "results/cache_drift_checks/initial_analysis"
+}
