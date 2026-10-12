@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-12T12:29:53.222861+00:00",
+  "branch": "experiment/cache-drift-v2",
+  "software_verification": {
+    "passed": true,
+    "checked_at_utc": "2026-10-12T12:22:09.117847+00:00",
+    "fixture_scope": "software-only synthetic rows/bytes; no experimental evidence",
+    "checks": {
+      "explicit_pre_decision_schedule_including_4_8_12": true,
+      "zero_feature_norm_rejected": true,
+      "identical_nonzero_feature_zero_drift": true,
+      "interval_excludes_cache_frame_and_future_frames": true,
+      "equal_frame_weight_and_missing_versus_zero": true,
+      "held_out_inputs_and_targets_cannot_change_fitted_scaler_or_predictor": true,
+      "constant_columns_safe_and_ridge_matches_independent_least_squares": true,
+      "constant_rank_correlation_reported_undefined": true,
+      "target_and_identifiers_rejected_as_predictors": true,
+      "v2_train_only_fit_and_held_target_isolation": true,
+      "v2_constant_columns_and_input_whitelist": true,
+      "paired_whole_source_video_bootstrap_matches_independent_calculation": true,
+      "exactly_one_prediction_per_fixture_per_method": true,
+      "csv_roundtrip_preserves_exact_predictions_and_rank_ties": true,
+      "zero_denominator_percentages_and_gain_concentration_undefined": true,
+      "all_missing_motion_remains_distinguishable_from_observed_zero": true,
+      "split_source_hash_and_pilot_overlap_rejected": true,
+      "http_byte_range_resume_and_existing_archive_reuse": true
+    }
+  },
+  "complete_dataset_split_identity_validation": {
+    "passed": true,
+    "source_and_file_overlap": false,
+    "pilot_sources_excluded": true,
+    "counts": {
+      "train": 120,
+      "validation": 40,
+      "test": 40
+    }
+  },
+  "cuda_collection": {
+    "videos": 200,
+    "reference_features": 3200,
+    "observations": 3000,
+    "split_observations": {
+      "train": 1800,
+      "validation": 600,
+      "test": 600
+    },
+    "device": "cuda:0",
+    "replacement_count": 0
+  },
+  "saved_metrics_and_all_five_bootstraps_independently_reproduced": true,
+  "analysis_original_artifact_inventory_verified": true,
+  "protected_original_files_unchanged": 90,
+  "readme_relative_links_checked": 37,
+  "powershell_blocks_parsed": 15,
+  "git_ignore_public_and_asset_checks": true,
+  "personal_path_secret_pattern_scan_passed": true,
+  "release_validator": {
+    "returncode": 0,
+    "stdout": "Public snapshot PASS: ten videos, 150 pilot rows, 15 single-video rows; all counters valid.\nCSV-derived headlines PASS: 34.74% median reduction, 1.532x median speedup, 17.52-45.54% range.\nOriginal timing source hashes and 17 snapshot checksums PASS; 52 relative links PASS.\nPersonal-path and installation-requirement checks PASS; no GPU timing was rerun."
+  },
+  "completed_execution_exit_codes": {
+    "software": 0,
+    "training_smoke_collection": 0,
+    "full_cuda_collection": 0,
+    "real_data_verification": 0,
+    "fixed_model_analysis": 0
+  },
+  "audit_corrections_before_final_interpretation": [
+    "Reconstruction audit uses saved canonical column order.",
+    "Round-trip float64 CSV reader preserves near-tie Spearman ranks. Fixed four predictors, inputs, alpha, split and raw collection unchanged. Incomplete attempt retained locally outside curated snapshot."
+  ],
+  "source_sha256": {
+    "analyze_cache_drift_v2.py": "563c78959334a94a9bad8297dd054c15f0e2c2a711919a18e59e7f593cc91fb2",
+    "cache_drift_v2_utils.py": "170345988e1d67967be7177e44159263e9bf72a04b6eff58855723b55d792155",
+    "collect_cache_drift_v2.py": "3127b5f2ed2b8f87f3ffbdc28bc27a03c3a3a017a4439f47c6f1cc6f28f724b5",
+    "prepare_cache_drift_v2.py": "319cd9c2519de15ada4f329d168c3ff20a479e4187fde6443819c3e0cb1ffa18",
+    "verify_cache_drift_v2.py": "e7d6e855e9cdaffbcd71d3de99d6d551f3954f6630726d0a8372998023e89567"
+  },
+  "limitations": [
+    "Offline codec vectors can reference future frames.",
+    "Bootstrap uncertainty conditions on fitted models and does not include training/class selection.",
+    "No adaptive controller, recognition accuracy or new latency claim."
+  ]
+}

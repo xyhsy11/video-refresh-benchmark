@@ -1,0 +1,204 @@
+{
+  "entry": {
+    "video_id": "7PKOe3JlqCw_000031_000041",
+    "relative_path": "data/source/cache_drift_v2/videos/7PKOe3JlqCw_000031_000041.mp4",
+    "file_identity": {
+      "size_bytes": 3103751,
+      "mtime_ns": 1791806123522101300,
+      "sha256": "89fd7d0d53cff1cb294e28b80cf2a5776333ce508f1ecbb83f4b4558eb50a097"
+    },
+    "inspected_at_utc": "2026-10-12T11:56:02.365193+00:00",
+    "codec": "h264",
+    "resolution": {
+      "width": 1280,
+      "height": 720
+    },
+    "reported_frame_rate": {
+      "rational": "45000/1877",
+      "fps": 23.97442727757059
+    },
+    "reported_metadata_frame_count": 162,
+    "stream_index": 0,
+    "stream_time_base": "1/45000",
+    "stream_duration_seconds": 6.7572,
+    "container_duration_seconds": 6.7572,
+    "duration_seconds": 6.7572,
+    "duration_method": "decoded last PTS - first PTS + final frame duration (reported FPS fallback if final duration missing)",
+    "decoded_pts_duration_seconds": 6.7572,
+    "decoded_frame_count": 162,
+    "frame_type_counts": {
+      "I": 2,
+      "P": 41,
+      "B": 119
+    },
+    "candidate_count": 16,
+    "candidate_indices": [
+      0,
+      11,
+      21,
+      32,
+      43,
+      54,
+      64,
+      75,
+      86,
+      97,
+      107,
+      118,
+      129,
+      140,
+      150,
+      161
+    ],
+    "candidate_index_basis": "zero-based sequential decoded-frame indices",
+    "decoder": {
+      "thread_count": 1,
+      "thread_type": "NONE",
+      "skip_frame": "NONE",
+      "hardware_acceleration": false
+    },
+    "inspection_elapsed_ms": 1112.2123999994074,
+    "source_video_id": "7PKOe3JlqCw",
+    "label": "crossing river",
+    "original_dataset_split": "val",
+    "time_start": 31,
+    "time_end": 41,
+    "candidate_timestamps_seconds": [
+      0.0,
+      0.45882222222222224,
+      0.8759333333333333,
+      1.3347555555555555,
+      1.7935777777777777,
+      2.2524,
+      2.669511111111111,
+      3.1283333333333334,
+      3.5871555555555554,
+      4.045977777777778,
+      4.463088888888889,
+      4.921911111111111,
+      5.380733333333334,
+      5.839555555555555,
+      6.256666666666667,
+      6.715488888888889
+    ],
+    "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_2.tar.gz",
+    "archive_sha256": "87410e2f34311dff8cb9e05efd97914a9c8dab5ad101c0292bf9a829eaa1b934",
+    "sampling_rank": "afc7bc99fff286200ba84f88074395cb7596c39d3ef06f64455e6c4c1c00e0ac",
+    "eligibility": "decoding/timestamps and finite CUDA feature extraction passed",
+    "experiment_split": "validation"
+  },
+  "candidates": [
+    {
+      "candidate_ordinal": 0,
+      "decoded_frame_index": 0,
+      "pts": 0,
+      "timestamp_seconds": 0.0,
+      "frame_type": "I"
+    },
+    {
+      "candidate_ordinal": 1,
+      "decoded_frame_index": 11,
+      "pts": 20647,
+      "timestamp_seconds": 0.45882222222222224,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 2,
+      "decoded_frame_index": 21,
+      "pts": 39417,
+      "timestamp_seconds": 0.8759333333333333,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 3,
+      "decoded_frame_index": 32,
+      "pts": 60064,
+      "timestamp_seconds": 1.3347555555555555,
+      "frame_type": "P"
+    },
+    {
+      "candidate_ordinal": 4,
+      "decoded_frame_index": 43,
+      "pts": 80711,
+      "timestamp_seconds": 1.7935777777777777,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 5,
+      "decoded_frame_index": 54,
+      "pts": 101358,
+      "timestamp_seconds": 2.2524,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 6,
+      "decoded_frame_index": 64,
+      "pts": 120128,
+      "timestamp_seconds": 2.669511111111111,
+      "frame_type": "P"
+    },
+    {
+      "candidate_ordinal": 7,
+      "decoded_frame_index": 75,
+      "pts": 140775,
+      "timestamp_seconds": 3.1283333333333334,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 8,
+      "decoded_frame_index": 86,
+      "pts": 161422,
+      "timestamp_seconds": 3.5871555555555554,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 9,
+      "decoded_frame_index": 97,
+      "pts": 182069,
+      "timestamp_seconds": 4.045977777777778,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 10,
+      "decoded_frame_index": 107,
+      "pts": 200839,
+      "timestamp_seconds": 4.463088888888889,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 11,
+      "decoded_frame_index": 118,
+      "pts": 221486,
+      "timestamp_seconds": 4.921911111111111,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 12,
+      "decoded_frame_index": 129,
+      "pts": 242133,
+      "timestamp_seconds": 5.380733333333334,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 13,
+      "decoded_frame_index": 140,
+      "pts": 262780,
+      "timestamp_seconds": 5.839555555555555,
+      "frame_type": "P"
+    },
+    {
+      "candidate_ordinal": 14,
+      "decoded_frame_index": 150,
+      "pts": 281550,
+      "timestamp_seconds": 6.256666666666667,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 15,
+      "decoded_frame_index": 161,
+      "pts": 302197,
+      "timestamp_seconds": 6.715488888888889,
+      "frame_type": "P"
+    }
+  ]
+}

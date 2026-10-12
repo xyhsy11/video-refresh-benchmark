@@ -1,0 +1,204 @@
+{
+  "entry": {
+    "video_id": "eYdzsRaIBT8_000002_000012",
+    "relative_path": "data/source/cache_drift_v2/videos/eYdzsRaIBT8_000002_000012.mp4",
+    "file_identity": {
+      "size_bytes": 338494,
+      "mtime_ns": 1791806472871483400,
+      "sha256": "65099e970b63e001ff441b4428cb88060d17c009d497505e1166fd09d3245159"
+    },
+    "inspected_at_utc": "2026-10-12T12:01:40.370806+00:00",
+    "codec": "h264",
+    "resolution": {
+      "width": 480,
+      "height": 360
+    },
+    "reported_frame_rate": {
+      "rational": "30000/1001",
+      "fps": 29.97002997002997
+    },
+    "reported_metadata_frame_count": 232,
+    "stream_index": 0,
+    "stream_time_base": "1/30000",
+    "stream_duration_seconds": 7.741066666666667,
+    "container_duration_seconds": 7.798685,
+    "duration_seconds": 7.741066666666667,
+    "duration_method": "decoded last PTS - first PTS + final frame duration (reported FPS fallback if final duration missing)",
+    "decoded_pts_duration_seconds": 7.741066666666667,
+    "decoded_frame_count": 232,
+    "frame_type_counts": {
+      "I": 3,
+      "P": 111,
+      "B": 118
+    },
+    "candidate_count": 16,
+    "candidate_indices": [
+      0,
+      15,
+      31,
+      46,
+      62,
+      77,
+      92,
+      108,
+      123,
+      139,
+      154,
+      169,
+      185,
+      200,
+      216,
+      231
+    ],
+    "candidate_index_basis": "zero-based sequential decoded-frame indices",
+    "decoder": {
+      "thread_count": 1,
+      "thread_type": "NONE",
+      "skip_frame": "NONE",
+      "hardware_acceleration": false
+    },
+    "inspection_elapsed_ms": 187.9144999984419,
+    "source_video_id": "eYdzsRaIBT8",
+    "label": "drinking shots",
+    "original_dataset_split": "val",
+    "time_start": 2,
+    "time_end": 12,
+    "candidate_timestamps_seconds": [
+      0.0,
+      0.5005,
+      1.0343666666666667,
+      1.5348666666666666,
+      2.0687333333333333,
+      2.5692333333333335,
+      3.069733333333333,
+      3.6036,
+      4.1041,
+      4.637966666666666,
+      5.138466666666667,
+      5.638966666666667,
+      6.172833333333333,
+      6.673333333333333,
+      7.2072,
+      7.7077
+    ],
+    "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_13.tar.gz",
+    "archive_sha256": "90c5924b0ecc9c1e5f95b87932f1324c50eb0f11ebfc8ed1dd65eaf02b83f9a4",
+    "sampling_rank": "4d80e61f02653ebc3b6fbc0d2edb7c8a21262b6ed91a255d6ef44b314656764f",
+    "eligibility": "decoding/timestamps and finite CUDA feature extraction passed",
+    "experiment_split": "validation"
+  },
+  "candidates": [
+    {
+      "candidate_ordinal": 0,
+      "decoded_frame_index": 0,
+      "pts": 0,
+      "timestamp_seconds": 0.0,
+      "frame_type": "I"
+    },
+    {
+      "candidate_ordinal": 1,
+      "decoded_frame_index": 15,
+      "pts": 15015,
+      "timestamp_seconds": 0.5005,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 2,
+      "decoded_frame_index": 31,
+      "pts": 31031,
+      "timestamp_seconds": 1.0343666666666667,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 3,
+      "decoded_frame_index": 46,
+      "pts": 46046,
+      "timestamp_seconds": 1.5348666666666666,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 4,
+      "decoded_frame_index": 62,
+      "pts": 62062,
+      "timestamp_seconds": 2.0687333333333333,
+      "frame_type": "P"
+    },
+    {
+      "candidate_ordinal": 5,
+      "decoded_frame_index": 77,
+      "pts": 77077,
+      "timestamp_seconds": 2.5692333333333335,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 6,
+      "decoded_frame_index": 92,
+      "pts": 92092,
+      "timestamp_seconds": 3.069733333333333,
+      "frame_type": "P"
+    },
+    {
+      "candidate_ordinal": 7,
+      "decoded_frame_index": 108,
+      "pts": 108108,
+      "timestamp_seconds": 3.6036,
+      "frame_type": "P"
+    },
+    {
+      "candidate_ordinal": 8,
+      "decoded_frame_index": 123,
+      "pts": 123123,
+      "timestamp_seconds": 4.1041,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 9,
+      "decoded_frame_index": 139,
+      "pts": 139139,
+      "timestamp_seconds": 4.637966666666666,
+      "frame_type": "P"
+    },
+    {
+      "candidate_ordinal": 10,
+      "decoded_frame_index": 154,
+      "pts": 154154,
+      "timestamp_seconds": 5.138466666666667,
+      "frame_type": "P"
+    },
+    {
+      "candidate_ordinal": 11,
+      "decoded_frame_index": 169,
+      "pts": 169169,
+      "timestamp_seconds": 5.638966666666667,
+      "frame_type": "P"
+    },
+    {
+      "candidate_ordinal": 12,
+      "decoded_frame_index": 185,
+      "pts": 185185,
+      "timestamp_seconds": 6.172833333333333,
+      "frame_type": "P"
+    },
+    {
+      "candidate_ordinal": 13,
+      "decoded_frame_index": 200,
+      "pts": 200200,
+      "timestamp_seconds": 6.673333333333333,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 14,
+      "decoded_frame_index": 216,
+      "pts": 216216,
+      "timestamp_seconds": 7.2072,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 15,
+      "decoded_frame_index": 231,
+      "pts": 231231,
+      "timestamp_seconds": 7.7077,
+      "frame_type": "P"
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "experiment": "cache_drift_v2",
+  "status": "collected",
+  "started_at_utc": "2026-10-12T12:09:29.237736+00:00",
+  "device": "cuda:0",
+  "smoke": false,
+  "source_commit": "7fafb00bafb8e39c76707ec2d8c151efc95d28f3",
+  "source_code_sha256": {
+    "collect_cache_drift_v2.py": "3127b5f2ed2b8f87f3ffbdc28bc27a03c3a3a017a4439f47c6f1cc6f28f724b5",
+    "cache_drift_v2_utils.py": "170345988e1d67967be7177e44159263e9bf72a04b6eff58855723b55d792155",
+    "prepare_cache_drift_v2.py": "319cd9c2519de15ada4f329d168c3ff20a479e4187fde6443819c3e0cb1ffa18",
+    "collect_cache_drift.py": "841e74e58da9f14c9bae26825efc957946af5c17e2098cd5101ed9c4d6568c17",
+    "benchmark.py": "d9c2e63d0b888b953b0cb03d583d8176cd579dc6ecd54a04676a0ef4a0d308f1",
+    "motion_utils.py": "95fd14b7bc2f2254badaf2be0622ac8c649c4cd339e0526ae73d50951e646c00",
+    "research_utils.py": "06b0bd9df2ebbbf314a5a21e086f00e7018d7dbd7a189adac3cf2d79f0352044",
+    "inspect_video.py": "dc272aef3e9a63e69908702276c58adb6b20ecb638a552cb8946ffcdc79b3952"
+  },
+  "protected_original_sha256": {
+    "analyze_cache_drift.py": "75958cf3f3f4859f65b77bf4fea2bbc147f6d1923201f9549af683003ea614ba",
+    "benchmark.py": "d9c2e63d0b888b953b0cb03d583d8176cd579dc6ecd54a04676a0ef4a0d308f1",
+    "benchmark_motion.py": "cee6bd79f7507a968f4b3f4fc2dbe262bd1e4c63f862737c31f7e2858eba583b",
+    "check_env.py": "01227841757ec29ffeeedce387b8cbf71cea907aef85d11f1886810497475c0b",
+    "collect_cache_drift.py": "841e74e58da9f14c9bae26825efc957946af5c17e2098cd5101ed9c4d6568c17",
+    "inspect_motion.py": "e1922daaa7111b8b8f191f157dbbfbc98d4196f5fdd2bf231a13a693122e2fce",
+    "inspect_video.py": "dc272aef3e9a63e69908702276c58adb6b20ecb638a552cb8946ffcdc79b3952",
+    "motion_utils.py": "95fd14b7bc2f2254badaf2be0622ac8c649c4cd339e0526ae73d50951e646c00",
+    "prepare_data.py": "5be8391dafff3016182bee7441d2bd17290f118b7aed19594d43de8ddb7b6358",
+    "requirements-cuda.txt": "ed269fc9cf7a02311897d066980dc1118bd5b95a83154d6abb1c42fbe8febfcb",
+    "requirements.txt": "5f065675ae7394cb2309a0bf03d841a29da514138ffa84fbc2b37f6489f9e2aa",
+    "research_utils.py": "06b0bd9df2ebbbf314a5a21e086f00e7018d7dbd7a189adac3cf2d79f0352044",
+    "results/cache_drift_v1/aggregate_metrics.json": "c12935f3cab90faa59de30a963e820b5b23a5243f41b379bacaa39259b43945b",
+    "results/cache_drift_v1/analysis_metadata.json": "1b5b95c2f4ec72c2b6b229df7ea76e115231ca5f87ff99f43b51ae59af035e26",
+    "results/cache_drift_v1/environment.json": "c40f76026d7095e4231d43a80578ef86e6400719de6c12089785c909b2cf739d",
+    "results/cache_drift_v1/features/0pVGiAU6XEA.json": "e4085376c12452ee8e158d5267340cb4956262cb126afd5af88e8f012528cc8e",
+    "results/cache_drift_v1/features/0pVGiAU6XEA.npz": "4ab0b8a499d79be655750f828297a7b39565906bea78d20bd5250c9c56e86e00",
+    "results/cache_drift_v1/features/AQrbRSnRt8M.json": "7bc02b8ea53d0df9260d14b22f8cdbd8c4894dc7cc308cd67f2a93546766cc0a",
+    "results/cache_drift_v1/features/AQrbRSnRt8M.npz": "acbf50f4595cf597cb888da08c0c5050b9052e618647250ebd75d026bca8afbc",
+    "results/cache_drift_v1/features/IcLztCtvhb8.json": "05e6be20e9f164fc74607fa64f2ee88ada280142773d249caf3ccc8e9054f15a",
+    "results/cache_drift_v1/features/IcLztCtvhb8.npz": "405d17f5b55fc00c2e335d402b5706061824bc301a7b4a6736e1d793db565d64",
+    "results/cache_drift_v1/features/SU_x2LQqSLs.json": "ccfa6607ff8b1424046777a01fc7f6013e57dd047a22c5cea57ab512d1e04afd",
+    "results/cache_drift_v1/features/SU_x2LQqSLs.npz": "7e8fdae65f9ccb632d9f9b444bfd45f8f179faccfc23fb9bdfec6b9266235e1b",
+    "results/cache_drift_v1/features/b6Q_b7vgc7Q.json": "0080ae25c30543546ec678e16b12fcffea72011536b2a68b250aa3eb20b7a6e8",
+    "results/cache_drift_v1/features/b6Q_b7vgc7Q.npz": "25073a61070d1122e5fe3d46a8bf89f26d6c6e3de6a48bb6cb4ddcf7d3ed24cc",
+    "results/cache_drift_v1/features/ddvJ6-faICE.json": "c35a41ef2d8c3c19af11807bcc82d052002d5c2909d34d2b07e655a3b9434d57",
+    "results/cache_drift_v1/features/ddvJ6-faICE.npz": "410bcdddaca2053f2398013e8117f7ed0adb5104f2b89e9b29b25cad05c15da7",
+    "results/cache_drift_v1/features/ik4BW3-SCts.json": "7579e631be9105aa7238633b34a3a71a25796ffe131afc6560fd9dcb492a84e3",
+    "results/cache_drift_v1/features/ik4BW3-SCts.npz": "cf76895fae62d73becc72485b57c0b017832573ca6b0195ab16578c05cffbb5a",
+    "results/cache_drift_v1/features/jqRrH30V0k4.json": "6bc933b2622ecd8b313fa89063c72589f9ed573ba9e93a4d78ee9d1ebd113025",
+    "results/cache_drift_v1/features/jqRrH30V0k4.npz": "2bb5458df3b2f8efaeb57fd16ca2da387bf84907de770ba0a5c6e0e82fd3630e",
+    "results/cache_drift_v1/features/u4Rm6srmIS8.json": "fc499eeb837bd5d3a646593b5601d12400b38f4eb3b0f0f884203cf30741aaf3",
+    "results/cache_drift_v1/features/u4Rm6srmIS8.npz": "1d0af9f8e75790928af5729e592c742084844d483ed36739cfecefab3d50034c",
+    "results/cache_drift_v1/features/y5Iu7XkTqV0.json": "3da2abc6c42a3e3b7f635111e5e4beb61c1973afc6c9495019ed42a771e5a4a8",
+    "results/cache_drift_v1/features/y5Iu7XkTqV0.npz": "2a49388011d713bbd03980b7168aa7bedb04f446e87f05f0d7cdc0812d297cd0",
+    "results/cache_drift_v1/findings.md": "677478311a72319de6dfaf7bed30bb92c2f68ba3c29c7935830c629d2f8bf277",
+    "results/cache_drift_v1/folds.json": "910fe1eb4d82b4220ba422dfc88da8388cfd55d25c48192920feac56f636263b",
+    "results/cache_drift_v1/mae_age_vs_motion.png": "f3499154ffbe4604fbfe73e0b8af50cd748274b5db8f88e69587139c599dd081",
+    "results/cache_drift_v1/metadata.json": "e1997603c3c282c0603288de78996d1c48a933e9d9cd410c366359321243267d",
+    "results/cache_drift_v1/motion_frames.csv": "98ee4db2173512ff57d3e9a9492405a8b42492c46f6f2875113a2f97c888b485",
+    "results/cache_drift_v1/observations.csv": "0feba231d374034f38be57943518ecab0a2015f63a6dbb3469657d9e4a25c138",
+    "results/cache_drift_v1/paired_improvements.csv": "3d661c33f070cb3213df7ae80932a20320e2d0aca0988e1d7b4f6cfe4d6dbd8a",
+    "results/cache_drift_v1/per_video_metrics.csv": "29ac633964ff4b9fdcbbc70f5b213311a86b98daab3f9a16883935caa4dd0722",
+    "results/cache_drift_v1/predicted_vs_observed.png": "ae7e53cf8b5840b804879794445d2c2b8d598138bbb2ffe1e9a0ceb4d8df6199",
+    "results/cache_drift_v1/predictions_oof.csv": "1e5f8953a62df06fcde277f6e7700a32b65683075291ef9c47741871537146d8",
+    "results/cache_drift_v1/verification.json": "e2d486139f61cc6fdab91a7c345a886e5137ed627b54d7db28d04f244ad177e5",
+    "results/motion_overhead_2026_10_11/README.md": "4b03e945b1d2874fcb0d047f4faa589f60a1cf357eb0f27bcd010832498db829",
+    "results/motion_overhead_2026_10_11/SHA256SUMS.txt": "b024ccd68b3d5cba9dd89aca6cb815ea46793f69c57f1b813f5ccd37e40bee17",
+    "results/motion_overhead_2026_10_11/all_video_motion.csv": "98ee4db2173512ff57d3e9a9492405a8b42492c46f6f2875113a2f97c888b485",
+    "results/motion_overhead_2026_10_11/all_video_motion.summary.json": "1a2c712f6d37123ecb4af1775667f676cda8a50f9f40898bd7005bf60a2322b5",
+    "results/motion_overhead_2026_10_11/analysis_checks.json": "fe257d7ff5fb930b2b494844db8f4047bec68d7efd4e0b55e9f8198d5b120abe",
+    "results/motion_overhead_2026_10_11/caching_reduction_comparison.png": "c9e1d54e9a8de936e2f8710edd119b66845cb7646cc47981dd3c007b8afc5523",
+    "results/motion_overhead_2026_10_11/descriptor_validation.json": "168dcfb7bd2a798381394b528bdee4dcb6268471ad661cc6fffdbb92ebfdb025",
+    "results/motion_overhead_2026_10_11/environment.json": "0f979ea0fa143760ed90a910089fe14ec0ae485edd95cd5fad932c055d7b242c",
+    "results/motion_overhead_2026_10_11/findings.md": "15cb93d7ca04969dbc2e7c482a0c82e91d6f6c74f6e2291bb5475f2349bcb6ad",
+    "results/motion_overhead_2026_10_11/latency_comparison.png": "e0690d0b395e587ee876a913af596b2b95d4481eb9f197f2c93b6bed8e0b6d1c",
+    "results/motion_overhead_2026_10_11/manifest.json": "1dc3d04eb3e04ec47cbbfa5c8cc88b3aa8607f9a848a63da149b4ecd9be417d9",
+    "results/motion_overhead_2026_10_11/pilot.csv": "47abbf88ae394a6a879b2a8e80f57f5b8755121a241dbfb95004b308b7cfd01a",
+    "results/motion_overhead_2026_10_11/pilot.metadata.json": "01ee11def94222c3800f5b97c1b1766b7323e3b01fc796ef28f63877add4d706",
+    "results/motion_overhead_2026_10_11/pilot_verification.json": "5c4f7c743dab1f729af4ada54ed5e5291e9ac0041f7b22c3c0d686c73291cd7f",
+    "results/motion_overhead_2026_10_11/release_checks.json": "d2ebe19923bd25ca88bca0abf752689ef1621e7151d8c6c115d6cdfe285b4ac2",
+    "results/motion_overhead_2026_10_11/requirements-tested.txt": "33d675b44aa7db6c427530932186ffb46a022a31893f2b44d1969000245d6a3d",
+    "results/motion_overhead_2026_10_11/single_video.csv": "6c2e940c0d79d9505efa489ab12f78d5571cb1d2736807ae0c5d5fd1f8b6ee17",
+    "results/motion_overhead_2026_10_11/single_video.metadata.json": "fa6299a0e4e05251c4101715dfb4e3aa34dc8f60e3366615332ba9e05253b2d4",
+    "results/motion_overhead_2026_10_11/single_video_motion.csv": "614d730db20bb804590a1a724e6f87d0504470220b3ec2b71a3f997b2864638c",
+    "results/motion_overhead_2026_10_11/single_video_motion.summary.json": "ab71fc3df663b4a36b2914a6956af16188a33618760955c984a91fe5b02c4084",
+    "results/motion_overhead_2026_10_11/single_video_verification.json": "45c7058e0a57683f6b70c7a73afb1b6d7f6fb2671aec2391b7238bfb227d938f",
+    "results/motion_overhead_2026_10_11/summary.csv": "09aafbeb25d0c11ad014ab7e2b801e96a818b491e0141269e7132aeac86caa06",
+    "results/motion_overhead_2026_10_11/validation.json": "1d5c9e9375e7314431e78c0956a8b5c16f6016fd09ccb227d38ff33105352e97",
+    "results/pilot_2026_10_10/README.md": "674111c51aea3b074858ccf6e6d36f336dcc891729393c601273d07abba03f3e",
+    "results/pilot_2026_10_10/SHA256SUMS.txt": "c2c1decc8fc6d9b0322613b9cc6272dbd5c9f648ba4800fb8aed7dab5dfb7f12",
+    "results/pilot_2026_10_10/aggregate_summary.json": "ba415bef8bce0f9f47b4fa6ac2f6c3a650887f99447dc2ad242dced2861b7d2a",
+    "results/pilot_2026_10_10/dataset.json": "abb184f316166c7a027648e0730e3b0d2745675ae07bfdfe3fd402044c587008",
+    "results/pilot_2026_10_10/environment.json": "1eaae4c8a896170fa67bedaf7b379c1b3b33b3f9296655ea9a197f1264f073ac",
+    "results/pilot_2026_10_10/findings.md": "f4a75978c5c69d0825fe3079bc7724ea2ddfb185e75909263d1bd0435550e760",
+    "results/pilot_2026_10_10/latency_comparison.png": "3a067713ce7b49342a732129fdc7b81c818f9b50bc6e53db3e5db34f23b04eb1",
+    "results/pilot_2026_10_10/manifest.json": "1dc3d04eb3e04ec47cbbfa5c8cc88b3aa8607f9a848a63da149b4ecd9be417d9",
+    "results/pilot_2026_10_10/pilot.csv": "a88a44e05a7e8fe8aff8b586ea480ca6cbf6d91ec0731cddabae9dd92b5275be",
+    "results/pilot_2026_10_10/pilot.metadata.json": "f06066dad8f097f87247d467fc2c38c325be547d84784795369760ef7494adc8",
+    "results/pilot_2026_10_10/pilot_verification.json": "202f49ac69114006026a2a8a695008c5b34d71b521ccd18c132b07aa45e89474",
+    "results/pilot_2026_10_10/release_validation.json": "886988756b9784fa8159fb0d9a98092b7a205e128e36116919b8c91aca2e5888",
+    "results/pilot_2026_10_10/requirements-tested.txt": "0a7109f132c15c096c2414c0189eb85632a7bc25c224a0216432640bb3c65615",
+    "results/pilot_2026_10_10/single_video.csv": "cc6b0274d0627fcf1e13e162bfdc4a6087ee6b14844a7271af4d61e26300fe04",
+    "results/pilot_2026_10_10/single_video.metadata.json": "9ea305f9a6ec252be7ff11681e5ca383fc43b2a4149596b540d3c003de7d588d",
+    "results/pilot_2026_10_10/single_video_verification.json": "376436da52bb9144328b1994e13318f1d2b100a31fbc62c064876b8bdd58c075",
+    "results/pilot_2026_10_10/summary.csv": "0bee7f34e70928a334696e99ff7412f2785d3946e5902b118f26d447c306e07e",
+    "results/pilot_2026_10_10/validation.json": "9db09bc6a00547575c43d9e5425885a11959eb2985cb281bed9aec18a9160962",
+    "summarize.py": "d566a816c8ff9bd82ef55040e30d235c07c8b988388ea6914a517d0b17ca8b35",
+    "summarize_motion.py": "6d45f631f2e4aee5cfe28dc56a402092dd8e03496e7d3863da299c04fac35509",
+    "validate_release.py": "6e5970ca0fbf231e53e258e2c36da08005e31906bb63d291094af4f20a7dff4a"
+  },
+  "input_manifest": "results/cache_drift_v2/dataset_manifest.json",
+  "input_manifest_sha256": "37e07c40dc8e872fd6c2d3ee972f7c6a4ef67831372bc9f66378b08c7da3f357",
+  "protocol_sha256": "abc47a9519f4f00edbbcf051d8f230d22bc7dee135bc026f381e40ce904db454",
+  "model": {
+    "name": "resnet18",
+    "weights": "ResNet18_Weights.IMAGENET1K_V1",
+    "weights_url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+    "weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "fc": "torch.nn.Identity",
+    "preprocessing": "ImageClassification(\n    crop_size=[224]\n    resize_size=[256]\n    mean=[0.485, 0.456, 0.406]\n    std=[0.229, 0.224, 0.225]\n    interpolation=InterpolationMode.BILINEAR\n)",
+    "feature_shape_per_call": [
+      1,
+      512
+    ],
+    "saved_array_shape_per_video": [
+      16,
+      512
+    ],
+    "saved_dtype": "float32"
+  },
+  "numerical_settings": {
+    "dtype": "float32",
+    "batch_size": 1,
+    "eval": true,
+    "inference_mode": true,
+    "autocast": false,
+    "compiled": false,
+    "deterministic_algorithms": true,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "cudnn_allow_tf32": false,
+    "matmul_allow_tf32": false,
+    "float32_matmul_precision": "highest",
+    "torch_cpu_threads": 1,
+    "torch_interop_threads": 1,
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+    "transfer_non_blocking": true,
+    "input_cpu_memory_pinned": false,
+    "note": "Pageable CPU transfers; non_blocking does not promise transfer/compute overlap."
+  },
+  "environment": {
+    "checked_at_utc": "2026-10-12T12:09:17.889201+00:00",
+    "python": {
+      "version": "3.12.10",
+      "full_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+      "executable": ".venv/Scripts/python.exe",
+      "prefix": ".venv",
+      "in_virtual_environment": true
+    },
+    "os": "Windows-11-10.0.22631-SP0",
+    "cpu": {
+      "name": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+      "logical_processors": 16,
+      "windows_processors": {
+        "Name": "Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz",
+        "NumberOfCores": 8,
+        "NumberOfLogicalProcessors": 16
+      }
+    },
+    "packages": {
+      "torch": {
+        "version": "2.14.1+cu132",
+        "import_ok": true
+      },
+      "torchvision": {
+        "version": "0.29.1+cu132",
+        "import_ok": true
+      },
+      "av": {
+        "version": "19.0.1",
+        "import_ok": true
+      },
+      "numpy": {
+        "version": "2.5.2",
+        "import_ok": true
+      },
+      "pandas": {
+        "version": "3.0.6",
+        "import_ok": true
+      },
+      "matplotlib": {
+        "version": "3.11.2",
+        "import_ok": true
+      },
+      "Pillow": {
+        "version": "12.3.0",
+        "import_ok": true
+      }
+    },
+    "ffmpeg_version": "9.0.2",
+    "ffmpeg_libraries": {
+      "libavcodec": "63.1.102",
+      "libavdevice": "63.1.102",
+      "libavfilter": "12.1.102",
+      "libavformat": "63.1.102",
+      "libavutil": "61.1.102",
+      "libswresample": "7.1.102",
+      "libswscale": "10.1.102"
+    },
+    "nvidia_smi": {
+      "gpus": [
+        {
+          "name": "NVIDIA GeForce RTX 3080 Laptop GPU",
+          "driver_version": "610.62",
+          "memory_mib": 16384
+        }
+      ],
+      "error": null
+    },
+    "cuda": {
+      "build_version": "13.2",
+      "available": true,
+      "visible_devices_setting": null,
+      "devices": [
+        {
+          "index": 0,
+          "name": "NVIDIA GeForce RTX 3080 Laptop GPU",
+          "memory_bytes": 17179344896,
+          "compute_capability": "8.6"
+        }
+      ],
+      "tensor_test": {
+        "passed": true,
+        "operation": "A @ B on cuda:0",
+        "result": [
+          [
+            19.0,
+            22.0
+          ],
+          [
+            43.0,
+            50.0
+          ]
+        ],
+        "device": "cuda:0",
+        "input_a": [
+          [
+            1.0,
+            2.0
+          ],
+          [
+            3.0,
+            4.0
+          ]
+        ],
+        "input_b": [
+          [
+            5.0,
+            6.0
+          ],
+          [
+            7.0,
+            8.0
+          ]
+        ],
+        "expected": [
+          [
+            19.0,
+            22.0
+          ],
+          [
+            43.0,
+            50.0
+          ]
+        ]
+      },
+      "torchvision_test": {
+        "passed": true,
+        "operation": "torchvision.ops.nms on cuda:0",
+        "result": [
+          0,
+          2
+        ],
+        "expected": [
+          0,
+          2
+        ]
+      }
+    },
+    "errors": [],
+    "diagnosis": [],
+    "passed": true,
+    "installed_distributions": {
+      "Jinja2": "3.1.6",
+      "MarkupSafe": "3.0.3",
+      "av": "19.0.1",
+      "contourpy": "1.4.0",
+      "cycler": "0.12.1",
+      "filelock": "3.32.3",
+      "fonttools": "4.66.1",
+      "fsspec": "2026.7.0",
+      "kiwisolver": "1.5.1",
+      "matplotlib": "3.11.2",
+      "mpmath": "1.3.0",
+      "networkx": "3.6.1",
+      "numpy": "2.5.2",
+      "packaging": "26.3",
+      "pandas": "3.0.6",
+      "pillow": "12.3.0",
+      "pip": "26.2.1",
+      "pyparsing": "3.3.3",
+      "python-dateutil": "2.9.0.post0",
+      "setuptools": "78.1.0",
+      "six": "1.17.0",
+      "sympy": "1.14.0",
+      "torch": "2.14.1+cu132",
+      "torchvision": "0.29.1+cu132",
+      "typing_extensions": "4.16.0",
+      "tzdata": "2026.5"
+    },
+    "nvidia_driver_cuda_support": "13.3"
+  },
+  "decoder": {
+    "thread_count": 1,
+    "thread_type": "NONE",
+    "skip_frame": "NONE",
+    "hardware_acceleration": false
+  },
+  "motion_export": {
+    "api": "stream.codec_context.options before the first decode",
+    "options": {
+      "flags2": "+export_mvs"
+    },
+    "side_data": "frame.side_data.get('MOTION_VECTORS').to_ndarray()",
+    "software_decoder": true
+  },
+  "motion_descriptor_definition": {
+    "displacement": "dx=float64(motion_x)/float64(motion_scale); dy likewise",
+    "magnitude": "numpy.hypot(dx, dy)",
+    "units": "pixels of codec displacement",
+    "mean": "unweighted mean over all exported vector entries",
+    "p90": "numpy.percentile(magnitudes, 90, method='linear')",
+    "missing": "count=0, mean=0, p90=0, mv_available=false",
+    "reference_direction": "source<0: past; source>0: future; source==0: other",
+    "retention": "one fresh frozen slotted MotionDescriptor per decoded frame in a CPU list until timer stops",
+    "invalid_data": "raise ValueError with video/frame context; do not discard or invent vectors",
+    "scope": "no optical flow, physical velocity, learned motion encoder, or descriptor GPU transfer"
+  },
+  "target": {
+    "name": "appearance-feature drift",
+    "range": [
+      0,
+      2
+    ],
+    "definition": "1 - clip(dot(f_t,f_r)/(norm(f_t)*norm(f_r)), -1, 1), computed in float64",
+    "minimum_safe_norm": 1e-12,
+    "excluded_candidate_ordinal": 0,
+    "cached_ordinal": "refresh_every * floor((t - 1) / refresh_every)",
+    "decision_order": "compute label against previous cache BEFORE a scheduled refresh at t",
+    "not_measured": [
+      "action-recognition error",
+      "refresh benefit",
+      "latency",
+      "recognition accuracy"
+    ]
+  },
+  "predictor_inputs": {
+    "age": [
+      "age_seconds",
+      "age_decoded_frames",
+      "age_candidate_positions",
+      "age_seconds_squared"
+    ],
+    "motion": [
+      "current_mean_magnitude_px",
+      "current_p90_magnitude_px",
+      "current_mv_available",
+      "interval_mean_available_magnitude_px",
+      "interval_max_available_p90_px",
+      "interval_mv_available_fraction"
+    ],
+    "interval": "decoded frames strictly after cached candidate r through current candidate t inclusive",
+    "interval_mean": "equal weight per frame with available vectors, not per vector entry",
+    "interval_max": "maximum per-frame p90 among frames with available vectors",
+    "interval_missing": "zero magnitude summaries and zero fraction if no available frames",
+    "availability": "current flag and interval fraction distinguish missing from observed zero motion",
+    "forbidden_predictors": [
+      "RGB features",
+      "target-derived columns",
+      "video identifiers",
+      "future frames",
+      "whole-video statistics"
+    ]
+  },
+  "offline_not_latency_benchmark": true,
+  "completed_at_utc": "2026-10-12T12:14:00.449444+00:00",
+  "video_count": 200,
+  "reference_feature_count": 3200,
+  "observation_count": 3000,
+  "counts_by_split": {
+    "train": 120,
+    "validation": 40,
+    "test": 40
+  },
+  "blocker": null,
+  "replacement_records": [],
+  "observations_sha256": "b52e5f898a16bb1da9685367630ccfd765f07540ed1985c07a0186e47c02a5a8",
+  "split_validation": {
+    "passed": true,
+    "source_and_file_overlap": false,
+    "pilot_sources_excluded": true,
+    "counts": {
+      "train": 120,
+      "validation": 40,
+      "test": 40
+    }
+  },
+  "split_manifest_sha256": "98349efb6ebf53be8a8e8f2331592fa36c0e8153bd83b2beebf57d9aa9393a35"
+}

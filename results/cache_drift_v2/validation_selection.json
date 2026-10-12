@@ -1,0 +1,103 @@
+{
+  "recorded_before_test_evaluation_at_utc": "2026-10-12T12:22:45.458974+00:00",
+  "candidate": "age_plus_motion",
+  "rule": "lowest equal-weight mean per-video validation MAE; alphabetical tie break",
+  "models_changed": false,
+  "validation_aggregate": {
+    "age_only": {
+      "video_count": 40,
+      "mae": {
+        "mean_per_video": 0.07384543154912174,
+        "median_per_video": 0.07059736390221183,
+        "defined": 40,
+        "undefined": 0
+      },
+      "rmse": {
+        "mean_per_video": 0.08530874870058455,
+        "median_per_video": 0.07660868037645205,
+        "defined": 40,
+        "undefined": 0
+      },
+      "spearman": {
+        "mean_per_video": 0.37072255807463994,
+        "median_per_video": 0.3792181580848657,
+        "defined": 40,
+        "undefined": 0
+      },
+      "undefined_correlation_reasons": {},
+      "clipped_prediction_count": 0
+    },
+    "age_plus_motion": {
+      "video_count": 40,
+      "mae": {
+        "mean_per_video": 0.05680242313104501,
+        "median_per_video": 0.05622716377682822,
+        "defined": 40,
+        "undefined": 0
+      },
+      "rmse": {
+        "mean_per_video": 0.06864305191308037,
+        "median_per_video": 0.062284313607600714,
+        "defined": 40,
+        "undefined": 0
+      },
+      "spearman": {
+        "mean_per_video": 0.46220312920136014,
+        "median_per_video": 0.5589285714285713,
+        "defined": 40,
+        "undefined": 0
+      },
+      "undefined_correlation_reasons": {},
+      "clipped_prediction_count": 0
+    },
+    "constant": {
+      "video_count": 40,
+      "mae": {
+        "mean_per_video": 0.0740032983001819,
+        "median_per_video": 0.0680984582569493,
+        "defined": 40,
+        "undefined": 0
+      },
+      "rmse": {
+        "mean_per_video": 0.08602475575009233,
+        "median_per_video": 0.07733347497097524,
+        "defined": 40,
+        "undefined": 0
+      },
+      "spearman": {
+        "mean_per_video": null,
+        "median_per_video": null,
+        "defined": 0,
+        "undefined": 40
+      },
+      "undefined_correlation_reasons": {
+        "undefined: predicted drift is constant": 40
+      },
+      "clipped_prediction_count": 0
+    },
+    "motion_only": {
+      "video_count": 40,
+      "mae": {
+        "mean_per_video": 0.057509564102832936,
+        "median_per_video": 0.05435023966065504,
+        "defined": 40,
+        "undefined": 0
+      },
+      "rmse": {
+        "mean_per_video": 0.07013928440245543,
+        "median_per_video": 0.06116725827997445,
+        "defined": 40,
+        "undefined": 0
+      },
+      "spearman": {
+        "mean_per_video": 0.4069964028776978,
+        "median_per_video": 0.4892857142857142,
+        "defined": 40,
+        "undefined": 0
+      },
+      "undefined_correlation_reasons": {},
+      "clipped_prediction_count": 0
+    }
+  },
+  "fitted_predictors_sha256": "585ff033f56f85d39883c3d30700933afbe44a2fb5c24d0bf58c935cbe04e000"
+}

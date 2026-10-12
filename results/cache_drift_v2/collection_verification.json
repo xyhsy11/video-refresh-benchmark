@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "smoke": false,
+  "originals_unchanged": true,
+  "reference_features_per_video": 16,
+  "labels_per_video": 15,
+  "missing_vectors_retained": true,
+  "device": "cuda:0",
+  "counts_by_split": {
+    "train": 120,
+    "validation": 40,
+    "test": 40
+  }
+}

@@ -63,6 +63,8 @@ results/*
 !results/motion_overhead_2026_10_11/**
 !results/cache_drift_v1/
 !results/cache_drift_v1/**
+!results/cache_drift_v2/
+!results/cache_drift_v2/**
 
 # Curated snapshots also exclude downloaded assets, secrets, and temporary files.
 *.mp4

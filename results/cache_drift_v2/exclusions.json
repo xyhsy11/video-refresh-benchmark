@@ -1,0 +1,60 @@
+{
+  "records": [
+    {
+      "video_id": "F3JNKGPOeVQ_000005_000015",
+      "label": "playing flute",
+      "reason": "ValueError: Clip outside experiment's 5–15 second range: F3JNKGPOeVQ_000005_000015.mp4: 4.604600s",
+      "stage": "eligibility",
+      "at_utc": "2026-10-12T11:52:34.291594+00:00",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_5.tar.gz"
+    },
+    {
+      "video_id": "E5xdkQvnhkc_000002_000012",
+      "label": "javelin throw",
+      "reason": "ValueError: Clip outside experiment's 5–15 second range: E5xdkQvnhkc_000002_000012.mp4: 2.168833s",
+      "stage": "eligibility",
+      "at_utc": "2026-10-12T11:52:59.474450+00:00",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_5.tar.gz"
+    },
+    {
+      "video_id": "6pG2eSn2VU4_000001_000011",
+      "label": "disc golfing",
+      "reason": "ValueError: Clip outside experiment's 5–15 second range: 6pG2eSn2VU4_000001_000011.mp4: 4.199720s",
+      "stage": "eligibility",
+      "at_utc": "2026-10-12T11:55:42.179711+00:00",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_2.tar.gz"
+    },
+    {
+      "video_id": "5mBqtX4KrGk_000001_000011",
+      "label": "crossing river",
+      "reason": "ValueError: Clip outside experiment's 5–15 second range: 5mBqtX4KrGk_000001_000011.mp4: 0.500000s",
+      "stage": "eligibility",
+      "at_utc": "2026-10-12T11:55:42.512099+00:00",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_2.tar.gz"
+    },
+    {
+      "video_id": "PqhEBVDdbcU_000004_000014",
+      "label": "swinging on something",
+      "reason": "ValueError: Clip outside experiment's 5–15 second range: PqhEBVDdbcU_000004_000014.mp4: 2.535867s",
+      "stage": "eligibility",
+      "at_utc": "2026-10-12T11:59:19.131798+00:00",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_8.tar.gz"
+    },
+    {
+      "video_id": "eWPV4-c9F-g_000001_000011",
+      "label": "unloading truck",
+      "reason": "ValueError: Clip outside experiment's 5–15 second range: eWPV4-c9F-g_000001_000011.mp4: 4.754750s",
+      "stage": "eligibility",
+      "at_utc": "2026-10-12T12:02:16.729236+00:00",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_13.tar.gz"
+    },
+    {
+      "video_id": "B6L4dUKm9_Y_000002_000012",
+      "label": "javelin throw",
+      "reason": "ValueError: Clip outside experiment's 5–15 second range: B6L4dUKm9_Y_000002_000012.mp4: 3.203200s",
+      "stage": "eligibility",
+      "at_utc": "2026-10-12T12:05:04.037744+00:00",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_4.tar.gz"
+    }
+  ]
+}

@@ -1,0 +1,1254 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-12T12:22:43.613817+00:00",
+  "focused_checks": {
+    "explicit_pre_decision_schedule_including_4_8_12": true,
+    "zero_feature_norm_rejected": true,
+    "identical_nonzero_feature_zero_drift": true,
+    "interval_excludes_cache_frame_and_future_frames": true,
+    "equal_frame_weight_and_missing_versus_zero": true,
+    "held_out_inputs_and_targets_cannot_change_fitted_scaler_or_predictor": true,
+    "constant_columns_safe_and_ridge_matches_independent_least_squares": true,
+    "constant_rank_correlation_reported_undefined": true,
+    "target_and_identifiers_rejected_as_predictors": true
+  },
+  "collection_audit": {
+    "passed": true,
+    "input_video_hashes_checked_locally": true,
+    "split_validation": {
+      "passed": true,
+      "source_and_file_overlap": false,
+      "pilot_sources_excluded": true,
+      "counts": {
+        "train": 120,
+        "validation": 40,
+        "test": 40
+      }
+    },
+    "videos": [
+      {
+        "video_id": "H8WWknTZUmA_000016_000026",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "NAqrwQ54ptY_000028_000038",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "Nn4kWqrwFN8_000126_000136",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "Ntd9Y7Bkl6I_000016_000026",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "QD9PdqOIWKg_000095_000105",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "fvWJtfOY6fQ_000012_000022",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "5ZwiGw_g8YA_000094_000104",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "78FOVA4MFMY_000000_000010",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "H6yq9icpuMc_000066_000076",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "HCmP-G7_fJU_000228_000238",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "NwUMfuFpDto_000035_000045",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "dl07YPUpYxU_000078_000088",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "B6gxJpoVNr8_000005_000015",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "CY26VGQ7t1E_000018_000028",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "EJqF_I2pu0o_000025_000035",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "FZmNWmGs298_000012_000022",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "PLGIfVu_PQs_000093_000103",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "eZWC9LI7kt8_000030_000040",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "75CH3nr9D0E_000713_000723",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "C3ihyQVPCKU_000005_000015",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "CcUS8lV9cvI_000034_000044",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "LAtbQ-IVheY_000384_000394",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "LUDJ_eqPE4E_000014_000024",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "eCDR84avtAI_000016_000026",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "5XydIroPDng_000000_000010",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "Cu8mVNNT6is_000010_000020",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "E83Cry1oMZc_000008_000018",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "Eh9kvEJo1G8_000000_000010",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "elofIurd-eQ_000001_000011",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "fEMzrsYAOZ4_000026_000036",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "CZezk_EbMOY_000107_000117",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "D7MdVsuBDK8_000009_000019",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "ESnU5Vn5gqE_000030_000040",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "M6GkGNHPtE8_000223_000233",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "MfkX0SiiOT0_000038_000048",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "ejjLKLUeGHM_000225_000235",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "CBE51_84bwI_000003_000013",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "F21MHQWYf78_000011_000021",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "LzGTRmCGJxc_000087_000097",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "M0O3qn_zgqo_000004_000014",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "dIBNHpmFY-4_000001_000011",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "fm0KsCr1kMc_000033_000043",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "5GUT-khf_tU_000008_000018",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "BJa-nPW3LLs_000318_000328",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "CvQfLHlE-PA_000001_000011",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "E8WqHpp2rjY_000090_000100",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "QeG2HREr6m0_000003_000013",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "fov5eynCpUc_000054_000064",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "6bwkUwMT87E_000003_000013",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "7FAZzxo3jnM_000005_000015",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "CrhPxGAf8Yc_000024_000034",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "KyR9GKqxzlQ_000000_000010",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "PyIShF3VQ1A_000050_000060",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "eFDcurD-6bY_000077_000087",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "5G94o6UdX2w_000001_000011",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "B9BGRDotBG8_000004_000014",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "N7HhD2qkuds_000017_000027",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "Oe7vfErM63c_000003_000013",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "PgPfk4vYpMU_000375_000385",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "fn8bBb0gTkw_000063_000073",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "5rZzxIgLlPU_000000_000010",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "67vhJRyiwmI_000328_000338",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "B5V-gDdYI4Y_000065_000075",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "ONMU_XV1_cY_000031_000041",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "QAs8dUX9q04_000018_000028",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "fhCvoCCR3n8_000080_000090",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "5BRQYmi-n3Q_000221_000231",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "6aFe_kigVU4_000029_000039",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "Dz64L1FfG_o_000019_000029",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "EurLx7PG7S4_000026_000036",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "F-cmTIX6Drw_000002_000012",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "Q6G3SqUU3w0_000134_000144",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "DF9HG1w5nZA_000058_000068",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "OQOQH_Qgitg_000009_000019",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "OfKSSn_FyIo_000027_000037",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "eND-2SMjxDg_000011_000021",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "fRBJY5RHN_s_000022_000032",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "flojhQpCUWg_000057_000067",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "Cj-BGLVHw4g_000062_000072",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "EraTWAIeZZ8_000012_000022",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "N3o3Rg0kKMw_000015_000025",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "OmoC3X888rg_000001_000011",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "dSF2i1OQtMc_000087_000097",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "f3iR_d-DWcQ_000186_000196",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "6iV76zdkdBY_000148_000158",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "6yNJjyoC22c_000140_000150",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "D3xBh384SUU_000022_000032",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "Gn3GtDKZZPQ_000010_000020",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "MSNZTb4aHuc_000003_000013",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "g2L1cacdcc4_000045_000055",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "6KG0mbhejCs_000233_000243",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "BbFbo987QEo_000057_000067",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "CnsOEEuyrrI_000144_000154",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "EpkRTxllorU_000315_000325",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "KgdYwQqZPDc_000021_000031",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "Mc4YKgNpyBc_000309_000319",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "5H02ohmoKow_000068_000078",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "5dRnwv9ZiG4_000041_000051",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "FbpFw3nEEek_000022_000032",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "O9G7HAX5R_M_000227_000237",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "fKj_j00MAfc_000029_000039",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "fSJ61gXs7aY_000022_000032",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "5eK6mXYQIG4_000016_000026",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "E066bmQTks0_000482_000492",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "GaRaR0G-ugg_000034_000044",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "QKHEnqj8CH0_000004_000014",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "dVFyXxNN7J8_000160_000170",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "dqDlHUs3R4k_000003_000013",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "7lQay3htLG0_000041_000051",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "DQATO-JOZo4_000060_000070",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "L6QdLb5sOKA_000046_000056",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "R5hJENNOHeU_000290_000300",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "f40f8wMFA9E_000252_000262",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "gGIJXRLTp0I_000046_000056",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "DHTYdK1VR4I_000019_000029",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "GnAEF4SBvZE_000173_000183",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "LG_L2HvS3i8_000140_000150",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "M7biA0ABhIE_000299_000309",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "PfDPK7sdpuo_000260_000270",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "eLSA3Zw8sFw_000079_000089",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "4sfsJZPaZy8_000070_000080",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "5v_7XLNUrc0_000008_000018",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "6Z267m0nKuo_000060_000070",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "CnHJ8n2lMs8_000066_000076",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "Fve3dpIPNcA_000018_000028",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "QBeTdk88-4s_000204_000214",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "d_uLBUMJ1NY_000037_000047",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "e_kNxyAEKiU_000132_000142",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "7PKOe3JlqCw_000031_000041",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "7jv141dj_zM_000063_000073",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "ea_p0VLa6uw_000036_000046",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "fQ1DTOzblEU_000001_000011",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "4iII2qSlqLA_000002_000012",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "EC8iyn_q-NM_000326_000336",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "ObYmv1FIGVU_001263_001273",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "ecOJWqF11Bk_000042_000052",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "BPdhR_xx4m4_000122_000132",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "FQuMAHVbvf8_000002_000012",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "M3uEG1ikThY_001329_001339",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "eYdzsRaIBT8_000002_000012",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "BXb1JVzqhpA_000003_000013",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "H6br3lzeFSA_000002_000012",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "NmY0q-M4UfY_000030_000040",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "QEi5WRZBtVc_000243_000253",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "6ropBPG4sP8_000037_000047",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "GQ--4QfVpXc_000003_000013",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "Lgtqpb-9rpY_000001_000011",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "R2DEup8-d0c_000002_000012",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "4xZ0rhHTqZo_000071_000081",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "BN56cms2DFE_000045_000055",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "FPbfgv79y98_000073_000083",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "H2LmlfY8GHg_000002_000012",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "B1tr5F2CPAQ_000095_000105",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "ENwDLQTkIlQ_000001_000011",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "GoFJb86v1pg_000000_000010",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "OayCUxccS0w_000002_000012",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "BgAm_L544l4_000083_000093",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "CfeTpqt937k_000003_000013",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "EUIGpdmtzuA_000001_000011",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "F7Tmh5j81zI_000001_000011",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "BVMxdSXghoI_000113_000123",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "M_6oQOAMe0s_000142_000152",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "PEWUmwI64D0_000057_000067",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "g85OdlEOBb0_000003_000013",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "6zTdbPmQh6Q_000024_000034",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "H0EcgaAV9lU_000196_000206",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "ennR61HZSP8_000066_000076",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "fYXb94-2Ako_000008_000018",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "4sY5U4LqmnY_000004_000014",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "DBGea9pST1A_000016_000026",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "E0G6Q4C-CMQ_000002_000012",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "fifsI5TBtfM_000025_000035",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "6rSQNLqM6pw_000062_000072",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "GU5SV08xxVU_000330_000340",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "Prf1lu4ITXw_000002_000012",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "ex1DGV4qCXs_000000_000010",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "L8xOKTssyF4_000045_000055",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "MidGzY5U5j4_000025_000035",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "dKCdpsuJtA4_000000_000010",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "e-bGb4oudBg_000096_000106",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "5B6XRLOXS_c_000134_000144",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "7C8SE-1TWw0_000100_000110",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "Kuq25gHT9Mg_000093_000103",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "eMlfRt6PFGc_000309_000319",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "PDTacXB_3nw_000089_000099",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "PoNb9_Mi4ZI_000019_000029",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "Q_F85_VgKwM_000045_000055",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "R6M9eREJy_k_000004_000014",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "CabL1hLMEHY_000380_000390",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "Cl5JTEWIPeI_000000_000010",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "Eraqc_w2rnc_000005_000015",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "f9R8VWDeXU4_000049_000059",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "BhU4HGJ2q4s_000004_000014",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "LzrMp5FnTCg_000001_000011",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "NhRqdRjPuiI_000067_000077",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "PSr-xPoLptY_000076_000086",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "5qPMVSLt6z0_000002_000012",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "D9q6pUOFVAk_000010_000020",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "fORZJioiswc_000300_000310",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      },
+      {
+        "video_id": "g2cuHfJtXeY_000351_000361",
+        "feature_count": 16,
+        "observation_count": 15,
+        "independent_labels_intervals_and_missing_vector_checks": true
+      }
+    ],
+    "originals_unchanged": true,
+    "all_feature_and_artifact_hashes": true
+  },
+  "training_only_scalers_models_constant": true,
+  "held_out_target_mutation_cannot_change_fit": true,
+  "release_validator": {
+    "returncode": 0,
+    "stdout": "Public snapshot PASS: ten videos, 150 pilot rows, 15 single-video rows; all counters valid.\nCSV-derived headlines PASS: 34.74% median reduction, 1.532x median speedup, 17.52-45.54% range.\nOriginal timing source hashes and 17 snapshot checksums PASS; 44 relative links PASS.\nPersonal-path and installation-requirement checks PASS; no GPU timing was rerun."
+  },
+  "source_sha256": {
+    "analyze_cache_drift_v2.py": "563c78959334a94a9bad8297dd054c15f0e2c2a711919a18e59e7f593cc91fb2"
+  },
+  "saved_predictions_reproduce_metrics": true,
+  "saved_fitted_models_reproduce_predictions": true,
+  "one_prediction_per_method_per_observation": true,
+  "prediction_csv_float_parser": "round_trip",
+  "validation_predictions": 2400,
+  "test_predictions": 2400,
+  "split_counts": {
+    "train": 120,
+    "validation": 40,
+    "test": 40
+  },
+  "originals_unchanged": true
+}
