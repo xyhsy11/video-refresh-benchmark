@@ -1,0 +1,335 @@
+{
+  "checked_at_utc": "2026-10-12T06:18:12.569162+00:00",
+  "input": "data/videos",
+  "passed": true,
+  "export_configuration": {
+    "api": "stream.codec_context.options before the first decode",
+    "options": {
+      "flags2": "+export_mvs"
+    },
+    "side_data": "frame.side_data.get('MOTION_VECTORS').to_ndarray()",
+    "software_decoder": true
+  },
+  "descriptors": {
+    "displacement": "dx=float64(motion_x)/float64(motion_scale); dy likewise",
+    "magnitude": "numpy.hypot(dx, dy)",
+    "units": "pixels of codec displacement",
+    "mean": "unweighted mean over all exported vector entries",
+    "p90": "numpy.percentile(magnitudes, 90, method='linear')",
+    "missing": "count=0, mean=0, p90=0, mv_available=false",
+    "reference_direction": "source<0: past; source>0: future; source==0: other",
+    "retention": "one fresh frozen slotted MotionDescriptor per decoded frame in a CPU list until timer stops",
+    "invalid_data": "raise ValueError with video/frame context; do not discard or invent vectors",
+    "scope": "no optical flow, physical velocity, learned motion encoder, or descriptor GPU transfer"
+  },
+  "decoder": {
+    "thread_count": 1,
+    "thread_type": "NONE",
+    "skip_frame": "NONE"
+  },
+  "libraries": {
+    "pyav": "19.0.1",
+    "ffmpeg_release": "9.0.2",
+    "ffmpeg_libraries": {
+      "libavutil": [
+        61,
+        1,
+        102
+      ],
+      "libavcodec": [
+        63,
+        1,
+        102
+      ],
+      "libavformat": [
+        63,
+        1,
+        102
+      ],
+      "libavdevice": [
+        63,
+        1,
+        102
+      ],
+      "libavfilter": [
+        12,
+        1,
+        102
+      ],
+      "libswscale": [
+        10,
+        1,
+        102
+      ],
+      "libswresample": [
+        7,
+        1,
+        102
+      ]
+    }
+  },
+  "videos": [
+    {
+      "video_id": "0pVGiAU6XEA",
+      "relative_path": "data/videos/0pVGiAU6XEA.mp4",
+      "file_identity": {
+        "size_bytes": 278301,
+        "mtime_ns": 1791615340341405300,
+        "sha256": "455be4a450b58237447051c2c501359252e7e58f08ca28ae69a54af7f1633404"
+      },
+      "decoded_frames": 300,
+      "frame_type_counts": {
+        "I": 2,
+        "B": 131,
+        "P": 167
+      },
+      "mv_frames_available": 298,
+      "mv_frames_missing": 2,
+      "total_vectors": 181620,
+      "past_reference_vectors": 129720,
+      "future_reference_vectors": 51900,
+      "other_reference_vectors": 0,
+      "inspection_elapsed_ms_excluded": 240.05250000118394,
+      "file_loading_ms_excluded": 7.822599998689839,
+      "applied_flags2": 268435456,
+      "invalid_vectors": 0,
+      "frame_count_matches_manifest": true
+    },
+    {
+      "video_id": "AQrbRSnRt8M",
+      "relative_path": "data/videos/AQrbRSnRt8M.mp4",
+      "file_identity": {
+        "size_bytes": 601572,
+        "mtime_ns": 1791615340344398100,
+        "sha256": "ef4b397cfe09defb6efc8524294822ced5a7918696e2288cb8073438cdc35b7c"
+      },
+      "decoded_frames": 300,
+      "frame_type_counts": {
+        "I": 2,
+        "B": 158,
+        "P": 140
+      },
+      "mv_frames_available": 298,
+      "mv_frames_missing": 2,
+      "total_vectors": 225789,
+      "past_reference_vectors": 159288,
+      "future_reference_vectors": 66501,
+      "other_reference_vectors": 0,
+      "inspection_elapsed_ms_excluded": 307.91690000114613,
+      "file_loading_ms_excluded": 7.6718000000255415,
+      "applied_flags2": 268435456,
+      "invalid_vectors": 0,
+      "frame_count_matches_manifest": true
+    },
+    {
+      "video_id": "IcLztCtvhb8",
+      "relative_path": "data/videos/IcLztCtvhb8.mp4",
+      "file_identity": {
+        "size_bytes": 662205,
+        "mtime_ns": 1791615340347390400,
+        "sha256": "4491086492a2ae58c21262580c3989a4053e4e744c394b64701a270d1c4c85a7"
+      },
+      "decoded_frames": 250,
+      "frame_type_counts": {
+        "I": 2,
+        "B": 121,
+        "P": 127
+      },
+      "mv_frames_available": 248,
+      "mv_frames_missing": 2,
+      "total_vectors": 193293,
+      "past_reference_vectors": 137623,
+      "future_reference_vectors": 55670,
+      "other_reference_vectors": 0,
+      "inspection_elapsed_ms_excluded": 249.9346999993577,
+      "file_loading_ms_excluded": 7.236900000862079,
+      "applied_flags2": 268435456,
+      "invalid_vectors": 0,
+      "frame_count_matches_manifest": true
+    },
+    {
+      "video_id": "SU_x2LQqSLs",
+      "relative_path": "data/videos/SU_x2LQqSLs.mp4",
+      "file_identity": {
+        "size_bytes": 364279,
+        "mtime_ns": 1791615340350651400,
+        "sha256": "ae181b5492608109adbd998f46b50d38340070b369d9a5041d2f4ddfd2a7d7ba"
+      },
+      "decoded_frames": 228,
+      "frame_type_counts": {
+        "I": 1,
+        "P": 109,
+        "B": 118
+      },
+      "mv_frames_available": 227,
+      "mv_frames_missing": 1,
+      "total_vectors": 171103,
+      "past_reference_vectors": 121089,
+      "future_reference_vectors": 50014,
+      "other_reference_vectors": 0,
+      "inspection_elapsed_ms_excluded": 193.0807000007917,
+      "file_loading_ms_excluded": 7.8169999997044215,
+      "applied_flags2": 268435456,
+      "invalid_vectors": 0,
+      "frame_count_matches_manifest": true
+    },
+    {
+      "video_id": "b6Q_b7vgc7Q",
+      "relative_path": "data/videos/b6Q_b7vgc7Q.mp4",
+      "file_identity": {
+        "size_bytes": 880562,
+        "mtime_ns": 1791615340354642400,
+        "sha256": "d5420b03b5a265ec3803a3e41f33cd68a2a959fc00f8551981392b2296d7f5db"
+      },
+      "decoded_frames": 297,
+      "frame_type_counts": {
+        "I": 2,
+        "B": 147,
+        "P": 148
+      },
+      "mv_frames_available": 295,
+      "mv_frames_missing": 2,
+      "total_vectors": 243599,
+      "past_reference_vectors": 184476,
+      "future_reference_vectors": 59123,
+      "other_reference_vectors": 0,
+      "inspection_elapsed_ms_excluded": 283.21539999888046,
+      "file_loading_ms_excluded": 7.181500001024688,
+      "applied_flags2": 268435456,
+      "invalid_vectors": 0,
+      "frame_count_matches_manifest": true
+    },
+    {
+      "video_id": "ddvJ6-faICE",
+      "relative_path": "data/videos/ddvJ6-faICE.mp4",
+      "file_identity": {
+        "size_bytes": 260126,
+        "mtime_ns": 1791615340357668900,
+        "sha256": "8ea8d6358563a5accd32a7384115096fa3dafc61fd5cf59e84168ac543fabbdd"
+      },
+      "decoded_frames": 299,
+      "frame_type_counts": {
+        "I": 2,
+        "B": 193,
+        "P": 104
+      },
+      "mv_frames_available": 297,
+      "mv_frames_missing": 2,
+      "total_vectors": 209757,
+      "past_reference_vectors": 129924,
+      "future_reference_vectors": 79833,
+      "other_reference_vectors": 0,
+      "inspection_elapsed_ms_excluded": 156.67000000030384,
+      "file_loading_ms_excluded": 7.827200000974699,
+      "applied_flags2": 268435456,
+      "invalid_vectors": 0,
+      "frame_count_matches_manifest": true
+    },
+    {
+      "video_id": "ik4BW3-SCts",
+      "relative_path": "data/videos/ik4BW3-SCts.mp4",
+      "file_identity": {
+        "size_bytes": 454159,
+        "mtime_ns": 1791615340360390600,
+        "sha256": "1abe2870ba52483314af9ecec3c840d1abea87fc0ea86bc46edfae8c70d08eec"
+      },
+      "decoded_frames": 282,
+      "frame_type_counts": {
+        "I": 2,
+        "B": 164,
+        "P": 116
+      },
+      "mv_frames_available": 280,
+      "mv_frames_missing": 2,
+      "total_vectors": 205942,
+      "past_reference_vectors": 139940,
+      "future_reference_vectors": 66002,
+      "other_reference_vectors": 0,
+      "inspection_elapsed_ms_excluded": 224.92779999993218,
+      "file_loading_ms_excluded": 7.715200001257472,
+      "applied_flags2": 268435456,
+      "invalid_vectors": 0,
+      "frame_count_matches_manifest": true
+    },
+    {
+      "video_id": "jqRrH30V0k4",
+      "relative_path": "data/videos/jqRrH30V0k4.mp4",
+      "file_identity": {
+        "size_bytes": 1069005,
+        "mtime_ns": 1791615340367329700,
+        "sha256": "d895d220521fd01167d309499d884c19ec9318f7d3068cf5fe0b5fcde5dd2066"
+      },
+      "decoded_frames": 600,
+      "frame_type_counts": {
+        "I": 3,
+        "P": 485,
+        "B": 112
+      },
+      "mv_frames_available": 597,
+      "mv_frames_missing": 3,
+      "total_vectors": 428674,
+      "past_reference_vectors": 382129,
+      "future_reference_vectors": 46545,
+      "other_reference_vectors": 0,
+      "inspection_elapsed_ms_excluded": 549.8421000011149,
+      "file_loading_ms_excluded": 10.778099998788093,
+      "applied_flags2": 268435456,
+      "invalid_vectors": 0,
+      "frame_count_matches_manifest": true
+    },
+    {
+      "video_id": "u4Rm6srmIS8",
+      "relative_path": "data/videos/u4Rm6srmIS8.mp4",
+      "file_identity": {
+        "size_bytes": 804087,
+        "mtime_ns": 1791615340370323700,
+        "sha256": "c5387f455fa7ae9e66b9dae34d1d7adafa2772f2929fefa0d3c72730cf57ac4a"
+      },
+      "decoded_frames": 240,
+      "frame_type_counts": {
+        "I": 1,
+        "B": 111,
+        "P": 128
+      },
+      "mv_frames_available": 239,
+      "mv_frames_missing": 1,
+      "total_vectors": 210687,
+      "past_reference_vectors": 159438,
+      "future_reference_vectors": 51249,
+      "other_reference_vectors": 0,
+      "inspection_elapsed_ms_excluded": 277.14729999934207,
+      "file_loading_ms_excluded": 6.9345000010798685,
+      "applied_flags2": 268435456,
+      "invalid_vectors": 0,
+      "frame_count_matches_manifest": true
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "relative_path": "data/videos/y5Iu7XkTqV0.mp4",
+      "file_identity": {
+        "size_bytes": 430841,
+        "mtime_ns": 1791615340374312100,
+        "sha256": "dce61ba9d61c7b42ebc825595b67c2e88c1b96888e428f74eecbdb802176cb28"
+      },
+      "decoded_frames": 300,
+      "frame_type_counts": {
+        "I": 5,
+        "B": 156,
+        "P": 139
+      },
+      "mv_frames_available": 295,
+      "mv_frames_missing": 5,
+      "total_vectors": 211292,
+      "past_reference_vectors": 148169,
+      "future_reference_vectors": 63123,
+      "other_reference_vectors": 0,
+      "inspection_elapsed_ms_excluded": 337.83930000026885,
+      "file_loading_ms_excluded": 0.4174999994575046,
+      "applied_flags2": 268435456,
+      "invalid_vectors": 0,
+      "frame_count_matches_manifest": true
+    }
+  ],
+  "diagnostic_rows": 3096,
+  "csv_writing_ms_excluded": 37.34649999933026
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "synthetic_utility_checks_only": true,
+  "checks": [
+    "known 5/10-pixel magnitudes: mean=7.5, linear p90=9.5",
+    "signed reference direction",
+    "observed zero vs missing availability",
+    "int32 extreme magnitudes without overflow",
+    "reject zero scale, missing fields, wrong dimensionality, floating field types"
+  ]
+}

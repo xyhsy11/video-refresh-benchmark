@@ -6,7 +6,7 @@ A reproducible benchmark comparing sequential video decoding, dense RGB feature 
 
 **Research question:** If RGB features are computed at only one-quarter of the candidate positions and cached features are reused elsewhere, how much does encoded-clip-to-features latency decrease?
 
-**Status: preliminary feasibility benchmark.** A CUDA pilot on ten low-resolution Kinetics validation clips has been completed and verified. Periodic processing was faster by median latency in every clip. Recognition accuracy, motion-processing overhead, adaptive refresh policies, and higher-resolution performance remain unevaluated.
+**Status: preliminary feasibility benchmark.** The October 10 RGB pilot and an October 12 codec-vector CPU overhead follow-up have completed CUDA measurements on ten low-resolution Kinetics validation clips. Periodic processing was faster by median latency in every clip in both experiments. Recognition accuracy, a learned motion branch, adaptive refresh policies, and higher-resolution performance remain unevaluated.
 
 ## What the three modes do
 
@@ -220,18 +220,91 @@ After installing the packages, the frozen snapshot can be analyzed without the l
 
 The adjacent snapshot manifest and metadata provide the saved input identity/settings. The release validator checks raw counters, reported statistics, snapshot checksums, source hashes for the unchanged benchmark, and relative documentation links. It does not run a new GPU timing experiment. Do not write recomputed output into the frozen snapshot.
 
+## Follow-up: codec motion-vector overhead
+
+**Research question:** How much time remains saved by periodic RGB refresh when dense and periodic pipelines also export codec motion vectors and compute simple CPU motion descriptors?
+
+The [motion experiment snapshot](results/motion_overhead_2026_10_11/README.md) uses the same ten encoded files, candidates, ResNet18 weights/preprocessing, numerical settings, and decoder threads. The folder name is the requested experiment label; actual collection timestamps are recorded in metadata. The three RGB controls are **rerun in this session** by calling the unchanged `benchmark.process_clip`; October 10 timings are not substitutes. The October 10 snapshot and its measurement sources remain unchanged.
+
+| Condition | RGB calls / reuses / outputs | CPU motion descriptor updates |
+| --- | --- | --- |
+| `decode` | 0 / 0 / 0 | 0 |
+| `dense` | 16 / 0 / 16 | 0 |
+| `periodic` | 4 / 12 / 16 | 0 |
+| `decode_mv` | 0 / 0 / 0 | One per decoded frame |
+| `dense_mv` | 16 / 0 / 16 | One per decoded frame |
+| `periodic_mv` | 4 / 12 / 16 | One per decoded frame, including RGB cache reuses |
+
+All conditions fully decode every frame. `_mv` conditions set `stream.codec_context.options['flags2'] = '+export_mvs'` before the decoder opens and access `frame.side_data.get('MOTION_VECTORS').to_ndarray()`. This API was checked against the installed PyAV version and real decoder output. See [PyAV side data](https://pyav.basswood.io/docs/develop/api/sidedata.html), the [FFmpeg extraction example](https://www.ffmpeg.org/doxygen/9.0/extract__mvs_8c_source.html), and [AVMotionVector fields](https://www.ffmpeg.org/doxygen/9.0/structAVMotionVector.html).
+
+For each exported entry, convert `motion_x`, `motion_y`, and `motion_scale` to float64 before division, then calculate `dx = motion_x / motion_scale`, `dy = motion_y / motion_scale`, and `numpy.hypot(dx, dy)`. Each frame's descriptor contains vector count, unweighted mean magnitude, and `numpy.percentile(magnitude, 90, method='linear')`, in codec-displacement pixels. Missing vectors give zeros with `mv_available=false`; observed zero displacement retains `mv_available=true`. Invalid scales or malformed fields raise a video/frame-specific error. Reference directions use `source<0` for past, `source>0` for future, and zero for other.
+
+Each `_mv` mode retains the same fresh frozen CPU descriptor objects in a list until timing ends. There is no motion GPU transfer or learned motion encoder. Appearance features stay on CUDA until timing ends. Every trial uses a fresh container and resets all caches; neither frames nor raw vector arrays survive into later trials.
+
+The boundary remains **encoded bytes already in memory through completed outputs**, with CUDA synchronization at both timer boundaries. Export configuration, export/access/conversion, CPU summaries, and descriptor retention are included. Inspection, file loading, verification, model preparation, CSV writing, and plotting are excluded. Each video gets two complete warmups per mode and five measured repeats per mode, with all six modes shuffled within each repeat using seed **20261011**, sequentially in one process. Metadata records actual order, loading times, source/video/weight hashes, environment, and GPU telemetry. Packages are recorded from the existing environment without upgrading them.
+
+From the repository root, after dataset preparation and ordinary video inspection, run these PowerShell commands. To keep a published snapshot frozen when repeating the experiment, change all output paths to a fresh results directory.
+
+```powershell
+& .\.venv\Scripts\python.exe .\inspect_motion.py --input data/videos/y5Iu7XkTqV0.mp4 --output results/motion_overhead_2026_10_11/single_video_motion.csv
+if ($LASTEXITCODE -ne 0) { throw 'Motion export inspection failed.' }
+& .\.venv\Scripts\python.exe .\benchmark_motion.py --input data/videos/y5Iu7XkTqV0.mp4 --modes decode dense periodic decode_mv dense_mv periodic_mv --candidates 16 --refresh-every 4 --device cuda --verify-only
+if ($LASTEXITCODE -ne 0) { throw 'Single-video correctness failed.' }
+& .\.venv\Scripts\python.exe .\benchmark_motion.py --input data/videos/y5Iu7XkTqV0.mp4 --modes decode dense periodic decode_mv dense_mv periodic_mv --candidates 16 --refresh-every 4 --warmup 2 --repeats 5 --device cuda --output results/motion_overhead_2026_10_11/single_video.csv
+if ($LASTEXITCODE -ne 0) { throw 'Single-video timing failed.' }
+if ((Import-Csv .\results\motion_overhead_2026_10_11\single_video.csv).Count -ne 30) { throw 'Expected 30 measured rows.' }
+```
+
+```powershell
+& .\.venv\Scripts\python.exe .\inspect_motion.py --input data/videos --output results/motion_overhead_2026_10_11/all_video_motion.csv
+if ($LASTEXITCODE -ne 0) { throw 'Dataset motion inspection failed.' }
+& .\.venv\Scripts\python.exe .\benchmark_motion.py --input data/videos --modes decode dense periodic decode_mv dense_mv periodic_mv --candidates 16 --refresh-every 4 --device cuda --verify-only
+if ($LASTEXITCODE -ne 0) { throw 'Ten-video correctness failed.' }
+& .\.venv\Scripts\python.exe .\benchmark_motion.py --input data/videos --modes decode dense periodic decode_mv dense_mv periodic_mv --candidates 16 --refresh-every 4 --warmup 2 --repeats 5 --device cuda --output results/motion_overhead_2026_10_11/pilot.csv
+if ($LASTEXITCODE -ne 0) { throw 'Ten-video timing failed.' }
+if ((Import-Csv .\results\motion_overhead_2026_10_11\pilot.csv).Count -ne 300) { throw 'Expected 300 measured rows.' }
+& .\.venv\Scripts\python.exe .\summarize_motion.py --input results/motion_overhead_2026_10_11/pilot.csv --output results/motion_overhead_2026_10_11/summary.csv
+if ($LASTEXITCODE -ne 0) { throw 'Motion analysis validation failed.' }
+& .\.venv\Scripts\python.exe .\validate_release.py
+```
+
+Verification checks two fresh trials per condition, exact cross-mode motion descriptor equality, frame/vector/output counters, finite descriptors and features, refreshed features against the original dense control (`rtol=1e-5`, `atol=1e-6`), and appearance/motion state isolation across trials and videos. CUDA failure triggers CPU correctness and an environment diagnosis, with no CPU timing substitution.
+
+`--verify-only` without `--output` writes into the labeled snapshot directory. For a fresh verification, add `--output results/motion_repro/single_video.csv` or `--output results/motion_repro/pilot.csv` as appropriate, and use that fresh directory consistently for subsequent diagnostics, timing, and analysis.
+
+Analysis computes per-video statistics before aggregation and preserves negative differences. `_mv` minus control differences are **measured configuration overheads**, not exact isolated component times. Plots show trial variability; the reduction plot's whiskers combine observed dense/periodic extrema and are not confidence intervals. Five repeats do not establish statistical significance.
+
+These are CPU codec displacement summaries, not optical flow, physical velocity, or an evaluated motion-recognition branch. B-frames and future-reference vectors make this an **offline** experiment; it does not establish strictly causal online inference. The encodings are preserved. Controlled I/P-only encoding is a separate experiment, and recognition accuracy and usefulness for refresh decisions remain untested.
+
+### Measured motion-overhead result
+
+The CUDA follow-up collected **30 single-video trials and 300 ten-video trials on October 12, 2026**. Every frame/count/state check passed. One pass over the ten clips yielded 3,096 frames, 3,074 with vectors and 22 without; 2,281,756 vector entries included 589,960 future-reference entries.
+
+- Median per-video motion-enabled caching reduction: **25.86%**, range **17.72–31.97%**.
+- Median per-video motion-enabled speedup: **1.349×**; periodic_mv was faster by median in **10/10 videos**.
+- Same-session controls: **35.96% median per-video reduction**. The median of paired per-video reduction changes was **−11.48 percentage points**; the saving decreased in nine videos and increased by 1.75 points in `u4Rm6srmIS8`.
+- Median per-video configuration overheads: **+84.14 ms** for decode_mv versus decode, **+71.47 ms** for dense_mv versus dense, and **+85.90 ms** for periodic_mv versus periodic.
+
+This is a substantial observed CPU workload, while RGB caching retains a saving. Trial variability limits interpretation: only six videos had fully separated dense_mv/periodic_mv trial ranges; configuration differences were small relative to the larger trial range in seven dense comparisons and six periodic comparisons. These are descriptive comparisons, not statistical significance claims or exact isolated component costs. See the [per-video summary](results/motion_overhead_2026_10_11/summary.csv) and [full findings](results/motion_overhead_2026_10_11/findings.md).
+
+Negative outcomes are retained: **2/50 same-repetition comparisons** had periodic_mv slower than dense_mv, with reductions of **−29.28%** (`b6Q_b7vgc7Q`, repetition 1) and **−6.78%** (`ddvJ6-faICE`, repetition 2). These sequential comparisons describe variability; they do not replace the per-video median statistics.
+
+![Six-condition motion-overhead latency](results/motion_overhead_2026_10_11/latency_comparison.png)
+
+![Caching reductions with and without CPU motion](results/motion_overhead_2026_10_11/caching_reduction_comparison.png)
+
 ## Limitations and roadmap
 
 This is a preliminary feasibility benchmark, not evidence of maintained recognition accuracy or a production streaming system.
 
 - Recognition accuracy and the effect of stale appearance features remain unevaluated.
-- Motion-feature extraction, a motion branch, motion-processing overhead, a learned/adaptive refresh controller, and an action-classification head are not included or evaluated.
+- The October 10 pilot excludes motion processing. The follow-up measures codec-vector export and simple CPU descriptor overhead; a learned motion branch, adaptive refresh controller, and action-classification head remain unevaluated.
 - The clips are low-resolution; higher-resolution and 1080p performance remain unevaluated.
 - File loading is measured separately and excluded from the reported metric.
 - Offline full-clip processing time is not live-stream response latency.
 - Ten clips and five repetitions per mode are a small pilot on one laptop; observed trial ranges and cross-run differences limit generalization.
 
-The consistent pilot savings support adding motion-vector extraction and measuring its overhead with the same boundary. Next, evaluate recognition accuracy, compare adaptive refresh policies with the fixed periodic rule, and test larger datasets, longer repetitions, and higher resolutions. If savings disappear, profile decoding/conversion/preprocessing/transfers; if periodic becomes slower, inspect overhead and variability. Fix incorrect counters before interpreting performance.
+The follow-up confirms savings remain with a substantial CPU codec-vector workload. Next, profile export/access/percentile computation, use longer controlled runs, evaluate recognition accuracy and motion usefulness for refresh decisions, and test controlled I/P-only encoding for a separate causal-inference study. Compare adaptive refresh policies with the periodic rule and test higher resolutions. If savings disappear, profile decoding/conversion/preprocessing/transfers; if periodic becomes slower, inspect overhead and variability. Fix incorrect counters before interpreting performance.
 
 ## Repository layout
 
@@ -242,8 +315,11 @@ The consistent pilot savings support adding motion-vector extraction and measuri
 - `check_env.py`: environment and GPU correctness checks.
 - `research_utils.py`: project-relative paths, manifest helpers, and decoder settings.
 - `validate_release.py`: public snapshot and documentation validation.
+- `motion_utils.py` / `inspect_motion.py`: codec-vector export, CPU descriptors, and per-frame diagnostics.
+- `benchmark_motion.py` / `summarize_motion.py`: six-condition correctness/timing and motion-overhead analysis.
 - `requirements.txt` / `requirements-cuda.txt`: tested dependency installation, with CUDA separated.
 - `results/pilot_2026_10_10/`: curated public results and exact tested environment.
+- `results/motion_overhead_2026_10_11/`: curated codec-vector overhead experiment, with actual run timestamps.
 - `data/source/`, `data/videos/`, `.venv/`, and other `results/` subfolders: local, ignored assets and outputs.
 
 ## Credits and license

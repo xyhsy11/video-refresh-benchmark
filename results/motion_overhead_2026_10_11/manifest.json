@@ -1,0 +1,692 @@
+{
+  "schema_version": 1,
+  "videos": {
+    "data/videos/y5Iu7XkTqV0.mp4": {
+      "video_id": "y5Iu7XkTqV0",
+      "relative_path": "data/videos/y5Iu7XkTqV0.mp4",
+      "file_identity": {
+        "size_bytes": 430841,
+        "mtime_ns": 1791615340374312100,
+        "sha256": "dce61ba9d61c7b42ebc825595b67c2e88c1b96888e428f74eecbdb802176cb28"
+      },
+      "inspected_at_utc": "2026-10-10T06:56:33.397566+00:00",
+      "codec": "h264",
+      "resolution": {
+        "width": 454,
+        "height": 256
+      },
+      "reported_frame_rate": {
+        "rational": "30/1",
+        "fps": 30.0
+      },
+      "reported_metadata_frame_count": 300,
+      "stream_index": 0,
+      "stream_time_base": "1/15360",
+      "stream_duration_seconds": 10.0,
+      "container_duration_seconds": 10.0,
+      "duration_seconds": 10.0,
+      "duration_method": "decoded last PTS - first PTS + final frame duration (reported FPS fallback if final duration missing)",
+      "decoded_pts_duration_seconds": 10.0,
+      "decoded_frame_count": 300,
+      "frame_type_counts": {
+        "I": 5,
+        "P": 139,
+        "B": 156
+      },
+      "candidate_count": 16,
+      "candidate_indices": [
+        0,
+        20,
+        40,
+        60,
+        80,
+        100,
+        120,
+        140,
+        159,
+        179,
+        199,
+        219,
+        239,
+        259,
+        279,
+        299
+      ],
+      "candidate_index_basis": "zero-based sequential decoded-frame indices",
+      "decoder": {
+        "thread_count": 1,
+        "thread_type": "NONE",
+        "skip_frame": "NONE",
+        "hardware_acceleration": false
+      },
+      "inspection_elapsed_ms": 155.23850000045059
+    },
+    "data/videos/0pVGiAU6XEA.mp4": {
+      "video_id": "0pVGiAU6XEA",
+      "relative_path": "data/videos/0pVGiAU6XEA.mp4",
+      "file_identity": {
+        "size_bytes": 278301,
+        "mtime_ns": 1791615340341405300,
+        "sha256": "455be4a450b58237447051c2c501359252e7e58f08ca28ae69a54af7f1633404"
+      },
+      "inspected_at_utc": "2026-10-10T06:56:34.417578+00:00",
+      "codec": "h264",
+      "resolution": {
+        "width": 256,
+        "height": 452
+      },
+      "reported_frame_rate": {
+        "rational": "30/1",
+        "fps": 30.0
+      },
+      "reported_metadata_frame_count": 300,
+      "stream_index": 0,
+      "stream_time_base": "1/15360",
+      "stream_duration_seconds": 10.0,
+      "container_duration_seconds": 10.0,
+      "duration_seconds": 10.0,
+      "duration_method": "decoded last PTS - first PTS + final frame duration (reported FPS fallback if final duration missing)",
+      "decoded_pts_duration_seconds": 10.0,
+      "decoded_frame_count": 300,
+      "frame_type_counts": {
+        "I": 2,
+        "P": 167,
+        "B": 131
+      },
+      "candidate_count": 16,
+      "candidate_indices": [
+        0,
+        20,
+        40,
+        60,
+        80,
+        100,
+        120,
+        140,
+        159,
+        179,
+        199,
+        219,
+        239,
+        259,
+        279,
+        299
+      ],
+      "candidate_index_basis": "zero-based sequential decoded-frame indices",
+      "decoder": {
+        "thread_count": 1,
+        "thread_type": "NONE",
+        "skip_frame": "NONE",
+        "hardware_acceleration": false
+      },
+      "inspection_elapsed_ms": 109.53760000029433
+    },
+    "data/videos/AQrbRSnRt8M.mp4": {
+      "video_id": "AQrbRSnRt8M",
+      "relative_path": "data/videos/AQrbRSnRt8M.mp4",
+      "file_identity": {
+        "size_bytes": 601572,
+        "mtime_ns": 1791615340344398100,
+        "sha256": "ef4b397cfe09defb6efc8524294822ced5a7918696e2288cb8073438cdc35b7c"
+      },
+      "inspected_at_utc": "2026-10-10T06:56:34.592108+00:00",
+      "codec": "h264",
+      "resolution": {
+        "width": 454,
+        "height": 256
+      },
+      "reported_frame_rate": {
+        "rational": "30000/1001",
+        "fps": 29.97002997002997
+      },
+      "reported_metadata_frame_count": 300,
+      "stream_index": 0,
+      "stream_time_base": "1/30000",
+      "stream_duration_seconds": 10.01,
+      "container_duration_seconds": 10.01,
+      "duration_seconds": 10.01,
+      "duration_method": "decoded last PTS - first PTS + final frame duration (reported FPS fallback if final duration missing)",
+      "decoded_pts_duration_seconds": 10.01,
+      "decoded_frame_count": 300,
+      "frame_type_counts": {
+        "I": 2,
+        "P": 140,
+        "B": 158
+      },
+      "candidate_count": 16,
+      "candidate_indices": [
+        0,
+        20,
+        40,
+        60,
+        80,
+        100,
+        120,
+        140,
+        159,
+        179,
+        199,
+        219,
+        239,
+        259,
+        279,
+        299
+      ],
+      "candidate_index_basis": "zero-based sequential decoded-frame indices",
+      "decoder": {
+        "thread_count": 1,
+        "thread_type": "NONE",
+        "skip_frame": "NONE",
+        "hardware_acceleration": false
+      },
+      "inspection_elapsed_ms": 161.67289999975765
+    },
+    "data/videos/IcLztCtvhb8.mp4": {
+      "video_id": "IcLztCtvhb8",
+      "relative_path": "data/videos/IcLztCtvhb8.mp4",
+      "file_identity": {
+        "size_bytes": 662205,
+        "mtime_ns": 1791615340347390400,
+        "sha256": "4491086492a2ae58c21262580c3989a4053e4e744c394b64701a270d1c4c85a7"
+      },
+      "inspected_at_utc": "2026-10-10T06:56:34.755675+00:00",
+      "codec": "h264",
+      "resolution": {
+        "width": 454,
+        "height": 256
+      },
+      "reported_frame_rate": {
+        "rational": "25/1",
+        "fps": 25.0
+      },
+      "reported_metadata_frame_count": 250,
+      "stream_index": 0,
+      "stream_time_base": "1/12800",
+      "stream_duration_seconds": 10.0,
+      "container_duration_seconds": 10.0,
+      "duration_seconds": 10.0,
+      "duration_method": "decoded last PTS - first PTS + final frame duration (reported FPS fallback if final duration missing)",
+      "decoded_pts_duration_seconds": 10.0,
+      "decoded_frame_count": 250,
+      "frame_type_counts": {
+        "I": 2,
+        "P": 127,
+        "B": 121
+      },
+      "candidate_count": 16,
+      "candidate_indices": [
+        0,
+        17,
+        33,
+        50,
+        66,
+        83,
+        100,
+        116,
+        133,
+        149,
+        166,
+        183,
+        199,
+        216,
+        232,
+        249
+      ],
+      "candidate_index_basis": "zero-based sequential decoded-frame indices",
+      "decoder": {
+        "thread_count": 1,
+        "thread_type": "NONE",
+        "skip_frame": "NONE",
+        "hardware_acceleration": false
+      },
+      "inspection_elapsed_ms": 152.66580000024987
+    },
+    "data/videos/SU_x2LQqSLs.mp4": {
+      "video_id": "SU_x2LQqSLs",
+      "relative_path": "data/videos/SU_x2LQqSLs.mp4",
+      "file_identity": {
+        "size_bytes": 364279,
+        "mtime_ns": 1791615340350651400,
+        "sha256": "ae181b5492608109adbd998f46b50d38340070b369d9a5041d2f4ddfd2a7d7ba"
+      },
+      "inspected_at_utc": "2026-10-10T06:56:34.881336+00:00",
+      "codec": "h264",
+      "resolution": {
+        "width": 256,
+        "height": 452
+      },
+      "reported_frame_rate": {
+        "rational": "30/1",
+        "fps": 30.0
+      },
+      "reported_metadata_frame_count": 228,
+      "stream_index": 0,
+      "stream_time_base": "1/15360",
+      "stream_duration_seconds": 7.6,
+      "container_duration_seconds": 7.6,
+      "duration_seconds": 7.6,
+      "duration_method": "decoded last PTS - first PTS + final frame duration (reported FPS fallback if final duration missing)",
+      "decoded_pts_duration_seconds": 7.6,
+      "decoded_frame_count": 228,
+      "frame_type_counts": {
+        "I": 1,
+        "P": 109,
+        "B": 118
+      },
+      "candidate_count": 16,
+      "candidate_indices": [
+        0,
+        15,
+        30,
+        45,
+        61,
+        76,
+        91,
+        106,
+        121,
+        136,
+        151,
+        166,
+        182,
+        197,
+        212,
+        227
+      ],
+      "candidate_index_basis": "zero-based sequential decoded-frame indices",
+      "decoder": {
+        "thread_count": 1,
+        "thread_type": "NONE",
+        "skip_frame": "NONE",
+        "hardware_acceleration": false
+      },
+      "inspection_elapsed_ms": 112.9558000002362
+    },
+    "data/videos/b6Q_b7vgc7Q.mp4": {
+      "video_id": "b6Q_b7vgc7Q",
+      "relative_path": "data/videos/b6Q_b7vgc7Q.mp4",
+      "file_identity": {
+        "size_bytes": 880562,
+        "mtime_ns": 1791615340354642400,
+        "sha256": "d5420b03b5a265ec3803a3e41f33cd68a2a959fc00f8551981392b2296d7f5db"
+      },
+      "inspected_at_utc": "2026-10-10T06:56:35.079807+00:00",
+      "codec": "h264",
+      "resolution": {
+        "width": 454,
+        "height": 256
+      },
+      "reported_frame_rate": {
+        "rational": "89/3",
+        "fps": 29.666666666666668
+      },
+      "reported_metadata_frame_count": 297,
+      "stream_index": 0,
+      "stream_time_base": "1/11392",
+      "stream_duration_seconds": 10.01123595505618,
+      "container_duration_seconds": 10.011236,
+      "duration_seconds": 10.01123595505618,
+      "duration_method": "decoded last PTS - first PTS + final frame duration (reported FPS fallback if final duration missing)",
+      "decoded_pts_duration_seconds": 10.01123595505618,
+      "decoded_frame_count": 297,
+      "frame_type_counts": {
+        "I": 2,
+        "P": 148,
+        "B": 147
+      },
+      "candidate_count": 16,
+      "candidate_indices": [
+        0,
+        20,
+        39,
+        59,
+        79,
+        99,
+        118,
+        138,
+        158,
+        178,
+        197,
+        217,
+        237,
+        257,
+        276,
+        296
+      ],
+      "candidate_index_basis": "zero-based sequential decoded-frame indices",
+      "decoder": {
+        "thread_count": 1,
+        "thread_type": "NONE",
+        "skip_frame": "NONE",
+        "hardware_acceleration": false
+      },
+      "inspection_elapsed_ms": 185.77259999983653
+    },
+    "data/videos/ddvJ6-faICE.mp4": {
+      "video_id": "ddvJ6-faICE",
+      "relative_path": "data/videos/ddvJ6-faICE.mp4",
+      "file_identity": {
+        "size_bytes": 260126,
+        "mtime_ns": 1791615340357668900,
+        "sha256": "8ea8d6358563a5accd32a7384115096fa3dafc61fd5cf59e84168ac543fabbdd"
+      },
+      "inspected_at_utc": "2026-10-10T06:56:35.177543+00:00",
+      "codec": "h264",
+      "resolution": {
+        "width": 412,
+        "height": 256
+      },
+      "reported_frame_rate": {
+        "rational": "179/6",
+        "fps": 29.833333333333332
+      },
+      "reported_metadata_frame_count": 299,
+      "stream_index": 0,
+      "stream_time_base": "1/11456",
+      "stream_duration_seconds": 10.022346368715084,
+      "container_duration_seconds": 10.022346,
+      "duration_seconds": 10.022346368715084,
+      "duration_method": "decoded last PTS - first PTS + final frame duration (reported FPS fallback if final duration missing)",
+      "decoded_pts_duration_seconds": 10.022346368715084,
+      "decoded_frame_count": 299,
+      "frame_type_counts": {
+        "I": 2,
+        "P": 104,
+        "B": 193
+      },
+      "candidate_count": 16,
+      "candidate_indices": [
+        0,
+        20,
+        40,
+        60,
+        79,
+        99,
+        119,
+        139,
+        159,
+        179,
+        199,
+        219,
+        238,
+        258,
+        278,
+        298
+      ],
+      "candidate_index_basis": "zero-based sequential decoded-frame indices",
+      "decoder": {
+        "thread_count": 1,
+        "thread_type": "NONE",
+        "skip_frame": "NONE",
+        "hardware_acceleration": false
+      },
+      "inspection_elapsed_ms": 85.5439999995724
+    },
+    "data/videos/ik4BW3-SCts.mp4": {
+      "video_id": "ik4BW3-SCts",
+      "relative_path": "data/videos/ik4BW3-SCts.mp4",
+      "file_identity": {
+        "size_bytes": 454159,
+        "mtime_ns": 1791615340360390600,
+        "sha256": "1abe2870ba52483314af9ecec3c840d1abea87fc0ea86bc46edfae8c70d08eec"
+      },
+      "inspected_at_utc": "2026-10-10T06:56:35.324151+00:00",
+      "codec": "h264",
+      "resolution": {
+        "width": 454,
+        "height": 256
+      },
+      "reported_frame_rate": {
+        "rational": "30/1",
+        "fps": 30.0
+      },
+      "reported_metadata_frame_count": 282,
+      "stream_index": 0,
+      "stream_time_base": "1/15360",
+      "stream_duration_seconds": 9.4,
+      "container_duration_seconds": 9.4,
+      "duration_seconds": 9.4,
+      "duration_method": "decoded last PTS - first PTS + final frame duration (reported FPS fallback if final duration missing)",
+      "decoded_pts_duration_seconds": 9.4,
+      "decoded_frame_count": 282,
+      "frame_type_counts": {
+        "I": 2,
+        "P": 116,
+        "B": 164
+      },
+      "candidate_count": 16,
+      "candidate_indices": [
+        0,
+        19,
+        37,
+        56,
+        75,
+        94,
+        112,
+        131,
+        150,
+        169,
+        187,
+        206,
+        225,
+        244,
+        262,
+        281
+      ],
+      "candidate_index_basis": "zero-based sequential decoded-frame indices",
+      "decoder": {
+        "thread_count": 1,
+        "thread_type": "NONE",
+        "skip_frame": "NONE",
+        "hardware_acceleration": false
+      },
+      "inspection_elapsed_ms": 133.40179999977408
+    },
+    "data/videos/jqRrH30V0k4.mp4": {
+      "video_id": "jqRrH30V0k4",
+      "relative_path": "data/videos/jqRrH30V0k4.mp4",
+      "file_identity": {
+        "size_bytes": 1069005,
+        "mtime_ns": 1791615340367329700,
+        "sha256": "d895d220521fd01167d309499d884c19ec9318f7d3068cf5fe0b5fcde5dd2066"
+      },
+      "inspected_at_utc": "2026-10-10T06:56:35.592457+00:00",
+      "codec": "h264",
+      "resolution": {
+        "width": 454,
+        "height": 256
+      },
+      "reported_frame_rate": {
+        "rational": "19001/317",
+        "fps": 59.94006309148265
+      },
+      "reported_metadata_frame_count": 600,
+      "stream_index": 0,
+      "stream_time_base": "1/19001",
+      "stream_duration_seconds": 10.00999947371191,
+      "container_duration_seconds": 10.009999,
+      "duration_seconds": 10.00999947371191,
+      "duration_method": "decoded last PTS - first PTS + final frame duration (reported FPS fallback if final duration missing)",
+      "decoded_pts_duration_seconds": 10.00999947371191,
+      "decoded_frame_count": 600,
+      "frame_type_counts": {
+        "I": 3,
+        "P": 485,
+        "B": 112
+      },
+      "candidate_count": 16,
+      "candidate_indices": [
+        0,
+        40,
+        80,
+        120,
+        160,
+        200,
+        240,
+        280,
+        319,
+        359,
+        399,
+        439,
+        479,
+        519,
+        559,
+        599
+      ],
+      "candidate_index_basis": "zero-based sequential decoded-frame indices",
+      "decoder": {
+        "thread_count": 1,
+        "thread_type": "NONE",
+        "skip_frame": "NONE",
+        "hardware_acceleration": false
+      },
+      "inspection_elapsed_ms": 254.14499999988038
+    },
+    "data/videos/u4Rm6srmIS8.mp4": {
+      "video_id": "u4Rm6srmIS8",
+      "relative_path": "data/videos/u4Rm6srmIS8.mp4",
+      "file_identity": {
+        "size_bytes": 804087,
+        "mtime_ns": 1791615340370323700,
+        "sha256": "c5387f455fa7ae9e66b9dae34d1d7adafa2772f2929fefa0d3c72730cf57ac4a"
+      },
+      "inspected_at_utc": "2026-10-10T06:56:35.772938+00:00",
+      "codec": "h264",
+      "resolution": {
+        "width": 454,
+        "height": 256
+      },
+      "reported_frame_rate": {
+        "rational": "24/1",
+        "fps": 24.0
+      },
+      "reported_metadata_frame_count": 240,
+      "stream_index": 0,
+      "stream_time_base": "1/12288",
+      "stream_duration_seconds": 10.0,
+      "container_duration_seconds": 10.0,
+      "duration_seconds": 10.0,
+      "duration_method": "decoded last PTS - first PTS + final frame duration (reported FPS fallback if final duration missing)",
+      "decoded_pts_duration_seconds": 10.0,
+      "decoded_frame_count": 240,
+      "frame_type_counts": {
+        "I": 1,
+        "P": 128,
+        "B": 111
+      },
+      "candidate_count": 16,
+      "candidate_indices": [
+        0,
+        16,
+        32,
+        48,
+        64,
+        80,
+        96,
+        112,
+        127,
+        143,
+        159,
+        175,
+        191,
+        207,
+        223,
+        239
+      ],
+      "candidate_index_basis": "zero-based sequential decoded-frame indices",
+      "decoder": {
+        "thread_count": 1,
+        "thread_type": "NONE",
+        "skip_frame": "NONE",
+        "hardware_acceleration": false
+      },
+      "inspection_elapsed_ms": 168.2824999998047
+    }
+  },
+  "dataset": {
+    "source_url": "https://download.openmmlab.com/mmaction/kinetics400_tiny.zip",
+    "prepared_at_utc": "2026-10-10T07:03:50.949718+00:00",
+    "archive_path": "data/source/kinetics400_tiny.zip",
+    "archive_sha256": "f8e6bf9381c5d2e48028339fd40a3bd05cae61ac045a505a71d6b1417f73db11",
+    "archive_size_bytes": 18308682,
+    "reused_archive": true,
+    "selected_files": [
+      "data/videos/0pVGiAU6XEA.mp4",
+      "data/videos/AQrbRSnRt8M.mp4",
+      "data/videos/IcLztCtvhb8.mp4",
+      "data/videos/SU_x2LQqSLs.mp4",
+      "data/videos/b6Q_b7vgc7Q.mp4",
+      "data/videos/ddvJ6-faICE.mp4",
+      "data/videos/ik4BW3-SCts.mp4",
+      "data/videos/jqRrH30V0k4.mp4",
+      "data/videos/u4Rm6srmIS8.mp4",
+      "data/videos/y5Iu7XkTqV0.mp4"
+    ],
+    "selected_files_details": [
+      {
+        "filename": "0pVGiAU6XEA.mp4",
+        "source_path": "data/source/kinetics400_tiny/val/0pVGiAU6XEA.mp4",
+        "selected_path": "data/videos/0pVGiAU6XEA.mp4",
+        "sha256": "455be4a450b58237447051c2c501359252e7e58f08ca28ae69a54af7f1633404"
+      },
+      {
+        "filename": "AQrbRSnRt8M.mp4",
+        "source_path": "data/source/kinetics400_tiny/val/AQrbRSnRt8M.mp4",
+        "selected_path": "data/videos/AQrbRSnRt8M.mp4",
+        "sha256": "ef4b397cfe09defb6efc8524294822ced5a7918696e2288cb8073438cdc35b7c"
+      },
+      {
+        "filename": "IcLztCtvhb8.mp4",
+        "source_path": "data/source/kinetics400_tiny/val/IcLztCtvhb8.mp4",
+        "selected_path": "data/videos/IcLztCtvhb8.mp4",
+        "sha256": "4491086492a2ae58c21262580c3989a4053e4e744c394b64701a270d1c4c85a7"
+      },
+      {
+        "filename": "SU_x2LQqSLs.mp4",
+        "source_path": "data/source/kinetics400_tiny/val/SU_x2LQqSLs.mp4",
+        "selected_path": "data/videos/SU_x2LQqSLs.mp4",
+        "sha256": "ae181b5492608109adbd998f46b50d38340070b369d9a5041d2f4ddfd2a7d7ba"
+      },
+      {
+        "filename": "b6Q_b7vgc7Q.mp4",
+        "source_path": "data/source/kinetics400_tiny/val/b6Q_b7vgc7Q.mp4",
+        "selected_path": "data/videos/b6Q_b7vgc7Q.mp4",
+        "sha256": "d5420b03b5a265ec3803a3e41f33cd68a2a959fc00f8551981392b2296d7f5db"
+      },
+      {
+        "filename": "ddvJ6-faICE.mp4",
+        "source_path": "data/source/kinetics400_tiny/val/ddvJ6-faICE.mp4",
+        "selected_path": "data/videos/ddvJ6-faICE.mp4",
+        "sha256": "8ea8d6358563a5accd32a7384115096fa3dafc61fd5cf59e84168ac543fabbdd"
+      },
+      {
+        "filename": "ik4BW3-SCts.mp4",
+        "source_path": "data/source/kinetics400_tiny/val/ik4BW3-SCts.mp4",
+        "selected_path": "data/videos/ik4BW3-SCts.mp4",
+        "sha256": "1abe2870ba52483314af9ecec3c840d1abea87fc0ea86bc46edfae8c70d08eec"
+      },
+      {
+        "filename": "jqRrH30V0k4.mp4",
+        "source_path": "data/source/kinetics400_tiny/val/jqRrH30V0k4.mp4",
+        "selected_path": "data/videos/jqRrH30V0k4.mp4",
+        "sha256": "d895d220521fd01167d309499d884c19ec9318f7d3068cf5fe0b5fcde5dd2066"
+      },
+      {
+        "filename": "u4Rm6srmIS8.mp4",
+        "source_path": "data/source/kinetics400_tiny/val/u4Rm6srmIS8.mp4",
+        "selected_path": "data/videos/u4Rm6srmIS8.mp4",
+        "sha256": "c5387f455fa7ae9e66b9dae34d1d7adafa2772f2929fefa0d3c72730cf57ac4a"
+      },
+      {
+        "filename": "y5Iu7XkTqV0.mp4",
+        "source_path": "data/source/kinetics400_tiny/val/y5Iu7XkTqV0.mp4",
+        "selected_path": "data/videos/y5Iu7XkTqV0.mp4",
+        "sha256": "dce61ba9d61c7b42ebc825595b67c2e88c1b96888e428f74eecbdb802176cb28"
+      }
+    ],
+    "preserved_annotation_files": [
+      "data/source/kinetics400_tiny/kinetics_tiny_train_video.txt",
+      "data/source/kinetics400_tiny/kinetics_tiny_val_video.txt"
+    ],
+    "copy_method": "byte-for-byte shutil.copy2; encoding unchanged"
+  }
+}
