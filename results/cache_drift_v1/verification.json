@@ -1,0 +1,258 @@
+{
+  "collection": {
+    "passed": true,
+    "checked_at_utc": "2026-10-12T11:05:46.521087+00:00",
+    "rows": [
+      {
+        "video_id": "0pVGiAU6XEA",
+        "decoded_frames": 300,
+        "reference_features": 16,
+        "observations": 15,
+        "candidate_indices_match": true,
+        "pre_decision_schedule": true,
+        "finite_features_inputs_labels": true,
+        "safe_feature_norms": true,
+        "passed": true
+      },
+      {
+        "video_id": "AQrbRSnRt8M",
+        "decoded_frames": 300,
+        "reference_features": 16,
+        "observations": 15,
+        "candidate_indices_match": true,
+        "pre_decision_schedule": true,
+        "finite_features_inputs_labels": true,
+        "safe_feature_norms": true,
+        "passed": true
+      },
+      {
+        "video_id": "IcLztCtvhb8",
+        "decoded_frames": 250,
+        "reference_features": 16,
+        "observations": 15,
+        "candidate_indices_match": true,
+        "pre_decision_schedule": true,
+        "finite_features_inputs_labels": true,
+        "safe_feature_norms": true,
+        "passed": true
+      },
+      {
+        "video_id": "SU_x2LQqSLs",
+        "decoded_frames": 228,
+        "reference_features": 16,
+        "observations": 15,
+        "candidate_indices_match": true,
+        "pre_decision_schedule": true,
+        "finite_features_inputs_labels": true,
+        "safe_feature_norms": true,
+        "passed": true
+      },
+      {
+        "video_id": "b6Q_b7vgc7Q",
+        "decoded_frames": 297,
+        "reference_features": 16,
+        "observations": 15,
+        "candidate_indices_match": true,
+        "pre_decision_schedule": true,
+        "finite_features_inputs_labels": true,
+        "safe_feature_norms": true,
+        "passed": true
+      },
+      {
+        "video_id": "ddvJ6-faICE",
+        "decoded_frames": 299,
+        "reference_features": 16,
+        "observations": 15,
+        "candidate_indices_match": true,
+        "pre_decision_schedule": true,
+        "finite_features_inputs_labels": true,
+        "safe_feature_norms": true,
+        "passed": true
+      },
+      {
+        "video_id": "ik4BW3-SCts",
+        "decoded_frames": 282,
+        "reference_features": 16,
+        "observations": 15,
+        "candidate_indices_match": true,
+        "pre_decision_schedule": true,
+        "finite_features_inputs_labels": true,
+        "safe_feature_norms": true,
+        "passed": true
+      },
+      {
+        "video_id": "jqRrH30V0k4",
+        "decoded_frames": 600,
+        "reference_features": 16,
+        "observations": 15,
+        "candidate_indices_match": true,
+        "pre_decision_schedule": true,
+        "finite_features_inputs_labels": true,
+        "safe_feature_norms": true,
+        "passed": true
+      },
+      {
+        "video_id": "u4Rm6srmIS8",
+        "decoded_frames": 240,
+        "reference_features": 16,
+        "observations": 15,
+        "candidate_indices_match": true,
+        "pre_decision_schedule": true,
+        "finite_features_inputs_labels": true,
+        "safe_feature_norms": true,
+        "passed": true
+      },
+      {
+        "video_id": "y5Iu7XkTqV0",
+        "decoded_frames": 300,
+        "reference_features": 16,
+        "observations": 15,
+        "candidate_indices_match": true,
+        "pre_decision_schedule": true,
+        "finite_features_inputs_labels": true,
+        "safe_feature_norms": true,
+        "passed": true
+      }
+    ],
+    "original_sources_and_snapshots_unchanged": true,
+    "protected_file_count": 54
+  },
+  "analysis": {
+    "passed": true,
+    "checked_at_utc": "2026-10-12T11:10:03.081082+00:00",
+    "seed": 20261012,
+    "focused_checks": {
+      "explicit_pre_decision_schedule_including_4_8_12": true,
+      "zero_feature_norm_rejected": true,
+      "identical_nonzero_feature_zero_drift": true,
+      "interval_excludes_cache_frame_and_future_frames": true,
+      "equal_frame_weight_and_missing_versus_zero": true,
+      "held_out_inputs_and_targets_cannot_change_fitted_scaler_or_predictor": true,
+      "constant_columns_safe_and_ridge_matches_independent_least_squares": true,
+      "constant_rank_correlation_reported_undefined": true,
+      "target_and_identifiers_rejected_as_predictors": true
+    },
+    "collection_validation": {
+      "videos": [
+        {
+          "video_id": "0pVGiAU6XEA",
+          "reference_features": 16,
+          "observations": 15,
+          "independent_labels_and_intervals": true,
+          "passed": true
+        },
+        {
+          "video_id": "AQrbRSnRt8M",
+          "reference_features": 16,
+          "observations": 15,
+          "independent_labels_and_intervals": true,
+          "passed": true
+        },
+        {
+          "video_id": "IcLztCtvhb8",
+          "reference_features": 16,
+          "observations": 15,
+          "independent_labels_and_intervals": true,
+          "passed": true
+        },
+        {
+          "video_id": "SU_x2LQqSLs",
+          "reference_features": 16,
+          "observations": 15,
+          "independent_labels_and_intervals": true,
+          "passed": true
+        },
+        {
+          "video_id": "b6Q_b7vgc7Q",
+          "reference_features": 16,
+          "observations": 15,
+          "independent_labels_and_intervals": true,
+          "passed": true
+        },
+        {
+          "video_id": "ddvJ6-faICE",
+          "reference_features": 16,
+          "observations": 15,
+          "independent_labels_and_intervals": true,
+          "passed": true
+        },
+        {
+          "video_id": "ik4BW3-SCts",
+          "reference_features": 16,
+          "observations": 15,
+          "independent_labels_and_intervals": true,
+          "passed": true
+        },
+        {
+          "video_id": "jqRrH30V0k4",
+          "reference_features": 16,
+          "observations": 15,
+          "independent_labels_and_intervals": true,
+          "passed": true
+        },
+        {
+          "video_id": "u4Rm6srmIS8",
+          "reference_features": 16,
+          "observations": 15,
+          "independent_labels_and_intervals": true,
+          "passed": true
+        },
+        {
+          "video_id": "y5Iu7XkTqV0",
+          "reference_features": 16,
+          "observations": 15,
+          "independent_labels_and_intervals": true,
+          "passed": true
+        }
+      ],
+      "collection_hashes": true,
+      "original_experiments_unchanged": true
+    },
+    "whole_source_video_folds_disjoint": true,
+    "scalers_and_models_training_only": true,
+    "held_out_target_mutation_checks": true,
+    "one_prediction_per_observation_per_predictor": true,
+    "finite_inputs_labels_raw_and_clipped_predictions": true,
+    "prediction_count": 600,
+    "fold_count": 10,
+    "original_release_validator": {
+      "returncode": 0,
+      "stdout": "Public snapshot PASS: ten videos, 150 pilot rows, 15 single-video rows; all counters valid.\nCSV-derived headlines PASS: 34.74% median reduction, 1.532x median speedup, 17.52-45.54% range.\nOriginal timing source hashes and 17 snapshot checksums PASS; 44 relative links PASS.\nPersonal-path and installation-requirement checks PASS; no GPU timing was rerun."
+    },
+    "regression": {
+      "implementation": "NumPy float64 ridge normal equations; no additional dependency",
+      "objective": "sum((y - intercept - X_standardized @ coefficients)**2) + alpha * sum(coefficients**2)",
+      "alpha": 1.0,
+      "intercept": "training-target mean; not penalized",
+      "standardization": "training-fold column mean and population standard deviation (ddof=0)",
+      "constant_columns": "standard deviation <= 1e-12 replaced by 1; centered constant training columns become zero",
+      "evaluation": "leave one entire source video out; same folds for all four predictors",
+      "tuning": "none; fixed alpha=1.0 specified before evaluation",
+      "primary_predictions": "clip raw held-out predictions to [0,2] for all metrics",
+      "spearman": "Pearson correlation of average ranks for ties; undefined if either vector is constant",
+      "aggregation": "calculate each metric per video, then give videos equal weight",
+      "tie_tolerance_absolute_mae": 1e-12
+    },
+    "analysis_source_sha256": {
+      "analyze_cache_drift.py": "75958cf3f3f4859f65b77bf4fea2bbc147f6d1923201f9549af683003ea614ba"
+    }
+  },
+  "final_audit": {
+    "passed": true,
+    "checked_at_utc": "2026-10-12T11:11:22.536787+00:00",
+    "numeric_recomputation_unchanged": true,
+    "postprocessing_only_changes": "added gain-concentration and rank-correlation interpretation; models/inputs/alpha/labels unchanged",
+    "constant_targets_correlations_and_zero_mae_percentages_undefined": true,
+    "multiple_clips_same_source_held_out_together": true,
+    "existing_collection_directory_preserved": true,
+    "independent_smoke_and_all_video_features_match": true,
+    "relative_links_checked": 36,
+    "personal_paths_absent": true,
+    "local_audit_script_sha256": "4297a9ce3bacbd6dcdfaeb152ed3dd4ebcbdee1fd722391cae0959ecaaa30ccc",
+    "readme_powershell_syntax_blocks_passed": 14,
+    "git_whitespace_check_with_cr_at_eol": true,
+    "final_py_compile_passed": true,
+    "motion_descriptors_match_previous_diagnostic": true,
+    "final_checked_at_utc": "2026-10-12T11:13:26.296985+00:00"
+  }
+}
