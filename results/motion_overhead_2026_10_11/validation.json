@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-12T06:32:24.888338+00:00",
+  "videos": 10,
+  "measured_rows": 300,
+  "warmups_excluded": true,
+  "verification_excluded": true,
+  "all_counters_valid": true,
+  "execution_order_matches_and_seed_reproduces": true,
+  "raw_csv_sha256": "47abbf88ae394a6a879b2a8e80f57f5b8755121a241dbfb95004b308b7cfd01a",
+  "measurement_source_hashes_match": true,
+  "analysis_source_sha256": "6d45f631f2e4aee5cfe28dc56a402092dd8e03496e7d3863da299c04fac35509",
+  "median_per_video_motion_reduction_pct": 25.859847285163866,
+  "median_per_video_control_reduction_pct": 35.96056338105582,
+  "median_per_video_motion_speedup": 1.3487967936850118,
+  "median_per_video_reduction_change_pp": -11.483478619840529
+}

@@ -1,0 +1,61 @@
+{
+  "checked_at_utc": "2026-10-12T06:45:27.843463+00:00",
+  "passed": true,
+  "branch": "baseline/motion-vector-overhead",
+  "actual_collection_date": "2026-10-12",
+  "requested_directory_label": "motion_overhead_2026_10_11",
+  "original_uncommitted_work_at_start": false,
+  "original_archive_and_source_files_unchanged": 25,
+  "additional_original_data_and_result_files_unchanged": 83,
+  "original_release_validator_passed": true,
+  "original_benchmark_cli_correctness_passed": true,
+  "cuda_correctness_passed_single_and_ten_videos": true,
+  "cpu_correctness_passed_reference_video": true,
+  "descriptor_arithmetic_invalid_scale_malformed_fields_and_overflow_checks_passed": true,
+  "analysis_rejection_checks_and_negative_value_handling_passed": true,
+  "all_frame_diagnostics_agree_with_manifest_and_motion_verification": true,
+  "current_environment_recorded_without_package_upgrades": true,
+  "pip_check_passed": true,
+  "readme_powershell_blocks_syntax_checked": 13,
+  "plots_visually_checked": {
+    "latency_comparison.png": {
+      "size_pixels": [
+        2340,
+        2376
+      ],
+      "bytes": 195015
+    },
+    "caching_reduction_comparison.png": {
+      "size_pixels": [
+        2160,
+        1494
+      ],
+      "bytes": 100235
+    }
+  },
+  "personal_paths_omitted_and_git_ignore_exclusions_checked": true,
+  "initial_export_api_probe": {
+    "reference_video": "y5Iu7XkTqV0",
+    "decoded_frames": 300,
+    "export_disabled_available_frames": 0,
+    "export_disabled_total_vectors": 0,
+    "export_enabled_available_frames": 295,
+    "export_enabled_total_vectors": 211292,
+    "flags2_applied": 268435456
+  },
+  "single_video_measured_rows": 30,
+  "pilot_measured_rows": 300,
+  "warmup_trials_excluded": 120,
+  "verification_trials_excluded": 120,
+  "actual_same_repetition_negative_reductions_pct": [
+    -29.28397837338543,
+    -6.777515174688295
+  ],
+  "timing_sources_changed_after_measurement": false,
+  "analysis_and_documentation_only_changes_after_measurement": true,
+  "unresolved_blockers": [],
+  "relative_markdown_links_checked": 43,
+  "staged_clean_checkout_original_release_validation_passed": true,
+  "staged_clean_checkout_motion_summary_matches": true,
+  "same_original_inputs_encoder_decoder_and_numerical_settings_confirmed": true
+}

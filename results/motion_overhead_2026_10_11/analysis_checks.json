@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "rejection_cases": [
+    "wrong decoded count",
+    "wrong appearance count",
+    "wrong vector count",
+    "missing measured row",
+    "wrong metadata row count",
+    "wrong recorded order",
+    "wrong seed",
+    "missing warmup"
+  ],
+  "synthetic_analysis_checks_only": [
+    "negative savings retained",
+    "negative configuration differences retained"
+  ],
+  "diagnostic_rows": 3096,
+  "diagnostic_counts_match_manifest_and_verification": true,
+  "b_frames": 1411,
+  "same_repetition_periodic_mv_slower": [
+    {
+      "video_id": "b6Q_b7vgc7Q",
+      "run_id": 1,
+      "dense_mv": 400.4893000001175,
+      "periodic_mv": 517.7684999998746
+    },
+    {
+      "video_id": "ddvJ6-faICE",
+      "run_id": 2,
+      "dense_mv": 283.4017999994103,
+      "periodic_mv": 302.6093999997101
+    }
+  ]
+}

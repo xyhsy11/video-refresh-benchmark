@@ -1,0 +1,506 @@
+{
+  "started_at_utc": "2026-10-12T06:17:44.208666+00:00",
+  "status": "passed",
+  "experiment_label": "motion_overhead_2026_10_11",
+  "directory_date_is_label_not_measurement_date": true,
+  "metric": "Encoded-clip-to-features latency (ms)",
+  "device": "cuda:0",
+  "boundary": "encoded bytes in memory -> fresh BytesIO/container -> configure decoder -> full sequential decode/workload -> close container -> CUDA synchronize",
+  "inclusions": [
+    "container open/close",
+    "demux/decode",
+    "optional vector export/access/conversion",
+    "CPU descriptors and retention",
+    "required RGB conversion/preprocessing/transfer/encoder",
+    "GPU appearance cache/output retention"
+  ],
+  "exclusions": [
+    "file loading",
+    "inspection",
+    "model/weight preparation",
+    "verification",
+    "logging/CSV/plotting"
+  ],
+  "input": "data/videos/y5Iu7XkTqV0.mp4",
+  "seed": 20261011,
+  "modes": [
+    "decode",
+    "dense",
+    "periodic",
+    "decode_mv",
+    "dense_mv",
+    "periodic_mv"
+  ],
+  "candidates": 16,
+  "refresh_every": 4,
+  "warmup_trials_per_mode": 2,
+  "measured_repetitions": 5,
+  "decoder": {
+    "thread_count": 1,
+    "thread_type": "NONE",
+    "skip_frame": "NONE",
+    "hardware_acceleration": false
+  },
+  "motion_export": {
+    "api": "stream.codec_context.options before the first decode",
+    "options": {
+      "flags2": "+export_mvs"
+    },
+    "side_data": "frame.side_data.get('MOTION_VECTORS').to_ndarray()",
+    "software_decoder": true
+  },
+  "motion_descriptors": {
+    "displacement": "dx=float64(motion_x)/float64(motion_scale); dy likewise",
+    "magnitude": "numpy.hypot(dx, dy)",
+    "units": "pixels of codec displacement",
+    "mean": "unweighted mean over all exported vector entries",
+    "p90": "numpy.percentile(magnitudes, 90, method='linear')",
+    "missing": "count=0, mean=0, p90=0, mv_available=false",
+    "reference_direction": "source<0: past; source>0: future; source==0: other",
+    "retention": "one fresh frozen slotted MotionDescriptor per decoded frame in a CPU list until timer stops",
+    "invalid_data": "raise ValueError with video/frame context; do not discard or invent vectors",
+    "scope": "no optical flow, physical velocity, learned motion encoder, or descriptor GPU transfer"
+  },
+  "numerical_settings": {
+    "dtype": "float32",
+    "batch_size": 1,
+    "eval": true,
+    "inference_mode": true,
+    "autocast": false,
+    "compiled": false,
+    "deterministic_algorithms": true,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "cudnn_allow_tf32": false,
+    "matmul_allow_tf32": false,
+    "float32_matmul_precision": "highest",
+    "torch_cpu_threads": 1,
+    "torch_interop_threads": 1,
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+    "transfer_non_blocking": true,
+    "input_cpu_memory_pinned": false,
+    "note": "Pageable CPU transfers; non_blocking does not promise transfer/compute overlap."
+  },
+  "environment": {
+    "checked_at_utc": "2026-10-12T06:17:33.548373+00:00",
+    "python": {
+      "version": "3.12.10",
+      "full_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+      "executable": ".venv/Scripts/python.exe",
+      "prefix": ".venv",
+      "in_virtual_environment": true
+    },
+    "os": "Windows-11-10.0.22631-SP0",
+    "cpu": {
+      "name": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+      "logical_processors": 16,
+      "windows_processors": {
+        "Name": "Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz",
+        "NumberOfCores": 8,
+        "NumberOfLogicalProcessors": 16
+      }
+    },
+    "packages": {
+      "torch": {
+        "version": "2.14.1+cu132",
+        "import_ok": true
+      },
+      "torchvision": {
+        "version": "0.29.1+cu132",
+        "import_ok": true
+      },
+      "av": {
+        "version": "19.0.1",
+        "import_ok": true
+      },
+      "numpy": {
+        "version": "2.5.2",
+        "import_ok": true
+      },
+      "pandas": {
+        "version": "3.0.6",
+        "import_ok": true
+      },
+      "matplotlib": {
+        "version": "3.11.2",
+        "import_ok": true
+      },
+      "Pillow": {
+        "version": "12.3.0",
+        "import_ok": true
+      }
+    },
+    "ffmpeg_version": "9.0.2",
+    "ffmpeg_libraries": {
+      "libavcodec": "63.1.102",
+      "libavdevice": "63.1.102",
+      "libavfilter": "12.1.102",
+      "libavformat": "63.1.102",
+      "libavutil": "61.1.102",
+      "libswresample": "7.1.102",
+      "libswscale": "10.1.102"
+    },
+    "nvidia_smi": {
+      "gpus": [
+        {
+          "name": "NVIDIA GeForce RTX 3080 Laptop GPU",
+          "driver_version": "610.62",
+          "memory_mib": 16384
+        }
+      ],
+      "error": null
+    },
+    "cuda": {
+      "build_version": "13.2",
+      "available": true,
+      "visible_devices_setting": null,
+      "devices": [
+        {
+          "index": 0,
+          "name": "NVIDIA GeForce RTX 3080 Laptop GPU",
+          "memory_bytes": 17179344896,
+          "compute_capability": "8.6"
+        }
+      ],
+      "tensor_test": {
+        "passed": true,
+        "operation": "A @ B on cuda:0",
+        "result": [
+          [
+            19.0,
+            22.0
+          ],
+          [
+            43.0,
+            50.0
+          ]
+        ],
+        "device": "cuda:0",
+        "input_a": [
+          [
+            1.0,
+            2.0
+          ],
+          [
+            3.0,
+            4.0
+          ]
+        ],
+        "input_b": [
+          [
+            5.0,
+            6.0
+          ],
+          [
+            7.0,
+            8.0
+          ]
+        ],
+        "expected": [
+          [
+            19.0,
+            22.0
+          ],
+          [
+            43.0,
+            50.0
+          ]
+        ]
+      },
+      "torchvision_test": {
+        "passed": true,
+        "operation": "torchvision.ops.nms on cuda:0",
+        "result": [
+          0,
+          2
+        ],
+        "expected": [
+          0,
+          2
+        ]
+      }
+    },
+    "errors": [],
+    "diagnosis": [],
+    "passed": true,
+    "installed_distributions": {
+      "Jinja2": "3.1.6",
+      "MarkupSafe": "3.0.3",
+      "av": "19.0.1",
+      "contourpy": "1.4.0",
+      "cycler": "0.12.1",
+      "filelock": "3.32.3",
+      "fonttools": "4.66.1",
+      "fsspec": "2026.7.0",
+      "kiwisolver": "1.5.1",
+      "matplotlib": "3.11.2",
+      "mpmath": "1.3.0",
+      "networkx": "3.6.1",
+      "numpy": "2.5.2",
+      "packaging": "26.3",
+      "pandas": "3.0.6",
+      "pillow": "12.3.0",
+      "pip": "26.2.1",
+      "pyparsing": "3.3.3",
+      "python-dateutil": "2.9.0.post0",
+      "setuptools": "78.1.0",
+      "six": "1.17.0",
+      "sympy": "1.14.0",
+      "torch": "2.14.1+cu132",
+      "torchvision": "0.29.1+cu132",
+      "typing_extensions": "4.16.0",
+      "tzdata": "2026.5"
+    },
+    "nvidia_driver_cuda_support": "13.3"
+  },
+  "model": {
+    "name": "resnet18",
+    "weights": "ResNet18_Weights.IMAGENET1K_V1",
+    "weights_url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+    "weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "fc": "torch.nn.Identity",
+    "feature_shape": [
+      1,
+      512
+    ],
+    "preprocessing": "ImageClassification(\n    crop_size=[224]\n    resize_size=[256]\n    mean=[0.485, 0.456, 0.406]\n    std=[0.229, 0.224, 0.225]\n    interpolation=InterpolationMode.BILINEAR\n)",
+    "preparation_elapsed_ms_excluded": 259.6352000000479
+  },
+  "videos": [
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "relative_path": "data/videos/y5Iu7XkTqV0.mp4",
+      "file_identity": {
+        "size_bytes": 430841,
+        "mtime_ns": 1791615340374312100,
+        "sha256": "dce61ba9d61c7b42ebc825595b67c2e88c1b96888e428f74eecbdb802176cb28"
+      },
+      "inspected_at_utc": "2026-10-10T06:56:33.397566+00:00",
+      "codec": "h264",
+      "resolution": {
+        "width": 454,
+        "height": 256
+      },
+      "reported_frame_rate": {
+        "rational": "30/1",
+        "fps": 30.0
+      },
+      "reported_metadata_frame_count": 300,
+      "stream_index": 0,
+      "stream_time_base": "1/15360",
+      "stream_duration_seconds": 10.0,
+      "container_duration_seconds": 10.0,
+      "duration_seconds": 10.0,
+      "duration_method": "decoded last PTS - first PTS + final frame duration (reported FPS fallback if final duration missing)",
+      "decoded_pts_duration_seconds": 10.0,
+      "decoded_frame_count": 300,
+      "frame_type_counts": {
+        "I": 5,
+        "P": 139,
+        "B": 156
+      },
+      "candidate_count": 16,
+      "candidate_indices": [
+        0,
+        20,
+        40,
+        60,
+        80,
+        100,
+        120,
+        140,
+        159,
+        179,
+        199,
+        219,
+        239,
+        259,
+        279,
+        299
+      ],
+      "candidate_index_basis": "zero-based sequential decoded-frame indices",
+      "decoder": {
+        "thread_count": 1,
+        "thread_type": "NONE",
+        "skip_frame": "NONE",
+        "hardware_acceleration": false
+      },
+      "inspection_elapsed_ms": 155.23850000045059,
+      "file_loading_ms_excluded": 0.22820000049250666
+    }
+  ],
+  "source_code_sha256": {
+    "motion_utils.py": "95fd14b7bc2f2254badaf2be0622ac8c649c4cd339e0526ae73d50951e646c00",
+    "inspect_motion.py": "e1922daaa7111b8b8f191f157dbbfbc98d4196f5fdd2bf231a13a693122e2fce",
+    "benchmark_motion.py": "cee6bd79f7507a968f4b3f4fc2dbe262bd1e4c63f862737c31f7e2858eba583b",
+    "benchmark.py": "d9c2e63d0b888b953b0cb03d583d8176cd579dc6ecd54a04676a0ef4a0d308f1",
+    "research_utils.py": "06b0bd9df2ebbbf314a5a21e086f00e7018d7dbd7a189adac3cf2d79f0352044",
+    "inspect_video.py": "dc272aef3e9a63e69908702276c58adb6b20ecb638a552cb8946ffcdc79b3952",
+    "check_env.py": "01227841757ec29ffeeedce387b8cbf71cea907aef85d11f1886810497475c0b"
+  },
+  "source_commit": "13c0f7739e6e3e5accb393158d89737266c5a42c",
+  "source_branch": "baseline/motion-vector-overhead",
+  "verification_file": "results/motion_overhead_2026_10_11/single_video_verification.json",
+  "verification_sha256": "45c7058e0a57683f6b70c7a73afb1b6d7f6fb2671aec2391b7238bfb227d938f",
+  "warmup_order": [
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "decode",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "decode",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "dense",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "dense",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "periodic",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "periodic",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "decode_mv",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "decode_mv",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "dense_mv",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "dense_mv",
+      "warmup_id": 2
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "periodic_mv",
+      "warmup_id": 1
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "mode": "periodic_mv",
+      "warmup_id": 2
+    }
+  ],
+  "execution_order": [
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "run_id": 1,
+      "modes": [
+        "decode",
+        "dense_mv",
+        "dense",
+        "periodic_mv",
+        "periodic",
+        "decode_mv"
+      ]
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "run_id": 2,
+      "modes": [
+        "decode_mv",
+        "dense_mv",
+        "dense",
+        "periodic",
+        "periodic_mv",
+        "decode"
+      ]
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "run_id": 3,
+      "modes": [
+        "dense",
+        "decode_mv",
+        "dense_mv",
+        "periodic",
+        "decode",
+        "periodic_mv"
+      ]
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "run_id": 4,
+      "modes": [
+        "dense",
+        "periodic",
+        "periodic_mv",
+        "dense_mv",
+        "decode",
+        "decode_mv"
+      ]
+    },
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "run_id": 5,
+      "modes": [
+        "decode",
+        "dense_mv",
+        "decode_mv",
+        "periodic",
+        "periodic_mv",
+        "dense"
+      ]
+    }
+  ],
+  "correctness_checks_inside_timing": false,
+  "control_implementation": "benchmark.process_clip (unchanged)",
+  "gpu_telemetry_before": {
+    "captured_at_utc": "2026-10-12T06:17:44.874064+00:00",
+    "fields": [
+      "name",
+      "driver_version",
+      "temperature.gpu",
+      "pstate",
+      "power.draw",
+      "power.limit",
+      "utilization.gpu",
+      "memory.used"
+    ],
+    "values": "NVIDIA GeForce RTX 3080 Laptop GPU, 610.62, 77, P0, 85.00, [N/A], 34, 5612",
+    "units": "C, W, percent, MiB for respective telemetry fields",
+    "returncode": 0
+  },
+  "completed_at_utc": "2026-10-12T06:17:56.139609+00:00",
+  "measured_rows": 30,
+  "csv_sha256": "6c2e940c0d79d9505efa489ab12f78d5571cb1d2736807ae0c5d5fd1f8b6ee17",
+  "gpu_telemetry_after": {
+    "captured_at_utc": "2026-10-12T06:17:56.296031+00:00",
+    "fields": [
+      "name",
+      "driver_version",
+      "temperature.gpu",
+      "pstate",
+      "power.draw",
+      "power.limit",
+      "utilization.gpu",
+      "memory.used"
+    ],
+    "values": "NVIDIA GeForce RTX 3080 Laptop GPU, 610.62, 75, P0, 63.40, [N/A], 49, 5331",
+    "units": "C, W, percent, MiB for respective telemetry fields",
+    "returncode": 0
+  }
+}

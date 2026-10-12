@@ -1,0 +1,101 @@
+{
+  "checked_at_utc": "2026-10-12T06:13:32.892693+00:00",
+  "input": "data/videos/y5Iu7XkTqV0.mp4",
+  "passed": true,
+  "export_configuration": {
+    "api": "stream.codec_context.options before the first decode",
+    "options": {
+      "flags2": "+export_mvs"
+    },
+    "side_data": "frame.side_data.get('MOTION_VECTORS').to_ndarray()",
+    "software_decoder": true
+  },
+  "descriptors": {
+    "displacement": "dx=float64(motion_x)/float64(motion_scale); dy likewise",
+    "magnitude": "numpy.hypot(dx, dy)",
+    "units": "pixels of codec displacement",
+    "mean": "unweighted mean over all exported vector entries",
+    "p90": "numpy.percentile(magnitudes, 90, method='linear')",
+    "missing": "count=0, mean=0, p90=0, mv_available=false",
+    "reference_direction": "source<0: past; source>0: future; source==0: other",
+    "retention": "one fresh frozen slotted MotionDescriptor per decoded frame in a CPU list until timer stops",
+    "invalid_data": "raise ValueError with video/frame context; do not discard or invent vectors",
+    "scope": "no optical flow, physical velocity, learned motion encoder, or descriptor GPU transfer"
+  },
+  "decoder": {
+    "thread_count": 1,
+    "thread_type": "NONE",
+    "skip_frame": "NONE"
+  },
+  "libraries": {
+    "pyav": "19.0.1",
+    "ffmpeg_release": "9.0.2",
+    "ffmpeg_libraries": {
+      "libavutil": [
+        61,
+        1,
+        102
+      ],
+      "libavcodec": [
+        63,
+        1,
+        102
+      ],
+      "libavformat": [
+        63,
+        1,
+        102
+      ],
+      "libavdevice": [
+        63,
+        1,
+        102
+      ],
+      "libavfilter": [
+        12,
+        1,
+        102
+      ],
+      "libswscale": [
+        10,
+        1,
+        102
+      ],
+      "libswresample": [
+        7,
+        1,
+        102
+      ]
+    }
+  },
+  "videos": [
+    {
+      "video_id": "y5Iu7XkTqV0",
+      "relative_path": "data/videos/y5Iu7XkTqV0.mp4",
+      "file_identity": {
+        "size_bytes": 430841,
+        "mtime_ns": 1791615340374312100,
+        "sha256": "dce61ba9d61c7b42ebc825595b67c2e88c1b96888e428f74eecbdb802176cb28"
+      },
+      "decoded_frames": 300,
+      "frame_type_counts": {
+        "I": 5,
+        "B": 156,
+        "P": 139
+      },
+      "mv_frames_available": 295,
+      "mv_frames_missing": 5,
+      "total_vectors": 211292,
+      "past_reference_vectors": 148169,
+      "future_reference_vectors": 63123,
+      "other_reference_vectors": 0,
+      "inspection_elapsed_ms_excluded": 273.6473999993905,
+      "file_loading_ms_excluded": 0.8981999999377877,
+      "applied_flags2": 268435456,
+      "invalid_vectors": 0,
+      "frame_count_matches_manifest": true
+    }
+  ],
+  "diagnostic_rows": 300,
+  "csv_writing_ms_excluded": 9.143799999947078
+}
