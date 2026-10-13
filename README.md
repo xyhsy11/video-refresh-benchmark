@@ -6,7 +6,7 @@ A reproducible benchmark comparing sequential video decoding, dense RGB feature 
 
 **Research question:** If RGB features are computed at only one-quarter of the candidate positions and cached features are reused elsewhere, how much does encoded-clip-to-features latency decrease?
 
-**Status: preliminary feasibility benchmark.** The October 10 RGB pilot and an October 12 codec-vector CPU overhead follow-up have completed CUDA measurements on ten low-resolution Kinetics validation clips. Periodic processing was faster by median latency in every clip in both experiments. Drift-prediction diagnostics are also complete for the ten-video pilot and a separate 200-video subset with forty unseen test videos. Recognition accuracy, a learned motion branch, adaptive refresh policies, and higher-resolution performance remain unevaluated.
+**Status: preliminary feasibility benchmark.** The October 10 RGB pilot and an October 12 codec-vector CPU overhead follow-up have completed CUDA measurements on ten low-resolution Kinetics validation clips. Periodic processing was faster by median latency in every clip in both experiments. Drift-prediction diagnostics are complete for the ten-video pilot and a separate 200-video subset. Fixed-budget adaptive policies now have an offline validation-tuned feature-fidelity replay, with mixed/negative outcomes. Recognition accuracy, a learned motion branch, actual adaptive-policy execution performance, and higher-resolution performance remain unevaluated.
 
 ## What the three modes do
 
@@ -387,12 +387,53 @@ Motion adds predictive information beyond age and the constant baseline on this 
 
 See the [complete findings](results/cache_drift_v2/findings.md), [paired improvements plot](results/cache_drift_v2/test_paired_improvements.png), [prediction plot](results/cache_drift_v2/test_predicted_vs_observed.png), [per-video metrics](results/cache_drift_v2/per_video_metrics.csv), [all bootstrap comparisons](results/cache_drift_v2/bootstrap_intervals.json), [frozen split](results/cache_drift_v2/split_manifest.json), and [verification](results/cache_drift_v2/verification.json). Eighteen software checks, the training-only smoke collection, independent real-data label/interval audits, saved-prediction metric reproduction, and the existing release validator passed. All 90 protected original sources and snapshot files remain unchanged. Archives, videos, and weights remain local and ignored by Git.
 
+## adaptive_refresh_v1: offline policy replay at a fixed budget
+
+This stage asks whether motion-informed decisions return better cached appearance features than periodic refresh at the same **simulated refresh count**. It uses the saved v2 features and motion descriptors from **120 training and 40 validation videos**; no test features, targets, predictions, or metrics are used. Published snapshots and scripts remain unchanged. No videos are downloaded/decoded, no RGB features are recollected, and no encoder or GPU latency benchmark runs.
+
+All `0 <= r < t < 16` training pairs produce **120 pairs per training video / 14,400 training observations**. Age-only, motion-only, and age-plus-motion ridge models use the original four age and six motion inputs, training-only standardization, and fixed `alpha=1.0`. The target compares fresh references before any refresh decision. Sequential callbacks receive only cheap current/past inputs; cached age and motion intervals reset after every actual refresh. Reference features belong to the evaluator, which calculates post-decision output error separately.
+
+The mandatory candidate-0 refresh counts toward B=2,4,8; dense is a separate B=16 reference. Sparse policies use exactly B refreshes and return sixteen outputs. A remaining budget of zero requires reuse; when remaining budget equals remaining candidate slots including the current slot, refreshing is forced. Periodic positions are `range(0,16,16//B)`. Random uses all ten seeds **20261013–20261022** with stable per-source hashing, averaging seeds within each video. The exact offline oracle enumerates all feasible schedules and is unavailable to callbacks.
+
+Before validation evaluation, `protocol.json` freezes one global threshold per scored policy/budget: unique training-score quantiles at 0%,5%,...,100%, plus always-refresh and wait-until-forced settings. Predicted drift is clipped to `[0,2]`; simple motion uses current p90 displacement in pixels. Threshold selection minimizes equal-weight mean output error over the forty validation videos, with a fixed grid-order tie break. Coefficients and scalers stay unchanged; every threshold's results are saved. These are **validation-tuned developmental results**, not unseen-test evidence or statistical significance.
+
+Run from the repository root in the existing environment:
+
+```powershell
+& .\.venv\Scripts\python.exe .\replay_refresh_policies.py --input results/cache_drift_v2 --output results/adaptive_refresh_v1 --budgets 2 4 8 --seed 20261013
+if ($LASTEXITCODE -ne 0) { throw 'Replay incomplete; inspect metadata and verification before interpreting results.' }
+```
+
+Existing outputs are preserved automatically. The final reviewed run is [results/adaptive_refresh_v1_20261013T092846/](results/adaptive_refresh_v1_20261013T092846/README.md). Earlier complete runs under `results/adaptive_refresh_v1/`, `results/adaptive_refresh_v1_20261013T090709/`, and `results/adaptive_refresh_v1_20261013T091210/` remain local. Verification and reporting refinements did not change the fitted parameters, thresholds, scientific CSVs, or aggregate results; [run consistency](results/adaptive_refresh_v1_20261013T092846/run_consistency.json) checks that explicitly.
+
+Mean output-feature cosine error over sixteen candidates, averaged equally across forty validation videos (lower is better):
+
+| Policy | B=2 | B=4 | B=8 |
+| --- | ---: | ---: | ---: |
+| Periodic | 0.134518 | 0.094093 | 0.049636 |
+| Random, all ten seeds | 0.139089 | 0.104342 | 0.057898 |
+| Simple motion threshold | 0.141879 | 0.109971 | 0.068390 |
+| Age only | 0.128320 | 0.093565 | 0.051201 |
+| Motion only | 0.137218 | 0.103380 | 0.057836 |
+| Age plus motion | 0.126060 | 0.093840 | 0.051125 |
+| Offline oracle | 0.107819 | 0.068893 | 0.031980 |
+
+Dense **B=16** mean error is approximately zero (`3.157e-17`). At the primary **B=4**, age plus motion improves nineteen videos and worsens twenty-one. Its mean absolute reduction is only **0.000254**; mean per-video percentage reduction is **-0.65%**, and mean per-video oracle-gap closure is **-21.31%**. The oracle's mean per-video possible reduction is **25.36%**. Averaging absolute reductions, normalized percentages, and normalized oracle gaps uses different denominators and can give different signs; a ratio of aggregate means is a separate calculation.
+
+The combined policy beats random, simple motion, and motion-only in average output error, but slightly trails age-only at B=4. It helps at B=2 and is worse than periodic at B=8. Motion-only is worse than periodic at every budget. Better drift prediction has **not translated into consistent adaptive-policy fidelity**. At B=8 the combined policy averages 2.73 forced refreshes; 75% of videos require forced spending, suggesting budget allocation deserves inspection.
+
+![Validation output error versus simulated refresh budget](results/adaptive_refresh_v1_20261013T092846/error_vs_refresh_budget.png)
+
+See [findings](results/adaptive_refresh_v1_20261013T092846/findings.md), [B=4 per-video plot](results/adaptive_refresh_v1_20261013T092846/per_video_B4.png), [success/failure timelines](results/adaptive_refresh_v1_20261013T092846/example_timelines.png), [per-video metrics](results/adaptive_refresh_v1_20261013T092846/validation_per_video_metrics.csv), and [verification](results/adaptive_refresh_v1_20261013T092846/verification.json). Twenty-two focused checks and the real-data budget/cache/interval/oracle audits passed; saved traces reproduce the results. All 925 protected existing files remain unchanged, and release validation passes.
+
+Recommendation: preserve this mixed/negative result. A frozen fresh-test replay could audit it, but do not advance directly to GPU timing or a recognition probe for this rule. Inspect predictor/decision-rule quality and budget allocation on training or new development data first; do not repeatedly tune these validation videos for a positive result. This measures appearance-feature fidelity, not recognition accuracy. Replay measures no decoding, motion-processing, controller, or GPU latency. Future-reference codec vectors and full-clip candidate selection make it offline. No confidence intervals or significance claims are made.
+
 ## Limitations and roadmap
 
 This is a preliminary feasibility benchmark, not evidence of maintained recognition accuracy or a production streaming system.
 
-- Recognition accuracy and the effect of stale appearance features remain unevaluated.
-- The October 10 pilot excludes motion processing. The follow-up measures codec-vector export and simple CPU descriptor overhead; a learned motion branch, adaptive refresh controller, and action-classification head remain unevaluated.
+- Recognition accuracy and the effect of stale appearance features on recognition remain unevaluated.
+- The October 10 pilot excludes motion processing. The follow-up measures codec-vector export and simple CPU descriptor overhead; a learned motion branch, actual adaptive-controller timing/accuracy, and action-classification head remain unevaluated.
 - The clips are low-resolution; higher-resolution and 1080p performance remain unevaluated.
 - File loading is measured separately and excluded from the reported metric.
 - Offline full-clip processing time is not live-stream response latency.
@@ -413,10 +454,12 @@ The follow-up confirms savings remain with a substantial CPU codec-vector worklo
 - `benchmark_motion.py` / `summarize_motion.py`: six-condition correctness/timing and motion-overhead analysis.
 - `prepare_cache_drift_v2.py` / `collect_cache_drift_v2.py` / `analyze_cache_drift_v2.py`: bounded dataset acquisition, CUDA reference collection, and fixed train/validation/test drift evaluation.
 - `cache_drift_v2_utils.py` / `verify_cache_drift_v2.py`: frozen protocol, identity/preservation checks, and isolated software fixtures.
+- `replay_refresh_policies.py` / `refresh_policy_utils.py` / `test_refresh_policies.py` / `refresh_replay_report.py`: fixed-budget offline policy replay, leakage/budget checks, and developmental findings.
 - `requirements.txt` / `requirements-cuda.txt`: tested dependency installation, with CUDA separated.
 - `results/pilot_2026_10_10/`: curated public results and exact tested environment.
 - `results/motion_overhead_2026_10_11/`: curated codec-vector overhead experiment, with actual run timestamps.
 - `results/cache_drift_v1/` / `results/cache_drift_v2/`: curated drift-prediction diagnostics and their audit artifacts.
+- `results/adaptive_refresh_v1_20261013T092846/`: curated offline validation policy replay, with earlier runs preserved locally.
 - `data/source/`, `data/videos/`, `.venv/`, and other `results/` subfolders: local, ignored assets and outputs.
 
 ## Credits and license

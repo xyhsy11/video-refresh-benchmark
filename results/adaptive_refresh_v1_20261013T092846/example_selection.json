@@ -1,0 +1,21 @@
+{
+  "examples": [
+    {
+      "role": "largest_gain",
+      "video_id": "DBGea9pST1A_000016_000026",
+      "source_video_id": "DBGea9pST1A",
+      "label": "shoveling snow",
+      "absolute_reduction_vs_periodic": 0.057209037422244105,
+      "selection": "B=4 age-plus-motion largest absolute gain/loss versus periodic, video-ID tie break; descriptive only"
+    },
+    {
+      "role": "failure",
+      "video_id": "BgAm_L544l4_000083_000093",
+      "source_video_id": "BgAm_L544l4",
+      "label": "petting cat",
+      "absolute_reduction_vs_periodic": -0.05291038305202658,
+      "selection": "B=4 age-plus-motion largest absolute gain/loss versus periodic, video-ID tie break; descriptive only"
+    }
+  ],
+  "not_used_for_policy_tuning": true
+}

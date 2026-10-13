@@ -1,0 +1,546 @@
+{
+  "built_from_training_only_at_utc": "2026-10-13T09:28:55.139338+00:00",
+  "settings": {
+    "simple_motion": [
+      {
+        "threshold_id": "always",
+        "kind": "always",
+        "value": null
+      },
+      {
+        "threshold_id": "q000",
+        "kind": "threshold",
+        "value": 0.0,
+        "first_quantile_percent": 0
+      },
+      {
+        "threshold_id": "q015",
+        "kind": "threshold",
+        "value": 0.25,
+        "first_quantile_percent": 15
+      },
+      {
+        "threshold_id": "q020",
+        "kind": "threshold",
+        "value": 0.5,
+        "first_quantile_percent": 20
+      },
+      {
+        "threshold_id": "q025",
+        "kind": "threshold",
+        "value": 0.7905694150420949,
+        "first_quantile_percent": 25
+      },
+      {
+        "threshold_id": "q030",
+        "kind": "threshold",
+        "value": 1.2747548783981961,
+        "first_quantile_percent": 30
+      },
+      {
+        "threshold_id": "q035",
+        "kind": "threshold",
+        "value": 1.7677669529663689,
+        "first_quantile_percent": 35
+      },
+      {
+        "threshold_id": "q040",
+        "kind": "threshold",
+        "value": 2.3717082451262845,
+        "first_quantile_percent": 40
+      },
+      {
+        "threshold_id": "q045",
+        "kind": "threshold",
+        "value": 3.3634060117684275,
+        "first_quantile_percent": 45
+      },
+      {
+        "threshold_id": "q050",
+        "kind": "threshold",
+        "value": 4.25,
+        "first_quantile_percent": 50
+      },
+      {
+        "threshold_id": "q055",
+        "kind": "threshold",
+        "value": 5.220153254455275,
+        "first_quantile_percent": 55
+      },
+      {
+        "threshold_id": "q060",
+        "kind": "threshold",
+        "value": 6.257455532033686,
+        "first_quantile_percent": 60
+      },
+      {
+        "threshold_id": "q065",
+        "kind": "threshold",
+        "value": 7.5,
+        "first_quantile_percent": 65
+      },
+      {
+        "threshold_id": "q070",
+        "kind": "threshold",
+        "value": 8.96172416446746,
+        "first_quantile_percent": 70
+      },
+      {
+        "threshold_id": "q075",
+        "kind": "threshold",
+        "value": 10.771779968483294,
+        "first_quantile_percent": 75
+      },
+      {
+        "threshold_id": "q080",
+        "kind": "threshold",
+        "value": 13.197034724712934,
+        "first_quantile_percent": 80
+      },
+      {
+        "threshold_id": "q085",
+        "kind": "threshold",
+        "value": 16.624095155378846,
+        "first_quantile_percent": 85
+      },
+      {
+        "threshold_id": "q090",
+        "kind": "threshold",
+        "value": 21.923161268393752,
+        "first_quantile_percent": 90
+      },
+      {
+        "threshold_id": "q095",
+        "kind": "threshold",
+        "value": 35.762007854199794,
+        "first_quantile_percent": 95
+      },
+      {
+        "threshold_id": "q100",
+        "kind": "threshold",
+        "value": 185.31695687219502,
+        "first_quantile_percent": 100
+      },
+      {
+        "threshold_id": "wait",
+        "kind": "wait",
+        "value": null
+      }
+    ],
+    "age_only": [
+      {
+        "threshold_id": "always",
+        "kind": "always",
+        "value": null
+      },
+      {
+        "threshold_id": "q000",
+        "kind": "threshold",
+        "value": 0.08236603669444705,
+        "first_quantile_percent": 0
+      },
+      {
+        "threshold_id": "q005",
+        "kind": "threshold",
+        "value": 0.11004003404645342,
+        "first_quantile_percent": 5
+      },
+      {
+        "threshold_id": "q010",
+        "kind": "threshold",
+        "value": 0.11065713326531498,
+        "first_quantile_percent": 10
+      },
+      {
+        "threshold_id": "q015",
+        "kind": "threshold",
+        "value": 0.12619854095404948,
+        "first_quantile_percent": 15
+      },
+      {
+        "threshold_id": "q020",
+        "kind": "threshold",
+        "value": 0.13149891527522964,
+        "first_quantile_percent": 20
+      },
+      {
+        "threshold_id": "q025",
+        "kind": "threshold",
+        "value": 0.1315090098634737,
+        "first_quantile_percent": 25
+      },
+      {
+        "threshold_id": "q030",
+        "kind": "threshold",
+        "value": 0.14857234077026443,
+        "first_quantile_percent": 30
+      },
+      {
+        "threshold_id": "q035",
+        "kind": "threshold",
+        "value": 0.15051794152663034,
+        "first_quantile_percent": 35
+      },
+      {
+        "threshold_id": "q040",
+        "kind": "threshold",
+        "value": 0.15726988301561387,
+        "first_quantile_percent": 40
+      },
+      {
+        "threshold_id": "q045",
+        "kind": "threshold",
+        "value": 0.1677109879698809,
+        "first_quantile_percent": 45
+      },
+      {
+        "threshold_id": "q050",
+        "kind": "threshold",
+        "value": 0.17019949100612755,
+        "first_quantile_percent": 50
+      },
+      {
+        "threshold_id": "q055",
+        "kind": "threshold",
+        "value": 0.18288098343089448,
+        "first_quantile_percent": 55
+      },
+      {
+        "threshold_id": "q060",
+        "kind": "threshold",
+        "value": 0.19044617315177187,
+        "first_quantile_percent": 60
+      },
+      {
+        "threshold_id": "q065",
+        "kind": "threshold",
+        "value": 0.19661914143193163,
+        "first_quantile_percent": 65
+      },
+      {
+        "threshold_id": "q070",
+        "kind": "threshold",
+        "value": 0.20354857975290896,
+        "first_quantile_percent": 70
+      },
+      {
+        "threshold_id": "q075",
+        "kind": "threshold",
+        "value": 0.20833424845073178,
+        "first_quantile_percent": 75
+      },
+      {
+        "threshold_id": "q080",
+        "kind": "threshold",
+        "value": 0.2182485934250089,
+        "first_quantile_percent": 80
+      },
+      {
+        "threshold_id": "q085",
+        "kind": "threshold",
+        "value": 0.22640303981791632,
+        "first_quantile_percent": 85
+      },
+      {
+        "threshold_id": "q090",
+        "kind": "threshold",
+        "value": 0.23292595017612872,
+        "first_quantile_percent": 90
+      },
+      {
+        "threshold_id": "q095",
+        "kind": "threshold",
+        "value": 0.2397918209345778,
+        "first_quantile_percent": 95
+      },
+      {
+        "threshold_id": "q100",
+        "kind": "threshold",
+        "value": 0.28504432398336044,
+        "first_quantile_percent": 100
+      },
+      {
+        "threshold_id": "wait",
+        "kind": "wait",
+        "value": null
+      }
+    ],
+    "motion_only": [
+      {
+        "threshold_id": "always",
+        "kind": "always",
+        "value": null
+      },
+      {
+        "threshold_id": "q000",
+        "kind": "threshold",
+        "value": 0.12980957663244827,
+        "first_quantile_percent": 0
+      },
+      {
+        "threshold_id": "q005",
+        "kind": "threshold",
+        "value": 0.1313195296817789,
+        "first_quantile_percent": 5
+      },
+      {
+        "threshold_id": "q010",
+        "kind": "threshold",
+        "value": 0.13244618393679194,
+        "first_quantile_percent": 10
+      },
+      {
+        "threshold_id": "q015",
+        "kind": "threshold",
+        "value": 0.13352610368178752,
+        "first_quantile_percent": 15
+      },
+      {
+        "threshold_id": "q020",
+        "kind": "threshold",
+        "value": 0.13572281845657766,
+        "first_quantile_percent": 20
+      },
+      {
+        "threshold_id": "q025",
+        "kind": "threshold",
+        "value": 0.137864097798311,
+        "first_quantile_percent": 25
+      },
+      {
+        "threshold_id": "q030",
+        "kind": "threshold",
+        "value": 0.14021348421248733,
+        "first_quantile_percent": 30
+      },
+      {
+        "threshold_id": "q035",
+        "kind": "threshold",
+        "value": 0.14326927806295103,
+        "first_quantile_percent": 35
+      },
+      {
+        "threshold_id": "q040",
+        "kind": "threshold",
+        "value": 0.14623291866833074,
+        "first_quantile_percent": 40
+      },
+      {
+        "threshold_id": "q045",
+        "kind": "threshold",
+        "value": 0.14905082342701412,
+        "first_quantile_percent": 45
+      },
+      {
+        "threshold_id": "q050",
+        "kind": "threshold",
+        "value": 0.15235411953349332,
+        "first_quantile_percent": 50
+      },
+      {
+        "threshold_id": "q055",
+        "kind": "threshold",
+        "value": 0.15667748883809662,
+        "first_quantile_percent": 55
+      },
+      {
+        "threshold_id": "q060",
+        "kind": "threshold",
+        "value": 0.16141295608677797,
+        "first_quantile_percent": 60
+      },
+      {
+        "threshold_id": "q065",
+        "kind": "threshold",
+        "value": 0.165015173273762,
+        "first_quantile_percent": 65
+      },
+      {
+        "threshold_id": "q070",
+        "kind": "threshold",
+        "value": 0.17077856899066007,
+        "first_quantile_percent": 70
+      },
+      {
+        "threshold_id": "q075",
+        "kind": "threshold",
+        "value": 0.17896109447239186,
+        "first_quantile_percent": 75
+      },
+      {
+        "threshold_id": "q080",
+        "kind": "threshold",
+        "value": 0.1905628143353802,
+        "first_quantile_percent": 80
+      },
+      {
+        "threshold_id": "q085",
+        "kind": "threshold",
+        "value": 0.20437785600390734,
+        "first_quantile_percent": 85
+      },
+      {
+        "threshold_id": "q090",
+        "kind": "threshold",
+        "value": 0.23698527605853897,
+        "first_quantile_percent": 90
+      },
+      {
+        "threshold_id": "q095",
+        "kind": "threshold",
+        "value": 0.3064818441993555,
+        "first_quantile_percent": 95
+      },
+      {
+        "threshold_id": "q100",
+        "kind": "threshold",
+        "value": 0.6829372364245165,
+        "first_quantile_percent": 100
+      },
+      {
+        "threshold_id": "wait",
+        "kind": "wait",
+        "value": null
+      }
+    ],
+    "age_plus_motion": [
+      {
+        "threshold_id": "always",
+        "kind": "always",
+        "value": null
+      },
+      {
+        "threshold_id": "q000",
+        "kind": "threshold",
+        "value": 0.07219229676110178,
+        "first_quantile_percent": 0
+      },
+      {
+        "threshold_id": "q005",
+        "kind": "threshold",
+        "value": 0.08368456986374083,
+        "first_quantile_percent": 5
+      },
+      {
+        "threshold_id": "q010",
+        "kind": "threshold",
+        "value": 0.0951971537970572,
+        "first_quantile_percent": 10
+      },
+      {
+        "threshold_id": "q015",
+        "kind": "threshold",
+        "value": 0.10601106525147375,
+        "first_quantile_percent": 15
+      },
+      {
+        "threshold_id": "q020",
+        "kind": "threshold",
+        "value": 0.11444990242358426,
+        "first_quantile_percent": 20
+      },
+      {
+        "threshold_id": "q025",
+        "kind": "threshold",
+        "value": 0.1249225537267596,
+        "first_quantile_percent": 25
+      },
+      {
+        "threshold_id": "q030",
+        "kind": "threshold",
+        "value": 0.13345962635571643,
+        "first_quantile_percent": 30
+      },
+      {
+        "threshold_id": "q035",
+        "kind": "threshold",
+        "value": 0.14253194975990097,
+        "first_quantile_percent": 35
+      },
+      {
+        "threshold_id": "q040",
+        "kind": "threshold",
+        "value": 0.1502241401130186,
+        "first_quantile_percent": 40
+      },
+      {
+        "threshold_id": "q045",
+        "kind": "threshold",
+        "value": 0.15780640259920792,
+        "first_quantile_percent": 45
+      },
+      {
+        "threshold_id": "q050",
+        "kind": "threshold",
+        "value": 0.16528291479510643,
+        "first_quantile_percent": 50
+      },
+      {
+        "threshold_id": "q055",
+        "kind": "threshold",
+        "value": 0.17202939064708037,
+        "first_quantile_percent": 55
+      },
+      {
+        "threshold_id": "q060",
+        "kind": "threshold",
+        "value": 0.17902277082243567,
+        "first_quantile_percent": 60
+      },
+      {
+        "threshold_id": "q065",
+        "kind": "threshold",
+        "value": 0.18640329042991666,
+        "first_quantile_percent": 65
+      },
+      {
+        "threshold_id": "q070",
+        "kind": "threshold",
+        "value": 0.19348338651833671,
+        "first_quantile_percent": 70
+      },
+      {
+        "threshold_id": "q075",
+        "kind": "threshold",
+        "value": 0.2010059991652934,
+        "first_quantile_percent": 75
+      },
+      {
+        "threshold_id": "q080",
+        "kind": "threshold",
+        "value": 0.21029036911114038,
+        "first_quantile_percent": 80
+      },
+      {
+        "threshold_id": "q085",
+        "kind": "threshold",
+        "value": 0.22572559577722254,
+        "first_quantile_percent": 85
+      },
+      {
+        "threshold_id": "q090",
+        "kind": "threshold",
+        "value": 0.25013453200368474,
+        "first_quantile_percent": 90
+      },
+      {
+        "threshold_id": "q095",
+        "kind": "threshold",
+        "value": 0.31429729488541985,
+        "first_quantile_percent": 95
+      },
+      {
+        "threshold_id": "q100",
+        "kind": "threshold",
+        "value": 0.6442507509912834,
+        "first_quantile_percent": 100
+      },
+      {
+        "threshold_id": "wait",
+        "kind": "wait",
+        "value": null
+      }
+    ]
+  },
+  "quantile_method": "linear"
+}
