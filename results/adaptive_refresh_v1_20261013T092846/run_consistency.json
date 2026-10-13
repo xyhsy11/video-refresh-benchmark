@@ -1,0 +1,23 @@
+{
+  "checked_at_utc": "2026-10-13T09:31:36.086196+00:00",
+  "passed": true,
+  "retained_run_directories": [
+    "results/adaptive_refresh_v1",
+    "results/adaptive_refresh_v1_20261013T090709",
+    "results/adaptive_refresh_v1_20261013T091210",
+    "results/adaptive_refresh_v1_20261013T092846"
+  ],
+  "changes_between_runs": "Verification now asserts in-memory model immutability and fits each actual model once; missing/corrupt artifact diagnostics tested; findings explain mixed/negative outcomes. No policy, alpha, input, or threshold selection was tuned. Final run corrects only report wording: a negative error reduction is described as an increase by its positive magnitude.",
+  "scientific_artifacts_identical_sha256": {
+    "train_pairs.csv": "dfcd9d0d7a638af40d246a068f70658955a20d3f5f0acf2e530ddb33e9deae8a",
+    "threshold_search.csv": "cec62655b6d6bbf893418afd4f1fab83dcab3456c6ee52295d9e901be48a8a22",
+    "policy_traces.csv": "5b85f5263a2b91654d8f3738de8cb17de7f86bf3f876d799ebd266a5ef1655c1",
+    "validation_trajectories.csv": "a19dcbe0f05e8966077b7f32c0f08828e5cff69412737caea82a89b0b03b95f6",
+    "validation_per_video_metrics.csv": "5462ec0d79ef64becb878fe34f272d2c3ff6d55f653567ecae2e43e50c20cbe9",
+    "validation_pairwise_comparisons.csv": "8209cfbb30899fb0b9b854985950eb6c6a12181bc2d0a1289cdcc8567503d820",
+    "validation_aggregate_metrics.json": "a197b405e4215aa801a0a08a4e3bd8d8db13bc2dc700501d4b2b4bf88aca2882",
+    "oracle_schedules.json": "164616ac183a20536afbfde3f003492628b4212d807f18e4ed2e1b1b7d3b6653"
+  },
+  "coefficients_scalers_and_selected_thresholds_identical": true,
+  "metadata_timestamps_and_narrative_source_hashes_differ_as_expected": true
+}

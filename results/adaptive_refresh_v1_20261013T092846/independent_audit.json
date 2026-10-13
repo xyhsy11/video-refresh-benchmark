@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-13T09:21:40.684205+00:00",
+  "branch": "experiment/adaptive-refresh-v1",
+  "actual_counts": {
+    "training_videos": 120,
+    "validation_videos": 40,
+    "test_videos_used": 0,
+    "training_pairs": 14400,
+    "reference_features_read": 2560,
+    "trajectories": 1960,
+    "output_trace_rows": 31360
+  },
+  "all_training_pairs_independent_cosine_labels_and_prefix_intervals": true,
+  "all_120_real_oracles_match_independent_dynamic_programming": true,
+  "real_input_future_motion_and_evaluator_RGB_isolation": true,
+  "current_source_and_saved_artifact_hashes_verified": true,
+  "protected_original_files_unchanged": 925,
+  "relative_document_links_checked": 46,
+  "powershell_blocks_parsed": 16,
+  "personal_path_secret_scan_passed": true,
+  "gitignore_asset_and_curated_snapshot_checks_passed": true,
+  "run_consistency_verified": true,
+  "release_validator": {
+    "returncode": 0,
+    "stdout": "Public snapshot PASS: ten videos, 150 pilot rows, 15 single-video rows; all counters valid.\nCSV-derived headlines PASS: 34.74% median reduction, 1.532x median speedup, 17.52-45.54% range.\nOriginal timing source hashes and 17 snapshot checksums PASS; 60 relative links PASS.\nPersonal-path and installation-requirement checks PASS; no GPU timing was rerun."
+  },
+  "zero_downloads_decodes_RGB_inference_GPU_timings": true,
+  "publication": "local work only; no commit/push/merge performed"
+}

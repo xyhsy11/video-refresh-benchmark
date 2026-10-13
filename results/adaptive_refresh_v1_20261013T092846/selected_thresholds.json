@@ -1,0 +1,112 @@
+{
+  "selected_at_utc": "2026-10-13T09:29:42.913544+00:00",
+  "scope": "global validation-tuned development thresholds",
+  "validation_video_count": 40,
+  "rule": "minimize equal-weight mean validation-video output error; ties within 1e-12 take earliest grid order: always, ascending unique thresholds, wait",
+  "selected": {
+    "simple_motion": {
+      "2": {
+        "threshold_id": "q055",
+        "kind": "threshold",
+        "value": 5.220153254455275,
+        "first_quantile_percent": 55,
+        "grid_order": 10,
+        "equal_video_mean_error": 0.14187933885045106
+      },
+      "4": {
+        "threshold_id": "q050",
+        "kind": "threshold",
+        "value": 4.25,
+        "first_quantile_percent": 50,
+        "grid_order": 9,
+        "equal_video_mean_error": 0.10997097828338545
+      },
+      "8": {
+        "threshold_id": "q085",
+        "kind": "threshold",
+        "value": 16.624095155378846,
+        "first_quantile_percent": 85,
+        "grid_order": 16,
+        "equal_video_mean_error": 0.06839015008733274
+      }
+    },
+    "age_only": {
+      "2": {
+        "threshold_id": "q065",
+        "kind": "threshold",
+        "value": 0.19661914143193163,
+        "first_quantile_percent": 65,
+        "grid_order": 14,
+        "equal_video_mean_error": 0.12832020555665308
+      },
+      "4": {
+        "threshold_id": "q030",
+        "kind": "threshold",
+        "value": 0.14857234077026443,
+        "first_quantile_percent": 30,
+        "grid_order": 7,
+        "equal_video_mean_error": 0.09356511966497391
+      },
+      "8": {
+        "threshold_id": "q015",
+        "kind": "threshold",
+        "value": 0.12619854095404948,
+        "first_quantile_percent": 15,
+        "grid_order": 4,
+        "equal_video_mean_error": 0.05120106158233049
+      }
+    },
+    "motion_only": {
+      "2": {
+        "threshold_id": "q040",
+        "kind": "threshold",
+        "value": 0.14623291866833074,
+        "first_quantile_percent": 40,
+        "grid_order": 9,
+        "equal_video_mean_error": 0.13721818217312146
+      },
+      "4": {
+        "threshold_id": "q035",
+        "kind": "threshold",
+        "value": 0.14326927806295103,
+        "first_quantile_percent": 35,
+        "grid_order": 8,
+        "equal_video_mean_error": 0.10338002563660789
+      },
+      "8": {
+        "threshold_id": "q045",
+        "kind": "threshold",
+        "value": 0.14905082342701412,
+        "first_quantile_percent": 45,
+        "grid_order": 10,
+        "equal_video_mean_error": 0.05783649442620945
+      }
+    },
+    "age_plus_motion": {
+      "2": {
+        "threshold_id": "q055",
+        "kind": "threshold",
+        "value": 0.17202939064708037,
+        "first_quantile_percent": 55,
+        "grid_order": 12,
+        "equal_video_mean_error": 0.12605979634811576
+      },
+      "4": {
+        "threshold_id": "q035",
+        "kind": "threshold",
+        "value": 0.14253194975990097,
+        "first_quantile_percent": 35,
+        "grid_order": 8,
+        "equal_video_mean_error": 0.09383969183638911
+      },
+      "8": {
+        "threshold_id": "q020",
+        "kind": "threshold",
+        "value": 0.11444990242358426,
+        "first_quantile_percent": 20,
+        "grid_order": 5,
+        "equal_video_mean_error": 0.05112524531156844
+      }
+    }
+  }
+}

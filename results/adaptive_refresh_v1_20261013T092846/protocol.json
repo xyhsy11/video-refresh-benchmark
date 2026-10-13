@@ -1,0 +1,79 @@
+{
+  "frozen_at_utc": "2026-10-13T09:28:46.727895+00:00",
+  "protocol": {
+    "experiment": "adaptive_refresh_v1",
+    "scope": "offline saved-artifact replay; validation-tuned developmental results",
+    "inputs": "120 training and 40 validation videos from frozen cache_drift_v2; no test data parsed or evaluated",
+    "training": "all 0<=r<t<16 pairs; 120 pairs/video; 14,400 rows from 120 source videos",
+    "age_inputs": [
+      "age_seconds",
+      "age_decoded_frames",
+      "age_candidate_positions",
+      "age_seconds_squared"
+    ],
+    "motion_inputs": [
+      "current_mean_magnitude_px",
+      "current_p90_magnitude_px",
+      "current_mv_available",
+      "interval_mean_available_magnitude_px",
+      "interval_max_available_p90_px",
+      "interval_mv_available_fraction"
+    ],
+    "ridge_alpha": 1.0,
+    "standardization": "training-only population mean/std; std<=1e-12 uses scale 1",
+    "target": "existing float64 1-clipped cosine(f_t,f_r), pre-decision; safe norm >1e-12",
+    "motion_interval": "decoded frames strictly after most recent actual refresh through current frame; reset on refresh",
+    "missing_motion": "zero magnitude plus explicit availability, never an exclusion",
+    "scored_policies": [
+      "simple_motion",
+      "age_only",
+      "motion_only",
+      "age_plus_motion"
+    ],
+    "budgets": [
+      2,
+      4,
+      8
+    ],
+    "primary_budget": 4,
+    "dense_budget": 16,
+    "score": {
+      "simple_motion": "current candidate p90 magnitude in codec-displacement pixels",
+      "regression": "raw recorded; clip predicted drift to [0,2] for all decisions"
+    },
+    "threshold_grid": "training-pair score quantiles at 0,5,...,100%, linear; remove duplicate values; add always and wait",
+    "threshold_rule": "refresh iff clipped score >= numeric threshold, unless exact budget rule overrides",
+    "extremes": "kind=always or wait; value=null (no Infinity/NaN)",
+    "threshold_selection": "minimize equal-weight mean validation-video output error; ties within 1e-12 take earliest grid order: always, ascending unique thresholds, wait",
+    "global_threshold": "one per scored policy and budget, not per video/class; models fit once, never changed by validation",
+    "budget_rule": "mandatory refresh 0; reuse if remaining=0; refresh if remaining equals remaining candidate positions including current; otherwise policy rule",
+    "periodic": "range(0,16,16//B)",
+    "random_seeds": [
+      20261013,
+      20261014,
+      20261015,
+      20261016,
+      20261017,
+      20261018,
+      20261019,
+      20261020,
+      20261021,
+      20261022
+    ],
+    "random_seed_derivation": "integer from first 16 SHA256 hex digits of adaptive_refresh_v1|seed|source_video_id; random.Random.sample(1..15,B-1)",
+    "oracle": "exact enumerate all schedules including 0; minimize all-16-output mean cosine error; lexicographically earliest within 1e-12 of minimum",
+    "oracle_scope": "offline diagnostic bound; unavailable to scored callbacks",
+    "metric": "post-decision appearance-feature error, mean over all 16 outputs; pre-decision drift logged separately by evaluator",
+    "aggregation": "random first averages all ten seeds within each video; then every video equal weight",
+    "comparison": "error(periodic)-error(policy); percentages per video before aggregation; negative values preserved; percentage undefined if reference error<=1e-12",
+    "oracle_gap": "(E_periodic-E_policy)/(E_periodic-E_oracle); undefined if denominator<=1e-12, no clipping",
+    "example_selection": "B=4 age-plus-motion largest absolute gain and largest loss versus periodic; video-ID tie break; descriptive only",
+    "numerical_tolerance": 1e-12,
+    "limits": [
+      "validation thresholds selected on evaluated validation videos",
+      "not action-recognition accuracy",
+      "no decoding/controller/motion/GPU latency measurements",
+      "future-reference codec vectors and full-clip candidate selection: offline"
+    ]
+  }
+}
