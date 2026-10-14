@@ -1,0 +1,104 @@
+{
+  "checked_at_utc": "2026-10-14T12:50:08.250959+00:00",
+  "scope": "CPU reinspection of input-rejected clips only;zero encoder calls;selection and model results unchanged",
+  "rows": [
+    {
+      "video_id": "1BkmCXHttEQ_000012_000022",
+      "label": "drinking shots",
+      "rank": "1fb8c7fca745ad4684c7dbf449e85a74cc44c6fa1ec2882b749adc12baf9893e",
+      "reason": "ValueError: Clip outside experiment's 5–15 second range: 1BkmCXHttEQ_000012_000022.mp4: 4.766667s",
+      "sha256": "8ef61569295254ed0196ddfd7e1fca46c1eb0dd93e4167f8971780d0b3cc1b3e"
+    },
+    {
+      "video_id": "eWPV4-c9F-g_000001_000011",
+      "label": "unloading truck",
+      "rank": "9e5840391192ec74aa3c16afc2298a2d89a6d50dd936a66154773b429a2ee0c4",
+      "reason": "ValueError: Clip outside experiment's 5–15 second range: eWPV4-c9F-g_000001_000011.mp4: 4.754750s",
+      "sha256": "77afc0f36da0c728dccd07355cb9f8437a1674feea2555f867e37c18fbc0d0e6"
+    },
+    {
+      "video_id": "Y7fRiJkjnno_000000_000010",
+      "label": "disc golfing",
+      "rank": "cc51070054b355f9f168a970c648e8b113a5b612b0096986aff2d58e2c6f6474",
+      "reason": "ValueError: Clip outside experiment's 5–15 second range: Y7fRiJkjnno_000000_000010.mp4: 4.500000s",
+      "sha256": "b5fdf36388c3d5686954ebfdd78b31048f199b5d350ddac02a99429cf889f3da"
+    },
+    {
+      "video_id": "PqhEBVDdbcU_000004_000014",
+      "label": "swinging on something",
+      "rank": "1a9082714d9bb431778e5526d1e6c1d1c7952988dfce01460f56a571e4f660d9",
+      "reason": "ValueError: Clip outside experiment's 5–15 second range: PqhEBVDdbcU_000004_000014.mp4: 2.535867s",
+      "sha256": "4cc737f8ad163597bc3ab5a872e6cff3d66a6b6c0ad4818b048d28d7f02dd0f3"
+    },
+    {
+      "video_id": "B6L4dUKm9_Y_000002_000012",
+      "label": "javelin throw",
+      "rank": "364a615ec5fe024aad08ffef6d88124136aa69ece19a7811e219877bf941758e",
+      "reason": "ValueError: Clip outside experiment's 5–15 second range: B6L4dUKm9_Y_000002_000012.mp4: 3.203200s",
+      "sha256": "480cf6b895b6dcffbdf91dd557dedef2f606136ee98fada9697e2634b405c0ff"
+    },
+    {
+      "video_id": "5mBqtX4KrGk_000001_000011",
+      "label": "crossing river",
+      "rank": "697737954c9464e12c1fd429e9766e1311820e333c92d1f8f193c3fa624249f7",
+      "reason": "ValueError: Clip outside experiment's 5–15 second range: 5mBqtX4KrGk_000001_000011.mp4: 0.500000s",
+      "sha256": "dcff01809a211735ccb1a2d41f949b77ba1021f46f443669b33da5d15345c252"
+    },
+    {
+      "video_id": "6pG2eSn2VU4_000001_000011",
+      "label": "disc golfing",
+      "rank": "a5ba01b5fd03b25998a14cff93ece19e75117343e2eeee28f41979125f105de3",
+      "reason": "ValueError: Clip outside experiment's 5–15 second range: 6pG2eSn2VU4_000001_000011.mp4: 4.199720s",
+      "sha256": "8c08b5da862ad4b70392627fe46596d13b356152af2e94be8a049bc72bb110a2"
+    },
+    {
+      "video_id": "AKPPivv8g0A_000000_000010",
+      "label": "washing hair",
+      "rank": "0cc08c719ae28ada6689e4b8fc5845cb9b336dff07702bf3c3cfca51f0202e42",
+      "reason": "ValueError: Clip outside experiment's 5–15 second range: AKPPivv8g0A_000000_000010.mp4: 1.800000s",
+      "sha256": "4c42daae58f45c6811ebcc321ee9c44d88a3e151beefe30b04a67926e526eed1"
+    },
+    {
+      "video_id": "AfibDfHA0lg_000003_000013",
+      "label": "unloading truck",
+      "rank": "cb9c2f8c16bcce533c827bc911915fd5820986a37882da0d0c44e3eec5472362",
+      "reason": "ValueError: Clip outside experiment's 5–15 second range: AfibDfHA0lg_000003_000013.mp4: 4.800000s",
+      "sha256": "730ed9f7a0ef87a8f7903ae9087eb197a85ac751babbdba65a00b64bd0d82212"
+    },
+    {
+      "video_id": "b34egjaaFtg_000004_000014",
+      "label": "petting cat",
+      "rank": "e0ecfbbb5c1de82597e44df62435468d2aafe56350df6025f7d2de1331005ec2",
+      "reason": "ValueError: Clip outside experiment's 5–15 second range: b34egjaaFtg_000004_000014.mp4: 2.102100s",
+      "sha256": "3c3fa89821a8e01091b9df768e48b9dae11cde7efe559161a0acf7edaa28b48e"
+    },
+    {
+      "video_id": "F3JNKGPOeVQ_000005_000015",
+      "label": "playing flute",
+      "rank": "6c91eb5694b258f4976f2a12247ba943077bba81d4423740a2f5995e6df722dc",
+      "reason": "ValueError: Clip outside experiment's 5–15 second range: F3JNKGPOeVQ_000005_000015.mp4: 4.604600s",
+      "sha256": "bf6069423056922fa1b5d956c81a5051442ad414b15cdcbf98402ebb0c5371e1"
+    },
+    {
+      "video_id": "E5xdkQvnhkc_000002_000012",
+      "label": "javelin throw",
+      "rank": "9871bb9431f5079355c3b975392543637d02e7ec41f52a11121f1191ed78c6a5",
+      "reason": "ValueError: Clip outside experiment's 5–15 second range: E5xdkQvnhkc_000002_000012.mp4: 2.168833s",
+      "sha256": "90318479f59e8c6fb6218d2578b1f63b2328dd1749607ee7c34045f1690f9c0a"
+    },
+    {
+      "video_id": "IAcXjkjdWY8_000003_000013",
+      "label": "javelin throw",
+      "rank": "77185b9fe185bf4fef88043336a2954187e80e41783aa4109234ad85bfb6d27f",
+      "reason": "ValueError: Clip outside experiment's 5–15 second range: IAcXjkjdWY8_000003_000013.mp4: 1.234567s",
+      "sha256": "fbc9ffa000c285d177cc08d976621430a3d90999c21c7c962ada3ed4a03259a2"
+    },
+    {
+      "video_id": "W0uK33TqpCE_000003_000013",
+      "label": "javelin throw",
+      "rank": "56afb19d983f872f31ec246e01b0c0a9fc58fe6b9ae67b6e440a08f032642826",
+      "reason": "ValueError: Clip outside experiment's 5–15 second range: W0uK33TqpCE_000003_000013.mp4: 2.969633s",
+      "sha256": "ce56e26bfa8dd82787d985a813ebe194f32299982d2d89079e7e23fbc0550122"
+    }
+  ]
+}

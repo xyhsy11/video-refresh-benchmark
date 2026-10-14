@@ -600,3 +600,51 @@ Decision: **CONTINUE cautiously** with task-aware feasibility work, strengthen/v
 See [findings](results/task_aware_oracle_v1/findings.md), [protocol](results/task_aware_oracle_v1/protocol.json), [per-video results](results/task_aware_oracle_v1/per_video_metrics.csv), [paired intervals](results/task_aware_oracle_v1/bootstrap_intervals.json), [head parameters](results/task_aware_oracle_v1/classifier_parameters.json), [verification](results/task_aware_oracle_v1/verification.json) and [implementation corrections](results/task_aware_oracle_v1/implementation_corrections.json).
 
 ![Task-aware hindsight accuracy](results/task_aware_oracle_v1/figures/accuracy_vs_refresh_budget.png)
+
+## recognition_baseline_v2: larger-data recognition learning curve
+
+Status: **completed and verified**. The [frozen protocol](results/recognition_baseline_v2/protocol.json) fixes seed 20261016, the original twenty-class ordering, a 400-video training pool, 100 development videos and the separate existing 40-video exploratory cohort. The 400-video-trained classifier is primary; nested 80/200-video models are learning-curve diagnostics. Existing 40 development sources remain, with three new sources/class added. Completed fresh-confirmation sources and every prior validation/test membership are excluded from training.
+
+The [preflight inventory](results/recognition_baseline_v2/preflight.json) records eleven verified cached validation archives, 160 compatible saved references, 380 new reference clips required, free disk space and acquisition estimates. Official training archives are available but uncached; this resource-bounded run freezes a custom CVDF validation-source split before training. It is not an official Kinetics recognition benchmark. All new HTTP response body bytes, including retries and conservatively charged interrupted reservations, count against the 20 GiB cap; preexisting verified caches do not.
+
+The ResNet18 weights, preprocessing, 16 candidate rules, float32 CUDA batch-size-one references and the v1 linear mean-pooled float64 classifier recipe remain fixed. Each nested size uses its own training-only normalization and the same four regularization values; selection uses dense development accuracy, then loss, then grid order. All three selected models freeze before exploratory evaluation. B=4 compares periodic, exact feature oracle and all 455-schedule true-label task oracle with dense B=16. Oracle results are privileged hindsight, not deployable accuracy or an accuracy-maximizing bound. No arbitrary accuracy threshold is used as a publication gate.
+
+Run from the repository root:
+
+```powershell
+& .\.venv\Scripts\python.exe -m unittest test_recognition_baseline_v2 -v
+& .\.venv\Scripts\python.exe .\run_recognition_baseline_v2.py --preflight-only --max-download-gib 20
+& .\.venv\Scripts\python.exe .\run_recognition_baseline_v2.py --resume --max-download-gib 20 --download-workers 8
+& .\.venv\Scripts\python.exe .\run_recognition_baseline_v2.py --audit-only
+```
+
+`--resume` validates configuration and source identities, retains acquisition progress and reuses frozen selections. A completed run is audited rather than overwritten. If acquisition cannot reach the planned counts, the run records exact class shortages and does not train on a smaller convenience subset. Reference collection time does not measure adaptive inference latency; replay executes zero encoders. Previously completed results remain intact.
+
+All 540 source identities and encoded hashes are distinct. The run retained 6,080 new CUDA reference features from 380 clips, with zero extra or failed encoder forwards, and reused 2,560 reference features. Five new compressed archives plus the counted training-list probe transferred 7,521,016,370 HTTP body bytes (7.0045 GiB), below the 20 GiB cap. Fourteen candidates failed input eligibility and were replaced in the frozen order. No old experiment was rewritten.
+
+| Nested training videos | Training dense accuracy | Development dense accuracy | Exploratory dense accuracy |
+| ---: | ---: | ---: | ---: |
+| 80 | 100% | 61% | 45% |
+| 200 | 98% | 70% | 60% |
+| 400, primary | 100% | 72% | 65% |
+
+The new 80-video subset shares only 11 sources with the old v1 subset. Learning-curve comparisons use the new nested subsets and fixed evaluation cohorts. Selected regularization values are 1.0, 1.0 and 0.01; selection used development dense results only. The primary training/development gap is still 28 percentage points, and its training/exploratory gap is 35 points.
+
+| Primary 400-video classifier | Development accuracy / CE | Exploratory accuracy / CE |
+| --- | ---: | ---: |
+| Dense B=16 | 72% / 1.096979 | 65% / 1.112254 |
+| Periodic B=4 | 70% / 1.150692 | 65% / 1.075162 |
+| Feature oracle B=4, hindsight | 70% / 1.168484 | 65% / 1.271517 |
+| Task oracle B=4, label + hindsight | 86% / 0.565185 | 87.5% / 0.492441 |
+
+Cross entropy is in nats per video; macro accuracy equals top1 because classes are balanced. Primary task-oracle versus periodic accuracy gains are +16pp [9,23] on development and +22.5pp [10,35] on exploratory. Loss reductions are +0.585507 [0.440676,0.747974] and +0.582720 [0.331209,0.885879] nats. Intervals use 10,000 whole-video paired resamples with fixed classifiers; saved index matrices are shared across comparisons within each cohort. Development is tuned, and exploratory membership was previously evaluated.
+
+The hindsight advantage persists for this stronger classifier. The feature oracle lowers exploratory cosine error from 0.095736 to 0.070790, but leaves accuracy at 65% and worsens loss. The task oracle has higher cosine error (0.119230) while improving its defined recognition objective. Cache repetition exactly changes temporal weights for the linear mean-pooled head, so true-label temporal reweighting can explain part of the oracle advantage. This does not establish a label-free causal policy, measured speedup or publication-level novelty. Next, test a label-free temporal selection/reweighting baseline on development sources, then freeze it before a genuinely new confirmation cohort.
+
+See [findings](results/recognition_baseline_v2/findings.md), [dataset manifest](results/recognition_baseline_v2/dataset_manifest.json), [learning curve](results/recognition_baseline_v2/learning_curve.json), [per-video metrics](results/recognition_baseline_v2/per_video_metrics.csv), [intervals](results/recognition_baseline_v2/bootstrap_intervals.json), [verification](results/recognition_baseline_v2/verification.json) and [independent checks](results/recognition_baseline_v2/independent_verification.json). Additional cohort/label/accounting checks run with:
+
+```powershell
+& .\.venv\Scripts\python.exe .\verify_recognition_baseline_v2.py
+```
+
+![Dense recognition learning curve](results/recognition_baseline_v2/figures/dense_recognition_learning_curve.png)

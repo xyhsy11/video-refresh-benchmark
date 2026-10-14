@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "source_hash_separation_and_class_balance": true,
+  "nested_subsets_and_train_only_scalers": true,
+  "same_classifier_all_policies": true,
+  "outputs_refreshes_latest_cache_exact_oracles": true,
+  "all_saved_predictions_and_aggregate_metrics_reproduced": true,
+  "bootstrap_independent_loop_reproduced": true,
+  "evaluation_rows": 1680,
+  "prior_artifacts_preserved": 1384,
+  "focused_tests": {
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "test_balanced_nested_subsets_source_hash_disjoint (test_recognition_baseline_v2.RecognitionChecks.test_balanced_nested_subsets_source_hash_disjoint) ... ok\ntest_body_bytes_and_retry_accounting_cap (test_recognition_baseline_v2.RecognitionChecks.test_body_bytes_and_retry_accounting_cap) ... ok\ntest_failed_read_charges_remaining_reservation (test_recognition_baseline_v2.RecognitionChecks.test_failed_read_charges_remaining_reservation) ... ok\ntest_independent_exact_oracle_and_cache (test_recognition_baseline_v2.RecognitionChecks.test_independent_exact_oracle_and_cache) ... ok\ntest_interrupted_reservation_conservatively_charged (test_recognition_baseline_v2.RecognitionChecks.test_interrupted_reservation_conservatively_charged) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.079s\n\nOK\n"
+  },
+  "release_validator": {
+    "returncode": 0,
+    "stdout": "Public snapshot PASS: ten videos, 150 pilot rows, 15 single-video rows; all counters valid.\nCSV-derived headlines PASS: 34.74% median reduction, 1.532x median speedup, 17.52-45.54% range.\nOriginal timing source hashes and 17 snapshot checksums PASS; 89 relative links PASS.\nPersonal-path and installation-requirement checks PASS; no GPU timing was rerun.\n"
+  },
+  "frozen_before_exploratory_evaluation": true,
+  "fresh_confirmation_arrays_and_motion_tables_parsed": 0,
+  "old80_vs_new80_common_sources": 11,
+  "plots_visually_inspected": 4,
+  "bootstrap_indices_saved_and_hash_matched": true,
+  "actual_new_encoder_forward_calls": 6080,
+  "extra_or_failed_forward_calls": 0,
+  "final_release_validation": {
+    "passed": true,
+    "relative_links": 97
+  },
+  "independent_cohort_label_byte_checker": {
+    "passed": true,
+    "checked_at_utc": "2026-10-14T12:44:44.483639+00:00",
+    "dataset_complete": true,
+    "available_counts": {
+      "development": 100,
+      "train": 400,
+      "exploratory": 40
+    },
+    "official_labels_and_source_identities_verified": true,
+    "frozen_reuse_roles_and_protected_evaluation_exclusions": true,
+    "all_HTTP_reads_reconciled_and_cap_respected": true,
+    "verification_source_sha256": "fbc5b9577f3794a7783599fce7078fd0cf04a7978c0a812e9c03ae949c66d321",
+    "nested_training_subsets_class_balance": true,
+    "frozen_selection_and_scaler_identities": true
+  }
+}

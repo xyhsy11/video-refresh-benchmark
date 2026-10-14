@@ -73,6 +73,8 @@ results/*
 !results/fresh_refresh_confirmation_v1/**
 !results/task_aware_oracle_v1/
 !results/task_aware_oracle_v1/**
+!results/recognition_baseline_v2/
+!results/recognition_baseline_v2/**
 
 # Curated snapshots also exclude downloaded assets, secrets, and temporary files.
 *.mp4

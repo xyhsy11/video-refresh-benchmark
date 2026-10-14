@@ -1,0 +1,205 @@
+{
+  "entry": {
+    "video_id": "GRt0r0SGP-g_000000_000010",
+    "relative_path": "data/source/recognition_baseline_v2/videos/GRt0r0SGP-g_000000_000010.mp4",
+    "file_identity": {
+      "size_bytes": 611940,
+      "mtime_ns": 1791979276860849100,
+      "sha256": "78c1e2b78b8c1e527c3d1f4632559058dd1a6c891ac746b8962831f485f226e1"
+    },
+    "inspected_at_utc": "2026-10-14T12:03:22.853025+00:00",
+    "codec": "h264",
+    "resolution": {
+      "width": 480,
+      "height": 360
+    },
+    "reported_frame_rate": {
+      "rational": "355/12",
+      "fps": 29.583333333333332
+    },
+    "reported_metadata_frame_count": 296,
+    "stream_index": 0,
+    "stream_time_base": "1/11360",
+    "stream_duration_seconds": 10.005633802816902,
+    "container_duration_seconds": 10.0078,
+    "duration_seconds": 10.0056338028169,
+    "duration_method": "decoded last PTS - first PTS + final frame duration (reported FPS fallback if final duration missing)",
+    "decoded_pts_duration_seconds": 10.0056338028169,
+    "decoded_frame_count": 296,
+    "frame_type_counts": {
+      "I": 2,
+      "P": 79,
+      "B": 215
+    },
+    "candidate_count": 16,
+    "candidate_indices": [
+      0,
+      20,
+      39,
+      59,
+      79,
+      98,
+      118,
+      138,
+      157,
+      177,
+      197,
+      216,
+      236,
+      256,
+      275,
+      295
+    ],
+    "candidate_index_basis": "zero-based sequential decoded-frame indices",
+    "decoder": {
+      "thread_count": 1,
+      "thread_type": "NONE",
+      "skip_frame": "NONE",
+      "hardware_acceleration": false
+    },
+    "inspection_elapsed_ms": 791.4789999995264,
+    "source_video_id": "GRt0r0SGP-g",
+    "label": "playing violin",
+    "original_dataset_split": "val",
+    "time_start": 0,
+    "time_end": 10,
+    "candidate_timestamps_seconds": [
+      0.0,
+      0.676056338028169,
+      1.3183098591549296,
+      1.9943661971830986,
+      2.6704225352112676,
+      3.312676056338028,
+      3.988732394366197,
+      4.664788732394366,
+      5.307042253521127,
+      5.983098591549296,
+      6.659154929577465,
+      7.301408450704225,
+      7.977464788732394,
+      8.653521126760563,
+      9.295774647887324,
+      9.971830985915492
+    ],
+    "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_5.tar.gz",
+    "archive_sha256": "d23cf16eb2c08db09f9350620d2318093775fae02f5c88502eed3e2fce900a5b",
+    "sampling_rank": "df8f36d75cf8c26bd6ff55509f385faeb7bb9e2b2250ed3ce137e7ba0186bd19",
+    "eligibility": "full decode/timestamps and finite CUDA references passed",
+    "experiment_split": "train",
+    "recognition_role": "train"
+  },
+  "candidates": [
+    {
+      "candidate_ordinal": 0,
+      "decoded_frame_index": 0,
+      "pts": 0,
+      "timestamp_seconds": 0.0,
+      "frame_type": "I"
+    },
+    {
+      "candidate_ordinal": 1,
+      "decoded_frame_index": 20,
+      "pts": 7680,
+      "timestamp_seconds": 0.676056338028169,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 2,
+      "decoded_frame_index": 39,
+      "pts": 14976,
+      "timestamp_seconds": 1.3183098591549296,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 3,
+      "decoded_frame_index": 59,
+      "pts": 22656,
+      "timestamp_seconds": 1.9943661971830986,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 4,
+      "decoded_frame_index": 79,
+      "pts": 30336,
+      "timestamp_seconds": 2.6704225352112676,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 5,
+      "decoded_frame_index": 98,
+      "pts": 37632,
+      "timestamp_seconds": 3.312676056338028,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 6,
+      "decoded_frame_index": 118,
+      "pts": 45312,
+      "timestamp_seconds": 3.988732394366197,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 7,
+      "decoded_frame_index": 138,
+      "pts": 52992,
+      "timestamp_seconds": 4.664788732394366,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 8,
+      "decoded_frame_index": 157,
+      "pts": 60288,
+      "timestamp_seconds": 5.307042253521127,
+      "frame_type": "P"
+    },
+    {
+      "candidate_ordinal": 9,
+      "decoded_frame_index": 177,
+      "pts": 67968,
+      "timestamp_seconds": 5.983098591549296,
+      "frame_type": "P"
+    },
+    {
+      "candidate_ordinal": 10,
+      "decoded_frame_index": 197,
+      "pts": 75648,
+      "timestamp_seconds": 6.659154929577465,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 11,
+      "decoded_frame_index": 216,
+      "pts": 82944,
+      "timestamp_seconds": 7.301408450704225,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 12,
+      "decoded_frame_index": 236,
+      "pts": 90624,
+      "timestamp_seconds": 7.977464788732394,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 13,
+      "decoded_frame_index": 256,
+      "pts": 98304,
+      "timestamp_seconds": 8.653521126760563,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 14,
+      "decoded_frame_index": 275,
+      "pts": 105600,
+      "timestamp_seconds": 9.295774647887324,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 15,
+      "decoded_frame_index": 295,
+      "pts": 113280,
+      "timestamp_seconds": 9.971830985915492,
+      "frame_type": "P"
+    }
+  ]
+}

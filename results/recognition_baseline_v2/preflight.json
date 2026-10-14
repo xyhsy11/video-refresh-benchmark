@@ -1,0 +1,180 @@
+{
+  "checked_at_utc": "2026-10-14T11:21:28.194470+00:00",
+  "compatible_saved_reference_videos": 160,
+  "new_reference_videos_needed": 380,
+  "cached_archives": 11,
+  "cached_compressed_bytes": 16983354012,
+  "disk_free_bytes": 232991744000,
+  "missing_by_class": [
+    {
+      "label": "drinking shots",
+      "training_missing": 16,
+      "development_missing": 3,
+      "available_annotation_candidates": 34
+    },
+    {
+      "label": "playing flute",
+      "training_missing": 16,
+      "development_missing": 3,
+      "available_annotation_candidates": 35
+    },
+    {
+      "label": "playing violin",
+      "training_missing": 16,
+      "development_missing": 3,
+      "available_annotation_candidates": 35
+    },
+    {
+      "label": "unloading truck",
+      "training_missing": 16,
+      "development_missing": 3,
+      "available_annotation_candidates": 35
+    },
+    {
+      "label": "crossing river",
+      "training_missing": 16,
+      "development_missing": 3,
+      "available_annotation_candidates": 35
+    },
+    {
+      "label": "blasting sand",
+      "training_missing": 16,
+      "development_missing": 3,
+      "available_annotation_candidates": 35
+    },
+    {
+      "label": "cooking egg",
+      "training_missing": 16,
+      "development_missing": 3,
+      "available_annotation_candidates": 35
+    },
+    {
+      "label": "swinging on something",
+      "training_missing": 16,
+      "development_missing": 3,
+      "available_annotation_candidates": 34
+    },
+    {
+      "label": "tai chi",
+      "training_missing": 16,
+      "development_missing": 3,
+      "available_annotation_candidates": 35
+    },
+    {
+      "label": "eating hotdog",
+      "training_missing": 16,
+      "development_missing": 3,
+      "available_annotation_candidates": 35
+    },
+    {
+      "label": "disc golfing",
+      "training_missing": 16,
+      "development_missing": 3,
+      "available_annotation_candidates": 35
+    },
+    {
+      "label": "shoveling snow",
+      "training_missing": 16,
+      "development_missing": 3,
+      "available_annotation_candidates": 35
+    },
+    {
+      "label": "skipping rope",
+      "training_missing": 16,
+      "development_missing": 3,
+      "available_annotation_candidates": 35
+    },
+    {
+      "label": "washing hair",
+      "training_missing": 16,
+      "development_missing": 3,
+      "available_annotation_candidates": 34
+    },
+    {
+      "label": "javelin throw",
+      "training_missing": 16,
+      "development_missing": 3,
+      "available_annotation_candidates": 35
+    },
+    {
+      "label": "opening bottle",
+      "training_missing": 16,
+      "development_missing": 3,
+      "available_annotation_candidates": 35
+    },
+    {
+      "label": "petting cat",
+      "training_missing": 16,
+      "development_missing": 3,
+      "available_annotation_candidates": 35
+    },
+    {
+      "label": "waxing chest",
+      "training_missing": 16,
+      "development_missing": 3,
+      "available_annotation_candidates": 35
+    },
+    {
+      "label": "jumpstyle dancing",
+      "training_missing": 16,
+      "development_missing": 3,
+      "available_annotation_candidates": 35
+    },
+    {
+      "label": "trimming trees",
+      "training_missing": 16,
+      "development_missing": 3,
+      "available_annotation_candidates": 35
+    }
+  ],
+  "remaining_uncached_archives": [
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+      "size_bytes": 1466433224
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+      "size_bytes": 1527227822
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+      "size_bytes": 1475265722
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+      "size_bytes": 1505409596
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "size_bytes": 1546665596
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_17.tar.gz",
+      "size_bytes": 1441614136
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_18.tar.gz",
+      "size_bytes": 1510521854
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_15.tar.gz",
+      "size_bytes": 1535436476
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_19.tar.gz",
+      "size_bytes": 1362588801
+    }
+  ],
+  "all_remaining_archive_bytes": 13371163227,
+  "estimated_new_download_range_bytes": [
+    0,
+    13371163227
+  ],
+  "coverage_unknown_until_cached_archive_traversal": true,
+  "official_training_probe": {
+    "archive_list_sha256": "dd851d1d3a536129e61bb5617db2150309a858f5e3b34c5f2c70d86935714f0a",
+    "archive_count": 242,
+    "cached_official_training_archives": 0,
+    "selection": "custom CVDF validation-source protocol fixed before training; eleven verified reusable val archives and160 compatible references; no official-training archive cache; mixed-class training shards plus separate development acquisition have uncertain coverage under20GiB. This resource-conscious diagnostic is not an official recognition benchmark."
+  }
+}

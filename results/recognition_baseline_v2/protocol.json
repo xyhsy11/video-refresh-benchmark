@@ -1,0 +1,181 @@
+{
+  "experiment": "recognition_baseline_v2",
+  "frozen_at_utc": "2026-10-14T11:21:22.187726+00:00",
+  "seed": 20261016,
+  "starting_commit": "6835da780f1d5a4d78c4d60a8d674f6ee62c9151",
+  "implementation_sha256": {
+    "run_recognition_baseline_v2.py": "6a53de858a14f06da67aa30669be54adad3a4e9b48b2de5e5032dfdc4eda25ad",
+    "recognition_baseline_data.py": "fc0d9cbb463ca07964d5846018432bb28220efbcbbe1f0c41a33e243a4c1475b",
+    "recognition_baseline_report.py": "f18759a02b20cb73daabb8e31265de98acc8fd3136cb06e774feda6d6fe7369f",
+    "test_recognition_baseline_v2.py": "55df4aef480e84686da508cf16c1280ab22cf282245893962afca02a59ded4de",
+    "task_aware_oracle_utils.py": "248fac0a71449972a4e606c511951836d97178bc02f3d54f839129066ecf3b67",
+    "fresh_confirmation_data.py": "1d6b6f4ee80d5ea4cfd483fd9992f40e2525e7e3c718f9fb66b6e99fe0225d62",
+    "fresh_confirmation_eval.py": "2acaf42d50fcc488812a3bd8d51f372681fcdbb9d9960c2b05928a900118fd75",
+    "collect_cache_drift_v2.py": "3127b5f2ed2b8f87f3ffbdc28bc27a03c3a3a017a4439f47c6f1cc6f28f724b5",
+    "prepare_cache_drift_v2.py": "319cd9c2519de15ada4f329d168c3ff20a479e4187fde6443819c3e0cb1ffa18",
+    "benchmark.py": "d9c2e63d0b888b953b0cb03d583d8176cd579dc6ecd54a04676a0ef4a0d308f1",
+    "motion_utils.py": "95fd14b7bc2f2254badaf2be0622ac8c649c4cd339e0526ae73d50951e646c00",
+    "research_utils.py": "06b0bd9df2ebbbf314a5a21e086f00e7018d7dbd7a189adac3cf2d79f0352044"
+  },
+  "classes": [
+    "drinking shots",
+    "playing flute",
+    "playing violin",
+    "unloading truck",
+    "crossing river",
+    "blasting sand",
+    "cooking egg",
+    "swinging on something",
+    "tai chi",
+    "eating hotdog",
+    "disc golfing",
+    "shoveling snow",
+    "skipping rope",
+    "washing hair",
+    "javelin throw",
+    "opening bottle",
+    "petting cat",
+    "waxing chest",
+    "jumpstyle dancing",
+    "trimming trees"
+  ],
+  "class_to_index": {
+    "drinking shots": 0,
+    "playing flute": 1,
+    "playing violin": 2,
+    "unloading truck": 3,
+    "crossing river": 4,
+    "blasting sand": 5,
+    "cooking egg": 6,
+    "swinging on something": 7,
+    "tai chi": 8,
+    "eating hotdog": 9,
+    "disc golfing": 10,
+    "shoveling snow": 11,
+    "skipping rope": 12,
+    "washing hair": 13,
+    "javelin throw": 14,
+    "opening bottle": 15,
+    "petting cat": 16,
+    "waxing chest": 17,
+    "jumpstyle dancing": 18,
+    "trimming trees": 19
+  },
+  "source_protocol": {
+    "archive_list_sha256": "dd851d1d3a536129e61bb5617db2150309a858f5e3b34c5f2c70d86935714f0a",
+    "archive_count": 242,
+    "cached_official_training_archives": 0,
+    "selection": "custom CVDF validation-source protocol fixed before training; eleven verified reusable val archives and160 compatible references; no official-training archive cache; mixed-class training shards plus separate development acquisition have uncertain coverage under20GiB. This resource-conscious diagnostic is not an official recognition benchmark."
+  },
+  "targets": {
+    "train": 400,
+    "development": 100,
+    "exploratory": 40
+  },
+  "per_class": {
+    "train": 20,
+    "development": 5,
+    "exploratory": 2
+  },
+  "reused_membership_sha256": "99bb5b7ccbbac8c7a0ed6ef7a2435faf88ff741692ed3040c87501e04b12eae5",
+  "exclusions_sha256": "705662a777580a96d8648861712040bfa4d6fd1e44842ce1f212933400e4cd90",
+  "sampling_plan_sha256": "a7722cf489f40aa4b1be5aaac1f9430360a8511cec653b9dee730d5a8e769c17",
+  "selection": "cached-first seeded archive order; within archive candidate SHA ranking; first3 eligible new clips/class augment development, next16 augment training. Existing80train/40dev/40exploratory fixed. Network/CUDA failures retry same clip; replacements only predefined input eligibility/duplicates.",
+  "eligibility": "H264,5..15sec,>=16 actual decoded frames,16 uniform indices including endpoints,finite increasing timestamps,finite safely nonzero512features; motion missing is valid",
+  "encoder": {
+    "name": "resnet18",
+    "weights": "ResNet18_Weights.IMAGENET1K_V1",
+    "weights_url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+    "weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+    "fc": "torch.nn.Identity",
+    "preprocessing": "ImageClassification(\n    crop_size=[224]\n    resize_size=[256]\n    mean=[0.485, 0.456, 0.406]\n    std=[0.229, 0.224, 0.225]\n    interpolation=InterpolationMode.BILINEAR\n)",
+    "feature_shape_per_call": [
+      1,
+      512
+    ],
+    "saved_array_shape_per_video": [
+      16,
+      512
+    ],
+    "saved_dtype": "float32"
+  },
+  "numerical_settings": {
+    "dtype": "float32",
+    "batch_size": 1,
+    "eval": true,
+    "inference_mode": true,
+    "autocast": false,
+    "compiled": false,
+    "deterministic_algorithms": true,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "cudnn_allow_tf32": false,
+    "matmul_allow_tf32": false,
+    "float32_matmul_precision": "highest",
+    "torch_cpu_threads": 1,
+    "torch_interop_threads": 1,
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+    "transfer_non_blocking": true,
+    "input_cpu_memory_pinned": false,
+    "note": "Pageable CPU transfers; non_blocking does not promise transfer/compute overlap."
+  },
+  "training_sizes_per_class": [
+    4,
+    10,
+    20
+  ],
+  "primary_training_videos_per_class": 20,
+  "regularization_grid": [
+    0.001,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "classifier": "reuse task_aware_oracle_utils.fit_classifier exactly; training-only population normalization, mean pooling, float64 CPU, deterministic linear cross entropy+lambda/2 squared weights, unpenalized intercept; LBFGS max_iter400/max_eval800,strong_wolfe,grad1e-9/change1e-12,history50",
+  "selection_rule": "highest dense development top1,lower CE,earliest grid order; freeze all selected models before exploratory arrays/metrics; no oracle-based selection",
+  "policies": [
+    "dense",
+    "periodic",
+    "feature_oracle",
+    "task_oracle"
+  ],
+  "budget": 4,
+  "dense_budget": 16,
+  "task_oracle": "exact455 schedules; true label and future references; lexicographically first within1e-12",
+  "primary_comparison": [
+    "task_oracle",
+    "periodic"
+  ],
+  "secondary_comparisons": [
+    [
+      "feature_oracle",
+      "periodic"
+    ],
+    [
+      "task_oracle",
+      "feature_oracle"
+    ],
+    [
+      "periodic",
+      "dense"
+    ]
+  ],
+  "bootstrap": {
+    "resamples": 10000,
+    "seed": 20261016,
+    "rng": "PCG64",
+    "percentile_method": "linear",
+    "unit": "paired whole source videos; shared indices within cohort; fitted models fixed"
+  },
+  "max_download_bytes": 21474836480,
+  "accounting": "all new GET response body bytes incl metadata/retries; stale interrupted reservations conservatively charged; verified preexisting cache bytes free. TCP/IP overhead not application-body measurements.",
+  "limits": [
+    "custom diagnostic source split",
+    "exploratory cohort previously used",
+    "development tuned",
+    "label-guided future oracle optimism,not deployable accuracy or accuracy-maximizing bound",
+    "temporal weighting induced by cache repetition",
+    "no arbitrary accuracy publication gate",
+    "no streaming/latency/speedup/novelty claim"
+  ]
+}
