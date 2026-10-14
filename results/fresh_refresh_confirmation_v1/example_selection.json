@@ -1,0 +1,20 @@
+{
+  "examples": [
+    {
+      "kind": "largest_gain",
+      "source_video_id": "gXePY8Lkiw4",
+      "video_id": "gXePY8Lkiw4_000040_000050",
+      "label": "jumpstyle dancing",
+      "B4_absolute_gain": 0.08770089361025542,
+      "rule": "predeclared largest gain/loss versus periodic, source-ID tie break; descriptive, not selected for tuning"
+    },
+    {
+      "kind": "largest_loss",
+      "source_video_id": "jLX0yAJ8GEA",
+      "video_id": "jLX0yAJ8GEA_000060_000070",
+      "label": "cooking egg",
+      "B4_absolute_gain": -0.05626055358020071,
+      "rule": "predeclared largest gain/loss versus periodic, source-ID tie break; descriptive, not selected for tuning"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "scope": "synthetic software fixtures only; never acquisition/collection/evaluation evidence",
+  "checks": {
+    "UTF8_and_transient_atomic_replace_retries": true,
+    "resume_exclusions_frozen_no_self_exclusion_rescan": true,
+    "full_archive_reservation_cap_blocks_GET_and_reports_exact_shortfall": true,
+    "all_ten_random_seeds_averaged_within_video_and_expected_counts": true,
+    "whole_video_bootstrap_reproducible_shared_indices_independent_loop": true,
+    "zero_denominators_missing_with_reasons_not_fabricated_zero": true,
+    "balanced_class_descriptives_and_finite_scientific_JSON": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-14T05:26:31.705311+00:00",
+  "videos": 40,
+  "policy_budget_rows": 1120,
+  "trajectories": 2200,
+  "maximum_mean_error_difference": 0.0,
+  "all_frozen_refresh_schedules_reproduced": true,
+  "fit_or_selection_calls": 0,
+  "encoder_calls": 0
+}

@@ -55,7 +55,7 @@ build/
 dist/
 *.egg-info/
 
-# Keep only the curated public snapshot; retain other results locally.
+# Keep curated public snapshots; retain other results locally.
 results/*
 !results/pilot_2026_10_10/
 !results/pilot_2026_10_10/**
@@ -69,6 +69,8 @@ results/*
 !results/adaptive_refresh_v1_20261013T092846/**
 !results/budget_aware_refresh_v2/
 !results/budget_aware_refresh_v2/**
+!results/fresh_refresh_confirmation_v1/
+!results/fresh_refresh_confirmation_v1/**
 
 # Curated snapshots also exclude downloaded assets, secrets, and temporary files.
 *.mp4

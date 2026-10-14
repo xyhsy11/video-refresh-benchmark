@@ -1,0 +1,2386 @@
+{
+  "started_at_utc": "2026-10-14T05:27:17.897166+00:00",
+  "status": "complete",
+  "archives": [
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_4.tar.gz",
+      "size_bytes": 1602310844,
+      "etag": "\"92d4ca6b4716cf77ec3d222f3bf43d04-192\"",
+      "sha256": "4405626bfcf8a0993cdf07d62218b1f190fa0492efcde8f5bb9579e80cfc1ad0",
+      "completed_at_utc": "2026-10-12T12:04:03.097008+00:00",
+      "reused": false,
+      "path": "data/source/cache_drift_v2/shards/part_4.tar.gz",
+      "status": "processed",
+      "new_reservation_bytes": 0,
+      "matching_candidates": 0
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_5.tar.gz",
+      "size_bytes": 1526745719,
+      "etag": "\"0c38c570b49dc0c465af52dae1867756-183\"",
+      "sha256": "d23cf16eb2c08db09f9350620d2318093775fae02f5c88502eed3e2fce900a5b",
+      "completed_at_utc": "2026-10-12T11:52:20.534434+00:00",
+      "reused": false,
+      "path": "data/source/cache_drift_v2/shards/part_5.tar.gz",
+      "status": "processed",
+      "new_reservation_bytes": 0,
+      "matching_candidates": 0
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_7.tar.gz",
+      "size_bytes": 1584117306,
+      "etag": "\"66e8c83199bc2e1b9bf5b469c58ff168-189\"",
+      "sha256": "6394c8f000f5fd83148dcee8320a7ce4318da7d591384b1461c8f242b54bc6cc",
+      "completed_at_utc": "2026-10-12T12:06:49.346697+00:00",
+      "reused": false,
+      "path": "data/source/cache_drift_v2/shards/part_7.tar.gz",
+      "status": "processed",
+      "new_reservation_bytes": 0,
+      "matching_candidates": 0
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_8.tar.gz",
+      "size_bytes": 1617834308,
+      "etag": "\"6a88d0c276da53cf5d03abf04d3c19bb-193\"",
+      "sha256": "84d582d9eac4e635093ebf8275f22a642ed9c92f396660dde05a3c87b23c8f61",
+      "completed_at_utc": "2026-10-12T11:58:16.527958+00:00",
+      "reused": false,
+      "path": "data/source/cache_drift_v2/shards/part_8.tar.gz",
+      "status": "processed",
+      "new_reservation_bytes": 0,
+      "matching_candidates": 0
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_2.tar.gz",
+      "size_bytes": 1564443902,
+      "etag": "\"a2c26b3848c7a218bd3ace04deafdfde-187\"",
+      "sha256": "87410e2f34311dff8cb9e05efd97914a9c8dab5ad101c0292bf9a829eaa1b934",
+      "completed_at_utc": "2026-10-12T11:55:21.142338+00:00",
+      "reused": false,
+      "path": "data/source/cache_drift_v2/shards/part_2.tar.gz",
+      "status": "processed",
+      "new_reservation_bytes": 0,
+      "matching_candidates": 0
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_13.tar.gz",
+      "size_bytes": 1568992712,
+      "etag": "\"f72de850a954b59f70c74cfe641d364b-188\"",
+      "sha256": "90c5924b0ecc9c1e5f95b87932f1324c50eb0f11ebfc8ed1dd65eaf02b83f9a4",
+      "completed_at_utc": "2026-10-12T12:01:10.739368+00:00",
+      "reused": false,
+      "path": "data/source/cache_drift_v2/shards/part_13.tar.gz",
+      "status": "processed",
+      "new_reservation_bytes": 0,
+      "matching_candidates": 0
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "size_bytes": 1577976961,
+      "etag": "\"b6740f7144bde31e9a16a34f58a92e87-189\"",
+      "status": "processed",
+      "new_reservation_bytes": 1577976961,
+      "partial_bytes_before_first_attempt": 0,
+      "sha256": "442d36834e92a9b3226a814c40744bfddbf76d3bbdc289e1e13e7baf6c1a1cd7",
+      "completed_at_utc": "2026-10-14T05:30:42.637206+00:00",
+      "reused": false,
+      "matching_candidates": 40
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "size_bytes": 1470548062,
+      "etag": "\"162e323966c4097b0338b6364bc08fa8-176\"",
+      "status": "processed",
+      "new_reservation_bytes": 1470548062,
+      "partial_bytes_before_first_attempt": 0,
+      "sha256": "f42200912c9a472f178ab5dae1cdd54b3c55923e48cd22fae7e99a21fedd38f9",
+      "completed_at_utc": "2026-10-14T05:40:01.717039+00:00",
+      "reused": false,
+      "matching_candidates": 38
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "size_bytes": 1476180406,
+      "etag": "\"cdb8514cbaac6d260aab82eb95251523-176\"",
+      "status": "processed",
+      "new_reservation_bytes": 1476180406,
+      "partial_bytes_before_first_attempt": 0,
+      "sha256": "c7d41a167f836e594dc87028ad32fa7b84b0706874682d17ed1d29c94689cd0f",
+      "completed_at_utc": "2026-10-14T05:43:12.522634+00:00",
+      "reused": false,
+      "matching_candidates": 21
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "size_bytes": 1491709203,
+      "etag": "\"2eb22a374430398924c06b0e6e5da45e-178\"",
+      "status": "processed",
+      "new_reservation_bytes": 1491709203,
+      "partial_bytes_before_first_attempt": 0,
+      "sha256": "f3e82eb1efc93909e07a216664b1db1f09355f4f09c5d87790de9891797c80d5",
+      "completed_at_utc": "2026-10-14T05:45:32.692417+00:00",
+      "reused": false,
+      "matching_candidates": 12
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "size_bytes": 1502494589,
+      "etag": "\"0280a8538487f73176e1295a770ae6be-180\"",
+      "status": "processed",
+      "new_reservation_bytes": 1502494589,
+      "partial_bytes_before_first_attempt": 0,
+      "sha256": "d52e331e7a38491097173395dffdae61d7a0b6dad34e4a240751da4e63985290",
+      "completed_at_utc": "2026-10-14T05:47:45.641251+00:00",
+      "reused": false,
+      "matching_candidates": 5
+    }
+  ],
+  "events": [
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "kind": "http_attempt",
+      "method": "HEAD",
+      "range": null,
+      "at_utc": "2026-10-14T05:27:43.306562+00:00",
+      "status": "opened",
+      "response_status": 200
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=201326592-268435455",
+      "at_utc": "2026-10-14T05:27:43.923484+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=0-67108863",
+      "at_utc": "2026-10-14T05:27:43.920494+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=268435456-335544319",
+      "at_utc": "2026-10-14T05:27:43.924483+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=335544320-402653183",
+      "at_utc": "2026-10-14T05:27:43.925478+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=67108864-134217727",
+      "at_utc": "2026-10-14T05:27:43.921488+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=469762048-536870911",
+      "at_utc": "2026-10-14T05:27:43.927472+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=134217728-201326591",
+      "at_utc": "2026-10-14T05:27:43.922487+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=402653184-469762047",
+      "at_utc": "2026-10-14T05:27:43.926476+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=536870912-603979775",
+      "at_utc": "2026-10-14T05:28:04.186735+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=603979776-671088639",
+      "at_utc": "2026-10-14T05:28:04.909667+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=671088640-738197503",
+      "at_utc": "2026-10-14T05:28:05.490753+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=738197504-805306367",
+      "at_utc": "2026-10-14T05:28:18.402500+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=805306368-872415231",
+      "at_utc": "2026-10-14T05:28:21.742179+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=872415232-939524095",
+      "at_utc": "2026-10-14T05:28:22.074669+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=939524096-1006632959",
+      "at_utc": "2026-10-14T05:28:24.742485+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1006632960-1073741823",
+      "at_utc": "2026-10-14T05:29:03.659490+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1073741824-1140850687",
+      "at_utc": "2026-10-14T05:29:03.817069+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1140850688-1207959551",
+      "at_utc": "2026-10-14T05:29:29.816426+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1207959552-1275068415",
+      "at_utc": "2026-10-14T05:29:30.257662+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1275068416-1342177279",
+      "at_utc": "2026-10-14T05:29:34.689157+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1342177280-1409286143",
+      "at_utc": "2026-10-14T05:29:36.300138+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1409286144-1476395007",
+      "at_utc": "2026-10-14T05:29:43.271224+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1476395008-1543503871",
+      "at_utc": "2026-10-14T05:29:57.434341+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1543503872-1577976960",
+      "at_utc": "2026-10-14T05:29:58.258692+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "kind": "http_attempt",
+      "method": "HEAD",
+      "range": null,
+      "at_utc": "2026-10-14T05:38:02.919590+00:00",
+      "status": "opened",
+      "response_status": 200
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=469762048-536870911",
+      "at_utc": "2026-10-14T05:38:03.559510+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=402653184-469762047",
+      "at_utc": "2026-10-14T05:38:03.558511+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=268435456-335544319",
+      "at_utc": "2026-10-14T05:38:03.557513+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=201326592-268435455",
+      "at_utc": "2026-10-14T05:38:03.557513+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=335544320-402653183",
+      "at_utc": "2026-10-14T05:38:03.558511+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=134217728-201326591",
+      "at_utc": "2026-10-14T05:38:03.556517+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=67108864-134217727",
+      "at_utc": "2026-10-14T05:38:03.555520+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=0-67108863",
+      "at_utc": "2026-10-14T05:38:03.554531+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=536870912-603979775",
+      "at_utc": "2026-10-14T05:38:27.672502+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=603979776-671088639",
+      "at_utc": "2026-10-14T05:38:27.781210+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=671088640-738197503",
+      "at_utc": "2026-10-14T05:38:38.457331+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=738197504-805306367",
+      "at_utc": "2026-10-14T05:38:39.593341+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=805306368-872415231",
+      "at_utc": "2026-10-14T05:38:42.168452+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=872415232-939524095",
+      "at_utc": "2026-10-14T05:38:42.236401+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=939524096-1006632959",
+      "at_utc": "2026-10-14T05:38:43.536496+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1006632960-1073741823",
+      "at_utc": "2026-10-14T05:38:45.482567+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1073741824-1140850687",
+      "at_utc": "2026-10-14T05:38:48.480345+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1140850688-1207959551",
+      "at_utc": "2026-10-14T05:38:50.132876+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1207959552-1275068415",
+      "at_utc": "2026-10-14T05:39:03.765644+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1275068416-1342177279",
+      "at_utc": "2026-10-14T05:39:05.145954+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1342177280-1409286143",
+      "at_utc": "2026-10-14T05:39:05.668558+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1409286144-1470548061",
+      "at_utc": "2026-10-14T05:39:06.239033+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "kind": "http_attempt",
+      "method": "HEAD",
+      "range": null,
+      "at_utc": "2026-10-14T05:41:34.030276+00:00",
+      "status": "opened",
+      "response_status": 200
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=67108864-134217727",
+      "at_utc": "2026-10-14T05:41:34.650456+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=201326592-268435455",
+      "at_utc": "2026-10-14T05:41:34.653450+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=469762048-536870911",
+      "at_utc": "2026-10-14T05:41:34.658435+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=268435456-335544319",
+      "at_utc": "2026-10-14T05:41:34.655449+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=134217728-201326591",
+      "at_utc": "2026-10-14T05:41:34.651456+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=335544320-402653183",
+      "at_utc": "2026-10-14T05:41:34.657444+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=402653184-469762047",
+      "at_utc": "2026-10-14T05:41:34.657444+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=0-67108863",
+      "at_utc": "2026-10-14T05:41:34.649477+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=536870912-603979775",
+      "at_utc": "2026-10-14T05:41:50.482067+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=603979776-671088639",
+      "at_utc": "2026-10-14T05:41:53.823154+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=671088640-738197503",
+      "at_utc": "2026-10-14T05:41:54.063478+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=738197504-805306367",
+      "at_utc": "2026-10-14T05:42:01.288360+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=805306368-872415231",
+      "at_utc": "2026-10-14T05:42:04.079080+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=872415232-939524095",
+      "at_utc": "2026-10-14T05:42:04.154877+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=939524096-1006632959",
+      "at_utc": "2026-10-14T05:42:14.244259+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1006632960-1073741823",
+      "at_utc": "2026-10-14T05:42:17.486902+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1073741824-1140850687",
+      "at_utc": "2026-10-14T05:42:22.505075+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1140850688-1207959551",
+      "at_utc": "2026-10-14T05:42:23.317902+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1207959552-1275068415",
+      "at_utc": "2026-10-14T05:42:28.424387+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1275068416-1342177279",
+      "at_utc": "2026-10-14T05:42:30.895570+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1342177280-1409286143",
+      "at_utc": "2026-10-14T05:42:33.597349+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1409286144-1476180405",
+      "at_utc": "2026-10-14T05:42:38.407487+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "kind": "http_attempt",
+      "method": "HEAD",
+      "range": null,
+      "at_utc": "2026-10-14T05:43:49.096139+00:00",
+      "status": "opened",
+      "response_status": 200
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=134217728-201326591",
+      "at_utc": "2026-10-14T05:43:49.724450+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=67108864-134217727",
+      "at_utc": "2026-10-14T05:43:49.724450+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=0-67108863",
+      "at_utc": "2026-10-14T05:43:49.723453+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=335544320-402653183",
+      "at_utc": "2026-10-14T05:43:49.726444+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=469762048-536870911",
+      "at_utc": "2026-10-14T05:43:49.728440+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=402653184-469762047",
+      "at_utc": "2026-10-14T05:43:49.727443+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=201326592-268435455",
+      "at_utc": "2026-10-14T05:43:49.725449+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=268435456-335544319",
+      "at_utc": "2026-10-14T05:43:49.725449+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=536870912-603979775",
+      "at_utc": "2026-10-14T05:44:09.485853+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=603979776-671088639",
+      "at_utc": "2026-10-14T05:44:13.459802+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=671088640-738197503",
+      "at_utc": "2026-10-14T05:44:15.142155+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=738197504-805306367",
+      "at_utc": "2026-10-14T05:44:18.813828+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=805306368-872415231",
+      "at_utc": "2026-10-14T05:44:24.209190+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=872415232-939524095",
+      "at_utc": "2026-10-14T05:44:28.249051+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=939524096-1006632959",
+      "at_utc": "2026-10-14T05:44:32.122920+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1006632960-1073741823",
+      "at_utc": "2026-10-14T05:44:42.420468+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1073741824-1140850687",
+      "at_utc": "2026-10-14T05:44:46.257371+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1140850688-1207959551",
+      "at_utc": "2026-10-14T05:44:48.438080+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1207959552-1275068415",
+      "at_utc": "2026-10-14T05:44:54.271102+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1275068416-1342177279",
+      "at_utc": "2026-10-14T05:44:55.754557+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1342177280-1409286143",
+      "at_utc": "2026-10-14T05:44:57.386766+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1409286144-1476395007",
+      "at_utc": "2026-10-14T05:44:59.582020+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1476395008-1491709202",
+      "at_utc": "2026-10-14T05:45:00.994209+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "kind": "http_attempt",
+      "method": "HEAD",
+      "range": null,
+      "at_utc": "2026-10-14T05:46:04.470737+00:00",
+      "status": "opened",
+      "response_status": 200
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=402653184-469762047",
+      "at_utc": "2026-10-14T05:46:05.109283+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=268435456-335544319",
+      "at_utc": "2026-10-14T05:46:05.108285+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=201326592-268435455",
+      "at_utc": "2026-10-14T05:46:05.107286+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=0-67108863",
+      "at_utc": "2026-10-14T05:46:05.105332+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=469762048-536870911",
+      "at_utc": "2026-10-14T05:46:05.110279+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=134217728-201326591",
+      "at_utc": "2026-10-14T05:46:05.107286+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=335544320-402653183",
+      "at_utc": "2026-10-14T05:46:05.108285+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=67108864-134217727",
+      "at_utc": "2026-10-14T05:46:05.106290+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=536870912-603979775",
+      "at_utc": "2026-10-14T05:46:25.250825+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=603979776-671088639",
+      "at_utc": "2026-10-14T05:46:27.345227+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=671088640-738197503",
+      "at_utc": "2026-10-14T05:46:29.482627+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=738197504-805306367",
+      "at_utc": "2026-10-14T05:46:31.781763+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=805306368-872415231",
+      "at_utc": "2026-10-14T05:46:32.819989+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=872415232-939524095",
+      "at_utc": "2026-10-14T05:46:34.547302+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=939524096-1006632959",
+      "at_utc": "2026-10-14T05:46:35.561604+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1006632960-1073741823",
+      "at_utc": "2026-10-14T05:46:39.875579+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1073741824-1140850687",
+      "at_utc": "2026-10-14T05:46:44.809537+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1140850688-1207959551",
+      "at_utc": "2026-10-14T05:46:45.958337+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1207959552-1275068415",
+      "at_utc": "2026-10-14T05:46:51.893247+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1275068416-1342177279",
+      "at_utc": "2026-10-14T05:46:56.769912+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1342177280-1409286143",
+      "at_utc": "2026-10-14T05:47:02.300745+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1409286144-1476395007",
+      "at_utc": "2026-10-14T05:47:03.814238+00:00",
+      "status": "opened",
+      "response_status": 206
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "kind": "http_attempt",
+      "method": "GET",
+      "range": "bytes=1476395008-1502494588",
+      "at_utc": "2026-10-14T05:47:10.179662+00:00",
+      "status": "opened",
+      "response_status": 206
+    }
+  ],
+  "eligibility_outcomes": [
+    {
+      "video_id": "1koxtPz76MU_000041_000051",
+      "source_id": "1koxtPz76MU",
+      "label": "cooking egg",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "08277d2c671ab754d215847ef3e5ee045c1ba9c339f96454962f8022cae8df7a",
+      "encoded_sha256": "6579e9e745a8fd4eeab153cbd25d31a0f134fc8a8bec17f7edf2b5cecc0833af",
+      "at_utc": "2026-10-14T05:30:46.796088+00:00",
+      "status": "retained",
+      "selection_ordinal": 1
+    },
+    {
+      "video_id": "2Jqhq_eLvzQ_000001_000011",
+      "source_id": "2Jqhq_eLvzQ",
+      "label": "opening bottle",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "0ca0f90b61228d889e017c01f51da7100c63ad18cf75f247536d5546471034c3",
+      "encoded_sha256": "c187971304d23086a3e9263c88111cfc431bb6fb37359f3efc09d0a9cada2067",
+      "at_utc": "2026-10-14T05:30:50.645990+00:00",
+      "status": "retained",
+      "selection_ordinal": 2
+    },
+    {
+      "video_id": "3veoIiHAn74_000042_000052",
+      "source_id": "3veoIiHAn74",
+      "label": "playing violin",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "0cca3e781a56df99d0a77a5fbb4ac6b525dfc8a8f8c6c4fe0b66dfbdea849950",
+      "encoded_sha256": "1752a2046fcaaea5130c10bcc38a77fe6d9d44acd9b6dadbfa15613c460bb820",
+      "at_utc": "2026-10-14T05:30:52.500068+00:00",
+      "status": "retained",
+      "selection_ordinal": 3
+    },
+    {
+      "video_id": "2lB7LB076g8_000004_000014",
+      "source_id": "2lB7LB076g8",
+      "label": "cooking egg",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "0ef75cd87c9bc11004cb06e93d2d1fb5ff88b5a18e5596d777e29e48ce818adb",
+      "encoded_sha256": "46f55bab934da4b59fefa5579442e82bf39bc718cba5b9613c09e49d7e0db417",
+      "at_utc": "2026-10-14T05:30:56.149234+00:00",
+      "status": "retained",
+      "selection_ordinal": 4
+    },
+    {
+      "video_id": "46qbkMr8V9U_000017_000027",
+      "source_id": "46qbkMr8V9U",
+      "label": "trimming trees",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "11ac0e7751145331282f8647053b2797e6d8bc32889798d24d8ca4093ced9743",
+      "encoded_sha256": "c417aa15369de3466ac9ec38f9c2fd47ed585b7b6f955c4634b23804fdf17f81",
+      "at_utc": "2026-10-14T05:30:57.706071+00:00",
+      "status": "retained",
+      "selection_ordinal": 5
+    },
+    {
+      "video_id": "36TYRf8TcCc_000334_000344",
+      "source_id": "36TYRf8TcCc",
+      "label": "tai chi",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "131d95f94becdaa77f660339c67ab472b3e4b58bcda23bf9516066ea045d15d3",
+      "encoded_sha256": "b496c1f05a5a5af2a56345b28c01655b42a768476f2956a0cc658a38d4cffcb2",
+      "at_utc": "2026-10-14T05:30:59.121022+00:00",
+      "status": "retained",
+      "selection_ordinal": 6
+    },
+    {
+      "video_id": "24cgfaG8WI0_000014_000024",
+      "source_id": "24cgfaG8WI0",
+      "label": "petting cat",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "14ec86173a7e10aef12e948b545311c488a6a12a5e95cdbfa2d9b87ebe6c5040",
+      "encoded_sha256": "79622a8a787f5117506a00cc010f9fd508e117a8660fcfc664eae4be7687948c",
+      "at_utc": "2026-10-14T05:36:28.235599+00:00",
+      "status": "retained",
+      "selection_ordinal": 7
+    },
+    {
+      "video_id": "3-evHTgxa8M_000104_000114",
+      "source_id": "3-evHTgxa8M",
+      "label": "tai chi",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "15430cf1c95e5096cbf7d8b8b59d645cc0266afb622b2ea50ebc61326ab446ae",
+      "encoded_sha256": "68495738cd5b68af72b4f91d453dc0405b1962c6f590a2490bed61df13b6fa07",
+      "at_utc": "2026-10-14T05:36:30.177631+00:00",
+      "status": "retained",
+      "selection_ordinal": 8
+    },
+    {
+      "video_id": "3AxMDT20HOM_000000_000010",
+      "source_id": "3AxMDT20HOM",
+      "label": "drinking shots",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "20df5ab41e79b33a7dbdfaefdb0c48a57fde7e1b52c5e5059dfcab7ad339d9a8",
+      "encoded_sha256": "5586149d2922436897a0c636b3e4ea24086d0ae26d5922e460badaf1c32474cf",
+      "at_utc": "2026-10-14T05:36:35.617087+00:00",
+      "status": "retained",
+      "selection_ordinal": 9
+    },
+    {
+      "video_id": "254xhv2zq0E_000058_000068",
+      "source_id": "254xhv2zq0E",
+      "label": "crossing river",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "24e8bfc1e667751bb733fe55a11737cae83b6f850ad50d119ceb9bd3fc8b54d8",
+      "encoded_sha256": "318d533779fb18fd138718aebaeb375b85b4888160bc3a2df9e9d315f2442a0e",
+      "at_utc": "2026-10-14T05:36:41.878867+00:00",
+      "status": "retained",
+      "selection_ordinal": 10
+    },
+    {
+      "video_id": "2932HmrpFmM_000000_000010",
+      "source_id": "2932HmrpFmM",
+      "label": "playing violin",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "276d108f9135db9f9cbb2c5358abaff9d0bf17a96ee782c4d0ea6ca41e01a7a3",
+      "encoded_sha256": "fb2b32badcd9fa188a8b6604391716acb489cf5c39c03d911b34b580d3c74a1f",
+      "at_utc": "2026-10-14T05:36:43.775790+00:00",
+      "status": "retained",
+      "selection_ordinal": 11
+    },
+    {
+      "video_id": "2PZhuNhBsW4_000030_000040",
+      "source_id": "2PZhuNhBsW4",
+      "label": "opening bottle",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "277bcf5fd39dd1bb498a21011ac1818b29454fb8a6f96502a17865e30ce39cb2",
+      "encoded_sha256": "3344fa12065c6d0aca55e5fd290e9660125777d9308373341c8c79409c1115e6",
+      "at_utc": "2026-10-14T05:36:45.196194+00:00",
+      "status": "retained",
+      "selection_ordinal": 12
+    },
+    {
+      "video_id": "3lTTjrrl3-w_000027_000037",
+      "source_id": "3lTTjrrl3-w",
+      "label": "skipping rope",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "2800a38cbb908ab6e9dc6117d1a5a3fa754f58fdd8449081d7c5ffe67c16b8c2",
+      "encoded_sha256": "638e49ea4ddbcdbb1a5309a8b8f82203bd28d8e71f6396e9e04ce6fd7e19a2b1",
+      "at_utc": "2026-10-14T05:36:48.140913+00:00",
+      "status": "retained",
+      "selection_ordinal": 13
+    },
+    {
+      "video_id": "3CXe03Zp74o_000011_000021",
+      "source_id": "3CXe03Zp74o",
+      "label": "disc golfing",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "2920e2ddbdf39e8982b70e1b5226004cd4f4e23efae3dbe8a22f4fa0c4939915",
+      "encoded_sha256": "27d5f39db1c9c73623055e6ef6608454ab9e567991d288dd2b1eb5eb229dc151",
+      "at_utc": "2026-10-14T05:36:49.373122+00:00",
+      "status": "retained",
+      "selection_ordinal": 14
+    },
+    {
+      "video_id": "3TY8DJZlaFU_000018_000028",
+      "source_id": "3TY8DJZlaFU",
+      "label": "tai chi",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "2f7956fbe86123249763a6b8547730461e09dba6c9a525552d82638164ff27a2",
+      "encoded_sha256": "ebefa509b0d427fcaced930984cf5ef272af2eb3c28265afc6ec357ebe644e23",
+      "at_utc": "2026-10-14T05:36:50.975617+00:00",
+      "status": "retained",
+      "selection_ordinal": 15
+    },
+    {
+      "video_id": "1hEA9K1VDvk_000005_000015",
+      "source_id": "1hEA9K1VDvk",
+      "label": "javelin throw",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "3151632514a8853fb6e74196912b39ef52af9f3fed29931cc325e0dec43a03b1",
+      "encoded_sha256": "804956e260b67369cf66ea738d21e5a9e3566eb65e8e8d52ff288e4c2cece86f",
+      "at_utc": "2026-10-14T05:36:56.532520+00:00",
+      "status": "retained",
+      "selection_ordinal": 16
+    },
+    {
+      "video_id": "3VIr6mwDqp8_000033_000043",
+      "source_id": "3VIr6mwDqp8",
+      "label": "swinging on something",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "3798f4ea0a0746536a8b964c72ef5037285cf6d61a02ceb77bbe07838076876d",
+      "encoded_sha256": "66b9efd5b627e80a687effb797ccf694141b0bd1487ac5899e720e5c077925fa",
+      "at_utc": "2026-10-14T05:36:57.939282+00:00",
+      "status": "retained",
+      "selection_ordinal": 17
+    },
+    {
+      "video_id": "2tGldsV2iC8_000026_000036",
+      "source_id": "2tGldsV2iC8",
+      "label": "disc golfing",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "3a479d80c4680066c9e14582e5e61896cfea784a2bf5316a61e0f2a062eedb32",
+      "encoded_sha256": "0fd46045f9ed110ca40abcddbf39932795220a8b6e9c9a92942e748097fe6b95",
+      "at_utc": "2026-10-14T05:36:59.546506+00:00",
+      "status": "retained",
+      "selection_ordinal": 18
+    },
+    {
+      "video_id": "37VVSpsEML0_000084_000094",
+      "source_id": "37VVSpsEML0",
+      "label": "drinking shots",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "4600206d707733424ea597efb3704cd3ecc2f10ef2277a8626f3405a31f6ac8b",
+      "encoded_sha256": "38f3be26f69a994d08ce78acdd2236922c7f2e651d48caa25b8e84b7645d0489",
+      "at_utc": "2026-10-14T05:37:02.314507+00:00",
+      "status": "retained",
+      "selection_ordinal": 19
+    },
+    {
+      "video_id": "1TWdrO8cCxA_000036_000046",
+      "source_id": "1TWdrO8cCxA",
+      "label": "skipping rope",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "485bdce014bd04bf88fe4e3767241dd5b1e032ddd7b49451e922e1007e9405e4",
+      "encoded_sha256": "9c047cb9db6936e83586efae07b4fb23bd25e4567711abe7081edfc07f5398f2",
+      "at_utc": "2026-10-14T05:37:05.507972+00:00",
+      "status": "retained",
+      "selection_ordinal": 20
+    },
+    {
+      "video_id": "2EPtfi-GFSw_000030_000040",
+      "source_id": "2EPtfi-GFSw",
+      "label": "opening bottle",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "574f510029a45d89fd1b11381d5087396b02cbbf8893ca76b0607e5ec04a06a6",
+      "encoded_sha256": "cbc52174173cfe70fdc029a1af7303f27f0239a6fc46102e815e9bfe672295cd",
+      "at_utc": "2026-10-14T05:37:09.239477+00:00",
+      "status": "retained",
+      "selection_ordinal": 21
+    },
+    {
+      "video_id": "1P1UydTdo9A_000074_000084",
+      "source_id": "1P1UydTdo9A",
+      "label": "waxing chest",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "5783912d9ada304e81803b84bdb4ab076ec6c592b6e94172591502f26b95e5f1",
+      "encoded_sha256": "54732ef55e9d7e329f3eb8262b2da268760919216fb36387fd015219b625112a",
+      "at_utc": "2026-10-14T05:37:10.923599+00:00",
+      "status": "retained",
+      "selection_ordinal": 22
+    },
+    {
+      "video_id": "2taxYzS7KF8_000056_000066",
+      "source_id": "2taxYzS7KF8",
+      "label": "unloading truck",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "58a9f8b2da01f9480e5a9a5b3e76c1dbffe50d84c35e2197cf02d325e1cc7b20",
+      "encoded_sha256": "704b9a395bdf68df9fb2dbd5471346280f1e2354b834ac974ace4ffafaf31dda",
+      "at_utc": "2026-10-14T05:37:15.441601+00:00",
+      "status": "retained",
+      "selection_ordinal": 23
+    },
+    {
+      "video_id": "1UupVJrLdhI_000066_000076",
+      "source_id": "1UupVJrLdhI",
+      "label": "jumpstyle dancing",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "5c2d09295a05f969936951c1867a561391feec2a6a2b242f28b258bc68d349db",
+      "encoded_sha256": "8148580644906ad52412932bbe0012aaa2a08844dd524413255e9c3d5473ac0c",
+      "at_utc": "2026-10-14T05:37:16.115310+00:00",
+      "status": "retained",
+      "selection_ordinal": 24
+    },
+    {
+      "video_id": "1J2VbXefjf4_000006_000016",
+      "source_id": "1J2VbXefjf4",
+      "label": "drinking shots",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "65870303f6a90abe3f811a881ffd3648b369808836b75453abfd0af86385f173",
+      "encoded_sha256": "8bd3db8e145ef17b1850dae3748c5675e95aacd8497e4c7ce3ea45518bae2702",
+      "at_utc": "2026-10-14T05:37:16.756109+00:00",
+      "status": "retained",
+      "selection_ordinal": 25
+    },
+    {
+      "video_id": "1G9LS4XXJrU_000111_000121",
+      "source_id": "1G9LS4XXJrU",
+      "label": "javelin throw",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "72330a716520669b4815f2f9542d05b98f8fb61e47d0e624d99fa32dc7394d5f",
+      "encoded_sha256": "562b4e74f4859bc2fd5c161d8c0c42d2513887f463efc95148adb2bc9cf929cd",
+      "at_utc": "2026-10-14T05:37:17.892981+00:00",
+      "status": "retained",
+      "selection_ordinal": 26
+    },
+    {
+      "video_id": "2_r9KtukQ48_000124_000134",
+      "source_id": "2_r9KtukQ48",
+      "label": "swinging on something",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "840f4b34845bfc3041ccb2baf3023bf6b5e3859ffc4cb341f356a60ef84193e8",
+      "encoded_sha256": "9af35a75ca1aa1008301b7b9d64a4a1997dd6eb8717ce0b3d2b13c2fafd1fe3f",
+      "at_utc": "2026-10-14T05:37:22.116401+00:00",
+      "status": "retained",
+      "selection_ordinal": 27
+    },
+    {
+      "video_id": "38o0cPpR0Eo_000052_000062",
+      "source_id": "38o0cPpR0Eo",
+      "label": "skipping rope",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "865f5f008df228d9cec503651e982464d04ac8ca07a2cfce3127d303636eee33",
+      "encoded_sha256": "9f0ce2d867d208fa9d322fae0c60712196e9018866428600ffd2c4da7c47cd64",
+      "at_utc": "2026-10-14T05:37:23.117073+00:00",
+      "status": "retained",
+      "selection_ordinal": 28
+    },
+    {
+      "video_id": "2eigAnTVfTU_000042_000052",
+      "source_id": "2eigAnTVfTU",
+      "label": "petting cat",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "86f0fbcd6eefe90023fe7411af4cc2e829e2411abb4bb252af13c26b68ee25e1",
+      "encoded_sha256": "3b7839401dc6e7e250a6b46e39ec3485c2305cb0b8bb537b5c495c9342d2dd1b",
+      "at_utc": "2026-10-14T05:37:26.118501+00:00",
+      "status": "retained",
+      "selection_ordinal": 29
+    },
+    {
+      "video_id": "3ppccvk-yjw_000016_000026",
+      "source_id": "3ppccvk-yjw",
+      "label": "blasting sand",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "9cf4c32d1a8fb9f422c5fc78f1061958dff344adfb66919a757ef707f58dfbb8",
+      "encoded_sha256": "1c6cb5337bf7d3358740e8154e0fd78533bd610db1dd8282242f82048ca2c566",
+      "at_utc": "2026-10-14T05:37:30.801863+00:00",
+      "status": "retained",
+      "selection_ordinal": 30
+    },
+    {
+      "video_id": "2ZzgcL5BM5c_000005_000015",
+      "source_id": "2ZzgcL5BM5c",
+      "label": "eating hotdog",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "a9304126242205f40e9d5102825a580f3b6891cc80d3cc53406692eacecd8649",
+      "encoded_sha256": "38ab0fd779fa271ef1fb24f0c5dc39b2100785904924ed3d57b33738d89dd805",
+      "at_utc": "2026-10-14T05:37:32.198130+00:00",
+      "status": "retained",
+      "selection_ordinal": 31
+    },
+    {
+      "video_id": "2ib0zTt3JGc_000002_000012",
+      "source_id": "2ib0zTt3JGc",
+      "label": "drinking shots",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "aa42a2e729b73461eca401e311890f1957335063dc6d9a1bf757dbf365491fa0",
+      "encoded_sha256": "17ea52d9cc730e1e6b008fb1f35d27f97b1bbf7abd523f6c8408bd22d4c95ab9",
+      "at_utc": "2026-10-14T05:37:33.862616+00:00",
+      "status": "retained",
+      "selection_ordinal": 32
+    },
+    {
+      "video_id": "4LQGoHWI8rs_000285_000295",
+      "source_id": "4LQGoHWI8rs",
+      "label": "disc golfing",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "aabe97d19fcf9527567429d4b700d8310cd7021e3d8a648216489c8076e5c2fb",
+      "encoded_sha256": "64c00e5dd08f1e772bb3051a0b89a37cd2769497ebbfff54238eb1d3354b7843",
+      "at_utc": "2026-10-14T05:37:34.968068+00:00",
+      "status": "retained",
+      "selection_ordinal": 33
+    },
+    {
+      "video_id": "1BkmCXHttEQ_000012_000022",
+      "source_id": "1BkmCXHttEQ",
+      "label": "drinking shots",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "abc8d861ff5401f7258b3695a64f9ea74703f9be99fa47f62c929558e5e08adc",
+      "encoded_sha256": "8ef61569295254ed0196ddfd7e1fca46c1eb0dd93e4167f8971780d0b3cc1b3e",
+      "at_utc": "2026-10-14T05:37:36.355099+00:00",
+      "status": "ineligible",
+      "reason": "ValueError: Clip outside experiment's 5–15 second range: 1BkmCXHttEQ_000012_000022.mp4: 4.766667s"
+    },
+    {
+      "video_id": "3QF0XHz2jt4_000003_000013",
+      "source_id": "3QF0XHz2jt4",
+      "label": "tai chi",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "afbd3f3040639fcb0c8f8c156f9ba0636b1177292215bee3bf3eafeb71ce10b9",
+      "encoded_sha256": "6e6b98a9b41f8d436e46b724542a99219a6bfb12d9dfc0cdb64a09f77bf06329",
+      "at_utc": "2026-10-14T05:37:36.562579+00:00",
+      "status": "retained",
+      "selection_ordinal": 34
+    },
+    {
+      "video_id": "41b_VAeCX6k_000077_000087",
+      "source_id": "41b_VAeCX6k",
+      "label": "tai chi",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "b7f65e4a2be22f8d7d169f77e9448162965c4df515a328143847949f09fc9676",
+      "encoded_sha256": "301f0538c3ccf0278152384f0505350755a9dc85f8fb6412855374df3e3edbcc",
+      "at_utc": "2026-10-14T05:37:39.936434+00:00",
+      "status": "retained",
+      "selection_ordinal": 35
+    },
+    {
+      "video_id": "3G7UII63408_000034_000044",
+      "source_id": "3G7UII63408",
+      "label": "eating hotdog",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "cf4ef4d67bf8f174da01d1b364c486e8efa349f317dabbdc138a2e765d5bcbef",
+      "encoded_sha256": "f33e1a6054d0adde5e732b4c01ef256e228fa8f96c87d22ff36d3a6bb76899ea",
+      "at_utc": "2026-10-14T05:37:41.425053+00:00",
+      "status": "retained",
+      "selection_ordinal": 36
+    },
+    {
+      "video_id": "4ZUbtL-7Ogw_000045_000055",
+      "source_id": "4ZUbtL-7Ogw",
+      "label": "drinking shots",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "d0f83fee1c7b184baf1b4fa7d07b053c51c214a690862bcd67ee9f27b2e37116",
+      "encoded_sha256": "e97206fc76a30adf9f1c40bdcb3cfe58faa41e40b07a7e07f9d7460e06b52a2a",
+      "at_utc": "2026-10-14T05:37:42.863212+00:00",
+      "status": "retained",
+      "selection_ordinal": 37
+    },
+    {
+      "video_id": "48T4zmzbB2c_000029_000039",
+      "source_id": "48T4zmzbB2c",
+      "label": "swinging on something",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "e0d7e811bada37caf79b910c384f4397ab9198cb5f47b95aa0a31f54e068005c",
+      "encoded_sha256": "a8e58e7cddd13916833ed39089b9126c5807ce498f15f17fb2ff2cdc54567b7a",
+      "at_utc": "2026-10-14T05:37:44.353034+00:00",
+      "status": "retained",
+      "selection_ordinal": 38
+    },
+    {
+      "video_id": "4785mshVbJ0_000028_000038",
+      "source_id": "4785mshVbJ0",
+      "label": "unloading truck",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "e4e855ecb1d54913c84656584ce25534e967201744a94b7c2dd5d3662066daf8",
+      "encoded_sha256": "0eb5c5cb8317d6c325ac768b26411491c2ff072e0a8518a401d2b6b7a176e435",
+      "at_utc": "2026-10-14T05:37:48.570598+00:00",
+      "status": "retained",
+      "selection_ordinal": 39
+    },
+    {
+      "video_id": "3jBdpKzTfyo_000007_000017",
+      "source_id": "3jBdpKzTfyo",
+      "label": "opening bottle",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "ed2f139af994962644e61b45473eea85585d82305c9b7f781cf56ad58aea46e5",
+      "encoded_sha256": "527a8110711913416e51505261e49e56a4c2422535064b14735d07e38689894f",
+      "at_utc": "2026-10-14T05:37:50.730996+00:00",
+      "status": "retained",
+      "selection_ordinal": 40
+    },
+    {
+      "video_id": "1eT5yiTVajM_000261_000271",
+      "source_id": "1eT5yiTVajM",
+      "label": "unloading truck",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "f1e31e6445cf07a0ed2bbb657c04e69532c6620b2e91f76cc223ffd8fdb17df3",
+      "encoded_sha256": "ddce52800615d89dc02b59447df644fae096a6c9b695a7ce99c31284b219648f",
+      "at_utc": "2026-10-14T05:37:52.488264+00:00",
+      "status": "retained",
+      "selection_ordinal": 41
+    },
+    {
+      "video_id": "2GjXVYEc7J8_000018_000028",
+      "source_id": "2GjXVYEc7J8",
+      "label": "cooking egg",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "f38e20c8cbcd324b6bce1a8c1cf79212fe4c13bb6964b93dcebc738d424b34d6",
+      "encoded_sha256": "9bb332a14955377dc784f069986a216f786d87ce9140edfde9cfab8db3204fbd",
+      "at_utc": "2026-10-14T05:37:55.977380+00:00",
+      "status": "retained",
+      "selection_ordinal": 42
+    },
+    {
+      "video_id": "39pt_hF13_k_000003_000013",
+      "source_id": "39pt_hF13_k",
+      "label": "shoveling snow",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "fa13d2dcfef5d2a1fff2d4cabb95eed5ad26e0191d55ca051af23452ca5d737a",
+      "encoded_sha256": "e4958daf88598bd4d2b0394cc7ad40d5d3ffa11521ad7075cb8133e21ab39cbf",
+      "at_utc": "2026-10-14T05:37:57.150991+00:00",
+      "status": "retained",
+      "selection_ordinal": 43
+    },
+    {
+      "video_id": "3jP9HNJddR8_000003_000013",
+      "source_id": "3jP9HNJddR8",
+      "label": "shoveling snow",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "rank": "fc5d004d5a9c8d45ea9d6a6169b172aeb1bfd827a3e374a542de3621271e2c6a",
+      "encoded_sha256": "bfb003f166f89e8147160cda8ba5c68cd940bb8b3d3356a28bed363cffe0f664",
+      "at_utc": "2026-10-14T05:38:01.145177+00:00",
+      "status": "retained",
+      "selection_ordinal": 44
+    },
+    {
+      "video_id": "ghX5PWawU9g_000000_000010",
+      "source_id": "ghX5PWawU9g",
+      "label": "swinging on something",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "06ce17694b85c94567fa2fb58549611f11e4f894b8aba0cf56d2d755e3eaec0c",
+      "encoded_sha256": "060e7c58a9a7b22f8126f3b525f336e759eeae78c339359198bfcbcf96dd2c78",
+      "at_utc": "2026-10-14T05:40:04.955934+00:00",
+      "status": "retained",
+      "selection_ordinal": 45
+    },
+    {
+      "video_id": "jHRm7Vugq5w_000070_000080",
+      "source_id": "jHRm7Vugq5w",
+      "label": "unloading truck",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "07bb1a28adc78ec0d875dbcab605d250af0403dd19c24891569821375dc9750c",
+      "encoded_sha256": "689b49e777d07ddf176b5c72f7288cb4f14c5463fe0beab1a0cdf4ab0e32e6f4",
+      "at_utc": "2026-10-14T05:40:05.930694+00:00",
+      "status": "retained",
+      "selection_ordinal": 46
+    },
+    {
+      "video_id": "ivEx4MEvEMg_000031_000041",
+      "source_id": "ivEx4MEvEMg",
+      "label": "swinging on something",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "091196129834911a9cd92e822e42dca59f886bb11a457e33d709b22393b44885",
+      "encoded_sha256": "fe265a079cc7f6ecf24928344839a7e884ba58296436de53176bb6fb574f8d0e",
+      "at_utc": "2026-10-14T05:40:09.299214+00:00",
+      "status": "retained",
+      "selection_ordinal": 47
+    },
+    {
+      "video_id": "h64PNsTBTH4_000008_000018",
+      "source_id": "h64PNsTBTH4",
+      "label": "cooking egg",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "0fb32032acd0482c9607f2f34dfcc50f9b69b47d1fd51d5a22512e5ca40231a5",
+      "encoded_sha256": "cc580a7c2406538ad36bfe25d31c9c01fcc3e40072b5f68a0ec8ad1deaa7d4ab",
+      "at_utc": "2026-10-14T05:40:10.792131+00:00",
+      "status": "retained",
+      "selection_ordinal": 48
+    },
+    {
+      "video_id": "iFT6_KoDIXc_000012_000022",
+      "source_id": "iFT6_KoDIXc",
+      "label": "unloading truck",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "10a596a6b6be890687b996dd74218ecac9c9e447988e3a0243a573fe16f0632d",
+      "encoded_sha256": "958b5e42030dd55122863df737b07f5f87e5c21a3143021a03d0e709e4f46768",
+      "at_utc": "2026-10-14T05:40:14.941866+00:00",
+      "status": "retained",
+      "selection_ordinal": 49
+    },
+    {
+      "video_id": "hyt69aadDDU_000120_000130",
+      "source_id": "hyt69aadDDU",
+      "label": "eating hotdog",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "1a5e4c6971e7f6a0a6288d0d47edc76315bb1e2a1da713818e49e5a25a575974",
+      "encoded_sha256": "7281b23304eed18c0d8a845c9038b32d1fa182cb08426829a4f0294b58bd2cc5",
+      "at_utc": "2026-10-14T05:40:16.639869+00:00",
+      "status": "retained",
+      "selection_ordinal": 50
+    },
+    {
+      "video_id": "ij3u6P0iv1M_000008_000018",
+      "source_id": "ij3u6P0iv1M",
+      "label": "petting cat",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "2f955f9cb17a00cdbd002996e0da84579de9f5c597724c67e901222c4cf34a6c",
+      "encoded_sha256": "4c3ae410fd6339f132a3a9051bcacc7dab94b10075143392a4b2f3c4df6cf3b1",
+      "at_utc": "2026-10-14T05:40:20.820251+00:00",
+      "status": "retained",
+      "selection_ordinal": 51
+    },
+    {
+      "video_id": "iR99L0gD0cs_000014_000024",
+      "source_id": "iR99L0gD0cs",
+      "label": "eating hotdog",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "3226f4ad30d1df3b3a69120d53ad37bddba072cbeecd60c079e5776e41ccfa83",
+      "encoded_sha256": "79674ed4cd9cf6eb7c27822ce68af78e88b08141c8cea39a3a2e19e7f891e998",
+      "at_utc": "2026-10-14T05:40:22.251705+00:00",
+      "status": "retained",
+      "selection_ordinal": 52
+    },
+    {
+      "video_id": "gXePY8Lkiw4_000040_000050",
+      "source_id": "gXePY8Lkiw4",
+      "label": "jumpstyle dancing",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "3ca4f36b781544e5436074decc43cfd057b81798b2fb880afd1913ef20f88f95",
+      "encoded_sha256": "7dcfc79ea9cd4010496debac423612403cfabf3d298ae94bd5405cc68e0347f8",
+      "at_utc": "2026-10-14T05:40:23.491391+00:00",
+      "status": "retained",
+      "selection_ordinal": 53
+    },
+    {
+      "video_id": "iTCRQG1akx0_000766_000776",
+      "source_id": "iTCRQG1akx0",
+      "label": "blasting sand",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "4131a5bfc2f82abac077ce23d9c72906e22b6dd32adcad301e456659b3bb1e50",
+      "encoded_sha256": "bd42d7d96820cf3d9a52b966adaa5ee7336118c09063f1d910510bef1d76cca8",
+      "at_utc": "2026-10-14T05:40:24.876638+00:00",
+      "status": "retained",
+      "selection_ordinal": 54
+    },
+    {
+      "video_id": "iz5381HHKQo_000012_000022",
+      "source_id": "iz5381HHKQo",
+      "label": "trimming trees",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "4206c55ee4de4e673cbf7de63a5ba5b3b9a50067514c2e63339c96b154d45659",
+      "encoded_sha256": "79c5c3fc3dc05e4ebc397c79c5c3a5d1c36d5034059e4377cc11af343f6eb162",
+      "at_utc": "2026-10-14T05:40:26.412021+00:00",
+      "status": "retained",
+      "selection_ordinal": 55
+    },
+    {
+      "video_id": "gnqDRRHbuI0_000002_000012",
+      "source_id": "gnqDRRHbuI0",
+      "label": "opening bottle",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "5864b3ddb756df5bdfe1e2e509eadd33fc7576747d2a3091e787f93de05c2190",
+      "encoded_sha256": "aea747c849d59a8516a56bd052426834dd09a247277d718bfdb8bfe26c691b96",
+      "at_utc": "2026-10-14T05:40:27.680672+00:00",
+      "status": "retained",
+      "selection_ordinal": 56
+    },
+    {
+      "video_id": "ifhl1Jydbyo_000007_000017",
+      "source_id": "ifhl1Jydbyo",
+      "label": "playing flute",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "75b6d5b31b748c4471884642d8f20573e01e3c2e550f34530b490dbb8f82af34",
+      "encoded_sha256": "65c692d127153058342f92e573c8f9a9215b0a567280cc152ef12718c7f7e8fb",
+      "at_utc": "2026-10-14T05:40:32.845272+00:00",
+      "status": "retained",
+      "selection_ordinal": 57
+    },
+    {
+      "video_id": "gq7PnpY3rD4_000001_000011",
+      "source_id": "gq7PnpY3rD4",
+      "label": "playing violin",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "794382c0871f58f85f0ebb3b7f9077015b0a73d5c4a65aced0c15c6ba29eaf9d",
+      "encoded_sha256": "8addcb197df4988a5df19c3cc26f507b448880f9461865fbd8e90283eb1a3798",
+      "at_utc": "2026-10-14T05:40:34.440321+00:00",
+      "status": "retained",
+      "selection_ordinal": 58
+    },
+    {
+      "video_id": "jLX0yAJ8GEA_000060_000070",
+      "source_id": "jLX0yAJ8GEA",
+      "label": "cooking egg",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "8cc8f9c7447e60bf0cf7ca0d66a8316d2cdaf98eaefa7990e5a77c760c81fc06",
+      "encoded_sha256": "4ff4d408e967d83e6cf4e15572f93918ea141eb9163b5a8976d5f790f61b8cae",
+      "at_utc": "2026-10-14T05:40:37.478564+00:00",
+      "status": "retained",
+      "selection_ordinal": 59
+    },
+    {
+      "video_id": "gn97KDKen_U_000053_000063",
+      "source_id": "gn97KDKen_U",
+      "label": "skipping rope",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "905116952f340efc728749dd2d8f19ae229fe7e9a35b9123c0b54ba77ce40862",
+      "encoded_sha256": "2ce2efd0d038cf2cd6a14e86b2c014da3f2b357aac7f0e32c193cf26f8cde331",
+      "at_utc": "2026-10-14T05:40:41.202078+00:00",
+      "status": "retained",
+      "selection_ordinal": 60
+    },
+    {
+      "video_id": "hHu72s7fICk_000037_000047",
+      "source_id": "hHu72s7fICk",
+      "label": "eating hotdog",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "9990e6e49072279d44d3682f4bd2549f3db14ff77f3976c770f0fe0855249755",
+      "encoded_sha256": "690e42a21351ae1b77e27a58733ca6032be8d0ee6a17a37171948180cc9320bf",
+      "at_utc": "2026-10-14T05:40:43.044117+00:00",
+      "status": "retained",
+      "selection_ordinal": 61
+    },
+    {
+      "video_id": "h1lzLWYSjmU_000014_000024",
+      "source_id": "h1lzLWYSjmU",
+      "label": "javelin throw",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "9fe8d0f5b1cd2e4d66808d4eef42798006e7a4b82fdadfba26a89877bbca442a",
+      "encoded_sha256": "3e9e27bac9e9ad6435700ed26744b4386f25a862a7029a45b2b2053d12868afa",
+      "at_utc": "2026-10-14T05:40:47.259096+00:00",
+      "status": "retained",
+      "selection_ordinal": 62
+    },
+    {
+      "video_id": "iKjNb7GEpMg_000008_000018",
+      "source_id": "iKjNb7GEpMg",
+      "label": "jumpstyle dancing",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "ab2df7b110cb64313156a640b1ce22895d24c5d42229242732948698e9f1d253",
+      "encoded_sha256": "407a7261978c92c801394c733d4ec4d2ef4af0162f3003aa25a3dfde4a027535",
+      "at_utc": "2026-10-14T05:40:52.166504+00:00",
+      "status": "retained",
+      "selection_ordinal": 63
+    },
+    {
+      "video_id": "iwIttka43nE_000037_000047",
+      "source_id": "iwIttka43nE",
+      "label": "petting cat",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "b1655c9f08db0de825aad2c831221bdf44ddb5fe817b54ad413ad93ac59a33e5",
+      "encoded_sha256": "5f36f3fce176a866567de086ee2247028119aedb7676afc56822519c26f89b7d",
+      "at_utc": "2026-10-14T05:40:53.636768+00:00",
+      "status": "retained",
+      "selection_ordinal": 64
+    },
+    {
+      "video_id": "jPpKBS2QV3M_000542_000552",
+      "source_id": "jPpKBS2QV3M",
+      "label": "disc golfing",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "b3e9465b98d5d242d5c61ecd967fb92ba65c48994644176b758e20074836bd99",
+      "encoded_sha256": "ef3ccf3a5dd203913db762aa189956c1213961d46b365ff9f77be9ec70ccae9a",
+      "at_utc": "2026-10-14T05:40:55.855754+00:00",
+      "status": "retained",
+      "selection_ordinal": 65
+    },
+    {
+      "video_id": "h4A9pRoceIQ_000041_000051",
+      "source_id": "h4A9pRoceIQ",
+      "label": "playing violin",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "b486ebb3f502095fbd419b1bba30fc57c3ee986e0bfb07f6d15378ce302a063c",
+      "encoded_sha256": "3f741286d149c5ca619d171c26529053acf0ab50fa6dc1914289b9c4c5dddc72",
+      "at_utc": "2026-10-14T05:41:02.887273+00:00",
+      "status": "retained",
+      "selection_ordinal": 66
+    },
+    {
+      "video_id": "hk348ebucyI_000032_000042",
+      "source_id": "hk348ebucyI",
+      "label": "javelin throw",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "b69e5cbaae1d6d2bca6f94e86f282a6b745ee5a53e10c21c2fdf89a89eef5598",
+      "encoded_sha256": "e4e2aacd74d51a3db36a0ec04091843be87a9934fbf83afac1ad732fe4e84c9c",
+      "at_utc": "2026-10-14T05:41:05.226056+00:00",
+      "status": "retained",
+      "selection_ordinal": 67
+    },
+    {
+      "video_id": "i19QMf2wtLs_000028_000038",
+      "source_id": "i19QMf2wtLs",
+      "label": "playing flute",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "b8433f92845a2316c15e8ded267504e65e3f644632b3e341d3caac8da5b303a2",
+      "encoded_sha256": "738a45ddc0ba28eb19717b9453d14de52f43f499f062cb27d11a9e24a6b1d9b5",
+      "at_utc": "2026-10-14T05:41:09.807034+00:00",
+      "status": "retained",
+      "selection_ordinal": 68
+    },
+    {
+      "video_id": "hjDBIypMgWs_000828_000838",
+      "source_id": "hjDBIypMgWs",
+      "label": "trimming trees",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "c0d4089a79ef979c6545c694e89e7ea9ac5688e8cf53eb3a64d2f2f74fe799b4",
+      "encoded_sha256": "bc0a38f3d37d3a7df082cd280cf339ddfd53062cf31a020bb988451e83459ae0",
+      "at_utc": "2026-10-14T05:41:11.482045+00:00",
+      "status": "retained",
+      "selection_ordinal": 69
+    },
+    {
+      "video_id": "igeASMnY4II_000018_000028",
+      "source_id": "igeASMnY4II",
+      "label": "skipping rope",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "c147a065f8445c9a70436cb423660cfbd091cd3f8211e4c06548eb5701a8f812",
+      "encoded_sha256": "b15147509ab6f4c2c5c54e0e1403f49ede98f1fcd693b52a2723b2d1a7a619ba",
+      "at_utc": "2026-10-14T05:41:18.934041+00:00",
+      "status": "retained",
+      "selection_ordinal": 70
+    },
+    {
+      "video_id": "gUZhHZK8Llo_000142_000152",
+      "source_id": "gUZhHZK8Llo",
+      "label": "blasting sand",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "c356ec4a2255f30efd727cc772d7d7c9cf5a474ec969f37b79ee7da115eda842",
+      "encoded_sha256": "797dcc6c28135d294dc7bde919a5853283c860e6ec94ad9305c6a01cd74a723a",
+      "at_utc": "2026-10-14T05:41:25.169645+00:00",
+      "status": "retained",
+      "selection_ordinal": 71
+    },
+    {
+      "video_id": "j2Zw5pypB8c_000059_000069",
+      "source_id": "j2Zw5pypB8c",
+      "label": "waxing chest",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "c3a1903f5553a4dfbc8d075b5701f4d3495f0f696416442e17693a6f32a9870d",
+      "encoded_sha256": "d88d7904dd8a807671f3bf6747eb3600581220e55aa801ffbf1cc90054d926e0",
+      "at_utc": "2026-10-14T05:41:27.504369+00:00",
+      "status": "retained",
+      "selection_ordinal": 72
+    },
+    {
+      "video_id": "iZQL9NS8BxU_000004_000014",
+      "source_id": "iZQL9NS8BxU",
+      "label": "playing flute",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "e1fadc9cfad20570a267ae1b8bad7cde0bcc723936ffd5bea8a7a28c8588e866",
+      "encoded_sha256": "066519556ed792d4c0942caf59ef6a2277710ea44d2d6a53e6208862ee0107aa",
+      "at_utc": "2026-10-14T05:41:29.497208+00:00",
+      "status": "retained",
+      "selection_ordinal": 73
+    },
+    {
+      "video_id": "h8CZjnsgyQQ_000027_000037",
+      "source_id": "h8CZjnsgyQQ",
+      "label": "jumpstyle dancing",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "rank": "eb3f1bea85905fd4db4624458138ec83140a62b0bfc5a16f5f0bb6164d26f496",
+      "encoded_sha256": "698290afdac7ea1d915ce0ce58ec64c72b8d7089a090963e8b6e68ceaf4e412a",
+      "at_utc": "2026-10-14T05:41:31.302957+00:00",
+      "status": "retained",
+      "selection_ordinal": 74
+    },
+    {
+      "video_id": "9hvH6SqC1EA_000000_000010",
+      "source_id": "9hvH6SqC1EA",
+      "label": "jumpstyle dancing",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "rank": "04b2bca3011b65e0b90a6bd28d909db34281f77da20993e5db214d5ace2d0cef",
+      "encoded_sha256": "74bbfea70b576aca54a94378ffbd958ec834d7cb1a70489c604aadb4f1247b79",
+      "at_utc": "2026-10-14T05:43:16.038882+00:00",
+      "status": "retained",
+      "selection_ordinal": 75
+    },
+    {
+      "video_id": "AyZ2hw6W6_Q_000000_000010",
+      "source_id": "AyZ2hw6W6_Q",
+      "label": "petting cat",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "rank": "0b363fdbdcc39f5aa4de6e0a250056a2929f1807f4679aca9f39a3cc111e57a5",
+      "encoded_sha256": "58b592c0e0ff5308003c570b5e407404acb39200a59b0500cc68c77462662c56",
+      "at_utc": "2026-10-14T05:43:17.275844+00:00",
+      "status": "retained",
+      "selection_ordinal": 76
+    },
+    {
+      "video_id": "9qcSuFYgk0k_000009_000019",
+      "source_id": "9qcSuFYgk0k",
+      "label": "washing hair",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "rank": "0c1841d79b5d9e3041fd429130c36621e259de0a0be6951799e38d5e004f9ac5",
+      "encoded_sha256": "3dce2dcb68ac1fcf52ccba575e460e729dc46d8f311c37c3291875ca372de514",
+      "at_utc": "2026-10-14T05:43:21.733284+00:00",
+      "status": "retained",
+      "selection_ordinal": 77
+    },
+    {
+      "video_id": "Awe_Sf14hPU_000037_000047",
+      "source_id": "Awe_Sf14hPU",
+      "label": "javelin throw",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "rank": "1bc3e75c284a378e90bd8c304e6b7651b7ef858e408f94c64a9fffd46d80651d",
+      "encoded_sha256": "a6655d16eab4ad06be946828eb3b8322b15cbb61c2e753ad1b2eb7ddeceb7dd1",
+      "at_utc": "2026-10-14T05:43:26.007557+00:00",
+      "status": "retained",
+      "selection_ordinal": 78
+    },
+    {
+      "video_id": "AKPPivv8g0A_000000_000010",
+      "source_id": "AKPPivv8g0A",
+      "label": "washing hair",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "rank": "343c0490d933d4d5d66f6814c627d7544606fc1c1dbf90ec35cf44455471dddc",
+      "encoded_sha256": "4c42daae58f45c6811ebcc321ee9c44d88a3e151beefe30b04a67926e526eed1",
+      "at_utc": "2026-10-14T05:43:29.987078+00:00",
+      "status": "ineligible",
+      "reason": "ValueError: Clip outside experiment's 5–15 second range: AKPPivv8g0A_000000_000010.mp4: 1.800000s"
+    },
+    {
+      "video_id": "9LgEYr5pz5k_000000_000010",
+      "source_id": "9LgEYr5pz5k",
+      "label": "playing flute",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "rank": "3acc3f71bfd91e1c0c4377fbd73f3b0543c89c89ca9a67d78f88ae5267334923",
+      "encoded_sha256": "fa685785f91f8ea71f32efb2c346e20e204aa6f16757d422aeba259fc08562e4",
+      "at_utc": "2026-10-14T05:43:30.044923+00:00",
+      "status": "retained",
+      "selection_ordinal": 79
+    },
+    {
+      "video_id": "A8HHXIcXAVU_000004_000014",
+      "source_id": "A8HHXIcXAVU",
+      "label": "trimming trees",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "rank": "468febf0a8cbce24d125348acad7b43eadce6718d52e39f511e8619455dc5dc5",
+      "encoded_sha256": "408ab4f1de716a420921bed5fea74d0f145d23a9c059bb25a29f4d685732cbfd",
+      "at_utc": "2026-10-14T05:43:31.461069+00:00",
+      "status": "retained",
+      "selection_ordinal": 80
+    },
+    {
+      "video_id": "8byoM35K6xE_000018_000028",
+      "source_id": "8byoM35K6xE",
+      "label": "washing hair",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "rank": "4a19938e051df6afe4668fce0b9ec46489de3e8439872e051410559c538d7b33",
+      "encoded_sha256": "55145c3a508f88cd94bd5a07dba8b573dfd4193d5b9b6c9fd1095f530df8f6ac",
+      "at_utc": "2026-10-14T05:43:36.086239+00:00",
+      "status": "retained",
+      "selection_ordinal": 81
+    },
+    {
+      "video_id": "8T759EZNHRI_000059_000069",
+      "source_id": "8T759EZNHRI",
+      "label": "blasting sand",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "rank": "4dbf4222eb9252662cc3d645301943310b8781b5e2ebf02ed1a307eafbaf7b39",
+      "encoded_sha256": "53920e85918718573d1b3d2acd1cc976b3c3a4cdca122d48ece169405600af87",
+      "at_utc": "2026-10-14T05:43:38.240479+00:00",
+      "status": "retained",
+      "selection_ordinal": 82
+    },
+    {
+      "video_id": "8V2ty3d7WGw_000000_000010",
+      "source_id": "8V2ty3d7WGw",
+      "label": "washing hair",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "rank": "5ef66464257c9852ddbf1405586872dac5dc832e41004855b94914c55e1d7972",
+      "encoded_sha256": "9d6ca219467077435176867ce9c4b39edcad37966982b71a4fdc903abbf07d05",
+      "at_utc": "2026-10-14T05:43:39.703062+00:00",
+      "status": "retained",
+      "selection_ordinal": 83
+    },
+    {
+      "video_id": "8GSgaJsoJ-A_000034_000044",
+      "source_id": "8GSgaJsoJ-A",
+      "label": "playing flute",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "rank": "7048c7059afc00a7baf496a0c376a7c7153b2aa2dc42e1d0c3cbd115681ba33e",
+      "encoded_sha256": "2b78c30696b168a9508c5484739bae5e2f2db5c5cc8e861e66b3aaa31e60b72d",
+      "at_utc": "2026-10-14T05:43:41.188905+00:00",
+      "status": "retained",
+      "selection_ordinal": 84
+    },
+    {
+      "video_id": "B029kZSTx6Y_000003_000013",
+      "source_id": "B029kZSTx6Y",
+      "label": "shoveling snow",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "rank": "73396cc5d040e7e27ce088d4b39b39aed2d3d9166b3a8942381dfa2ef322295a",
+      "encoded_sha256": "d43c184c4528758a027b89422f1b39ee5edbda2edca906549775a0220708d53d",
+      "at_utc": "2026-10-14T05:43:42.341027+00:00",
+      "status": "retained",
+      "selection_ordinal": 85
+    },
+    {
+      "video_id": "9eQ6FwXqLZA_000034_000044",
+      "source_id": "9eQ6FwXqLZA",
+      "label": "playing violin",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "rank": "82f4985787adf00d82121f61ce5d3375f3794360246704ff3d127a845fcc6e5b",
+      "encoded_sha256": "a38d0dee5da085e2c15ad653efc7083094c3de576ea63c32d7846dde8cdf53ca",
+      "at_utc": "2026-10-14T05:43:43.826600+00:00",
+      "status": "retained",
+      "selection_ordinal": 86
+    },
+    {
+      "video_id": "AIYO8c5YxnA_000045_000055",
+      "source_id": "AIYO8c5YxnA",
+      "label": "blasting sand",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "rank": "b23641b994b86217a24f5b759c1326221431473c60382816a7d531938a23c53a",
+      "encoded_sha256": "fdeefe581f441fc5215c657046d5405225dcea008496ded0add2b792464ab876",
+      "at_utc": "2026-10-14T05:43:45.434297+00:00",
+      "status": "retained",
+      "selection_ordinal": 87
+    },
+    {
+      "video_id": "AdrLCOKHSPw_000001_000011",
+      "source_id": "AdrLCOKHSPw",
+      "label": "trimming trees",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "rank": "bd0744571a39b96a98fb8ac49a086ff718b8343c7a2e882551c07f71ade9652b",
+      "encoded_sha256": "73f5d9e3d5303abce684b6bed29a38206331b5a07a42414118966cac01ac047b",
+      "at_utc": "2026-10-14T05:43:46.928308+00:00",
+      "status": "retained",
+      "selection_ordinal": 88
+    },
+    {
+      "video_id": "btBREAsmtgQ_000001_000011",
+      "source_id": "btBREAsmtgQ",
+      "label": "crossing river",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "rank": "05d0000b1c1c0997a5e52421308819fc43c580b94cbbf348481043cccb814f8c",
+      "encoded_sha256": "9950c93dd8eaf73ee2f11e218680b0863308cb3c397d8a0a6b4f8de977644d11",
+      "at_utc": "2026-10-14T05:45:36.529967+00:00",
+      "status": "retained",
+      "selection_ordinal": 89
+    },
+    {
+      "video_id": "afBM8g-LCoo_000014_000024",
+      "source_id": "afBM8g-LCoo",
+      "label": "shoveling snow",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "rank": "13f3f48fa6c71df680054ca246db9ffdb133d5eee62bf4db226f87e6fc1e12d5",
+      "encoded_sha256": "bf44498abe8b2d8f266c013a811009f9c5c4af86d42d40cba837c2f1ffbb9e12",
+      "at_utc": "2026-10-14T05:45:37.717327+00:00",
+      "status": "retained",
+      "selection_ordinal": 90
+    },
+    {
+      "video_id": "aTfZ-iqdWY4_000025_000035",
+      "source_id": "aTfZ-iqdWY4",
+      "label": "disc golfing",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "rank": "4ecbece43d85fedb97c98553bdf74f5392a04214cc373c7def4cb94f883977e1",
+      "encoded_sha256": "49cd2cbd100572aac9c22aa1df1eeb7cb9d31db8c382367cd733a86bd73bfd4d",
+      "at_utc": "2026-10-14T05:45:42.394873+00:00",
+      "status": "retained",
+      "selection_ordinal": 91
+    },
+    {
+      "video_id": "cdza9u-ES-A_000200_000210",
+      "source_id": "cdza9u-ES-A",
+      "label": "shoveling snow",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "rank": "6a3866b8e43b7043d85ec67d5c577ba766d513297b79051b0b394027d24561c8",
+      "encoded_sha256": "e06ed28bd82a67d97ca42788943e00c20935f872e07cadd3c0fa559206590953",
+      "at_utc": "2026-10-14T05:45:46.048710+00:00",
+      "status": "retained",
+      "selection_ordinal": 92
+    },
+    {
+      "video_id": "bXWurUvtytM_000128_000138",
+      "source_id": "bXWurUvtytM",
+      "label": "washing hair",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "rank": "d82449add77fb47ddf7f90c3104996fae317db517005e49175a536c9fdd29f7e",
+      "encoded_sha256": "5959e8cac61ab850b94eb410047e7f2002f2b362f8336221724f58624d3ddea6",
+      "at_utc": "2026-10-14T05:45:48.257857+00:00",
+      "status": "retained",
+      "selection_ordinal": 93
+    },
+    {
+      "video_id": "c5Qm7Rl07lA_000103_000113",
+      "source_id": "c5Qm7Rl07lA",
+      "label": "waxing chest",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "rank": "df5f767e471fde6b4ece5e0808ad871ceec63593cf0e46f151fdbf30bc15e056",
+      "encoded_sha256": "29ae54acf9221ad5077c41a9d336286cc3040ba6b11c2a98f44f1de391b48bc4",
+      "at_utc": "2026-10-14T05:45:52.485159+00:00",
+      "status": "retained",
+      "selection_ordinal": 94
+    },
+    {
+      "video_id": "ccOJeOTELEY_000088_000098",
+      "source_id": "ccOJeOTELEY",
+      "label": "washing hair",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "rank": "e1e970a9cb8f7b57352de4d1c7eeab8b6f9076042446f066a02cf460390c5346",
+      "encoded_sha256": "7bc2d2ec89ce072a6e157c61dc55c1fee4a48c06fe6c37a3823be0597789bf84",
+      "at_utc": "2026-10-14T05:45:57.078875+00:00",
+      "status": "retained",
+      "selection_ordinal": 95
+    },
+    {
+      "video_id": "cb3RvnukQVs_000159_000169",
+      "source_id": "cb3RvnukQVs",
+      "label": "waxing chest",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "rank": "f7af10366344f8aee6573f0c939ce270814960ed67128954a39c8dd703c559c1",
+      "encoded_sha256": "c6ffeca2a0529eddfee655582238b9e679936b70c569b2629e5daf71759c7f45",
+      "at_utc": "2026-10-14T05:46:02.195667+00:00",
+      "status": "retained",
+      "selection_ordinal": 96
+    },
+    {
+      "video_id": "_KXNqfUx5O0_000058_000068",
+      "source_id": "_KXNqfUx5O0",
+      "label": "crossing river",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "rank": "0cb967c8b5fde3813b04e8839ac53b0e57a22cd3cb8dc10a431c66cd8ab352f9",
+      "encoded_sha256": "8d2aac00e7b0f0e6e170dd770ba13427caaf95495a942a35ccd668d441a39b0c",
+      "at_utc": "2026-10-14T05:47:50.753745+00:00",
+      "status": "retained",
+      "selection_ordinal": 97
+    },
+    {
+      "video_id": "ZeyPds1BkAg_000002_000012",
+      "source_id": "ZeyPds1BkAg",
+      "label": "waxing chest",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "rank": "337ebe309ddb6a84dbb626f42cdba05e7509e118f2511f600e14c33d89cd07d4",
+      "encoded_sha256": "54e278d928fa6ba7f9ac1c3aa15acbef498cf933dda0849ae9b720999dc8fdc4",
+      "at_utc": "2026-10-14T05:47:55.857098+00:00",
+      "status": "retained",
+      "selection_ordinal": 98
+    },
+    {
+      "video_id": "YlByH0-qRLM_000017_000027",
+      "source_id": "YlByH0-qRLM",
+      "label": "crossing river",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "rank": "34390a5c31fdc5da9432dfd663f7e863bbfc38d27b78c5af3b14c397d46779bb",
+      "encoded_sha256": "98109dfc03fb6a3c22ab463b175214285d744b8aff8bdff0c2827c167de18c48",
+      "at_utc": "2026-10-14T05:47:59.176406+00:00",
+      "status": "retained",
+      "selection_ordinal": 99
+    },
+    {
+      "video_id": "ZVdAl-yh9m0_000002_000012",
+      "source_id": "ZVdAl-yh9m0",
+      "label": "crossing river",
+      "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "rank": "f180b74c16db473134c6ce345fd0d785ce44ca43e6e39899a396befdac0f76a2",
+      "encoded_sha256": "c8c55ba9ac0e299c3b2c75f08508d1f27d306f2f4405ab44a0e9e1f3f1cadc08",
+      "at_utc": "2026-10-14T05:48:01.457344+00:00",
+      "status": "retained",
+      "selection_ordinal": 100
+    }
+  ],
+  "cached_archive_bytes": 9464444791,
+  "newly_reserved_archive_bytes": 7518909221,
+  "transfer_response_body_bytes": 7518909221,
+  "compressed_limit_bytes": 12884901888,
+  "accounting_note": "reserve full uncached compressed size once, including partial/resumed; verified cached bytes excluded; response bodies include retransmissions, metadata headers/traffic can differ",
+  "selected_videos": 100,
+  "class_counts": {
+    "cooking egg": 5,
+    "opening bottle": 5,
+    "playing violin": 5,
+    "trimming trees": 5,
+    "tai chi": 5,
+    "petting cat": 5,
+    "drinking shots": 5,
+    "crossing river": 5,
+    "skipping rope": 5,
+    "disc golfing": 5,
+    "javelin throw": 5,
+    "swinging on something": 5,
+    "waxing chest": 5,
+    "unloading truck": 5,
+    "jumpstyle dancing": 5,
+    "blasting sand": 5,
+    "eating hotdog": 5,
+    "shoveling snow": 5,
+    "playing flute": 5,
+    "washing hair": 5
+  },
+  "shortfall_per_class": {
+    "blasting sand": 0,
+    "cooking egg": 0,
+    "crossing river": 0,
+    "disc golfing": 0,
+    "drinking shots": 0,
+    "eating hotdog": 0,
+    "javelin throw": 0,
+    "jumpstyle dancing": 0,
+    "opening bottle": 0,
+    "petting cat": 0,
+    "playing flute": 0,
+    "playing violin": 0,
+    "shoveling snow": 0,
+    "skipping rope": 0,
+    "swinging on something": 0,
+    "tai chi": 0,
+    "trimming trees": 0,
+    "unloading truck": 0,
+    "washing hair": 0,
+    "waxing chest": 0
+  },
+  "updated_at_utc": "2026-10-14T05:48:08.928334+00:00"
+}

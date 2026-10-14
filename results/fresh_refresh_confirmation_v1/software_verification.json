@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "scope": "synthetic correctness only, not fresh evidence",
+  "checks": {
+    "exact_budgets_outputs_latest_cache_and_interval_resets": true,
+    "action_regret_identity": true,
+    "missing_motion_valid": true,
+    "future_motion_isolation": true,
+    "evaluator_RGB_and_targets_isolation": true,
+    "parameters_and_settings_unchanged": true,
+    "no_fit_or_threshold_selection": true,
+    "independent_small_DP_enumeration": true
+  }
+}
