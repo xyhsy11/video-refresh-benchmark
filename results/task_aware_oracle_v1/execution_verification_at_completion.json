@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "raw_trajectories": 3680,
+  "per_video_rows": 1520,
+  "all_logits_losses_predictions_replay_and_exact_task_schedules_reproduced": true,
+  "bootstrap_independently_reproduced_from_video_pairs": true,
+  "previous_tracked_files_unchanged": 1337,
+  "split_source_and_hash_disjoint": true,
+  "annotation_labels_verified": true,
+  "test_loaded_only_after_classifier_freeze": true,
+  "fresh_confirmation_features_or_motion_opened": 0,
+  "classifier_unchanged_across_policies": true,
+  "exact_budget_and_latest_cache_semantics": true,
+  "exact_oracle_enumeration_counts": {
+    "2": 15,
+    "4": 455,
+    "8": 6435
+  },
+  "real_deployable_information_isolation_cases": 12,
+  "future_motion_cannot_change_earlier_decisions": true,
+  "evaluator_RGB_and_labels_cannot_change_deployable_schedules": true,
+  "focused_unit_tests": {
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "test_affine_pooling_matches_explicit_features (test_task_aware_oracle.TaskAwareOracleTests.test_affine_pooling_matches_explicit_features) ... ok\ntest_cache_latest_exact_budget (test_task_aware_oracle.TaskAwareOracleTests.test_cache_latest_exact_budget) ... ok\ntest_constant_correlation_missing (test_task_aware_oracle.TaskAwareOracleTests.test_constant_correlation_missing) ... ok\ntest_cross_entropy_independent_formula_and_torch (test_task_aware_oracle.TaskAwareOracleTests.test_cross_entropy_independent_formula_and_torch) ... ok\ntest_deterministic_training_constant_column_and_train_only_scaling (test_task_aware_oracle.TaskAwareOracleTests.test_deterministic_training_constant_column_and_train_only_scaling) ... ok\ntest_exact_task_oracle_small_independent_enumeration (test_task_aware_oracle.TaskAwareOracleTests.test_exact_task_oracle_small_independent_enumeration) ... ok\ntest_oracle_tie_rule (test_task_aware_oracle.TaskAwareOracleTests.test_oracle_tie_rule) ... ok\ntest_saved_float32_features_are_pooled_in_float64 (test_task_aware_oracle.TaskAwareOracleTests.test_saved_float32_features_are_pooled_in_float64) ... ok\ntest_shared_whole_video_bootstrap_against_loop (test_task_aware_oracle.TaskAwareOracleTests.test_shared_whole_video_bootstrap_against_loop) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.114s\n\nOK\n"
+  },
+  "release_validator": {
+    "returncode": 0,
+    "stdout": "Public snapshot PASS: ten videos, 150 pilot rows, 15 single-video rows; all counters valid.\nCSV-derived headlines PASS: 34.74% median reduction, 1.532x median speedup, 17.52-45.54% range.\nOriginal timing source hashes and 17 snapshot checksums PASS; 79 relative links PASS.\nPersonal-path and installation-requirement checks PASS; no GPU timing was rerun.\n"
+  }
+}

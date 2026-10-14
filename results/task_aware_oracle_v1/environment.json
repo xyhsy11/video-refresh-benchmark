@@ -1,0 +1,172 @@
+{
+  "checked_at_utc": "2026-10-14T07:19:35.261295+00:00",
+  "python": {
+    "version": "3.12.10",
+    "full_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "executable": ".venv/Scripts/python.exe",
+    "prefix": ".venv",
+    "in_virtual_environment": true
+  },
+  "os": "Windows-11-10.0.22631-SP0",
+  "cpu": {
+    "name": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+    "logical_processors": 16,
+    "windows_processors": {
+      "Name": "Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz",
+      "NumberOfCores": 8,
+      "NumberOfLogicalProcessors": 16
+    }
+  },
+  "packages": {
+    "torch": {
+      "version": "2.14.1+cu132",
+      "import_ok": true
+    },
+    "torchvision": {
+      "version": "0.29.1+cu132",
+      "import_ok": true
+    },
+    "av": {
+      "version": "19.0.1",
+      "import_ok": true
+    },
+    "numpy": {
+      "version": "2.5.2",
+      "import_ok": true
+    },
+    "pandas": {
+      "version": "3.0.6",
+      "import_ok": true
+    },
+    "matplotlib": {
+      "version": "3.11.2",
+      "import_ok": true
+    },
+    "Pillow": {
+      "version": "12.3.0",
+      "import_ok": true
+    }
+  },
+  "ffmpeg_version": "9.0.2",
+  "ffmpeg_libraries": {
+    "libavcodec": "63.1.102",
+    "libavdevice": "63.1.102",
+    "libavfilter": "12.1.102",
+    "libavformat": "63.1.102",
+    "libavutil": "61.1.102",
+    "libswresample": "7.1.102",
+    "libswscale": "10.1.102"
+  },
+  "nvidia_smi": {
+    "gpus": [
+      {
+        "name": "NVIDIA GeForce RTX 3080 Laptop GPU",
+        "driver_version": "610.62",
+        "memory_mib": 16384
+      }
+    ],
+    "error": null
+  },
+  "cuda": {
+    "build_version": "13.2",
+    "available": true,
+    "visible_devices_setting": null,
+    "devices": [
+      {
+        "index": 0,
+        "name": "NVIDIA GeForce RTX 3080 Laptop GPU",
+        "memory_bytes": 17179344896,
+        "compute_capability": "8.6"
+      }
+    ],
+    "tensor_test": {
+      "passed": true,
+      "operation": "A @ B on cuda:0",
+      "result": [
+        [
+          19.0,
+          22.0
+        ],
+        [
+          43.0,
+          50.0
+        ]
+      ],
+      "device": "cuda:0",
+      "input_a": [
+        [
+          1.0,
+          2.0
+        ],
+        [
+          3.0,
+          4.0
+        ]
+      ],
+      "input_b": [
+        [
+          5.0,
+          6.0
+        ],
+        [
+          7.0,
+          8.0
+        ]
+      ],
+      "expected": [
+        [
+          19.0,
+          22.0
+        ],
+        [
+          43.0,
+          50.0
+        ]
+      ]
+    },
+    "torchvision_test": {
+      "passed": true,
+      "operation": "torchvision.ops.nms on cuda:0",
+      "result": [
+        0,
+        2
+      ],
+      "expected": [
+        0,
+        2
+      ]
+    }
+  },
+  "errors": [],
+  "diagnosis": [],
+  "passed": true,
+  "installed_distributions": {
+    "Jinja2": "3.1.6",
+    "MarkupSafe": "3.0.3",
+    "av": "19.0.1",
+    "contourpy": "1.4.0",
+    "cycler": "0.12.1",
+    "filelock": "3.32.3",
+    "fonttools": "4.66.1",
+    "fsspec": "2026.7.0",
+    "kiwisolver": "1.5.1",
+    "matplotlib": "3.11.2",
+    "mpmath": "1.3.0",
+    "networkx": "3.6.1",
+    "numpy": "2.5.2",
+    "packaging": "26.3",
+    "pandas": "3.0.6",
+    "pillow": "12.3.0",
+    "pip": "26.2.1",
+    "pyparsing": "3.3.3",
+    "python-dateutil": "2.9.0.post0",
+    "setuptools": "78.1.0",
+    "six": "1.17.0",
+    "sympy": "1.14.0",
+    "torch": "2.14.1+cu132",
+    "torchvision": "0.29.1+cu132",
+    "typing_extensions": "4.16.0",
+    "tzdata": "2026.5"
+  },
+  "nvidia_driver_cuda_support": "13.3"
+}
