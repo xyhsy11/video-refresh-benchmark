@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "verified_at_utc": "2026-10-14T04:15:03.153148+00:00",
+  "software": {
+    "passed": true,
+    "scope": "synthetic software fixtures only, never experimental observations",
+    "checks": {
+      "unique_reachable_optional_action_states_and_120_drift_pairs": true,
+      "all_small_intermediate_Q_and_V_match_independent_schedule_enumeration": true,
+      "terminal_infeasibility_explicit_without_infinite_values": true,
+      "reachable_states_match_union_of_every_feasible_full_schedule": true,
+      "exact_budget_mandatory_first_latest_cache_interval_resets": true,
+      "sum_action_regret_telescopes_to_mean_error_excess": true,
+      "lambda_zero_reproduces_static_for_all_predefined_settings_and_budgets": true,
+      "dense_near_zero_and_periodic_four_schedule": true,
+      "forced_final_spending_and_exhaustion_rule": true,
+      "population_training_scaling_ridge_and_unpenalized_intercept_independent_check": true,
+      "action_value_input_whitelist_rejects_evaluator_information": true,
+      "constant_columns_and_missing_vs_observed_zero_motion": true,
+      "signed_advantage_unclipped_strictly_positive_threshold": true,
+      "future_motion_cannot_change_earlier_deployable_scores_or_actions": true,
+      "fixed_deployable_plans_isolated_from_mutated_evaluator_RGB": true,
+      "changed_development_targets_cannot_change_training_fit_or_predictions": true,
+      "deterministic_80_40_split_class_balance_excludes_original_holdouts": true,
+      "all_random_seeds_reproducible_no_best_seed_selection": true,
+      "fixed_training_quantile_lambda_grid_valid_finite_JSON": true
+    }
+  },
+  "training_videos": 80,
+  "development_videos": 40,
+  "class_balance_4_train_2_development_per_class": true,
+  "source_and_file_hashes_disjoint": true,
+  "original_validation_test_artifacts_loaded": 0,
+  "drift_pairs": 9600,
+  "action_value_states": 32480,
+  "equal_supervised_state_counts_per_training_video": {
+    "2": {
+      "states_per_training_video": 14,
+      "total_states": 1120
+    },
+    "4": {
+      "states_per_training_video": 168,
+      "total_states": 13440
+    },
+    "8": {
+      "states_per_training_video": 224,
+      "total_states": 17920
+    }
+  },
+  "all_360_initial_DPs_match_existing_exhaustive_oracle": true,
+  "all_real_trajectories_exact_budget_latest_cache_and_reset": true,
+  "all_real_trajectory_regrets_telescope_to_oracle_excess": true,
+  "lambda_zero_matches_static_on_all_real_search_settings": true,
+  "actual_models_fitted_once_training_only_and_unchanged_after_search": true,
+  "protected_files_unchanged": 953,
+  "release_validator": {
+    "returncode": 0,
+    "stdout": "Public snapshot PASS: ten videos, 150 pilot rows, 15 single-video rows; all counters valid.\nCSV-derived headlines PASS: 34.74% median reduction, 1.532x median speedup, 17.52-45.54% range.\nOriginal timing source hashes and 17 snapshot checksums PASS; 60 relative links PASS.\nPersonal-path and installation-requirement checks PASS; no GPU timing was rerun."
+  },
+  "saved_traces_reproduce_cache_counters_errors_and_regret": true,
+  "saved_metrics_and_aggregates_reproduced": true,
+  "saved_threshold_results_reproduce_selection": true,
+  "scientific_JSON_finite_and_missing_values_explicit": true
+}

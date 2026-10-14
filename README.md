@@ -467,3 +467,51 @@ The follow-up confirms savings remain with a substantial CPU codec-vector worklo
 Original project code is released under the [MIT License](LICENSE), **Copyright (c) 2026 Siyu Han**. Dataset and pretrained-weight terms remain separate.
 
 This project uses **PyTorch/torchvision** for tensors and ResNet18, **PyAV/FFmpeg** for video decoding, and the **OpenMMLab/MMAction2** Kinetics tiny archive derived from the **Kinetics dataset**. V2 uses **CVDF's hosted Kinetics-400 archives and annotations**, credited in its dataset manifest. NumPy, pandas, matplotlib, and Pillow support analysis and preprocessing. See [third-party notices and upstream terms](THIRD_PARTY_NOTICES.md). No downloaded videos, pretrained weights, or dependency source code are distributed in this repository.
+
+
+## budget_aware_refresh_v2: oracle action-value supervision
+
+This development experiment tests whether age, codec motion, and remaining refresh budget improve cached appearance fidelity. It preserves the published v1 replay. Only the original v2 **training** membership supplies data: within each of twenty classes, seed **20261014** selects four training and two development sources, giving **80 training /40 development videos**. Original validation/test feature arrays, motion tables, predictions and evaluation results are excluded. See the [frozen development split](results/budget_aware_refresh_v2/development_split.json).
+
+The eighty sources provide **9,600 all-history drift pairs** and **32,480 optional oracle-action states**: 1,120 at B=2, 13,440 at B=4, and 17,920 at B=8. Exact dynamic programming supplies the signed label `(Q_reuse-Q_refresh)/16`, using privileged future references for training only. Separate age/budget and age/motion/budget ridge models are fitted per budget with training-only population scaling, alpha=1.0 and an unpenalized intercept. Their optional decision threshold is fixed at zero; signed predictions are never clipped. Old drift baselines are refitted on these same eighty videos, clip predicted drift to [0,2], and recompute inputs after each actual refresh. Pacing uses only the predefined lambdas 0,0.05,0.10,0.20. Threshold settings are selected globally on these development videos; these are not confirmation-test results.
+
+Every sparse trajectory has exactly B simulated refreshes, including candidate0, and sixteen outputs. Exhausted budget requires reuse; remaining budget equal to remaining candidate slots forces refresh. Random averages all ten seeds 20261014-20261023 within each video. Privileged actual-drift thresholding is isolated from deployable callbacks and is not a mathematical upper bound. The full-future oracle is a separate diagnostic bound. Summed evaluator-only action regret equals mean-error excess over that oracle.
+
+Run from the repository root:
+
+```powershell
+& .\.venv\Scripts\python.exe .\replay_budget_aware_policies.py --input results/cache_drift_v2 --output results/budget_aware_refresh_v2 --budgets 2 4 8 --seed 20261014
+```
+
+Focused fixtures and an independent audit can also be run:
+
+```powershell
+& .\.venv\Scripts\python.exe .\test_budget_aware_refresh.py
+& .\.venv\Scripts\python.exe .\audit_budget_aware_refresh.py --input results/budget_aware_refresh_v2 --source results/cache_drift_v2
+```
+
+Existing completed or partial outputs are preserved by choosing a fresh directory. This executed snapshot is [results/budget_aware_refresh_v2/](results/budget_aware_refresh_v2/README.md). Equal-video mean post-decision output-feature cosine error (lower is better):
+
+| Policy | B=2 | B=4 | B=8 |
+| --- | ---: | ---: | ---: |
+| Periodic | 0.137533 | 0.098383 | 0.049331 |
+| Random, ten seeds | 0.148065 | 0.107923 | 0.059255 |
+| Age drift threshold | 0.141244 | 0.097781 | 0.049480 |
+| Age + motion drift threshold | 0.143249 | 0.105307 | 0.047850 |
+| Drift + budget pacing | 0.142781 | 0.100075 | 0.044148 |
+| Action value: age + budget | 0.145639 | **0.095387** | 0.050709 |
+| Action value: age + motion + budget | 0.144809 | 0.096393 | 0.046827 |
+| Actual drift threshold, privileged | 0.137411 | 0.100359 | 0.041695 |
+| Full-future oracle, privileged | 0.111000 | 0.067008 | 0.030979 |
+
+**Mixed outcome.** At B=4, the motion-aware value controller's mean absolute improvement over periodic is **0.001991**, with **+1.97% mean per-video improvement**, but **20 videos improve and 20 worsen**. It beats pacing in average error by 0.003683 (22 improved/18 worsened), while its mean per-video percentage versus pacing is **-11.32%**. Different per-video normalization denominators explain those different signs; a ratio of aggregate means is another calculation. Adding motion is worse than age/budget alone by **0.001006** at B=4 (11 improved/17 tied/12 worsened). Both value controllers are worse than periodic at B=2. Motion helps versus age/budget alone at B=8, but pacing beats the motion-aware value controller. Thus motion does not contribute consistently, and the proposed controller is not consistently best across budgets.
+
+Privileged actual-drift thresholding improves mean error over predicted-drift thresholding at B=4, but worsens 27 videos versus improving ten, and remains worse than periodic. Better instantaneous drift information does not by itself fix greedy budget allocation. B=4 action-value policies have more costly delayed decisions than costly refresh decisions; traces and exact action regrets make these errors auditable. Low forced-refresh counts alone are not evidence of success.
+
+Nineteen focused checks, all 360 initial DP/exhaustive comparisons, all exact-budget/cache/interval/regret checks and saved-metric reproduction passed. The independent audit checks all **9,600** drift labels/intervals and all **32,480** action targets using a separate bottom-up DP, and verifies all eight regressions using augmented least squares. All **953** protected existing files remain unchanged; release validation passes. No videos/weights were downloaded, no RGB features recollected, no packages changed, and actual encoder executions are **zero**.
+
+![Development error versus simulated refresh count](results/budget_aware_refresh_v2/error_vs_refresh_budget.png)
+
+See [findings](results/budget_aware_refresh_v2/findings.md), [B=4 per-video improvements](results/budget_aware_refresh_v2/per_video_B4_improvement.png), [success/failure timelines](results/budget_aware_refresh_v2/example_timelines.png), [per-video metrics](results/budget_aware_refresh_v2/development_per_video_metrics.csv), [verification](results/budget_aware_refresh_v2/verification.json), and [independent audit](results/budget_aware_refresh_v2/independent_verification.json).
+
+The modest B=4 average gain supports a **frozen confirmation of both value controllers**, not adoption or claims of a motion benefit. The [prospective protocol](results/budget_aware_refresh_v2/fresh_test_protocol.json) fixes models/settings for 100 new videos, five per existing class, excluding every prior source and duplicate hash, with paired whole-video uncertainty and no test-driven retuning. That set was not acquired or evaluated. This remains appearance fidelity, not recognition accuracy; it measures no decoding/controller/motion/GPU latency. Full-clip candidates and future-reference vectors make it offline, and oracle labels use future RGB during training. Repeated states from one video are not independent videos.
