@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "audited_at_utc": "2026-10-14T04:21:21.094270+00:00",
+  "scope": "independent saved-data verification, no refitting/tuning/decode/inference",
+  "training_videos": 80,
+  "development_videos": 40,
+  "original_validation_test_feature_motion_artifacts_opened": 0,
+  "all_9600_drift_labels_ages_intervals_independently_checked": true,
+  "all_32480_action_labels_match_independent_bottom_up_DP_and_normalized_matrix": true,
+  "maximum_Q_discrepancy": 3.9968028886505635e-15,
+  "all_eight_fitted_models_match_independent_augmented_least_squares": true,
+  "real_two_video_future_motion_and_RGB_isolation_checked_at_all_budgets": true,
+  "changed_heldout_labels_cannot_change_prediction_inputs_or_train_only_fitted_parameters": true,
+  "source_artifact_and_953_protected_hashes_verified": true
+}

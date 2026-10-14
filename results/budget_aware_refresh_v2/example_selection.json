@@ -1,0 +1,21 @@
+{
+  "frozen_rule": "B4 largest absolute gain and largest loss versus periodic; source-ID tie break",
+  "examples": [
+    {
+      "kind": "largest_gain",
+      "video_id": "dSF2i1OQtMc_000087_000097",
+      "source_video_id": "dSF2i1OQtMc",
+      "label": "skipping rope",
+      "absolute_improvement_vs_periodic": 0.09212856010033912,
+      "selection": "predefined B4 largest gain/loss; source-ID tie break; descriptive only"
+    },
+    {
+      "kind": "failure",
+      "video_id": "fRBJY5RHN_s_000022_000032",
+      "source_video_id": "fRBJY5RHN_s",
+      "label": "shoveling snow",
+      "absolute_improvement_vs_periodic": -0.09026271521311063,
+      "selection": "predefined B4 largest gain/loss; source-ID tie break; descriptive only"
+    }
+  ]
+}

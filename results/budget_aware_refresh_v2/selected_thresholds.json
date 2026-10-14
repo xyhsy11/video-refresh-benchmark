@@ -1,0 +1,135 @@
+{
+  "selected_at_utc": "2026-10-14T04:14:33.770161+00:00",
+  "scope": "development-tuned global settings",
+  "fixed_value_threshold": 0.0,
+  "selected": {
+    "age_only": {
+      "2": {
+        "threshold_id": "q085",
+        "kind": "threshold",
+        "value": 0.22215090437323295,
+        "first_quantile_percent": 85,
+        "lambda": 0.0,
+        "grid_order": 18,
+        "setting_id": "q085:lambda0.00",
+        "equal_video_mean_error": 0.14124404279169517
+      },
+      "4": {
+        "threshold_id": "q030",
+        "kind": "threshold",
+        "value": 0.14645010273679815,
+        "first_quantile_percent": 30,
+        "lambda": 0.0,
+        "grid_order": 7,
+        "setting_id": "q030:lambda0.00",
+        "equal_video_mean_error": 0.09778118521718729
+      },
+      "8": {
+        "threshold_id": "q015",
+        "kind": "threshold",
+        "value": 0.12290974997562504,
+        "first_quantile_percent": 15,
+        "lambda": 0.0,
+        "grid_order": 4,
+        "setting_id": "q015:lambda0.00",
+        "equal_video_mean_error": 0.04947952145955619
+      }
+    },
+    "age_plus_motion": {
+      "2": {
+        "threshold_id": "q050",
+        "kind": "threshold",
+        "value": 0.1582311419928515,
+        "first_quantile_percent": 50,
+        "lambda": 0.0,
+        "grid_order": 11,
+        "setting_id": "q050:lambda0.00",
+        "equal_video_mean_error": 0.14324944550669164
+      },
+      "4": {
+        "threshold_id": "q035",
+        "kind": "threshold",
+        "value": 0.13576853368141717,
+        "first_quantile_percent": 35,
+        "lambda": 0.0,
+        "grid_order": 8,
+        "setting_id": "q035:lambda0.00",
+        "equal_video_mean_error": 0.10530664027753442
+      },
+      "8": {
+        "threshold_id": "q025",
+        "kind": "threshold",
+        "value": 0.11873193820282579,
+        "first_quantile_percent": 25,
+        "lambda": 0.0,
+        "grid_order": 6,
+        "setting_id": "q025:lambda0.00",
+        "equal_video_mean_error": 0.04784979747749191
+      }
+    },
+    "paced_age_plus_motion": {
+      "2": {
+        "threshold_id": "q055",
+        "kind": "threshold",
+        "value": 0.1657911534833246,
+        "first_quantile_percent": 55,
+        "lambda": 0.2,
+        "grid_order": 12,
+        "setting_id": "q055:lambda0.20",
+        "equal_video_mean_error": 0.14278075213161848
+      },
+      "4": {
+        "threshold_id": "q045",
+        "kind": "threshold",
+        "value": 0.1505951320257248,
+        "first_quantile_percent": 45,
+        "lambda": 0.2,
+        "grid_order": 10,
+        "setting_id": "q045:lambda0.20",
+        "equal_video_mean_error": 0.10007540756161722
+      },
+      "8": {
+        "threshold_id": "q020",
+        "kind": "threshold",
+        "value": 0.10861363748648561,
+        "first_quantile_percent": 20,
+        "lambda": 0.2,
+        "grid_order": 5,
+        "setting_id": "q020:lambda0.20",
+        "equal_video_mean_error": 0.04414766880982473
+      }
+    },
+    "privileged_actual_drift": {
+      "2": {
+        "threshold_id": "q060",
+        "kind": "threshold",
+        "value": 0.17411096420010005,
+        "first_quantile_percent": 60,
+        "lambda": 0.0,
+        "grid_order": 13,
+        "setting_id": "q060:lambda0.00",
+        "equal_video_mean_error": 0.13741122548680934
+      },
+      "4": {
+        "threshold_id": "q085",
+        "kind": "threshold",
+        "value": 0.3040914059554328,
+        "first_quantile_percent": 85,
+        "lambda": 0.0,
+        "grid_order": 18,
+        "setting_id": "q085:lambda0.00",
+        "equal_video_mean_error": 0.10035890616801066
+      },
+      "8": {
+        "threshold_id": "q050",
+        "kind": "threshold",
+        "value": 0.1389360802911992,
+        "first_quantile_percent": 50,
+        "lambda": 0.0,
+        "grid_order": 11,
+        "setting_id": "q050:lambda0.00",
+        "equal_video_mean_error": 0.0416948354962214
+      }
+    }
+  }
+}

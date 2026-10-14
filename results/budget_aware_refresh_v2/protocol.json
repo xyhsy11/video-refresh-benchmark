@@ -1,0 +1,147 @@
+{
+  "frozen_at_utc": "2026-10-14T04:12:36.312630+00:00",
+  "protocol": {
+    "experiment": "budget_aware_refresh_v2",
+    "client_date": "2026-10-14",
+    "scope": "offline development study; no original validation/test features, motion, predictions or evaluation results loaded",
+    "development_split": {
+      "original_membership": "cache_drift_v2 train only",
+      "seed": 20261014,
+      "classes": 20,
+      "per_class": {
+        "train": 4,
+        "development": 2
+      },
+      "totals": {
+        "train": 80,
+        "development": 40
+      },
+      "rule": "sorted six source IDs/class; class SHA256 seed documented in development_split.json; random.Random.shuffle; first four train"
+    },
+    "arithmetic": "float64 distances, population scaling, ridge fitting and metrics; original saved reference arrays float32",
+    "age_inputs": [
+      "age_seconds",
+      "age_decoded_frames",
+      "age_candidate_positions",
+      "age_seconds_squared"
+    ],
+    "motion_inputs": [
+      "current_mean_magnitude_px",
+      "current_p90_magnitude_px",
+      "current_mv_available",
+      "interval_mean_available_magnitude_px",
+      "interval_max_available_p90_px",
+      "interval_mv_available_fraction"
+    ],
+    "budget_inputs": [
+      "remaining_refresh_count",
+      "remaining_candidate_count",
+      "remaining_refresh_fraction"
+    ],
+    "action_value_columns": {
+      "value_age_budget": [
+        "age_seconds",
+        "age_decoded_frames",
+        "age_candidate_positions",
+        "age_seconds_squared",
+        "remaining_refresh_count",
+        "remaining_candidate_count",
+        "remaining_refresh_fraction"
+      ],
+      "value_age_motion_budget": [
+        "age_seconds",
+        "age_decoded_frames",
+        "age_candidate_positions",
+        "age_seconds_squared",
+        "remaining_refresh_count",
+        "remaining_candidate_count",
+        "remaining_refresh_fraction",
+        "current_mean_magnitude_px",
+        "current_p90_magnitude_px",
+        "current_mv_available",
+        "interval_mean_available_magnitude_px",
+        "interval_max_available_p90_px",
+        "interval_mv_available_fraction"
+      ]
+    },
+    "ridge_alpha": 1.0,
+    "scaling": "train-only population mean/std, std<=1e-12 -> scale=1; unpenalized intercept",
+    "drift_training": "all r<t pairs: 120 per video, 9,600 from 80 videos; original appearance-feature drift target",
+    "action_value_training": "all reachable feasible states from (1,0,B-1); only states with both actions feasible; separate models per B",
+    "V": "minimum SUM from t onward with exactly b remaining refreshes; terminal V(16,r,0)=0, other terminal b infeasible",
+    "Q_reuse": "D[t,r]+V(t+1,r,b), feasible iff b<=16-t-1",
+    "Q_refresh": "D[t,t]+V(t+1,t,b-1), feasible iff b>=1",
+    "action_value_target": "refresh_advantage=(Q_reuse-Q_refresh)/16; signed, distinct from drift; future RGB is permitted for TRAINING labels only",
+    "value_decision": "optional refresh iff raw signed predicted advantage >0; threshold fixed zero, no clipping or tuning",
+    "exact_budget": "first refresh mandatory and counted; b=0 requires reuse; b=16-t requires refresh; cache/motion interval reset on actual refresh",
+    "candidates": 16,
+    "outputs": 16,
+    "budgets": [
+      2,
+      4,
+      8
+    ],
+    "primary_budget": 4,
+    "dense_budget": 16,
+    "sparse_policies": [
+      "periodic",
+      "random",
+      "age_only",
+      "age_plus_motion",
+      "paced_age_plus_motion",
+      "privileged_actual_drift",
+      "value_age_budget",
+      "value_age_motion_budget",
+      "oracle"
+    ],
+    "threshold_policies": [
+      "age_only",
+      "age_plus_motion",
+      "paced_age_plus_motion",
+      "privileged_actual_drift"
+    ],
+    "threshold_grid": "unique TRAINING-score linear quantiles 0%,5%,...,100%; always/wait kind with value=null",
+    "drift_score": "clip predictions to [0,2]; recompute age/motion from current actual cache; optional refresh iff score >= threshold",
+    "privileged_score": "actual pre-decision D[t,r], with grid from training-pair actual drift; unavailable without fresh RGB, not an upper bound",
+    "pacing": {
+      "lambda_grid": [
+        0.0,
+        0.05,
+        0.1,
+        0.2
+      ],
+      "rule": "threshold_t=base_threshold+lambda*((B-1)/15-b/(16-t))",
+      "extremes": "always/wait once, lambda=0"
+    },
+    "selection": "lowest equal-video mean development error; within 1e-12 of minimum prefer smaller lambda, then earlier base grid order; coefficients frozen",
+    "periodic": "range(0,16,16//B)",
+    "random_seeds": [
+      20261014,
+      20261015,
+      20261016,
+      20261017,
+      20261018,
+      20261019,
+      20261020,
+      20261021,
+      20261022,
+      20261023
+    ],
+    "random_rule": "mandatory 0 + random.Random.sample(1..15,B-1); seed first16 SHA256 hex of budget_aware_refresh_v2|random|seed|sourceID; all10 seeds averaged within video",
+    "motion_intervals": "strictly after actual cached frame through current frame inclusive; equal frame weights when available; missing magnitudes zero with explicit availability",
+    "metric": "mean POST-decision output-feature cosine error over all16 candidates; equal weight/video",
+    "comparisons": "periodic-policy per video; percentages per video before means; oracle gap closure=(periodic-policy)/(periodic-oracle); null if denominator<=1e-12; no clipping",
+    "action_regret": "(Q_chosen-min_feasible_Q)/16, evaluator only; summed regrets equal mean-error excess over exact oracle",
+    "oracle": "existing exhaustive full-future schedules cross-checked with exact DP; lexicographic tie within1e-12",
+    "example_rule": "B4 value_age_motion_budget largest absolute gain and largest loss versus periodic, source-ID tie break; descriptive only",
+    "limitations": [
+      "development settings selected on evaluated development videos",
+      "appearance fidelity, not recognition accuracy",
+      "zero actual encoder calls and no latency measurements",
+      "offline: full-clip candidates and future-reference codec vectors",
+      "privileged future RGB trains oracle labels",
+      "states from one video are correlated"
+    ],
+    "fresh_test": "later stage only:100 new videos,five per same class,exclude allprior source IDs and duplicate hashes; fixed fitted models/settings; paired whole-source-video uncertainty,no retuning; no acquisition now"
+  }
+}

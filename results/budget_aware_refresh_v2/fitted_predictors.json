@@ -1,0 +1,662 @@
+{
+  "fitted_at_utc": "2026-10-14T04:12:54.578559+00:00",
+  "training_source_ids": [
+    "5BRQYmi-n3Q",
+    "5H02ohmoKow",
+    "5XydIroPDng",
+    "5eK6mXYQIG4",
+    "5rZzxIgLlPU",
+    "6aFe_kigVU4",
+    "6bwkUwMT87E",
+    "6yNJjyoC22c",
+    "78FOVA4MFMY",
+    "7lQay3htLG0",
+    "B5V-gDdYI4Y",
+    "B6gxJpoVNr8",
+    "B9BGRDotBG8",
+    "BJa-nPW3LLs",
+    "BbFbo987QEo",
+    "C3ihyQVPCKU",
+    "CBE51_84bwI",
+    "CZezk_EbMOY",
+    "CcUS8lV9cvI",
+    "Cj-BGLVHw4g",
+    "CnsOEEuyrrI",
+    "CvQfLHlE-PA",
+    "D3xBh384SUU",
+    "D7MdVsuBDK8",
+    "DF9HG1w5nZA",
+    "DHTYdK1VR4I",
+    "DQATO-JOZo4",
+    "Dz64L1FfG_o",
+    "E066bmQTks0",
+    "E83Cry1oMZc",
+    "E8WqHpp2rjY",
+    "EJqF_I2pu0o",
+    "Eh9kvEJo1G8",
+    "EraTWAIeZZ8",
+    "EurLx7PG7S4",
+    "F21MHQWYf78",
+    "FbpFw3nEEek",
+    "Gn3GtDKZZPQ",
+    "GnAEF4SBvZE",
+    "H6yq9icpuMc",
+    "KgdYwQqZPDc",
+    "KyR9GKqxzlQ",
+    "LAtbQ-IVheY",
+    "M0O3qn_zgqo",
+    "M6GkGNHPtE8",
+    "Mc4YKgNpyBc",
+    "MfkX0SiiOT0",
+    "N7HhD2qkuds",
+    "NAqrwQ54ptY",
+    "Nn4kWqrwFN8",
+    "NwUMfuFpDto",
+    "O9G7HAX5R_M",
+    "ONMU_XV1_cY",
+    "OQOQH_Qgitg",
+    "OfKSSn_FyIo",
+    "OmoC3X888rg",
+    "PLGIfVu_PQs",
+    "PfDPK7sdpuo",
+    "PgPfk4vYpMU",
+    "PyIShF3VQ1A",
+    "QD9PdqOIWKg",
+    "QKHEnqj8CH0",
+    "R5hJENNOHeU",
+    "dl07YPUpYxU",
+    "dqDlHUs3R4k",
+    "eCDR84avtAI",
+    "eFDcurD-6bY",
+    "eLSA3Zw8sFw",
+    "eND-2SMjxDg",
+    "eZWC9LI7kt8",
+    "elofIurd-eQ",
+    "f3iR_d-DWcQ",
+    "f40f8wMFA9E",
+    "fKj_j00MAfc",
+    "fhCvoCCR3n8",
+    "fm0KsCr1kMc",
+    "fn8bBb0gTkw",
+    "fov5eynCpUc",
+    "fvWJtfOY6fQ",
+    "g2L1cacdcc4"
+  ],
+  "training_videos": 80,
+  "models": {
+    "drift": {
+      "age_only": {
+        "columns": [
+          "age_seconds",
+          "age_decoded_frames",
+          "age_candidate_positions",
+          "age_seconds_squared"
+        ],
+        "intercept": 0.17192324874841575,
+        "training_rows": 9600,
+        "means": [
+          3.6662704302103672,
+          102.343125,
+          5.666666666666667,
+          19.151792936881684
+        ],
+        "raw_standard_deviations": [
+          2.3896137908554973,
+          69.11484234157697,
+          3.636237371545238,
+          21.849184941230735
+        ],
+        "scales": [
+          2.3896137908554973,
+          69.11484234157697,
+          3.636237371545238,
+          21.849184941230735
+        ],
+        "constant_columns": [],
+        "coefficients": [
+          -0.0751741851396417,
+          0.06790571665790353,
+          0.08358784801791386,
+          -0.03897882074978435
+        ],
+        "alpha": 1.0
+      },
+      "age_plus_motion": {
+        "columns": [
+          "age_seconds",
+          "age_decoded_frames",
+          "age_candidate_positions",
+          "age_seconds_squared",
+          "current_mean_magnitude_px",
+          "current_p90_magnitude_px",
+          "current_mv_available",
+          "interval_mean_available_magnitude_px",
+          "interval_max_available_p90_px",
+          "interval_mv_available_fraction"
+        ],
+        "intercept": 0.17192324874841575,
+        "training_rows": 9600,
+        "means": [
+          3.6662704302103672,
+          102.343125,
+          5.666666666666667,
+          19.151792936881684,
+          5.381988058539349,
+          10.0740271417609,
+          0.9958333333333333,
+          5.3287460508443925,
+          50.24034072566614,
+          0.993030505088276
+        ],
+        "raw_standard_deviations": [
+          2.3896137908554973,
+          69.11484234157697,
+          3.636237371545238,
+          21.849184941230735,
+          9.45349166301013,
+          16.12465304686176,
+          0.06441510347391795,
+          6.529825269669657,
+          82.85415889118288,
+          0.016335923314641117
+        ],
+        "scales": [
+          2.3896137908554973,
+          69.11484234157697,
+          3.636237371545238,
+          21.849184941230735,
+          9.45349166301013,
+          16.12465304686176,
+          0.06441510347391795,
+          6.529825269669657,
+          82.85415889118288,
+          0.016335923314641117
+        ],
+        "constant_columns": [],
+        "coefficients": [
+          -0.06662864081466184,
+          0.044599946835124374,
+          0.08823483036061748,
+          -0.035503859233555854,
+          0.004756242827174616,
+          -0.0003262555906209142,
+          -0.005029275700894206,
+          0.0213405295444898,
+          0.03360427709943025,
+          -0.02447352729625698
+        ],
+        "alpha": 1.0
+      }
+    },
+    "action_value": {
+      "2": {
+        "value_age_budget": {
+          "columns": [
+            "age_seconds",
+            "age_decoded_frames",
+            "age_candidate_positions",
+            "age_seconds_squared",
+            "remaining_refresh_count",
+            "remaining_candidate_count",
+            "remaining_refresh_fraction"
+          ],
+          "target": "refresh_advantage",
+          "alpha": 1.0,
+          "training_rows": 1120,
+          "means": [
+            4.858017851868212,
+            135.6125,
+            7.5,
+            30.676881632132115,
+            1.0,
+            8.5,
+            0.16558778523064235
+          ],
+          "raw_standard_deviations": [
+            2.6601774720987845,
+            77.70719897359207,
+            4.031128874149275,
+            27.015029775185287,
+            0.0,
+            4.031128874149275,
+            0.11849348348530041
+          ],
+          "scales": [
+            2.6601774720987845,
+            77.70719897359207,
+            4.031128874149275,
+            27.015029775185287,
+            1.0,
+            4.031128874149275,
+            0.11849348348530041
+          ],
+          "coefficients": [
+            0.03142733270142338,
+            -0.004835286137632503,
+            0.003639251636573368,
+            -0.02043396245951004,
+            0.0,
+            -0.0036392516365909393,
+            0.004000069703473162
+          ],
+          "intercept": -0.01689088973900681,
+          "intercept_penalized": false,
+          "target_statistics": {
+            "mean": -0.01689088973900681,
+            "std_population": 0.043892205655477065,
+            "min": -0.3540814090654465,
+            "max": 0.06312598721355639
+          },
+          "constant_columns": [
+            "remaining_refresh_count"
+          ]
+        },
+        "value_age_motion_budget": {
+          "columns": [
+            "age_seconds",
+            "age_decoded_frames",
+            "age_candidate_positions",
+            "age_seconds_squared",
+            "remaining_refresh_count",
+            "remaining_candidate_count",
+            "remaining_refresh_fraction",
+            "current_mean_magnitude_px",
+            "current_p90_magnitude_px",
+            "current_mv_available",
+            "interval_mean_available_magnitude_px",
+            "interval_max_available_p90_px",
+            "interval_mv_available_fraction"
+          ],
+          "target": "refresh_advantage",
+          "alpha": 1.0,
+          "training_rows": 1120,
+          "means": [
+            4.858017851868212,
+            135.6125,
+            7.5,
+            30.676881632132115,
+            1.0,
+            8.5,
+            0.16558778523064235,
+            5.38327791109885,
+            9.972369866672674,
+            0.9964285714285714,
+            5.531730811661991,
+            59.729461215612695,
+            0.994978578934453
+          ],
+          "raw_standard_deviations": [
+            2.6601774720987845,
+            77.70719897359207,
+            4.031128874149275,
+            27.015029775185287,
+            0.0,
+            4.031128874149275,
+            0.11849348348530041,
+            9.429563756701146,
+            15.965030368617827,
+            0.059654618173178804,
+            6.639584834165681,
+            92.41016040137421,
+            0.014050131691201182
+          ],
+          "scales": [
+            2.6601774720987845,
+            77.70719897359207,
+            4.031128874149275,
+            27.015029775185287,
+            1.0,
+            4.031128874149275,
+            0.11849348348530041,
+            9.429563756701146,
+            15.965030368617827,
+            0.059654618173178804,
+            6.639584834165681,
+            92.41016040137421,
+            0.014050131691201182
+          ],
+          "coefficients": [
+            0.038834318000803184,
+            -0.00480346094377963,
+            0.0008754428536631862,
+            -0.023530964691589187,
+            0.0,
+            -0.0008754428536637418,
+            0.005210606062956721,
+            0.004351388757599519,
+            -0.010364468842215108,
+            0.0025716930209407273,
+            0.0036833606173243727,
+            0.003586157034022572,
+            0.0025934368170223037
+          ],
+          "intercept": -0.01689088973900681,
+          "intercept_penalized": false,
+          "target_statistics": {
+            "mean": -0.01689088973900681,
+            "std_population": 0.043892205655477065,
+            "min": -0.3540814090654465,
+            "max": 0.06312598721355639
+          },
+          "constant_columns": [
+            "remaining_refresh_count"
+          ]
+        }
+      },
+      "4": {
+        "value_age_budget": {
+          "columns": [
+            "age_seconds",
+            "age_decoded_frames",
+            "age_candidate_positions",
+            "age_seconds_squared",
+            "remaining_refresh_count",
+            "remaining_candidate_count",
+            "remaining_refresh_fraction"
+          ],
+          "target": "refresh_advantage",
+          "alpha": 1.0,
+          "training_rows": 13440,
+          "means": [
+            3.1021878103243044,
+            86.59456845238095,
+            4.7976190476190474,
+            13.517731521951001,
+            1.6071428571428572,
+            6.404761904761905,
+            0.30668707945493656
+          ],
+          "raw_standard_deviations": [
+            1.9733631980520712,
+            57.138769443124005,
+            3.003092699141535,
+            15.08556782178908,
+            0.6175577309210921,
+            3.1248582734301635,
+            0.16435793065203544
+          ],
+          "scales": [
+            1.9733631980520712,
+            57.138769443124005,
+            3.003092699141535,
+            15.08556782178908,
+            0.6175577309210921,
+            3.1248582734301635,
+            0.16435793065203544
+          ],
+          "coefficients": [
+            0.004001064614686396,
+            -0.00013569638568675438,
+            0.002465987488279701,
+            -0.004733779871147804,
+            0.007894193253087226,
+            -0.009027053024123302,
+            -0.0019375228246993298
+          ],
+          "intercept": -0.003180419323470316,
+          "intercept_penalized": false,
+          "target_statistics": {
+            "mean": -0.003180419323470316,
+            "std_population": 0.021935872284896452,
+            "min": -0.35761795004791663,
+            "max": 0.0535447061528212
+          },
+          "constant_columns": []
+        },
+        "value_age_motion_budget": {
+          "columns": [
+            "age_seconds",
+            "age_decoded_frames",
+            "age_candidate_positions",
+            "age_seconds_squared",
+            "remaining_refresh_count",
+            "remaining_candidate_count",
+            "remaining_refresh_fraction",
+            "current_mean_magnitude_px",
+            "current_p90_magnitude_px",
+            "current_mv_available",
+            "interval_mean_available_magnitude_px",
+            "interval_max_available_p90_px",
+            "interval_mv_available_fraction"
+          ],
+          "target": "refresh_advantage",
+          "alpha": 1.0,
+          "training_rows": 13440,
+          "means": [
+            3.1021878103243044,
+            86.59456845238095,
+            4.7976190476190474,
+            13.517731521951001,
+            1.6071428571428572,
+            6.404761904761905,
+            0.30668707945493656,
+            5.197061089234606,
+            9.802332638814582,
+            0.994717261904762,
+            5.281298233265404,
+            47.07353637743032,
+            0.9931863729395863
+          ],
+          "raw_standard_deviations": [
+            1.9733631980520712,
+            57.138769443124005,
+            3.003092699141535,
+            15.08556782178908,
+            0.6175577309210921,
+            3.1248582734301635,
+            0.16435793065203544,
+            9.348802169785221,
+            16.034221289388945,
+            0.07249021156994381,
+            6.52158568143498,
+            79.541964304259,
+            0.0172071959765612
+          ],
+          "scales": [
+            1.9733631980520712,
+            57.138769443124005,
+            3.003092699141535,
+            15.08556782178908,
+            0.6175577309210921,
+            3.1248582734301635,
+            0.16435793065203544,
+            9.348802169785221,
+            16.034221289388945,
+            0.07249021156994381,
+            6.52158568143498,
+            79.541964304259,
+            0.0172071959765612
+          ],
+          "coefficients": [
+            0.004030648103504548,
+            -0.0005216331857904607,
+            0.0024337672014115566,
+            -0.004568586439498118,
+            0.007908190811052773,
+            -0.009011474480100154,
+            -0.0020001216396629373,
+            0.0003627742576541743,
+            -0.002148471873627644,
+            0.0012391840596637932,
+            4.071566412243905e-05,
+            0.0015421484405519065,
+            -0.0005934492204604492
+          ],
+          "intercept": -0.003180419323470316,
+          "intercept_penalized": false,
+          "target_statistics": {
+            "mean": -0.003180419323470316,
+            "std_population": 0.021935872284896452,
+            "min": -0.35761795004791663,
+            "max": 0.0535447061528212
+          },
+          "constant_columns": []
+        }
+      },
+      "8": {
+        "value_age_budget": {
+          "columns": [
+            "age_seconds",
+            "age_decoded_frames",
+            "age_candidate_positions",
+            "age_seconds_squared",
+            "remaining_refresh_count",
+            "remaining_candidate_count",
+            "remaining_refresh_fraction"
+          ],
+          "target": "refresh_advantage",
+          "alpha": 1.0,
+          "training_rows": 17920,
+          "means": [
+            2.179678799337429,
+            60.843191964285715,
+            3.375,
+            6.4726443223644745,
+            3.625,
+            7.0,
+            0.5244215729706801
+          ],
+          "raw_standard_deviations": [
+            1.3121145735351836,
+            38.10204180633059,
+            1.996089927833914,
+            6.980436502749183,
+            1.79843682124227,
+            2.7386127875258306,
+            0.19407654372751873
+          ],
+          "scales": [
+            1.3121145735351836,
+            38.10204180633059,
+            1.996089927833914,
+            6.980436502749183,
+            1.79843682124227,
+            2.7386127875258306,
+            0.19407654372751873
+          ],
+          "coefficients": [
+            -0.0001348254315590701,
+            0.0020633918951125825,
+            0.0032133562866255784,
+            -0.003396031884316973,
+            0.001213294255300408,
+            -0.000742402510900649,
+            0.0028130565135596696
+          ],
+          "intercept": 0.002076278372480357,
+          "intercept_penalized": false,
+          "target_statistics": {
+            "mean": 0.002076278372480357,
+            "std_population": 0.011420222721379956,
+            "min": -0.2119672300084483,
+            "max": 0.053147701699092297
+          },
+          "constant_columns": []
+        },
+        "value_age_motion_budget": {
+          "columns": [
+            "age_seconds",
+            "age_decoded_frames",
+            "age_candidate_positions",
+            "age_seconds_squared",
+            "remaining_refresh_count",
+            "remaining_candidate_count",
+            "remaining_refresh_fraction",
+            "current_mean_magnitude_px",
+            "current_p90_magnitude_px",
+            "current_mv_available",
+            "interval_mean_available_magnitude_px",
+            "interval_max_available_p90_px",
+            "interval_mv_available_fraction"
+          ],
+          "target": "refresh_advantage",
+          "alpha": 1.0,
+          "training_rows": 17920,
+          "means": [
+            2.179678799337429,
+            60.843191964285715,
+            3.375,
+            6.4726443223644745,
+            3.625,
+            7.0,
+            0.5244215729706801,
+            5.263407784178659,
+            9.798216451847653,
+            0.9945870535714286,
+            5.267890627141085,
+            41.420363026905136,
+            0.993371253272954
+          ],
+          "raw_standard_deviations": [
+            1.3121145735351836,
+            38.10204180633059,
+            1.996089927833914,
+            6.980436502749183,
+            1.79843682124227,
+            2.7386127875258306,
+            0.19407654372751873,
+            9.53173627112205,
+            16.023472120977726,
+            0.07337333602564929,
+            6.655228585110658,
+            72.06558701720961,
+            0.01852461514914944
+          ],
+          "scales": [
+            1.3121145735351836,
+            38.10204180633059,
+            1.996089927833914,
+            6.980436502749183,
+            1.79843682124227,
+            2.7386127875258306,
+            0.19407654372751873,
+            9.53173627112205,
+            16.023472120977726,
+            0.07337333602564929,
+            6.655228585110658,
+            72.06558701720961,
+            0.01852461514914944
+          ],
+          "coefficients": [
+            -0.00039813839813667063,
+            0.0014639945261712742,
+            0.0036179822299500404,
+            -0.0032128742382555053,
+            0.001240005233016709,
+            -0.0006821232892508181,
+            0.0027967547291729007,
+            0.0009933441697179389,
+            -0.0014294004722768274,
+            -2.4947542307292135e-05,
+            -0.000526366986091645,
+            0.0019085050706813102,
+            -0.0007493072172772799
+          ],
+          "intercept": 0.002076278372480357,
+          "intercept_penalized": false,
+          "target_statistics": {
+            "mean": 0.002076278372480357,
+            "std_population": 0.011420222721379956,
+            "min": -0.2119672300084483,
+            "max": 0.053147701699092297
+          },
+          "constant_columns": []
+        }
+      }
+    }
+  },
+  "action_state_counts": {
+    "2": {
+      "states_per_training_video": 14,
+      "total_states": 1120
+    },
+    "4": {
+      "states_per_training_video": 168,
+      "total_states": 13440
+    },
+    "8": {
+      "states_per_training_video": 224,
+      "total_states": 17920
+    }
+  }
+}
