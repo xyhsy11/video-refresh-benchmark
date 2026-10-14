@@ -1,0 +1,30 @@
+{
+  "corrected_at_utc": "2026-10-14T05:35:54.277943+00:00",
+  "stage": "before any fresh policy evaluation; six retained videos",
+  "original_sources_sha256": {
+    "run_fresh_refresh_confirmation.py": "dfc1739eb4a3d5ab986325992ec0118f09952d9a691e11c93933bc52e9ced98e",
+    "fresh_confirmation_data.py": "30ef539f9b672e5099dcf8426bfe9e1e7adc88f61f74918073650a0d52e1bb98",
+    "fresh_confirmation_eval.py": "50d88432cdf99d70c8ea1c2d6fa1525c86e88a368420d18db1b9825bd32a7362",
+    "fresh_confirmation_report.py": "bf1d950cda308dfd32733a917c4c8468aa221244ccf4af6a4843470c96038e10"
+  },
+  "corrected_sources_sha256": {
+    "run_fresh_refresh_confirmation.py": "4f1ca6c762011a1502c2d0fe8f0bf3c772ed5da602d9ca4422689dec25bffc0f",
+    "fresh_confirmation_data.py": "1d6b6f4ee80d5ea4cfd483fd9992f40e2525e7e3c718f9fb66b6e99fe0225d62",
+    "fresh_confirmation_eval.py": "2acaf42d50fcc488812a3bd8d51f372681fcdbb9d9960c2b05928a900118fd75",
+    "fresh_confirmation_report.py": "413fb72dc43d4d94b6af1bd1d5b3d97668b801f04e3217535214a6f617bc4aa9"
+  },
+  "original_source_copies": "implementation_versions/pre_collection_IO_correction/",
+  "changes": [
+    "retry transient Windows atomic-replace sharing violations",
+    "explicit UTF-8 for all JSON/text reads",
+    "count returned forwards with a post-hook",
+    "check HEAD identity before any GET",
+    "compare existing extracted files against archive-member bytes"
+  ],
+  "protocol_models_settings_sampling_exclusions_unchanged": true,
+  "cohort_resampled": false,
+  "counter_reconciliation": "Failed thirteenth pre-hook never entered model.forward; twelve returned forwards on interrupted clip plus sixteen smoke and ninety-six retained =124 actual forward calls. Thirteenth hook attempt logged separately. Retry same clip.",
+  "retained_reference_features": 96,
+  "actual_forward_calls_before_resume": 124,
+  "extra_forward_calls_before_resume": 28
+}

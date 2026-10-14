@@ -1,0 +1,46 @@
+{
+  "experiment": "fresh_refresh_confirmation_v1",
+  "status": "complete",
+  "finalized_at_utc": "2026-10-14T06:05:34.593028+00:00",
+  "source_commit": "6ee30f9fe860a792f9729b879b967dc0d4c5a210",
+  "branch": "experiment/fresh-refresh-confirmation-v1",
+  "source_code_sha256": {
+    "run_fresh_refresh_confirmation.py": "4f1ca6c762011a1502c2d0fe8f0bf3c772ed5da602d9ca4422689dec25bffc0f",
+    "fresh_confirmation_data.py": "1d6b6f4ee80d5ea4cfd483fd9992f40e2525e7e3c718f9fb66b6e99fe0225d62",
+    "fresh_confirmation_eval.py": "2acaf42d50fcc488812a3bd8d51f372681fcdbb9d9960c2b05928a900118fd75",
+    "fresh_confirmation_report.py": "413fb72dc43d4d94b6af1bd1d5b3d97668b801f04e3217535214a6f617bc4aa9"
+  },
+  "additional_verification_source_sha256": {
+    "verify_fresh_confirmation.py": "d7b7b83143784b9f13467c2f9f319559baf475241f8fb5deb5c68f0455516075"
+  },
+  "frozen_models_sha256": "bcb55521b9385dd7cae5a7a6342ed012967cdfa003289d5543062f57786ac1d8",
+  "frozen_settings_sha256": "4b1e963175e2c8b27c9362ce965a2a2c062dd0fb344b959ec3b3729d6f8e29b8",
+  "prospective_protocol_copied_unchanged_sha256": "1e59402073a510871bd1974fd1ed9124cb0255d858343fde44d7b4d480ae179e",
+  "frozen_manifest_sha256": "2b250fd0c858f710c9f5c621283e4e8c048d3df430ea4b2fa16bb567a9b83b90",
+  "frozen_input_artifact_identity_sha256": "9029beaba6affa1d4e05794c72afacd0b90003fc3c2b26977ffa5f0b879de0a2",
+  "actual_retained_reference_features": 1600,
+  "actual_model_forward_calls": 1628,
+  "extra_forward_calls": {
+    "original_training_smoke": 16,
+    "interrupted_candidate_before_same_clip_retry": 12
+  },
+  "policy_replay_encoder_calls": 0,
+  "reference_collection_repeated_for_reproduction": false,
+  "actual_counts": {
+    "new_source_videos": 100,
+    "classes": 20,
+    "videos_per_class": 5,
+    "raw_trajectories": 5500,
+    "candidate_rows": 88000,
+    "per_video_rows": 2800
+  },
+  "acquisition_accounting": {
+    "cached_archive_bytes": 9464444791,
+    "newly_reserved_archive_bytes": 7518909221,
+    "transfer_response_body_bytes": 7518909221,
+    "compressed_limit_bytes": 12884901888
+  },
+  "pre_evaluation_implementation_correction_sha256": "fae609f9c221d2c22330f5fa549a4f71e9b1788f49043dd33dabec99aae754be",
+  "no_method_model_settings_or_cohort_changes_after_fresh_evaluation": true,
+  "publication": "local only; no commit, push or merge"
+}

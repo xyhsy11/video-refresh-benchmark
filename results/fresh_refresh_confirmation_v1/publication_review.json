@@ -1,0 +1,100 @@
+{
+  "reviewed_at_utc": "2026-10-14T06:28:10.993803+00:00",
+  "purpose": "Publish the completed frozen confirmation on its experiment branch; no merge or method change.",
+  "execution_source_revision": {
+    "reason": "After tracking confirmation files, comparing the full current Git index with the original inventory incorrectly rejects completed-run audits. Verify only the recorded protected files, while rejecting removed/changed originals. Accept this logged source revision only for completed runs and verify archived collection-time source digests.",
+    "original_sources_directory": "implementation_versions/pre_publication_inventory_guard",
+    "original_source_code_sha256": {
+      "run_fresh_refresh_confirmation.py": "4f1ca6c762011a1502c2d0fe8f0bf3c772ed5da602d9ca4422689dec25bffc0f",
+      "fresh_confirmation_data.py": "1d6b6f4ee80d5ea4cfd483fd9992f40e2525e7e3c718f9fb66b6e99fe0225d62",
+      "fresh_confirmation_eval.py": "2acaf42d50fcc488812a3bd8d51f372681fcdbb9d9960c2b05928a900118fd75",
+      "fresh_confirmation_report.py": "413fb72dc43d4d94b6af1bd1d5b3d97668b801f04e3217535214a6f617bc4aa9"
+    },
+    "publication_source_code_sha256": {
+      "run_fresh_refresh_confirmation.py": "81e7c171c9e4199ba9b07d52694406810f1e3d720bb8c01a21cba0998371a0e3",
+      "fresh_confirmation_data.py": "1d6b6f4ee80d5ea4cfd483fd9992f40e2525e7e3c718f9fb66b6e99fe0225d62",
+      "fresh_confirmation_eval.py": "2acaf42d50fcc488812a3bd8d51f372681fcdbb9d9960c2b05928a900118fd75",
+      "fresh_confirmation_report.py": "413fb72dc43d4d94b6af1bd1d5b3d97668b801f04e3217535214a6f617bc4aa9"
+    },
+    "changed_source_files": [
+      "run_fresh_refresh_confirmation.py"
+    ],
+    "policy_collection_and_statistical_logic_changed": false,
+    "scientific_measurements_rerun": false
+  },
+  "sanitization": {
+    "file": "collection_progress.json",
+    "original_sha256": "a60797bf490b662bff86f8979cf06e4cedb04cf0d3271167ae2e70f4509caca2",
+    "public_sha256": "0988d472a40505b9e010f3f218647240b7d7ce69471727ec2240908b7391b976",
+    "changes": [
+      {
+        "json_pointer": "/attempts/7/reason",
+        "absolute_prefixes_removed": 1
+      }
+    ],
+    "scope": "Only an error-message path prefix; all collection counts and artifacts unchanged. Original retained locally outside the public snapshot."
+  },
+  "prepublication_snapshot_ledger_sha256": "a85b7b64de729978d09d76fa0f073422171267954e60209cf9ceeed0b70e6426",
+  "original_snapshot_files_preserved_byte_for_byte_excluding_snapshot_README_and_sanitized_progress": 336,
+  "original_collection_metadata_and_frozen_scientific_inputs_unchanged": true,
+  "historical_metadata_and_audits_preserved": true,
+  "private_assets_excluded": [
+    "videos",
+    "archives",
+    "weights",
+    ".venv",
+    "temporary files",
+    "pre-publication private backup"
+  ],
+  "checks": {
+    "release_validator": {
+      "passed": true,
+      "exit_code": 0,
+      "relative_links": 79,
+      "pilot_trials": 150,
+      "pilot_videos": 10
+    },
+    "python_compilation": {
+      "passed": true,
+      "files": 5
+    },
+    "additional_acquisition_statistics_software_checks": {
+      "passed": true,
+      "checks": 7,
+      "exit_code": 0
+    },
+    "completed_run_audit_after_new_files_staged": {
+      "passed": true,
+      "exit_code": 0,
+      "no_new_acquisition_collection_or_encoder_calls": true,
+      "trajectories": 5500,
+      "candidate_rows": 88000,
+      "per_video_rows": 2800,
+      "metrics_and_bootstrap_reproduced": true
+    },
+    "publication_inventory_guard": {
+      "passed": true,
+      "added_files_accepted": true,
+      "removed_protected_files_rejected": true,
+      "changed_protected_hashes_rejected": true
+    },
+    "frozen_models_settings_and_protocol_hashes": {
+      "passed": true
+    },
+    "original_sources_snapshots": {
+      "passed": true,
+      "protected_files": 988
+    },
+    "reference_motion_artifact_hashes": {
+      "passed": true,
+      "artifacts": 300
+    },
+    "staged_file_scope_size_and_asset_exclusion": {
+      "passed": true,
+      "files": 351,
+      "largest_file_bytes": 39457966
+    },
+    "personal_absolute_paths_removed": true
+  },
+  "checks_completed_at_utc": "2026-10-14T06:30:35.459933+00:00"
+}

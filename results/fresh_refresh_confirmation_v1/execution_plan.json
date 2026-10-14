@@ -1,0 +1,37 @@
+{
+  "frozen_at_utc": "2026-10-14T05:26:10.567359+00:00",
+  "authoritative_protocol_sha256": "1e59402073a510871bd1974fd1ed9124cb0255d858343fde44d7b4d480ae179e",
+  "configuration": {
+    "frozen_run": "results/budget_aware_refresh_v2",
+    "protocol_sha256": "1e59402073a510871bd1974fd1ed9124cb0255d858343fde44d7b4d480ae179e",
+    "device": "cuda",
+    "max_download_gib": 12.0,
+    "download_workers": 8
+  },
+  "sampling": "cached verified shards first; stable SHA256 URL ranking within cached/uncached groups; candidate SHA256(seed|class|filename) within each archive; same-class next candidate for genuine input ineligibility",
+  "exclusions": "freeze union of authoritative210 and all prior persisted membership/inspection source identities; do not rescan on resume",
+  "download_accounting": "verified cache bytes free; reserve entire uncached Content-Length before GET, partial/resume counted once; actual response body bytes separately; retransmissions/headers can differ",
+  "retry_rules": "metadata/HEAD timeout45s; archive64MiB ranges, four retries with2/4/8s backoff and90s response timeout; preserve failed shard and source candidate for resume; CUDA/machine/config errors block, never replace; decoded invalid input or persistently nonfinite features permits next predetermined same-class candidate",
+  "evaluation": "no fitting/threshold selection; all authoritative sparse policies, B2/B4/B8, denseB16; same ten random seeds; original40 development compatibility before fresh evaluation",
+  "comparisons": {
+    "primary": "B4 motion value vs periodic",
+    "protocol_secondary": [
+      "B4 motion value vs pacing",
+      "B4 motion value vs no-motion value",
+      "corresponding B2/B8 comparisons"
+    ],
+    "additional_declared_secondary": [
+      "age/budget value vs periodic at B2/B4/B8"
+    ]
+  },
+  "statistics": "Generator(PCG64), seed20261014, common10000x100 integer resampling matrix over sorted whole source IDs; linear2.5/97.5 percentiles; secondary intervals marginal/unadjusted",
+  "descriptive": "all frozen-policy means/medians/percentages/gaps, random seed variation, per-class means; top2 positive gains/positive net only if net>1e-12; B4 largest gain/largest loss timelines with source-ID tie break",
+  "output_schemas": {
+    "features": "16x512 float32 NPZ plus candidate JSON",
+    "motion": "one existing descriptor per decoded frame CSV",
+    "manifest": "100 identities, five/class, codec/count/PTS/hash/artifact identities, frozen before policy evaluation",
+    "traces": "candidate/cache/budget/score/action/reason plus evaluator-only drift/Q/regret",
+    "metrics": "per source/policy/B, random averaged within source",
+    "intervals": "paired whole-video differences, CI95, shared resampling SHA"
+  }
+}

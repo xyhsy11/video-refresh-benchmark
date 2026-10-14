@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-14T06:11:21.706862+00:00",
+  "source_weights_model_settings_and_copied_protocol_hashes_valid": true,
+  "prior_tracked_files_preserved": 988,
+  "README_append_only": true,
+  "relative_links_checked": 64,
+  "nonfinite_scientific_numbers_rejected": true,
+  "large_assets_and_results_ignored": true,
+  "completed_run_command_audited_without_new_acquisition_or_forwards": true,
+  "independent_full_replay_reproduction": true,
+  "release_validator": {
+    "returncode": 0,
+    "stdout": "Public snapshot PASS: ten videos, 150 pilot rows, 15 single-video rows; all counters valid.\nCSV-derived headlines PASS: 34.74% median reduction, 1.532x median speedup, 17.52-45.54% range.\nOriginal timing source hashes and 17 snapshot checksums PASS; 78 relative links PASS.\nPersonal-path and installation-requirement checks PASS; no GPU timing was rerun.\n"
+  },
+  "publication": "no commit, push or merge"
+}

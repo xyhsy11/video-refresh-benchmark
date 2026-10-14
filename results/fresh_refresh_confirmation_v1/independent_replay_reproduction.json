@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "reproduced_at_utc": "2026-10-14T05:58:28.573392+00:00",
+  "videos": 100,
+  "all_5500_schedules_and_metrics_reproduced": true,
+  "all_88000_outputs_replayed": true,
+  "aggregates_and_all_intervals_identical": true,
+  "actual_encoder_calls": 0,
+  "fit_or_threshold_selection_calls": 0,
+  "original_scientific_artifacts_unchanged_sha256": {
+    "test_policy_traces.csv": "d1644c353628c1e400d314af115bcc4c4c712621fa6fe50d0e7ffa1fbd7834ec",
+    "test_trajectories.csv": "a0dabe5de3a001c3f3149552fe082ee3194aabcf4646c818942ba7fc5f60e1bb",
+    "test_per_video_metrics.csv": "017093b754665db7a593bc073b1929f55d9594d5304bad6bcf080b113e422747",
+    "test_aggregate_metrics.json": "b6932cf09f6df08b2c9084e6d08a618875adb39690c7e16ec30061c2ae949217",
+    "bootstrap_intervals.json": "47683e8be7eb5c7c5bc16a338d1ef3272348401d6ed5269a2bde0c634283d07b",
+    "paired_comparisons.csv": "a62ca87aaeba35c7f577e16db86423dec8833102d9d0e06fd1c7c16c492aa883",
+    "frozen_test_manifest.json": "2b250fd0c858f710c9f5c621283e4e8c048d3df430ea4b2fa16bb567a9b83b90",
+    "frozen_artifact_identity.json": "9029beaba6affa1d4e05794c72afacd0b90003fc3c2b26977ffa5f0b879de0a2",
+    "findings.md": "8462a79acd7ee91362cf12da9101ef43feed17edecfaa8b8da25bb98ee5aa52b"
+  },
+  "reference_collection_not_repeated": true
+}

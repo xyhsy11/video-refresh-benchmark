@@ -515,3 +515,49 @@ Nineteen focused checks, all 360 initial DP/exhaustive comparisons, all exact-bu
 See [findings](results/budget_aware_refresh_v2/findings.md), [B=4 per-video improvements](results/budget_aware_refresh_v2/per_video_B4_improvement.png), [success/failure timelines](results/budget_aware_refresh_v2/example_timelines.png), [per-video metrics](results/budget_aware_refresh_v2/development_per_video_metrics.csv), [verification](results/budget_aware_refresh_v2/verification.json), and [independent audit](results/budget_aware_refresh_v2/independent_verification.json).
 
 The modest B=4 average gain supports a **frozen confirmation of both value controllers**, not adoption or claims of a motion benefit. The [prospective protocol](results/budget_aware_refresh_v2/fresh_test_protocol.json) fixes models/settings for 100 new videos, five per existing class, excluding every prior source and duplicate hash, with paired whole-video uncertainty and no test-driven retuning. That set was not acquired or evaluated. This remains appearance fidelity, not recognition accuracy; it measures no decoding/controller/motion/GPU latency. Full-clip candidates and future-reference vectors make it offline, and oracle labels use future RGB during training. Repeated states from one video are not independent videos.
+
+
+## fresh_refresh_confirmation_v1: frozen 100-video confirmation
+
+This completed confirmation uses 100 genuinely new source videos, five from each of the twenty classes in the existing prospective protocol. The protocol was copied byte-for-byte; models/scalers, thresholds, pacing lambdas, features and primary B=4 comparison were frozen. There was no refitting or tuning. Prior exclusions were frozen once: the original 210 IDs/hashes plus 113 additional previously inspected/collected IDs and 106 hashes. No cohort overlap or duplicate encoded files remains.
+
+Six verified cached archives contributed 8.814 GiB of cache accounting. Five new compressed archives reserved/transferred **7.003 GiB**, below the 12 GiB new-download cap; cached bytes do not consume that cap. Two clips failed input eligibility and were replaced by the next predetermined same-class candidates. Network or machine failures never caused a replacement. A transient Windows progress-write/UTF-8 error was corrected before fresh policy evaluation, with original source copies and a correction log preserved; the interrupted clip was retried.
+
+Reference collection retained **1,600** CUDA float32 ResNet18 features. Actual forward calls were **1,628**: 1,600 retained, sixteen original-training smoke calls and twelve returned forwards from the interrupted attempt. Collection/inspection elapsed time is not adaptive inference latency. Saved-feature replay performs zero encoder calls and produced **5,500 trajectories, 88,000 candidate traces and 2,800 per-video policy/budget rows**. All methods and all ten original random seeds were evaluated; seeds were averaged within each video.
+
+Run from the repository root:
+
+```powershell
+& .\.venv\Scripts\python.exe .\run_fresh_refresh_confirmation.py --frozen-run results/budget_aware_refresh_v2 --output results/fresh_refresh_confirmation_v1 --device cuda --max-download-gib 12 --download-workers 8
+```
+
+For an incomplete run, append `--resume` with the same configuration. This freezes progress/exclusions and validates identities without resampling. A completed run is audited/reproduced without acquiring another cohort or running the reference encoder again. Additional synthetic acquisition/statistics checks use:
+
+```powershell
+& .\.venv\Scripts\python.exe .\verify_fresh_confirmation.py --frozen-run results/budget_aware_refresh_v2
+```
+
+**Primary confirmation: inconclusive.** Fresh B=4 mean feature errors are periodic **0.093144**, motion-aware value **0.092595**, age/budget value **0.093634**, and pacing **0.095479**. Positive paired gains favor the candidate:
+
+| B=4 comparison | Mean paired gain | 95% percentile bootstrap interval |
+| --- | ---: | --- |
+| Motion value vs periodic (primary) | +0.000550 | [-0.003083, +0.004406] |
+| Motion value vs pacing (secondary) | +0.002884 | [-0.002206, +0.008260] |
+| Motion value vs age/budget value (secondary) | +0.001039 | [-0.000327, +0.002415] |
+| Age/budget value vs periodic (secondary) | -0.000490 | [-0.003904, +0.003256] |
+
+Every B=4 interval includes zero. The primary improves 48 videos and worsens 52; only seven of twenty classes improve descriptively. Mean per-video percentage change is **-1.90%**, whereas the separate percentage of aggregate means is **+0.59%**. Those denominators differ. The largest two positive gains equal 287.48% of the small positive net sum because other losses offset them. Gains are not broadly consistent.
+
+B=2 motion-value versus periodic is -0.000476 [-0.006610,+0.006631]; B=8 is +0.000102 [-0.001339,+0.001626]. Both are inconclusive. The isolated B=2 motion-versus-age/budget secondary interval is positive (+0.005445 [+0.002420,+0.008984]), but neither controller demonstrates lower error than periodic there. Secondary intervals are marginal/unadjusted; no budget or winning method was selected after results.
+
+The bootstrap uses 10,000 whole-source-video resamples, PCG64 seed20261014, one shared index matrix across comparisons, and linear percentiles. It excludes training uncertainty and conditions on the fixed models and existing sampled classes. Candidates, frames and random seeds are not independent bootstrap units. Development and fresh results are reported separately.
+
+Verification includes fifteen focused software checks, exact reproduction of all forty original development videos (1,120 metrics/2,200 schedules), all fresh budget/cache/interval/regret and DP/exhaustive checks, source/hash exclusions, unchanged weights/models/settings, independent saved-metric/bootstrap calculations, and a separate full replay reproducing every schedule and interval with zero encoder/fitting calls. All 988 tracked previous experiment sources/artifacts remain unchanged; release validation passes.
+
+See [findings](results/fresh_refresh_confirmation_v1/findings.md), [frozen manifest](results/fresh_refresh_confirmation_v1/frozen_test_manifest.json), [metadata](results/fresh_refresh_confirmation_v1/metadata.json), [paired intervals](results/fresh_refresh_confirmation_v1/bootstrap_intervals.json), [per-video metrics](results/fresh_refresh_confirmation_v1/test_per_video_metrics.csv), [verification](results/fresh_refresh_confirmation_v1/verification.json), and [full replay reproduction](results/fresh_refresh_confirmation_v1/independent_replay_reproduction.json). The curated snapshot includes reference features, motion descriptors, replay data and audit records. Videos, archives, weights and environments remain local and ignored by Git.
+
+The [publication review](results/fresh_refresh_confirmation_v1/publication_review.json) records a post-evaluation correction to the Git inventory guard so tracking new files does not prevent completed-run audits. Exact collection-time sources are preserved alongside their original hashes; policy logic and scientific results are unchanged. One local path in an error message was made relative for publication.
+
+![Fresh paired gains and intervals](results/fresh_refresh_confirmation_v1/paired_improvements_intervals.png)
+
+This does not confirm a useful B=4 motion benefit or superiority over pacing. Keep periodic as the baseline and inspect decision errors on training or separate development data; do not retune this completed test or add videos until its interval becomes favorable. These findings do not justify an adaptive-speedup or recognition-quality claim. Appearance fidelity is not recognition accuracy; full-clip candidates and future-reference codec vectors keep replay offline. No recognition or actual adaptive-latency experiment was run.

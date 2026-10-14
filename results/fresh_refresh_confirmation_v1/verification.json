@@ -1,0 +1,1855 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-14T05:49:48.230948+00:00",
+  "videos": 100,
+  "classes": 20,
+  "five_per_class": true,
+  "source_hash_exclusions_and_uniqueness": true,
+  "trajectories": 5500,
+  "trace_rows": 88000,
+  "per_video_rows": 2800,
+  "saved_cache_counters_errors_regret_verified": true,
+  "random_seed_averaging_and_all_metrics_reproduced": true,
+  "bootstrap_shared_indices_reproducible_and_independent_loop_verified": true,
+  "software": {
+    "passed": true,
+    "scope": "synthetic correctness only, not fresh evidence",
+    "checks": {
+      "exact_budgets_outputs_latest_cache_and_interval_resets": true,
+      "action_regret_identity": true,
+      "missing_motion_valid": true,
+      "future_motion_isolation": true,
+      "evaluator_RGB_and_targets_isolation": true,
+      "parameters_and_settings_unchanged": true,
+      "no_fit_or_threshold_selection": true,
+      "independent_small_DP_enumeration": true
+    }
+  },
+  "development_compatibility": {
+    "passed": true,
+    "checked_at_utc": "2026-10-14T05:26:31.705311+00:00",
+    "videos": 40,
+    "policy_budget_rows": 1120,
+    "trajectories": 2200,
+    "maximum_mean_error_difference": 0.0,
+    "all_frozen_refresh_schedules_reproduced": true,
+    "fit_or_selection_calls": 0,
+    "encoder_calls": 0
+  },
+  "replay": {
+    "initial_oracle_checks": [
+      {
+        "video_id": "1G9LS4XXJrU_000111_000121",
+        "budget": 2,
+        "DP_optimum": 0.19307436670190797,
+        "exhaustive_optimum": 0.19307436670190797
+      },
+      {
+        "video_id": "1G9LS4XXJrU_000111_000121",
+        "budget": 4,
+        "DP_optimum": 0.12085172740048511,
+        "exhaustive_optimum": 0.12085172740048511
+      },
+      {
+        "video_id": "1G9LS4XXJrU_000111_000121",
+        "budget": 8,
+        "DP_optimum": 0.04465063432604467,
+        "exhaustive_optimum": 0.04465063432604467
+      },
+      {
+        "video_id": "1J2VbXefjf4_000006_000016",
+        "budget": 2,
+        "DP_optimum": 0.1609468507350077,
+        "exhaustive_optimum": 0.1609468507350077
+      },
+      {
+        "video_id": "1J2VbXefjf4_000006_000016",
+        "budget": 4,
+        "DP_optimum": 0.12143720892666857,
+        "exhaustive_optimum": 0.12143720892666858
+      },
+      {
+        "video_id": "1J2VbXefjf4_000006_000016",
+        "budget": 8,
+        "DP_optimum": 0.07352512137807556,
+        "exhaustive_optimum": 0.07352512137807556
+      },
+      {
+        "video_id": "1P1UydTdo9A_000074_000084",
+        "budget": 2,
+        "DP_optimum": 0.1734947409582573,
+        "exhaustive_optimum": 0.17349474095825732
+      },
+      {
+        "video_id": "1P1UydTdo9A_000074_000084",
+        "budget": 4,
+        "DP_optimum": 0.12443968497508741,
+        "exhaustive_optimum": 0.1244396849750874
+      },
+      {
+        "video_id": "1P1UydTdo9A_000074_000084",
+        "budget": 8,
+        "DP_optimum": 0.07568265384550649,
+        "exhaustive_optimum": 0.0756826538455065
+      },
+      {
+        "video_id": "1TWdrO8cCxA_000036_000046",
+        "budget": 2,
+        "DP_optimum": 0.07296807072732035,
+        "exhaustive_optimum": 0.07296807072732037
+      },
+      {
+        "video_id": "1TWdrO8cCxA_000036_000046",
+        "budget": 4,
+        "DP_optimum": 0.04678067058978813,
+        "exhaustive_optimum": 0.04678067058978813
+      },
+      {
+        "video_id": "1TWdrO8cCxA_000036_000046",
+        "budget": 8,
+        "DP_optimum": 0.02121592545025508,
+        "exhaustive_optimum": 0.02121592545025508
+      },
+      {
+        "video_id": "1UupVJrLdhI_000066_000076",
+        "budget": 2,
+        "DP_optimum": 0.09855713946635392,
+        "exhaustive_optimum": 0.09855713946635392
+      },
+      {
+        "video_id": "1UupVJrLdhI_000066_000076",
+        "budget": 4,
+        "DP_optimum": 0.07265904240243387,
+        "exhaustive_optimum": 0.07265904240243387
+      },
+      {
+        "video_id": "1UupVJrLdhI_000066_000076",
+        "budget": 8,
+        "DP_optimum": 0.04379735594001117,
+        "exhaustive_optimum": 0.04379735594001117
+      },
+      {
+        "video_id": "1eT5yiTVajM_000261_000271",
+        "budget": 2,
+        "DP_optimum": 0.07620365161094439,
+        "exhaustive_optimum": 0.07620365161094439
+      },
+      {
+        "video_id": "1eT5yiTVajM_000261_000271",
+        "budget": 4,
+        "DP_optimum": 0.04607687538178749,
+        "exhaustive_optimum": 0.04607687538178749
+      },
+      {
+        "video_id": "1eT5yiTVajM_000261_000271",
+        "budget": 8,
+        "DP_optimum": 0.021559287423397328,
+        "exhaustive_optimum": 0.021559287423397328
+      },
+      {
+        "video_id": "1hEA9K1VDvk_000005_000015",
+        "budget": 2,
+        "DP_optimum": 0.07270901054335634,
+        "exhaustive_optimum": 0.07270901054335635
+      },
+      {
+        "video_id": "1hEA9K1VDvk_000005_000015",
+        "budget": 4,
+        "DP_optimum": 0.05119372648584291,
+        "exhaustive_optimum": 0.05119372648584291
+      },
+      {
+        "video_id": "1hEA9K1VDvk_000005_000015",
+        "budget": 8,
+        "DP_optimum": 0.026501710591918456,
+        "exhaustive_optimum": 0.026501710591918456
+      },
+      {
+        "video_id": "1koxtPz76MU_000041_000051",
+        "budget": 2,
+        "DP_optimum": 0.08728774030104819,
+        "exhaustive_optimum": 0.08728774030104819
+      },
+      {
+        "video_id": "1koxtPz76MU_000041_000051",
+        "budget": 4,
+        "DP_optimum": 0.05648748723692816,
+        "exhaustive_optimum": 0.05648748723692816
+      },
+      {
+        "video_id": "1koxtPz76MU_000041_000051",
+        "budget": 8,
+        "DP_optimum": 0.02629969881887685,
+        "exhaustive_optimum": 0.02629969881887685
+      },
+      {
+        "video_id": "24cgfaG8WI0_000014_000024",
+        "budget": 2,
+        "DP_optimum": 0.13177133859771878,
+        "exhaustive_optimum": 0.13177133859771878
+      },
+      {
+        "video_id": "24cgfaG8WI0_000014_000024",
+        "budget": 4,
+        "DP_optimum": 0.0877800117161291,
+        "exhaustive_optimum": 0.08778001171612912
+      },
+      {
+        "video_id": "24cgfaG8WI0_000014_000024",
+        "budget": 8,
+        "DP_optimum": 0.048143786893093225,
+        "exhaustive_optimum": 0.048143786893093225
+      },
+      {
+        "video_id": "254xhv2zq0E_000058_000068",
+        "budget": 2,
+        "DP_optimum": 0.12234327809895093,
+        "exhaustive_optimum": 0.12234327809895093
+      },
+      {
+        "video_id": "254xhv2zq0E_000058_000068",
+        "budget": 4,
+        "DP_optimum": 0.07204083163281289,
+        "exhaustive_optimum": 0.07204083163281289
+      },
+      {
+        "video_id": "254xhv2zq0E_000058_000068",
+        "budget": 8,
+        "DP_optimum": 0.03372477762931028,
+        "exhaustive_optimum": 0.03372477762931028
+      },
+      {
+        "video_id": "2932HmrpFmM_000000_000010",
+        "budget": 2,
+        "DP_optimum": 0.04033511458837696,
+        "exhaustive_optimum": 0.04033511458837696
+      },
+      {
+        "video_id": "2932HmrpFmM_000000_000010",
+        "budget": 4,
+        "DP_optimum": 0.027672853466478367,
+        "exhaustive_optimum": 0.027672853466478367
+      },
+      {
+        "video_id": "2932HmrpFmM_000000_000010",
+        "budget": 8,
+        "DP_optimum": 0.0151516318341181,
+        "exhaustive_optimum": 0.0151516318341181
+      },
+      {
+        "video_id": "2EPtfi-GFSw_000030_000040",
+        "budget": 2,
+        "DP_optimum": 0.09214568890858318,
+        "exhaustive_optimum": 0.09214568890858318
+      },
+      {
+        "video_id": "2EPtfi-GFSw_000030_000040",
+        "budget": 4,
+        "DP_optimum": 0.05422954372698818,
+        "exhaustive_optimum": 0.05422954372698818
+      },
+      {
+        "video_id": "2EPtfi-GFSw_000030_000040",
+        "budget": 8,
+        "DP_optimum": 0.030392120498650796,
+        "exhaustive_optimum": 0.030392120498650796
+      },
+      {
+        "video_id": "2GjXVYEc7J8_000018_000028",
+        "budget": 2,
+        "DP_optimum": 0.12829037645303895,
+        "exhaustive_optimum": 0.12829037645303895
+      },
+      {
+        "video_id": "2GjXVYEc7J8_000018_000028",
+        "budget": 4,
+        "DP_optimum": 0.057103408739555654,
+        "exhaustive_optimum": 0.057103408739555654
+      },
+      {
+        "video_id": "2GjXVYEc7J8_000018_000028",
+        "budget": 8,
+        "DP_optimum": 0.020241551482521235,
+        "exhaustive_optimum": 0.020241551482521235
+      },
+      {
+        "video_id": "2Jqhq_eLvzQ_000001_000011",
+        "budget": 2,
+        "DP_optimum": 0.12537550053977442,
+        "exhaustive_optimum": 0.12537550053977442
+      },
+      {
+        "video_id": "2Jqhq_eLvzQ_000001_000011",
+        "budget": 4,
+        "DP_optimum": 0.07467517542900079,
+        "exhaustive_optimum": 0.07467517542900079
+      },
+      {
+        "video_id": "2Jqhq_eLvzQ_000001_000011",
+        "budget": 8,
+        "DP_optimum": 0.03765223849035846,
+        "exhaustive_optimum": 0.03765223849035846
+      },
+      {
+        "video_id": "2PZhuNhBsW4_000030_000040",
+        "budget": 2,
+        "DP_optimum": 0.06635875425057627,
+        "exhaustive_optimum": 0.06635875425057627
+      },
+      {
+        "video_id": "2PZhuNhBsW4_000030_000040",
+        "budget": 4,
+        "DP_optimum": 0.035492157567670324,
+        "exhaustive_optimum": 0.035492157567670324
+      },
+      {
+        "video_id": "2PZhuNhBsW4_000030_000040",
+        "budget": 8,
+        "DP_optimum": 0.010900158468022579,
+        "exhaustive_optimum": 0.010900158468022579
+      },
+      {
+        "video_id": "2ZzgcL5BM5c_000005_000015",
+        "budget": 2,
+        "DP_optimum": 0.22389245207425154,
+        "exhaustive_optimum": 0.22389245207425154
+      },
+      {
+        "video_id": "2ZzgcL5BM5c_000005_000015",
+        "budget": 4,
+        "DP_optimum": 0.08799476804352553,
+        "exhaustive_optimum": 0.08799476804352553
+      },
+      {
+        "video_id": "2ZzgcL5BM5c_000005_000015",
+        "budget": 8,
+        "DP_optimum": 0.032864649051890425,
+        "exhaustive_optimum": 0.032864649051890425
+      },
+      {
+        "video_id": "2_r9KtukQ48_000124_000134",
+        "budget": 2,
+        "DP_optimum": 0.21660885696410864,
+        "exhaustive_optimum": 0.21660885696410861
+      },
+      {
+        "video_id": "2_r9KtukQ48_000124_000134",
+        "budget": 4,
+        "DP_optimum": 0.17791048137830257,
+        "exhaustive_optimum": 0.1779104813783026
+      },
+      {
+        "video_id": "2_r9KtukQ48_000124_000134",
+        "budget": 8,
+        "DP_optimum": 0.1055271515961333,
+        "exhaustive_optimum": 0.10552715159613331
+      },
+      {
+        "video_id": "2eigAnTVfTU_000042_000052",
+        "budget": 2,
+        "DP_optimum": 0.140863669141434,
+        "exhaustive_optimum": 0.140863669141434
+      },
+      {
+        "video_id": "2eigAnTVfTU_000042_000052",
+        "budget": 4,
+        "DP_optimum": 0.09878012333583791,
+        "exhaustive_optimum": 0.09878012333583788
+      },
+      {
+        "video_id": "2eigAnTVfTU_000042_000052",
+        "budget": 8,
+        "DP_optimum": 0.04769531680620025,
+        "exhaustive_optimum": 0.04769531680620025
+      },
+      {
+        "video_id": "2ib0zTt3JGc_000002_000012",
+        "budget": 2,
+        "DP_optimum": 0.13936498384241042,
+        "exhaustive_optimum": 0.1393649838424104
+      },
+      {
+        "video_id": "2ib0zTt3JGc_000002_000012",
+        "budget": 4,
+        "DP_optimum": 0.10444678725980862,
+        "exhaustive_optimum": 0.1044467872598086
+      },
+      {
+        "video_id": "2ib0zTt3JGc_000002_000012",
+        "budget": 8,
+        "DP_optimum": 0.04750588162362686,
+        "exhaustive_optimum": 0.04750588162362686
+      },
+      {
+        "video_id": "2lB7LB076g8_000004_000014",
+        "budget": 2,
+        "DP_optimum": 0.059732940093397455,
+        "exhaustive_optimum": 0.059732940093397455
+      },
+      {
+        "video_id": "2lB7LB076g8_000004_000014",
+        "budget": 4,
+        "DP_optimum": 0.04410519322791982,
+        "exhaustive_optimum": 0.04410519322791982
+      },
+      {
+        "video_id": "2lB7LB076g8_000004_000014",
+        "budget": 8,
+        "DP_optimum": 0.01925308440479069,
+        "exhaustive_optimum": 0.01925308440479069
+      },
+      {
+        "video_id": "2tGldsV2iC8_000026_000036",
+        "budget": 2,
+        "DP_optimum": 0.007164383041415055,
+        "exhaustive_optimum": 0.007164383041415055
+      },
+      {
+        "video_id": "2tGldsV2iC8_000026_000036",
+        "budget": 4,
+        "DP_optimum": 0.004972953928716606,
+        "exhaustive_optimum": 0.004972953928716606
+      },
+      {
+        "video_id": "2tGldsV2iC8_000026_000036",
+        "budget": 8,
+        "DP_optimum": 0.002153401070989408,
+        "exhaustive_optimum": 0.002153401070989408
+      },
+      {
+        "video_id": "2taxYzS7KF8_000056_000066",
+        "budget": 2,
+        "DP_optimum": 0.05732962941623688,
+        "exhaustive_optimum": 0.05732962941623688
+      },
+      {
+        "video_id": "2taxYzS7KF8_000056_000066",
+        "budget": 4,
+        "DP_optimum": 0.033215188501634595,
+        "exhaustive_optimum": 0.033215188501634595
+      },
+      {
+        "video_id": "2taxYzS7KF8_000056_000066",
+        "budget": 8,
+        "DP_optimum": 0.013044494821051703,
+        "exhaustive_optimum": 0.013044494821051703
+      },
+      {
+        "video_id": "3-evHTgxa8M_000104_000114",
+        "budget": 2,
+        "DP_optimum": 0.05894746338837551,
+        "exhaustive_optimum": 0.05894746338837551
+      },
+      {
+        "video_id": "3-evHTgxa8M_000104_000114",
+        "budget": 4,
+        "DP_optimum": 0.03968880598899412,
+        "exhaustive_optimum": 0.03968880598899412
+      },
+      {
+        "video_id": "3-evHTgxa8M_000104_000114",
+        "budget": 8,
+        "DP_optimum": 0.01821193314586495,
+        "exhaustive_optimum": 0.01821193314586495
+      },
+      {
+        "video_id": "36TYRf8TcCc_000334_000344",
+        "budget": 2,
+        "DP_optimum": 0.03784181677534541,
+        "exhaustive_optimum": 0.03784181677534541
+      },
+      {
+        "video_id": "36TYRf8TcCc_000334_000344",
+        "budget": 4,
+        "DP_optimum": 0.023893849594961776,
+        "exhaustive_optimum": 0.023893849594961776
+      },
+      {
+        "video_id": "36TYRf8TcCc_000334_000344",
+        "budget": 8,
+        "DP_optimum": 0.011862423583210498,
+        "exhaustive_optimum": 0.011862423583210498
+      },
+      {
+        "video_id": "37VVSpsEML0_000084_000094",
+        "budget": 2,
+        "DP_optimum": 0.07288994355118203,
+        "exhaustive_optimum": 0.07288994355118204
+      },
+      {
+        "video_id": "37VVSpsEML0_000084_000094",
+        "budget": 4,
+        "DP_optimum": 0.04275682852457794,
+        "exhaustive_optimum": 0.04275682852457794
+      },
+      {
+        "video_id": "37VVSpsEML0_000084_000094",
+        "budget": 8,
+        "DP_optimum": 0.021081946321411797,
+        "exhaustive_optimum": 0.021081946321411797
+      },
+      {
+        "video_id": "38o0cPpR0Eo_000052_000062",
+        "budget": 2,
+        "DP_optimum": 0.020306462786773817,
+        "exhaustive_optimum": 0.020306462786773817
+      },
+      {
+        "video_id": "38o0cPpR0Eo_000052_000062",
+        "budget": 4,
+        "DP_optimum": 0.013586447826345702,
+        "exhaustive_optimum": 0.013586447826345702
+      },
+      {
+        "video_id": "38o0cPpR0Eo_000052_000062",
+        "budget": 8,
+        "DP_optimum": 0.006870055386222769,
+        "exhaustive_optimum": 0.006870055386222769
+      },
+      {
+        "video_id": "39pt_hF13_k_000003_000013",
+        "budget": 2,
+        "DP_optimum": 0.06765530469667236,
+        "exhaustive_optimum": 0.06765530469667236
+      },
+      {
+        "video_id": "39pt_hF13_k_000003_000013",
+        "budget": 4,
+        "DP_optimum": 0.03911921159885714,
+        "exhaustive_optimum": 0.03911921159885714
+      },
+      {
+        "video_id": "39pt_hF13_k_000003_000013",
+        "budget": 8,
+        "DP_optimum": 0.01990607575549897,
+        "exhaustive_optimum": 0.01990607575549897
+      },
+      {
+        "video_id": "3AxMDT20HOM_000000_000010",
+        "budget": 2,
+        "DP_optimum": 0.12221909363468485,
+        "exhaustive_optimum": 0.12221909363468483
+      },
+      {
+        "video_id": "3AxMDT20HOM_000000_000010",
+        "budget": 4,
+        "DP_optimum": 0.08609986351700381,
+        "exhaustive_optimum": 0.08609986351700383
+      },
+      {
+        "video_id": "3AxMDT20HOM_000000_000010",
+        "budget": 8,
+        "DP_optimum": 0.04012470966213948,
+        "exhaustive_optimum": 0.04012470966213948
+      },
+      {
+        "video_id": "3CXe03Zp74o_000011_000021",
+        "budget": 2,
+        "DP_optimum": 0.1263359078208306,
+        "exhaustive_optimum": 0.1263359078208306
+      },
+      {
+        "video_id": "3CXe03Zp74o_000011_000021",
+        "budget": 4,
+        "DP_optimum": 0.08364443508454672,
+        "exhaustive_optimum": 0.08364443508454672
+      },
+      {
+        "video_id": "3CXe03Zp74o_000011_000021",
+        "budget": 8,
+        "DP_optimum": 0.0424441199983602,
+        "exhaustive_optimum": 0.0424441199983602
+      },
+      {
+        "video_id": "3G7UII63408_000034_000044",
+        "budget": 2,
+        "DP_optimum": 0.2017105786950604,
+        "exhaustive_optimum": 0.20171057869506043
+      },
+      {
+        "video_id": "3G7UII63408_000034_000044",
+        "budget": 4,
+        "DP_optimum": 0.14169437212742536,
+        "exhaustive_optimum": 0.14169437212742536
+      },
+      {
+        "video_id": "3G7UII63408_000034_000044",
+        "budget": 8,
+        "DP_optimum": 0.07929176363575759,
+        "exhaustive_optimum": 0.0792917636357576
+      },
+      {
+        "video_id": "3QF0XHz2jt4_000003_000013",
+        "budget": 2,
+        "DP_optimum": 0.09113412186417251,
+        "exhaustive_optimum": 0.0911341218641725
+      },
+      {
+        "video_id": "3QF0XHz2jt4_000003_000013",
+        "budget": 4,
+        "DP_optimum": 0.060903245641915446,
+        "exhaustive_optimum": 0.060903245641915446
+      },
+      {
+        "video_id": "3QF0XHz2jt4_000003_000013",
+        "budget": 8,
+        "DP_optimum": 0.030524181495946788,
+        "exhaustive_optimum": 0.030524181495946788
+      },
+      {
+        "video_id": "3TY8DJZlaFU_000018_000028",
+        "budget": 2,
+        "DP_optimum": 0.10917178542105142,
+        "exhaustive_optimum": 0.10917178542105141
+      },
+      {
+        "video_id": "3TY8DJZlaFU_000018_000028",
+        "budget": 4,
+        "DP_optimum": 0.08133112120774401,
+        "exhaustive_optimum": 0.08133112120774402
+      },
+      {
+        "video_id": "3TY8DJZlaFU_000018_000028",
+        "budget": 8,
+        "DP_optimum": 0.04326078899690439,
+        "exhaustive_optimum": 0.04326078899690439
+      },
+      {
+        "video_id": "3VIr6mwDqp8_000033_000043",
+        "budget": 2,
+        "DP_optimum": 0.1339043671251119,
+        "exhaustive_optimum": 0.1339043671251119
+      },
+      {
+        "video_id": "3VIr6mwDqp8_000033_000043",
+        "budget": 4,
+        "DP_optimum": 0.10634084357551662,
+        "exhaustive_optimum": 0.10634084357551662
+      },
+      {
+        "video_id": "3VIr6mwDqp8_000033_000043",
+        "budget": 8,
+        "DP_optimum": 0.06317362846174854,
+        "exhaustive_optimum": 0.06317362846174854
+      },
+      {
+        "video_id": "3jBdpKzTfyo_000007_000017",
+        "budget": 2,
+        "DP_optimum": 0.10890338046205511,
+        "exhaustive_optimum": 0.10890338046205511
+      },
+      {
+        "video_id": "3jBdpKzTfyo_000007_000017",
+        "budget": 4,
+        "DP_optimum": 0.07299633417413914,
+        "exhaustive_optimum": 0.07299633417413914
+      },
+      {
+        "video_id": "3jBdpKzTfyo_000007_000017",
+        "budget": 8,
+        "DP_optimum": 0.03386331815884928,
+        "exhaustive_optimum": 0.03386331815884928
+      },
+      {
+        "video_id": "3jP9HNJddR8_000003_000013",
+        "budget": 2,
+        "DP_optimum": 0.07380041622712112,
+        "exhaustive_optimum": 0.07380041622712112
+      },
+      {
+        "video_id": "3jP9HNJddR8_000003_000013",
+        "budget": 4,
+        "DP_optimum": 0.05556127159143628,
+        "exhaustive_optimum": 0.05556127159143628
+      },
+      {
+        "video_id": "3jP9HNJddR8_000003_000013",
+        "budget": 8,
+        "DP_optimum": 0.026217302391739944,
+        "exhaustive_optimum": 0.026217302391739944
+      },
+      {
+        "video_id": "3lTTjrrl3-w_000027_000037",
+        "budget": 2,
+        "DP_optimum": 0.031551407315216475,
+        "exhaustive_optimum": 0.031551407315216475
+      },
+      {
+        "video_id": "3lTTjrrl3-w_000027_000037",
+        "budget": 4,
+        "DP_optimum": 0.02374134430828908,
+        "exhaustive_optimum": 0.02374134430828908
+      },
+      {
+        "video_id": "3lTTjrrl3-w_000027_000037",
+        "budget": 8,
+        "DP_optimum": 0.01277776067842517,
+        "exhaustive_optimum": 0.01277776067842517
+      },
+      {
+        "video_id": "3ppccvk-yjw_000016_000026",
+        "budget": 2,
+        "DP_optimum": 0.038106370195843904,
+        "exhaustive_optimum": 0.038106370195843904
+      },
+      {
+        "video_id": "3ppccvk-yjw_000016_000026",
+        "budget": 4,
+        "DP_optimum": 0.02742388894822509,
+        "exhaustive_optimum": 0.02742388894822509
+      },
+      {
+        "video_id": "3ppccvk-yjw_000016_000026",
+        "budget": 8,
+        "DP_optimum": 0.016897524147281975,
+        "exhaustive_optimum": 0.016897524147281975
+      },
+      {
+        "video_id": "3veoIiHAn74_000042_000052",
+        "budget": 2,
+        "DP_optimum": 0.04635379452132154,
+        "exhaustive_optimum": 0.04635379452132154
+      },
+      {
+        "video_id": "3veoIiHAn74_000042_000052",
+        "budget": 4,
+        "DP_optimum": 0.033300012100637724,
+        "exhaustive_optimum": 0.033300012100637724
+      },
+      {
+        "video_id": "3veoIiHAn74_000042_000052",
+        "budget": 8,
+        "DP_optimum": 0.0180907385011432,
+        "exhaustive_optimum": 0.0180907385011432
+      },
+      {
+        "video_id": "41b_VAeCX6k_000077_000087",
+        "budget": 2,
+        "DP_optimum": 0.1345743313591725,
+        "exhaustive_optimum": 0.13457433135917246
+      },
+      {
+        "video_id": "41b_VAeCX6k_000077_000087",
+        "budget": 4,
+        "DP_optimum": 0.09485974066211214,
+        "exhaustive_optimum": 0.09485974066211214
+      },
+      {
+        "video_id": "41b_VAeCX6k_000077_000087",
+        "budget": 8,
+        "DP_optimum": 0.04933826854442491,
+        "exhaustive_optimum": 0.04933826854442491
+      },
+      {
+        "video_id": "46qbkMr8V9U_000017_000027",
+        "budget": 2,
+        "DP_optimum": 0.04516553696511376,
+        "exhaustive_optimum": 0.04516553696511376
+      },
+      {
+        "video_id": "46qbkMr8V9U_000017_000027",
+        "budget": 4,
+        "DP_optimum": 0.031943146441313526,
+        "exhaustive_optimum": 0.031943146441313526
+      },
+      {
+        "video_id": "46qbkMr8V9U_000017_000027",
+        "budget": 8,
+        "DP_optimum": 0.016815201065618186,
+        "exhaustive_optimum": 0.016815201065618186
+      },
+      {
+        "video_id": "4785mshVbJ0_000028_000038",
+        "budget": 2,
+        "DP_optimum": 0.07050445780839348,
+        "exhaustive_optimum": 0.07050445780839348
+      },
+      {
+        "video_id": "4785mshVbJ0_000028_000038",
+        "budget": 4,
+        "DP_optimum": 0.04249557651117249,
+        "exhaustive_optimum": 0.04249557651117249
+      },
+      {
+        "video_id": "4785mshVbJ0_000028_000038",
+        "budget": 8,
+        "DP_optimum": 0.021215733328017745,
+        "exhaustive_optimum": 0.021215733328017745
+      },
+      {
+        "video_id": "48T4zmzbB2c_000029_000039",
+        "budget": 2,
+        "DP_optimum": 0.10716455312385569,
+        "exhaustive_optimum": 0.10716455312385567
+      },
+      {
+        "video_id": "48T4zmzbB2c_000029_000039",
+        "budget": 4,
+        "DP_optimum": 0.07733631325198471,
+        "exhaustive_optimum": 0.07733631325198471
+      },
+      {
+        "video_id": "48T4zmzbB2c_000029_000039",
+        "budget": 8,
+        "DP_optimum": 0.041715113081828376,
+        "exhaustive_optimum": 0.041715113081828376
+      },
+      {
+        "video_id": "4LQGoHWI8rs_000285_000295",
+        "budget": 2,
+        "DP_optimum": 0.09153057587605007,
+        "exhaustive_optimum": 0.09153057587605007
+      },
+      {
+        "video_id": "4LQGoHWI8rs_000285_000295",
+        "budget": 4,
+        "DP_optimum": 0.048814338106699294,
+        "exhaustive_optimum": 0.048814338106699294
+      },
+      {
+        "video_id": "4LQGoHWI8rs_000285_000295",
+        "budget": 8,
+        "DP_optimum": 0.016293084073637644,
+        "exhaustive_optimum": 0.016293084073637644
+      },
+      {
+        "video_id": "4ZUbtL-7Ogw_000045_000055",
+        "budget": 2,
+        "DP_optimum": 0.1499073163753108,
+        "exhaustive_optimum": 0.1499073163753108
+      },
+      {
+        "video_id": "4ZUbtL-7Ogw_000045_000055",
+        "budget": 4,
+        "DP_optimum": 0.0979692020025498,
+        "exhaustive_optimum": 0.0979692020025498
+      },
+      {
+        "video_id": "4ZUbtL-7Ogw_000045_000055",
+        "budget": 8,
+        "DP_optimum": 0.05017926298616669,
+        "exhaustive_optimum": 0.05017926298616669
+      },
+      {
+        "video_id": "8GSgaJsoJ-A_000034_000044",
+        "budget": 2,
+        "DP_optimum": 0.08978533750494275,
+        "exhaustive_optimum": 0.08978533750494275
+      },
+      {
+        "video_id": "8GSgaJsoJ-A_000034_000044",
+        "budget": 4,
+        "DP_optimum": 0.053236059858764395,
+        "exhaustive_optimum": 0.053236059858764395
+      },
+      {
+        "video_id": "8GSgaJsoJ-A_000034_000044",
+        "budget": 8,
+        "DP_optimum": 0.028253991882023342,
+        "exhaustive_optimum": 0.028253991882023342
+      },
+      {
+        "video_id": "8T759EZNHRI_000059_000069",
+        "budget": 2,
+        "DP_optimum": 0.04915554242580527,
+        "exhaustive_optimum": 0.04915554242580527
+      },
+      {
+        "video_id": "8T759EZNHRI_000059_000069",
+        "budget": 4,
+        "DP_optimum": 0.026798411979097637,
+        "exhaustive_optimum": 0.026798411979097637
+      },
+      {
+        "video_id": "8T759EZNHRI_000059_000069",
+        "budget": 8,
+        "DP_optimum": 0.010819119114310223,
+        "exhaustive_optimum": 0.010819119114310223
+      },
+      {
+        "video_id": "8V2ty3d7WGw_000000_000010",
+        "budget": 2,
+        "DP_optimum": 0.11849452681148369,
+        "exhaustive_optimum": 0.1184945268114837
+      },
+      {
+        "video_id": "8V2ty3d7WGw_000000_000010",
+        "budget": 4,
+        "DP_optimum": 0.08064181610482844,
+        "exhaustive_optimum": 0.08064181610482846
+      },
+      {
+        "video_id": "8V2ty3d7WGw_000000_000010",
+        "budget": 8,
+        "DP_optimum": 0.03640918323170312,
+        "exhaustive_optimum": 0.03640918323170312
+      },
+      {
+        "video_id": "8byoM35K6xE_000018_000028",
+        "budget": 2,
+        "DP_optimum": 0.10065145266059913,
+        "exhaustive_optimum": 0.10065145266059913
+      },
+      {
+        "video_id": "8byoM35K6xE_000018_000028",
+        "budget": 4,
+        "DP_optimum": 0.0726182623437934,
+        "exhaustive_optimum": 0.0726182623437934
+      },
+      {
+        "video_id": "8byoM35K6xE_000018_000028",
+        "budget": 8,
+        "DP_optimum": 0.03356044405579527,
+        "exhaustive_optimum": 0.03356044405579527
+      },
+      {
+        "video_id": "9LgEYr5pz5k_000000_000010",
+        "budget": 2,
+        "DP_optimum": 0.035044613262615924,
+        "exhaustive_optimum": 0.035044613262615924
+      },
+      {
+        "video_id": "9LgEYr5pz5k_000000_000010",
+        "budget": 4,
+        "DP_optimum": 0.02053171024032524,
+        "exhaustive_optimum": 0.02053171024032524
+      },
+      {
+        "video_id": "9LgEYr5pz5k_000000_000010",
+        "budget": 8,
+        "DP_optimum": 0.01090741972212772,
+        "exhaustive_optimum": 0.01090741972212772
+      },
+      {
+        "video_id": "9eQ6FwXqLZA_000034_000044",
+        "budget": 2,
+        "DP_optimum": 0.04771061722123371,
+        "exhaustive_optimum": 0.04771061722123371
+      },
+      {
+        "video_id": "9eQ6FwXqLZA_000034_000044",
+        "budget": 4,
+        "DP_optimum": 0.029167607841443573,
+        "exhaustive_optimum": 0.029167607841443573
+      },
+      {
+        "video_id": "9eQ6FwXqLZA_000034_000044",
+        "budget": 8,
+        "DP_optimum": 0.014868987751395453,
+        "exhaustive_optimum": 0.014868987751395453
+      },
+      {
+        "video_id": "9hvH6SqC1EA_000000_000010",
+        "budget": 2,
+        "DP_optimum": 0.08804758030741136,
+        "exhaustive_optimum": 0.08804758030741136
+      },
+      {
+        "video_id": "9hvH6SqC1EA_000000_000010",
+        "budget": 4,
+        "DP_optimum": 0.07258196582872134,
+        "exhaustive_optimum": 0.07258196582872134
+      },
+      {
+        "video_id": "9hvH6SqC1EA_000000_000010",
+        "budget": 8,
+        "DP_optimum": 0.04198856354127205,
+        "exhaustive_optimum": 0.04198856354127205
+      },
+      {
+        "video_id": "9qcSuFYgk0k_000009_000019",
+        "budget": 2,
+        "DP_optimum": 0.03589758692378224,
+        "exhaustive_optimum": 0.03589758692378224
+      },
+      {
+        "video_id": "9qcSuFYgk0k_000009_000019",
+        "budget": 4,
+        "DP_optimum": 0.02551813300824414,
+        "exhaustive_optimum": 0.02551813300824414
+      },
+      {
+        "video_id": "9qcSuFYgk0k_000009_000019",
+        "budget": 8,
+        "DP_optimum": 0.013525543700161582,
+        "exhaustive_optimum": 0.013525543700161582
+      },
+      {
+        "video_id": "A8HHXIcXAVU_000004_000014",
+        "budget": 2,
+        "DP_optimum": 0.16086432128288713,
+        "exhaustive_optimum": 0.1608643212828872
+      },
+      {
+        "video_id": "A8HHXIcXAVU_000004_000014",
+        "budget": 4,
+        "DP_optimum": 0.08185361281339973,
+        "exhaustive_optimum": 0.08185361281339973
+      },
+      {
+        "video_id": "A8HHXIcXAVU_000004_000014",
+        "budget": 8,
+        "DP_optimum": 0.009360126189883841,
+        "exhaustive_optimum": 0.009360126189883841
+      },
+      {
+        "video_id": "AIYO8c5YxnA_000045_000055",
+        "budget": 2,
+        "DP_optimum": 0.09708756880004465,
+        "exhaustive_optimum": 0.09708756880004465
+      },
+      {
+        "video_id": "AIYO8c5YxnA_000045_000055",
+        "budget": 4,
+        "DP_optimum": 0.06065622416658556,
+        "exhaustive_optimum": 0.06065622416658556
+      },
+      {
+        "video_id": "AIYO8c5YxnA_000045_000055",
+        "budget": 8,
+        "DP_optimum": 0.028939939498339708,
+        "exhaustive_optimum": 0.028939939498339708
+      },
+      {
+        "video_id": "AdrLCOKHSPw_000001_000011",
+        "budget": 2,
+        "DP_optimum": 0.07940179261417857,
+        "exhaustive_optimum": 0.0794017926141786
+      },
+      {
+        "video_id": "AdrLCOKHSPw_000001_000011",
+        "budget": 4,
+        "DP_optimum": 0.055550895325976464,
+        "exhaustive_optimum": 0.055550895325976464
+      },
+      {
+        "video_id": "AdrLCOKHSPw_000001_000011",
+        "budget": 8,
+        "DP_optimum": 0.0277684136416542,
+        "exhaustive_optimum": 0.0277684136416542
+      },
+      {
+        "video_id": "Awe_Sf14hPU_000037_000047",
+        "budget": 2,
+        "DP_optimum": 0.17514906689254034,
+        "exhaustive_optimum": 0.17514906689254037
+      },
+      {
+        "video_id": "Awe_Sf14hPU_000037_000047",
+        "budget": 4,
+        "DP_optimum": 0.09924130053466389,
+        "exhaustive_optimum": 0.0992413005346639
+      },
+      {
+        "video_id": "Awe_Sf14hPU_000037_000047",
+        "budget": 8,
+        "DP_optimum": 0.03945188016705188,
+        "exhaustive_optimum": 0.03945188016705188
+      },
+      {
+        "video_id": "AyZ2hw6W6_Q_000000_000010",
+        "budget": 2,
+        "DP_optimum": 0.1192763073823627,
+        "exhaustive_optimum": 0.1192763073823627
+      },
+      {
+        "video_id": "AyZ2hw6W6_Q_000000_000010",
+        "budget": 4,
+        "DP_optimum": 0.056242642855802924,
+        "exhaustive_optimum": 0.056242642855802924
+      },
+      {
+        "video_id": "AyZ2hw6W6_Q_000000_000010",
+        "budget": 8,
+        "DP_optimum": 0.01965742422034831,
+        "exhaustive_optimum": 0.01965742422034831
+      },
+      {
+        "video_id": "B029kZSTx6Y_000003_000013",
+        "budget": 2,
+        "DP_optimum": 0.11664036398282539,
+        "exhaustive_optimum": 0.11664036398282539
+      },
+      {
+        "video_id": "B029kZSTx6Y_000003_000013",
+        "budget": 4,
+        "DP_optimum": 0.09203763648239757,
+        "exhaustive_optimum": 0.09203763648239757
+      },
+      {
+        "video_id": "B029kZSTx6Y_000003_000013",
+        "budget": 8,
+        "DP_optimum": 0.04468423177581731,
+        "exhaustive_optimum": 0.04468423177581731
+      },
+      {
+        "video_id": "YlByH0-qRLM_000017_000027",
+        "budget": 2,
+        "DP_optimum": 0.19052297279701547,
+        "exhaustive_optimum": 0.19052297279701547
+      },
+      {
+        "video_id": "YlByH0-qRLM_000017_000027",
+        "budget": 4,
+        "DP_optimum": 0.1491119826422248,
+        "exhaustive_optimum": 0.14911198264222475
+      },
+      {
+        "video_id": "YlByH0-qRLM_000017_000027",
+        "budget": 8,
+        "DP_optimum": 0.07264846591334892,
+        "exhaustive_optimum": 0.07264846591334892
+      },
+      {
+        "video_id": "ZVdAl-yh9m0_000002_000012",
+        "budget": 2,
+        "DP_optimum": 0.10224864696033602,
+        "exhaustive_optimum": 0.10224864696033603
+      },
+      {
+        "video_id": "ZVdAl-yh9m0_000002_000012",
+        "budget": 4,
+        "DP_optimum": 0.06278758419084898,
+        "exhaustive_optimum": 0.06278758419084898
+      },
+      {
+        "video_id": "ZVdAl-yh9m0_000002_000012",
+        "budget": 8,
+        "DP_optimum": 0.030969353329798235,
+        "exhaustive_optimum": 0.030969353329798235
+      },
+      {
+        "video_id": "ZeyPds1BkAg_000002_000012",
+        "budget": 2,
+        "DP_optimum": 0.126814854122341,
+        "exhaustive_optimum": 0.126814854122341
+      },
+      {
+        "video_id": "ZeyPds1BkAg_000002_000012",
+        "budget": 4,
+        "DP_optimum": 0.08701881999260319,
+        "exhaustive_optimum": 0.08701881999260319
+      },
+      {
+        "video_id": "ZeyPds1BkAg_000002_000012",
+        "budget": 8,
+        "DP_optimum": 0.04539892732949042,
+        "exhaustive_optimum": 0.04539892732949042
+      },
+      {
+        "video_id": "_KXNqfUx5O0_000058_000068",
+        "budget": 2,
+        "DP_optimum": 0.20545768672481973,
+        "exhaustive_optimum": 0.20545768672481973
+      },
+      {
+        "video_id": "_KXNqfUx5O0_000058_000068",
+        "budget": 4,
+        "DP_optimum": 0.1448393593622721,
+        "exhaustive_optimum": 0.14483935936227213
+      },
+      {
+        "video_id": "_KXNqfUx5O0_000058_000068",
+        "budget": 8,
+        "DP_optimum": 0.0702255211136161,
+        "exhaustive_optimum": 0.07022552111361609
+      },
+      {
+        "video_id": "aTfZ-iqdWY4_000025_000035",
+        "budget": 2,
+        "DP_optimum": 0.033351439244372554,
+        "exhaustive_optimum": 0.033351439244372554
+      },
+      {
+        "video_id": "aTfZ-iqdWY4_000025_000035",
+        "budget": 4,
+        "DP_optimum": 0.012185740900295276,
+        "exhaustive_optimum": 0.012185740900295276
+      },
+      {
+        "video_id": "aTfZ-iqdWY4_000025_000035",
+        "budget": 8,
+        "DP_optimum": 0.0015146486073052065,
+        "exhaustive_optimum": 0.0015146486073052065
+      },
+      {
+        "video_id": "afBM8g-LCoo_000014_000024",
+        "budget": 2,
+        "DP_optimum": 0.18674980249150658,
+        "exhaustive_optimum": 0.18674980249150658
+      },
+      {
+        "video_id": "afBM8g-LCoo_000014_000024",
+        "budget": 4,
+        "DP_optimum": 0.09923053330028195,
+        "exhaustive_optimum": 0.09923053330028195
+      },
+      {
+        "video_id": "afBM8g-LCoo_000014_000024",
+        "budget": 8,
+        "DP_optimum": 0.0349499385274099,
+        "exhaustive_optimum": 0.0349499385274099
+      },
+      {
+        "video_id": "bXWurUvtytM_000128_000138",
+        "budget": 2,
+        "DP_optimum": 0.14257871243989295,
+        "exhaustive_optimum": 0.14257871243989295
+      },
+      {
+        "video_id": "bXWurUvtytM_000128_000138",
+        "budget": 4,
+        "DP_optimum": 0.08388394175543168,
+        "exhaustive_optimum": 0.08388394175543168
+      },
+      {
+        "video_id": "bXWurUvtytM_000128_000138",
+        "budget": 8,
+        "DP_optimum": 0.044680974302646295,
+        "exhaustive_optimum": 0.044680974302646295
+      },
+      {
+        "video_id": "btBREAsmtgQ_000001_000011",
+        "budget": 2,
+        "DP_optimum": 0.0940951872722242,
+        "exhaustive_optimum": 0.09409518727222418
+      },
+      {
+        "video_id": "btBREAsmtgQ_000001_000011",
+        "budget": 4,
+        "DP_optimum": 0.06717104381746875,
+        "exhaustive_optimum": 0.06717104381746875
+      },
+      {
+        "video_id": "btBREAsmtgQ_000001_000011",
+        "budget": 8,
+        "DP_optimum": 0.031185600122499976,
+        "exhaustive_optimum": 0.031185600122499976
+      },
+      {
+        "video_id": "c5Qm7Rl07lA_000103_000113",
+        "budget": 2,
+        "DP_optimum": 0.15749916298457856,
+        "exhaustive_optimum": 0.1574991629845786
+      },
+      {
+        "video_id": "c5Qm7Rl07lA_000103_000113",
+        "budget": 4,
+        "DP_optimum": 0.10096220380523666,
+        "exhaustive_optimum": 0.10096220380523666
+      },
+      {
+        "video_id": "c5Qm7Rl07lA_000103_000113",
+        "budget": 8,
+        "DP_optimum": 0.052836193715071644,
+        "exhaustive_optimum": 0.052836193715071644
+      },
+      {
+        "video_id": "cb3RvnukQVs_000159_000169",
+        "budget": 2,
+        "DP_optimum": 0.24509942482690422,
+        "exhaustive_optimum": 0.24509942482690422
+      },
+      {
+        "video_id": "cb3RvnukQVs_000159_000169",
+        "budget": 4,
+        "DP_optimum": 0.1758491689471366,
+        "exhaustive_optimum": 0.1758491689471366
+      },
+      {
+        "video_id": "cb3RvnukQVs_000159_000169",
+        "budget": 8,
+        "DP_optimum": 0.07530872075267747,
+        "exhaustive_optimum": 0.07530872075267747
+      },
+      {
+        "video_id": "ccOJeOTELEY_000088_000098",
+        "budget": 2,
+        "DP_optimum": 0.14960620171174796,
+        "exhaustive_optimum": 0.14960620171174793
+      },
+      {
+        "video_id": "ccOJeOTELEY_000088_000098",
+        "budget": 4,
+        "DP_optimum": 0.10287140438158743,
+        "exhaustive_optimum": 0.10287140438158741
+      },
+      {
+        "video_id": "ccOJeOTELEY_000088_000098",
+        "budget": 8,
+        "DP_optimum": 0.05363775957568998,
+        "exhaustive_optimum": 0.05363775957568998
+      },
+      {
+        "video_id": "cdza9u-ES-A_000200_000210",
+        "budget": 2,
+        "DP_optimum": 0.10384483251213392,
+        "exhaustive_optimum": 0.10384483251213392
+      },
+      {
+        "video_id": "cdza9u-ES-A_000200_000210",
+        "budget": 4,
+        "DP_optimum": 0.06148433674761071,
+        "exhaustive_optimum": 0.06148433674761071
+      },
+      {
+        "video_id": "cdza9u-ES-A_000200_000210",
+        "budget": 8,
+        "DP_optimum": 0.03474411744891737,
+        "exhaustive_optimum": 0.03474411744891737
+      },
+      {
+        "video_id": "gUZhHZK8Llo_000142_000152",
+        "budget": 2,
+        "DP_optimum": 0.07037062151660373,
+        "exhaustive_optimum": 0.07037062151660373
+      },
+      {
+        "video_id": "gUZhHZK8Llo_000142_000152",
+        "budget": 4,
+        "DP_optimum": 0.04562191769690538,
+        "exhaustive_optimum": 0.04562191769690538
+      },
+      {
+        "video_id": "gUZhHZK8Llo_000142_000152",
+        "budget": 8,
+        "DP_optimum": 0.02240674883610374,
+        "exhaustive_optimum": 0.02240674883610374
+      },
+      {
+        "video_id": "gXePY8Lkiw4_000040_000050",
+        "budget": 2,
+        "DP_optimum": 0.10525792181029711,
+        "exhaustive_optimum": 0.10525792181029711
+      },
+      {
+        "video_id": "gXePY8Lkiw4_000040_000050",
+        "budget": 4,
+        "DP_optimum": 0.050334072295813784,
+        "exhaustive_optimum": 0.050334072295813784
+      },
+      {
+        "video_id": "gXePY8Lkiw4_000040_000050",
+        "budget": 8,
+        "DP_optimum": 0.029865321616241197,
+        "exhaustive_optimum": 0.029865321616241197
+      },
+      {
+        "video_id": "ghX5PWawU9g_000000_000010",
+        "budget": 2,
+        "DP_optimum": 0.09649392368638926,
+        "exhaustive_optimum": 0.09649392368638923
+      },
+      {
+        "video_id": "ghX5PWawU9g_000000_000010",
+        "budget": 4,
+        "DP_optimum": 0.06613366118072102,
+        "exhaustive_optimum": 0.06613366118072102
+      },
+      {
+        "video_id": "ghX5PWawU9g_000000_000010",
+        "budget": 8,
+        "DP_optimum": 0.03421750223117797,
+        "exhaustive_optimum": 0.03421750223117797
+      },
+      {
+        "video_id": "gn97KDKen_U_000053_000063",
+        "budget": 2,
+        "DP_optimum": 0.06498272848497098,
+        "exhaustive_optimum": 0.06498272848497098
+      },
+      {
+        "video_id": "gn97KDKen_U_000053_000063",
+        "budget": 4,
+        "DP_optimum": 0.046674538810695596,
+        "exhaustive_optimum": 0.046674538810695596
+      },
+      {
+        "video_id": "gn97KDKen_U_000053_000063",
+        "budget": 8,
+        "DP_optimum": 0.02642436954710261,
+        "exhaustive_optimum": 0.02642436954710261
+      },
+      {
+        "video_id": "gnqDRRHbuI0_000002_000012",
+        "budget": 2,
+        "DP_optimum": 0.07802721968180226,
+        "exhaustive_optimum": 0.07802721968180226
+      },
+      {
+        "video_id": "gnqDRRHbuI0_000002_000012",
+        "budget": 4,
+        "DP_optimum": 0.05448416993969163,
+        "exhaustive_optimum": 0.05448416993969163
+      },
+      {
+        "video_id": "gnqDRRHbuI0_000002_000012",
+        "budget": 8,
+        "DP_optimum": 0.025962869368413757,
+        "exhaustive_optimum": 0.025962869368413757
+      },
+      {
+        "video_id": "gq7PnpY3rD4_000001_000011",
+        "budget": 2,
+        "DP_optimum": 0.05412769993757269,
+        "exhaustive_optimum": 0.05412769993757269
+      },
+      {
+        "video_id": "gq7PnpY3rD4_000001_000011",
+        "budget": 4,
+        "DP_optimum": 0.036454802142675505,
+        "exhaustive_optimum": 0.036454802142675505
+      },
+      {
+        "video_id": "gq7PnpY3rD4_000001_000011",
+        "budget": 8,
+        "DP_optimum": 0.01690262671589391,
+        "exhaustive_optimum": 0.01690262671589391
+      },
+      {
+        "video_id": "h1lzLWYSjmU_000014_000024",
+        "budget": 2,
+        "DP_optimum": 0.11816252287411418,
+        "exhaustive_optimum": 0.11816252287411416
+      },
+      {
+        "video_id": "h1lzLWYSjmU_000014_000024",
+        "budget": 4,
+        "DP_optimum": 0.07386008976186392,
+        "exhaustive_optimum": 0.07386008976186392
+      },
+      {
+        "video_id": "h1lzLWYSjmU_000014_000024",
+        "budget": 8,
+        "DP_optimum": 0.03653528062249589,
+        "exhaustive_optimum": 0.03653528062249589
+      },
+      {
+        "video_id": "h4A9pRoceIQ_000041_000051",
+        "budget": 2,
+        "DP_optimum": 0.06135093617526827,
+        "exhaustive_optimum": 0.06135093617526827
+      },
+      {
+        "video_id": "h4A9pRoceIQ_000041_000051",
+        "budget": 4,
+        "DP_optimum": 0.04329948175631227,
+        "exhaustive_optimum": 0.04329948175631227
+      },
+      {
+        "video_id": "h4A9pRoceIQ_000041_000051",
+        "budget": 8,
+        "DP_optimum": 0.02047313752477365,
+        "exhaustive_optimum": 0.02047313752477365
+      },
+      {
+        "video_id": "h64PNsTBTH4_000008_000018",
+        "budget": 2,
+        "DP_optimum": 0.10848857448015586,
+        "exhaustive_optimum": 0.10848857448015586
+      },
+      {
+        "video_id": "h64PNsTBTH4_000008_000018",
+        "budget": 4,
+        "DP_optimum": 0.03940991835356677,
+        "exhaustive_optimum": 0.03940991835356677
+      },
+      {
+        "video_id": "h64PNsTBTH4_000008_000018",
+        "budget": 8,
+        "DP_optimum": 0.004634455913600254,
+        "exhaustive_optimum": 0.004634455913600254
+      },
+      {
+        "video_id": "h8CZjnsgyQQ_000027_000037",
+        "budget": 2,
+        "DP_optimum": 0.052880247934283885,
+        "exhaustive_optimum": 0.052880247934283885
+      },
+      {
+        "video_id": "h8CZjnsgyQQ_000027_000037",
+        "budget": 4,
+        "DP_optimum": 0.0440411922241532,
+        "exhaustive_optimum": 0.0440411922241532
+      },
+      {
+        "video_id": "h8CZjnsgyQQ_000027_000037",
+        "budget": 8,
+        "DP_optimum": 0.027622699285002897,
+        "exhaustive_optimum": 0.027622699285002897
+      },
+      {
+        "video_id": "hHu72s7fICk_000037_000047",
+        "budget": 2,
+        "DP_optimum": 0.20301005427109348,
+        "exhaustive_optimum": 0.20301005427109348
+      },
+      {
+        "video_id": "hHu72s7fICk_000037_000047",
+        "budget": 4,
+        "DP_optimum": 0.13751985613255002,
+        "exhaustive_optimum": 0.13751985613255005
+      },
+      {
+        "video_id": "hHu72s7fICk_000037_000047",
+        "budget": 8,
+        "DP_optimum": 0.06402021645779413,
+        "exhaustive_optimum": 0.06402021645779413
+      },
+      {
+        "video_id": "hjDBIypMgWs_000828_000838",
+        "budget": 2,
+        "DP_optimum": 0.11597144170225406,
+        "exhaustive_optimum": 0.11597144170225404
+      },
+      {
+        "video_id": "hjDBIypMgWs_000828_000838",
+        "budget": 4,
+        "DP_optimum": 0.06793919963075623,
+        "exhaustive_optimum": 0.06793919963075623
+      },
+      {
+        "video_id": "hjDBIypMgWs_000828_000838",
+        "budget": 8,
+        "DP_optimum": 0.033002702592241834,
+        "exhaustive_optimum": 0.033002702592241834
+      },
+      {
+        "video_id": "hk348ebucyI_000032_000042",
+        "budget": 2,
+        "DP_optimum": 0.07624613832642636,
+        "exhaustive_optimum": 0.07624613832642638
+      },
+      {
+        "video_id": "hk348ebucyI_000032_000042",
+        "budget": 4,
+        "DP_optimum": 0.037428035704262105,
+        "exhaustive_optimum": 0.037428035704262105
+      },
+      {
+        "video_id": "hk348ebucyI_000032_000042",
+        "budget": 8,
+        "DP_optimum": 0.01558611162720399,
+        "exhaustive_optimum": 0.01558611162720399
+      },
+      {
+        "video_id": "hyt69aadDDU_000120_000130",
+        "budget": 2,
+        "DP_optimum": 0.12518655563579068,
+        "exhaustive_optimum": 0.12518655563579068
+      },
+      {
+        "video_id": "hyt69aadDDU_000120_000130",
+        "budget": 4,
+        "DP_optimum": 0.08045136717180301,
+        "exhaustive_optimum": 0.080451367171803
+      },
+      {
+        "video_id": "hyt69aadDDU_000120_000130",
+        "budget": 8,
+        "DP_optimum": 0.03597226695661161,
+        "exhaustive_optimum": 0.03597226695661161
+      },
+      {
+        "video_id": "i19QMf2wtLs_000028_000038",
+        "budget": 2,
+        "DP_optimum": 0.010013146510979752,
+        "exhaustive_optimum": 0.010013146510979752
+      },
+      {
+        "video_id": "i19QMf2wtLs_000028_000038",
+        "budget": 4,
+        "DP_optimum": 0.005563693795088927,
+        "exhaustive_optimum": 0.005563693795088927
+      },
+      {
+        "video_id": "i19QMf2wtLs_000028_000038",
+        "budget": 8,
+        "DP_optimum": 0.0021484678117271935,
+        "exhaustive_optimum": 0.0021484678117271935
+      },
+      {
+        "video_id": "iFT6_KoDIXc_000012_000022",
+        "budget": 2,
+        "DP_optimum": 0.1591439045050744,
+        "exhaustive_optimum": 0.15914390450507437
+      },
+      {
+        "video_id": "iFT6_KoDIXc_000012_000022",
+        "budget": 4,
+        "DP_optimum": 0.0827684582453482,
+        "exhaustive_optimum": 0.08276845824534822
+      },
+      {
+        "video_id": "iFT6_KoDIXc_000012_000022",
+        "budget": 8,
+        "DP_optimum": 0.03668227904935081,
+        "exhaustive_optimum": 0.03668227904935081
+      },
+      {
+        "video_id": "iKjNb7GEpMg_000008_000018",
+        "budget": 2,
+        "DP_optimum": 0.07752321691846928,
+        "exhaustive_optimum": 0.07752321691846929
+      },
+      {
+        "video_id": "iKjNb7GEpMg_000008_000018",
+        "budget": 4,
+        "DP_optimum": 0.05817068531903115,
+        "exhaustive_optimum": 0.05817068531903115
+      },
+      {
+        "video_id": "iKjNb7GEpMg_000008_000018",
+        "budget": 8,
+        "DP_optimum": 0.032443696165109476,
+        "exhaustive_optimum": 0.032443696165109476
+      },
+      {
+        "video_id": "iR99L0gD0cs_000014_000024",
+        "budget": 2,
+        "DP_optimum": 0.17680285925324735,
+        "exhaustive_optimum": 0.1768028592532473
+      },
+      {
+        "video_id": "iR99L0gD0cs_000014_000024",
+        "budget": 4,
+        "DP_optimum": 0.12701814984016874,
+        "exhaustive_optimum": 0.12701814984016874
+      },
+      {
+        "video_id": "iR99L0gD0cs_000014_000024",
+        "budget": 8,
+        "DP_optimum": 0.07046601970943442,
+        "exhaustive_optimum": 0.07046601970943442
+      },
+      {
+        "video_id": "iTCRQG1akx0_000766_000776",
+        "budget": 2,
+        "DP_optimum": 0.22833437690746466,
+        "exhaustive_optimum": 0.2283343769074647
+      },
+      {
+        "video_id": "iTCRQG1akx0_000766_000776",
+        "budget": 4,
+        "DP_optimum": 0.0952642759204044,
+        "exhaustive_optimum": 0.0952642759204044
+      },
+      {
+        "video_id": "iTCRQG1akx0_000766_000776",
+        "budget": 8,
+        "DP_optimum": 0.05161981155447335,
+        "exhaustive_optimum": 0.05161981155447335
+      },
+      {
+        "video_id": "iZQL9NS8BxU_000004_000014",
+        "budget": 2,
+        "DP_optimum": 0.1799971475202244,
+        "exhaustive_optimum": 0.17999714752022442
+      },
+      {
+        "video_id": "iZQL9NS8BxU_000004_000014",
+        "budget": 4,
+        "DP_optimum": 0.11731040872146677,
+        "exhaustive_optimum": 0.11731040872146675
+      },
+      {
+        "video_id": "iZQL9NS8BxU_000004_000014",
+        "budget": 8,
+        "DP_optimum": 0.052449471697954775,
+        "exhaustive_optimum": 0.052449471697954775
+      },
+      {
+        "video_id": "ifhl1Jydbyo_000007_000017",
+        "budget": 2,
+        "DP_optimum": 0.07886970208595401,
+        "exhaustive_optimum": 0.07886970208595401
+      },
+      {
+        "video_id": "ifhl1Jydbyo_000007_000017",
+        "budget": 4,
+        "DP_optimum": 0.04960719660636996,
+        "exhaustive_optimum": 0.04960719660636996
+      },
+      {
+        "video_id": "ifhl1Jydbyo_000007_000017",
+        "budget": 8,
+        "DP_optimum": 0.016719476096102255,
+        "exhaustive_optimum": 0.016719476096102255
+      },
+      {
+        "video_id": "igeASMnY4II_000018_000028",
+        "budget": 2,
+        "DP_optimum": 0.053640856319553135,
+        "exhaustive_optimum": 0.053640856319553135
+      },
+      {
+        "video_id": "igeASMnY4II_000018_000028",
+        "budget": 4,
+        "DP_optimum": 0.0397612130942157,
+        "exhaustive_optimum": 0.0397612130942157
+      },
+      {
+        "video_id": "igeASMnY4II_000018_000028",
+        "budget": 8,
+        "DP_optimum": 0.02015477284750633,
+        "exhaustive_optimum": 0.02015477284750633
+      },
+      {
+        "video_id": "ij3u6P0iv1M_000008_000018",
+        "budget": 2,
+        "DP_optimum": 0.11557213745020384,
+        "exhaustive_optimum": 0.11557213745020382
+      },
+      {
+        "video_id": "ij3u6P0iv1M_000008_000018",
+        "budget": 4,
+        "DP_optimum": 0.07641606226634107,
+        "exhaustive_optimum": 0.07641606226634107
+      },
+      {
+        "video_id": "ij3u6P0iv1M_000008_000018",
+        "budget": 8,
+        "DP_optimum": 0.037120170918072966,
+        "exhaustive_optimum": 0.037120170918072966
+      },
+      {
+        "video_id": "ivEx4MEvEMg_000031_000041",
+        "budget": 2,
+        "DP_optimum": 0.16147852398847404,
+        "exhaustive_optimum": 0.161478523988474
+      },
+      {
+        "video_id": "ivEx4MEvEMg_000031_000041",
+        "budget": 4,
+        "DP_optimum": 0.12675094604539017,
+        "exhaustive_optimum": 0.12675094604539017
+      },
+      {
+        "video_id": "ivEx4MEvEMg_000031_000041",
+        "budget": 8,
+        "DP_optimum": 0.0748115644202535,
+        "exhaustive_optimum": 0.07481156442025352
+      },
+      {
+        "video_id": "iwIttka43nE_000037_000047",
+        "budget": 2,
+        "DP_optimum": 0.1302381960613591,
+        "exhaustive_optimum": 0.1302381960613591
+      },
+      {
+        "video_id": "iwIttka43nE_000037_000047",
+        "budget": 4,
+        "DP_optimum": 0.08436860062220987,
+        "exhaustive_optimum": 0.08436860062220986
+      },
+      {
+        "video_id": "iwIttka43nE_000037_000047",
+        "budget": 8,
+        "DP_optimum": 0.03917869805121838,
+        "exhaustive_optimum": 0.03917869805121838
+      },
+      {
+        "video_id": "iz5381HHKQo_000012_000022",
+        "budget": 2,
+        "DP_optimum": 0.03370663028943644,
+        "exhaustive_optimum": 0.03370663028943644
+      },
+      {
+        "video_id": "iz5381HHKQo_000012_000022",
+        "budget": 4,
+        "DP_optimum": 0.024649228169599975,
+        "exhaustive_optimum": 0.024649228169599975
+      },
+      {
+        "video_id": "iz5381HHKQo_000012_000022",
+        "budget": 8,
+        "DP_optimum": 0.013053279943313026,
+        "exhaustive_optimum": 0.013053279943313026
+      },
+      {
+        "video_id": "j2Zw5pypB8c_000059_000069",
+        "budget": 2,
+        "DP_optimum": 0.17446748140715107,
+        "exhaustive_optimum": 0.17446748140715107
+      },
+      {
+        "video_id": "j2Zw5pypB8c_000059_000069",
+        "budget": 4,
+        "DP_optimum": 0.13729934300458066,
+        "exhaustive_optimum": 0.13729934300458066
+      },
+      {
+        "video_id": "j2Zw5pypB8c_000059_000069",
+        "budget": 8,
+        "DP_optimum": 0.07527202393488053,
+        "exhaustive_optimum": 0.07527202393488053
+      },
+      {
+        "video_id": "jHRm7Vugq5w_000070_000080",
+        "budget": 2,
+        "DP_optimum": 0.014177882458776901,
+        "exhaustive_optimum": 0.014177882458776901
+      },
+      {
+        "video_id": "jHRm7Vugq5w_000070_000080",
+        "budget": 4,
+        "DP_optimum": 0.00760173861252985,
+        "exhaustive_optimum": 0.00760173861252985
+      },
+      {
+        "video_id": "jHRm7Vugq5w_000070_000080",
+        "budget": 8,
+        "DP_optimum": 0.0013362870724843712,
+        "exhaustive_optimum": 0.0013362870724843712
+      },
+      {
+        "video_id": "jLX0yAJ8GEA_000060_000070",
+        "budget": 2,
+        "DP_optimum": 0.09416612506712826,
+        "exhaustive_optimum": 0.09416612506712824
+      },
+      {
+        "video_id": "jLX0yAJ8GEA_000060_000070",
+        "budget": 4,
+        "DP_optimum": 0.056754060709209894,
+        "exhaustive_optimum": 0.056754060709209894
+      },
+      {
+        "video_id": "jLX0yAJ8GEA_000060_000070",
+        "budget": 8,
+        "DP_optimum": 0.02802430073115323,
+        "exhaustive_optimum": 0.02802430073115323
+      },
+      {
+        "video_id": "jPpKBS2QV3M_000542_000552",
+        "budget": 2,
+        "DP_optimum": 0.0868739549342806,
+        "exhaustive_optimum": 0.0868739549342806
+      },
+      {
+        "video_id": "jPpKBS2QV3M_000542_000552",
+        "budget": 4,
+        "DP_optimum": 0.047162860777998646,
+        "exhaustive_optimum": 0.047162860777998646
+      },
+      {
+        "video_id": "jPpKBS2QV3M_000542_000552",
+        "budget": 8,
+        "DP_optimum": 0.014446183585201562,
+        "exhaustive_optimum": 0.014446183585201562
+      }
+    ],
+    "actual_encoder_calls": 0,
+    "fit_or_selection_calls": 0,
+    "expected_trajectories": 5500,
+    "expected_trace_rows": 88000
+  },
+  "reference_features": 1600,
+  "models_settings_hashes_unchanged_before_and_after": true,
+  "real_future_motion_and_RGB_information_isolation": true,
+  "prior_sources_snapshots_unchanged": 988,
+  "release_validator": {
+    "returncode": 0,
+    "stdout": "Public snapshot PASS: ten videos, 150 pilot rows, 15 single-video rows; all counters valid.\nCSV-derived headlines PASS: 34.74% median reduction, 1.532x median speedup, 17.52-45.54% range.\nOriginal timing source hashes and 17 snapshot checksums PASS; 70 relative links PASS.\nPersonal-path and installation-requirement checks PASS; no GPU timing was rerun.\n"
+  }
+}

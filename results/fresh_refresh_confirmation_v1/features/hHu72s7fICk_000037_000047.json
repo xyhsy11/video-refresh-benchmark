@@ -1,0 +1,204 @@
+{
+  "entry": {
+    "video_id": "hHu72s7fICk_000037_000047",
+    "relative_path": "data/source/fresh_refresh_confirmation_v1/videos/hHu72s7fICk_000037_000047.mp4",
+    "file_identity": {
+      "size_bytes": 3821434,
+      "mtime_ns": 1791956404481117900,
+      "sha256": "690e42a21351ae1b77e27a58733ca6032be8d0ee6a17a37171948180cc9320bf"
+    },
+    "inspected_at_utc": "2026-10-14T05:40:44.184105+00:00",
+    "codec": "h264",
+    "resolution": {
+      "width": 1280,
+      "height": 720
+    },
+    "reported_frame_rate": {
+      "rational": "30000/1001",
+      "fps": 29.97002997002997
+    },
+    "reported_metadata_frame_count": 267,
+    "stream_index": 0,
+    "stream_time_base": "1/30000",
+    "stream_duration_seconds": 8.9089,
+    "container_duration_seconds": 8.928458,
+    "duration_seconds": 8.9089,
+    "duration_method": "decoded last PTS - first PTS + final frame duration (reported FPS fallback if final duration missing)",
+    "decoded_pts_duration_seconds": 8.9089,
+    "decoded_frame_count": 267,
+    "frame_type_counts": {
+      "I": 3,
+      "P": 112,
+      "B": 152
+    },
+    "candidate_count": 16,
+    "candidate_indices": [
+      0,
+      18,
+      35,
+      53,
+      71,
+      89,
+      106,
+      124,
+      142,
+      160,
+      177,
+      195,
+      213,
+      231,
+      248,
+      266
+    ],
+    "candidate_index_basis": "zero-based sequential decoded-frame indices",
+    "decoder": {
+      "thread_count": 1,
+      "thread_type": "NONE",
+      "skip_frame": "NONE",
+      "hardware_acceleration": false
+    },
+    "inspection_elapsed_ms": 1124.783600000228,
+    "source_video_id": "hHu72s7fICk",
+    "label": "eating hotdog",
+    "original_dataset_split": "val",
+    "time_start": 37,
+    "time_end": 47,
+    "candidate_timestamps_seconds": [
+      0.0,
+      0.6006,
+      1.1678333333333333,
+      1.7684333333333333,
+      2.3690333333333333,
+      2.9696333333333333,
+      3.5368666666666666,
+      4.137466666666667,
+      4.738066666666667,
+      5.338666666666667,
+      5.9059,
+      6.5065,
+      7.1071,
+      7.7077,
+      8.274933333333333,
+      8.875533333333333
+    ],
+    "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+    "archive_sha256": "f42200912c9a472f178ab5dae1cdd54b3c55923e48cd22fae7e99a21fedd38f9",
+    "sampling_rank": "9990e6e49072279d44d3682f4bd2549f3db14ff77f3976c770f0fe0855249755",
+    "eligibility": "full decode/timestamps and finite CUDA references passed",
+    "experiment_split": "fresh_test"
+  },
+  "candidates": [
+    {
+      "candidate_ordinal": 0,
+      "decoded_frame_index": 0,
+      "pts": 0,
+      "timestamp_seconds": 0.0,
+      "frame_type": "I"
+    },
+    {
+      "candidate_ordinal": 1,
+      "decoded_frame_index": 18,
+      "pts": 18018,
+      "timestamp_seconds": 0.6006,
+      "frame_type": "P"
+    },
+    {
+      "candidate_ordinal": 2,
+      "decoded_frame_index": 35,
+      "pts": 35035,
+      "timestamp_seconds": 1.1678333333333333,
+      "frame_type": "P"
+    },
+    {
+      "candidate_ordinal": 3,
+      "decoded_frame_index": 53,
+      "pts": 53053,
+      "timestamp_seconds": 1.7684333333333333,
+      "frame_type": "P"
+    },
+    {
+      "candidate_ordinal": 4,
+      "decoded_frame_index": 71,
+      "pts": 71071,
+      "timestamp_seconds": 2.3690333333333333,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 5,
+      "decoded_frame_index": 89,
+      "pts": 89089,
+      "timestamp_seconds": 2.9696333333333333,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 6,
+      "decoded_frame_index": 106,
+      "pts": 106106,
+      "timestamp_seconds": 3.5368666666666666,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 7,
+      "decoded_frame_index": 124,
+      "pts": 124124,
+      "timestamp_seconds": 4.137466666666667,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 8,
+      "decoded_frame_index": 142,
+      "pts": 142142,
+      "timestamp_seconds": 4.738066666666667,
+      "frame_type": "P"
+    },
+    {
+      "candidate_ordinal": 9,
+      "decoded_frame_index": 160,
+      "pts": 160160,
+      "timestamp_seconds": 5.338666666666667,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 10,
+      "decoded_frame_index": 177,
+      "pts": 177177,
+      "timestamp_seconds": 5.9059,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 11,
+      "decoded_frame_index": 195,
+      "pts": 195195,
+      "timestamp_seconds": 6.5065,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 12,
+      "decoded_frame_index": 213,
+      "pts": 213213,
+      "timestamp_seconds": 7.1071,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 13,
+      "decoded_frame_index": 231,
+      "pts": 231231,
+      "timestamp_seconds": 7.7077,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 14,
+      "decoded_frame_index": 248,
+      "pts": 248248,
+      "timestamp_seconds": 8.274933333333333,
+      "frame_type": "P"
+    },
+    {
+      "candidate_ordinal": 15,
+      "decoded_frame_index": 266,
+      "pts": 266266,
+      "timestamp_seconds": 8.875533333333333,
+      "frame_type": "P"
+    }
+  ]
+}
