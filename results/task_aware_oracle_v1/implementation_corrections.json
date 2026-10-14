@@ -1,0 +1,48 @@
+{
+  "recorded_at_utc": "2026-10-14T07:29:13.893730+00:00",
+  "scientific_results_sha256_unchanged": {
+    "protocol.json": "17cfd47605b9527237e3f15c852ce18d1ff6fb7e7e333fac7d424a863a50c85d",
+    "dataset_split.json": "e5fc9bda1537440c318a84e7654ee5010b9fa20cfa7cf35cc6ec09877e07fec1",
+    "classifier_metrics.json": "3ac453da5b6df5ca62abe49bd753a76110374aae3cac66a7d1a7afcc03607de4",
+    "model_configuration.json": "aa4ebf0d908a145b5b1c9f39f819b5a6090f1181ea9d4f7659d101aecf5c4a35",
+    "classifier_parameters.json": "c0bbce986d997b6289161597652573a5e95e0594c590a3d65b3a649bd2ad1f2c",
+    "aggregate_metrics.json": "95fdae0efe4b60820ab2eacd555602b531b5e2be1b5bf975fbdb406f6c18a253",
+    "per_video_metrics.csv": "717a33e8aa9f9dd0d7272bc6286397691ffedc0d257361cd796a90ac07287ab1",
+    "oracle_schedules.json": "326e5a8f344506d3958e6070554badda6e0407581be5d916054286af47f6026e",
+    "paired_comparisons.csv": "a9bd29c01ded4cdf35e85665a628cb376ea82c31739042609151722032355616",
+    "bootstrap_intervals.json": "2bb033d3cd4295346bac9ebb61e7ce460143eb4b5c61b7c8da2062622dda2f5f",
+    "trajectory_metrics.csv": "22c49dcd77444d9769dd8f2f2be32cac4d534ad0dff7e06294499b08e556b520",
+    "dense_classifier_predictions.csv": "6d9ca011ecc7fb68bbd63bed0f5b871884977ee68aa4f71ac5300e2dc648caa2",
+    "controller_traces.csv": "c1341cdc5aade8bb9129e6efa398da562dba41368b0cccf5b9fa57e2a34aac86",
+    "per_class_metrics.csv": "58dbbb17b0a1c833b78b916c86f6f17eda21e3c72c28a017d483946168c624da",
+    "feature_task_correlations.json": "2cd06b6aee55070863db38828f44647673aba23df10886123b21a05f8503d187",
+    "analysis_examples.json": "7cd45cada9d4663bddb475e9be761786fdbecaa95daae953a9389119d48aac00",
+    "confusion_matrices.json": "68bf4c3adb9852b7c531fdcb527cecd694b750e47a350b2091994140dbfb279a",
+    "annotation_records.csv": "d82537121008e486f728508994021edb0de1fbcb4195501af4cbbe849a047cd9",
+    "environment.json": "c4271513396056f4b22438993e58f43e637be43ce8e502d92f1f7b8318a4c02a"
+  },
+  "first_interrupted_attempt": {
+    "preserved_locally": "results/task_aware_oracle_v1_incomplete_pre_replay",
+    "scope": "explicit replay check used float32 mean while oracle shortcut used float64; corrected to float64 and a regression test added before any saved policy results; no hyperparameters/labels/policies changed",
+    "original_sources_directory": "implementation_versions/pre_replay_float64_check",
+    "frozen_classifier_byte_identical_after_rerun": true,
+    "classifier_sha256": "c0bbce986d997b6289161597652573a5e95e0594c590a3d65b3a649bd2ad1f2c"
+  },
+  "post_execution_review": {
+    "scope": "plot spacing and transient Windows image-write handling (atomic temporary file plus bounded replacement retries); explicit train/test gap prose; configurable seed prose; stronger saved-result audit of frozen labels/roles, training normalization, feature oracles and paired CSV. No model, schedule, target, metric, threshold or tuning changed; no measurements rerun. Verification wording distinguishes preservation-byte hashing from feature/motion parsing; original verification preserved in execution_verification_at_completion.json.",
+    "execution_metadata_preserved": "execution_metadata_at_completion.json",
+    "execution_sources_directory": "implementation_versions/replay_sources",
+    "executed_source_sha256": {
+      "run_task_aware_oracle.py": "1f57e34198d365b9f45833e2da623e72868339def656e5b87d79517268c43fd7",
+      "task_aware_oracle_utils.py": "248fac0a71449972a4e606c511951836d97178bc02f3d54f839129066ecf3b67",
+      "task_aware_oracle_report.py": "95341a632100d97c8ff71130b8096ff985427db8ab1fd04ea3e91c1623089f2a",
+      "test_task_aware_oracle.py": "ce661bc7b21bab523c6227a8c6ed614f099e2339f253b2d58a6a2f3457358f1c"
+    },
+    "publication_source_sha256": {
+      "run_task_aware_oracle.py": "ece01c6a10e002de63dd913c1e11751cc35646cb2373e9f0132cd7b9901c019d",
+      "task_aware_oracle_utils.py": "248fac0a71449972a4e606c511951836d97178bc02f3d54f839129066ecf3b67",
+      "task_aware_oracle_report.py": "a03c8eb00b2bfa12e7622ad80cacd8fdc4fef7a83a100fe71c4bd7d7ef8818ac",
+      "test_task_aware_oracle.py": "ce661bc7b21bab523c6227a8c6ed614f099e2339f253b2d58a6a2f3457358f1c"
+    }
+  }
+}

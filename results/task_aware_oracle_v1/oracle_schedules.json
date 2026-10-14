@@ -1,0 +1,6806 @@
+{
+  "privileged": true,
+  "true_labels_used_by_task_oracle": true,
+  "rows": [
+    {
+      "role": "development",
+      "video_id": "5G94o6UdX2w_000001_000011",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          4
+        ],
+        "minimum_cross_entropy": 1.677332457766969,
+        "selected_cross_entropy": 1.677332457766969,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          12
+        ],
+        "mean_error": 0.1061107537370442,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.1061107537370442
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "5G94o6UdX2w_000001_000011",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          4,
+          12,
+          13
+        ],
+        "minimum_cross_entropy": 1.5648287140601322,
+        "selected_cross_entropy": 1.5648287140601322,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          5,
+          12
+        ],
+        "mean_error": 0.05626706514343427,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.05626706514343427
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "5G94o6UdX2w_000001_000011",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          3,
+          4,
+          8,
+          9,
+          12,
+          13,
+          15
+        ],
+        "minimum_cross_entropy": 1.632529630733019,
+        "selected_cross_entropy": 1.632529630733019,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          5,
+          7,
+          9,
+          11,
+          12,
+          14
+        ],
+        "mean_error": 0.022457138843173144,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.022457138843173144
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "5GUT-khf_tU_000008_000018",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          8
+        ],
+        "minimum_cross_entropy": 0.6313340685836883,
+        "selected_cross_entropy": 0.6313340685836883,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          4
+        ],
+        "mean_error": 0.09373813403546402,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.09373813403546402
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "5GUT-khf_tU_000008_000018",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          3,
+          6,
+          10
+        ],
+        "minimum_cross_entropy": 0.5149248319059607,
+        "selected_cross_entropy": 0.5149248319059607,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          3,
+          5,
+          11
+        ],
+        "mean_error": 0.0690202267121778,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.0690202267121778
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "5GUT-khf_tU_000008_000018",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          2,
+          3,
+          4,
+          6,
+          8,
+          10,
+          15
+        ],
+        "minimum_cross_entropy": 0.5112225560054173,
+        "selected_cross_entropy": 0.5112225560054173,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          3,
+          5,
+          8,
+          10,
+          11,
+          12
+        ],
+        "mean_error": 0.03733695990504014,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.03733695990504014
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "5ZwiGw_g8YA_000094_000104",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          15
+        ],
+        "minimum_cross_entropy": 0.06550231716885069,
+        "selected_cross_entropy": 0.06550231716885069,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          11
+        ],
+        "mean_error": 0.12982142015705864,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.12982142015705864
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "5ZwiGw_g8YA_000094_000104",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.132186461341667,
+        "selected_cross_entropy": 0.132186461341667,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          4,
+          10,
+          11
+        ],
+        "mean_error": 0.020193273871628274,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.020193273871628274
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "5ZwiGw_g8YA_000094_000104",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "minimum_cross_entropy": 0.3043804529332652,
+        "selected_cross_entropy": 0.3043804529332652,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          10,
+          11
+        ],
+        "mean_error": 0.001023805429695046,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.001023805429695046
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "5dRnwv9ZiG4_000041_000051",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          1
+        ],
+        "minimum_cross_entropy": 0.9016530580937219,
+        "selected_cross_entropy": 0.9016530580937219,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          11
+        ],
+        "mean_error": 0.018028385969292224,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.018028385969292224
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "5dRnwv9ZiG4_000041_000051",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.9678193578340335,
+        "selected_cross_entropy": 0.9678193578340335,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          5,
+          9,
+          10
+        ],
+        "mean_error": 0.010939828362076055,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.010939828362076055
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "5dRnwv9ZiG4_000041_000051",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 1.1622436572661399,
+        "selected_cross_entropy": 1.1622436572661399,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          3,
+          5,
+          7,
+          9,
+          10,
+          12,
+          13
+        ],
+        "mean_error": 0.005141907717818313,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.005141907717818313
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "67vhJRyiwmI_000328_000338",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          2
+        ],
+        "minimum_cross_entropy": 1.0110564379018907,
+        "selected_cross_entropy": 1.0110564379018907,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          8
+        ],
+        "mean_error": 0.07074666907876642,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.07074666907876642
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "67vhJRyiwmI_000328_000338",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          15
+        ],
+        "minimum_cross_entropy": 1.0624957112612017,
+        "selected_cross_entropy": 1.0624957112612017,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          5,
+          9
+        ],
+        "mean_error": 0.054842246597028826,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.054842246597028826
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "67vhJRyiwmI_000328_000338",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 1.3881455439532129,
+        "selected_cross_entropy": 1.3881455439532129,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          5,
+          9,
+          12,
+          13,
+          14,
+          15
+        ],
+        "mean_error": 0.029240414376896187,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.029240414376896187
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "6KG0mbhejCs_000233_000243",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          6
+        ],
+        "minimum_cross_entropy": 1.25970082400059,
+        "selected_cross_entropy": 1.25970082400059,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          6
+        ],
+        "mean_error": 0.08472862381224669,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.08472862381224669
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "6KG0mbhejCs_000233_000243",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          4,
+          6
+        ],
+        "minimum_cross_entropy": 1.0935759882327996,
+        "selected_cross_entropy": 1.0935759882327996,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "mean_error": 0.06314154286180693,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.06314154286180693
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "6KG0mbhejCs_000233_000243",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          4,
+          5,
+          6,
+          12,
+          13,
+          15
+        ],
+        "minimum_cross_entropy": 1.1430757423203288,
+        "selected_cross_entropy": 1.1430757423203288,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          13,
+          15
+        ],
+        "mean_error": 0.033544512163810686,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.033544512163810686
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "6iV76zdkdBY_000148_000158",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          1
+        ],
+        "minimum_cross_entropy": 2.0805125046830617,
+        "selected_cross_entropy": 2.0805125046830617,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          5
+        ],
+        "mean_error": 0.03544540323971288,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.03544540323971288
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "6iV76zdkdBY_000148_000158",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          3,
+          12
+        ],
+        "minimum_cross_entropy": 2.0853713470186688,
+        "selected_cross_entropy": 2.0853713470186688,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          6,
+          8,
+          9
+        ],
+        "mean_error": 0.025948021107166444,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.025948021107166444
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "6iV76zdkdBY_000148_000158",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          12,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 2.2137272813068356,
+        "selected_cross_entropy": 2.2137272813068356,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          6,
+          7,
+          8,
+          9,
+          11,
+          12,
+          13
+        ],
+        "mean_error": 0.014456745021792825,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.014456745021792825
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "75CH3nr9D0E_000713_000723",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          7
+        ],
+        "minimum_cross_entropy": 0.42133529895627886,
+        "selected_cross_entropy": 0.42133529895627886,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          11
+        ],
+        "mean_error": 0.15731722877482363,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.15731722877482363
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "75CH3nr9D0E_000713_000723",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          6,
+          7,
+          11
+        ],
+        "minimum_cross_entropy": 0.2845843807525048,
+        "selected_cross_entropy": 0.2845843807525048,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          6,
+          11
+        ],
+        "mean_error": 0.08856632925540786,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.08856632925540786
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "75CH3nr9D0E_000713_000723",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          6,
+          7,
+          10,
+          11,
+          12,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.2930807662756605,
+        "selected_cross_entropy": 0.2930807662756605,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          4,
+          6,
+          10,
+          11,
+          13,
+          14
+        ],
+        "mean_error": 0.03908672319402339,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.03908672319402339
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "7FAZzxo3jnM_000005_000015",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          8
+        ],
+        "minimum_cross_entropy": 1.8314902183555097,
+        "selected_cross_entropy": 1.8314902183555097,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          7
+        ],
+        "mean_error": 0.15313500931168356,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.15313500931168356
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "7FAZzxo3jnM_000005_000015",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          7,
+          8
+        ],
+        "minimum_cross_entropy": 1.4217221355011413,
+        "selected_cross_entropy": 1.4217221355011413,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          5,
+          7,
+          12
+        ],
+        "mean_error": 0.09387330469549245,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.09387330469549245
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "7FAZzxo3jnM_000005_000015",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          7,
+          8,
+          10,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 1.5069574955716392,
+        "selected_cross_entropy": 1.5069574955716392,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          12
+        ],
+        "mean_error": 0.03749718004194715,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.03749718004194715
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "CY26VGQ7t1E_000018_000028",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          7
+        ],
+        "minimum_cross_entropy": 0.6704027436263358,
+        "selected_cross_entropy": 0.6704027436263358,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          7
+        ],
+        "mean_error": 0.06189435688540351,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.06189435688540351
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "CY26VGQ7t1E_000018_000028",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          6,
+          7,
+          13
+        ],
+        "minimum_cross_entropy": 0.5431661646077832,
+        "selected_cross_entropy": 0.5431661646077832,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          7,
+          10,
+          14
+        ],
+        "mean_error": 0.03554838421942253,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.03554838421942253
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "CY26VGQ7t1E_000018_000028",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          13
+        ],
+        "minimum_cross_entropy": 0.5763210978419928,
+        "selected_cross_entropy": 0.5763210978419928,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          5,
+          7,
+          8,
+          10,
+          13,
+          14
+        ],
+        "mean_error": 0.014655716190529668,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.014655716190529668
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "CrhPxGAf8Yc_000024_000034",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          4
+        ],
+        "minimum_cross_entropy": 1.7243194377087825,
+        "selected_cross_entropy": 1.7243194377087825,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          10
+        ],
+        "mean_error": 0.06326228243165075,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.06326228243165075
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "CrhPxGAf8Yc_000024_000034",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          2,
+          4,
+          13
+        ],
+        "minimum_cross_entropy": 1.624013355505896,
+        "selected_cross_entropy": 1.624013355505896,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          3,
+          7,
+          10
+        ],
+        "mean_error": 0.038536690511434185,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.038536690511434185
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "CrhPxGAf8Yc_000024_000034",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          7,
+          8,
+          13
+        ],
+        "minimum_cross_entropy": 1.6195839954271705,
+        "selected_cross_entropy": 1.6195839954271705,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          3,
+          7,
+          11,
+          12,
+          14,
+          15
+        ],
+        "mean_error": 0.01825742086112627,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.01825742086112627
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "Cu8mVNNT6is_000010_000020",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          8
+        ],
+        "minimum_cross_entropy": 2.770535401818324,
+        "selected_cross_entropy": 2.770535401818324,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          2
+        ],
+        "mean_error": 0.1829460962215243,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.1829460962215243
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "Cu8mVNNT6is_000010_000020",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          5,
+          11
+        ],
+        "minimum_cross_entropy": 1.4415528798707506,
+        "selected_cross_entropy": 1.4415528798707506,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          6,
+          9
+        ],
+        "mean_error": 0.11543581762415717,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.11543581762415717
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "Cu8mVNNT6is_000010_000020",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          8,
+          10,
+          11
+        ],
+        "minimum_cross_entropy": 1.2564346338724435,
+        "selected_cross_entropy": 1.2564346338724435,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          6,
+          7,
+          8,
+          9,
+          11,
+          13
+        ],
+        "mean_error": 0.04734880779901192,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.04734880779901192
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "ESnU5Vn5gqE_000030_000040",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          8
+        ],
+        "minimum_cross_entropy": 0.7900138210120229,
+        "selected_cross_entropy": 0.7900138210120229,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          10
+        ],
+        "mean_error": 0.09510412434114163,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.09510412434114163
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "ESnU5Vn5gqE_000030_000040",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          3,
+          5,
+          8
+        ],
+        "minimum_cross_entropy": 0.676933284283395,
+        "selected_cross_entropy": 0.676933284283395,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          5,
+          9,
+          10
+        ],
+        "mean_error": 0.06631191731504757,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.06631191731504757
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "ESnU5Vn5gqE_000030_000040",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8
+        ],
+        "minimum_cross_entropy": 0.767498221241901,
+        "selected_cross_entropy": 0.767498221241901,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          5,
+          9,
+          10,
+          11,
+          13,
+          14
+        ],
+        "mean_error": 0.036500569296780264,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.036500569296780264
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "EpkRTxllorU_000315_000325",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          1
+        ],
+        "minimum_cross_entropy": 0.9012954863747473,
+        "selected_cross_entropy": 0.9012954863747473,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          1
+        ],
+        "mean_error": 0.1032904825640231,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.1032904825640231
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "EpkRTxllorU_000315_000325",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          5,
+          14
+        ],
+        "minimum_cross_entropy": 0.8621686838903875,
+        "selected_cross_entropy": 0.8621686838903875,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          6,
+          14
+        ],
+        "mean_error": 0.019675492302118028,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.019675492302118028
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "EpkRTxllorU_000315_000325",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.8905557861110895,
+        "selected_cross_entropy": 0.8905557861110895,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          12,
+          13,
+          14
+        ],
+        "mean_error": 0.006578520348598675,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.006578520348598675
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "F-cmTIX6Drw_000002_000012",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          13
+        ],
+        "minimum_cross_entropy": 0.424596635685325,
+        "selected_cross_entropy": 0.424596635685325,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          6
+        ],
+        "mean_error": 0.0862144466903607,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.0862144466903607
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "F-cmTIX6Drw_000002_000012",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.554581122932265,
+        "selected_cross_entropy": 0.554581122932265,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          3,
+          6
+        ],
+        "mean_error": 0.06066134167283112,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.06066134167283112
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "F-cmTIX6Drw_000002_000012",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "minimum_cross_entropy": 0.8807975507701586,
+        "selected_cross_entropy": 0.8807975507701586,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          10,
+          14,
+          15
+        ],
+        "mean_error": 0.030723703401938925,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.030723703401938925
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "FZmNWmGs298_000012_000022",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          3
+        ],
+        "minimum_cross_entropy": 0.019264876479089033,
+        "selected_cross_entropy": 0.019264876479089033,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          5
+        ],
+        "mean_error": 0.03790373901825077,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.03790373901825077
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "FZmNWmGs298_000012_000022",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          3,
+          8,
+          13
+        ],
+        "minimum_cross_entropy": 0.015712484853403375,
+        "selected_cross_entropy": 0.015712484853403375,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          3,
+          8,
+          13
+        ],
+        "mean_error": 0.026355193028831138,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.026355193028831138
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "FZmNWmGs298_000012_000022",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          8,
+          11,
+          13
+        ],
+        "minimum_cross_entropy": 0.015778471590991217,
+        "selected_cross_entropy": 0.015778471590991217,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          12,
+          13,
+          15
+        ],
+        "mean_error": 0.013572621179378387,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.013572621179378387
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "GaRaR0G-ugg_000034_000044",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          3
+        ],
+        "minimum_cross_entropy": 0.018966778006754836,
+        "selected_cross_entropy": 0.018966778006754836,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          3
+        ],
+        "mean_error": 0.05546117421803617,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.05546117421803617
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "GaRaR0G-ugg_000034_000044",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          3,
+          13
+        ],
+        "minimum_cross_entropy": 0.015116217143233968,
+        "selected_cross_entropy": 0.015116217143233968,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          11,
+          14
+        ],
+        "mean_error": 0.04155766201894784,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.04155766201894784
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "GaRaR0G-ugg_000034_000044",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          12,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.01695126312395434,
+        "selected_cross_entropy": 0.01695126312395434,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          4,
+          5,
+          6,
+          8,
+          11,
+          14
+        ],
+        "mean_error": 0.021617212316301662,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.021617212316301662
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "H8WWknTZUmA_000016_000026",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          1
+        ],
+        "minimum_cross_entropy": 1.3521485432675844,
+        "selected_cross_entropy": 1.3521485432675844,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          9
+        ],
+        "mean_error": 0.10286345599846522,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.10286345599846522
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "H8WWknTZUmA_000016_000026",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          11,
+          14
+        ],
+        "minimum_cross_entropy": 1.1787137126391052,
+        "selected_cross_entropy": 1.1787137126391052,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          3,
+          9,
+          14
+        ],
+        "mean_error": 0.0563978693794796,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.0563978693794796
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "H8WWknTZUmA_000016_000026",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 1.2218529722994398,
+        "selected_cross_entropy": 1.2218529722994398,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          3,
+          4,
+          5,
+          8,
+          9,
+          10,
+          14
+        ],
+        "mean_error": 0.0264538677093693,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.0264538677093693
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "HCmP-G7_fJU_000228_000238",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          10
+        ],
+        "minimum_cross_entropy": 0.031535540422019004,
+        "selected_cross_entropy": 0.031535540422019004,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          2
+        ],
+        "mean_error": 0.0051489692151203345,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.0051489692151203345
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "HCmP-G7_fJU_000228_000238",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          10,
+          11,
+          12
+        ],
+        "minimum_cross_entropy": 0.03193185529421072,
+        "selected_cross_entropy": 0.03193185529421072,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          5,
+          11
+        ],
+        "mean_error": 0.0032109498566907507,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.0032109498566907507
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "HCmP-G7_fJU_000228_000238",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.03406978011779316,
+        "selected_cross_entropy": 0.03406978011779316,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          9,
+          11,
+          13
+        ],
+        "mean_error": 0.0015894856029768992,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.0015894856029768992
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "L6QdLb5sOKA_000046_000056",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          4
+        ],
+        "minimum_cross_entropy": 1.6798443111736567,
+        "selected_cross_entropy": 1.6798443111736567,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          13
+        ],
+        "mean_error": 0.13334092983166695,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.13334092983166695
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "L6QdLb5sOKA_000046_000056",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          4,
+          5,
+          8
+        ],
+        "minimum_cross_entropy": 1.6339309047892758,
+        "selected_cross_entropy": 1.6339309047892758,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          6,
+          13
+        ],
+        "mean_error": 0.08308074030901509,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.08308074030901509
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "L6QdLb5sOKA_000046_000056",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          15
+        ],
+        "minimum_cross_entropy": 1.6937131724036654,
+        "selected_cross_entropy": 1.6937131724036654,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          2,
+          6,
+          10,
+          11,
+          12,
+          13
+        ],
+        "mean_error": 0.043781879356981364,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.043781879356981364
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "LG_L2HvS3i8_000140_000150",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          7
+        ],
+        "minimum_cross_entropy": 0.1584551445798894,
+        "selected_cross_entropy": 0.1584551445798894,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          8
+        ],
+        "mean_error": 0.14409857704525714,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.14409857704525714
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "LG_L2HvS3i8_000140_000150",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          4,
+          7,
+          13
+        ],
+        "minimum_cross_entropy": 0.13285993347713276,
+        "selected_cross_entropy": 0.13285993347713276,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          5,
+          8
+        ],
+        "mean_error": 0.08558749660732728,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.08558749660732728
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "LG_L2HvS3i8_000140_000150",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          4,
+          5,
+          6,
+          7,
+          13,
+          15
+        ],
+        "minimum_cross_entropy": 0.1512409449194374,
+        "selected_cross_entropy": 0.1512409449194374,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          2,
+          5,
+          8,
+          13,
+          14,
+          15
+        ],
+        "mean_error": 0.044863879040348977,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.044863879040348977
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "LUDJ_eqPE4E_000014_000024",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          4
+        ],
+        "minimum_cross_entropy": 0.08313257408227503,
+        "selected_cross_entropy": 0.08313257408227503,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          12
+        ],
+        "mean_error": 0.1830628820935532,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.1830628820935532
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "LUDJ_eqPE4E_000014_000024",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "minimum_cross_entropy": 0.06663038114138686,
+        "selected_cross_entropy": 0.06663038114138686,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          4,
+          6,
+          8
+        ],
+        "mean_error": 0.11670461728282289,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.11670461728282289
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "LUDJ_eqPE4E_000014_000024",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.13652304460453646,
+        "selected_cross_entropy": 0.13652304460453646,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          3,
+          4,
+          6,
+          8,
+          10,
+          11,
+          12
+        ],
+        "mean_error": 0.0510857071676245,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.0510857071676245
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "LzGTRmCGJxc_000087_000097",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          3
+        ],
+        "minimum_cross_entropy": 1.7480774354383612,
+        "selected_cross_entropy": 1.7480774354383612,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          14
+        ],
+        "mean_error": 0.14326738216068183,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.14326738216068183
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "LzGTRmCGJxc_000087_000097",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          3,
+          5,
+          12
+        ],
+        "minimum_cross_entropy": 1.7585724271694247,
+        "selected_cross_entropy": 1.7585724271694247,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          7,
+          13,
+          14
+        ],
+        "mean_error": 0.07752254787071453,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.07752254787071453
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "LzGTRmCGJxc_000087_000097",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          3,
+          5,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "minimum_cross_entropy": 1.9075304254760397,
+        "selected_cross_entropy": 1.9075304254760397,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          7,
+          13,
+          14
+        ],
+        "mean_error": 0.03223422102596808,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.03223422102596808
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "M7biA0ABhIE_000299_000309",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          1
+        ],
+        "minimum_cross_entropy": 2.5407457260290736,
+        "selected_cross_entropy": 2.5407457260290736,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          8
+        ],
+        "mean_error": 0.12285026027604441,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.12285026027604441
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "M7biA0ABhIE_000299_000309",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          13,
+          14
+        ],
+        "minimum_cross_entropy": 2.431206170505596,
+        "selected_cross_entropy": 2.431206170505596,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          8,
+          10,
+          13
+        ],
+        "mean_error": 0.09266525484966066,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.09266525484966066
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "M7biA0ABhIE_000299_000309",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14
+        ],
+        "minimum_cross_entropy": 2.664460302795675,
+        "selected_cross_entropy": 2.664460302795675,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          6,
+          8,
+          10,
+          12,
+          13,
+          15
+        ],
+        "mean_error": 0.04681531916167436,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.04681531916167436
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "MSNZTb4aHuc_000003_000013",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          15
+        ],
+        "minimum_cross_entropy": 0.10718405617755344,
+        "selected_cross_entropy": 0.10718405617755344,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          9
+        ],
+        "mean_error": 0.09444979283719507,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.09444979283719507
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "MSNZTb4aHuc_000003_000013",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.15426684193288853,
+        "selected_cross_entropy": 0.15426684193288853,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          9,
+          11,
+          14
+        ],
+        "mean_error": 0.06880181893789447,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.06880181893789447
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "MSNZTb4aHuc_000003_000013",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.2724286542056298,
+        "selected_cross_entropy": 0.2724286542056298,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "mean_error": 0.0390434016113976,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.0390434016113976
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "N3o3Rg0kKMw_000015_000025",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          5
+        ],
+        "minimum_cross_entropy": 1.7102582777925286,
+        "selected_cross_entropy": 1.7102582777925286,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          6
+        ],
+        "mean_error": 0.1856657610188105,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.1856657610188105
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "N3o3Rg0kKMw_000015_000025",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          5,
+          9,
+          10
+        ],
+        "minimum_cross_entropy": 1.6178058139890394,
+        "selected_cross_entropy": 1.6178058139890394,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          5,
+          12
+        ],
+        "mean_error": 0.12541766588635775,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.12541766588635775
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "N3o3Rg0kKMw_000015_000025",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          14
+        ],
+        "minimum_cross_entropy": 1.6604597980287976,
+        "selected_cross_entropy": 1.6604597980287976,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          12
+        ],
+        "mean_error": 0.04894885192563996,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.04894885192563996
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "Ntd9Y7Bkl6I_000016_000026",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          3
+        ],
+        "minimum_cross_entropy": 2.4717520399411503,
+        "selected_cross_entropy": 2.4717520399411503,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          3
+        ],
+        "mean_error": 0.13793792499632246,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.13793792499632246
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "Ntd9Y7Bkl6I_000016_000026",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          3,
+          9,
+          12
+        ],
+        "minimum_cross_entropy": 1.7544356101490894,
+        "selected_cross_entropy": 1.7544356101490894,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          3,
+          7,
+          13
+        ],
+        "mean_error": 0.030960895697537662,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.030960895697537662
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "Ntd9Y7Bkl6I_000016_000026",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          2,
+          3,
+          7,
+          8,
+          9,
+          11,
+          12
+        ],
+        "minimum_cross_entropy": 1.7220838556066522,
+        "selected_cross_entropy": 1.7220838556066522,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          3,
+          7,
+          9,
+          12,
+          13,
+          14,
+          15
+        ],
+        "mean_error": 0.010517455288875016,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.010517455288875016
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "Oe7vfErM63c_000003_000013",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          2
+        ],
+        "minimum_cross_entropy": 2.389093358984136,
+        "selected_cross_entropy": 2.389093358984136,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          2
+        ],
+        "mean_error": 0.14735293462655985,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.14735293462655985
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "Oe7vfErM63c_000003_000013",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          2,
+          4,
+          11
+        ],
+        "minimum_cross_entropy": 2.0090683911659304,
+        "selected_cross_entropy": 2.0090683911659304,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          7,
+          11
+        ],
+        "mean_error": 0.0981163710346569,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.0981163710346569
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "Oe7vfErM63c_000003_000013",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          4,
+          8,
+          11,
+          12,
+          15
+        ],
+        "minimum_cross_entropy": 2.0930688330073908,
+        "selected_cross_entropy": 2.0930688330073908,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          4,
+          6,
+          7,
+          10,
+          11,
+          14
+        ],
+        "mean_error": 0.053216444414406566,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.053216444414406566
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "Q6G3SqUU3w0_000134_000144",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          2
+        ],
+        "minimum_cross_entropy": 1.1475387299049533,
+        "selected_cross_entropy": 1.1475387299049533,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          13
+        ],
+        "mean_error": 0.10277663083024006,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.10277663083024006
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "Q6G3SqUU3w0_000134_000144",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          15
+        ],
+        "minimum_cross_entropy": 1.22128709623124,
+        "selected_cross_entropy": 1.22128709623124,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          7,
+          10,
+          13
+        ],
+        "mean_error": 0.07152531049688432,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.07152531049688432
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "Q6G3SqUU3w0_000134_000144",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          8,
+          9,
+          10,
+          11,
+          15
+        ],
+        "minimum_cross_entropy": 1.4581696579864616,
+        "selected_cross_entropy": 1.4581696579864616,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          6,
+          7,
+          10,
+          12,
+          13,
+          14,
+          15
+        ],
+        "mean_error": 0.029942222276231605,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.029942222276231605
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "QAs8dUX9q04_000018_000028",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          9
+        ],
+        "minimum_cross_entropy": 0.045946158612503396,
+        "selected_cross_entropy": 0.045946158612503396,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          14
+        ],
+        "mean_error": 0.023997768713866913,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.023997768713866913
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "QAs8dUX9q04_000018_000028",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          7,
+          8,
+          9
+        ],
+        "minimum_cross_entropy": 0.047271216160176266,
+        "selected_cross_entropy": 0.047271216160176266,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          13,
+          14,
+          15
+        ],
+        "mean_error": 0.012869870417265873,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.012869870417265873
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "QAs8dUX9q04_000018_000028",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "minimum_cross_entropy": 0.06226925044748821,
+        "selected_cross_entropy": 0.06226925044748821,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          4,
+          8,
+          10,
+          12,
+          13,
+          14,
+          15
+        ],
+        "mean_error": 0.0053826168258799476,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.0053826168258799476
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "QeG2HREr6m0_000003_000013",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          10
+        ],
+        "minimum_cross_entropy": 2.9229700832599135,
+        "selected_cross_entropy": 2.9229700832599135,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          10
+        ],
+        "mean_error": 0.23585280530914204,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.23585280530914204
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "QeG2HREr6m0_000003_000013",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          10,
+          12
+        ],
+        "minimum_cross_entropy": 1.6847044935327808,
+        "selected_cross_entropy": 1.6847044935327808,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          5,
+          10
+        ],
+        "mean_error": 0.1027170267448172,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.1027170267448172
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "QeG2HREr6m0_000003_000013",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "minimum_cross_entropy": 1.6406467555581234,
+        "selected_cross_entropy": 1.6406467555581234,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          7,
+          9,
+          10
+        ],
+        "mean_error": 0.03013856062508994,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.03013856062508994
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "dIBNHpmFY-4_000001_000011",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          10
+        ],
+        "minimum_cross_entropy": 0.45801441312530855,
+        "selected_cross_entropy": 0.45801441312530855,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          12
+        ],
+        "mean_error": 0.09319728898220388,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.09319728898220388
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "dIBNHpmFY-4_000001_000011",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          8,
+          10
+        ],
+        "minimum_cross_entropy": 0.35549487041352723,
+        "selected_cross_entropy": 0.35549487041352723,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          6,
+          9,
+          12
+        ],
+        "mean_error": 0.05327972217168758,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.05327972217168758
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "dIBNHpmFY-4_000001_000011",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10
+        ],
+        "minimum_cross_entropy": 0.3593602295703091,
+        "selected_cross_entropy": 0.3593602295703091,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14
+        ],
+        "mean_error": 0.02365186154748601,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.02365186154748601
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "dSF2i1OQtMc_000087_000097",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          5
+        ],
+        "minimum_cross_entropy": 0.8635775081639903,
+        "selected_cross_entropy": 0.8635775081639903,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          6
+        ],
+        "mean_error": 0.11523729372393099,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.11523729372393099
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "dSF2i1OQtMc_000087_000097",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          2,
+          5,
+          10
+        ],
+        "minimum_cross_entropy": 0.704173947767734,
+        "selected_cross_entropy": 0.704173947767734,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          6,
+          12,
+          13
+        ],
+        "mean_error": 0.07482189251091079,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.07482189251091079
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "dSF2i1OQtMc_000087_000097",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          10,
+          15
+        ],
+        "minimum_cross_entropy": 0.7391270712206466,
+        "selected_cross_entropy": 0.7391270712206466,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          5,
+          6,
+          10,
+          12,
+          13,
+          14
+        ],
+        "mean_error": 0.03169941653980469,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.03169941653980469
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "dVFyXxNN7J8_000160_000170",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          7
+        ],
+        "minimum_cross_entropy": 0.6371815641396852,
+        "selected_cross_entropy": 0.6371815641396852,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          7
+        ],
+        "mean_error": 0.046031877647382514,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.046031877647382514
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "dVFyXxNN7J8_000160_000170",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          6,
+          7,
+          11
+        ],
+        "minimum_cross_entropy": 0.5886865964843726,
+        "selected_cross_entropy": 0.5886865964843726,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          4,
+          7,
+          13
+        ],
+        "mean_error": 0.022506402899203658,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.022506402899203658
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "dVFyXxNN7J8_000160_000170",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          11
+        ],
+        "minimum_cross_entropy": 0.5947426618430822,
+        "selected_cross_entropy": 0.5947426618430822,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          4,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13
+        ],
+        "mean_error": 0.0068315116696723716,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.0068315116696723716
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "ejjLKLUeGHM_000225_000235",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          7
+        ],
+        "minimum_cross_entropy": 1.8370193642303865,
+        "selected_cross_entropy": 1.8370193642303865,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          10
+        ],
+        "mean_error": 0.1501978149621044,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.1501978149621044
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "ejjLKLUeGHM_000225_000235",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          7,
+          9
+        ],
+        "minimum_cross_entropy": 1.4847319863216146,
+        "selected_cross_entropy": 1.4847319863216146,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          8,
+          9,
+          10
+        ],
+        "mean_error": 0.11060847302617677,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.11060847302617677
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "ejjLKLUeGHM_000225_000235",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          6,
+          7,
+          9,
+          12,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 1.4556756740296684,
+        "selected_cross_entropy": 1.4556756740296684,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          6,
+          7,
+          8,
+          9,
+          10,
+          15
+        ],
+        "mean_error": 0.05599342451219108,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.05599342451219108
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "fEMzrsYAOZ4_000026_000036",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          13
+        ],
+        "minimum_cross_entropy": 1.599221930985406,
+        "selected_cross_entropy": 1.599221930985406,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          3
+        ],
+        "mean_error": 0.16011242858936664,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.16011242858936664
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "fEMzrsYAOZ4_000026_000036",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          12,
+          13
+        ],
+        "minimum_cross_entropy": 1.709314688581813,
+        "selected_cross_entropy": 1.709314688581813,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          4,
+          9,
+          14
+        ],
+        "mean_error": 0.11972405937318144,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.11972405937318144
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "fEMzrsYAOZ4_000026_000036",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15
+        ],
+        "minimum_cross_entropy": 1.9656185215408617,
+        "selected_cross_entropy": 1.9656185215408617,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          15
+        ],
+        "mean_error": 0.058894873017252505,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.058894873017252505
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "fRBJY5RHN_s_000022_000032",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          1
+        ],
+        "minimum_cross_entropy": 0.044195278791637094,
+        "selected_cross_entropy": 0.044195278791637094,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          2
+        ],
+        "mean_error": 0.20798032079235856,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.20798032079235856
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "fRBJY5RHN_s_000022_000032",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.07292239527625366,
+        "selected_cross_entropy": 0.07292239527625366,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          6,
+          8,
+          11
+        ],
+        "mean_error": 0.1499351911009086,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.1499351911009086
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "fRBJY5RHN_s_000022_000032",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.1414733982686922,
+        "selected_cross_entropy": 0.1414733982686922,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12
+        ],
+        "mean_error": 0.06240216168273677,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.06240216168273677
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "fSJ61gXs7aY_000022_000032",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          1
+        ],
+        "minimum_cross_entropy": 5.495552269439306,
+        "selected_cross_entropy": 5.495552269439306,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          11
+        ],
+        "mean_error": 0.10447172792966933,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.10447172792966933
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "fSJ61gXs7aY_000022_000032",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          5,
+          12
+        ],
+        "minimum_cross_entropy": 4.83005667141469,
+        "selected_cross_entropy": 4.83005667141469,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          6,
+          10,
+          12
+        ],
+        "mean_error": 0.0656880789788592,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.0656880789788592
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "fSJ61gXs7aY_000022_000032",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          8,
+          11,
+          12
+        ],
+        "minimum_cross_entropy": 4.759630478391897,
+        "selected_cross_entropy": 4.759630478391897,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          10,
+          12,
+          14
+        ],
+        "mean_error": 0.03615403021407326,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.03615403021407326
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "flojhQpCUWg_000057_000067",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          5
+        ],
+        "minimum_cross_entropy": 0.020511308046695653,
+        "selected_cross_entropy": 0.020511308046695653,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          6
+        ],
+        "mean_error": 0.06772792638979408,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.06772792638979408
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "flojhQpCUWg_000057_000067",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          2,
+          3,
+          5
+        ],
+        "minimum_cross_entropy": 0.017551629533374857,
+        "selected_cross_entropy": 0.017551629533374857,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          5,
+          6,
+          9
+        ],
+        "mean_error": 0.04803491640378869,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.04803491640378869
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "flojhQpCUWg_000057_000067",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.02396996688635067,
+        "selected_cross_entropy": 0.02396996688635067,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          13
+        ],
+        "mean_error": 0.023834052507577516,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.023834052507577516
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "gGIJXRLTp0I_000046_000056",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          3
+        ],
+        "minimum_cross_entropy": 0.647458973286545,
+        "selected_cross_entropy": 0.647458973286545,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          9
+        ],
+        "mean_error": 0.19724073825388855,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.19724073825388855
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "gGIJXRLTp0I_000046_000056",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          3,
+          14
+        ],
+        "minimum_cross_entropy": 0.6200604457078582,
+        "selected_cross_entropy": 0.6200604457078582,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          3,
+          7,
+          9
+        ],
+        "mean_error": 0.12326989131517185,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.12326989131517185
+      }
+    },
+    {
+      "role": "development",
+      "video_id": "gGIJXRLTp0I_000046_000056",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          7,
+          8,
+          9,
+          14
+        ],
+        "minimum_cross_entropy": 0.7139936689681665,
+        "selected_cross_entropy": 0.7139936689681665,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          3,
+          5,
+          7,
+          9,
+          10,
+          11,
+          14
+        ],
+        "mean_error": 0.06664113624545501,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.06664113624545501
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "4iII2qSlqLA_000002_000012",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          15
+        ],
+        "minimum_cross_entropy": 0.10080651388265593,
+        "selected_cross_entropy": 0.10080651388265593,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          9
+        ],
+        "mean_error": 0.12097107894801469,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.12097107894801469
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "4iII2qSlqLA_000002_000012",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          12,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.11575683154100869,
+        "selected_cross_entropy": 0.11575683154100869,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          3,
+          8,
+          11
+        ],
+        "mean_error": 0.07234115109140174,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.07234115109140174
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "4iII2qSlqLA_000002_000012",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.17178526157324558,
+        "selected_cross_entropy": 0.17178526157324558,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          3,
+          6,
+          7,
+          8,
+          9,
+          11
+        ],
+        "mean_error": 0.02668521555113277,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.02668521555113277
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "4sY5U4LqmnY_000004_000014",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          12
+        ],
+        "minimum_cross_entropy": 0.4137544159764337,
+        "selected_cross_entropy": 0.4137544159764337,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          10
+        ],
+        "mean_error": 0.09165426367573296,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.09165426367573296
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "4sY5U4LqmnY_000004_000014",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          8,
+          11,
+          12
+        ],
+        "minimum_cross_entropy": 0.43038560782763646,
+        "selected_cross_entropy": 0.43038560782763646,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          5,
+          10,
+          14
+        ],
+        "mean_error": 0.06322106045402454,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.06322106045402454
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "4sY5U4LqmnY_000004_000014",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          4,
+          5,
+          6,
+          7,
+          8,
+          11,
+          12
+        ],
+        "minimum_cross_entropy": 0.4582228811582967,
+        "selected_cross_entropy": 0.4582228811582967,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          3,
+          6,
+          7,
+          8,
+          10,
+          13,
+          14
+        ],
+        "mean_error": 0.03056209415215294,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.03056209415215294
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "4xZ0rhHTqZo_000071_000081",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          2
+        ],
+        "minimum_cross_entropy": 2.4707246549776345,
+        "selected_cross_entropy": 2.4707246549776345,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          10
+        ],
+        "mean_error": 0.12235664776866156,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.12235664776866156
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "4xZ0rhHTqZo_000071_000081",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          2,
+          9,
+          15
+        ],
+        "minimum_cross_entropy": 2.311796365077649,
+        "selected_cross_entropy": 2.311796365077649,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          3,
+          8,
+          10
+        ],
+        "mean_error": 0.09118653572265227,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.09118653572265227
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "4xZ0rhHTqZo_000071_000081",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          8,
+          9,
+          12,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 2.409073148829565,
+        "selected_cross_entropy": 2.409073148829565,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          10
+        ],
+        "mean_error": 0.0540688531272704,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.0540688531272704
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "5B6XRLOXS_c_000134_000144",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          3
+        ],
+        "minimum_cross_entropy": 3.4165911574419825,
+        "selected_cross_entropy": 3.4165911574419825,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          9
+        ],
+        "mean_error": 0.12762071055791174,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.12762071055791174
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "5B6XRLOXS_c_000134_000144",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          3,
+          15
+        ],
+        "minimum_cross_entropy": 3.436491875700826,
+        "selected_cross_entropy": 3.436491875700826,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          7,
+          8,
+          12
+        ],
+        "mean_error": 0.07801838728185038,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.07801838728185038
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "5B6XRLOXS_c_000134_000144",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          12,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 3.650005890391486,
+        "selected_cross_entropy": 3.650005890391486,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          4,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "mean_error": 0.0363528402742118,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.0363528402742118
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "6Z267m0nKuo_000060_000070",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          4
+        ],
+        "minimum_cross_entropy": 0.887298624636256,
+        "selected_cross_entropy": 0.887298624636256,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          6
+        ],
+        "mean_error": 0.16550443547029065,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.16550443547029065
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "6Z267m0nKuo_000060_000070",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          4,
+          15
+        ],
+        "minimum_cross_entropy": 0.7495412519190108,
+        "selected_cross_entropy": 0.7495412519190108,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          8,
+          11,
+          13
+        ],
+        "mean_error": 0.11893661240097134,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.11893661240097134
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "6Z267m0nKuo_000060_000070",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.8283321391264789,
+        "selected_cross_entropy": 0.8283321391264789,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          3,
+          5,
+          8,
+          11,
+          12,
+          13
+        ],
+        "mean_error": 0.05678112131931096,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.05678112131931096
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "6zTdbPmQh6Q_000024_000034",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          14
+        ],
+        "minimum_cross_entropy": 0.23354784035450038,
+        "selected_cross_entropy": 0.23354784035450038,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          5
+        ],
+        "mean_error": 0.12308849311982667,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.12308849311982667
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "6zTdbPmQh6Q_000024_000034",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.29094677265007896,
+        "selected_cross_entropy": 0.29094677265007896,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          4,
+          5,
+          11
+        ],
+        "mean_error": 0.09994958098663273,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.09994958098663273
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "6zTdbPmQh6Q_000024_000034",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.4373934045835681,
+        "selected_cross_entropy": 0.4373934045835681,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          3,
+          4,
+          7,
+          8,
+          10,
+          11
+        ],
+        "mean_error": 0.0617707751589933,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.0617707751589933
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "BN56cms2DFE_000045_000055",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          8
+        ],
+        "minimum_cross_entropy": 0.2079817449549486,
+        "selected_cross_entropy": 0.2079817449549486,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          3
+        ],
+        "mean_error": 0.10847628490275196,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.10847628490275196
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "BN56cms2DFE_000045_000055",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          8
+        ],
+        "minimum_cross_entropy": 0.150828567225199,
+        "selected_cross_entropy": 0.150828567225199,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          3,
+          15
+        ],
+        "mean_error": 0.08763666728714534,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.08763666728714534
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "BN56cms2DFE_000045_000055",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          8,
+          9,
+          12,
+          13,
+          15
+        ],
+        "minimum_cross_entropy": 0.1913198574955981,
+        "selected_cross_entropy": 0.1913198574955981,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          5,
+          6,
+          7,
+          8,
+          10,
+          15
+        ],
+        "mean_error": 0.05446303252774816,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.05446303252774816
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "BPdhR_xx4m4_000122_000132",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          6
+        ],
+        "minimum_cross_entropy": 1.359765817441605,
+        "selected_cross_entropy": 1.359765817441605,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          1
+        ],
+        "mean_error": 0.16898510698011557,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.16898510698011557
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "BPdhR_xx4m4_000122_000132",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          6,
+          7
+        ],
+        "minimum_cross_entropy": 1.1758284398037464,
+        "selected_cross_entropy": 1.1758284398037464,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          7,
+          9
+        ],
+        "mean_error": 0.12950392249973197,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.12950392249973197
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "BPdhR_xx4m4_000122_000132",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          12
+        ],
+        "minimum_cross_entropy": 1.2717933378328112,
+        "selected_cross_entropy": 1.2717933378328112,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "mean_error": 0.0502441048765974,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.0502441048765974
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "BVMxdSXghoI_000113_000123",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          4
+        ],
+        "minimum_cross_entropy": 1.3634415592107585,
+        "selected_cross_entropy": 1.3634415592107585,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          3
+        ],
+        "mean_error": 0.018884114650510847,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.018884114650510847
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "BVMxdSXghoI_000113_000123",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          3,
+          5,
+          12
+        ],
+        "minimum_cross_entropy": 1.2150799210248344,
+        "selected_cross_entropy": 1.2150799210248344,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          3,
+          7,
+          11
+        ],
+        "mean_error": 0.01072189650864129,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.01072189650864129
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "BVMxdSXghoI_000113_000123",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          10,
+          11,
+          12
+        ],
+        "minimum_cross_entropy": 1.1987711450527465,
+        "selected_cross_entropy": 1.1987711450527465,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          3,
+          4,
+          7,
+          11,
+          12,
+          15
+        ],
+        "mean_error": 0.0051522015174434235,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.0051522015174434235
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "BXb1JVzqhpA_000003_000013",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          7
+        ],
+        "minimum_cross_entropy": 0.6165613891335515,
+        "selected_cross_entropy": 0.6165613891335515,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          6
+        ],
+        "mean_error": 0.11689491771533408,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.11689491771533408
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "BXb1JVzqhpA_000003_000013",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          4,
+          7
+        ],
+        "minimum_cross_entropy": 0.41788657057235135,
+        "selected_cross_entropy": 0.41788657057235135,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          7,
+          10,
+          12
+        ],
+        "mean_error": 0.08968238606484241,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.08968238606484241
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "BXb1JVzqhpA_000003_000013",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "minimum_cross_entropy": 0.4613410883554163,
+        "selected_cross_entropy": 0.4613410883554163,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          15
+        ],
+        "mean_error": 0.045487240507095676,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.045487240507095676
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "BhU4HGJ2q4s_000004_000014",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          9
+        ],
+        "minimum_cross_entropy": 1.820308433707897,
+        "selected_cross_entropy": 1.820308433707897,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          10
+        ],
+        "mean_error": 0.08788381943239376,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.08788381943239376
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "BhU4HGJ2q4s_000004_000014",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          3,
+          8,
+          9
+        ],
+        "minimum_cross_entropy": 1.7205104019191326,
+        "selected_cross_entropy": 1.7205104019191326,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          6,
+          8,
+          11
+        ],
+        "mean_error": 0.05749034547873782,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.05749034547873782
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "BhU4HGJ2q4s_000004_000014",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          7,
+          8,
+          9
+        ],
+        "minimum_cross_entropy": 1.751517509197988,
+        "selected_cross_entropy": 1.751517509197988,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11
+        ],
+        "mean_error": 0.031566303132663905,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.031566303132663905
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "CnHJ8n2lMs8_000066_000076",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          4
+        ],
+        "minimum_cross_entropy": 0.7959412053964363,
+        "selected_cross_entropy": 0.7959412053964363,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          9
+        ],
+        "mean_error": 0.08555087323835958,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.08555087323835958
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "CnHJ8n2lMs8_000066_000076",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "minimum_cross_entropy": 0.7790093047068987,
+        "selected_cross_entropy": 0.7790093047068987,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          5,
+          6,
+          9
+        ],
+        "mean_error": 0.06358450659055295,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.06358450659055295
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "CnHJ8n2lMs8_000066_000076",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.8699872134677209,
+        "selected_cross_entropy": 0.8699872134677209,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        "mean_error": 0.03244405154682882,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.03244405154682882
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "D9q6pUOFVAk_000010_000020",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          3
+        ],
+        "minimum_cross_entropy": 0.1388309884738943,
+        "selected_cross_entropy": 0.1388309884738943,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          9
+        ],
+        "mean_error": 0.06872113829774584,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.06872113829774584
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "D9q6pUOFVAk_000010_000020",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "minimum_cross_entropy": 0.133158999573876,
+        "selected_cross_entropy": 0.133158999573876,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          7,
+          9,
+          12
+        ],
+        "mean_error": 0.03336631637576196,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.03336631637576196
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "D9q6pUOFVAk_000010_000020",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          12,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.19080088845167076,
+        "selected_cross_entropy": 0.19080088845167076,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14
+        ],
+        "mean_error": 0.012602839536493146,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.012602839536493146
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "EC8iyn_q-NM_000326_000336",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          8
+        ],
+        "minimum_cross_entropy": 2.291970799092592,
+        "selected_cross_entropy": 2.291970799092592,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          7
+        ],
+        "mean_error": 0.1370841029628496,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.1370841029628496
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "EC8iyn_q-NM_000326_000336",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          6,
+          7,
+          8
+        ],
+        "minimum_cross_entropy": 2.109947513412518,
+        "selected_cross_entropy": 2.109947513412518,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          8,
+          9,
+          13
+        ],
+        "mean_error": 0.09285289319135326,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.09285289319135326
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "EC8iyn_q-NM_000326_000336",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          15
+        ],
+        "minimum_cross_entropy": 2.3054142134407725,
+        "selected_cross_entropy": 2.3054142134407725,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          5,
+          6,
+          7,
+          8,
+          9,
+          12,
+          13
+        ],
+        "mean_error": 0.028312384337063533,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.028312384337063533
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "ENwDLQTkIlQ_000001_000011",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          11
+        ],
+        "minimum_cross_entropy": 2.245380225008213,
+        "selected_cross_entropy": 2.245380225008213,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          6
+        ],
+        "mean_error": 0.0356841771659121,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.0356841771659121
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "ENwDLQTkIlQ_000001_000011",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          9,
+          11,
+          15
+        ],
+        "minimum_cross_entropy": 2.2545923352921164,
+        "selected_cross_entropy": 2.2545923352921164,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          5,
+          8
+        ],
+        "mean_error": 0.017291259040161905,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.017291259040161905
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "ENwDLQTkIlQ_000001_000011",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          5,
+          6,
+          9,
+          10,
+          11,
+          15
+        ],
+        "minimum_cross_entropy": 2.288723812722806,
+        "selected_cross_entropy": 2.288723812722806,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          8,
+          13,
+          15
+        ],
+        "mean_error": 0.006543011039501265,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.006543011039501265
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "EUIGpdmtzuA_000001_000011",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          8
+        ],
+        "minimum_cross_entropy": 1.8508867426529187,
+        "selected_cross_entropy": 1.8508867426529187,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          10
+        ],
+        "mean_error": 0.12977424017820047,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.12977424017820047
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "EUIGpdmtzuA_000001_000011",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          5,
+          7,
+          8
+        ],
+        "minimum_cross_entropy": 1.6831878290291633,
+        "selected_cross_entropy": 1.6831878290291633,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          7,
+          10
+        ],
+        "mean_error": 0.07158073527110342,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.07158073527110342
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "EUIGpdmtzuA_000001_000011",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          3,
+          5,
+          7,
+          8,
+          10,
+          14
+        ],
+        "minimum_cross_entropy": 1.653759056054401,
+        "selected_cross_entropy": 1.653759056054401,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          6,
+          7,
+          8,
+          9,
+          10,
+          13
+        ],
+        "mean_error": 0.02973133274082062,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.02973133274082062
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "Eraqc_w2rnc_000005_000015",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          14
+        ],
+        "minimum_cross_entropy": 0.30364012502915294,
+        "selected_cross_entropy": 0.30364012502915294,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          2
+        ],
+        "mean_error": 0.08163981857058922,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.08163981857058922
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "Eraqc_w2rnc_000005_000015",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          9,
+          10,
+          14
+        ],
+        "minimum_cross_entropy": 0.28475271568162874,
+        "selected_cross_entropy": 0.28475271568162874,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          8,
+          13
+        ],
+        "mean_error": 0.05686671344810414,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.05686671344810414
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "Eraqc_w2rnc_000005_000015",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          7,
+          8,
+          9,
+          10,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.3400149510641315,
+        "selected_cross_entropy": 0.3400149510641315,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          10,
+          12,
+          14
+        ],
+        "mean_error": 0.031762136969551776,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.031762136969551776
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "F7Tmh5j81zI_000001_000011",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          3
+        ],
+        "minimum_cross_entropy": 1.1914893163468765,
+        "selected_cross_entropy": 1.1914893163468765,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          2
+        ],
+        "mean_error": 0.09101542841550778,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.09101542841550778
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "F7Tmh5j81zI_000001_000011",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          2,
+          3,
+          10
+        ],
+        "minimum_cross_entropy": 0.933109709601275,
+        "selected_cross_entropy": 0.933109709601275,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          11,
+          13
+        ],
+        "mean_error": 0.055046400485248975,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.055046400485248975
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "F7Tmh5j81zI_000001_000011",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          9,
+          10,
+          11,
+          14
+        ],
+        "minimum_cross_entropy": 1.0208592959389216,
+        "selected_cross_entropy": 1.0208592959389216,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          3,
+          5,
+          9,
+          11,
+          12,
+          13,
+          15
+        ],
+        "mean_error": 0.027548127768145553,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.027548127768145553
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "GQ--4QfVpXc_000003_000013",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          6
+        ],
+        "minimum_cross_entropy": 2.1512461033163106,
+        "selected_cross_entropy": 2.1512461033163106,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          3
+        ],
+        "mean_error": 0.1532423325744384,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.1532423325744384
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "GQ--4QfVpXc_000003_000013",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          3,
+          5,
+          6
+        ],
+        "minimum_cross_entropy": 1.9773191459746495,
+        "selected_cross_entropy": 1.9773191459746495,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          6,
+          8,
+          12
+        ],
+        "mean_error": 0.08158869539955131,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.08158869539955131
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "GQ--4QfVpXc_000003_000013",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "minimum_cross_entropy": 2.0763573289420076,
+        "selected_cross_entropy": 2.0763573289420076,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          8,
+          12
+        ],
+        "mean_error": 0.03636782253925021,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.03636782253925021
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "GU5SV08xxVU_000330_000340",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          7
+        ],
+        "minimum_cross_entropy": 0.045512886674925035,
+        "selected_cross_entropy": 0.045512886674925035,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          6
+        ],
+        "mean_error": 0.01501796366439978,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.01501796366439978
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "GU5SV08xxVU_000330_000340",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          4,
+          7
+        ],
+        "minimum_cross_entropy": 0.03566888330720275,
+        "selected_cross_entropy": 0.03566888330720275,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          5,
+          8
+        ],
+        "mean_error": 0.010083476507917119,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.010083476507917119
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "GU5SV08xxVU_000330_000340",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "minimum_cross_entropy": 0.03455972563925869,
+        "selected_cross_entropy": 0.03455972563925869,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          2,
+          4,
+          6,
+          12,
+          14,
+          15
+        ],
+        "mean_error": 0.005873182247711439,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.005873182247711439
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "H0EcgaAV9lU_000196_000206",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          6
+        ],
+        "minimum_cross_entropy": 0.3548168363898654,
+        "selected_cross_entropy": 0.3548168363898654,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          9
+        ],
+        "mean_error": 0.09910637473991418,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.09910637473991418
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "H0EcgaAV9lU_000196_000206",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          4,
+          5,
+          6
+        ],
+        "minimum_cross_entropy": 0.3653711655975487,
+        "selected_cross_entropy": 0.3653711655975487,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          6,
+          8,
+          9
+        ],
+        "mean_error": 0.01541375102517719,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.01541375102517719
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "H0EcgaAV9lU_000196_000206",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          15
+        ],
+        "minimum_cross_entropy": 0.4630945535650608,
+        "selected_cross_entropy": 0.4630945535650608,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          4,
+          6,
+          7,
+          8,
+          9,
+          11
+        ],
+        "mean_error": 0.006044877447806997,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.006044877447806997
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "H6br3lzeFSA_000002_000012",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          4
+        ],
+        "minimum_cross_entropy": 0.39183862372891465,
+        "selected_cross_entropy": 0.39183862372891465,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          4
+        ],
+        "mean_error": 0.07185158318585358,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.07185158318585358
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "H6br3lzeFSA_000002_000012",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          2,
+          3,
+          4
+        ],
+        "minimum_cross_entropy": 0.3808029737725622,
+        "selected_cross_entropy": 0.3808029737725622,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          4,
+          8,
+          14
+        ],
+        "mean_error": 0.04604175261408444,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.04604175261408444
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "H6br3lzeFSA_000002_000012",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          10,
+          11
+        ],
+        "minimum_cross_entropy": 0.4664665443748648,
+        "selected_cross_entropy": 0.4664665443748648,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          4,
+          7,
+          8,
+          11,
+          12,
+          14
+        ],
+        "mean_error": 0.019534301730892698,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.019534301730892698
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "L8xOKTssyF4_000045_000055",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          8
+        ],
+        "minimum_cross_entropy": 0.6093933953431794,
+        "selected_cross_entropy": 0.6093933953431794,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          8
+        ],
+        "mean_error": 0.22245047444935712,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.22245047444935712
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "L8xOKTssyF4_000045_000055",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          4,
+          8,
+          13
+        ],
+        "minimum_cross_entropy": 0.39295353812205924,
+        "selected_cross_entropy": 0.39295353812205924,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          6,
+          8
+        ],
+        "mean_error": 0.16320747158946552,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.16320747158946552
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "L8xOKTssyF4_000045_000055",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          2,
+          3,
+          4,
+          8,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.41964747872819963,
+        "selected_cross_entropy": 0.41964747872819963,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          5,
+          6,
+          8,
+          10,
+          13,
+          14
+        ],
+        "mean_error": 0.08832865695529304,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.08832865695529304
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "Lgtqpb-9rpY_000001_000011",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          2
+        ],
+        "minimum_cross_entropy": 1.1177382040529844,
+        "selected_cross_entropy": 1.1177382040529844,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          8
+        ],
+        "mean_error": 0.06890344947966186,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.06890344947966186
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "Lgtqpb-9rpY_000001_000011",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          2,
+          11,
+          12
+        ],
+        "minimum_cross_entropy": 0.9524785527310455,
+        "selected_cross_entropy": 0.9524785527310455,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          5,
+          8,
+          14
+        ],
+        "mean_error": 0.040876771587612555,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.040876771587612555
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "Lgtqpb-9rpY_000001_000011",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "minimum_cross_entropy": 1.021552096624815,
+        "selected_cross_entropy": 1.021552096624815,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          5,
+          7,
+          10,
+          12,
+          13,
+          14
+        ],
+        "mean_error": 0.017408620578245562,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.017408620578245562
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "LzrMp5FnTCg_000001_000011",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          10
+        ],
+        "minimum_cross_entropy": 1.3268227104394894,
+        "selected_cross_entropy": 1.3268227104394894,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          8
+        ],
+        "mean_error": 0.038571478570886324,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.038571478570886324
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "LzrMp5FnTCg_000001_000011",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          9,
+          10,
+          14
+        ],
+        "minimum_cross_entropy": 1.2969976722848608,
+        "selected_cross_entropy": 1.2969976722848608,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          9,
+          13
+        ],
+        "mean_error": 0.021143427858431457,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.021143427858431457
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "LzrMp5FnTCg_000001_000011",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "minimum_cross_entropy": 1.3128802668560682,
+        "selected_cross_entropy": 1.3128802668560682,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          10,
+          13
+        ],
+        "mean_error": 0.01009382063150626,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.01009382063150626
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "M3uEG1ikThY_001329_001339",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          8
+        ],
+        "minimum_cross_entropy": 2.227164373578918,
+        "selected_cross_entropy": 2.227164373578918,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          6
+        ],
+        "mean_error": 0.09478255994953426,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.09478255994953426
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "M3uEG1ikThY_001329_001339",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          4,
+          7,
+          8
+        ],
+        "minimum_cross_entropy": 1.9375886874197787,
+        "selected_cross_entropy": 1.9375886874197787,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          5,
+          7,
+          13
+        ],
+        "mean_error": 0.058294887318579146,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.058294887318579146
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "M3uEG1ikThY_001329_001339",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          15
+        ],
+        "minimum_cross_entropy": 1.8755826523780956,
+        "selected_cross_entropy": 1.8755826523780956,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          5,
+          6,
+          7,
+          11,
+          13,
+          15
+        ],
+        "mean_error": 0.03029341479488465,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.03029341479488465
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "M_6oQOAMe0s_000142_000152",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          4
+        ],
+        "minimum_cross_entropy": 0.10208006974190909,
+        "selected_cross_entropy": 0.10208006974190909,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          2
+        ],
+        "mean_error": 0.09740217290667197,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.09740217290667197
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "M_6oQOAMe0s_000142_000152",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          4,
+          9,
+          15
+        ],
+        "minimum_cross_entropy": 0.09360282683012144,
+        "selected_cross_entropy": 0.09360282683012144,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          8,
+          14
+        ],
+        "mean_error": 0.0727180396418126,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.0727180396418126
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "M_6oQOAMe0s_000142_000152",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          9,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.11795109360897271,
+        "selected_cross_entropy": 0.11795109360897271,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          2,
+          5,
+          7,
+          9,
+          11,
+          14
+        ],
+        "mean_error": 0.04046682025482688,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.04046682025482688
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "OayCUxccS0w_000002_000012",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          7
+        ],
+        "minimum_cross_entropy": 2.3232263526025267,
+        "selected_cross_entropy": 2.3232263526025267,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          2
+        ],
+        "mean_error": 0.10517116041551533,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.10517116041551533
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "OayCUxccS0w_000002_000012",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          7
+        ],
+        "minimum_cross_entropy": 2.147401558199787,
+        "selected_cross_entropy": 2.147401558199787,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          10,
+          14
+        ],
+        "mean_error": 0.07923847204080882,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.07923847204080882
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "OayCUxccS0w_000002_000012",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "minimum_cross_entropy": 2.2507567104283384,
+        "selected_cross_entropy": 2.2507567104283384,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          7,
+          10,
+          14
+        ],
+        "mean_error": 0.04225510298757885,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.04225510298757885
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "PoNb9_Mi4ZI_000019_000029",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          1
+        ],
+        "minimum_cross_entropy": 0.4491471294537197,
+        "selected_cross_entropy": 0.4491471294537197,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          7
+        ],
+        "mean_error": 0.17615474677886026,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.17615474677886026
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "PoNb9_Mi4ZI_000019_000029",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          15
+        ],
+        "minimum_cross_entropy": 0.5117008965985779,
+        "selected_cross_entropy": 0.5117008965985779,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          3,
+          7,
+          13
+        ],
+        "mean_error": 0.043193144131600955,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.043193144131600955
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "PoNb9_Mi4ZI_000019_000029",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.6578997496630654,
+        "selected_cross_entropy": 0.6578997496630654,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          7,
+          12,
+          13
+        ],
+        "mean_error": 0.0008189052096633301,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.0008189052096633301
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "QBeTdk88-4s_000204_000214",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          8
+        ],
+        "minimum_cross_entropy": 0.13732934535676122,
+        "selected_cross_entropy": 0.13732934535676122,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          13
+        ],
+        "mean_error": 0.13560436996939745,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.13560436996939745
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "QBeTdk88-4s_000204_000214",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          3,
+          8
+        ],
+        "minimum_cross_entropy": 0.10054728235862687,
+        "selected_cross_entropy": 0.10054728235862687,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          4,
+          13
+        ],
+        "mean_error": 0.07787898100001558,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.07787898100001558
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "QBeTdk88-4s_000204_000214",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8
+        ],
+        "minimum_cross_entropy": 0.12089020802021011,
+        "selected_cross_entropy": 0.12089020802021011,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          4,
+          7,
+          9,
+          13,
+          14,
+          15
+        ],
+        "mean_error": 0.01760975680787035,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.01760975680787035
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "R6M9eREJy_k_000004_000014",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          7
+        ],
+        "minimum_cross_entropy": 2.4260821551377445,
+        "selected_cross_entropy": 2.4260821551377445,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          6
+        ],
+        "mean_error": 0.23541163658723244,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.23541163658723244
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "R6M9eREJy_k_000004_000014",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          7,
+          14
+        ],
+        "minimum_cross_entropy": 2.1477878598309186,
+        "selected_cross_entropy": 2.1477878598309186,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          5,
+          6,
+          13
+        ],
+        "mean_error": 0.1523433246273241,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.1523433246273241
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "R6M9eREJy_k_000004_000014",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          4,
+          5,
+          7,
+          10,
+          13,
+          14
+        ],
+        "minimum_cross_entropy": 2.1050317796609614,
+        "selected_cross_entropy": 2.1050317796609614,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          5,
+          6,
+          8,
+          11,
+          12,
+          13
+        ],
+        "mean_error": 0.06511982976376447,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.06511982976376447
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "d_uLBUMJ1NY_000037_000047",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          1
+        ],
+        "minimum_cross_entropy": 0.16566551642805472,
+        "selected_cross_entropy": 0.16566551642805472,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          11
+        ],
+        "mean_error": 0.005488976954802029,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.005488976954802029
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "d_uLBUMJ1NY_000037_000047",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          3,
+          4
+        ],
+        "minimum_cross_entropy": 0.16585892404571023,
+        "selected_cross_entropy": 0.16585892404571023,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          4,
+          9,
+          12
+        ],
+        "mean_error": 0.002847259660545595,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.002847259660545595
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "d_uLBUMJ1NY_000037_000047",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.17693552767034948,
+        "selected_cross_entropy": 0.17693552767034948,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          2,
+          4,
+          8,
+          9,
+          11,
+          13
+        ],
+        "mean_error": 0.001120303659728511,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.001120303659728511
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "e-bGb4oudBg_000096_000106",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          5
+        ],
+        "minimum_cross_entropy": 0.5549228391260863,
+        "selected_cross_entropy": 0.5549228391260863,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          7
+        ],
+        "mean_error": 0.21028217856420625,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.21028217856420625
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "e-bGb4oudBg_000096_000106",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          4,
+          5,
+          14
+        ],
+        "minimum_cross_entropy": 0.5413479526810061,
+        "selected_cross_entropy": 0.5413479526810061,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          4,
+          7,
+          10
+        ],
+        "mean_error": 0.1097974070515099,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.1097974070515099
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "e-bGb4oudBg_000096_000106",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          4,
+          5,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.5907285779212694,
+        "selected_cross_entropy": 0.5907285779212694,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          8,
+          10,
+          13
+        ],
+        "mean_error": 0.04309649729246931,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.04309649729246931
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "eMlfRt6PFGc_000309_000319",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          11
+        ],
+        "minimum_cross_entropy": 0.4634282022180898,
+        "selected_cross_entropy": 0.4634282022180898,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          6
+        ],
+        "mean_error": 0.05410963446719252,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.05410963446719252
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "eMlfRt6PFGc_000309_000319",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          9,
+          10,
+          11
+        ],
+        "minimum_cross_entropy": 0.4629471080240579,
+        "selected_cross_entropy": 0.4629471080240579,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          6,
+          10,
+          13
+        ],
+        "mean_error": 0.035512124700236035,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.035512124700236035
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "eMlfRt6PFGc_000309_000319",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          9,
+          10,
+          11
+        ],
+        "minimum_cross_entropy": 0.5346314890500539,
+        "selected_cross_entropy": 0.5346314890500539,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          6,
+          10,
+          12,
+          13,
+          14,
+          15
+        ],
+        "mean_error": 0.015719362261812204,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.015719362261812204
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "ea_p0VLa6uw_000036_000046",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          13
+        ],
+        "minimum_cross_entropy": 0.5420028813875,
+        "selected_cross_entropy": 0.5420028813875,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          1
+        ],
+        "mean_error": 0.16573022910747298,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.16573022910747298
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "ea_p0VLa6uw_000036_000046",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.6101476781194481,
+        "selected_cross_entropy": 0.6101476781194481,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          8,
+          12
+        ],
+        "mean_error": 0.12319800103467952,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.12319800103467952
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "ea_p0VLa6uw_000036_000046",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 0.8243480956048477,
+        "selected_cross_entropy": 0.8243480956048477,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          6,
+          8,
+          10,
+          12,
+          14,
+          15
+        ],
+        "mean_error": 0.06203250752936826,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.06203250752936826
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "ex1DGV4qCXs_000000_000010",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          1
+        ],
+        "minimum_cross_entropy": 1.589858613596912,
+        "selected_cross_entropy": 1.589858613596912,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          4
+        ],
+        "mean_error": 0.07161584288900125,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.07161584288900125
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "ex1DGV4qCXs_000000_000010",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 1.723197587474171,
+        "selected_cross_entropy": 1.723197587474171,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          3,
+          4,
+          14
+        ],
+        "mean_error": 0.05504386901762919,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.05504386901762919
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "ex1DGV4qCXs_000000_000010",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 1.9183306778096358,
+        "selected_cross_entropy": 1.9183306778096358,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          3,
+          5,
+          9,
+          12,
+          13,
+          14,
+          15
+        ],
+        "mean_error": 0.033859474323820804,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.033859474323820804
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "f9R8VWDeXU4_000049_000059",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          4
+        ],
+        "minimum_cross_entropy": 0.761477064759204,
+        "selected_cross_entropy": 0.761477064759204,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          3
+        ],
+        "mean_error": 0.1730325599243722,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.1730325599243722
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "f9R8VWDeXU4_000049_000059",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          1,
+          4,
+          13
+        ],
+        "minimum_cross_entropy": 0.5391437036931541,
+        "selected_cross_entropy": 0.5391437036931541,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          8,
+          10,
+          12
+        ],
+        "mean_error": 0.13442282624328647,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.13442282624328647
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "f9R8VWDeXU4_000049_000059",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          8,
+          12,
+          13
+        ],
+        "minimum_cross_entropy": 0.5907708814568058,
+        "selected_cross_entropy": 0.5907708814568058,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          4,
+          5,
+          6,
+          8,
+          10,
+          11,
+          12
+        ],
+        "mean_error": 0.06815386467641057,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.06815386467641057
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "fQ1DTOzblEU_000001_000011",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          6
+        ],
+        "minimum_cross_entropy": 0.21751705200987548,
+        "selected_cross_entropy": 0.21751705200987548,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          6
+        ],
+        "mean_error": 0.040318250750436345,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.040318250750436345
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "fQ1DTOzblEU_000001_000011",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          4,
+          5,
+          6
+        ],
+        "minimum_cross_entropy": 0.22921323585311004,
+        "selected_cross_entropy": 0.22921323585311004,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          4,
+          9
+        ],
+        "mean_error": 0.020578340626804532,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.020578340626804532
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "fQ1DTOzblEU_000001_000011",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12
+        ],
+        "minimum_cross_entropy": 0.2615032691283723,
+        "selected_cross_entropy": 0.2615032691283723,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          7,
+          8,
+          11
+        ],
+        "mean_error": 0.009989122529992768,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.009989122529992768
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "fifsI5TBtfM_000025_000035",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          6
+        ],
+        "minimum_cross_entropy": 0.05472034716039609,
+        "selected_cross_entropy": 0.05472034716039609,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          5
+        ],
+        "mean_error": 0.0866131615723445,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.0866131615723445
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "fifsI5TBtfM_000025_000035",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          3,
+          5,
+          6
+        ],
+        "minimum_cross_entropy": 0.04439597730139688,
+        "selected_cross_entropy": 0.04439597730139688,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          3,
+          5
+        ],
+        "mean_error": 0.06825086788369297,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.06825086788369297
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "fifsI5TBtfM_000025_000035",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          15
+        ],
+        "minimum_cross_entropy": 0.05607511411559951,
+        "selected_cross_entropy": 0.05607511411559951,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          1,
+          3,
+          5,
+          11,
+          12,
+          14,
+          15
+        ],
+        "mean_error": 0.043769347601877895,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.043769347601877895
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "g2cuHfJtXeY_000351_000361",
+      "budget": 2,
+      "task": {
+        "positions": [
+          0,
+          14
+        ],
+        "minimum_cross_entropy": 2.874434093479179,
+        "selected_cross_entropy": 2.874434093479179,
+        "enumerated_schedules": 15
+      },
+      "feature": {
+        "positions": [
+          0,
+          9
+        ],
+        "mean_error": 0.17464745658462474,
+        "enumerated_schedules": 15,
+        "exact_minimum_error": 0.17464745658462474
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "g2cuHfJtXeY_000351_000361",
+      "budget": 4,
+      "task": {
+        "positions": [
+          0,
+          10,
+          13,
+          14
+        ],
+        "minimum_cross_entropy": 2.924718844676065,
+        "selected_cross_entropy": 2.924718844676065,
+        "enumerated_schedules": 455
+      },
+      "feature": {
+        "positions": [
+          0,
+          6,
+          7,
+          9
+        ],
+        "mean_error": 0.130665227378314,
+        "enumerated_schedules": 455,
+        "exact_minimum_error": 0.130665227378314
+      }
+    },
+    {
+      "role": "exploratory_test",
+      "video_id": "g2cuHfJtXeY_000351_000361",
+      "budget": 8,
+      "task": {
+        "positions": [
+          0,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15
+        ],
+        "minimum_cross_entropy": 3.17526666315846,
+        "selected_cross_entropy": 3.17526666315846,
+        "enumerated_schedules": 6435
+      },
+      "feature": {
+        "positions": [
+          0,
+          2,
+          6,
+          7,
+          10,
+          11,
+          12,
+          13
+        ],
+        "mean_error": 0.06433079456836813,
+        "enumerated_schedules": 6435,
+        "exact_minimum_error": 0.06433079456836813
+      }
+    }
+  ]
+}

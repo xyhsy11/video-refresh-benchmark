@@ -6,7 +6,7 @@ A reproducible benchmark comparing sequential video decoding, dense RGB feature 
 
 **Research question:** If RGB features are computed at only one-quarter of the candidate positions and cached features are reused elsewhere, how much does encoded-clip-to-features latency decrease?
 
-**Status: preliminary feasibility benchmark.** The October 10 RGB pilot and an October 12 codec-vector CPU overhead follow-up have completed CUDA measurements on ten low-resolution Kinetics validation clips. Periodic processing was faster by median latency in every clip in both experiments. Drift-prediction diagnostics are complete for the ten-video pilot and a separate 200-video subset. Fixed-budget adaptive policies now have an offline validation-tuned feature-fidelity replay, with mixed/negative outcomes. Recognition accuracy, a learned motion branch, actual adaptive-policy execution performance, and higher-resolution performance remain unevaluated.
+**Status: preliminary feasibility benchmark.** The October 10 RGB pilot and an October 12 codec-vector CPU overhead follow-up have completed CUDA measurements on ten low-resolution Kinetics validation clips. Periodic processing was faster by median latency in every clip in both experiments. Drift-prediction diagnostics are complete for the ten-video pilot and a separate 200-video subset. Fixed-budget adaptive policies have offline feature-fidelity replay and an inconclusive fresh-video confirmation. A separate lightweight classification-head experiment now measures task-aware hindsight headroom. Recognition preservation in a deployed adaptive system, a learned motion branch, actual adaptive-policy execution performance, and higher-resolution performance remain unevaluated.
 
 ## What the three modes do
 
@@ -561,3 +561,42 @@ The [publication review](results/fresh_refresh_confirmation_v1/publication_revie
 ![Fresh paired gains and intervals](results/fresh_refresh_confirmation_v1/paired_improvements_intervals.png)
 
 This does not confirm a useful B=4 motion benefit or superiority over pacing. Keep periodic as the baseline and inspect decision errors on training or separate development data; do not retune this completed test or add videos until its interval becomes favorable. These findings do not justify an adaptive-speedup or recognition-quality claim. Appearance fidelity is not recognition accuracy; full-clip candidates and future-reference codec vectors keep replay offline. No recognition or actual adaptive-latency experiment was run.
+
+## task_aware_oracle_v1: action-classification hindsight feasibility
+
+This separate experiment reuses saved ResNet18 references from the frozen 80-training/40-development split, plus 40 previously evaluated original v2 test videos as a separately labeled **exploratory** cohort. These are custom diagnostic memberships drawn from CVDF official validation archives, not an official full-Kinetics recognition evaluation. It excludes original custom validation arrays and all feature/motion data from the completed 100-video confirmation. Official CVDF annotation hashes and ground-truth labels are verified. Nothing was downloaded or recollected; actual appearance-encoder executions and video decodes are zero.
+
+A temporal-mean, linear 20-class classification head is trained with cross entropy on the 80 training sources. Normalization uses training data only. A predefined four-value regularization grid is selected on development dense accuracy, then loss; the chosen lambda is 0.1. Dense accuracy is 100% training, 50% development and 52.5% exploratory, versus 5% chance/majority. This exceeds chance, but the small cohort and 47.5-point train/test gap limit recognition reliability.
+
+The task oracle exactly enumerates 15, 455 and 6,435 schedules at B=2,4,8, with refresh0 mandatory. It minimizes the trained head's true-label cross entropy after replaying sixteen latest-cache outputs. **It uses evaluation labels and future reference features: a privileged, noncausal hindsight bound, not deployable recognition performance.** Dense B=16, periodic, ten-seed random, unchanged frozen age/budget controllers and the exact feature-error oracle use the same classifier. Random seeds are averaged within each video.
+
+| Exploratory cohort, B=4 unless dense | Top1 / macro accuracy | Cross entropy (nats) | Feature cosine error |
+| --- | ---: | ---: | ---: |
+| Dense B=16 | 52.50% | 1.458322 | approximately 0 |
+| Periodic | 52.50% | 1.446087 | 0.095736 |
+| Random, ten-seed average | 51.25% | 1.549083 | 0.106250 |
+| Frozen age/budget | 52.50% | 1.486941 | 0.096839 |
+| Frozen age/motion/budget | 55.00% | 1.530569 | 0.094659 |
+| Feature oracle, hindsight | 52.50% | 1.526141 | 0.070790 |
+| Task oracle, label + hindsight | 67.50% | 0.994350 | 0.114641 |
+
+Primary B=4 task-oracle versus periodic: development accuracy gain +25pp [12.5,40.0], exploratory +15pp [5.0,27.5]. Exploratory loss gain is +0.451737 nats [0.356726,0.549307]. Intervals use 10,000 paired whole-video resamples with fixed models, PCG64 seed20261015 and linear percentiles. All 40 exploratory losses improve by construction of the loss-minimizing oracle; correctness improves in six videos, ties in34 and worsens in0. These intervals quantify optimistic oracle headroom, not ordinary held-out generalization.
+
+Improving cosine fidelity did not improve exploratory top1 and worsened loss. Periodic B=4 feature error versus dense-relative loss change has Spearman -0.090, and task/feature oracles choose identical schedules in0/40 exploratory videos. Neither this association nor classifier margins establish semantic temporal importance. Development and exploratory results are kept separate.
+
+Run from the repository root:
+
+```powershell
+& .\.venv\Scripts\python.exe -m unittest test_task_aware_oracle -v
+& .\.venv\Scripts\python.exe .\run_task_aware_oracle.py --input results/cache_drift_v2 --frozen-run results/budget_aware_refresh_v2 --output results/task_aware_oracle_v1 --seed 20261015
+& .\.venv\Scripts\python.exe .\run_task_aware_oracle.py --input results/cache_drift_v2 --output results/task_aware_oracle_v1 --audit-only
+& .\.venv\Scripts\python.exe .\validate_release.py
+```
+
+Refitting needs the original small `data/source/cache_drift_v2/val.csv` (or `--annotations` pointing to an identical copy). Saved-result audit uses published saved features and head parameters without videos, CUDA, annotations or refitting. Existing outputs are preserved by selecting a fresh run directory. The nine focused tests, real-controller isolation checks, independent loss/replay/bootstrap reproduction and release validator pass. An interrupted float64 verification check and a later plot-spacing correction are documented with exact source copies; measurements and the frozen classifier are unchanged.
+
+Decision: **CONTINUE cautiously** with task-aware feasibility work, strengthen/validate the recognition baseline, and investigate causal decision signals on separate development sources before a fresh confirmation. This is not evidence of a deployed accuracy gain, latency or speedup. No new learned controller is implemented here.
+
+See [findings](results/task_aware_oracle_v1/findings.md), [protocol](results/task_aware_oracle_v1/protocol.json), [per-video results](results/task_aware_oracle_v1/per_video_metrics.csv), [paired intervals](results/task_aware_oracle_v1/bootstrap_intervals.json), [head parameters](results/task_aware_oracle_v1/classifier_parameters.json), [verification](results/task_aware_oracle_v1/verification.json) and [implementation corrections](results/task_aware_oracle_v1/implementation_corrections.json).
+
+![Task-aware hindsight accuracy](results/task_aware_oracle_v1/figures/accuracy_vs_refresh_budget.png)

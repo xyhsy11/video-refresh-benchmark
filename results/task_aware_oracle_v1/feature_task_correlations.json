@@ -1,0 +1,1301 @@
+{
+  "scope": "within policy/budget/cohort, source videos; descriptive, not causal",
+  "rows": [
+    {
+      "role": "development",
+      "policy": "feature_oracle",
+      "budget": 2,
+      "outcome": "classification_loss",
+      "spearman": 0.426641651031895,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "feature_oracle",
+      "budget": 2,
+      "outcome": "loss_change_vs_dense",
+      "spearman": 0.24953095684803006,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "feature_oracle",
+      "budget": 2,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.32010004689942745,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "feature_oracle",
+      "budget": 2,
+      "outcome": "correctness",
+      "spearman": -0.2493720571862318,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "feature_oracle",
+      "budget": 4,
+      "outcome": "classification_loss",
+      "spearman": 0.36322701688555353,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "feature_oracle",
+      "budget": 4,
+      "outcome": "loss_change_vs_dense",
+      "spearman": 0.021013133208255163,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "feature_oracle",
+      "budget": 4,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.11460021053715162,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "feature_oracle",
+      "budget": 4,
+      "outcome": "correctness",
+      "spearman": -0.25249151706738704,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "feature_oracle",
+      "budget": 8,
+      "outcome": "classification_loss",
+      "spearman": 0.33227016885553473,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "feature_oracle",
+      "budget": 8,
+      "outcome": "loss_change_vs_dense",
+      "spearman": -0.07579737335834899,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "feature_oracle",
+      "budget": 8,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.187269847200159,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "feature_oracle",
+      "budget": 8,
+      "outcome": "correctness",
+      "spearman": -0.23389996418507336,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "periodic",
+      "budget": 2,
+      "outcome": "classification_loss",
+      "spearman": 0.4142589118198875,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "periodic",
+      "budget": 2,
+      "outcome": "loss_change_vs_dense",
+      "spearman": 0.06435272045028143,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "periodic",
+      "budget": 2,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.2691931675345783,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "periodic",
+      "budget": 2,
+      "outcome": "correctness",
+      "spearman": -0.1992481176391366,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "periodic",
+      "budget": 4,
+      "outcome": "classification_loss",
+      "spearman": 0.4568480300187618,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "periodic",
+      "budget": 4,
+      "outcome": "loss_change_vs_dense",
+      "spearman": 0.15140712945590995,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "periodic",
+      "budget": 4,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.20967424225623635,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "periodic",
+      "budget": 4,
+      "outcome": "correctness",
+      "spearman": -0.2350783089937741,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "periodic",
+      "budget": 8,
+      "outcome": "classification_loss",
+      "spearman": 0.3210131332082552,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "periodic",
+      "budget": 8,
+      "outcome": "loss_change_vs_dense",
+      "spearman": 0.32589118198874306,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "periodic",
+      "budget": 8,
+      "outcome": "disagreement_vs_dense",
+      "spearman": null,
+      "undefined_reason": "constant input or outcome",
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "periodic",
+      "budget": 8,
+      "outcome": "correctness",
+      "spearman": -0.11694998209253668,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "random",
+      "budget": 2,
+      "outcome": "classification_loss",
+      "spearman": 0.45159474671669797,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "random",
+      "budget": 2,
+      "outcome": "loss_change_vs_dense",
+      "spearman": 0.4420262664165104,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "random",
+      "budget": 2,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.3726695352603068,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "random",
+      "budget": 2,
+      "outcome": "correctness",
+      "spearman": -0.3026801765492689,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "random",
+      "budget": 4,
+      "outcome": "classification_loss",
+      "spearman": 0.44953095684803007,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "random",
+      "budget": 4,
+      "outcome": "loss_change_vs_dense",
+      "spearman": 0.3741088180112571,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "random",
+      "budget": 4,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.43566840992080574,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "random",
+      "budget": 4,
+      "outcome": "correctness",
+      "spearman": -0.3023098620250687,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "random",
+      "budget": 8,
+      "outcome": "classification_loss",
+      "spearman": 0.42007504690431524,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "random",
+      "budget": 8,
+      "outcome": "loss_change_vs_dense",
+      "spearman": 0.35046904315197003,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "random",
+      "budget": 8,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.46090238386716265,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "random",
+      "budget": 8,
+      "outcome": "correctness",
+      "spearman": -0.21438503251894098,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "task_oracle",
+      "budget": 2,
+      "outcome": "classification_loss",
+      "spearman": 0.33789868667917455,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "task_oracle",
+      "budget": 2,
+      "outcome": "loss_change_vs_dense",
+      "spearman": -0.16641651031894938,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "task_oracle",
+      "budget": 2,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.045014069095231986,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "task_oracle",
+      "budget": 2,
+      "outcome": "correctness",
+      "spearman": -0.31784379636205284,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "task_oracle",
+      "budget": 4,
+      "outcome": "classification_loss",
+      "spearman": 0.21988742964352723,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "task_oracle",
+      "budget": 4,
+      "outcome": "loss_change_vs_dense",
+      "spearman": -0.6140712945590995,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "task_oracle",
+      "budget": 4,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.19005940284653505,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "task_oracle",
+      "budget": 4,
+      "outcome": "correctness",
+      "spearman": -0.18431528812211995,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "task_oracle",
+      "budget": 8,
+      "outcome": "classification_loss",
+      "spearman": 0.1553470919324578,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "task_oracle",
+      "budget": 8,
+      "outcome": "loss_change_vs_dense",
+      "spearman": -0.654784240150094,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "task_oracle",
+      "budget": 8,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.20015444869641408,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "task_oracle",
+      "budget": 8,
+      "outcome": "correctness",
+      "spearman": 0.00454062566231504,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "value_age_budget",
+      "budget": 2,
+      "outcome": "classification_loss",
+      "spearman": 0.4401500938086304,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "value_age_budget",
+      "budget": 2,
+      "outcome": "loss_change_vs_dense",
+      "spearman": 0.33452157598499066,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "value_age_budget",
+      "budget": 2,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.34510786306344526,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "value_age_budget",
+      "budget": 2,
+      "outcome": "correctness",
+      "spearman": -0.22562397251715027,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "value_age_budget",
+      "budget": 4,
+      "outcome": "classification_loss",
+      "spearman": 0.3288930581613509,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "value_age_budget",
+      "budget": 4,
+      "outcome": "loss_change_vs_dense",
+      "spearman": -0.017448405253283304,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "value_age_budget",
+      "budget": 4,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.2959845225798769,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "value_age_budget",
+      "budget": 4,
+      "outcome": "correctness",
+      "spearman": -0.0563092506371473,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "value_age_budget",
+      "budget": 8,
+      "outcome": "classification_loss",
+      "spearman": 0.3463414634146342,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "value_age_budget",
+      "budget": 8,
+      "outcome": "loss_change_vs_dense",
+      "spearman": 0.2654784240150094,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "value_age_budget",
+      "budget": 8,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.25662904986688456,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "value_age_budget",
+      "budget": 8,
+      "outcome": "correctness",
+      "spearman": -0.2060030037625393,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "value_age_motion_budget",
+      "budget": 2,
+      "outcome": "classification_loss",
+      "spearman": 0.3818011257035648,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "value_age_motion_budget",
+      "budget": 2,
+      "outcome": "loss_change_vs_dense",
+      "spearman": 0.25647279549718577,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "value_age_motion_budget",
+      "budget": 2,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.38119889108594174,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "value_age_motion_budget",
+      "budget": 2,
+      "outcome": "correctness",
+      "spearman": -0.1626339503388468,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "value_age_motion_budget",
+      "budget": 4,
+      "outcome": "classification_loss",
+      "spearman": 0.38836772983114454,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "value_age_motion_budget",
+      "budget": 4,
+      "outcome": "loss_change_vs_dense",
+      "spearman": 0.17973733583489682,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "value_age_motion_budget",
+      "budget": 4,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.18769750212382433,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "value_age_motion_budget",
+      "budget": 4,
+      "outcome": "correctness",
+      "spearman": -0.1559333094567156,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "value_age_motion_budget",
+      "budget": 8,
+      "outcome": "classification_loss",
+      "spearman": 0.35478424015009385,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "value_age_motion_budget",
+      "budget": 8,
+      "outcome": "loss_change_vs_dense",
+      "spearman": 0.3236397748592871,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "value_age_motion_budget",
+      "budget": 8,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.12744904921457503,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "development",
+      "policy": "value_age_motion_budget",
+      "budget": 8,
+      "outcome": "correctness",
+      "spearman": -0.15396013965410832,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "feature_oracle",
+      "budget": 2,
+      "outcome": "classification_loss",
+      "spearman": 0.44296435272045026,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "feature_oracle",
+      "budget": 2,
+      "outcome": "loss_change_vs_dense",
+      "spearman": 0.26041275797373364,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "feature_oracle",
+      "budget": 2,
+      "outcome": "disagreement_vs_dense",
+      "spearman": -0.07219134697070168,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "feature_oracle",
+      "budget": 2,
+      "outcome": "correctness",
+      "spearman": -0.25249151706738704,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "feature_oracle",
+      "budget": 4,
+      "outcome": "classification_loss",
+      "spearman": 0.40168855534709197,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "feature_oracle",
+      "budget": 4,
+      "outcome": "loss_change_vs_dense",
+      "spearman": 0.32251407129455917,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "feature_oracle",
+      "budget": 4,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.21501352826684922,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "feature_oracle",
+      "budget": 4,
+      "outcome": "correctness",
+      "spearman": -0.2667196785557088,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "feature_oracle",
+      "budget": 8,
+      "outcome": "classification_loss",
+      "spearman": 0.3195121951219513,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "feature_oracle",
+      "budget": 8,
+      "outcome": "loss_change_vs_dense",
+      "spearman": 0.3435272045028143,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "feature_oracle",
+      "budget": 8,
+      "outcome": "disagreement_vs_dense",
+      "spearman": -0.03609567348535084,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "feature_oracle",
+      "budget": 8,
+      "outcome": "correctness",
+      "spearman": -0.20025189284654835,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "periodic",
+      "budget": 2,
+      "outcome": "classification_loss",
+      "spearman": 0.23320825515947471,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "periodic",
+      "budget": 2,
+      "outcome": "loss_change_vs_dense",
+      "spearman": -0.22908067542213886,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "periodic",
+      "budget": 2,
+      "outcome": "disagreement_vs_dense",
+      "spearman": -0.006065286324133759,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "periodic",
+      "budget": 2,
+      "outcome": "correctness",
+      "spearman": -0.08456965417620035,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "periodic",
+      "budget": 4,
+      "outcome": "classification_loss",
+      "spearman": 0.25253283302063795,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "periodic",
+      "budget": 4,
+      "outcome": "loss_change_vs_dense",
+      "spearman": -0.08968105065666042,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "periodic",
+      "budget": 4,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.042748577190721754,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "periodic",
+      "budget": 4,
+      "outcome": "correctness",
+      "spearman": -0.04987441143724636,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "periodic",
+      "budget": 8,
+      "outcome": "classification_loss",
+      "spearman": 0.2870544090056285,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "periodic",
+      "budget": 8,
+      "outcome": "loss_change_vs_dense",
+      "spearman": -0.028142589118198877,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "periodic",
+      "budget": 8,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.20145172295207023,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "periodic",
+      "budget": 8,
+      "outcome": "correctness",
+      "spearman": -0.22201840293856445,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "random",
+      "budget": 2,
+      "outcome": "classification_loss",
+      "spearman": 0.4251407129455911,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "random",
+      "budget": 2,
+      "outcome": "loss_change_vs_dense",
+      "spearman": 0.3088180112570357,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "random",
+      "budget": 2,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.2880857623411542,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "random",
+      "budget": 2,
+      "outcome": "correctness",
+      "spearman": -0.29828082004421397,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "random",
+      "budget": 4,
+      "outcome": "classification_loss",
+      "spearman": 0.3838649155722327,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "random",
+      "budget": 4,
+      "outcome": "loss_change_vs_dense",
+      "spearman": 0.29737335834896816,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "random",
+      "budget": 4,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.1958989452751221,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "random",
+      "budget": 4,
+      "outcome": "correctness",
+      "spearman": -0.2200816033446909,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "random",
+      "budget": 8,
+      "outcome": "classification_loss",
+      "spearman": 0.34878048780487814,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "random",
+      "budget": 8,
+      "outcome": "loss_change_vs_dense",
+      "spearman": 0.22701688555347097,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "random",
+      "budget": 8,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.3363734270620109,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "random",
+      "budget": 8,
+      "outcome": "correctness",
+      "spearman": -0.17216204245399708,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "task_oracle",
+      "budget": 2,
+      "outcome": "classification_loss",
+      "spearman": 0.16941838649155724,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "task_oracle",
+      "budget": 2,
+      "outcome": "loss_change_vs_dense",
+      "spearman": -0.5185741088180114,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "task_oracle",
+      "budget": 2,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.2546421855056822,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "task_oracle",
+      "budget": 2,
+      "outcome": "correctness",
+      "spearman": -0.04855144186670789,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "task_oracle",
+      "budget": 4,
+      "outcome": "classification_loss",
+      "spearman": 0.09174484052532834,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "task_oracle",
+      "budget": 4,
+      "outcome": "loss_change_vs_dense",
+      "spearman": -0.5934333958724204,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "task_oracle",
+      "budget": 4,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.25507972487298125,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "task_oracle",
+      "budget": 4,
+      "outcome": "correctness",
+      "spearman": 0.020807760800017668,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "task_oracle",
+      "budget": 8,
+      "outcome": "classification_loss",
+      "spearman": 0.04559099437148219,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "task_oracle",
+      "budget": 8,
+      "outcome": "loss_change_vs_dense",
+      "spearman": -0.6189493433395873,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "task_oracle",
+      "budget": 8,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.3128461136212667,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "task_oracle",
+      "budget": 8,
+      "outcome": "correctness",
+      "spearman": 0.11815082571930764,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "value_age_budget",
+      "budget": 2,
+      "outcome": "classification_loss",
+      "spearman": 0.4221388367729832,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "value_age_budget",
+      "budget": 2,
+      "outcome": "loss_change_vs_dense",
+      "spearman": 0.2542213883677299,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "value_age_budget",
+      "budget": 2,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.20128858473306305,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "value_age_budget",
+      "budget": 2,
+      "outcome": "correctness",
+      "spearman": -0.4155551152177227,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "value_age_budget",
+      "budget": 4,
+      "outcome": "classification_loss",
+      "spearman": 0.34446529080675425,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "value_age_budget",
+      "budget": 4,
+      "outcome": "loss_change_vs_dense",
+      "spearman": 0.16472795497185744,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "value_age_budget",
+      "budget": 4,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.19664345507732006,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "value_age_budget",
+      "budget": 4,
+      "outcome": "correctness",
+      "spearman": -0.1626339503388468,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "value_age_budget",
+      "budget": 8,
+      "outcome": "classification_loss",
+      "spearman": 0.2823639774859288,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "value_age_budget",
+      "budget": 8,
+      "outcome": "loss_change_vs_dense",
+      "spearman": -0.09305816135084428,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "value_age_budget",
+      "budget": 8,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.14438269394140335,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "value_age_budget",
+      "budget": 8,
+      "outcome": "correctness",
+      "spearman": -0.19299228773543156,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "value_age_motion_budget",
+      "budget": 2,
+      "outcome": "classification_loss",
+      "spearman": 0.41632270168855545,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "value_age_motion_budget",
+      "budget": 2,
+      "outcome": "loss_change_vs_dense",
+      "spearman": 0.23470919324577863,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "value_age_motion_budget",
+      "budget": 2,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.24906014704892074,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "value_age_motion_budget",
+      "budget": 2,
+      "outcome": "correctness",
+      "spearman": -0.3291925421863996,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "value_age_motion_budget",
+      "budget": 4,
+      "outcome": "classification_loss",
+      "spearman": 0.35722326454033776,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "value_age_motion_budget",
+      "budget": 4,
+      "outcome": "loss_change_vs_dense",
+      "spearman": 0.100375234521576,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "value_age_motion_budget",
+      "budget": 4,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.11524044015854144,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "value_age_motion_budget",
+      "budget": 4,
+      "outcome": "correctness",
+      "spearman": -0.12189245651529029,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "value_age_motion_budget",
+      "budget": 8,
+      "outcome": "classification_loss",
+      "spearman": 0.24258911819887435,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "value_age_motion_budget",
+      "budget": 8,
+      "outcome": "loss_change_vs_dense",
+      "spearman": 0.013508442776735461,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "value_age_motion_budget",
+      "budget": 8,
+      "outcome": "disagreement_vs_dense",
+      "spearman": 0.29141196393732843,
+      "undefined_reason": null,
+      "videos": 40
+    },
+    {
+      "role": "exploratory_test",
+      "policy": "value_age_motion_budget",
+      "budget": 8,
+      "outcome": "correctness",
+      "spearman": -0.05038205211548015,
+      "undefined_reason": null,
+      "videos": 40
+    }
+  ]
+}

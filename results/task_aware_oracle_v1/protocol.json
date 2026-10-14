@@ -1,0 +1,82 @@
+{
+  "experiment": "task_aware_oracle_v1",
+  "frozen_at_utc": "2026-10-14T07:19:35.255311+00:00",
+  "seed": 20261015,
+  "splits": {
+    "train": 80,
+    "development": 40,
+    "exploratory_test": 40
+  },
+  "fresh_confirmation_data_use": "identity exclusions only; no features, motion, labels, performance or tuning",
+  "classifier": "frozen ResNet18 references; temporal mean; training-only population normalization; linear 20-class head",
+  "regularization_grid": [
+    0.001,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "objective": "mean cross entropy + lambda/2 * squared weights; intercept unpenalized",
+  "training": "CPU float64 torch LBFGS strong_wolfe; max_iter400/max_eval800; deterministic same initialization per lambda",
+  "selection": "highest development dense top1; then lowest development cross entropy; then earliest grid order; no retraining on development",
+  "quality_gate": {
+    "near_chance": "dense accuracy <=10% (chance5%)",
+    "exploratory_adequate": "dense development AND exploratory test top1 >=50%",
+    "limitation": "only four training and two evaluation clips per class; adequacy is an exploratory gate, not validated recognition"
+  },
+  "decision_gate": "REVISE if classifier inadequate; otherwise CONTINUE cautiously if B4 hindsight correctness gain >=5pp and mean CE gain>=0.05 nats on exploratory set; otherwise PIVOT for this representation/head. No causal feasibility established by oracle alone.",
+  "budgets": [
+    2,
+    4,
+    8,
+    16
+  ],
+  "primary": "task oracle versus periodic at B4, separately on development and previously used exploratory test",
+  "policies": [
+    "dense",
+    "periodic",
+    "random",
+    "value_age_budget",
+    "value_age_motion_budget",
+    "feature_oracle",
+    "task_oracle"
+  ],
+  "random_seeds": [
+    20261014,
+    20261015,
+    20261016,
+    20261017,
+    20261018,
+    20261019,
+    20261020,
+    20261021,
+    20261022,
+    20261023
+  ],
+  "controllers": "unchanged budget_aware_refresh_v2 models trained on same80 sources; original motion inputs contain future-reference codec vectors, so offline",
+  "oracle": "exact all schedules with mandatory0; CE true-label objective; lexicographically first within1e-12; feature oracle unchanged",
+  "exact_schedules_per_video": {
+    "2": 15,
+    "4": 455,
+    "8": 6435
+  },
+  "bootstrap": "10,000 paired whole-source-video resamples; PCG64 seed; linear2.5/97.5 percentiles; same matrix across comparisons within each cohort",
+  "secondary_B4_comparisons": [
+    [
+      "feature_oracle",
+      "periodic"
+    ],
+    [
+      "task_oracle",
+      "feature_oracle"
+    ]
+  ],
+  "example_rule": "development B4 largest three feature-oracle minus task-oracle CE differences; video-ID tie break; chronological margins descriptive only",
+  "actual_encoder_calls": 0,
+  "limits": [
+    "true-label/future schedule selection optimism",
+    "not ordinary held-out generalization",
+    "test cohort previously evaluated",
+    "no latency/speedup claims",
+    "no semantic temporal localization annotations"
+  ]
+}

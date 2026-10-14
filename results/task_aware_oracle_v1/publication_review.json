@@ -1,0 +1,18 @@
+{
+  "reviewed_at_utc": "2026-10-14T07:33:35.351551+00:00",
+  "passed": true,
+  "source_commit": "760d5d0348fb9f0af8cfc4fb4f4a1bbf58ab84ef",
+  "previous_sources_artifacts_unchanged": 1337,
+  "actual_encoder_calls": 0,
+  "actual_video_decodes": 0,
+  "real_replay_trajectories": 3680,
+  "real_per_video_rows": 1520,
+  "relative_snapshot_links": 10,
+  "head_frozen_and_original_attempt_byte_identical": true,
+  "all_scientific_result_hashes_unchanged_after_plot_doc_audit_revision": true,
+  "privacy_and_finite_JSON_checks": true,
+  "plots_visually_inspected": 7,
+  "historical_source_and_verification_versions_preserved": true,
+  "release_validation": "passed; original10/150/15 counters and headlines preserved;87 links",
+  "publication": "Ready for authorized commit and push of experiment/task-aware-oracle-v1; no merge or PR."
+}

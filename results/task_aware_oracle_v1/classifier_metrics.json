@@ -1,0 +1,335 @@
+{
+  "train": {
+    "videos": 80,
+    "top1_accuracy": 1.0,
+    "macro_top1_accuracy": 1.0,
+    "cross_entropy": 0.0932510378071103,
+    "class_wise": {
+      "blasting sand": {
+        "videos": 4,
+        "accuracy": 1.0,
+        "cross_entropy": 0.08331565095471172
+      },
+      "cooking egg": {
+        "videos": 4,
+        "accuracy": 1.0,
+        "cross_entropy": 0.045147551473395
+      },
+      "crossing river": {
+        "videos": 4,
+        "accuracy": 1.0,
+        "cross_entropy": 0.07336547441513952
+      },
+      "disc golfing": {
+        "videos": 4,
+        "accuracy": 1.0,
+        "cross_entropy": 0.12479087377401354
+      },
+      "drinking shots": {
+        "videos": 4,
+        "accuracy": 1.0,
+        "cross_entropy": 0.17042250887771826
+      },
+      "eating hotdog": {
+        "videos": 4,
+        "accuracy": 1.0,
+        "cross_entropy": 0.1293376168987177
+      },
+      "javelin throw": {
+        "videos": 4,
+        "accuracy": 1.0,
+        "cross_entropy": 0.08430326002576982
+      },
+      "jumpstyle dancing": {
+        "videos": 4,
+        "accuracy": 1.0,
+        "cross_entropy": 0.1190259705780008
+      },
+      "opening bottle": {
+        "videos": 4,
+        "accuracy": 1.0,
+        "cross_entropy": 0.11331574526142973
+      },
+      "petting cat": {
+        "videos": 4,
+        "accuracy": 1.0,
+        "cross_entropy": 0.08022915503927774
+      },
+      "playing flute": {
+        "videos": 4,
+        "accuracy": 1.0,
+        "cross_entropy": 0.06012602741896478
+      },
+      "playing violin": {
+        "videos": 4,
+        "accuracy": 1.0,
+        "cross_entropy": 0.06792291819828478
+      },
+      "shoveling snow": {
+        "videos": 4,
+        "accuracy": 1.0,
+        "cross_entropy": 0.07211281342804754
+      },
+      "skipping rope": {
+        "videos": 4,
+        "accuracy": 1.0,
+        "cross_entropy": 0.09864872769054212
+      },
+      "swinging on something": {
+        "videos": 4,
+        "accuracy": 1.0,
+        "cross_entropy": 0.11703070970714413
+      },
+      "tai chi": {
+        "videos": 4,
+        "accuracy": 1.0,
+        "cross_entropy": 0.10248033221279451
+      },
+      "trimming trees": {
+        "videos": 4,
+        "accuracy": 1.0,
+        "cross_entropy": 0.0807476786322896
+      },
+      "unloading truck": {
+        "videos": 4,
+        "accuracy": 1.0,
+        "cross_entropy": 0.06341386596449405
+      },
+      "washing hair": {
+        "videos": 4,
+        "accuracy": 1.0,
+        "cross_entropy": 0.110411071175893
+      },
+      "waxing chest": {
+        "videos": 4,
+        "accuracy": 1.0,
+        "cross_entropy": 0.06887280441557775
+      }
+    },
+    "chance_accuracy": 0.05,
+    "majority_class": "drinking shots",
+    "majority_accuracy": 0.05
+  },
+  "development": {
+    "videos": 40,
+    "top1_accuracy": 0.5,
+    "macro_top1_accuracy": 0.5,
+    "cross_entropy": 1.52298898858627,
+    "class_wise": {
+      "blasting sand": {
+        "videos": 2,
+        "accuracy": 0.5,
+        "cross_entropy": 1.7443041573890254
+      },
+      "cooking egg": {
+        "videos": 2,
+        "accuracy": 1.0,
+        "cross_entropy": 0.5669220282068761
+      },
+      "crossing river": {
+        "videos": 2,
+        "accuracy": 1.0,
+        "cross_entropy": 0.3811497652199036
+      },
+      "disc golfing": {
+        "videos": 2,
+        "accuracy": 1.0,
+        "cross_entropy": 0.7548592449775653
+      },
+      "drinking shots": {
+        "videos": 2,
+        "accuracy": 0.0,
+        "cross_entropy": 2.4239392810478204
+      },
+      "eating hotdog": {
+        "videos": 2,
+        "accuracy": 0.0,
+        "cross_entropy": 1.9871632721729422
+      },
+      "javelin throw": {
+        "videos": 2,
+        "accuracy": 0.5,
+        "cross_entropy": 1.7197758837612034
+      },
+      "jumpstyle dancing": {
+        "videos": 2,
+        "accuracy": 0.5,
+        "cross_entropy": 1.3839964506828555
+      },
+      "opening bottle": {
+        "videos": 2,
+        "accuracy": 0.0,
+        "cross_entropy": 1.872725282739425
+      },
+      "petting cat": {
+        "videos": 2,
+        "accuracy": 0.0,
+        "cross_entropy": 2.2592258601283595
+      },
+      "playing flute": {
+        "videos": 2,
+        "accuracy": 0.5,
+        "cross_entropy": 1.0075304156859106
+      },
+      "playing violin": {
+        "videos": 2,
+        "accuracy": 0.0,
+        "cross_entropy": 1.9605089938141895
+      },
+      "shoveling snow": {
+        "videos": 2,
+        "accuracy": 1.0,
+        "cross_entropy": 0.45489094248561934
+      },
+      "skipping rope": {
+        "videos": 2,
+        "accuracy": 0.5,
+        "cross_entropy": 1.685897050988947
+      },
+      "swinging on something": {
+        "videos": 2,
+        "accuracy": 0.5,
+        "cross_entropy": 1.5916817256034266
+      },
+      "tai chi": {
+        "videos": 2,
+        "accuracy": 1.0,
+        "cross_entropy": 1.2370314950683086
+      },
+      "trimming trees": {
+        "videos": 2,
+        "accuracy": 0.0,
+        "cross_entropy": 3.4167960702508866
+      },
+      "unloading truck": {
+        "videos": 2,
+        "accuracy": 1.0,
+        "cross_entropy": 0.46095886010448384
+      },
+      "washing hair": {
+        "videos": 2,
+        "accuracy": 0.5,
+        "cross_entropy": 1.773066783761138
+      },
+      "waxing chest": {
+        "videos": 2,
+        "accuracy": 0.5,
+        "cross_entropy": 1.7773562076365126
+      }
+    },
+    "chance_accuracy": 0.05,
+    "majority_class": "drinking shots",
+    "majority_accuracy": 0.05
+  },
+  "exploratory_test": {
+    "videos": 40,
+    "top1_accuracy": 0.525,
+    "macro_top1_accuracy": 0.525,
+    "cross_entropy": 1.4583217450407366,
+    "class_wise": {
+      "blasting sand": {
+        "videos": 2,
+        "accuracy": 0.5,
+        "cross_entropy": 1.2639849522850963
+      },
+      "cooking egg": {
+        "videos": 2,
+        "accuracy": 1.0,
+        "cross_entropy": 0.29424379135162315
+      },
+      "crossing river": {
+        "videos": 2,
+        "accuracy": 0.5,
+        "cross_entropy": 0.9466332725258411
+      },
+      "disc golfing": {
+        "videos": 2,
+        "accuracy": 0.5,
+        "cross_entropy": 1.6456016108690636
+      },
+      "drinking shots": {
+        "videos": 2,
+        "accuracy": 0.0,
+        "cross_entropy": 2.0080182983211703
+      },
+      "eating hotdog": {
+        "videos": 2,
+        "accuracy": 1.0,
+        "cross_entropy": 0.9109100490107112
+      },
+      "javelin throw": {
+        "videos": 2,
+        "accuracy": 0.5,
+        "cross_entropy": 1.9545420667862152
+      },
+      "jumpstyle dancing": {
+        "videos": 2,
+        "accuracy": 0.5,
+        "cross_entropy": 1.5538147549868913
+      },
+      "opening bottle": {
+        "videos": 2,
+        "accuracy": 0.0,
+        "cross_entropy": 2.7398495301089305
+      },
+      "petting cat": {
+        "videos": 2,
+        "accuracy": 0.5,
+        "cross_entropy": 1.685378414238892
+      },
+      "playing flute": {
+        "videos": 2,
+        "accuracy": 0.5,
+        "cross_entropy": 0.8825986055529398
+      },
+      "playing violin": {
+        "videos": 2,
+        "accuracy": 1.0,
+        "cross_entropy": 1.0851220329690172
+      },
+      "shoveling snow": {
+        "videos": 2,
+        "accuracy": 1.0,
+        "cross_entropy": 0.372782654991042
+      },
+      "skipping rope": {
+        "videos": 2,
+        "accuracy": 0.5,
+        "cross_entropy": 1.296904601671234
+      },
+      "swinging on something": {
+        "videos": 2,
+        "accuracy": 1.0,
+        "cross_entropy": 0.8347451771790158
+      },
+      "tai chi": {
+        "videos": 2,
+        "accuracy": 0.5,
+        "cross_entropy": 2.667116974652002
+      },
+      "trimming trees": {
+        "videos": 2,
+        "accuracy": 0.0,
+        "cross_entropy": 1.7613633886906506
+      },
+      "unloading truck": {
+        "videos": 2,
+        "accuracy": 0.5,
+        "cross_entropy": 1.281750555946207
+      },
+      "washing hair": {
+        "videos": 2,
+        "accuracy": 0.0,
+        "cross_entropy": 1.9481866862482098
+      },
+      "waxing chest": {
+        "videos": 2,
+        "accuracy": 0.5,
+        "cross_entropy": 2.0328874824299774
+      }
+    },
+    "chance_accuracy": 0.05,
+    "majority_class": "drinking shots",
+    "majority_accuracy": 0.05
+  }
+}
