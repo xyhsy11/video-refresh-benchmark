@@ -1,0 +1,9 @@
+{
+  "frozen_at_utc": "2026-10-14T12:40:19.606095+00:00",
+  "parameter_sha256": {
+    "4": "7775982f71ebc594d4198d488d8d4e133ad2bf9e8efb0754d42337adf5746857",
+    "10": "b1458739889717d34eae52c72e7c87dfe7f4ede4c732170e8a5a6c69471f9811",
+    "20": "760b2e807fb36368d919d56781d77b6480d590419b27038e72434af61cbeb3f0"
+  },
+  "all_models_frozen_before_exploratory_data_evaluation": true
+}

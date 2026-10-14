@@ -1,0 +1,205 @@
+{
+  "entry": {
+    "video_id": "Yw1fnOK3Xe4_000069_000079",
+    "relative_path": "data/source/recognition_baseline_v2/videos/Yw1fnOK3Xe4_000069_000079.mp4",
+    "file_identity": {
+      "size_bytes": 504717,
+      "mtime_ns": 1791977310268073800,
+      "sha256": "6e23f23cbcd443870445ffe6cfecfce343550f89c5f2c6fc74daaf8ffb85894d"
+    },
+    "inspected_at_utc": "2026-10-14T11:31:28.442376+00:00",
+    "codec": "h264",
+    "resolution": {
+      "width": 640,
+      "height": 360
+    },
+    "reported_frame_rate": {
+      "rational": "16221/1000",
+      "fps": 16.221
+    },
+    "reported_metadata_frame_count": 163,
+    "stream_index": 0,
+    "stream_time_base": "1/16221",
+    "stream_duration_seconds": 10.048702299488317,
+    "container_duration_seconds": 10.048702,
+    "duration_seconds": 10.048702299488317,
+    "duration_method": "decoded last PTS - first PTS + final frame duration (reported FPS fallback if final duration missing)",
+    "decoded_pts_duration_seconds": 10.048702299488317,
+    "decoded_frame_count": 163,
+    "frame_type_counts": {
+      "I": 1,
+      "P": 76,
+      "B": 86
+    },
+    "candidate_count": 16,
+    "candidate_indices": [
+      0,
+      11,
+      22,
+      32,
+      43,
+      54,
+      65,
+      76,
+      86,
+      97,
+      108,
+      119,
+      130,
+      140,
+      151,
+      162
+    ],
+    "candidate_index_basis": "zero-based sequential decoded-frame indices",
+    "decoder": {
+      "thread_count": 1,
+      "thread_type": "NONE",
+      "skip_frame": "NONE",
+      "hardware_acceleration": false
+    },
+    "inspection_elapsed_ms": 172.27710000042862,
+    "source_video_id": "Yw1fnOK3Xe4",
+    "label": "cooking egg",
+    "original_dataset_split": "val",
+    "time_start": 69,
+    "time_end": 79,
+    "candidate_timestamps_seconds": [
+      0.0,
+      0.6781332840145491,
+      1.3562665680290982,
+      1.9727513716786882,
+      2.650884655693237,
+      3.329017939707786,
+      4.007151223722335,
+      4.685284507736884,
+      5.301769311386474,
+      5.979902595401024,
+      6.658035879415572,
+      7.336169163430122,
+      8.01430244744467,
+      8.63078725109426,
+      9.30892053510881,
+      9.987053819123359
+    ],
+    "archive_url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+    "archive_sha256": "d52e331e7a38491097173395dffdae61d7a0b6dad34e4a240751da4e63985290",
+    "sampling_rank": "5698fc654cd4803222cfc712e2cc3b7baea97def1372174210b5a15d36a83f82",
+    "eligibility": "full decode/timestamps and finite CUDA references passed",
+    "experiment_split": "validation",
+    "recognition_role": "development"
+  },
+  "candidates": [
+    {
+      "candidate_ordinal": 0,
+      "decoded_frame_index": 0,
+      "pts": 0,
+      "timestamp_seconds": 0.0,
+      "frame_type": "I"
+    },
+    {
+      "candidate_ordinal": 1,
+      "decoded_frame_index": 11,
+      "pts": 11000,
+      "timestamp_seconds": 0.6781332840145491,
+      "frame_type": "P"
+    },
+    {
+      "candidate_ordinal": 2,
+      "decoded_frame_index": 22,
+      "pts": 22000,
+      "timestamp_seconds": 1.3562665680290982,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 3,
+      "decoded_frame_index": 32,
+      "pts": 32000,
+      "timestamp_seconds": 1.9727513716786882,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 4,
+      "decoded_frame_index": 43,
+      "pts": 43000,
+      "timestamp_seconds": 2.650884655693237,
+      "frame_type": "P"
+    },
+    {
+      "candidate_ordinal": 5,
+      "decoded_frame_index": 54,
+      "pts": 54000,
+      "timestamp_seconds": 3.329017939707786,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 6,
+      "decoded_frame_index": 65,
+      "pts": 65000,
+      "timestamp_seconds": 4.007151223722335,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 7,
+      "decoded_frame_index": 76,
+      "pts": 76000,
+      "timestamp_seconds": 4.685284507736884,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 8,
+      "decoded_frame_index": 86,
+      "pts": 86000,
+      "timestamp_seconds": 5.301769311386474,
+      "frame_type": "P"
+    },
+    {
+      "candidate_ordinal": 9,
+      "decoded_frame_index": 97,
+      "pts": 97000,
+      "timestamp_seconds": 5.979902595401024,
+      "frame_type": "P"
+    },
+    {
+      "candidate_ordinal": 10,
+      "decoded_frame_index": 108,
+      "pts": 108000,
+      "timestamp_seconds": 6.658035879415572,
+      "frame_type": "P"
+    },
+    {
+      "candidate_ordinal": 11,
+      "decoded_frame_index": 119,
+      "pts": 119000,
+      "timestamp_seconds": 7.336169163430122,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 12,
+      "decoded_frame_index": 130,
+      "pts": 130000,
+      "timestamp_seconds": 8.01430244744467,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 13,
+      "decoded_frame_index": 140,
+      "pts": 140000,
+      "timestamp_seconds": 8.63078725109426,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 14,
+      "decoded_frame_index": 151,
+      "pts": 151000,
+      "timestamp_seconds": 9.30892053510881,
+      "frame_type": "B"
+    },
+    {
+      "candidate_ordinal": 15,
+      "decoded_frame_index": 162,
+      "pts": 162000,
+      "timestamp_seconds": 9.987053819123359,
+      "frame_type": "P"
+    }
+  ]
+}

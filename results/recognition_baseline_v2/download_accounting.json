@@ -1,0 +1,1044 @@
+{
+  "cap_bytes": 21474836480,
+  "actual_body_bytes": 7521016370,
+  "uncertain_interruption_bytes_charged": 0,
+  "inflight": {},
+  "requests": [
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/train/k400_train_path.txt",
+      "range": null,
+      "expected_bytes": 14410,
+      "actual_bytes": 14410,
+      "started_at_utc": "2026-10-14T11:19:44.511291+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T11:19:45.211262+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+      "range": "bytes=0-67108863",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:05:15.015450+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:05:43.560317+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+      "range": "bytes=67108864-134217727",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:05:15.035690+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:05:52.679365+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+      "range": "bytes=134217728-201326591",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:05:15.049206+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:05:49.556154+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+      "range": "bytes=201326592-268435455",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:05:15.060282+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:05:52.449071+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+      "range": "bytes=268435456-335544319",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:05:15.068276+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:05:36.554059+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+      "range": "bytes=335544320-402653183",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:05:15.078804+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:05:30.332788+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+      "range": "bytes=402653184-469762047",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:05:15.088813+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:05:39.266944+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+      "range": "bytes=469762048-536870911",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:05:15.100328+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:05:43.539246+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+      "range": "bytes=536870912-603979775",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:05:30.343768+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:05:52.483721+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+      "range": "bytes=603979776-671088639",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:05:36.569586+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:06:20.326515+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+      "range": "bytes=671088640-738197503",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:05:39.408736+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:06:01.931866+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+      "range": "bytes=738197504-805306367",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:05:43.577364+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:06:13.526574+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+      "range": "bytes=805306368-872415231",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:05:43.738557+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:06:14.001364+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+      "range": "bytes=872415232-939524095",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:05:49.659144+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:06:24.925546+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+      "range": "bytes=939524096-1006632959",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:05:52.570254+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:06:25.738451+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+      "range": "bytes=1006632960-1073741823",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:05:52.629534+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:06:10.887358+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+      "range": "bytes=1073741824-1140850687",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:05:52.742387+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:06:21.957459+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+      "range": "bytes=1140850688-1207959551",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:06:01.965854+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:06:25.991190+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+      "range": "bytes=1207959552-1275068415",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:06:10.928587+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:06:43.758935+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+      "range": "bytes=1275068416-1342177279",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:06:13.570976+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:06:44.757491+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+      "range": "bytes=1342177280-1409286143",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:06:14.046536+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:06:49.410320+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+      "range": "bytes=1409286144-1466433223",
+      "expected_bytes": 57147080,
+      "actual_bytes": 57147080,
+      "started_at_utc": "2026-10-14T12:06:20.395323+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:06:29.059587+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+      "range": "bytes=0-67108863",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:16:14.925098+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:16:36.466499+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+      "range": "bytes=67108864-134217727",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:16:14.938583+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:16:32.563672+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+      "range": "bytes=134217728-201326591",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:16:14.947126+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:16:44.858194+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+      "range": "bytes=201326592-268435455",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:16:14.957241+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:16:44.473213+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+      "range": "bytes=268435456-335544319",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:16:14.966148+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:16:44.158104+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+      "range": "bytes=335544320-402653183",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:16:14.975164+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:16:41.977165+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+      "range": "bytes=402653184-469762047",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:16:14.982742+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:16:40.598532+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+      "range": "bytes=469762048-536870911",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:16:14.991014+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:16:43.726419+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+      "range": "bytes=536870912-603979775",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:16:32.568660+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:17:34.193964+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+      "range": "bytes=603979776-671088639",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:16:36.477315+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:17:13.111921+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+      "range": "bytes=671088640-738197503",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:16:40.602048+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:17:03.446001+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+      "range": "bytes=738197504-805306367",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:16:41.983698+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:17:24.057107+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+      "range": "bytes=805306368-872415231",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:16:43.732957+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:17:21.328459+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+      "range": "bytes=872415232-939524095",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:16:44.165036+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:17:01.618305+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+      "range": "bytes=939524096-1006632959",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:16:44.480707+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:17:05.742556+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+      "range": "bytes=1006632960-1073741823",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:16:44.864016+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:17:04.654992+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+      "range": "bytes=1073741824-1140850687",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:17:01.625064+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:17:26.440841+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+      "range": "bytes=1140850688-1207959551",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:17:03.452016+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:17:35.050800+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+      "range": "bytes=1207959552-1275068415",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:17:04.661482+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:17:25.019212+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+      "range": "bytes=1275068416-1342177279",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:17:05.749055+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:17:41.361714+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+      "range": "bytes=1342177280-1409286143",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:17:13.138986+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:17:44.379946+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+      "range": "bytes=1409286144-1476395007",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:17:21.402337+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:17:46.350926+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+      "range": "bytes=1476395008-1527227821",
+      "expected_bytes": 50832814,
+      "actual_bytes": 50832814,
+      "started_at_utc": "2026-10-14T12:17:24.094264+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:17:40.420868+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+      "range": "bytes=0-67108863",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:24:23.416547+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:25:05.250088+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+      "range": "bytes=67108864-134217727",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:24:23.424041+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:24:47.939502+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+      "range": "bytes=134217728-201326591",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:24:23.433567+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:24:46.933875+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+      "range": "bytes=201326592-268435455",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:24:23.441066+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:24:44.335292+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+      "range": "bytes=268435456-335544319",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:24:23.447586+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:24:54.248765+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+      "range": "bytes=335544320-402653183",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:24:23.454950+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:24:57.116822+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+      "range": "bytes=402653184-469762047",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:24:23.462453+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:24:47.595944+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+      "range": "bytes=469762048-536870911",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:24:23.469223+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:24:47.976928+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+      "range": "bytes=536870912-603979775",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:24:44.342818+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:25:17.111207+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+      "range": "bytes=603979776-671088639",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:24:46.964088+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:25:08.905902+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+      "range": "bytes=671088640-738197503",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:24:47.606960+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:25:04.792930+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+      "range": "bytes=738197504-805306367",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:24:47.964135+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:25:04.929831+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+      "range": "bytes=805306368-872415231",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:24:47.989868+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:25:29.067936+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+      "range": "bytes=872415232-939524095",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:24:54.279830+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:25:25.704597+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+      "range": "bytes=939524096-1006632959",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:24:57.125322+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:25:24.985583+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+      "range": "bytes=1006632960-1073741823",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:25:04.804429+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:25:19.846569+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+      "range": "bytes=1073741824-1140850687",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:25:04.938020+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:25:22.280959+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+      "range": "bytes=1140850688-1207959551",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:25:05.272890+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:25:37.542298+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+      "range": "bytes=1207959552-1275068415",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:25:08.919951+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:25:44.683567+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+      "range": "bytes=1275068416-1342177279",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:25:17.119922+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:25:30.987027+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+      "range": "bytes=1342177280-1409286143",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:25:19.868985+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:25:43.812787+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+      "range": "bytes=1409286144-1475265721",
+      "expected_bytes": 65979578,
+      "actual_bytes": 65979578,
+      "started_at_utc": "2026-10-14T12:25:22.300603+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:25:40.764845+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+      "range": "bytes=0-67108863",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:32:07.821356+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:32:34.991008+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+      "range": "bytes=67108864-134217727",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:32:07.829197+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:32:30.923055+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+      "range": "bytes=134217728-201326591",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:32:07.838688+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:32:40.081927+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+      "range": "bytes=201326592-268435455",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:32:07.847182+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:32:33.711750+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+      "range": "bytes=268435456-335544319",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:32:07.857292+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:32:32.832542+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+      "range": "bytes=335544320-402653183",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:32:07.867778+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:32:43.997310+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+      "range": "bytes=402653184-469762047",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:32:07.881573+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:32:35.469544+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+      "range": "bytes=469762048-536870911",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:32:07.897599+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:32:28.802168+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+      "range": "bytes=536870912-603979775",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:32:28.814330+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:33:14.616987+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+      "range": "bytes=603979776-671088639",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:32:30.938094+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:33:06.134352+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+      "range": "bytes=671088640-738197503",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:32:32.842386+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:32:52.108608+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+      "range": "bytes=738197504-805306367",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:32:33.720361+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:33:16.359060+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+      "range": "bytes=805306368-872415231",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:32:34.998146+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:32:51.474342+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+      "range": "bytes=872415232-939524095",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:32:35.477041+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:32:58.200585+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+      "range": "bytes=939524096-1006632959",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:32:40.091891+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:32:55.630891+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+      "range": "bytes=1006632960-1073741823",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:32:44.023653+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:33:13.743800+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+      "range": "bytes=1073741824-1140850687",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:32:51.490398+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:33:17.538188+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+      "range": "bytes=1140850688-1207959551",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:32:52.127623+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:33:08.994038+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+      "range": "bytes=1207959552-1275068415",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:32:55.642988+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:33:34.088674+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+      "range": "bytes=1275068416-1342177279",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:32:58.212461+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:33:17.822637+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+      "range": "bytes=1342177280-1409286143",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:33:06.163346+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:33:32.075697+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+      "range": "bytes=1409286144-1476395007",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:33:09.003532+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:33:27.357948+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+      "range": "bytes=1476395008-1505409595",
+      "expected_bytes": 29014588,
+      "actual_bytes": 29014588,
+      "started_at_utc": "2026-10-14T12:33:13.764356+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:33:28.488820+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "range": "bytes=0-67108863",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:37:31.951244+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:37:51.875806+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "range": "bytes=67108864-134217727",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:37:31.963294+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:37:51.420382+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "range": "bytes=134217728-201326591",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:37:31.971946+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:37:52.095732+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "range": "bytes=201326592-268435455",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:37:31.980909+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:38:05.537854+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "range": "bytes=268435456-335544319",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:37:31.990447+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:37:57.777434+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "range": "bytes=335544320-402653183",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:37:31.998953+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:38:06.908968+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "range": "bytes=402653184-469762047",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:37:32.005924+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:38:07.849633+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "range": "bytes=469762048-536870911",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:37:32.013837+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:37:57.462080+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "range": "bytes=536870912-603979775",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:37:51.435874+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:38:14.100698+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "range": "bytes=603979776-671088639",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:37:51.888899+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:38:16.394710+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "range": "bytes=671088640-738197503",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:37:52.123378+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:38:20.104486+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "range": "bytes=738197504-805306367",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:37:57.477215+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:38:15.049596+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "range": "bytes=805306368-872415231",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:37:57.794878+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:38:34.045594+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "range": "bytes=872415232-939524095",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:38:05.547144+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:38:46.291362+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "range": "bytes=939524096-1006632959",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:38:06.930758+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:38:39.912478+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "range": "bytes=1006632960-1073741823",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:38:07.880657+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:38:39.872317+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "range": "bytes=1073741824-1140850687",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:38:14.110210+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:38:28.964626+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "range": "bytes=1140850688-1207959551",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:38:15.062558+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:38:39.894293+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "range": "bytes=1207959552-1275068415",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:38:16.405605+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:38:42.719901+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "range": "bytes=1275068416-1342177279",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:38:20.113976+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:38:37.936219+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "range": "bytes=1342177280-1409286143",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:38:28.977657+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:38:54.185339+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "range": "bytes=1409286144-1476395007",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:38:34.064834+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:38:52.829472+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "range": "bytes=1476395008-1543503871",
+      "expected_bytes": 67108864,
+      "actual_bytes": 67108864,
+      "started_at_utc": "2026-10-14T12:38:37.953038+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:38:57.483926+00:00"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "range": "bytes=1543503872-1546665595",
+      "expected_bytes": 3161724,
+      "actual_bytes": 3161724,
+      "started_at_utc": "2026-10-14T12:38:39.902787+00:00",
+      "status": "closed",
+      "completed_at_utc": "2026-10-14T12:38:42.125864+00:00"
+    }
+  ],
+  "started_at_utc": "2026-10-14T11:19:43.740064+00:00"
+}

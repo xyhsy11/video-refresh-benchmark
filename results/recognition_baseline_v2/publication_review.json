@@ -1,0 +1,33 @@
+{
+  "reviewed_at_utc": "2026-10-14T12:52:21.078361+00:00",
+  "passed": true,
+  "status": "complete",
+  "previous_scientific_files_unchanged": 1384,
+  "new_CUDA_encoder_forward_calls": 6080,
+  "retained_new_reference_features": 6080,
+  "reused_reference_features": 2560,
+  "failed_or_extra_forwards": 0,
+  "replay_encoder_calls": 0,
+  "dataset_counts": {
+    "train": 400,
+    "development": 100,
+    "exploratory": 40
+  },
+  "new_HTTP_body_bytes": 7521016370,
+  "uncertain_transfer_charges": 0,
+  "source_partition": "custom CVDF validation-source route fixed before training;not official recognition benchmark",
+  "arbitrary_accuracy_publication_gate": false,
+  "text_files_privacy_scanned": 794,
+  "snapshot_relative_links_checked": 8,
+  "figures_visually_inspected": 4,
+  "published_snapshots_and_sources_preserved": true,
+  "checks": [
+    "five focused fixtures",
+    "full saved-prediction/oracle/aggregate/bootstrap reproduction",
+    "independent label/cohort/byte accounting",
+    "release validator"
+  ],
+  "publication": "User explicitly requested commit to GitHub after completion;experiment branch only,no merge or PR.",
+  "final_documentation_review_utc": "2026-10-14T12:58:50.356381+00:00",
+  "documentation_edits": "Spacing and numbered interpretation clarified after generated report; measurements, frozen protocol, models and source hashes unchanged."
+}

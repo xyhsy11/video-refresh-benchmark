@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-14T12:44:44.483639+00:00",
+  "dataset_complete": true,
+  "available_counts": {
+    "development": 100,
+    "train": 400,
+    "exploratory": 40
+  },
+  "official_labels_and_source_identities_verified": true,
+  "frozen_reuse_roles_and_protected_evaluation_exclusions": true,
+  "all_HTTP_reads_reconciled_and_cap_respected": true,
+  "verification_source_sha256": "fbc5b9577f3794a7783599fce7078fd0cf04a7978c0a812e9c03ae949c66d321",
+  "nested_training_subsets_class_balance": true,
+  "frozen_selection_and_scaler_identities": true
+}
