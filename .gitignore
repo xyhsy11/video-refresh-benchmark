@@ -83,6 +83,8 @@ results/*
 !results/refresh_target_decomposition_v1/**
 !results/two_target_refresh_predictability_v1/
 !results/two_target_refresh_predictability_v1/**
+!results/cached_history_signal_diagnostic_v1_rerun1/
+!results/cached_history_signal_diagnostic_v1_rerun1/**
 
 # Curated snapshots also exclude downloaded assets, secrets, and temporary files.
 *.mp4

@@ -1,0 +1,29 @@
+{
+  "recorded_at_utc": "2026-10-15T10:46:16.620958+00:00",
+  "checks": [
+    {
+      "command": "& .\\.venv\\Scripts\\python.exe analyze_cached_history_signals.py --predictability-input results/two_target_refresh_predictability_v1 --output results/cached_history_signal_diagnostic_v1_rerun1 --seed 20261021 --bootstrap 10000 --audit-only",
+      "check": "audit_only",
+      "returncode": 0,
+      "passed": true,
+      "all_completed_files_preserved": 65,
+      "checked_at_utc": "2026-10-15T10:44:55.390689+00:00",
+      "history_formula_checks": 1260,
+      "baseline_max_prediction_discrepancy": 0.0,
+      "first56_scaler_max_discrepancy": 0.0,
+      "CPU_timing_rows_preserved": 15
+    },
+    {
+      "command": "& .\\.venv\\Scripts\\python.exe analyze_cached_history_signals.py --predictability-input results/two_target_refresh_predictability_v1 --output results/cached_history_signal_diagnostic_v1_rerun1 --seed 20261021 --bootstrap 10000",
+      "check": "completed_default_command",
+      "returncode": 0,
+      "passed": true,
+      "all_completed_files_preserved": 65,
+      "checked_at_utc": "2026-10-15T10:46:14.514752+00:00",
+      "history_formula_checks": 1260,
+      "baseline_max_prediction_discrepancy": 0.0,
+      "first56_scaler_max_discrepancy": 0.0,
+      "CPU_timing_rows_preserved": 15
+    }
+  ]
+}

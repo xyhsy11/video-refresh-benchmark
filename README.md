@@ -793,3 +793,42 @@ Next, freeze a diagnostic of richer legitimately cached temporal observations wi
 ![Component prediction quality relative to training-median baselines](results/two_target_refresh_predictability_v1/figures/component_prediction_quality.png)
 
 ![Independent decision utility](results/two_target_refresh_predictability_v1/figures/decision_utility.png)
+
+## Experiment 13: cached_history_signal_diagnostic_v1
+
+Status: **completed and verified; useful positive utility remains unproven**. The completed snapshot is [cached_history_signal_diagnostic_v1_rerun1](results/cached_history_signal_diagnostic_v1_rerun1/README.md). An initial CSV mask-dtype verification failure is preserved locally and documented in the [correction record](results/cached_history_signal_diagnostic_v1_rerun1/verification_correction/correction.json). Only the audit reader/schema test changed; original and corrected-run predictions, aggregate metrics and bootstrap intervals are byte-identical. No old expected hashes were edited.
+
+This experiment changes the observation representation only: the exact 56 cached C inputs gain 44 fixed history features (two ordered 20-score differences, two history masks, margin population standard deviation and top-1 switch rate). Each periodic refresh event is added once; repeated cache outputs add no event, and state resets per video. Inputs exclude current unencoded RGB, future refreshes, privileged P columns, labels and targets. The frozen head, signed G target, 100 development/40 exploratory sources, 900/360 opportunities, original five folds, RF400 parameters/seed 20261020 and threshold >1e-12 are unchanged. Six baseline models are reused byte-for-byte; six augmented forests are fitted without searches.
+
+The [information audit](results/cached_history_signal_diagnostic_v1_rerun1/feature_information_audit.md) confirms that T adds no information at history length one and is algebraically recoverable from old C at length two. At length three it can retain ordered individual scores lost by the old weighted mean. The controlled swap fixture changes T while leaving C unchanged. These are dependent derived features, not 44 independent new observations or a temporal video backbone.
+
+| Cohort | Baseline utility | Augmented utility (95% interval) | Augmented minus baseline (95% interval) |
+| --- | ---: | --- | --- |
+| Development OOF | -0.025125 | -0.011949 [-0.028149, +0.003645] | +0.013177 [-0.001302, +0.029815] |
+| Exploratory | -0.064527 | -0.059949 [-0.196221, +0.019307] | +0.004578 [-0.006186, +0.019054] |
+
+Utility is CE gain in nats per independent opportunity: actual G if selected, otherwise zero, averaged over all nine opportunities per video and then equally across videos. Keeping reference gives zero. Both relative intervals include zero, and neither cohort establishes positive absolute utility. Augmented selections are 275/900 (116 helpful/159 harmful) and 110/360 (44 helpful/66 harmful). Development MAE improves slightly, 0.280248 to 0.278711, while exploratory MAE worsens, 0.309259 to 0.315159.
+
+The strongest development subgroup change is at history length two, +0.026357 [0.003145, 0.061823], where T makes existing information explicit. This is secondary and unadjusted. Length-three comparisons remain inconclusive; the diagnostic does not establish that preserving order solved task-value prediction. No subgroup-specific model is trained and independent moves are never combined into a sequential policy.
+
+The CPU microbenchmark uses ten development sources frozen lexicographically before new outcomes, two warmup and five measured passes with seeded interleaving. Median history/T construction is 33.116 microseconds/opportunity; baseline scaling plus batch-size-one RF400 is 83.250 milliseconds, and augmented history/scaling/RF400 is 88.042 milliseconds, with overlapping trial ranges. These are preloaded-observation CPU components, excluding decoding, RGB/codec-vector extraction and full recognition. They cannot establish adaptive inference latency or an end-to-end speedup. Additional retained history ndarray payload is 904 bytes plus a 28-byte Python counter; the object/array/counter sizeof estimate is 1,588 bytes, with transient/model workspace excluded.
+
+Seven focused tests, 1,260 independent history-formula checks, 282 input-isolation mutations, exact baseline reproduction, identical first-56 scalers, 4,800 training-bootstrap root checks, saved-metric/whole-source-bootstrap reproduction and release validation pass. The original recognition head and 2,927 previous scientific files remain unchanged. Actual RGB encoder calls, video decodes, video downloads and recognition-head training calls are zero. Existing packages are reused without changes.
+
+Intervals use 10,000 paired whole-source-video resamples, PCG64 seed 20261021, shared within cohort/method/history comparisons and linear percentiles. RF seed remains 20261020. Both cohorts are developmental and previously inspected; intervals condition on fixed fits and exclude full training/model-selection/repeated-research uncertainty. Secondary intervals are marginal and unadjusted. Full-clip candidates and existing future-reference codec vectors prevent a verified streaming-causal interpretation.
+
+From the repository root:
+
+~~~powershell
+& .\.venv\Scripts\python.exe -m unittest test_cached_history_signals -v
+& .\.venv\Scripts\python.exe .\analyze_cached_history_signals.py --predictability-input results/two_target_refresh_predictability_v1 --output results/cached_history_signal_diagnostic_v1_rerun1 --seed 20261021 --bootstrap 10000
+& .\.venv\Scripts\python.exe .\analyze_cached_history_signals.py --predictability-input results/two_target_refresh_predictability_v1 --output results/cached_history_signal_diagnostic_v1_rerun1 --seed 20261021 --bootstrap 10000 --audit-only
+~~~
+
+Completed outputs are audited without overwriting or retiming. A changed protocol selects a versioned fresh directory. See [findings](results/cached_history_signal_diagnostic_v1_rerun1/findings.md), [protocol](results/cached_history_signal_diagnostic_v1_rerun1/protocol.json), [input provenance](results/cached_history_signal_diagnostic_v1_rerun1/input_provenance.json), [metrics](results/cached_history_signal_diagnostic_v1_rerun1/aggregate_metrics.json), [paired intervals](results/cached_history_signal_diagnostic_v1_rerun1/bootstrap_intervals.json), [history-length results](results/cached_history_signal_diagnostic_v1_rerun1/history_length_metrics.csv), [CPU trials](results/cached_history_signal_diagnostic_v1_rerun1/cpu_microbenchmark.csv) and [verification](results/cached_history_signal_diagnostic_v1_rerun1/verification.json). The curated snapshot retains observations, probe states, predictions and timing records; datasets, archives, encoder weights and environments remain ignored.
+
+Next, design a separate temporal-recognition backbone/task benchmark before another cached-feature variant. Freeze its task and independent-source evaluation protocol first; this stage does not launch it. The present diagnostic does not establish a successful adaptive system, recognition accuracy improvement or measured speedup.
+
+![Cached-history decision utility](results/cached_history_signal_diagnostic_v1_rerun1/figures/decision_utility.png)
+
+![History-length comparison](results/cached_history_signal_diagnostic_v1_rerun1/figures/history_length_comparison.png)
