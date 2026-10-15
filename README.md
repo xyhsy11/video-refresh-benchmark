@@ -755,3 +755,41 @@ Next, freeze a diagnostic predicting early-addition benefit and later-removal co
 ![Early-addition benefit versus later-removal cost](results/refresh_target_decomposition_v1/figures/benefit_vs_cost.png)
 
 ![Forward, reverse and averaged components](results/refresh_target_decomposition_v1/figures/component_summary.png)
+
+## two_target_refresh_predictability_v1: predicting benefit and removal cost
+
+Status: **completed and verified; useful positive decision utility was not established**. This bounded offline diagnostic reuses the exact 100 development/40 exploratory sources, 900/360 independent schedule-change examples, unchanged five source-grouped folds and 56 cached C inputs. Both cohorts are developmental and previously inspected. No videos are acquired or decoded, no RGB encoder executes, and the recognition classifier is not retrained.
+
+The signed targets are early-addition benefit B=LA-LB, later-removal cost C=LC-LB and net gain G=B-C. Forward attribution is primary; averaged attribution is one fixed sensitivity analysis. Linear and kernel ridge use the previous alpha=1 recipes and training-only preprocessing. As both estimators are linear in their training targets, direct-G predictions equal predicted B minus predicted C to float64 precision: maximum discrepancy 4.5242e-15, zero decision disagreements. Previous C-linear, C-nonlinear and age/budget predictions reproduce exactly.
+
+The genuine comparison uses separate fixed target-dependent random forests: direct G with 200 trees, separate B/C forests with 200 trees each, and direct G with 400 trees. Every forest uses depth 4, minimum leaf size 20, all inputs, bootstrap sampling, random state 20261020 and one job; there is no tuning. All development OOF predictions are saved before final development fits are frozen and exploratory predictions computed. Six optional packages, including scikit-learn 1.9.1, are pinned separately; all existing package versions remain unchanged. See the [forest API](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html).
+
+Utility is actual G when predicted G>1e-12, otherwise zero, averaged over all nine opportunities per source and then over sources. It is in nats per independent decision; keeping reference has utility zero. The nine counterfactuals are never combined into a sequential schedule.
+
+| Cohort | Direct-G RF200 utility | Direct-G RF400 utility | Forward two-target RF200x2 utility (95% interval) | Two-target minus RF400 (95% interval) |
+| --- | ---: | ---: | --- | --- |
+| Development OOF | -0.025096 | -0.025125 | -0.011775 [-0.030190, +0.006186] | +0.013350 [+0.002634, +0.025406] |
+| Exploratory | -0.067535 | -0.064527 | -0.078571 [-0.222695, +0.007420] | -0.014044 [-0.046467, +0.014161] |
+
+The primary relative development difference favors decomposition, but its absolute point estimate is negative and the interval includes zero. Exploratory results do not preserve the relative advantage. Forward two-target selects 284/900 development moves (122 helpful/162 harmful) and 108/360 exploratory moves (48 helpful/60 harmful). Averaged-attribution utilities are also negative: -0.014353 and -0.088155. Neither component's learned predictors improve MAE over its own training-median baseline; raw benefit/cost MAEs must not be compared as if their target scales were equal. All predefined results, constants, discrimination metrics and undefined-statistic reasons are retained.
+
+Intervals use 10,000 paired whole-source-video resamples, PCG64 seed 20261020, shared indices within each cohort and linear percentile endpoints. They condition on saved fitted probes and exclude full training/model-selection/repeated-research uncertainty; secondary intervals are unadjusted. Final forward two-target forests contain 6,726 nodes/182,512 compressed bytes versus direct RF400's 6,244 nodes/169,418 bytes. Equal tree counts do not establish equal capacity or latency.
+
+Seven focused tests, 102 model/scaler checks, 8,400 training-bootstrap root checks, explicit feature whitelisting, original target/fold reproduction, saved-metric/bootstrap reproduction and release validation pass. The uncentered error identity MSE(G)=MSE(B)+MSE(C)-2*mean(eB*eC) is verified. Earlier scientific artifacts and the frozen head remain unchanged. No adaptive speedup, recognition accuracy improvement, streaming causality or successful controller is demonstrated.
+
+Run or audit from the repository root:
+
+~~~powershell
+& .\.venv\Scripts\python.exe -m pip install -r .\requirements-two-target.txt
+& .\.venv\Scripts\python.exe -m unittest test_two_target_refresh_predictability -v
+& .\.venv\Scripts\python.exe .\analyze_two_target_refresh_predictability.py --decomposition-input results/refresh_target_decomposition_v1 --ablation-input results/task_signal_ablation_v2 --output results/two_target_refresh_predictability_v1 --seed 20261020 --bootstrap 10000
+& .\.venv\Scripts\python.exe .\analyze_two_target_refresh_predictability.py --decomposition-input results/refresh_target_decomposition_v1 --ablation-input results/task_signal_ablation_v2 --output results/two_target_refresh_predictability_v1 --seed 20261020 --bootstrap 10000 --audit-only
+~~~
+
+Completed outputs are audited without overwriting. See [findings](results/two_target_refresh_predictability_v1/findings.md), [frozen protocol](results/two_target_refresh_predictability_v1/protocol.json), [input provenance](results/two_target_refresh_predictability_v1/input_provenance.json), [copied folds](results/two_target_refresh_predictability_v1/fold_manifest.json), [all metrics](results/two_target_refresh_predictability_v1/aggregate_metrics.json), [paired intervals](results/two_target_refresh_predictability_v1/bootstrap_intervals.json), [equivalence checks](results/two_target_refresh_predictability_v1/equivalence_checks.json), [verification](results/two_target_refresh_predictability_v1/verification.json), and [forest accounting](results/two_target_refresh_predictability_v1/forest_model_accounting.csv). The curated snapshot includes predictions, probe states, scalers and bootstrap indices; videos, archives, encoder weights and environments stay ignored.
+
+Next, freeze a diagnostic of richer legitimately cached temporal observations with greater independent-source support before another controller variant. These results do not establish that decomposition is necessary or that all task-value predictors must fail. Unknown labels, whole-video target context, full-clip candidate selection and future-reference codec vectors remain limitations.
+
+![Component prediction quality relative to training-median baselines](results/two_target_refresh_predictability_v1/figures/component_prediction_quality.png)
+
+![Independent decision utility](results/two_target_refresh_predictability_v1/figures/decision_utility.png)

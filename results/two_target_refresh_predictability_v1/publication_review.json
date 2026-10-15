@@ -1,0 +1,38 @@
+{
+  "reviewed_at_utc": "2026-10-15T08:27:51.194081+00:00",
+  "status": "publication_checks_passed",
+  "starting_commit": "17b0b9100aad095ea47aa52b24da54ed7840ff90",
+  "scientific_artifact_sha256": {
+    "protocol.json": "d4f599d0101840642939c06ad43cf44ea92b62c1ea9538bb843b95b3451077ac",
+    "fold_manifest.json": "7f267a8206d879a840fb5c4c2709b2ec3c72d98d44bb4fb770558bbf516aed54",
+    "frozen_models.json": "5f0dfd9b3ef2a1bbacd1b6a4004e9ab414cbcb7b754e37c426d2b27db5dfdfa7",
+    "out_of_fold_predictions.csv": "51c915a2e9012bae9bcf5272982b37514fd09215b420ae31514b7f5dec3de86a",
+    "exploratory_predictions.csv": "dd1bfa8078222cf5180c411f6d18e14aa19d2eb7e4fa7548027417fed95e4968",
+    "component_predictions_oof.csv": "df53a61fecda69d79a3ef49c1729c172a7cd00850eee1f0b54cf1156081e0d71",
+    "component_predictions_exploratory.csv": "d3f4afad2627c9889a6d4694bc9299282de42507a34836aa90a167873996881d",
+    "aggregate_metrics.json": "8e2f33628eb683dedb70f1e85c32936aa7444898d041b19ecfe7f26030389f09",
+    "bootstrap_intervals.json": "f8ba3b780c68381dfe371aa319a80563185d4323357cec716b814e1f3d89cf84",
+    "per_video_metrics.csv": "622a37ebe86b6150cee06d3bdd7179cd3b1dfc8975a0a9ad2283fbc20a874894",
+    "equivalence_checks.json": "2c9062cae156669e4f3d6ddff2ae5eac2bc8c37283b12e70bf228168577cd2be"
+  },
+  "frozen_sources_unchanged": true,
+  "prior_tracked_scientific_files_preserved": 2717,
+  "editorial_changes": "Added measured answers to findings and appended README; scientific results, protocols, inputs, source files, fitted parameters and thresholds unchanged.",
+  "figures_visually_reviewed": [
+    "figures/component_prediction_quality.png",
+    "figures/decision_utility.png"
+  ],
+  "release_validation": {
+    "passed": true,
+    "relative_links": 136
+  },
+  "privacy_finite_JSON_size_and_asset_checks": "passed",
+  "optional_packages_added": 6,
+  "existing_package_versions_unchanged": true,
+  "actual_RGB_encoder_executions": 0,
+  "video_decodes": 0,
+  "video_downloads": 0,
+  "recognition_training_calls": 0,
+  "publication_scope": "New code, optional dependency pins, README and curated results only; exclude datasets, archives, encoder weights, credentials and environments",
+  "completed_audits_preserve_all_outputs": true
+}
