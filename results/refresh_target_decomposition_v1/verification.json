@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-15T05:31:56.672917+00:00",
+  "development_sources": 100,
+  "exploratory_sources": 40,
+  "development_opportunities": 900,
+  "exploratory_opportunities": 360,
+  "independent_schedule_replays": 5040,
+  "exact_refresh_counts": {
+    "A": 4,
+    "B": 5,
+    "C": 4,
+    "D": 3
+  },
+  "latest_feature_reuse_and_cache_boundary_checks": true,
+  "original_targets_and_C_nonlinear_selections_reproduced": true,
+  "max_absolute_target_discrepancy": 0.0,
+  "max_relative_target_discrepancy_defined": 0.0,
+  "relative_undefined_count": 0,
+  "by_cohort_discrepancies": [
+    {
+      "cohort": "development",
+      "max_absolute": 0.0,
+      "max_relative_defined": 0.0,
+      "relative_defined_count": 900
+    },
+    {
+      "cohort": "exploratory",
+      "max_absolute": 0.0,
+      "max_relative_defined": 0.0,
+      "relative_defined_count": 360
+    }
+  ],
+  "max_absolute_algebra_residual": 8.881784197001252e-16,
+  "max_absolute_independent_loss_discrepancy": 8.881784197001252e-15,
+  "all_attribution_orders_and_grouped_conditional_bootstraps_reproduced": true,
+  "previous_tracked_files_preserved": 2693,
+  "classifier_unchanged": true,
+  "actual_RGB_encoder_executions": 0,
+  "video_decodes": 0,
+  "downloads": 0,
+  "recognition_training_calls": 0,
+  "predictor_training_calls": 0,
+  "fresh_confirmation_parsed": 0,
+  "focused_tests": {
+    "returncode": 0,
+    "output": "test_all_nine_schedules_cache_boundaries_and_loss (test_refresh_target_decomposition.DecompositionChecks.test_all_nine_schedules_cache_boundaries_and_loss) ... ok\ntest_conditional_bootstrap_zero_denominators_and_whole_videos (test_refresh_target_decomposition.DecompositionChecks.test_conditional_bootstrap_zero_denominators_and_whole_videos) ... ok\ntest_signed_order_sensitive_fixture_and_averaged_identity (test_refresh_target_decomposition.DecompositionChecks.test_signed_order_sensitive_fixture_and_averaged_identity) ... ok\ntest_state_reset_and_ordinal_validation (test_refresh_target_decomposition.DecompositionChecks.test_state_reset_and_ordinal_validation) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.313s\n\nOK\n"
+  },
+  "release_validator": {
+    "returncode": 0,
+    "output": "Public snapshot PASS: ten videos, 150 pilot rows, 15 single-video rows; all counters valid.\nCSV-derived headlines PASS: 34.74% median reduction, 1.532x median speedup, 17.52-45.54% range.\nOriginal timing source hashes and 17 snapshot checksums PASS; 115 relative links PASS.\nPersonal-path and installation-requirement checks PASS; no GPU timing was rerun.\n"
+  },
+  "post_documentation_review": "final_review.json",
+  "completed_run_read_only_audits": "completed_run_audit.json"
+}

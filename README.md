@@ -720,3 +720,38 @@ Completed outputs are audited without overwriting them. Results remain local und
 Next, run a separately frozen target-decomposition diagnostic to test whether dependence on later content dominates early-refresh gain before building a controller. No sequential recognition improvement, adaptive latency, speedup or matched P deployment cost is established here.
 
 ![Decision utility ablation](results/task_signal_ablation_v2/figures/decision_utility_comparison.png)
+
+## refresh_target_decomposition_v1: early benefit versus lost later refresh
+
+Status: **completed and verified locally; cancellation explains part of the failed selections**. This retrospective diagnostic reuses the frozen primary recognition head, the exact 100 development/40 exploratory sources and 900/360 saved counterfactuals. Both cohorts remain developmental. It makes zero RGB encoder calls, video decodes, downloads, recognition-training calls or predictor fits.
+
+For each original opportunity, A is periodic [0,4,8,12]; B adds early t while retaining r; C moves r to t; D removes r. These have 4/5/4/3 simulated refreshes and sixteen latest-cache outputs. B and D are unequal-budget diagnostic controls. Net gain LA-LC equals early-addition benefit (LA-LB) minus later-removal cost (LC-LB). Reverse-order and averaged attributions also reconstruct the same signed net gain. All quantities use whole-video cross entropy in nats, including the early-addition component; they are not observable online signals or unique causal explanations.
+
+The predefined primary event is beneficial early addition (>1e-12) followed by a harmful equal-budget move (<-1e-12).
+
+| Cohort | Primary cancellation count | Rate | Descriptive 95% interval | Among C-nonlinear harmful selections |
+| --- | ---: | ---: | ---: | ---: |
+| Development | 153/900 | 17.00% | 14.44-19.56% | 78/245 (31.84%) |
+| Exploratory | 56/360 | 15.56% | 11.67-19.44% | 16/84 (19.05%) |
+
+Saved C-nonlinear selects 423 development opportunities (178 helpful/245 harmful) and 151 exploratory opportunities (67 helpful/84 harmful). Its selected-subset cancellation rates are 78/423 and 16/151. No model or threshold was changed. Reverse-order cancellation counts are 151/900 and 57/360; averaged-attribution counts are also 151/900 and 57/360. Forward/reverse cancellation flags differ for 18/900 and 5/360 opportunities, while cost signs differ for 28.67% and 30.83%. Binary cancellation is mostly stable, but component signs and magnitudes depend on order. Most harmful selections lack a beneficial forward-order early addition, so cancellation is a partial explanation.
+
+Intervals use 10,000 whole-source-video resamples, PCG64 seed 20261019, keeping all nine opportunities together and recomputing conditional-rate denominators within each resample. Continuous outcomes are averaged within video first. Intervals are descriptive and conditional, without full training/model-selection/repeated-research uncertainty. No accuracy improvement, online controller, adaptive latency or speedup is established.
+
+Four focused fixtures, 5,040 independent explicit feature-copy schedule replays, all cache-boundary checks, original-target reproduction and grouped-bootstrap reproduction pass. Maximum absolute and relative original-target discrepancies are both zero. The frozen classifier, prior scientific sources and snapshots remain unchanged. Completed outputs are audited without overwriting them.
+
+From the repository root:
+
+~~~powershell
+& .\.venv\Scripts\python.exe -m unittest test_refresh_target_decomposition -v
+& .\.venv\Scripts\python.exe .\analyze_refresh_target_decomposition.py --recognition-input results/recognition_baseline_v2 --ablation-input results/task_signal_ablation_v2 --output results/refresh_target_decomposition_v1 --seed 20261019 --bootstrap 10000
+& .\.venv\Scripts\python.exe .\analyze_refresh_target_decomposition.py --recognition-input results/recognition_baseline_v2 --ablation-input results/task_signal_ablation_v2 --output results/refresh_target_decomposition_v1 --seed 20261019 --bootstrap 10000 --audit-only
+~~~
+
+See [findings and three measured examples](results/refresh_target_decomposition_v1/findings.md), [frozen protocol](results/refresh_target_decomposition_v1/protocol.json), [all opportunities](results/refresh_target_decomposition_v1/per_opportunity_decomposition.csv), [per-video summaries](results/refresh_target_decomposition_v1/per_video_summary.csv), [metrics](results/refresh_target_decomposition_v1/aggregate_metrics.json), [intervals](results/refresh_target_decomposition_v1/bootstrap_intervals.json), and [verification](results/refresh_target_decomposition_v1/verification.json). The curated snapshot includes the CSVs, plots, bootstrap indices and audit records; videos, archives, weights and environments remain ignored. The [publication review](results/refresh_target_decomposition_v1/publication_review.json) records path-only sanitization of two audit commands; scientific results and the frozen protocol are unchanged.
+
+Next, freeze a diagnostic predicting early-addition benefit and later-removal cost separately before fitting another controller. Representation quality, limited data support, unavailable true labels and future-content dependence remain unresolved; this experiment does not show that future information is impossible to predict.
+
+![Early-addition benefit versus later-removal cost](results/refresh_target_decomposition_v1/figures/benefit_vs_cost.png)
+
+![Forward, reverse and averaged components](results/refresh_target_decomposition_v1/figures/component_summary.png)
