@@ -1,0 +1,15 @@
+{
+  "recorded_at_utc": "2026-10-15T05:30:02.619734+00:00",
+  "python": "3.12.10",
+  "os": "Windows-11-10.0.22631-SP0",
+  "packages": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.6",
+    "torch": "2.14.1+cu132",
+    "matplotlib": "3.11.2",
+    "av": "19.0.1"
+  },
+  "device": "CPU saved-feature float64 arithmetic",
+  "new_dependencies": [],
+  "fitting": false
+}

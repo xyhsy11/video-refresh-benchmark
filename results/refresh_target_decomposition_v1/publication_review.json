@@ -1,0 +1,56 @@
+{
+  "reviewed_at_utc": "2026-10-15T05:41:53.426691+00:00",
+  "status": "publication_checks_passed",
+  "starting_commit": "a857e43912c6a6cc72dfeb83881bd68897fe00af",
+  "sanitization": {
+    "artifact": "completed_run_audit.json",
+    "fields": [
+      "checks[0].command",
+      "checks[1].command"
+    ],
+    "change": "Local absolute Python executable replaced by equivalent project-relative PowerShell invocation",
+    "original_sha256": "96be2c35b5e095f67c47e942972d38f8d682127c222cfc9589b3f9f2c580cc97",
+    "public_sha256": "7f7bcb9ca9a72eb39c5dec81db500d064f4c11ceeafa0e29d899b643dcdee32f",
+    "original_receipt_preserved_privately": true
+  },
+  "scientific_artifacts_unchanged_sha256": {
+    "aggregate_metrics.json": "465c56ab6b81a7f86984094cccfd7ad2be4259fcd4bfccf594c7a06c88fefdc0",
+    "bootstrap_intervals.json": "2efd4b4e2be37f3b2ed4dc4b2779f8277771c672d8bd803aeb06c103988d4a2a",
+    "bootstrap_resampling_indices.npz": "8749601883280f0ae5112fb47dda6fcafb41cecfbbda46ea42bdf4eae2dc8bca",
+    "environment.json": "84f439a9a85f06a5744e64f23990f478a581e751204e567f0baae7ec26e4251e",
+    "figures/benefit_vs_cost.png": "3565f20192f2d3538214f024f69f1be8b2f7f4e3d6ffb545d66e5f8d019b8017",
+    "figures/component_summary.png": "27152e3508405efda0b9f944d3a18a77993e0354a4bd8f264f9c3adf45578cec",
+    "final_review.json": "5b440c581b2260e6be69f2a2fa28767115542da940b361241a200d07717873aa",
+    "findings.md": "5f46f53361c2b216a55a11bc67bfa148c0d4cb51e43e46f2fa9657c4cd45326c",
+    "measured_examples.json": "bcdb226003026a6e148929a44e5a15f111dea02b7c18734528fbaa14606acf48",
+    "metadata.json": "51986a6facae061e1ea294d33ca2b58924d96f858d331233f7cfe5286058e272",
+    "per_opportunity_decomposition.csv": "99fd4c478194defe3d53cd936f46a11c16758ace27f37585eecef60b15533703",
+    "per_video_summary.csv": "2b2ba76d3a11d74e21d6c220461d142dedaf1eb7debffbdeba8d3088d5ce8e48",
+    "protocol.json": "26dce513800d17a78c697ea58e75d6b5d1bffb433e857eac7e6aeb162847d782",
+    "README.md": "d6c0132f0e10899de2dce9cd44fd6c76e3e38014edf8fdbe97e8cb4f1d50bb1d",
+    "status.json": "2635f1397fd09924d076422cefbb644a241e4c2ca7c721dc9e61bb0edee2080b",
+    "verification.json": "84be18f0f8f63dcfbe9cbc9a8907c7354b221475d16357a8ae37c5a7befca466"
+  },
+  "frozen_source_hashes_unchanged": true,
+  "frozen_classifier_and_prior_results_unchanged": true,
+  "scope": "New experiment code, README and curated results only; no videos, archives, encoder weights, environments or credentials",
+  "no_measurements_or_models_recomputed": true,
+  "post_staging_full_audit": {
+    "checked_at_utc": "2026-10-15T05:43:27.912634+00:00",
+    "returncode": 0,
+    "passed": true,
+    "all_output_files_preserved": 19,
+    "independent_schedule_replays": 5040,
+    "max_absolute_target_discrepancy": 0.0,
+    "max_relative_target_discrepancy_defined": 0.0,
+    "prior_tracked_files_preserved": 2693
+  },
+  "checks": {
+    "focused_unit_tests": 4,
+    "release_validator_passed": true,
+    "validated_relative_links": 125,
+    "privacy_and_secret_scan_passed": true,
+    "staged_scope_reviewed_files": 26,
+    "line_endings": "Original artifact bytes retained; Git whitespace check accepts CRLF"
+  }
+}

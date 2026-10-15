@@ -79,6 +79,8 @@ results/*
 !results/task_signal_diagnostic_v1/**
 !results/task_signal_ablation_v2/
 !results/task_signal_ablation_v2/**
+!results/refresh_target_decomposition_v1/
+!results/refresh_target_decomposition_v1/**
 
 # Curated snapshots also exclude downloaded assets, secrets, and temporary files.
 *.mp4

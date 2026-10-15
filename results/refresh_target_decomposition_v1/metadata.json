@@ -1,0 +1,15 @@
+{
+  "evaluated_at_utc": "2026-10-15T05:30:51.921566+00:00",
+  "sources": 140,
+  "opportunities": 1260,
+  "simulated_schedule_replays": 5040,
+  "simulated_output_slots": 80640,
+  "simulated_logical_refreshes_across_all_controls": 20160,
+  "actual_RGB_encoder_executions": 0,
+  "video_decodes": 0,
+  "downloads": 0,
+  "recognition_training_calls": 0,
+  "predictor_training_calls": 0,
+  "fresh_confirmation_parsed": 0,
+  "B_and_D": "unequal-budget diagnostic controls"
+}
