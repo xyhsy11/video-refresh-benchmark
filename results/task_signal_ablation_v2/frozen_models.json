@@ -1,0 +1,28 @@
+{
+  "folds": {
+    "0": {
+      "path": "models/fold_0",
+      "registry_sha256": "a46bffefb075f683f1b0167b05571c9b54255557237b2a6ef51a16569df2af2b"
+    },
+    "1": {
+      "path": "models/fold_1",
+      "registry_sha256": "f564f0cc93dad85b8ccc9ac89db655f31d11da221c6ed994eb63e7b5999cc84c"
+    },
+    "2": {
+      "path": "models/fold_2",
+      "registry_sha256": "7205d1cf1dd015b6bdc30d807ad98f778dbe2e12b53679ce4d3271a314f456f5"
+    },
+    "3": {
+      "path": "models/fold_3",
+      "registry_sha256": "530129aa879e4007d249e15ef8a5fa8d81b863d226c3bec24ea0e0f7e408150d"
+    },
+    "4": {
+      "path": "models/fold_4",
+      "registry_sha256": "577f556dee9032bc42c55d74a00fae798e378a08d4c32e5bc47995641043d788"
+    }
+  },
+  "oof_saved_at_utc": "2026-10-15T03:26:49.392471+00:00",
+  "oof_sha256": "bfd3ab46c882941107080419d80f1e2ffbbcb27ddba931c8dcf7d352bc737739",
+  "final_registry_sha256": "3cbfc3438d9c308a365f5f641cab1a7f00eb9fd8abfc55c4c4cf2cc15a41afc2",
+  "final_models_frozen_at_utc": "2026-10-15T03:26:49.987410+00:00"
+}

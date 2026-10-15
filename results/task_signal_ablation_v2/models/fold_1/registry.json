@@ -1,0 +1,41 @@
+{
+  "training_mean": -0.017525477985723546,
+  "training_median": -0.0006225830133508303,
+  "models": {
+    "S-linear": {
+      "json": "S-linear.json",
+      "sha256": "19fe8e2ef18b145afbb1e2181c3311ad7a23924fd9140171ab89cf1c88a028eb",
+      "privileged": false
+    },
+    "S-nonlinear": {
+      "json": "S-nonlinear.json",
+      "sha256": "59bf1b90f603e13199018d4f8c7c3dfd0967479c09837387b0cdf8d103d27319",
+      "privileged": false
+    },
+    "C-linear": {
+      "json": "C-linear.json",
+      "sha256": "cb57d37c806e55ca472608732c85772cfee2c2d4734726de121e57b783aa45aa",
+      "privileged": false
+    },
+    "C-nonlinear": {
+      "json": "C-nonlinear.json",
+      "sha256": "8011b248a6b6235d33da015a2673523041d3f95f042b23759019f181dec3e5ef",
+      "privileged": false
+    },
+    "P-linear": {
+      "json": "P-linear_privileged.json",
+      "sha256": "a47ef38f17dff8f3ddf23cf49e2325a980c88e1dc1fd7c578edae50bb5cf8df4",
+      "privileged": true
+    },
+    "P-nonlinear": {
+      "json": "P-nonlinear_privileged.json",
+      "sha256": "2e3aa902e4631835f4ac9ac6ba20ed4d325319872449ccca8b62d39082eabd30",
+      "privileged": true
+    },
+    "A-linear": {
+      "json": "A-linear.json",
+      "sha256": "a482f647c18702734efe23e8da7f0a0111b114f9c92388cfe846c22c725810bc",
+      "privileged": false
+    }
+  }
+}

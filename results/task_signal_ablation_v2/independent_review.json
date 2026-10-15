@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "reviewed_at_utc": "2026-10-15T03:35:15.757049+00:00",
+  "independent_video_MAE_MSE_decision_metrics": true,
+  "independent_selected_counts_conditional_means_pairwise_AUROC": true,
+  "all_18_bootstrap_comparisons_reproduced": true,
+  "seed_20261018_whole_video_indices_reproduced": true,
+  "all_JSON_finite_or_explicit_null": true,
+  "privacy_text_files_scanned": 66,
+  "figures_visually_checked": 3,
+  "frozen_sources_unchanged": true,
+  "previous_scientific_files_preserved": 2598,
+  "documentation_only_clarification": "Measured negative conclusions and one later target-decomposition hypothesis clarified;no numerical results,targets,features,models,settings or frozen sources changed.",
+  "git_branch": "experiment/task-signal-ablation-v2",
+  "publication": "Not staged,committed,pushed or published;local work only as requested."
+}

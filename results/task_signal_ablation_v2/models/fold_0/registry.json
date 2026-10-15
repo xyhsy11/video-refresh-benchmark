@@ -1,0 +1,41 @@
+{
+  "training_mean": -0.043145815175589755,
+  "training_median": -0.0017746493183681267,
+  "models": {
+    "S-linear": {
+      "json": "S-linear.json",
+      "sha256": "52ad61751f4c2bcd3db1e26823957a5bcfe1ba9fc7924b5e8e7a4a4203b3df48",
+      "privileged": false
+    },
+    "S-nonlinear": {
+      "json": "S-nonlinear.json",
+      "sha256": "503659416575f323876ebbb6f315a6e2eef6de58e1ded5b0290d699b34e492ea",
+      "privileged": false
+    },
+    "C-linear": {
+      "json": "C-linear.json",
+      "sha256": "f3538189eba03b364ccdfdd0d48323c3e2e2d4e4e039e11f491d7640d5bbfb86",
+      "privileged": false
+    },
+    "C-nonlinear": {
+      "json": "C-nonlinear.json",
+      "sha256": "9b9ccc1a14e753c3f24c8ab3251c022d0773e4c4a3fbae94cbd6c7dbb3570fc0",
+      "privileged": false
+    },
+    "P-linear": {
+      "json": "P-linear_privileged.json",
+      "sha256": "1d5e1063963f4b369252a95a1d262b6d77b61d0b682df3231db12d1df74b5f9f",
+      "privileged": true
+    },
+    "P-nonlinear": {
+      "json": "P-nonlinear_privileged.json",
+      "sha256": "8ded8cc709075644f9bf363e97afc2acddd9bdf26ae22a2195ad7b916bdf032c",
+      "privileged": true
+    },
+    "A-linear": {
+      "json": "A-linear.json",
+      "sha256": "e2a37dba9a984ff8fb42d5863f715438775c488905705a68f09c248f419dfbcc",
+      "privileged": false
+    }
+  }
+}

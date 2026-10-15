@@ -1,0 +1,960 @@
+{
+  "configurations": [
+    {
+      "configuration": "A-linear",
+      "privileged": false,
+      "input_access": "cached_and_prefix_only",
+      "cohort": "development_oof",
+      "videos": 100,
+      "opportunities": 900,
+      "mean_realized_gain": -0.002987567942115813,
+      "fraction_selected": 0.058888888888888886,
+      "selected_count": 53,
+      "helpful_selected": 29,
+      "harmful_selected": 24,
+      "neutral_selected": 0,
+      "helpful_fraction_selected": 0.5471698113207547,
+      "mean_gain_selected": -0.050732285809513805,
+      "selected_mean_undefined_reason": null,
+      "MAE": {
+        "mean": 0.26410346739080925,
+        "CI95_lower": 0.21737570224751496,
+        "CI95_upper": 0.3166367379854084
+      },
+      "MSE": {
+        "mean": 0.21974602058414175,
+        "CI95_lower": 0.14701120502314458,
+        "CI95_upper": 0.3103812558444391
+      },
+      "realized_gain": {
+        "mean": -0.002987567942115813,
+        "CI95_lower": -0.012681430930865384,
+        "CI95_upper": 0.0034356467371384836
+      },
+      "spearman": {
+        "spearman": -0.03030488046944334,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 412,
+        "negative_events": 488,
+        "AUROC": 0.5159035293649531,
+        "undefined_reason": null
+      }
+    },
+    {
+      "configuration": "C-linear",
+      "privileged": false,
+      "input_access": "cached_and_prefix_only",
+      "cohort": "development_oof",
+      "videos": 100,
+      "opportunities": 900,
+      "mean_realized_gain": -0.03132757151827405,
+      "fraction_selected": 0.44555555555555554,
+      "selected_count": 401,
+      "helpful_selected": 171,
+      "harmful_selected": 230,
+      "neutral_selected": 0,
+      "helpful_fraction_selected": 0.42643391521197005,
+      "mean_gain_selected": -0.07031125777168737,
+      "selected_mean_undefined_reason": null,
+      "MAE": {
+        "mean": 0.3482871708535809,
+        "CI95_lower": 0.3009287181594505,
+        "CI95_upper": 0.4007495533248193
+      },
+      "MSE": {
+        "mean": 0.29386490701619106,
+        "CI95_lower": 0.20353055094378422,
+        "CI95_upper": 0.40788455130215884
+      },
+      "realized_gain": {
+        "mean": -0.03132757151827405,
+        "CI95_lower": -0.05396349767981379,
+        "CI95_upper": -0.009714161127736303
+      },
+      "spearman": {
+        "spearman": -0.0342095730982384,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 412,
+        "negative_events": 488,
+        "AUROC": 0.46995364475568996,
+        "undefined_reason": null
+      }
+    },
+    {
+      "configuration": "C-nonlinear",
+      "privileged": false,
+      "input_access": "cached_and_prefix_only",
+      "cohort": "development_oof",
+      "videos": 100,
+      "opportunities": 900,
+      "mean_realized_gain": -0.014450681107021754,
+      "fraction_selected": 0.47,
+      "selected_count": 423,
+      "helpful_selected": 178,
+      "harmful_selected": 245,
+      "neutral_selected": 0,
+      "helpful_fraction_selected": 0.42080378250591016,
+      "mean_gain_selected": -0.030746130014939907,
+      "selected_mean_undefined_reason": null,
+      "MAE": {
+        "mean": 0.3048764197489326,
+        "CI95_lower": 0.26081778438859615,
+        "CI95_upper": 0.35419594202826815
+      },
+      "MSE": {
+        "mean": 0.23809819640299934,
+        "CI95_lower": 0.16694215089684267,
+        "CI95_upper": 0.32646627809510836
+      },
+      "realized_gain": {
+        "mean": -0.014450681107021754,
+        "CI95_lower": -0.03973331292086674,
+        "CI95_upper": 0.011739078437083645
+      },
+      "spearman": {
+        "spearman": -0.042329385591834065,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 412,
+        "negative_events": 488,
+        "AUROC": 0.4427025306382301,
+        "undefined_reason": null
+      }
+    },
+    {
+      "configuration": "P-linear",
+      "privileged": true,
+      "input_access": "privileged_current_RGB",
+      "cohort": "development_oof",
+      "videos": 100,
+      "opportunities": 900,
+      "mean_realized_gain": -0.0407029821773527,
+      "fraction_selected": 0.44,
+      "selected_count": 396,
+      "helpful_selected": 172,
+      "harmful_selected": 224,
+      "neutral_selected": 0,
+      "helpful_fraction_selected": 0.43434343434343436,
+      "mean_gain_selected": -0.09250677767580158,
+      "selected_mean_undefined_reason": null,
+      "MAE": {
+        "mean": 0.37360233132016646,
+        "CI95_lower": 0.32267889756100077,
+        "CI95_upper": 0.42958237679466815
+      },
+      "MSE": {
+        "mean": 0.3317588186793898,
+        "CI95_lower": 0.22972164827211364,
+        "CI95_upper": 0.46386748542875994
+      },
+      "realized_gain": {
+        "mean": -0.0407029821773527,
+        "CI95_lower": -0.07116766185198199,
+        "CI95_upper": -0.012636161792856409
+      },
+      "spearman": {
+        "spearman": -0.06764464318268706,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 412,
+        "negative_events": 488,
+        "AUROC": 0.4708588651917874,
+        "undefined_reason": null
+      }
+    },
+    {
+      "configuration": "P-nonlinear",
+      "privileged": true,
+      "input_access": "privileged_current_RGB",
+      "cohort": "development_oof",
+      "videos": 100,
+      "opportunities": 900,
+      "mean_realized_gain": -0.02759234999456563,
+      "fraction_selected": 0.46111111111111114,
+      "selected_count": 415,
+      "helpful_selected": 175,
+      "harmful_selected": 240,
+      "neutral_selected": 0,
+      "helpful_fraction_selected": 0.42168674698795183,
+      "mean_gain_selected": -0.05983883131351584,
+      "selected_mean_undefined_reason": null,
+      "MAE": {
+        "mean": 0.3055509044980263,
+        "CI95_lower": 0.2608697492862272,
+        "CI95_upper": 0.3563214583244721
+      },
+      "MSE": {
+        "mean": 0.24352275861560851,
+        "CI95_lower": 0.16885656654723716,
+        "CI95_upper": 0.3364289805014671
+      },
+      "realized_gain": {
+        "mean": -0.02759234999456563,
+        "CI95_lower": -0.055529318153382634,
+        "CI95_upper": -0.0002547544576933009
+      },
+      "spearman": {
+        "spearman": -0.05804510869766507,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 412,
+        "negative_events": 488,
+        "AUROC": 0.44762653191150725,
+        "undefined_reason": null
+      }
+    },
+    {
+      "configuration": "S-linear",
+      "privileged": false,
+      "input_access": "cached_and_prefix_only",
+      "cohort": "development_oof",
+      "videos": 100,
+      "opportunities": 900,
+      "mean_realized_gain": -0.019912828152970484,
+      "fraction_selected": 0.3233333333333333,
+      "selected_count": 291,
+      "helpful_selected": 123,
+      "harmful_selected": 168,
+      "neutral_selected": 0,
+      "helpful_fraction_selected": 0.422680412371134,
+      "mean_gain_selected": -0.06158606645248604,
+      "selected_mean_undefined_reason": null,
+      "MAE": {
+        "mean": 0.28450584493971726,
+        "CI95_lower": 0.2359621130062792,
+        "CI95_upper": 0.3400942268852441
+      },
+      "MSE": {
+        "mean": 0.24492554823013257,
+        "CI95_lower": 0.15926062359470758,
+        "CI95_upper": 0.35769176391674873
+      },
+      "realized_gain": {
+        "mean": -0.019912828152970484,
+        "CI95_lower": -0.042527698081948,
+        "CI95_upper": 0.0010281106981405077
+      },
+      "spearman": {
+        "spearman": -0.004664993413572116,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 412,
+        "negative_events": 488,
+        "AUROC": 0.48153748209454084,
+        "undefined_reason": null
+      }
+    },
+    {
+      "configuration": "S-nonlinear",
+      "privileged": false,
+      "input_access": "cached_and_prefix_only",
+      "cohort": "development_oof",
+      "videos": 100,
+      "opportunities": 900,
+      "mean_realized_gain": -0.014839537196573636,
+      "fraction_selected": 0.35,
+      "selected_count": 315,
+      "helpful_selected": 137,
+      "harmful_selected": 178,
+      "neutral_selected": 0,
+      "helpful_fraction_selected": 0.43492063492063493,
+      "mean_gain_selected": -0.04239867770449612,
+      "selected_mean_undefined_reason": null,
+      "MAE": {
+        "mean": 0.27922167990310215,
+        "CI95_lower": 0.2319921403816685,
+        "CI95_upper": 0.33166549696506453
+      },
+      "MSE": {
+        "mean": 0.2286566683864173,
+        "CI95_lower": 0.1555123011323127,
+        "CI95_upper": 0.3194795503324035
+      },
+      "realized_gain": {
+        "mean": -0.014839537196573636,
+        "CI95_lower": -0.03254203067954464,
+        "CI95_upper": 0.0018232174937170417
+      },
+      "spearman": {
+        "spearman": 0.005278360425959375,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 412,
+        "negative_events": 488,
+        "AUROC": 0.48367618971828746,
+        "undefined_reason": null
+      }
+    },
+    {
+      "configuration": "hindsight_positive_gain_reference",
+      "privileged": true,
+      "input_access": "privileged_actual_outcome",
+      "cohort": "development_oof",
+      "videos": 100,
+      "opportunities": 900,
+      "mean_realized_gain": 0.10601710448185289,
+      "fraction_selected": 0.4577777777777778,
+      "selected_count": 412,
+      "helpful_selected": 412,
+      "harmful_selected": 0,
+      "neutral_selected": 0,
+      "helpful_fraction_selected": 1.0,
+      "mean_gain_selected": 0.23159076221763977,
+      "selected_mean_undefined_reason": null,
+      "MAE": null,
+      "MSE": null,
+      "realized_gain": {
+        "mean": 0.10601710448185289,
+        "CI95_lower": 0.07411669471543023,
+        "CI95_upper": 0.14477370273140788
+      },
+      "spearman": {
+        "spearman": null,
+        "undefined_reason": "outcome reference, not a predictor"
+      },
+      "positive_gain_AUROC": null
+    },
+    {
+      "configuration": "keep_reference",
+      "privileged": false,
+      "input_access": "cached_and_prefix_only",
+      "cohort": "development_oof",
+      "videos": 100,
+      "opportunities": 900,
+      "mean_realized_gain": 0.0,
+      "fraction_selected": 0.0,
+      "selected_count": 0,
+      "helpful_selected": 0,
+      "harmful_selected": 0,
+      "neutral_selected": 0,
+      "helpful_fraction_selected": null,
+      "mean_gain_selected": null,
+      "selected_mean_undefined_reason": "no opportunities selected",
+      "MAE": null,
+      "MSE": null,
+      "realized_gain": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "spearman": {
+        "spearman": null,
+        "undefined_reason": "outcome reference, not a predictor"
+      },
+      "positive_gain_AUROC": null
+    },
+    {
+      "configuration": "training_mean",
+      "privileged": false,
+      "input_access": "cached_and_prefix_only",
+      "cohort": "development_oof",
+      "videos": 100,
+      "opportunities": 900,
+      "mean_realized_gain": 0.0,
+      "fraction_selected": 0.0,
+      "selected_count": 0,
+      "helpful_selected": 0,
+      "harmful_selected": 0,
+      "neutral_selected": 0,
+      "helpful_fraction_selected": null,
+      "mean_gain_selected": null,
+      "selected_mean_undefined_reason": "no opportunities selected",
+      "MAE": {
+        "mean": 0.26128873381761963,
+        "CI95_lower": 0.2142097696415665,
+        "CI95_upper": 0.31371093118100757
+      },
+      "MSE": {
+        "mean": 0.2181633503324446,
+        "CI95_lower": 0.1449742007929496,
+        "CI95_upper": 0.3095698179750089
+      },
+      "realized_gain": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "spearman": {
+        "spearman": -0.004251832968234924,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 412,
+        "negative_events": 488,
+        "AUROC": 0.5188007321343308,
+        "undefined_reason": null
+      }
+    },
+    {
+      "configuration": "training_median",
+      "privileged": false,
+      "input_access": "cached_and_prefix_only",
+      "cohort": "development_oof",
+      "videos": 100,
+      "opportunities": 900,
+      "mean_realized_gain": 0.0,
+      "fraction_selected": 0.0,
+      "selected_count": 0,
+      "helpful_selected": 0,
+      "harmful_selected": 0,
+      "neutral_selected": 0,
+      "helpful_fraction_selected": null,
+      "mean_gain_selected": null,
+      "selected_mean_undefined_reason": "no opportunities selected",
+      "MAE": {
+        "mean": 0.253470590499583,
+        "CI95_lower": 0.20510114907373725,
+        "CI95_upper": 0.30698621470474935
+      },
+      "MSE": {
+        "mean": 0.21828424327225415,
+        "CI95_lower": 0.14589872742295037,
+        "CI95_upper": 0.30732931587216844
+      },
+      "realized_gain": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "spearman": {
+        "spearman": -0.025946462921376708,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 412,
+        "negative_events": 488,
+        "AUROC": 0.4722465382778927,
+        "undefined_reason": null
+      }
+    },
+    {
+      "configuration": "zero",
+      "privileged": false,
+      "input_access": "cached_and_prefix_only",
+      "cohort": "development_oof",
+      "videos": 100,
+      "opportunities": 900,
+      "mean_realized_gain": 0.0,
+      "fraction_selected": 0.0,
+      "selected_count": 0,
+      "helpful_selected": 0,
+      "harmful_selected": 0,
+      "neutral_selected": 0,
+      "helpful_fraction_selected": null,
+      "mean_gain_selected": null,
+      "selected_mean_undefined_reason": "no opportunities selected",
+      "MAE": {
+        "mean": 0.253456124750895,
+        "CI95_lower": 0.20500960149400724,
+        "CI95_upper": 0.3070039448420572
+      },
+      "MSE": {
+        "mean": 0.21837403341067252,
+        "CI95_lower": 0.145988086363721,
+        "CI95_upper": 0.3072294522877487
+      },
+      "realized_gain": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "spearman": {
+        "spearman": null,
+        "undefined_reason": "constant input or outcome"
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 412,
+        "negative_events": 488,
+        "AUROC": null,
+        "undefined_reason": "constant score"
+      }
+    },
+    {
+      "configuration": "A-linear",
+      "privileged": false,
+      "input_access": "cached_and_prefix_only",
+      "cohort": "exploratory",
+      "videos": 40,
+      "opportunities": 360,
+      "mean_realized_gain": -0.00020139458975031074,
+      "fraction_selected": 0.005555555555555556,
+      "selected_count": 2,
+      "helpful_selected": 1,
+      "harmful_selected": 1,
+      "neutral_selected": 0,
+      "helpful_fraction_selected": 0.5,
+      "mean_gain_selected": -0.03625102615505593,
+      "selected_mean_undefined_reason": null,
+      "MAE": {
+        "mean": 0.30354989662357995,
+        "CI95_lower": 0.18438275128754655,
+        "CI95_upper": 0.45427556047774736
+      },
+      "MSE": {
+        "mean": 0.42591509347182727,
+        "CI95_lower": 0.11943596561672544,
+        "CI95_upper": 0.9330211107666583
+      },
+      "realized_gain": {
+        "mean": -0.00020139458975031074,
+        "CI95_lower": -0.0006347406377264017,
+        "CI95_upper": 3.055686847546942e-05
+      },
+      "spearman": {
+        "spearman": -0.026376367341456076,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 154,
+        "negative_events": 206,
+        "AUROC": 0.4866504854368932,
+        "undefined_reason": null
+      }
+    },
+    {
+      "configuration": "C-linear",
+      "privileged": false,
+      "input_access": "cached_and_prefix_only",
+      "cohort": "exploratory",
+      "videos": 40,
+      "opportunities": 360,
+      "mean_realized_gain": -0.058498642160877,
+      "fraction_selected": 0.4166666666666667,
+      "selected_count": 150,
+      "helpful_selected": 62,
+      "harmful_selected": 88,
+      "neutral_selected": 0,
+      "helpful_fraction_selected": 0.41333333333333333,
+      "mean_gain_selected": -0.1403967411861048,
+      "selected_mean_undefined_reason": null,
+      "MAE": {
+        "mean": 0.368692341425509,
+        "CI95_lower": 0.24365043537765046,
+        "CI95_upper": 0.5267335683445543
+      },
+      "MSE": {
+        "mean": 0.4923735197671465,
+        "CI95_lower": 0.15999212815104977,
+        "CI95_upper": 1.0334695137057137
+      },
+      "realized_gain": {
+        "mean": -0.058498642160877,
+        "CI95_lower": -0.14955071865147035,
+        "CI95_upper": 0.005932111764191617
+      },
+      "spearman": {
+        "spearman": -0.11293759982715915,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 154,
+        "negative_events": 206,
+        "AUROC": 0.4351279788172992,
+        "undefined_reason": null
+      }
+    },
+    {
+      "configuration": "C-nonlinear",
+      "privileged": false,
+      "input_access": "cached_and_prefix_only",
+      "cohort": "exploratory",
+      "videos": 40,
+      "opportunities": 360,
+      "mean_realized_gain": -0.08869946196915182,
+      "fraction_selected": 0.41944444444444445,
+      "selected_count": 151,
+      "helpful_selected": 67,
+      "harmful_selected": 84,
+      "neutral_selected": 0,
+      "helpful_fraction_selected": 0.44370860927152317,
+      "mean_gain_selected": -0.21146891595294476,
+      "selected_mean_undefined_reason": null,
+      "MAE": {
+        "mean": 0.33982775640588797,
+        "CI95_lower": 0.21888196147094313,
+        "CI95_upper": 0.49595266375674657
+      },
+      "MSE": {
+        "mean": 0.47874061019502967,
+        "CI95_lower": 0.13975929056727363,
+        "CI95_upper": 1.0346294873119533
+      },
+      "realized_gain": {
+        "mean": -0.08869946196915182,
+        "CI95_lower": -0.22155032832670668,
+        "CI95_upper": -0.0030935502159009387
+      },
+      "spearman": {
+        "spearman": -0.05818537694478095,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 154,
+        "negative_events": 206,
+        "AUROC": 0.4750346740638003,
+        "undefined_reason": null
+      }
+    },
+    {
+      "configuration": "P-linear",
+      "privileged": true,
+      "input_access": "privileged_current_RGB",
+      "cohort": "exploratory",
+      "videos": 40,
+      "opportunities": 360,
+      "mean_realized_gain": -0.09228445536417687,
+      "fraction_selected": 0.425,
+      "selected_count": 153,
+      "helpful_selected": 57,
+      "harmful_selected": 96,
+      "neutral_selected": 0,
+      "helpful_fraction_selected": 0.37254901960784315,
+      "mean_gain_selected": -0.21713989497453384,
+      "selected_mean_undefined_reason": null,
+      "MAE": {
+        "mean": 0.3818195128640172,
+        "CI95_lower": 0.25661775383249846,
+        "CI95_upper": 0.5429399216515264
+      },
+      "MSE": {
+        "mean": 0.5194316883516645,
+        "CI95_lower": 0.169230322889225,
+        "CI95_upper": 1.09474268013743
+      },
+      "realized_gain": {
+        "mean": -0.09228445536417687,
+        "CI95_lower": -0.24784053825934124,
+        "CI95_upper": 0.006859385262426632
+      },
+      "spearman": {
+        "spearman": -0.14292059866717077,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 154,
+        "negative_events": 206,
+        "AUROC": 0.40893329970999875,
+        "undefined_reason": null
+      }
+    },
+    {
+      "configuration": "P-nonlinear",
+      "privileged": true,
+      "input_access": "privileged_current_RGB",
+      "cohort": "exploratory",
+      "videos": 40,
+      "opportunities": 360,
+      "mean_realized_gain": -0.09800678930222205,
+      "fraction_selected": 0.4111111111111111,
+      "selected_count": 148,
+      "helpful_selected": 54,
+      "harmful_selected": 94,
+      "neutral_selected": 0,
+      "helpful_fraction_selected": 0.36486486486486486,
+      "mean_gain_selected": -0.23839489289729685,
+      "selected_mean_undefined_reason": null,
+      "MAE": {
+        "mean": 0.3416654138372712,
+        "CI95_lower": 0.2168870450350521,
+        "CI95_upper": 0.5016144823275249
+      },
+      "MSE": {
+        "mean": 0.4886247379881545,
+        "CI95_lower": 0.14090083963529518,
+        "CI95_upper": 1.0627064026208983
+      },
+      "realized_gain": {
+        "mean": -0.09800678930222205,
+        "CI95_lower": -0.2295085561546661,
+        "CI95_upper": -0.012691484193391462
+      },
+      "spearman": {
+        "spearman": -0.1259397577656206,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 154,
+        "negative_events": 206,
+        "AUROC": 0.4356008069600303,
+        "undefined_reason": null
+      }
+    },
+    {
+      "configuration": "S-linear",
+      "privileged": false,
+      "input_access": "cached_and_prefix_only",
+      "cohort": "exploratory",
+      "videos": 40,
+      "opportunities": 360,
+      "mean_realized_gain": -0.06921134330878234,
+      "fraction_selected": 0.3888888888888889,
+      "selected_count": 140,
+      "helpful_selected": 55,
+      "harmful_selected": 85,
+      "neutral_selected": 0,
+      "helpful_fraction_selected": 0.39285714285714285,
+      "mean_gain_selected": -0.17797202565115455,
+      "selected_mean_undefined_reason": null,
+      "MAE": {
+        "mean": 0.3308328161720397,
+        "CI95_lower": 0.2069451626569503,
+        "CI95_upper": 0.4847914925746924
+      },
+      "MSE": {
+        "mean": 0.4575489833687362,
+        "CI95_lower": 0.13971607539143485,
+        "CI95_upper": 0.9718815577318061
+      },
+      "realized_gain": {
+        "mean": -0.06921134330878234,
+        "CI95_lower": -0.13927612843365525,
+        "CI95_upper": -0.013926786350557217
+      },
+      "spearman": {
+        "spearman": -0.14530101826917388,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 154,
+        "negative_events": 206,
+        "AUROC": 0.42349640650611525,
+        "undefined_reason": null
+      }
+    },
+    {
+      "configuration": "S-nonlinear",
+      "privileged": false,
+      "input_access": "cached_and_prefix_only",
+      "cohort": "exploratory",
+      "videos": 40,
+      "opportunities": 360,
+      "mean_realized_gain": -0.09685763654863007,
+      "fraction_selected": 0.4888888888888889,
+      "selected_count": 176,
+      "helpful_selected": 69,
+      "harmful_selected": 107,
+      "neutral_selected": 0,
+      "helpful_fraction_selected": 0.39204545454545453,
+      "mean_gain_selected": -0.1981178929403797,
+      "selected_mean_undefined_reason": null,
+      "MAE": {
+        "mean": 0.3254763909765085,
+        "CI95_lower": 0.19764505474072408,
+        "CI95_upper": 0.49069066892904384
+      },
+      "MSE": {
+        "mean": 0.48696306885994217,
+        "CI95_lower": 0.1317578569640193,
+        "CI95_upper": 1.076423748468913
+      },
+      "realized_gain": {
+        "mean": -0.09685763654863007,
+        "CI95_lower": -0.24529358757658606,
+        "CI95_upper": -0.0005083892340628785
+      },
+      "spearman": {
+        "spearman": -0.10045782246262189,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 154,
+        "negative_events": 206,
+        "AUROC": 0.4506682637750599,
+        "undefined_reason": null
+      }
+    },
+    {
+      "configuration": "hindsight_positive_gain_reference",
+      "privileged": true,
+      "input_access": "privileged_actual_outcome",
+      "cohort": "exploratory",
+      "videos": 40,
+      "opportunities": 360,
+      "mean_realized_gain": 0.09393186097096455,
+      "fraction_selected": 0.42777777777777776,
+      "selected_count": 154,
+      "helpful_selected": 154,
+      "harmful_selected": 0,
+      "neutral_selected": 0,
+      "helpful_fraction_selected": 1.0,
+      "mean_gain_selected": 0.21958097369835866,
+      "selected_mean_undefined_reason": null,
+      "MAE": null,
+      "MSE": null,
+      "realized_gain": {
+        "mean": 0.09393186097096455,
+        "CI95_lower": 0.04952911470581062,
+        "CI95_upper": 0.1460495867743868
+      },
+      "spearman": {
+        "spearman": null,
+        "undefined_reason": "outcome reference, not a predictor"
+      },
+      "positive_gain_AUROC": null
+    },
+    {
+      "configuration": "keep_reference",
+      "privileged": false,
+      "input_access": "cached_and_prefix_only",
+      "cohort": "exploratory",
+      "videos": 40,
+      "opportunities": 360,
+      "mean_realized_gain": 0.0,
+      "fraction_selected": 0.0,
+      "selected_count": 0,
+      "helpful_selected": 0,
+      "harmful_selected": 0,
+      "neutral_selected": 0,
+      "helpful_fraction_selected": null,
+      "mean_gain_selected": null,
+      "selected_mean_undefined_reason": "no opportunities selected",
+      "MAE": null,
+      "MSE": null,
+      "realized_gain": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "spearman": {
+        "spearman": null,
+        "undefined_reason": "outcome reference, not a predictor"
+      },
+      "positive_gain_AUROC": null
+    },
+    {
+      "configuration": "training_mean",
+      "privileged": false,
+      "input_access": "cached_and_prefix_only",
+      "cohort": "exploratory",
+      "videos": 40,
+      "opportunities": 360,
+      "mean_realized_gain": 0.0,
+      "fraction_selected": 0.0,
+      "selected_count": 0,
+      "helpful_selected": 0,
+      "harmful_selected": 0,
+      "neutral_selected": 0,
+      "helpful_fraction_selected": null,
+      "mean_gain_selected": null,
+      "selected_mean_undefined_reason": "no opportunities selected",
+      "MAE": {
+        "mean": 0.3014255365448323,
+        "CI95_lower": 0.1823810825377817,
+        "CI95_upper": 0.4531261302595314
+      },
+      "MSE": {
+        "mean": 0.42350290040337324,
+        "CI95_lower": 0.11857974532036833,
+        "CI95_upper": 0.9294209551999894
+      },
+      "realized_gain": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "spearman": {
+        "spearman": null,
+        "undefined_reason": "constant input or outcome"
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 154,
+        "negative_events": 206,
+        "AUROC": null,
+        "undefined_reason": "constant score"
+      }
+    },
+    {
+      "configuration": "training_median",
+      "privileged": false,
+      "input_access": "cached_and_prefix_only",
+      "cohort": "exploratory",
+      "videos": 40,
+      "opportunities": 360,
+      "mean_realized_gain": 0.0,
+      "fraction_selected": 0.0,
+      "selected_count": 0,
+      "helpful_selected": 0,
+      "harmful_selected": 0,
+      "neutral_selected": 0,
+      "helpful_fraction_selected": null,
+      "mean_gain_selected": null,
+      "selected_mean_undefined_reason": "no opportunities selected",
+      "MAE": {
+        "mean": 0.29515650229991724,
+        "CI95_lower": 0.17233289964404286,
+        "CI95_upper": 0.45029730951490476
+      },
+      "MSE": {
+        "mean": 0.43042385684085555,
+        "CI95_lower": 0.11988671844406133,
+        "CI95_upper": 0.9449806282309169
+      },
+      "realized_gain": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "spearman": {
+        "spearman": null,
+        "undefined_reason": "constant input or outcome"
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 154,
+        "negative_events": 206,
+        "AUROC": null,
+        "undefined_reason": "constant score"
+      }
+    },
+    {
+      "configuration": "zero",
+      "privileged": false,
+      "input_access": "cached_and_prefix_only",
+      "cohort": "exploratory",
+      "videos": 40,
+      "opportunities": 360,
+      "mean_realized_gain": 0.0,
+      "fraction_selected": 0.0,
+      "selected_count": 0,
+      "helpful_selected": 0,
+      "harmful_selected": 0,
+      "neutral_selected": 0,
+      "helpful_fraction_selected": null,
+      "mean_gain_selected": null,
+      "selected_mean_undefined_reason": "no opportunities selected",
+      "MAE": {
+        "mean": 0.29524330691115785,
+        "CI95_lower": 0.1724212560576109,
+        "CI95_upper": 0.4505810738450424
+      },
+      "MSE": {
+        "mean": 0.4306828615476096,
+        "CI95_lower": 0.1199037918100981,
+        "CI95_upper": 0.9455231004759453
+      },
+      "realized_gain": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "spearman": {
+        "spearman": null,
+        "undefined_reason": "constant input or outcome"
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 154,
+        "negative_events": 206,
+        "AUROC": null,
+        "undefined_reason": "constant score"
+      }
+    }
+  ]
+}
