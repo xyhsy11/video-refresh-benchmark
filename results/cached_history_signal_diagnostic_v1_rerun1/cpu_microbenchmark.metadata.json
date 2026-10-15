@@ -1,0 +1,107 @@
+{
+  "recorded_at_utc": "2026-10-15T10:34:02.463383+00:00",
+  "sample_source_ids": [
+    "3exdpRbcMmA",
+    "4lYz1L-SEbo",
+    "5G94o6UdX2w",
+    "5GUT-khf_tU",
+    "5WDVITnmb_Y",
+    "5ZwiGw_g8YA",
+    "5dRnwv9ZiG4",
+    "64Yy2hwDYac",
+    "67vhJRyiwmI",
+    "6KG0mbhejCs"
+  ],
+  "warmup_passes": 2,
+  "measured_passes": 5,
+  "seed": 20261021,
+  "rng": "PCG64",
+  "warmup_execution_order": [
+    [
+      "augmented_history_scale_RF1",
+      "baseline_scale_RF1",
+      "history_T"
+    ],
+    [
+      "baseline_scale_RF1",
+      "augmented_history_scale_RF1",
+      "history_T"
+    ]
+  ],
+  "measured_execution_order": [
+    {
+      "run_id": 1,
+      "order": [
+        "baseline_scale_RF1",
+        "history_T",
+        "augmented_history_scale_RF1"
+      ]
+    },
+    {
+      "run_id": 2,
+      "order": [
+        "augmented_history_scale_RF1",
+        "history_T",
+        "baseline_scale_RF1"
+      ]
+    },
+    {
+      "run_id": 3,
+      "order": [
+        "baseline_scale_RF1",
+        "history_T",
+        "augmented_history_scale_RF1"
+      ]
+    },
+    {
+      "run_id": 4,
+      "order": [
+        "augmented_history_scale_RF1",
+        "history_T",
+        "baseline_scale_RF1"
+      ]
+    },
+    {
+      "run_id": 5,
+      "order": [
+        "history_T",
+        "augmented_history_scale_RF1",
+        "baseline_scale_RF1"
+      ]
+    }
+  ],
+  "execution": "one process,sequential;RF n_jobs1;batch size1",
+  "boundary": "perf_counter around one component pass over10 preloaded videos/90 chronological opportunities",
+  "includes": {
+    "history_T": "per-video state allocation/reset,all30 distinct history updates,90 T accesses;T recomputed only for new cached events",
+    "baseline_scale_RF1": "56-column scaling and90 individual RF400 predict calls,including sklearn prediction validation",
+    "augmented_history_scale_RF1": "same history updates/reset,T construction,100-column concatenation/scaling,90 individual RF400 predict calls"
+  },
+  "excludes": [
+    "file/model loading",
+    "fitting",
+    "logging",
+    "correctness assertions",
+    "video decoding",
+    "RGB extraction",
+    "codec-vector extraction",
+    "full recognition execution"
+  ],
+  "model_choice": "final development models;sampled training sources used only for CPU component work,not heldout quality claims",
+  "history_softmax_evaluations_per_pass": 30,
+  "history_feature_assemblies_per_pass": 30,
+  "timing_note": "component CPU timings only;no subtraction from old pilot or end-to-end adaptive speedup claim",
+  "history_state": {
+    "ndarray_payload_bytes": 904,
+    "python_counter_bytes": 28,
+    "python_object_and_arrays_sizeof_estimate_bytes": 1588,
+    "maximum_distinct_scores": 3,
+    "history_score_float64_values": 60,
+    "cached_T_float64_values": 44,
+    "retained_margin_float64_values": 3,
+    "retained_top1_and_refresh_int64_values": 6,
+    "transient_augmented_input_bytes": 800,
+    "incremental_input_bytes_vs_56_columns": 352,
+    "exclusions": "Python allocator/transient arrays/RF model/workspace not fully captured by sizeof;model sizes reported separately"
+  }
+}

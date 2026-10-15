@@ -1,0 +1,37 @@
+{
+  "reviewed_at_utc": "2026-10-15T10:43:36.425204+00:00",
+  "status": "publication_checks_passed",
+  "scientific_artifact_sha256": {
+    "protocol.json": "de8b73afc0ea180fba7e191b5b095cb3d319273bc7ec8f43370e8b5b08470518",
+    "fold_manifest.json": "7f267a8206d879a840fb5c4c2709b2ec3c72d98d44bb4fb770558bbf516aed54",
+    "frozen_models.json": "19e23c5122c82289d5b70b814d330d11fa6d6a6e487c7ae8086e862bd65ba1c8",
+    "out_of_fold_predictions.csv": "fb0485a6c5bef20e5bdcc4f6593f5b863285fa7adc4bbbcaf922287434eeeb3d",
+    "exploratory_predictions.csv": "23d7471ae32a1b1286c6c83d6b77508fe8fa566a891273fb8ac9fde1ec120129",
+    "aggregate_metrics.json": "83d17c5384e33ee9d394caa366d3bc77c676d5b93e42670a7b9c68e192f34865",
+    "bootstrap_intervals.json": "032386e93641394befea3bbc55df3dab6d83c6a672931f2ae719777d0ebc6634",
+    "per_video_metrics.csv": "acdec7b758bd7f042acfb6af4f49318672b8b69918b85ea216b2af6c1f66cc66",
+    "history_length_metrics.csv": "e90d7df52e865bba6ac69ee97b471bab235707318be1749f8a22d8a5b7eda49e",
+    "cpu_microbenchmark.csv": "23861b144691aa0ed0a3cd5a155bbe86a48031b483e7c6a564d88ccac32ee8ae",
+    "cpu_microbenchmark.metadata.json": "eec04492b47c2ad0e5769ab3b1274d589b3605efcab4e3909aa8d51f0c12acc1"
+  },
+  "frozen_analysis_sources_unchanged": true,
+  "prior_tracked_scientific_files_preserved": 2927,
+  "verification_correction": "verification_correction/correction.json",
+  "editorial_changes": "Appended measured interpretation, timing-operation/staging notes and correction explanation to findings;added root README section. No model,feature,target,seed,threshold,protocol or measurement changes. Clarified twelve augmented-probe fits across two preserved attempts, six per attempt;zero recognition-head fits.",
+  "figures_visually_reviewed": [
+    "figures/decision_utility.png",
+    "figures/history_length_comparison.png"
+  ],
+  "release_validation": {
+    "passed": true,
+    "relative_links": 149
+  },
+  "privacy_finite_JSON_size_and_asset_checks": "passed",
+  "package_versions_unchanged": true,
+  "actual_RGB_encoder_executions": 0,
+  "video_decodes": 0,
+  "video_downloads": 0,
+  "recognition_training_calls": 0,
+  "publication_scope": "New code and curated completed rerun snapshot;initial incomplete run preserved locally;videos,archives,encoder weights,environments and credentials excluded",
+  "completed_run_audits_preserve_measurements": true
+}

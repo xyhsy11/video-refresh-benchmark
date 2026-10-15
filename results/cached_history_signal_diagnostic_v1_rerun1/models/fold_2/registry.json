@@ -1,0 +1,17 @@
+{
+  "training_mean": -0.04096456638624114,
+  "training_median": -0.002242584661182434,
+  "models": {
+    "C_RF400": {
+      "file": "Direct_G_RF400_G.json",
+      "sha256": "79c2593e649286dc768778a1bb8596a075cb394091ca3ae5712c2e6c2115fb04",
+      "type": "forest"
+    },
+    "C_plus_T_RF400": {
+      "file": "C_plus_T_RF400.json",
+      "sha256": "5c75b05d4592b3a0e5375fcdde7216121152cfa2bdf33465b3e9ea6b527b6274",
+      "type": "forest"
+    }
+  },
+  "baseline_refitted": false
+}

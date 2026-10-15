@@ -1,0 +1,14 @@
+{
+  "recorded_at_utc": "2026-10-15T10:28:17.765047+00:00",
+  "status": "incomplete_preserved",
+  "reason": "CSV inference changed float64 T masks into int64; strict frame verification stopped before reporting completion.",
+  "planned_correction": "Explicit float64 dtype for all44 T columns in the audit CSV reader; retain strict dtype/value comparisons;add roundtrip fixture.",
+  "scientific_changes": "none;feature formulas,targets,cohorts,folds,RF parameters,threshold and bootstrap unchanged",
+  "saved_result_sha256": {
+    "out_of_fold_predictions.csv": "fb0485a6c5bef20e5bdcc4f6593f5b863285fa7adc4bbbcaf922287434eeeb3d",
+    "exploratory_predictions.csv": "23d7471ae32a1b1286c6c83d6b77508fe8fa566a891273fb8ac9fde1ec120129",
+    "aggregate_metrics.json": "83d17c5384e33ee9d394caa366d3bc77c676d5b93e42670a7b9c68e192f34865",
+    "bootstrap_intervals.json": "032386e93641394befea3bbc55df3dab6d83c6a672931f2ae719777d0ebc6634",
+    "cpu_microbenchmark.csv": "a551b18bb68295808910938511613c9a998758cc247d91adaa25f2635ecd711e"
+  }
+}

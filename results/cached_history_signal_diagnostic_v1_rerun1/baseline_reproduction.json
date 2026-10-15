@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-15T10:30:30.053881+00:00",
+  "checks": [
+    {
+      "cohort": "development",
+      "fold": 0,
+      "opportunities": 180,
+      "max_absolute_prediction_discrepancy": 0.0,
+      "decision_disagreements": 0
+    },
+    {
+      "cohort": "development",
+      "fold": 1,
+      "opportunities": 180,
+      "max_absolute_prediction_discrepancy": 0.0,
+      "decision_disagreements": 0
+    },
+    {
+      "cohort": "development",
+      "fold": 2,
+      "opportunities": 180,
+      "max_absolute_prediction_discrepancy": 0.0,
+      "decision_disagreements": 0
+    },
+    {
+      "cohort": "development",
+      "fold": 3,
+      "opportunities": 180,
+      "max_absolute_prediction_discrepancy": 0.0,
+      "decision_disagreements": 0
+    },
+    {
+      "cohort": "development",
+      "fold": 4,
+      "opportunities": 180,
+      "max_absolute_prediction_discrepancy": 0.0,
+      "decision_disagreements": 0
+    },
+    {
+      "cohort": "exploratory",
+      "fold": -1,
+      "opportunities": 360,
+      "max_absolute_prediction_discrepancy": 0.0,
+      "decision_disagreements": 0
+    }
+  ],
+  "max_absolute_discrepancy": 0.0
+}

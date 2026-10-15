@@ -1,0 +1,1765 @@
+{
+  "history_length_zero_means": "all nine opportunities;valid observation histories have lengths1,2,3",
+  "metrics": [
+    {
+      "cohort": "development_oof",
+      "method": "C_RF400",
+      "history_length": 0,
+      "videos": 100,
+      "opportunities": 900,
+      "selected": 285,
+      "helpful": 107,
+      "harmful": 178,
+      "neutral": 0,
+      "mean_selected_gain": -0.07934292275345015,
+      "mean_selected_gain_denominator": 285,
+      "undefined_selected_reason": null,
+      "MAE": {
+        "mean": 0.28024840983204796,
+        "CI95_lower": 0.23337201778636182,
+        "CI95_upper": 0.331122150305857
+      },
+      "MSE": {
+        "mean": 0.23172031858381328,
+        "CI95_lower": 0.15198982684747123,
+        "CI95_upper": 0.32796053310209256
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.026777819332465,
+        "CI95_lower": -0.03780828360542277,
+        "CI95_upper": -0.016192578525654575
+      },
+      "utility": {
+        "mean": -0.02512525887192588,
+        "CI95_lower": -0.04201294459163146,
+        "CI95_upper": -0.008677474352837103
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": -0.0468156315474492,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 412,
+        "negative_events": 488,
+        "AUROC": 0.43724385245901637,
+        "undefined_reason": null
+      }
+    },
+    {
+      "cohort": "development_oof",
+      "method": "C_plus_T_RF400",
+      "history_length": 0,
+      "videos": 100,
+      "opportunities": 900,
+      "selected": 275,
+      "helpful": 116,
+      "harmful": 159,
+      "neutral": 0,
+      "mean_selected_gain": -0.039104255990865186,
+      "mean_selected_gain_denominator": 275,
+      "undefined_selected_reason": null,
+      "MAE": {
+        "mean": 0.2787108802220051,
+        "CI95_lower": 0.2317444215098095,
+        "CI95_upper": 0.3284619026228319
+      },
+      "MSE": {
+        "mean": 0.22696904236730195,
+        "CI95_lower": 0.15121091107818027,
+        "CI95_upper": 0.31543885209722156
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.02524028972242217,
+        "CI95_lower": -0.03628599878638714,
+        "CI95_upper": -0.014739148916654692
+      },
+      "utility": {
+        "mean": -0.011948522663875472,
+        "CI95_lower": -0.028149432517877694,
+        "CI95_upper": 0.003645410233591713
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": -0.0061163458553890136,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 412,
+        "negative_events": 488,
+        "AUROC": 0.47299011220754417,
+        "undefined_reason": null
+      }
+    },
+    {
+      "cohort": "development_oof",
+      "method": "keep_reference",
+      "history_length": 0,
+      "videos": 100,
+      "opportunities": 900,
+      "selected": 0,
+      "helpful": 0,
+      "harmful": 0,
+      "neutral": 0,
+      "mean_selected_gain": null,
+      "mean_selected_gain_denominator": 0,
+      "undefined_selected_reason": "no selected opportunities",
+      "MAE": {
+        "mean": 0.253456124750895,
+        "CI95_lower": 0.20526652418529015,
+        "CI95_upper": 0.30525115766085265
+      },
+      "MSE": {
+        "mean": 0.21837403341067252,
+        "CI95_lower": 0.144751470778844,
+        "CI95_upper": 0.3031906661242045
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": 1.446574868789329e-05,
+        "CI95_lower": -0.00013182979652966842,
+        "CI95_upper": 0.00016189039958761916
+      },
+      "utility": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": null,
+        "undefined_reason": "constant input or outcome"
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 412,
+        "negative_events": 488,
+        "AUROC": null,
+        "undefined_reason": "constant score"
+      }
+    },
+    {
+      "cohort": "development_oof",
+      "method": "training_mean",
+      "history_length": 0,
+      "videos": 100,
+      "opportunities": 900,
+      "selected": 0,
+      "helpful": 0,
+      "harmful": 0,
+      "neutral": 0,
+      "mean_selected_gain": null,
+      "mean_selected_gain_denominator": 0,
+      "undefined_selected_reason": "no selected opportunities",
+      "MAE": {
+        "mean": 0.26128873381761963,
+        "CI95_lower": 0.21386049473529256,
+        "CI95_upper": 0.3116720936939769
+      },
+      "MSE": {
+        "mean": 0.2181633503324446,
+        "CI95_lower": 0.14361474459763832,
+        "CI95_upper": 0.3049945311555571
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.00781814331803667,
+        "CI95_lower": -0.012135247264366815,
+        "CI95_upper": -0.0034368663386063975
+      },
+      "utility": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": -0.004251832968234924,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 412,
+        "negative_events": 488,
+        "AUROC": 0.5188007321343308,
+        "undefined_reason": null
+      }
+    },
+    {
+      "cohort": "development_oof",
+      "method": "training_median",
+      "history_length": 0,
+      "videos": 100,
+      "opportunities": 900,
+      "selected": 0,
+      "helpful": 0,
+      "harmful": 0,
+      "neutral": 0,
+      "mean_selected_gain": null,
+      "mean_selected_gain_denominator": 0,
+      "undefined_selected_reason": "no selected opportunities",
+      "MAE": {
+        "mean": 0.253470590499583,
+        "CI95_lower": 0.20525651693802907,
+        "CI95_upper": 0.30522242819752227
+      },
+      "MSE": {
+        "mean": 0.21828424327225415,
+        "CI95_lower": 0.14464578269669276,
+        "CI95_upper": 0.3031410887942159
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "utility": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": -0.025946462921376708,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 412,
+        "negative_events": 488,
+        "AUROC": 0.4722465382778927,
+        "undefined_reason": null
+      }
+    },
+    {
+      "cohort": "development_oof",
+      "method": "C_RF400",
+      "history_length": 1,
+      "videos": 100,
+      "opportunities": 300,
+      "selected": 97,
+      "helpful": 47,
+      "harmful": 50,
+      "neutral": 0,
+      "mean_selected_gain": -0.03990361213046109,
+      "mean_selected_gain_denominator": 97,
+      "undefined_selected_reason": null,
+      "MAE": {
+        "mean": 0.2722856988395615,
+        "CI95_lower": 0.20771370800889494,
+        "CI95_upper": 0.35079782157536504
+      },
+      "MSE": {
+        "mean": 0.2625696304351752,
+        "CI95_lower": 0.12386044128644999,
+        "CI95_upper": 0.4759773215373054
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.02610489220258188,
+        "CI95_lower": -0.04231861366905144,
+        "CI95_upper": -0.01098074543385219
+      },
+      "utility": {
+        "mean": -0.012902167922182422,
+        "CI95_lower": -0.04087243005323798,
+        "CI95_upper": 0.012488003877810468
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": -0.003030036360437522,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 157,
+        "negative_events": 143,
+        "AUROC": 0.47376508841476994,
+        "undefined_reason": null
+      }
+    },
+    {
+      "cohort": "development_oof",
+      "method": "C_plus_T_RF400",
+      "history_length": 1,
+      "videos": 100,
+      "opportunities": 300,
+      "selected": 127,
+      "helpful": 61,
+      "harmful": 66,
+      "neutral": 0,
+      "mean_selected_gain": -0.026273913266237212,
+      "mean_selected_gain_denominator": 127,
+      "undefined_selected_reason": null,
+      "MAE": {
+        "mean": 0.26293527878817496,
+        "CI95_lower": 0.19796445416451242,
+        "CI95_upper": 0.3412979949584884
+      },
+      "MSE": {
+        "mean": 0.2562788949035573,
+        "CI95_lower": 0.12236296376091213,
+        "CI95_upper": 0.45818744715372683
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.01675447215119535,
+        "CI95_lower": -0.029017442582409285,
+        "CI95_upper": -0.005903083010615556
+      },
+      "utility": {
+        "mean": -0.011122623282707089,
+        "CI95_lower": -0.039068611590302435,
+        "CI95_upper": 0.014063602751910773
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": -0.048145562926970774,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 157,
+        "negative_events": 143,
+        "AUROC": 0.4491782103247071,
+        "undefined_reason": null
+      }
+    },
+    {
+      "cohort": "development_oof",
+      "method": "keep_reference",
+      "history_length": 1,
+      "videos": 100,
+      "opportunities": 300,
+      "selected": 0,
+      "helpful": 0,
+      "harmful": 0,
+      "neutral": 0,
+      "mean_selected_gain": null,
+      "mean_selected_gain_denominator": 0,
+      "undefined_selected_reason": "no selected opportunities",
+      "MAE": {
+        "mean": 0.24599565112365349,
+        "CI95_lower": 0.1815397175099853,
+        "CI95_upper": 0.32281739613140464
+      },
+      "MSE": {
+        "mean": 0.24110071854302448,
+        "CI95_lower": 0.11556122972666052,
+        "CI95_upper": 0.42440157857020416
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": 0.0001851555133261404,
+        "CI95_lower": -4.645216519669465e-05,
+        "CI95_upper": 0.0004103934588201332
+      },
+      "utility": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": null,
+        "undefined_reason": "constant input or outcome"
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 157,
+        "negative_events": 143,
+        "AUROC": null,
+        "undefined_reason": "constant score"
+      }
+    },
+    {
+      "cohort": "development_oof",
+      "method": "training_mean",
+      "history_length": 1,
+      "videos": 100,
+      "opportunities": 300,
+      "selected": 0,
+      "helpful": 0,
+      "harmful": 0,
+      "neutral": 0,
+      "mean_selected_gain": null,
+      "mean_selected_gain_denominator": 0,
+      "undefined_selected_reason": "no selected opportunities",
+      "MAE": {
+        "mean": 0.25498258635100096,
+        "CI95_lower": 0.1916300697397938,
+        "CI95_upper": 0.3311625416421855
+      },
+      "MSE": {
+        "mean": 0.242735720482821,
+        "CI95_lower": 0.11595853427062931,
+        "CI95_upper": 0.43133865103140356
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.008801779714021317,
+        "CI95_lower": -0.014560602443970005,
+        "CI95_upper": -0.0028014139995050547
+      },
+      "utility": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": 0.1361923863252149,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 157,
+        "negative_events": 143,
+        "AUROC": 0.5694846554719166,
+        "undefined_reason": null
+      }
+    },
+    {
+      "cohort": "development_oof",
+      "method": "training_median",
+      "history_length": 1,
+      "videos": 100,
+      "opportunities": 300,
+      "selected": 0,
+      "helpful": 0,
+      "harmful": 0,
+      "neutral": 0,
+      "mean_selected_gain": null,
+      "mean_selected_gain_denominator": 0,
+      "undefined_selected_reason": "no selected opportunities",
+      "MAE": {
+        "mean": 0.2461808066369796,
+        "CI95_lower": 0.18173977407979808,
+        "CI95_upper": 0.32293515647710536
+      },
+      "MSE": {
+        "mean": 0.24110488923649875,
+        "CI95_lower": 0.11555786764385215,
+        "CI95_upper": 0.42453515253490115
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "utility": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": -0.055848676406742806,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 157,
+        "negative_events": 143,
+        "AUROC": 0.4305153445280834,
+        "undefined_reason": null
+      }
+    },
+    {
+      "cohort": "development_oof",
+      "method": "C_RF400",
+      "history_length": 2,
+      "videos": 100,
+      "opportunities": 300,
+      "selected": 93,
+      "helpful": 29,
+      "harmful": 64,
+      "neutral": 0,
+      "mean_selected_gain": -0.12656827604725607,
+      "mean_selected_gain_denominator": 93,
+      "undefined_selected_reason": null,
+      "MAE": {
+        "mean": 0.3004895133372521,
+        "CI95_lower": 0.24709816134149687,
+        "CI95_upper": 0.3601213001792675
+      },
+      "MSE": {
+        "mean": 0.21149161889813503,
+        "CI95_lower": 0.1356713586781074,
+        "CI95_upper": 0.3070821085330534
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.02433420728454918,
+        "CI95_lower": -0.04142748958758932,
+        "CI95_upper": -0.007499164863238752
+      },
+      "utility": {
+        "mean": -0.03923616557464939,
+        "CI95_lower": -0.07599185281426535,
+        "CI95_upper": -0.010769267780086867
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": -0.02710207891198791,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 122,
+        "negative_events": 178,
+        "AUROC": 0.42438754835144593,
+        "undefined_reason": null
+      }
+    },
+    {
+      "cohort": "development_oof",
+      "method": "C_plus_T_RF400",
+      "history_length": 2,
+      "videos": 100,
+      "opportunities": 300,
+      "selected": 66,
+      "helpful": 24,
+      "harmful": 42,
+      "neutral": 0,
+      "mean_selected_gain": -0.058540090338154986,
+      "mean_selected_gain_denominator": 66,
+      "undefined_selected_reason": null,
+      "MAE": {
+        "mean": 0.29768082519726285,
+        "CI95_lower": 0.24483178143621184,
+        "CI95_upper": 0.35557483718270055
+      },
+      "MSE": {
+        "mean": 0.20394436899347962,
+        "CI95_lower": 0.1337018541013445,
+        "CI95_upper": 0.2930097578388446
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.021525519144559916,
+        "CI95_lower": -0.042326202460801064,
+        "CI95_upper": -0.0015112592428145057
+      },
+      "utility": {
+        "mean": -0.012878819874394097,
+        "CI95_lower": -0.028827803649300057,
+        "CI95_upper": 0.0016652226739818506
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": 0.06577584195379949,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 122,
+        "negative_events": 178,
+        "AUROC": 0.48457358629581876,
+        "undefined_reason": null
+      }
+    },
+    {
+      "cohort": "development_oof",
+      "method": "keep_reference",
+      "history_length": 2,
+      "videos": 100,
+      "opportunities": 300,
+      "selected": 0,
+      "helpful": 0,
+      "harmful": 0,
+      "neutral": 0,
+      "mean_selected_gain": null,
+      "mean_selected_gain_denominator": 0,
+      "undefined_selected_reason": "no selected opportunities",
+      "MAE": {
+        "mean": 0.27631400516849836,
+        "CI95_lower": 0.22098975305568785,
+        "CI95_upper": 0.3364082079577262
+      },
+      "MSE": {
+        "mean": 0.20275111802402407,
+        "CI95_lower": 0.1313710650084854,
+        "CI95_upper": 0.2939174450872293
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.0001586991157954086,
+        "CI95_lower": -0.0003807081934810951,
+        "CI95_upper": 6.391605413143146e-05
+      },
+      "utility": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": null,
+        "undefined_reason": "constant input or outcome"
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 122,
+        "negative_events": 178,
+        "AUROC": null,
+        "undefined_reason": "constant score"
+      }
+    },
+    {
+      "cohort": "development_oof",
+      "method": "training_mean",
+      "history_length": 2,
+      "videos": 100,
+      "opportunities": 300,
+      "selected": 0,
+      "helpful": 0,
+      "harmful": 0,
+      "neutral": 0,
+      "mean_selected_gain": null,
+      "mean_selected_gain_denominator": 0,
+      "undefined_selected_reason": "no selected opportunities",
+      "MAE": {
+        "mean": 0.2819283070383391,
+        "CI95_lower": 0.22845251279997672,
+        "CI95_upper": 0.34114093662359823
+      },
+      "MSE": {
+        "mean": 0.19981074018513603,
+        "CI95_lower": 0.1274442062583389,
+        "CI95_upper": 0.2930777523781603
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.005773000985636184,
+        "CI95_lower": -0.011789593291979076,
+        "CI95_upper": 0.0003686089369992146
+      },
+      "utility": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": -0.06796010964309786,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 122,
+        "negative_events": 178,
+        "AUROC": 0.4861853011604347,
+        "undefined_reason": null
+      }
+    },
+    {
+      "cohort": "development_oof",
+      "method": "training_median",
+      "history_length": 2,
+      "videos": 100,
+      "opportunities": 300,
+      "selected": 0,
+      "helpful": 0,
+      "harmful": 0,
+      "neutral": 0,
+      "mean_selected_gain": null,
+      "mean_selected_gain_denominator": 0,
+      "undefined_selected_reason": "no selected opportunities",
+      "MAE": {
+        "mean": 0.2761553060527029,
+        "CI95_lower": 0.22085569727162385,
+        "CI95_upper": 0.33621574153818756
+      },
+      "MSE": {
+        "mean": 0.20256367943528786,
+        "CI95_lower": 0.1312576005334976,
+        "CI95_upper": 0.29373921534845826
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "utility": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": 0.008790995360320627,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 122,
+        "negative_events": 178,
+        "AUROC": 0.5138146988395653,
+        "undefined_reason": null
+      }
+    },
+    {
+      "cohort": "development_oof",
+      "method": "C_RF400",
+      "history_length": 3,
+      "videos": 100,
+      "opportunities": 300,
+      "selected": 95,
+      "helpful": 31,
+      "harmful": 64,
+      "neutral": 0,
+      "mean_selected_gain": -0.07338139932298682,
+      "mean_selected_gain_denominator": 95,
+      "undefined_selected_reason": null,
+      "MAE": {
+        "mean": 0.2679700173193303,
+        "CI95_lower": 0.2110848801715122,
+        "CI95_upper": 0.3320148004340363
+      },
+      "MSE": {
+        "mean": 0.22109970641812954,
+        "CI95_lower": 0.1251066363414543,
+        "CI95_upper": 0.3361749771204619
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.02989435851026396,
+        "CI95_lower": -0.04397379500719697,
+        "CI95_upper": -0.015965375427098416
+      },
+      "utility": {
+        "mean": -0.023237443118945825,
+        "CI95_lower": -0.06255291023754538,
+        "CI95_upper": 0.011852133330605188
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": -0.12011268126453493,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 133,
+        "negative_events": 167,
+        "AUROC": 0.40403403718878034,
+        "undefined_reason": null
+      }
+    },
+    {
+      "cohort": "development_oof",
+      "method": "C_plus_T_RF400",
+      "history_length": 3,
+      "videos": 100,
+      "opportunities": 300,
+      "selected": 82,
+      "helpful": 31,
+      "harmful": 51,
+      "neutral": 0,
+      "mean_selected_gain": -0.04333216402875087,
+      "mean_selected_gain_denominator": 82,
+      "undefined_selected_reason": null,
+      "MAE": {
+        "mean": 0.2755165366805776,
+        "CI95_lower": 0.2191812577328348,
+        "CI95_upper": 0.3376951160282046
+      },
+      "MSE": {
+        "mean": 0.22068386320486888,
+        "CI95_lower": 0.12702958157917604,
+        "CI95_upper": 0.3345617842450744
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.03744087787151125,
+        "CI95_lower": -0.053675703250035796,
+        "CI95_upper": -0.02145999067959929
+      },
+      "utility": {
+        "mean": -0.011844124834525238,
+        "CI95_lower": -0.05065883922401531,
+        "CI95_upper": 0.026432846633387828
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": -0.07591002203140548,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 133,
+        "negative_events": 167,
+        "AUROC": 0.4411327720498852,
+        "undefined_reason": null
+      }
+    },
+    {
+      "cohort": "development_oof",
+      "method": "keep_reference",
+      "history_length": 3,
+      "videos": 100,
+      "opportunities": 300,
+      "selected": 0,
+      "helpful": 0,
+      "harmful": 0,
+      "neutral": 0,
+      "mean_selected_gain": null,
+      "mean_selected_gain_denominator": 0,
+      "undefined_selected_reason": "no selected opportunities",
+      "MAE": {
+        "mean": 0.23805871796053343,
+        "CI95_lower": 0.17915218497086297,
+        "CI95_upper": 0.3038769344435178
+      },
+      "MSE": {
+        "mean": 0.21127026366496895,
+        "CI95_lower": 0.112974329993888,
+        "CI95_upper": 0.32982222217463386
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": 1.6940848532948292e-05,
+        "CI95_lower": -0.00020083223503898924,
+        "CI95_upper": 0.0002377345126617104
+      },
+      "utility": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": null,
+        "undefined_reason": "constant input or outcome"
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 133,
+        "negative_events": 167,
+        "AUROC": null,
+        "undefined_reason": "constant score"
+      }
+    },
+    {
+      "cohort": "development_oof",
+      "method": "training_mean",
+      "history_length": 3,
+      "videos": 100,
+      "opportunities": 300,
+      "selected": 0,
+      "helpful": 0,
+      "harmful": 0,
+      "neutral": 0,
+      "mean_selected_gain": null,
+      "mean_selected_gain_denominator": 0,
+      "undefined_selected_reason": "no selected opportunities",
+      "MAE": {
+        "mean": 0.24695530806351887,
+        "CI95_lower": 0.18917587110542228,
+        "CI95_upper": 0.3116132671250067
+      },
+      "MSE": {
+        "mean": 0.21194359032937676,
+        "CI95_lower": 0.11540697531092702,
+        "CI95_upper": 0.32945198920633484
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.008879649254452492,
+        "CI95_lower": -0.014554882605216443,
+        "CI95_upper": -0.003175480573342089
+      },
+      "utility": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": -0.07960885891312022,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 133,
+        "negative_events": 167,
+        "AUROC": 0.5,
+        "undefined_reason": null
+      }
+    },
+    {
+      "cohort": "development_oof",
+      "method": "training_median",
+      "history_length": 3,
+      "videos": 100,
+      "opportunities": 300,
+      "selected": 0,
+      "helpful": 0,
+      "harmful": 0,
+      "neutral": 0,
+      "mean_selected_gain": null,
+      "mean_selected_gain_denominator": 0,
+      "undefined_selected_reason": "no selected opportunities",
+      "MAE": {
+        "mean": 0.23807565880906637,
+        "CI95_lower": 0.17929767838097455,
+        "CI95_upper": 0.3038580924846838
+      },
+      "MSE": {
+        "mean": 0.211184161144976,
+        "CI95_lower": 0.11290784461056164,
+        "CI95_upper": 0.32964941244999757
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "utility": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": -0.028087638426782937,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 133,
+        "negative_events": 167,
+        "AUROC": 0.472986358110846,
+        "undefined_reason": null
+      }
+    },
+    {
+      "cohort": "exploratory",
+      "method": "C_RF400",
+      "history_length": 0,
+      "videos": 40,
+      "opportunities": 360,
+      "selected": 121,
+      "helpful": 54,
+      "harmful": 67,
+      "neutral": 0,
+      "mean_selected_gain": -0.1919803279405871,
+      "mean_selected_gain_denominator": 121,
+      "undefined_selected_reason": null,
+      "MAE": {
+        "mean": 0.3092585785021388,
+        "CI95_lower": 0.18644466971985355,
+        "CI95_upper": 0.47666810937369697
+      },
+      "MSE": {
+        "mean": 0.46025173958115023,
+        "CI95_lower": 0.12583443974969252,
+        "CI95_upper": 1.0446868654833847
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.014102076202221623,
+        "CI95_lower": -0.028815764775792924,
+        "CI95_upper": 0.00038083113200443054
+      },
+      "utility": {
+        "mean": -0.0645267213355862,
+        "CI95_lower": -0.20272044426769173,
+        "CI95_upper": 0.017147585952357138
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": -0.019423517520632122,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 154,
+        "negative_events": 206,
+        "AUROC": 0.4976673811625268,
+        "undefined_reason": null
+      }
+    },
+    {
+      "cohort": "exploratory",
+      "method": "C_plus_T_RF400",
+      "history_length": 0,
+      "videos": 40,
+      "opportunities": 360,
+      "selected": 110,
+      "helpful": 44,
+      "harmful": 66,
+      "neutral": 0,
+      "mean_selected_gain": -0.19619697647660614,
+      "mean_selected_gain_denominator": 110,
+      "undefined_selected_reason": null,
+      "MAE": {
+        "mean": 0.3151593523524291,
+        "CI95_lower": 0.19171807758528464,
+        "CI95_upper": 0.48391614456507315
+      },
+      "MSE": {
+        "mean": 0.46930173157668564,
+        "CI95_lower": 0.12845781847004312,
+        "CI95_upper": 1.0699817603605828
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.020002850052511817,
+        "CI95_lower": -0.03635335544151258,
+        "CI95_upper": -0.004882789563032284
+      },
+      "utility": {
+        "mean": -0.05994907614562965,
+        "CI95_lower": -0.19622086908321978,
+        "CI95_upper": 0.019306618467485187
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": -0.07258068716494404,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 154,
+        "negative_events": 206,
+        "AUROC": 0.470432480141218,
+        "undefined_reason": null
+      }
+    },
+    {
+      "cohort": "exploratory",
+      "method": "keep_reference",
+      "history_length": 0,
+      "videos": 40,
+      "opportunities": 360,
+      "selected": 0,
+      "helpful": 0,
+      "harmful": 0,
+      "neutral": 0,
+      "mean_selected_gain": null,
+      "mean_selected_gain_denominator": 0,
+      "undefined_selected_reason": "no selected opportunities",
+      "MAE": {
+        "mean": 0.29524330691115785,
+        "CI95_lower": 0.17466955428119302,
+        "CI95_upper": 0.45612371156081005
+      },
+      "MSE": {
+        "mean": 0.4306828615476096,
+        "CI95_lower": 0.12358457500240595,
+        "CI95_upper": 0.9620703575041193
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -8.680461124061778e-05,
+        "CI95_lower": -0.00027599162627628507,
+        "CI95_upper": 9.890787919266319e-05
+      },
+      "utility": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": null,
+        "undefined_reason": "constant input or outcome"
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 154,
+        "negative_events": 206,
+        "AUROC": null,
+        "undefined_reason": "constant score"
+      }
+    },
+    {
+      "cohort": "exploratory",
+      "method": "training_mean",
+      "history_length": 0,
+      "videos": 40,
+      "opportunities": 360,
+      "selected": 0,
+      "helpful": 0,
+      "harmful": 0,
+      "neutral": 0,
+      "mean_selected_gain": null,
+      "mean_selected_gain_denominator": 0,
+      "undefined_selected_reason": "no selected opportunities",
+      "MAE": {
+        "mean": 0.3014255365448323,
+        "CI95_lower": 0.18416821579224937,
+        "CI95_upper": 0.4579885367537539
+      },
+      "MSE": {
+        "mean": 0.42350290040337324,
+        "CI95_lower": 0.12194774794132816,
+        "CI95_upper": 0.9430146444909074
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.006269034244915081,
+        "CI95_lower": -0.012796826036303662,
+        "CI95_upper": 0.0006922229461464966
+      },
+      "utility": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": null,
+        "undefined_reason": "constant input or outcome"
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 154,
+        "negative_events": 206,
+        "AUROC": null,
+        "undefined_reason": "constant score"
+      }
+    },
+    {
+      "cohort": "exploratory",
+      "method": "training_median",
+      "history_length": 0,
+      "videos": 40,
+      "opportunities": 360,
+      "selected": 0,
+      "helpful": 0,
+      "harmful": 0,
+      "neutral": 0,
+      "mean_selected_gain": null,
+      "mean_selected_gain_denominator": 0,
+      "undefined_selected_reason": "no selected opportunities",
+      "MAE": {
+        "mean": 0.29515650229991724,
+        "CI95_lower": 0.1745779098914195,
+        "CI95_upper": 0.45599108699484453
+      },
+      "MSE": {
+        "mean": 0.43042385684085555,
+        "CI95_lower": 0.12356744026208527,
+        "CI95_upper": 0.9616002930327819
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "utility": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": null,
+        "undefined_reason": "constant input or outcome"
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 154,
+        "negative_events": 206,
+        "AUROC": null,
+        "undefined_reason": "constant score"
+      }
+    },
+    {
+      "cohort": "exploratory",
+      "method": "C_RF400",
+      "history_length": 1,
+      "videos": 40,
+      "opportunities": 120,
+      "selected": 43,
+      "helpful": 17,
+      "harmful": 26,
+      "neutral": 0,
+      "mean_selected_gain": -0.21189813417761705,
+      "mean_selected_gain_denominator": 43,
+      "undefined_selected_reason": null,
+      "MAE": {
+        "mean": 0.2746990620840901,
+        "CI95_lower": 0.15928219084700151,
+        "CI95_upper": 0.4178223677319819
+      },
+      "MSE": {
+        "mean": 0.28043342620071837,
+        "CI95_lower": 0.08803703383194708,
+        "CI95_upper": 0.5358523117502034
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.019972049875681974,
+        "CI95_lower": -0.039732866765476584,
+        "CI95_upper": -0.0020548900473144984
+      },
+      "utility": {
+        "mean": -0.07593016474697944,
+        "CI95_lower": -0.17238904732258972,
+        "CI95_upper": -0.006739733604814556
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": -0.12855193297384435,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 47,
+        "negative_events": 73,
+        "AUROC": 0.47420577091227045,
+        "undefined_reason": null
+      }
+    },
+    {
+      "cohort": "exploratory",
+      "method": "C_plus_T_RF400",
+      "history_length": 1,
+      "videos": 40,
+      "opportunities": 120,
+      "selected": 40,
+      "helpful": 11,
+      "harmful": 29,
+      "neutral": 0,
+      "mean_selected_gain": -0.24359029111787817,
+      "mean_selected_gain_denominator": 40,
+      "undefined_selected_reason": null,
+      "MAE": {
+        "mean": 0.27478756947811545,
+        "CI95_lower": 0.15709868194975582,
+        "CI95_upper": 0.4206239407765062
+      },
+      "MSE": {
+        "mean": 0.28778877879997317,
+        "CI95_lower": 0.09019958004732324,
+        "CI95_upper": 0.5509737264575129
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.020060557269707315,
+        "CI95_lower": -0.03621194072298892,
+        "CI95_upper": -0.007237882303955725
+      },
+      "utility": {
+        "mean": -0.08119676370595941,
+        "CI95_lower": -0.17672882036553753,
+        "CI95_upper": -0.012892082755941364
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": -0.22576197990133165,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 47,
+        "negative_events": 73,
+        "AUROC": 0.41824540950160305,
+        "undefined_reason": null
+      }
+    },
+    {
+      "cohort": "exploratory",
+      "method": "keep_reference",
+      "history_length": 1,
+      "videos": 40,
+      "opportunities": 120,
+      "selected": 0,
+      "helpful": 0,
+      "harmful": 0,
+      "neutral": 0,
+      "mean_selected_gain": null,
+      "mean_selected_gain_denominator": 0,
+      "undefined_selected_reason": "no selected opportunities",
+      "MAE": {
+        "mean": 0.25490412378962896,
+        "CI95_lower": 0.14024587731890553,
+        "CI95_upper": 0.39749510917848796
+      },
+      "MSE": {
+        "mean": 0.26531420005566553,
+        "CI95_lower": 0.07733992167147152,
+        "CI95_upper": 0.5160937441537303
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.00017711158122083237,
+        "CI95_lower": -0.0004913500372330417,
+        "CI95_upper": 0.00014241701999537405
+      },
+      "utility": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": null,
+        "undefined_reason": "constant input or outcome"
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 47,
+        "negative_events": 73,
+        "AUROC": null,
+        "undefined_reason": "constant score"
+      }
+    },
+    {
+      "cohort": "exploratory",
+      "method": "training_mean",
+      "history_length": 1,
+      "videos": 40,
+      "opportunities": 120,
+      "selected": 0,
+      "helpful": 0,
+      "harmful": 0,
+      "neutral": 0,
+      "mean_selected_gain": null,
+      "mean_selected_gain_denominator": 0,
+      "undefined_selected_reason": "no selected opportunities",
+      "MAE": {
+        "mean": 0.25800740487206364,
+        "CI95_lower": 0.1475699693442518,
+        "CI95_upper": 0.39487255824174283
+      },
+      "MSE": {
+        "mean": 0.25557147516860435,
+        "CI95_lower": 0.07609054165182047,
+        "CI95_upper": 0.49506608630172305
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.0032803926636554336,
+        "CI95_lower": -0.013257170113056375,
+        "CI95_upper": 0.0067649965884303285
+      },
+      "utility": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": null,
+        "undefined_reason": "constant input or outcome"
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 47,
+        "negative_events": 73,
+        "AUROC": null,
+        "undefined_reason": "constant score"
+      }
+    },
+    {
+      "cohort": "exploratory",
+      "method": "training_median",
+      "history_length": 1,
+      "videos": 40,
+      "opportunities": 120,
+      "selected": 0,
+      "helpful": 0,
+      "harmful": 0,
+      "neutral": 0,
+      "mean_selected_gain": null,
+      "mean_selected_gain_denominator": 0,
+      "undefined_selected_reason": "no selected opportunities",
+      "MAE": {
+        "mean": 0.2547270122084081,
+        "CI95_lower": 0.14017579404977443,
+        "CI95_upper": 0.397118199015105
+      },
+      "MSE": {
+        "mean": 0.2649801551454565,
+        "CI95_lower": 0.07737517504013697,
+        "CI95_upper": 0.5154101553905738
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "utility": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": null,
+        "undefined_reason": "constant input or outcome"
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 47,
+        "negative_events": 73,
+        "AUROC": null,
+        "undefined_reason": "constant score"
+      }
+    },
+    {
+      "cohort": "exploratory",
+      "method": "C_RF400",
+      "history_length": 2,
+      "videos": 40,
+      "opportunities": 120,
+      "selected": 45,
+      "helpful": 19,
+      "harmful": 26,
+      "neutral": 0,
+      "mean_selected_gain": -0.357671975901443,
+      "mean_selected_gain_denominator": 45,
+      "undefined_selected_reason": null,
+      "MAE": {
+        "mean": 0.3728974098869783,
+        "CI95_lower": 0.19123998110589216,
+        "CI95_upper": 0.6532927497089006
+      },
+      "MSE": {
+        "mean": 0.8309375875829321,
+        "CI95_lower": 0.12062879098443582,
+        "CI95_upper": 2.138838625597432
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.013371145699267586,
+        "CI95_lower": -0.032780217726662335,
+        "CI95_upper": 0.00602941882579385
+      },
+      "utility": {
+        "mean": -0.1341269909630411,
+        "CI95_lower": -0.39868019502491203,
+        "CI95_upper": 0.0251933009847171
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": -0.03604429489672018,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 57,
+        "negative_events": 63,
+        "AUROC": 0.4708994708994709,
+        "undefined_reason": null
+      }
+    },
+    {
+      "cohort": "exploratory",
+      "method": "C_plus_T_RF400",
+      "history_length": 2,
+      "videos": 40,
+      "opportunities": 120,
+      "selected": 37,
+      "helpful": 15,
+      "harmful": 22,
+      "neutral": 0,
+      "mean_selected_gain": -0.3924363126058398,
+      "mean_selected_gain_denominator": 37,
+      "undefined_selected_reason": null,
+      "MAE": {
+        "mean": 0.38748222949725275,
+        "CI95_lower": 0.20672758780688152,
+        "CI95_upper": 0.6723522506421392
+      },
+      "MSE": {
+        "mean": 0.8572916542867643,
+        "CI95_lower": 0.12363474429664756,
+        "CI95_upper": 2.209727963013689
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.027955965309542124,
+        "CI95_lower": -0.05756770048281027,
+        "CI95_upper": -0.0021690927791748033
+      },
+      "utility": {
+        "mean": -0.1210011963868006,
+        "CI95_lower": -0.3732933134551647,
+        "CI95_upper": 0.026848171093606002
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": -0.08389328168660751,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 57,
+        "negative_events": 63,
+        "AUROC": 0.4543302701197438,
+        "undefined_reason": null
+      }
+    },
+    {
+      "cohort": "exploratory",
+      "method": "keep_reference",
+      "history_length": 2,
+      "videos": 40,
+      "opportunities": 120,
+      "selected": 0,
+      "helpful": 0,
+      "harmful": 0,
+      "neutral": 0,
+      "mean_selected_gain": null,
+      "mean_selected_gain_denominator": 0,
+      "undefined_selected_reason": "no selected opportunities",
+      "MAE": {
+        "mean": 0.35955698815391024,
+        "CI95_lower": 0.18223427540259,
+        "CI95_upper": 0.6287393080177781
+      },
+      "MSE": {
+        "mean": 0.7744665861332029,
+        "CI95_lower": 0.12154072224634252,
+        "CI95_upper": 1.9651265083103016
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -3.072396619958628e-05,
+        "CI95_lower": -0.00030905520987218194,
+        "CI95_upper": 0.00023794062118591812
+      },
+      "utility": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": null,
+        "undefined_reason": "constant input or outcome"
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 57,
+        "negative_events": 63,
+        "AUROC": null,
+        "undefined_reason": "constant score"
+      }
+    },
+    {
+      "cohort": "exploratory",
+      "method": "training_mean",
+      "history_length": 2,
+      "videos": 40,
+      "opportunities": 120,
+      "selected": 0,
+      "helpful": 0,
+      "harmful": 0,
+      "neutral": 0,
+      "mean_selected_gain": null,
+      "mean_selected_gain_denominator": 0,
+      "undefined_selected_reason": "no selected opportunities",
+      "MAE": {
+        "mean": 0.3664578064288462,
+        "CI95_lower": 0.19231472748341247,
+        "CI95_upper": 0.6306482957202477
+      },
+      "MSE": {
+        "mean": 0.7620565377527491,
+        "CI95_lower": 0.11931954426461944,
+        "CI95_upper": 1.932733842986806
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.006931542241135477,
+        "CI95_lower": -0.015837880015254668,
+        "CI95_upper": 0.002378085024990868
+      },
+      "utility": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": null,
+        "undefined_reason": "constant input or outcome"
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 57,
+        "negative_events": 63,
+        "AUROC": null,
+        "undefined_reason": "constant score"
+      }
+    },
+    {
+      "cohort": "exploratory",
+      "method": "training_median",
+      "history_length": 2,
+      "videos": 40,
+      "opportunities": 120,
+      "selected": 0,
+      "helpful": 0,
+      "harmful": 0,
+      "neutral": 0,
+      "mean_selected_gain": null,
+      "mean_selected_gain_denominator": 0,
+      "undefined_selected_reason": "no selected opportunities",
+      "MAE": {
+        "mean": 0.3595262641877107,
+        "CI95_lower": 0.18228877887725084,
+        "CI95_upper": 0.628529831085741
+      },
+      "MSE": {
+        "mean": 0.7740544394088158,
+        "CI95_lower": 0.12124765083360137,
+        "CI95_upper": 1.9641296677465978
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "utility": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": null,
+        "undefined_reason": "constant input or outcome"
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 57,
+        "negative_events": 63,
+        "AUROC": null,
+        "undefined_reason": "constant score"
+      }
+    },
+    {
+      "cohort": "exploratory",
+      "method": "C_RF400",
+      "history_length": 3,
+      "videos": 40,
+      "opportunities": 120,
+      "selected": 33,
+      "helpful": 18,
+      "harmful": 15,
+      "neutral": 0,
+      "mean_selected_gain": 0.05991633346640692,
+      "mean_selected_gain_denominator": 33,
+      "undefined_selected_reason": null,
+      "MAE": {
+        "mean": 0.2801792635353482,
+        "CI95_lower": 0.17754150441345257,
+        "CI95_upper": 0.4048713313825937
+      },
+      "MSE": {
+        "mean": 0.26938420495980003,
+        "CI95_lower": 0.10504683413245193,
+        "CI95_upper": 0.5167827038813445
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.008963033031715289,
+        "CI95_lower": -0.029543932562766283,
+        "CI95_upper": 0.010167691032978677
+      },
+      "utility": {
+        "mean": 0.016476991703261917,
+        "CI95_lower": -0.09232084514919359,
+        "CI95_upper": 0.12509568025787057
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": 0.10190344070962967,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 50,
+        "negative_events": 70,
+        "AUROC": 0.5348571428571428,
+        "undefined_reason": null
+      }
+    },
+    {
+      "cohort": "exploratory",
+      "method": "C_plus_T_RF400",
+      "history_length": 3,
+      "videos": 40,
+      "opportunities": 120,
+      "selected": 33,
+      "helpful": 18,
+      "harmful": 15,
+      "neutral": 0,
+      "mean_selected_gain": 0.0812753878395312,
+      "mean_selected_gain_denominator": 33,
+      "undefined_selected_reason": null,
+      "MAE": {
+        "mean": 0.2832082580819189,
+        "CI95_lower": 0.1814845698162164,
+        "CI95_upper": 0.40367905800797876
+      },
+      "MSE": {
+        "mean": 0.26282476164331936,
+        "CI95_lower": 0.10476859166359354,
+        "CI95_upper": 0.49885412466127316
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.011992027578285998,
+        "CI95_lower": -0.03746969098645326,
+        "CI95_upper": 0.010763100499367765
+      },
+      "utility": {
+        "mean": 0.022350731655871082,
+        "CI95_lower": -0.08681284127346812,
+        "CI95_upper": 0.13139091963845978
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": 0.09700612738472061,
+        "undefined_reason": null
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 50,
+        "negative_events": 70,
+        "AUROC": 0.5481428571428572,
+        "undefined_reason": null
+      }
+    },
+    {
+      "cohort": "exploratory",
+      "method": "keep_reference",
+      "history_length": 3,
+      "videos": 40,
+      "opportunities": 120,
+      "selected": 0,
+      "helpful": 0,
+      "harmful": 0,
+      "neutral": 0,
+      "mean_selected_gain": null,
+      "mean_selected_gain_denominator": 0,
+      "undefined_selected_reason": "no selected opportunities",
+      "MAE": {
+        "mean": 0.27126880878993437,
+        "CI95_lower": 0.17009079792486775,
+        "CI95_upper": 0.3895389062721652
+      },
+      "MSE": {
+        "mean": 0.2522677984539604,
+        "CI95_lower": 0.10331564406690372,
+        "CI95_upper": 0.4598708525809507
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -5.2578286301438825e-05,
+        "CI95_lower": -0.00034634018149450757,
+        "CI95_upper": 0.0002428978294417759
+      },
+      "utility": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": null,
+        "undefined_reason": "constant input or outcome"
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 50,
+        "negative_events": 70,
+        "AUROC": null,
+        "undefined_reason": "constant score"
+      }
+    },
+    {
+      "cohort": "exploratory",
+      "method": "training_mean",
+      "history_length": 3,
+      "videos": 40,
+      "opportunities": 120,
+      "selected": 0,
+      "helpful": 0,
+      "harmful": 0,
+      "neutral": 0,
+      "mean_selected_gain": null,
+      "mean_selected_gain_denominator": 0,
+      "undefined_selected_reason": "no selected opportunities",
+      "MAE": {
+        "mean": 0.2798113983335872,
+        "CI95_lower": 0.1805221171715815,
+        "CI95_upper": 0.3960530406023348
+      },
+      "MSE": {
+        "mean": 0.25288068828876603,
+        "CI95_lower": 0.10480978895903532,
+        "CI95_upper": 0.45675518990780667
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": -0.008595167829954294,
+        "CI95_lower": -0.017851312710573768,
+        "CI95_upper": 0.0010196614276207314
+      },
+      "utility": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": null,
+        "undefined_reason": "constant input or outcome"
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 50,
+        "negative_events": 70,
+        "AUROC": null,
+        "undefined_reason": "constant score"
+      }
+    },
+    {
+      "cohort": "exploratory",
+      "method": "training_median",
+      "history_length": 3,
+      "videos": 40,
+      "opportunities": 120,
+      "selected": 0,
+      "helpful": 0,
+      "harmful": 0,
+      "neutral": 0,
+      "mean_selected_gain": null,
+      "mean_selected_gain_denominator": 0,
+      "undefined_selected_reason": "no selected opportunities",
+      "MAE": {
+        "mean": 0.27121623050363286,
+        "CI95_lower": 0.16999609073815802,
+        "CI95_upper": 0.38948704947851476
+      },
+      "MSE": {
+        "mean": 0.2522369759682945,
+        "CI95_lower": 0.10321539460298115,
+        "CI95_upper": 0.45982884426910847
+      },
+      "MAE_improvement_over_training_median": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "utility": {
+        "mean": 0.0,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0
+      },
+      "descriptive_pooled_spearman": {
+        "spearman": null,
+        "undefined_reason": "constant input or outcome"
+      },
+      "positive_gain_AUROC": {
+        "positive_events": 50,
+        "negative_events": 70,
+        "AUROC": null,
+        "undefined_reason": "constant score"
+      }
+    }
+  ]
+}
