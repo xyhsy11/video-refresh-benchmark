@@ -1,0 +1,132 @@
+{
+  "passed": true,
+  "absolute_tolerance": 1e-10,
+  "relative_tolerance": 1e-09,
+  "controls_are_linear_in_targets_not_new_two_head_methods": true,
+  "target_linearity": [
+    {
+      "cohort": "development_oof",
+      "recipe": "C_linear",
+      "attribution": "forward",
+      "max_absolute_discrepancy": 2.55351295663786e-15,
+      "decision_disagreements": 0,
+      "disagreements_only_within_numerical_band": true,
+      "minimum_direct_distance_to_threshold": 0.00010542851366831954
+    },
+    {
+      "cohort": "development_oof",
+      "recipe": "C_linear",
+      "attribution": "averaged",
+      "max_absolute_discrepancy": 4.524158825347513e-15,
+      "decision_disagreements": 0,
+      "disagreements_only_within_numerical_band": true,
+      "minimum_direct_distance_to_threshold": 0.00010542851366831954
+    },
+    {
+      "cohort": "development_oof",
+      "recipe": "C_nonlinear",
+      "attribution": "forward",
+      "max_absolute_discrepancy": 1.6375789613221059e-15,
+      "decision_disagreements": 0,
+      "disagreements_only_within_numerical_band": true,
+      "minimum_direct_distance_to_threshold": 5.668498384105289e-05
+    },
+    {
+      "cohort": "development_oof",
+      "recipe": "C_nonlinear",
+      "attribution": "averaged",
+      "max_absolute_discrepancy": 1.4432899320127035e-15,
+      "decision_disagreements": 0,
+      "disagreements_only_within_numerical_band": true,
+      "minimum_direct_distance_to_threshold": 5.668498384105289e-05
+    },
+    {
+      "cohort": "exploratory",
+      "recipe": "C_linear",
+      "attribution": "forward",
+      "max_absolute_discrepancy": 3.4486302702418925e-15,
+      "decision_disagreements": 0,
+      "disagreements_only_within_numerical_band": true,
+      "minimum_direct_distance_to_threshold": 0.0003655990635889144
+    },
+    {
+      "cohort": "exploratory",
+      "recipe": "C_linear",
+      "attribution": "averaged",
+      "max_absolute_discrepancy": 2.8171909249863347e-15,
+      "decision_disagreements": 0,
+      "disagreements_only_within_numerical_band": true,
+      "minimum_direct_distance_to_threshold": 0.0003655990635889144
+    },
+    {
+      "cohort": "exploratory",
+      "recipe": "C_nonlinear",
+      "attribution": "forward",
+      "max_absolute_discrepancy": 1.8388068845354155e-15,
+      "decision_disagreements": 0,
+      "disagreements_only_within_numerical_band": true,
+      "minimum_direct_distance_to_threshold": 0.0009975025798006272
+    },
+    {
+      "cohort": "exploratory",
+      "recipe": "C_nonlinear",
+      "attribution": "averaged",
+      "max_absolute_discrepancy": 2.1371793224034263e-15,
+      "decision_disagreements": 0,
+      "disagreements_only_within_numerical_band": true,
+      "minimum_direct_distance_to_threshold": 0.0009975025798006272
+    }
+  ],
+  "previous_direct_predictions": [
+    {
+      "cohort": "development_oof",
+      "recipe": "C_linear",
+      "previous_configuration": "C-linear",
+      "rows": 900,
+      "max_absolute_discrepancy": 0.0,
+      "decision_disagreements": 0
+    },
+    {
+      "cohort": "development_oof",
+      "recipe": "C_nonlinear",
+      "previous_configuration": "C-nonlinear",
+      "rows": 900,
+      "max_absolute_discrepancy": 0.0,
+      "decision_disagreements": 0
+    },
+    {
+      "cohort": "development_oof",
+      "recipe": "age_budget_ridge",
+      "previous_configuration": "A-linear",
+      "rows": 900,
+      "max_absolute_discrepancy": 0.0,
+      "decision_disagreements": 0
+    },
+    {
+      "cohort": "exploratory",
+      "recipe": "C_linear",
+      "previous_configuration": "C-linear",
+      "rows": 360,
+      "max_absolute_discrepancy": 0.0,
+      "decision_disagreements": 0
+    },
+    {
+      "cohort": "exploratory",
+      "recipe": "C_nonlinear",
+      "previous_configuration": "C-nonlinear",
+      "rows": 360,
+      "max_absolute_discrepancy": 0.0,
+      "decision_disagreements": 0
+    },
+    {
+      "cohort": "exploratory",
+      "recipe": "age_budget_ridge",
+      "previous_configuration": "A-linear",
+      "rows": 360,
+      "max_absolute_discrepancy": 0.0,
+      "decision_disagreements": 0
+    }
+  ],
+  "max_target_linearity_discrepancy": 4.524158825347513e-15,
+  "max_previous_prediction_discrepancy": 0.0
+}

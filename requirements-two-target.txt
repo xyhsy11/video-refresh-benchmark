@@ -1,0 +1,9 @@
+# Optional additions for two_target_refresh_predictability_v1, tested with Python 3.12.10.
+# Install after the existing environment; do not upgrade the CUDA/PyTorch stack.
+--only-binary=:all:
+scikit-learn==1.9.1
+scipy==1.18.1
+joblib==1.6.0
+narwhals==2.27.1
+threadpoolctl==3.7.0
+cloudpickle==3.1.2

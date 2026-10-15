@@ -1,0 +1,554 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-15T08:20:13.428245+00:00",
+  "cohort_sources": {
+    "development": 100,
+    "exploratory": 40
+  },
+  "opportunities": {
+    "development": 900,
+    "exploratory": 360
+  },
+  "folds_copied_unchanged": true,
+  "exact_whitelist_columns": 56,
+  "models_and_training_only_scalers_checked": 102,
+  "forest_bootstrap_root_means_checked": 8400,
+  "target_dependent_partition_checks": [
+    {
+      "bundle": "fold_0",
+      "recipe": "Two_target_RF200x2_forward",
+      "partitions_differ": true
+    },
+    {
+      "bundle": "fold_0",
+      "recipe": "Two_target_RF200x2_averaged",
+      "partitions_differ": true
+    },
+    {
+      "bundle": "fold_1",
+      "recipe": "Two_target_RF200x2_forward",
+      "partitions_differ": true
+    },
+    {
+      "bundle": "fold_1",
+      "recipe": "Two_target_RF200x2_averaged",
+      "partitions_differ": true
+    },
+    {
+      "bundle": "fold_2",
+      "recipe": "Two_target_RF200x2_forward",
+      "partitions_differ": true
+    },
+    {
+      "bundle": "fold_2",
+      "recipe": "Two_target_RF200x2_averaged",
+      "partitions_differ": true
+    },
+    {
+      "bundle": "fold_3",
+      "recipe": "Two_target_RF200x2_forward",
+      "partitions_differ": true
+    },
+    {
+      "bundle": "fold_3",
+      "recipe": "Two_target_RF200x2_averaged",
+      "partitions_differ": true
+    },
+    {
+      "bundle": "fold_4",
+      "recipe": "Two_target_RF200x2_forward",
+      "partitions_differ": true
+    },
+    {
+      "bundle": "fold_4",
+      "recipe": "Two_target_RF200x2_averaged",
+      "partitions_differ": true
+    },
+    {
+      "bundle": "final_development",
+      "recipe": "Two_target_RF200x2_forward",
+      "partitions_differ": true
+    },
+    {
+      "bundle": "final_development",
+      "recipe": "Two_target_RF200x2_averaged",
+      "partitions_differ": true
+    }
+  ],
+  "heldout_target_and_label_prediction_mutations": 6,
+  "equivalence_checks": {
+    "passed": true,
+    "absolute_tolerance": 1e-10,
+    "relative_tolerance": 1e-09,
+    "controls_are_linear_in_targets_not_new_two_head_methods": true,
+    "target_linearity": [
+      {
+        "cohort": "development_oof",
+        "recipe": "C_linear",
+        "attribution": "forward",
+        "max_absolute_discrepancy": 2.55351295663786e-15,
+        "decision_disagreements": 0,
+        "disagreements_only_within_numerical_band": true,
+        "minimum_direct_distance_to_threshold": 0.00010542851366831954
+      },
+      {
+        "cohort": "development_oof",
+        "recipe": "C_linear",
+        "attribution": "averaged",
+        "max_absolute_discrepancy": 4.524158825347513e-15,
+        "decision_disagreements": 0,
+        "disagreements_only_within_numerical_band": true,
+        "minimum_direct_distance_to_threshold": 0.00010542851366831954
+      },
+      {
+        "cohort": "development_oof",
+        "recipe": "C_nonlinear",
+        "attribution": "forward",
+        "max_absolute_discrepancy": 1.6375789613221059e-15,
+        "decision_disagreements": 0,
+        "disagreements_only_within_numerical_band": true,
+        "minimum_direct_distance_to_threshold": 5.668498384105289e-05
+      },
+      {
+        "cohort": "development_oof",
+        "recipe": "C_nonlinear",
+        "attribution": "averaged",
+        "max_absolute_discrepancy": 1.4432899320127035e-15,
+        "decision_disagreements": 0,
+        "disagreements_only_within_numerical_band": true,
+        "minimum_direct_distance_to_threshold": 5.668498384105289e-05
+      },
+      {
+        "cohort": "exploratory",
+        "recipe": "C_linear",
+        "attribution": "forward",
+        "max_absolute_discrepancy": 3.4486302702418925e-15,
+        "decision_disagreements": 0,
+        "disagreements_only_within_numerical_band": true,
+        "minimum_direct_distance_to_threshold": 0.0003655990635889144
+      },
+      {
+        "cohort": "exploratory",
+        "recipe": "C_linear",
+        "attribution": "averaged",
+        "max_absolute_discrepancy": 2.8171909249863347e-15,
+        "decision_disagreements": 0,
+        "disagreements_only_within_numerical_band": true,
+        "minimum_direct_distance_to_threshold": 0.0003655990635889144
+      },
+      {
+        "cohort": "exploratory",
+        "recipe": "C_nonlinear",
+        "attribution": "forward",
+        "max_absolute_discrepancy": 1.8388068845354155e-15,
+        "decision_disagreements": 0,
+        "disagreements_only_within_numerical_band": true,
+        "minimum_direct_distance_to_threshold": 0.0009975025798006272
+      },
+      {
+        "cohort": "exploratory",
+        "recipe": "C_nonlinear",
+        "attribution": "averaged",
+        "max_absolute_discrepancy": 2.1371793224034263e-15,
+        "decision_disagreements": 0,
+        "disagreements_only_within_numerical_band": true,
+        "minimum_direct_distance_to_threshold": 0.0009975025798006272
+      }
+    ],
+    "previous_direct_predictions": [
+      {
+        "cohort": "development_oof",
+        "recipe": "C_linear",
+        "previous_configuration": "C-linear",
+        "rows": 900,
+        "max_absolute_discrepancy": 0.0,
+        "decision_disagreements": 0
+      },
+      {
+        "cohort": "development_oof",
+        "recipe": "C_nonlinear",
+        "previous_configuration": "C-nonlinear",
+        "rows": 900,
+        "max_absolute_discrepancy": 0.0,
+        "decision_disagreements": 0
+      },
+      {
+        "cohort": "development_oof",
+        "recipe": "age_budget_ridge",
+        "previous_configuration": "A-linear",
+        "rows": 900,
+        "max_absolute_discrepancy": 0.0,
+        "decision_disagreements": 0
+      },
+      {
+        "cohort": "exploratory",
+        "recipe": "C_linear",
+        "previous_configuration": "C-linear",
+        "rows": 360,
+        "max_absolute_discrepancy": 0.0,
+        "decision_disagreements": 0
+      },
+      {
+        "cohort": "exploratory",
+        "recipe": "C_nonlinear",
+        "previous_configuration": "C-nonlinear",
+        "rows": 360,
+        "max_absolute_discrepancy": 0.0,
+        "decision_disagreements": 0
+      },
+      {
+        "cohort": "exploratory",
+        "recipe": "age_budget_ridge",
+        "previous_configuration": "A-linear",
+        "rows": 360,
+        "max_absolute_discrepancy": 0.0,
+        "decision_disagreements": 0
+      }
+    ],
+    "max_target_linearity_discrepancy": 4.524158825347513e-15,
+    "max_previous_prediction_discrepancy": 0.0
+  },
+  "forest_model_accounting": [
+    {
+      "bundle": "fold_0",
+      "recipe": "Direct_G_RF200",
+      "target": "G",
+      "trees": 200,
+      "nodes": 2902,
+      "serialized_bytes": 79318,
+      "model_file": "models/fold_0/Direct_G_RF200_G.joblib"
+    },
+    {
+      "bundle": "fold_0",
+      "recipe": "Direct_G_RF400",
+      "target": "G",
+      "trees": 400,
+      "nodes": 5796,
+      "serialized_bytes": 157120,
+      "model_file": "models/fold_0/Direct_G_RF400_G.joblib"
+    },
+    {
+      "bundle": "fold_0",
+      "recipe": "Two_target_RF200x2_forward",
+      "target": "B",
+      "trees": 200,
+      "nodes": 2888,
+      "serialized_bytes": 78348,
+      "model_file": "models/fold_0/Two_target_RF200x2_forward_B.joblib"
+    },
+    {
+      "bundle": "fold_0",
+      "recipe": "Two_target_RF200x2_forward",
+      "target": "C",
+      "trees": 200,
+      "nodes": 3356,
+      "serialized_bytes": 90935,
+      "model_file": "models/fold_0/Two_target_RF200x2_forward_C.joblib"
+    },
+    {
+      "bundle": "fold_0",
+      "recipe": "Two_target_RF200x2_averaged",
+      "target": "B_averaged",
+      "trees": 200,
+      "nodes": 2802,
+      "serialized_bytes": 75717,
+      "model_file": "models/fold_0/Two_target_RF200x2_averaged_B_averaged.joblib"
+    },
+    {
+      "bundle": "fold_0",
+      "recipe": "Two_target_RF200x2_averaged",
+      "target": "C_averaged",
+      "trees": 200,
+      "nodes": 3312,
+      "serialized_bytes": 89881,
+      "model_file": "models/fold_0/Two_target_RF200x2_averaged_C_averaged.joblib"
+    },
+    {
+      "bundle": "fold_1",
+      "recipe": "Direct_G_RF200",
+      "target": "G",
+      "trees": 200,
+      "nodes": 2964,
+      "serialized_bytes": 80683,
+      "model_file": "models/fold_1/Direct_G_RF200_G.joblib"
+    },
+    {
+      "bundle": "fold_1",
+      "recipe": "Direct_G_RF400",
+      "target": "G",
+      "trees": 400,
+      "nodes": 5878,
+      "serialized_bytes": 158429,
+      "model_file": "models/fold_1/Direct_G_RF400_G.joblib"
+    },
+    {
+      "bundle": "fold_1",
+      "recipe": "Two_target_RF200x2_forward",
+      "target": "B",
+      "trees": 200,
+      "nodes": 3080,
+      "serialized_bytes": 83514,
+      "model_file": "models/fold_1/Two_target_RF200x2_forward_B.joblib"
+    },
+    {
+      "bundle": "fold_1",
+      "recipe": "Two_target_RF200x2_forward",
+      "target": "C",
+      "trees": 200,
+      "nodes": 2924,
+      "serialized_bytes": 78974,
+      "model_file": "models/fold_1/Two_target_RF200x2_forward_C.joblib"
+    },
+    {
+      "bundle": "fold_1",
+      "recipe": "Two_target_RF200x2_averaged",
+      "target": "B_averaged",
+      "trees": 200,
+      "nodes": 2934,
+      "serialized_bytes": 79752,
+      "model_file": "models/fold_1/Two_target_RF200x2_averaged_B_averaged.joblib"
+    },
+    {
+      "bundle": "fold_1",
+      "recipe": "Two_target_RF200x2_averaged",
+      "target": "C_averaged",
+      "trees": 200,
+      "nodes": 3144,
+      "serialized_bytes": 84851,
+      "model_file": "models/fold_1/Two_target_RF200x2_averaged_C_averaged.joblib"
+    },
+    {
+      "bundle": "fold_2",
+      "recipe": "Direct_G_RF200",
+      "target": "G",
+      "trees": 200,
+      "nodes": 3166,
+      "serialized_bytes": 86279,
+      "model_file": "models/fold_2/Direct_G_RF200_G.joblib"
+    },
+    {
+      "bundle": "fold_2",
+      "recipe": "Direct_G_RF400",
+      "target": "G",
+      "trees": 400,
+      "nodes": 6170,
+      "serialized_bytes": 166997,
+      "model_file": "models/fold_2/Direct_G_RF400_G.joblib"
+    },
+    {
+      "bundle": "fold_2",
+      "recipe": "Two_target_RF200x2_forward",
+      "target": "B",
+      "trees": 200,
+      "nodes": 3028,
+      "serialized_bytes": 82173,
+      "model_file": "models/fold_2/Two_target_RF200x2_forward_B.joblib"
+    },
+    {
+      "bundle": "fold_2",
+      "recipe": "Two_target_RF200x2_forward",
+      "target": "C",
+      "trees": 200,
+      "nodes": 3420,
+      "serialized_bytes": 92462,
+      "model_file": "models/fold_2/Two_target_RF200x2_forward_C.joblib"
+    },
+    {
+      "bundle": "fold_2",
+      "recipe": "Two_target_RF200x2_averaged",
+      "target": "B_averaged",
+      "trees": 200,
+      "nodes": 2922,
+      "serialized_bytes": 79057,
+      "model_file": "models/fold_2/Two_target_RF200x2_averaged_B_averaged.joblib"
+    },
+    {
+      "bundle": "fold_2",
+      "recipe": "Two_target_RF200x2_averaged",
+      "target": "C_averaged",
+      "trees": 200,
+      "nodes": 3686,
+      "serialized_bytes": 98689,
+      "model_file": "models/fold_2/Two_target_RF200x2_averaged_C_averaged.joblib"
+    },
+    {
+      "bundle": "fold_3",
+      "recipe": "Direct_G_RF200",
+      "target": "G",
+      "trees": 200,
+      "nodes": 3038,
+      "serialized_bytes": 83575,
+      "model_file": "models/fold_3/Direct_G_RF200_G.joblib"
+    },
+    {
+      "bundle": "fold_3",
+      "recipe": "Direct_G_RF400",
+      "target": "G",
+      "trees": 400,
+      "nodes": 6230,
+      "serialized_bytes": 169862,
+      "model_file": "models/fold_3/Direct_G_RF400_G.joblib"
+    },
+    {
+      "bundle": "fold_3",
+      "recipe": "Two_target_RF200x2_forward",
+      "target": "B",
+      "trees": 200,
+      "nodes": 3044,
+      "serialized_bytes": 82423,
+      "model_file": "models/fold_3/Two_target_RF200x2_forward_B.joblib"
+    },
+    {
+      "bundle": "fold_3",
+      "recipe": "Two_target_RF200x2_forward",
+      "target": "C",
+      "trees": 200,
+      "nodes": 3206,
+      "serialized_bytes": 87571,
+      "model_file": "models/fold_3/Two_target_RF200x2_forward_C.joblib"
+    },
+    {
+      "bundle": "fold_3",
+      "recipe": "Two_target_RF200x2_averaged",
+      "target": "B_averaged",
+      "trees": 200,
+      "nodes": 2886,
+      "serialized_bytes": 78292,
+      "model_file": "models/fold_3/Two_target_RF200x2_averaged_B_averaged.joblib"
+    },
+    {
+      "bundle": "fold_3",
+      "recipe": "Two_target_RF200x2_averaged",
+      "target": "C_averaged",
+      "trees": 200,
+      "nodes": 3108,
+      "serialized_bytes": 84184,
+      "model_file": "models/fold_3/Two_target_RF200x2_averaged_C_averaged.joblib"
+    },
+    {
+      "bundle": "fold_4",
+      "recipe": "Direct_G_RF200",
+      "target": "G",
+      "trees": 200,
+      "nodes": 3030,
+      "serialized_bytes": 83103,
+      "model_file": "models/fold_4/Direct_G_RF200_G.joblib"
+    },
+    {
+      "bundle": "fold_4",
+      "recipe": "Direct_G_RF400",
+      "target": "G",
+      "trees": 400,
+      "nodes": 6110,
+      "serialized_bytes": 165792,
+      "model_file": "models/fold_4/Direct_G_RF400_G.joblib"
+    },
+    {
+      "bundle": "fold_4",
+      "recipe": "Two_target_RF200x2_forward",
+      "target": "B",
+      "trees": 200,
+      "nodes": 2884,
+      "serialized_bytes": 78311,
+      "model_file": "models/fold_4/Two_target_RF200x2_forward_B.joblib"
+    },
+    {
+      "bundle": "fold_4",
+      "recipe": "Two_target_RF200x2_forward",
+      "target": "C",
+      "trees": 200,
+      "nodes": 3484,
+      "serialized_bytes": 94293,
+      "model_file": "models/fold_4/Two_target_RF200x2_forward_C.joblib"
+    },
+    {
+      "bundle": "fold_4",
+      "recipe": "Two_target_RF200x2_averaged",
+      "target": "B_averaged",
+      "trees": 200,
+      "nodes": 2864,
+      "serialized_bytes": 77551,
+      "model_file": "models/fold_4/Two_target_RF200x2_averaged_B_averaged.joblib"
+    },
+    {
+      "bundle": "fold_4",
+      "recipe": "Two_target_RF200x2_averaged",
+      "target": "C_averaged",
+      "trees": 200,
+      "nodes": 3504,
+      "serialized_bytes": 94461,
+      "model_file": "models/fold_4/Two_target_RF200x2_averaged_C_averaged.joblib"
+    },
+    {
+      "bundle": "final_development",
+      "recipe": "Direct_G_RF200",
+      "target": "G",
+      "trees": 200,
+      "nodes": 3198,
+      "serialized_bytes": 87682,
+      "model_file": "models/final_development/Direct_G_RF200_G.joblib"
+    },
+    {
+      "bundle": "final_development",
+      "recipe": "Direct_G_RF400",
+      "target": "G",
+      "trees": 400,
+      "nodes": 6244,
+      "serialized_bytes": 169418,
+      "model_file": "models/final_development/Direct_G_RF400_G.joblib"
+    },
+    {
+      "bundle": "final_development",
+      "recipe": "Two_target_RF200x2_forward",
+      "target": "B",
+      "trees": 200,
+      "nodes": 3208,
+      "serialized_bytes": 86858,
+      "model_file": "models/final_development/Two_target_RF200x2_forward_B.joblib"
+    },
+    {
+      "bundle": "final_development",
+      "recipe": "Two_target_RF200x2_forward",
+      "target": "C",
+      "trees": 200,
+      "nodes": 3518,
+      "serialized_bytes": 95654,
+      "model_file": "models/final_development/Two_target_RF200x2_forward_C.joblib"
+    },
+    {
+      "bundle": "final_development",
+      "recipe": "Two_target_RF200x2_averaged",
+      "target": "B_averaged",
+      "trees": 200,
+      "nodes": 3018,
+      "serialized_bytes": 81641,
+      "model_file": "models/final_development/Two_target_RF200x2_averaged_B_averaged.joblib"
+    },
+    {
+      "bundle": "final_development",
+      "recipe": "Two_target_RF200x2_averaged",
+      "target": "C_averaged",
+      "trees": 200,
+      "nodes": 3718,
+      "serialized_bytes": 100382,
+      "model_file": "models/final_development/Two_target_RF200x2_averaged_C_averaged.joblib"
+    }
+  ],
+  "saved_predictions_metrics_and_whole_video_bootstrap_reproduced": true,
+  "all_nine_opportunities_retained_per_source": true,
+  "previous_tracked_files_preserved": 2717,
+  "classifier_and_prior_artifacts_unchanged": true,
+  "actual_RGB_encoder_executions": 0,
+  "video_decodes": 0,
+  "video_downloads": 0,
+  "recognition_training_calls": 0,
+  "fresh_confirmation_artifacts_accessed": 0,
+  "focused_tests": {
+    "returncode": 0,
+    "output": "test_explicit_whitelist_ignores_privileged_targets_and_ids (test_two_target_refresh_predictability.TwoTargetChecks.test_explicit_whitelist_ignores_privileged_targets_and_ids) ... ok\ntest_linear_and_kernel_target_linearity_with_constant_column (test_two_target_refresh_predictability.TwoTargetChecks.test_linear_and_kernel_target_linearity_with_constant_column) ... ok\ntest_random_forests_use_separate_target_dependent_partitions (test_two_target_refresh_predictability.TwoTargetChecks.test_random_forests_use_separate_target_dependent_partitions) ... ok\ntest_source_bootstrap_keeps_nine_rows_together (test_two_target_refresh_predictability.TwoTargetChecks.test_source_bootstrap_keeps_nine_rows_together) ... ok\ntest_training_only_kernel_centering_independently (test_two_target_refresh_predictability.TwoTargetChecks.test_training_only_kernel_centering_independently) ... ok\ntest_uncentered_error_product_is_required (test_two_target_refresh_predictability.TwoTargetChecks.test_uncentered_error_product_is_required) ... ok\ntest_utility_uses_zero_unselected_and_nine_per_video (test_two_target_refresh_predictability.TwoTargetChecks.test_utility_uses_zero_unselected_and_nine_per_video) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.874s\n\nOK\n"
+  },
+  "release_validator": {
+    "returncode": 0,
+    "output": "Public snapshot PASS: ten videos, 150 pilot rows, 15 single-video rows; all counters valid.\nCSV-derived headlines PASS: 34.74% median reduction, 1.532x median speedup, 17.52-45.54% range.\nOriginal timing source hashes and 17 snapshot checksums PASS; 125 relative links PASS.\nPersonal-path and installation-requirement checks PASS; no GPU timing was rerun.\n"
+  }
+}
