@@ -648,3 +648,40 @@ See [findings](results/recognition_baseline_v2/findings.md), [dataset manifest](
 ```
 
 ![Dense recognition learning curve](results/recognition_baseline_v2/figures/dense_recognition_learning_curve.png)
+
+## task_signal_diagnostic_v1: can cheap observations predict task value?
+
+Status: **completed; the tested signals and linear probes did not demonstrate useful prediction**. This saved-feature diagnostic freezes the primary 400-video-trained classifier and uses the existing 100 development and 40 exploratory sources separately. It performs zero RGB encoder calls, decodes, downloads or recognition-classifier fits. Neither cohort is a fresh confirmation; development previously selected the recognition head's regularization.
+
+Dense/periodic recognition results reproduce exactly within numerical tolerance. The unchanged age/motion/budget controller gives 68% development and 60% exploratory accuracy under this classifier, compared with periodic's 70% and 65%. Prediction changes are not automatically harmful: exploratory periodic disagrees with dense on two sources, but harms none of the 26 dense-correct sources. Its feature-error/loss-change Spearman correlation is 0.0096; development periodic's is 0.0320. Policies and cohorts are analyzed separately.
+
+Each video contributes nine equal-budget counterfactuals: move one planned periodic refresh earlier, retaining exactly four refreshes and sixteen latest-cache outputs. Gain is periodic cross entropy minus modified-schedule cross entropy. This is a prescribed schedule-change target, not an optimal action value. There are 900 development and 360 exploratory examples from 100 and 40 source videos. True current drift is evaluator-only; its gain correlations are -0.0686 and -0.0601.
+
+Five class-stratified source-grouped folds evaluate four fixed ridge probes (alpha=1, sum-squared-residual objective, training-only normalization). A uses age/budget; B adds six existing motion descriptors; C adds cached/past-output confidence summaries; D adds both. Full-development fits freeze after saving all OOF predictions and before exploratory evaluation. Labels, uncomputed RGB, future descriptors and evaluator targets do not enter the feature builder.
+
+| Predictor | Development OOF MAE (nats) | Exploratory MAE (nats) |
+| --- | ---: | ---: |
+| Constant zero | 0.253456 | 0.295243 |
+| Training mean | 0.261289 | 0.301426 |
+| A: age/budget | 0.264103 | 0.303550 |
+| B: age/budget + motion | 0.284141 | 0.323415 |
+| C: age/budget + cached prediction | 0.265663 | 0.309126 |
+| D: age/budget + both | 0.284506 | 0.330833 |
+
+Primary improvement MAE(A)-MAE(D) is **-0.020402 nats**, with 95% interval [-0.031925, -0.009675]; exploratory is -0.027283 [-0.043709, -0.013034]. D worsens 63/100 development and 26/40 exploratory sources. Intervals use 10,000 whole-video paired resamples, PCG64 seed 20261017, keeping all nine examples together. They condition on saved probes and omit full training/model-selection uncertainty. Cached confidence and motion each worsen MAE in the predefined component comparisons; constant zero is best by MAE.
+
+Seven focused fixtures, 1,260 independent explicit counterfactual replays, 420 real input-isolation mutations, training-only scaler/independent ridge checks, saved-metric/bootstrap reproduction, and release validation pass. Earlier scientific sources and snapshots remain unchanged.
+
+Run from the repository root:
+
+~~~powershell
+& .\.venv\Scripts\python.exe -m unittest test_task_signals -v
+& .\.venv\Scripts\python.exe .\analyze_task_signals.py --input results/recognition_baseline_v2 --output results/task_signal_diagnostic_v1 --seed 20261017
+& .\.venv\Scripts\python.exe .\analyze_task_signals.py --input results/recognition_baseline_v2 --output results/task_signal_diagnostic_v1 --seed 20261017 --audit-only
+~~~
+
+Completed outputs are audited without overwriting them. See [findings](results/task_signal_diagnostic_v1/findings.md), [protocol](results/task_signal_diagnostic_v1/protocol.json), [folds](results/task_signal_diagnostic_v1/fold_manifest.json), [clip audit](results/task_signal_diagnostic_v1/clip_error_analysis.csv), [counterfactuals](results/task_signal_diagnostic_v1/counterfactual_examples.csv), [probe metrics](results/task_signal_diagnostic_v1/aggregate_metrics.json), [paired intervals](results/task_signal_diagnostic_v1/bootstrap_intervals.json), and [verification](results/task_signal_diagnostic_v1/verification.json).
+
+Do not build a sequential controller from these probes. First test whether a low-cost task-trained temporal-change signal predicts refresh gain beyond constant and age/budget baselines in a separately frozen study. These negative results apply to the tested signals, linear models and counterfactuals; they do not rule out all task-aware policies. Full-clip candidates and future-reference codec vectors keep this offline. Adaptive recognition performance and end-to-end latency remain unmeasured.
+
+![Task-value probe error](results/task_signal_diagnostic_v1/figures/probe_prediction_error.png)
