@@ -685,3 +685,38 @@ Completed outputs are audited without overwriting them. See [findings](results/t
 Do not build a sequential controller from these probes. First test whether a low-cost task-trained temporal-change signal predicts refresh gain beyond constant and age/budget baselines in a separately frozen study. These negative results apply to the tested signals, linear models and counterfactuals; they do not rule out all task-aware policies. Full-clip candidates and future-reference codec vectors keep this offline. Adaptive recognition performance and end-to-end latency remain unmeasured.
 
 ![Task-value probe error](results/task_signal_diagnostic_v1/figures/probe_prediction_error.png)
+
+## task_signal_ablation_v2: capacity, cached information, or current appearance?
+
+Status: **completed and verified locally; no positive decision-utility result**. This fixed 3-input x 2-predictor ablation reuses the exact 100 development/40 exploratory sources, 900/360 counterfactual examples, prior five-fold assignments and frozen recognition head. Nothing was downloaded, decoded, encoded or recognition-retrained. The completed fresh-confirmation cohort was not parsed.
+
+S reproduces the previous 16 summary inputs. C adds all 40 cached/past-output class-centered logits, using only candidates before t. P adds 20 centered current RGB logits and is **privileged**, not a cheap gate or matched-cost four-call deployment. Each set uses fixed linear ridge and RBF kernel ridge, both with regularization 1, training-only scaling and an unpenalized intercept. The kernel is exp(-squared distance / input dimension); all centering uses training statistics. No settings were searched.
+
+| Configuration | Development OOF MAE | Development utility | Exploratory MAE | Exploratory utility |
+| --- | ---: | ---: | ---: | ---: |
+| S-linear | 0.284506 | -0.019913 | 0.330833 | -0.069211 |
+| S-nonlinear | 0.279222 | -0.014840 | 0.325476 | -0.096858 |
+| C-linear | 0.348287 | -0.031328 | 0.368692 | -0.058499 |
+| C-nonlinear | 0.304876 | -0.014451 | 0.339828 | -0.088699 |
+| P-linear, privileged | 0.373602 | -0.040703 | 0.381820 | -0.092284 |
+| P-nonlinear, privileged | 0.305551 | -0.027592 | 0.341665 | -0.098007 |
+
+MAE is in nats, lower is better. Utility is realized CE gain in nats per independent decision, higher is better: choose the earlier refresh only if prediction >1e-12, otherwise keep periodic. Always keeping reference has utility zero. Independent schedule changes are not combined into a rollout.
+
+The fixed primary C-nonlinear versus keeping reference has development utility **-0.014451**, 95% interval **[-0.039733, +0.011739]**: inconclusive. Exploratory utility is **-0.088699 [-0.221550, -0.003094]**, indicating harm for that conditional comparison. C-nonlinear selects 423/900 development moves (178 helpful,245 harmful) and 151/360 exploratory moves (67 helpful,84 harmful). Ten thousand paired whole-video resamples use seed20261018; the original fold seed20261017 is unchanged.
+
+The small S-nonlinear MAE improvements have intervals spanning zero. Full cached logits worsen linear MAE; neither cached-score nor privileged-current contrasts establish improved decision utility. These fixed probes do not identify capacity, summary compression, or missing current appearance as a sufficient explanation for v1's failure. They do not prove that all nonlinear models fail or that P is an information-theoretic bound. Both cohorts remain developmental; intervals omit full training/model-selection/repeated-research uncertainty.
+
+Seven fixtures, exact S-linear/previous-D prediction reproduction, 42 model/scaler/kernel checks, 420 input-isolation mutations, 1,260 independent target replays, saved-metric/bootstrap reproduction and release validation pass. Historical scientific artifacts remain unchanged. Probe parameters, training rows, kernel statistics and predictions are saved.
+
+~~~powershell
+& .\.venv\Scripts\python.exe -m unittest test_task_signal_ablation -v
+& .\.venv\Scripts\python.exe .\analyze_task_signal_ablation.py --recognition-input results/recognition_baseline_v2 --diagnostic-input results/task_signal_diagnostic_v1 --output results/task_signal_ablation_v2 --seed 20261018
+& .\.venv\Scripts\python.exe .\analyze_task_signal_ablation.py --recognition-input results/recognition_baseline_v2 --diagnostic-input results/task_signal_diagnostic_v1 --output results/task_signal_ablation_v2 --seed 20261018 --audit-only
+~~~
+
+Completed outputs are audited without overwriting them. Results remain local under [task_signal_ablation_v2](results/task_signal_ablation_v2/README.md): [findings](results/task_signal_ablation_v2/findings.md), [protocol](results/task_signal_ablation_v2/protocol.json), [input provenance](results/task_signal_ablation_v2/input_provenance.json), [folds](results/task_signal_ablation_v2/fold_manifest.json), [metrics](results/task_signal_ablation_v2/aggregate_metrics.json), [intervals](results/task_signal_ablation_v2/bootstrap_intervals.json), and [verification](results/task_signal_ablation_v2/verification.json).
+
+Next, run a separately frozen target-decomposition diagnostic to test whether dependence on later content dominates early-refresh gain before building a controller. No sequential recognition improvement, adaptive latency, speedup or matched P deployment cost is established here.
+
+![Decision utility ablation](results/task_signal_ablation_v2/figures/decision_utility_comparison.png)

@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-15T03:28:00.301419+00:00",
+  "unchanged_source_grouped_folds": true,
+  "development_sources": 100,
+  "exploratory_sources": 40,
+  "development_examples": 900,
+  "exploratory_examples": 360,
+  "predictions": 12600,
+  "independent_target_replays": 1260,
+  "S_exact_prior_D_inputs": true,
+  "S_linear_prior_D_predictions": true,
+  "age_baseline_reproduced": true,
+  "cached_and_privileged_input_isolation_checks": 420,
+  "independently_checked_models": 42,
+  "training_only_scalers_and_kernel_centering": true,
+  "independent_kernel_query_distances": true,
+  "metrics_and_whole_video_bootstrap_reproduced": true,
+  "previous_tracked_files_preserved": 2598,
+  "fresh_confirmation_parsed": 0,
+  "RGB_encoder_executions": 0,
+  "video_decodes": 0,
+  "downloads": 0,
+  "recognition_classifier_training": 0,
+  "P": "privileged current RGB,not a cheap gate or matched-cost deployment",
+  "focused_tests": {
+    "returncode": 0,
+    "output": "test_cached_and_current_interfaces_isolate_privileged_information (test_task_signal_ablation.AblationChecks.test_cached_and_current_interfaces_isolate_privileged_information) ... ok\ntest_constant_training_columns_and_kernel (test_task_signal_ablation.AblationChecks.test_constant_training_columns_and_kernel) ... ok\ntest_decision_utility_whole_video_grouping_and_outcome_reference (test_task_signal_ablation.AblationChecks.test_decision_utility_whole_video_grouping_and_outcome_reference) ... ok\ntest_heldout_targets_cannot_change_actual_fold_models (test_task_signal_ablation.AblationChecks.test_heldout_targets_cannot_change_actual_fold_models) ... ok\ntest_kernel_centering_independent_H_and_intercept_system (test_task_signal_ablation.AblationChecks.test_kernel_centering_independent_H_and_intercept_system) ... ok\ntest_linear_reproduces_prior_D_recipe (test_task_signal_ablation.AblationChecks.test_linear_reproduces_prior_D_recipe) ... ok\ntest_undefined_discrimination (test_task_signal_ablation.AblationChecks.test_undefined_discrimination) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.877s\n\nOK\n"
+  },
+  "release_validator": {
+    "returncode": 0,
+    "output": "Public snapshot PASS: ten videos, 150 pilot rows, 15 single-video rows; all counters valid.\nCSV-derived headlines PASS: 34.74% median reduction, 1.532x median speedup, 17.52-45.54% range.\nOriginal timing source hashes and 17 snapshot checksums PASS; 106 relative links PASS.\nPersonal-path and installation-requirement checks PASS; no GPU timing was rerun.\n"
+  },
+  "figures_visually_checked": 3,
+  "final_release_validation": {
+    "passed": true,
+    "relative_links": 115
+  },
+  "completed_run_preserves_outputs": {
+    "passed": true,
+    "files_checked": 88,
+    "record": "completed_run_audit.json"
+  },
+  "additional_independent_aggregate_and_all_bootstrap_checks": {
+    "passed": true,
+    "record": "independent_review.json"
+  }
+}

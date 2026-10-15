@@ -1,0 +1,18 @@
+{
+  "recorded_at_utc": "2026-10-15T03:26:05.639048+00:00",
+  "python": "3.12.10",
+  "os": "Windows-11-10.0.22631-SP0",
+  "packages": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.6",
+    "torch": "2.14.1+cu132",
+    "torchvision": "0.29.1+cu132",
+    "av": "19.0.1",
+    "matplotlib": "3.11.2"
+  },
+  "device": "CPU float64 saved-array analysis",
+  "new_dependencies": [],
+  "encoder_calls": 0,
+  "video_decodes": 0,
+  "downloads": 0
+}
