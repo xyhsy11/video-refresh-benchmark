@@ -1,0 +1,1143 @@
+{
+  "seed": 20261017,
+  "rule": "Within each original class, sort by SHA256(experiment|fold|seed|label|source); assign ranks 0..4.",
+  "videos": [
+    {
+      "source_video_id": "fEMzrsYAOZ4",
+      "video_id": "fEMzrsYAOZ4_000026_000036",
+      "label": "drinking shots",
+      "fold": 0
+    },
+    {
+      "source_video_id": "ggpa3p4e8Os",
+      "video_id": "ggpa3p4e8Os_000003_000013",
+      "label": "drinking shots",
+      "fold": 1
+    },
+    {
+      "source_video_id": "Cu8mVNNT6is",
+      "video_id": "Cu8mVNNT6is_000010_000020",
+      "label": "drinking shots",
+      "fold": 2
+    },
+    {
+      "source_video_id": "jOIihtfGQhA",
+      "video_id": "jOIihtfGQhA_000071_000081",
+      "label": "drinking shots",
+      "fold": 3
+    },
+    {
+      "source_video_id": "eho0auiBhTY",
+      "video_id": "eho0auiBhTY_000008_000018",
+      "label": "drinking shots",
+      "fold": 4
+    },
+    {
+      "source_video_id": "OxmRIHS8rRM",
+      "video_id": "OxmRIHS8rRM_000032_000042",
+      "label": "playing flute",
+      "fold": 0
+    },
+    {
+      "source_video_id": "dZTRnHfAFX8",
+      "video_id": "dZTRnHfAFX8_000087_000097",
+      "label": "playing flute",
+      "fold": 1
+    },
+    {
+      "source_video_id": "QAs8dUX9q04",
+      "video_id": "QAs8dUX9q04_000018_000028",
+      "label": "playing flute",
+      "fold": 2
+    },
+    {
+      "source_video_id": "QaqGD09CG1k",
+      "video_id": "QaqGD09CG1k_000245_000255",
+      "label": "playing flute",
+      "fold": 3
+    },
+    {
+      "source_video_id": "67vhJRyiwmI",
+      "video_id": "67vhJRyiwmI_000328_000338",
+      "label": "playing flute",
+      "fold": 4
+    },
+    {
+      "source_video_id": "Q6G3SqUU3w0",
+      "video_id": "Q6G3SqUU3w0_000134_000144",
+      "label": "playing violin",
+      "fold": 0
+    },
+    {
+      "source_video_id": "F-cmTIX6Drw",
+      "video_id": "F-cmTIX6Drw_000002_000012",
+      "label": "playing violin",
+      "fold": 1
+    },
+    {
+      "source_video_id": "e4YEsKp3pJ8",
+      "video_id": "e4YEsKp3pJ8_000016_000026",
+      "label": "playing violin",
+      "fold": 2
+    },
+    {
+      "source_video_id": "ZZ1m75L6Aaw",
+      "video_id": "ZZ1m75L6Aaw_000035_000045",
+      "label": "playing violin",
+      "fold": 3
+    },
+    {
+      "source_video_id": "XoKPpeiDgAo",
+      "video_id": "XoKPpeiDgAo_000002_000012",
+      "label": "playing violin",
+      "fold": 4
+    },
+    {
+      "source_video_id": "YLVZShRe1P8",
+      "video_id": "YLVZShRe1P8_000004_000014",
+      "label": "unloading truck",
+      "fold": 0
+    },
+    {
+      "source_video_id": "Xc6bUqxIcUw",
+      "video_id": "Xc6bUqxIcUw_000397_000407",
+      "label": "unloading truck",
+      "fold": 1
+    },
+    {
+      "source_video_id": "GaRaR0G-ugg",
+      "video_id": "GaRaR0G-ugg_000034_000044",
+      "label": "unloading truck",
+      "fold": 2
+    },
+    {
+      "source_video_id": "gzyFcuuTYFo",
+      "video_id": "gzyFcuuTYFo_000022_000032",
+      "label": "unloading truck",
+      "fold": 3
+    },
+    {
+      "source_video_id": "dVFyXxNN7J8",
+      "video_id": "dVFyXxNN7J8_000160_000170",
+      "label": "unloading truck",
+      "fold": 4
+    },
+    {
+      "source_video_id": "DAHugYj5QDU",
+      "video_id": "DAHugYj5QDU_000024_000034",
+      "label": "crossing river",
+      "fold": 0
+    },
+    {
+      "source_video_id": "5WDVITnmb_Y",
+      "video_id": "5WDVITnmb_Y_000003_000013",
+      "label": "crossing river",
+      "fold": 1
+    },
+    {
+      "source_video_id": "CY26VGQ7t1E",
+      "video_id": "CY26VGQ7t1E_000018_000028",
+      "label": "crossing river",
+      "fold": 2
+    },
+    {
+      "source_video_id": "FZmNWmGs298",
+      "video_id": "FZmNWmGs298_000012_000022",
+      "label": "crossing river",
+      "fold": 3
+    },
+    {
+      "source_video_id": "4lYz1L-SEbo",
+      "video_id": "4lYz1L-SEbo_000001_000011",
+      "label": "crossing river",
+      "fold": 4
+    },
+    {
+      "source_video_id": "H8WWknTZUmA",
+      "video_id": "H8WWknTZUmA_000016_000026",
+      "label": "blasting sand",
+      "fold": 0
+    },
+    {
+      "source_video_id": "_Bl5zZ30aGk",
+      "video_id": "_Bl5zZ30aGk_000001_000011",
+      "label": "blasting sand",
+      "fold": 1
+    },
+    {
+      "source_video_id": "R0PvkI2BADo",
+      "video_id": "R0PvkI2BADo_000094_000104",
+      "label": "blasting sand",
+      "fold": 2
+    },
+    {
+      "source_video_id": "ZVFI6XbK5ts",
+      "video_id": "ZVFI6XbK5ts_000006_000016",
+      "label": "blasting sand",
+      "fold": 3
+    },
+    {
+      "source_video_id": "Ntd9Y7Bkl6I",
+      "video_id": "Ntd9Y7Bkl6I_000016_000026",
+      "label": "blasting sand",
+      "fold": 4
+    },
+    {
+      "source_video_id": "fMluwiLbq58",
+      "video_id": "fMluwiLbq58_000108_000118",
+      "label": "cooking egg",
+      "fold": 0
+    },
+    {
+      "source_video_id": "iBq15XhuPjE",
+      "video_id": "iBq15XhuPjE_000031_000041",
+      "label": "cooking egg",
+      "fold": 1
+    },
+    {
+      "source_video_id": "HCmP-G7_fJU",
+      "video_id": "HCmP-G7_fJU_000228_000238",
+      "label": "cooking egg",
+      "fold": 2
+    },
+    {
+      "source_video_id": "Yw1fnOK3Xe4",
+      "video_id": "Yw1fnOK3Xe4_000069_000079",
+      "label": "cooking egg",
+      "fold": 3
+    },
+    {
+      "source_video_id": "5ZwiGw_g8YA",
+      "video_id": "5ZwiGw_g8YA_000094_000104",
+      "label": "cooking egg",
+      "fold": 4
+    },
+    {
+      "source_video_id": "ibRyH1Q1bbo",
+      "video_id": "ibRyH1Q1bbo_000066_000076",
+      "label": "swinging on something",
+      "fold": 0
+    },
+    {
+      "source_video_id": "MSNZTb4aHuc",
+      "video_id": "MSNZTb4aHuc_000003_000013",
+      "label": "swinging on something",
+      "fold": 1
+    },
+    {
+      "source_video_id": "jaB-Eey0now",
+      "video_id": "jaB-Eey0now_000018_000028",
+      "label": "swinging on something",
+      "fold": 2
+    },
+    {
+      "source_video_id": "hoEPeeBg7G0",
+      "video_id": "hoEPeeBg7G0_000098_000108",
+      "label": "swinging on something",
+      "fold": 3
+    },
+    {
+      "source_video_id": "6iV76zdkdBY",
+      "video_id": "6iV76zdkdBY_000148_000158",
+      "label": "swinging on something",
+      "fold": 4
+    },
+    {
+      "source_video_id": "6KG0mbhejCs",
+      "video_id": "6KG0mbhejCs_000233_000243",
+      "label": "tai chi",
+      "fold": 0
+    },
+    {
+      "source_video_id": "Xvuq6Frk_Jo",
+      "video_id": "Xvuq6Frk_Jo_000004_000014",
+      "label": "tai chi",
+      "fold": 1
+    },
+    {
+      "source_video_id": "Ye3IvM96h68",
+      "video_id": "Ye3IvM96h68_000133_000143",
+      "label": "tai chi",
+      "fold": 2
+    },
+    {
+      "source_video_id": "EpkRTxllorU",
+      "video_id": "EpkRTxllorU_000315_000325",
+      "label": "tai chi",
+      "fold": 3
+    },
+    {
+      "source_video_id": "3exdpRbcMmA",
+      "video_id": "3exdpRbcMmA_000034_000044",
+      "label": "tai chi",
+      "fold": 4
+    },
+    {
+      "source_video_id": "gafZUG1aNKI",
+      "video_id": "gafZUG1aNKI_000070_000080",
+      "label": "eating hotdog",
+      "fold": 0
+    },
+    {
+      "source_video_id": "Y_WxKHxPmTQ",
+      "video_id": "Y_WxKHxPmTQ_000014_000024",
+      "label": "eating hotdog",
+      "fold": 1
+    },
+    {
+      "source_video_id": "ESnU5Vn5gqE",
+      "video_id": "ESnU5Vn5gqE_000030_000040",
+      "label": "eating hotdog",
+      "fold": 2
+    },
+    {
+      "source_video_id": "ZgZGQYBZGwc",
+      "video_id": "ZgZGQYBZGwc_000046_000056",
+      "label": "eating hotdog",
+      "fold": 3
+    },
+    {
+      "source_video_id": "ejjLKLUeGHM",
+      "video_id": "ejjLKLUeGHM_000225_000235",
+      "label": "eating hotdog",
+      "fold": 4
+    },
+    {
+      "source_video_id": "B2PYviO_MBw",
+      "video_id": "B2PYviO_MBw_000341_000351",
+      "label": "disc golfing",
+      "fold": 0
+    },
+    {
+      "source_video_id": "POa6ywcX50A",
+      "video_id": "POa6ywcX50A_000066_000076",
+      "label": "disc golfing",
+      "fold": 1
+    },
+    {
+      "source_video_id": "75CH3nr9D0E",
+      "video_id": "75CH3nr9D0E_000713_000723",
+      "label": "disc golfing",
+      "fold": 2
+    },
+    {
+      "source_video_id": "DyUa2dEY5Kk",
+      "video_id": "DyUa2dEY5Kk_000002_000012",
+      "label": "disc golfing",
+      "fold": 3
+    },
+    {
+      "source_video_id": "LUDJ_eqPE4E",
+      "video_id": "LUDJ_eqPE4E_000014_000024",
+      "label": "disc golfing",
+      "fold": 4
+    },
+    {
+      "source_video_id": "_5dyLrtc5fQ",
+      "video_id": "_5dyLrtc5fQ_000006_000016",
+      "label": "shoveling snow",
+      "fold": 0
+    },
+    {
+      "source_video_id": "ekD635_HVLc",
+      "video_id": "ekD635_HVLc_000000_000010",
+      "label": "shoveling snow",
+      "fold": 1
+    },
+    {
+      "source_video_id": "fRBJY5RHN_s",
+      "video_id": "fRBJY5RHN_s_000022_000032",
+      "label": "shoveling snow",
+      "fold": 2
+    },
+    {
+      "source_video_id": "flojhQpCUWg",
+      "video_id": "flojhQpCUWg_000057_000067",
+      "label": "shoveling snow",
+      "fold": 3
+    },
+    {
+      "source_video_id": "eTlfd00WUHE",
+      "video_id": "eTlfd00WUHE_000060_000070",
+      "label": "shoveling snow",
+      "fold": 4
+    },
+    {
+      "source_video_id": "dSF2i1OQtMc",
+      "video_id": "dSF2i1OQtMc_000087_000097",
+      "label": "skipping rope",
+      "fold": 0
+    },
+    {
+      "source_video_id": "XilAaJ_r4tA",
+      "video_id": "XilAaJ_r4tA_000056_000066",
+      "label": "skipping rope",
+      "fold": 1
+    },
+    {
+      "source_video_id": "N3o3Rg0kKMw",
+      "video_id": "N3o3Rg0kKMw_000015_000025",
+      "label": "skipping rope",
+      "fold": 2
+    },
+    {
+      "source_video_id": "dg8_9piDoIw",
+      "video_id": "dg8_9piDoIw_000007_000017",
+      "label": "skipping rope",
+      "fold": 3
+    },
+    {
+      "source_video_id": "CMVFSoI5Dlw",
+      "video_id": "CMVFSoI5Dlw_000326_000336",
+      "label": "skipping rope",
+      "fold": 4
+    },
+    {
+      "source_video_id": "Pg0BgPB1SY4",
+      "video_id": "Pg0BgPB1SY4_000262_000272",
+      "label": "washing hair",
+      "fold": 0
+    },
+    {
+      "source_video_id": "L6QdLb5sOKA",
+      "video_id": "L6QdLb5sOKA_000046_000056",
+      "label": "washing hair",
+      "fold": 1
+    },
+    {
+      "source_video_id": "ZpWmwFjw9tY",
+      "video_id": "ZpWmwFjw9tY_000166_000176",
+      "label": "washing hair",
+      "fold": 2
+    },
+    {
+      "source_video_id": "Ym_MzqdQWuQ",
+      "video_id": "Ym_MzqdQWuQ_000081_000091",
+      "label": "washing hair",
+      "fold": 3
+    },
+    {
+      "source_video_id": "gGIJXRLTp0I",
+      "video_id": "gGIJXRLTp0I_000046_000056",
+      "label": "washing hair",
+      "fold": 4
+    },
+    {
+      "source_video_id": "64Yy2hwDYac",
+      "video_id": "64Yy2hwDYac_000462_000472",
+      "label": "javelin throw",
+      "fold": 0
+    },
+    {
+      "source_video_id": "LzGTRmCGJxc",
+      "video_id": "LzGTRmCGJxc_000087_000097",
+      "label": "javelin throw",
+      "fold": 1
+    },
+    {
+      "source_video_id": "dIBNHpmFY-4",
+      "video_id": "dIBNHpmFY-4_000001_000011",
+      "label": "javelin throw",
+      "fold": 2
+    },
+    {
+      "source_video_id": "Zi4BPqed4WM",
+      "video_id": "Zi4BPqed4WM_000009_000019",
+      "label": "javelin throw",
+      "fold": 3
+    },
+    {
+      "source_video_id": "ZmBDBldVa74",
+      "video_id": "ZmBDBldVa74_000005_000015",
+      "label": "javelin throw",
+      "fold": 4
+    },
+    {
+      "source_video_id": "fcJzhtpMfgc",
+      "video_id": "fcJzhtpMfgc_000038_000048",
+      "label": "opening bottle",
+      "fold": 0
+    },
+    {
+      "source_video_id": "7FAZzxo3jnM",
+      "video_id": "7FAZzxo3jnM_000005_000015",
+      "label": "opening bottle",
+      "fold": 1
+    },
+    {
+      "source_video_id": "gWd5AU5wP0k",
+      "video_id": "gWd5AU5wP0k_000041_000051",
+      "label": "opening bottle",
+      "fold": 2
+    },
+    {
+      "source_video_id": "gdmm2hTI4y4",
+      "video_id": "gdmm2hTI4y4_000001_000011",
+      "label": "opening bottle",
+      "fold": 3
+    },
+    {
+      "source_video_id": "CrhPxGAf8Yc",
+      "video_id": "CrhPxGAf8Yc_000024_000034",
+      "label": "opening bottle",
+      "fold": 4
+    },
+    {
+      "source_video_id": "QEWH30i14hA",
+      "video_id": "QEWH30i14hA_000001_000011",
+      "label": "petting cat",
+      "fold": 0
+    },
+    {
+      "source_video_id": "Oe7vfErM63c",
+      "video_id": "Oe7vfErM63c_000003_000013",
+      "label": "petting cat",
+      "fold": 1
+    },
+    {
+      "source_video_id": "5G94o6UdX2w",
+      "video_id": "5G94o6UdX2w_000001_000011",
+      "label": "petting cat",
+      "fold": 2
+    },
+    {
+      "source_video_id": "OhVU5mTdEAU",
+      "video_id": "OhVU5mTdEAU_000237_000247",
+      "label": "petting cat",
+      "fold": 3
+    },
+    {
+      "source_video_id": "YOxmFaxoIig",
+      "video_id": "YOxmFaxoIig_000053_000063",
+      "label": "petting cat",
+      "fold": 4
+    },
+    {
+      "source_video_id": "LG_L2HvS3i8",
+      "video_id": "LG_L2HvS3i8_000140_000150",
+      "label": "waxing chest",
+      "fold": 0
+    },
+    {
+      "source_video_id": "MT5aNXtyT8U",
+      "video_id": "MT5aNXtyT8U_000029_000039",
+      "label": "waxing chest",
+      "fold": 1
+    },
+    {
+      "source_video_id": "M7biA0ABhIE",
+      "video_id": "M7biA0ABhIE_000299_000309",
+      "label": "waxing chest",
+      "fold": 2
+    },
+    {
+      "source_video_id": "ZbXbRTRlKag",
+      "video_id": "ZbXbRTRlKag_000078_000088",
+      "label": "waxing chest",
+      "fold": 3
+    },
+    {
+      "source_video_id": "BBDR-x9Pz6Q",
+      "video_id": "BBDR-x9Pz6Q_000019_000029",
+      "label": "waxing chest",
+      "fold": 4
+    },
+    {
+      "source_video_id": "QeG2HREr6m0",
+      "video_id": "QeG2HREr6m0_000003_000013",
+      "label": "jumpstyle dancing",
+      "fold": 0
+    },
+    {
+      "source_video_id": "POsrXp01pr4",
+      "video_id": "POsrXp01pr4_000045_000055",
+      "label": "jumpstyle dancing",
+      "fold": 1
+    },
+    {
+      "source_video_id": "5GUT-khf_tU",
+      "video_id": "5GUT-khf_tU_000008_000018",
+      "label": "jumpstyle dancing",
+      "fold": 2
+    },
+    {
+      "source_video_id": "__PYrzYbzKE",
+      "video_id": "__PYrzYbzKE_000195_000205",
+      "label": "jumpstyle dancing",
+      "fold": 3
+    },
+    {
+      "source_video_id": "Q1K-18XBrQo",
+      "video_id": "Q1K-18XBrQo_000004_000014",
+      "label": "jumpstyle dancing",
+      "fold": 4
+    },
+    {
+      "source_video_id": "5dRnwv9ZiG4",
+      "video_id": "5dRnwv9ZiG4_000041_000051",
+      "label": "trimming trees",
+      "fold": 0
+    },
+    {
+      "source_video_id": "fSJ61gXs7aY",
+      "video_id": "fSJ61gXs7aY_000022_000032",
+      "label": "trimming trees",
+      "fold": 1
+    },
+    {
+      "source_video_id": "dxe9LkBB4Q8",
+      "video_id": "dxe9LkBB4Q8_000010_000020",
+      "label": "trimming trees",
+      "fold": 2
+    },
+    {
+      "source_video_id": "_agtjsQnW7o",
+      "video_id": "_agtjsQnW7o_000001_000011",
+      "label": "trimming trees",
+      "fold": 3
+    },
+    {
+      "source_video_id": "ZcHBmeOCRUQ",
+      "video_id": "ZcHBmeOCRUQ_000058_000068",
+      "label": "trimming trees",
+      "fold": 4
+    }
+  ],
+  "folds": [
+    {
+      "fold": 0,
+      "training_sources": [
+        "3exdpRbcMmA",
+        "4lYz1L-SEbo",
+        "5G94o6UdX2w",
+        "5GUT-khf_tU",
+        "5WDVITnmb_Y",
+        "5ZwiGw_g8YA",
+        "67vhJRyiwmI",
+        "6iV76zdkdBY",
+        "75CH3nr9D0E",
+        "7FAZzxo3jnM",
+        "BBDR-x9Pz6Q",
+        "CMVFSoI5Dlw",
+        "CY26VGQ7t1E",
+        "CrhPxGAf8Yc",
+        "Cu8mVNNT6is",
+        "DyUa2dEY5Kk",
+        "ESnU5Vn5gqE",
+        "EpkRTxllorU",
+        "F-cmTIX6Drw",
+        "FZmNWmGs298",
+        "GaRaR0G-ugg",
+        "HCmP-G7_fJU",
+        "L6QdLb5sOKA",
+        "LUDJ_eqPE4E",
+        "LzGTRmCGJxc",
+        "M7biA0ABhIE",
+        "MSNZTb4aHuc",
+        "MT5aNXtyT8U",
+        "N3o3Rg0kKMw",
+        "Ntd9Y7Bkl6I",
+        "Oe7vfErM63c",
+        "OhVU5mTdEAU",
+        "POa6ywcX50A",
+        "POsrXp01pr4",
+        "Q1K-18XBrQo",
+        "QAs8dUX9q04",
+        "QaqGD09CG1k",
+        "R0PvkI2BADo",
+        "Xc6bUqxIcUw",
+        "XilAaJ_r4tA",
+        "XoKPpeiDgAo",
+        "Xvuq6Frk_Jo",
+        "YOxmFaxoIig",
+        "Y_WxKHxPmTQ",
+        "Ye3IvM96h68",
+        "Ym_MzqdQWuQ",
+        "Yw1fnOK3Xe4",
+        "ZVFI6XbK5ts",
+        "ZZ1m75L6Aaw",
+        "ZbXbRTRlKag",
+        "ZcHBmeOCRUQ",
+        "ZgZGQYBZGwc",
+        "Zi4BPqed4WM",
+        "ZmBDBldVa74",
+        "ZpWmwFjw9tY",
+        "_Bl5zZ30aGk",
+        "__PYrzYbzKE",
+        "_agtjsQnW7o",
+        "dIBNHpmFY-4",
+        "dVFyXxNN7J8",
+        "dZTRnHfAFX8",
+        "dg8_9piDoIw",
+        "dxe9LkBB4Q8",
+        "e4YEsKp3pJ8",
+        "eTlfd00WUHE",
+        "eho0auiBhTY",
+        "ejjLKLUeGHM",
+        "ekD635_HVLc",
+        "fRBJY5RHN_s",
+        "fSJ61gXs7aY",
+        "flojhQpCUWg",
+        "gGIJXRLTp0I",
+        "gWd5AU5wP0k",
+        "gdmm2hTI4y4",
+        "ggpa3p4e8Os",
+        "gzyFcuuTYFo",
+        "hoEPeeBg7G0",
+        "iBq15XhuPjE",
+        "jOIihtfGQhA",
+        "jaB-Eey0now"
+      ],
+      "validation_sources": [
+        "5dRnwv9ZiG4",
+        "64Yy2hwDYac",
+        "6KG0mbhejCs",
+        "B2PYviO_MBw",
+        "DAHugYj5QDU",
+        "H8WWknTZUmA",
+        "LG_L2HvS3i8",
+        "OxmRIHS8rRM",
+        "Pg0BgPB1SY4",
+        "Q6G3SqUU3w0",
+        "QEWH30i14hA",
+        "QeG2HREr6m0",
+        "YLVZShRe1P8",
+        "_5dyLrtc5fQ",
+        "dSF2i1OQtMc",
+        "fEMzrsYAOZ4",
+        "fMluwiLbq58",
+        "fcJzhtpMfgc",
+        "gafZUG1aNKI",
+        "ibRyH1Q1bbo"
+      ]
+    },
+    {
+      "fold": 1,
+      "training_sources": [
+        "3exdpRbcMmA",
+        "4lYz1L-SEbo",
+        "5G94o6UdX2w",
+        "5GUT-khf_tU",
+        "5ZwiGw_g8YA",
+        "5dRnwv9ZiG4",
+        "64Yy2hwDYac",
+        "67vhJRyiwmI",
+        "6KG0mbhejCs",
+        "6iV76zdkdBY",
+        "75CH3nr9D0E",
+        "B2PYviO_MBw",
+        "BBDR-x9Pz6Q",
+        "CMVFSoI5Dlw",
+        "CY26VGQ7t1E",
+        "CrhPxGAf8Yc",
+        "Cu8mVNNT6is",
+        "DAHugYj5QDU",
+        "DyUa2dEY5Kk",
+        "ESnU5Vn5gqE",
+        "EpkRTxllorU",
+        "FZmNWmGs298",
+        "GaRaR0G-ugg",
+        "H8WWknTZUmA",
+        "HCmP-G7_fJU",
+        "LG_L2HvS3i8",
+        "LUDJ_eqPE4E",
+        "M7biA0ABhIE",
+        "N3o3Rg0kKMw",
+        "Ntd9Y7Bkl6I",
+        "OhVU5mTdEAU",
+        "OxmRIHS8rRM",
+        "Pg0BgPB1SY4",
+        "Q1K-18XBrQo",
+        "Q6G3SqUU3w0",
+        "QAs8dUX9q04",
+        "QEWH30i14hA",
+        "QaqGD09CG1k",
+        "QeG2HREr6m0",
+        "R0PvkI2BADo",
+        "XoKPpeiDgAo",
+        "YLVZShRe1P8",
+        "YOxmFaxoIig",
+        "Ye3IvM96h68",
+        "Ym_MzqdQWuQ",
+        "Yw1fnOK3Xe4",
+        "ZVFI6XbK5ts",
+        "ZZ1m75L6Aaw",
+        "ZbXbRTRlKag",
+        "ZcHBmeOCRUQ",
+        "ZgZGQYBZGwc",
+        "Zi4BPqed4WM",
+        "ZmBDBldVa74",
+        "ZpWmwFjw9tY",
+        "_5dyLrtc5fQ",
+        "__PYrzYbzKE",
+        "_agtjsQnW7o",
+        "dIBNHpmFY-4",
+        "dSF2i1OQtMc",
+        "dVFyXxNN7J8",
+        "dg8_9piDoIw",
+        "dxe9LkBB4Q8",
+        "e4YEsKp3pJ8",
+        "eTlfd00WUHE",
+        "eho0auiBhTY",
+        "ejjLKLUeGHM",
+        "fEMzrsYAOZ4",
+        "fMluwiLbq58",
+        "fRBJY5RHN_s",
+        "fcJzhtpMfgc",
+        "flojhQpCUWg",
+        "gGIJXRLTp0I",
+        "gWd5AU5wP0k",
+        "gafZUG1aNKI",
+        "gdmm2hTI4y4",
+        "gzyFcuuTYFo",
+        "hoEPeeBg7G0",
+        "ibRyH1Q1bbo",
+        "jOIihtfGQhA",
+        "jaB-Eey0now"
+      ],
+      "validation_sources": [
+        "5WDVITnmb_Y",
+        "7FAZzxo3jnM",
+        "F-cmTIX6Drw",
+        "L6QdLb5sOKA",
+        "LzGTRmCGJxc",
+        "MSNZTb4aHuc",
+        "MT5aNXtyT8U",
+        "Oe7vfErM63c",
+        "POa6ywcX50A",
+        "POsrXp01pr4",
+        "Xc6bUqxIcUw",
+        "XilAaJ_r4tA",
+        "Xvuq6Frk_Jo",
+        "Y_WxKHxPmTQ",
+        "_Bl5zZ30aGk",
+        "dZTRnHfAFX8",
+        "ekD635_HVLc",
+        "fSJ61gXs7aY",
+        "ggpa3p4e8Os",
+        "iBq15XhuPjE"
+      ]
+    },
+    {
+      "fold": 2,
+      "training_sources": [
+        "3exdpRbcMmA",
+        "4lYz1L-SEbo",
+        "5WDVITnmb_Y",
+        "5ZwiGw_g8YA",
+        "5dRnwv9ZiG4",
+        "64Yy2hwDYac",
+        "67vhJRyiwmI",
+        "6KG0mbhejCs",
+        "6iV76zdkdBY",
+        "7FAZzxo3jnM",
+        "B2PYviO_MBw",
+        "BBDR-x9Pz6Q",
+        "CMVFSoI5Dlw",
+        "CrhPxGAf8Yc",
+        "DAHugYj5QDU",
+        "DyUa2dEY5Kk",
+        "EpkRTxllorU",
+        "F-cmTIX6Drw",
+        "FZmNWmGs298",
+        "H8WWknTZUmA",
+        "L6QdLb5sOKA",
+        "LG_L2HvS3i8",
+        "LUDJ_eqPE4E",
+        "LzGTRmCGJxc",
+        "MSNZTb4aHuc",
+        "MT5aNXtyT8U",
+        "Ntd9Y7Bkl6I",
+        "Oe7vfErM63c",
+        "OhVU5mTdEAU",
+        "OxmRIHS8rRM",
+        "POa6ywcX50A",
+        "POsrXp01pr4",
+        "Pg0BgPB1SY4",
+        "Q1K-18XBrQo",
+        "Q6G3SqUU3w0",
+        "QEWH30i14hA",
+        "QaqGD09CG1k",
+        "QeG2HREr6m0",
+        "Xc6bUqxIcUw",
+        "XilAaJ_r4tA",
+        "XoKPpeiDgAo",
+        "Xvuq6Frk_Jo",
+        "YLVZShRe1P8",
+        "YOxmFaxoIig",
+        "Y_WxKHxPmTQ",
+        "Ym_MzqdQWuQ",
+        "Yw1fnOK3Xe4",
+        "ZVFI6XbK5ts",
+        "ZZ1m75L6Aaw",
+        "ZbXbRTRlKag",
+        "ZcHBmeOCRUQ",
+        "ZgZGQYBZGwc",
+        "Zi4BPqed4WM",
+        "ZmBDBldVa74",
+        "_5dyLrtc5fQ",
+        "_Bl5zZ30aGk",
+        "__PYrzYbzKE",
+        "_agtjsQnW7o",
+        "dSF2i1OQtMc",
+        "dVFyXxNN7J8",
+        "dZTRnHfAFX8",
+        "dg8_9piDoIw",
+        "eTlfd00WUHE",
+        "eho0auiBhTY",
+        "ejjLKLUeGHM",
+        "ekD635_HVLc",
+        "fEMzrsYAOZ4",
+        "fMluwiLbq58",
+        "fSJ61gXs7aY",
+        "fcJzhtpMfgc",
+        "flojhQpCUWg",
+        "gGIJXRLTp0I",
+        "gafZUG1aNKI",
+        "gdmm2hTI4y4",
+        "ggpa3p4e8Os",
+        "gzyFcuuTYFo",
+        "hoEPeeBg7G0",
+        "iBq15XhuPjE",
+        "ibRyH1Q1bbo",
+        "jOIihtfGQhA"
+      ],
+      "validation_sources": [
+        "5G94o6UdX2w",
+        "5GUT-khf_tU",
+        "75CH3nr9D0E",
+        "CY26VGQ7t1E",
+        "Cu8mVNNT6is",
+        "ESnU5Vn5gqE",
+        "GaRaR0G-ugg",
+        "HCmP-G7_fJU",
+        "M7biA0ABhIE",
+        "N3o3Rg0kKMw",
+        "QAs8dUX9q04",
+        "R0PvkI2BADo",
+        "Ye3IvM96h68",
+        "ZpWmwFjw9tY",
+        "dIBNHpmFY-4",
+        "dxe9LkBB4Q8",
+        "e4YEsKp3pJ8",
+        "fRBJY5RHN_s",
+        "gWd5AU5wP0k",
+        "jaB-Eey0now"
+      ]
+    },
+    {
+      "fold": 3,
+      "training_sources": [
+        "3exdpRbcMmA",
+        "4lYz1L-SEbo",
+        "5G94o6UdX2w",
+        "5GUT-khf_tU",
+        "5WDVITnmb_Y",
+        "5ZwiGw_g8YA",
+        "5dRnwv9ZiG4",
+        "64Yy2hwDYac",
+        "67vhJRyiwmI",
+        "6KG0mbhejCs",
+        "6iV76zdkdBY",
+        "75CH3nr9D0E",
+        "7FAZzxo3jnM",
+        "B2PYviO_MBw",
+        "BBDR-x9Pz6Q",
+        "CMVFSoI5Dlw",
+        "CY26VGQ7t1E",
+        "CrhPxGAf8Yc",
+        "Cu8mVNNT6is",
+        "DAHugYj5QDU",
+        "ESnU5Vn5gqE",
+        "F-cmTIX6Drw",
+        "GaRaR0G-ugg",
+        "H8WWknTZUmA",
+        "HCmP-G7_fJU",
+        "L6QdLb5sOKA",
+        "LG_L2HvS3i8",
+        "LUDJ_eqPE4E",
+        "LzGTRmCGJxc",
+        "M7biA0ABhIE",
+        "MSNZTb4aHuc",
+        "MT5aNXtyT8U",
+        "N3o3Rg0kKMw",
+        "Ntd9Y7Bkl6I",
+        "Oe7vfErM63c",
+        "OxmRIHS8rRM",
+        "POa6ywcX50A",
+        "POsrXp01pr4",
+        "Pg0BgPB1SY4",
+        "Q1K-18XBrQo",
+        "Q6G3SqUU3w0",
+        "QAs8dUX9q04",
+        "QEWH30i14hA",
+        "QeG2HREr6m0",
+        "R0PvkI2BADo",
+        "Xc6bUqxIcUw",
+        "XilAaJ_r4tA",
+        "XoKPpeiDgAo",
+        "Xvuq6Frk_Jo",
+        "YLVZShRe1P8",
+        "YOxmFaxoIig",
+        "Y_WxKHxPmTQ",
+        "Ye3IvM96h68",
+        "ZcHBmeOCRUQ",
+        "ZmBDBldVa74",
+        "ZpWmwFjw9tY",
+        "_5dyLrtc5fQ",
+        "_Bl5zZ30aGk",
+        "dIBNHpmFY-4",
+        "dSF2i1OQtMc",
+        "dVFyXxNN7J8",
+        "dZTRnHfAFX8",
+        "dxe9LkBB4Q8",
+        "e4YEsKp3pJ8",
+        "eTlfd00WUHE",
+        "eho0auiBhTY",
+        "ejjLKLUeGHM",
+        "ekD635_HVLc",
+        "fEMzrsYAOZ4",
+        "fMluwiLbq58",
+        "fRBJY5RHN_s",
+        "fSJ61gXs7aY",
+        "fcJzhtpMfgc",
+        "gGIJXRLTp0I",
+        "gWd5AU5wP0k",
+        "gafZUG1aNKI",
+        "ggpa3p4e8Os",
+        "iBq15XhuPjE",
+        "ibRyH1Q1bbo",
+        "jaB-Eey0now"
+      ],
+      "validation_sources": [
+        "DyUa2dEY5Kk",
+        "EpkRTxllorU",
+        "FZmNWmGs298",
+        "OhVU5mTdEAU",
+        "QaqGD09CG1k",
+        "Ym_MzqdQWuQ",
+        "Yw1fnOK3Xe4",
+        "ZVFI6XbK5ts",
+        "ZZ1m75L6Aaw",
+        "ZbXbRTRlKag",
+        "ZgZGQYBZGwc",
+        "Zi4BPqed4WM",
+        "__PYrzYbzKE",
+        "_agtjsQnW7o",
+        "dg8_9piDoIw",
+        "flojhQpCUWg",
+        "gdmm2hTI4y4",
+        "gzyFcuuTYFo",
+        "hoEPeeBg7G0",
+        "jOIihtfGQhA"
+      ]
+    },
+    {
+      "fold": 4,
+      "training_sources": [
+        "5G94o6UdX2w",
+        "5GUT-khf_tU",
+        "5WDVITnmb_Y",
+        "5dRnwv9ZiG4",
+        "64Yy2hwDYac",
+        "6KG0mbhejCs",
+        "75CH3nr9D0E",
+        "7FAZzxo3jnM",
+        "B2PYviO_MBw",
+        "CY26VGQ7t1E",
+        "Cu8mVNNT6is",
+        "DAHugYj5QDU",
+        "DyUa2dEY5Kk",
+        "ESnU5Vn5gqE",
+        "EpkRTxllorU",
+        "F-cmTIX6Drw",
+        "FZmNWmGs298",
+        "GaRaR0G-ugg",
+        "H8WWknTZUmA",
+        "HCmP-G7_fJU",
+        "L6QdLb5sOKA",
+        "LG_L2HvS3i8",
+        "LzGTRmCGJxc",
+        "M7biA0ABhIE",
+        "MSNZTb4aHuc",
+        "MT5aNXtyT8U",
+        "N3o3Rg0kKMw",
+        "Oe7vfErM63c",
+        "OhVU5mTdEAU",
+        "OxmRIHS8rRM",
+        "POa6ywcX50A",
+        "POsrXp01pr4",
+        "Pg0BgPB1SY4",
+        "Q6G3SqUU3w0",
+        "QAs8dUX9q04",
+        "QEWH30i14hA",
+        "QaqGD09CG1k",
+        "QeG2HREr6m0",
+        "R0PvkI2BADo",
+        "Xc6bUqxIcUw",
+        "XilAaJ_r4tA",
+        "Xvuq6Frk_Jo",
+        "YLVZShRe1P8",
+        "Y_WxKHxPmTQ",
+        "Ye3IvM96h68",
+        "Ym_MzqdQWuQ",
+        "Yw1fnOK3Xe4",
+        "ZVFI6XbK5ts",
+        "ZZ1m75L6Aaw",
+        "ZbXbRTRlKag",
+        "ZgZGQYBZGwc",
+        "Zi4BPqed4WM",
+        "ZpWmwFjw9tY",
+        "_5dyLrtc5fQ",
+        "_Bl5zZ30aGk",
+        "__PYrzYbzKE",
+        "_agtjsQnW7o",
+        "dIBNHpmFY-4",
+        "dSF2i1OQtMc",
+        "dZTRnHfAFX8",
+        "dg8_9piDoIw",
+        "dxe9LkBB4Q8",
+        "e4YEsKp3pJ8",
+        "ekD635_HVLc",
+        "fEMzrsYAOZ4",
+        "fMluwiLbq58",
+        "fRBJY5RHN_s",
+        "fSJ61gXs7aY",
+        "fcJzhtpMfgc",
+        "flojhQpCUWg",
+        "gWd5AU5wP0k",
+        "gafZUG1aNKI",
+        "gdmm2hTI4y4",
+        "ggpa3p4e8Os",
+        "gzyFcuuTYFo",
+        "hoEPeeBg7G0",
+        "iBq15XhuPjE",
+        "ibRyH1Q1bbo",
+        "jOIihtfGQhA",
+        "jaB-Eey0now"
+      ],
+      "validation_sources": [
+        "3exdpRbcMmA",
+        "4lYz1L-SEbo",
+        "5ZwiGw_g8YA",
+        "67vhJRyiwmI",
+        "6iV76zdkdBY",
+        "BBDR-x9Pz6Q",
+        "CMVFSoI5Dlw",
+        "CrhPxGAf8Yc",
+        "LUDJ_eqPE4E",
+        "Ntd9Y7Bkl6I",
+        "Q1K-18XBrQo",
+        "XoKPpeiDgAo",
+        "YOxmFaxoIig",
+        "ZcHBmeOCRUQ",
+        "ZmBDBldVa74",
+        "dVFyXxNN7J8",
+        "eTlfd00WUHE",
+        "eho0auiBhTY",
+        "ejjLKLUeGHM",
+        "gGIJXRLTp0I"
+      ]
+    }
+  ]
+}

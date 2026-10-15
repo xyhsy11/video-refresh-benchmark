@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "reviewed_at_utc": "2026-10-15T02:19:23.147763+00:00",
+  "independent_paired_rank_AUROC_and_video_MAE_RMSE_sign_checks": true,
+  "all_probe_MAE_intervals_reproduced": true,
+  "privileged_drift_correlations_and_gain_quantiles_reproduced": true,
+  "one_class_AUROC_explicitly_undefined": true,
+  "figures_visually_checked": 3,
+  "text_files_privacy_scanned": 19,
+  "all_JSON_finite_or_explicit_null": true,
+  "documentation_only_clarifications": "Negative conclusion and next hypothesis clarified; three-way zero-sign abstention explained; no measurements,models,features,settings or frozen sources changed.",
+  "publication": "Latest user instruction explicitly requests GitHub commit after completion; experiment branch only, no merge or PR."
+}

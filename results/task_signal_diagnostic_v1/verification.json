@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-15T02:14:00.057760+00:00",
+  "development_videos": 100,
+  "exploratory_videos": 40,
+  "development_examples": 900,
+  "exploratory_examples": 360,
+  "saved_predictions": 7560,
+  "dense_periodic_reproduced_rows": 280,
+  "clip_rows": 420,
+  "independent_explicit_counterfactual_replays": 1260,
+  "source_grouped_class_stratified_folds": true,
+  "training_only_scalers_and_independent_ridge_solution": true,
+  "input_isolation_mutations": 420,
+  "independent_video_MAE_and_paired_bootstrap": true,
+  "frozen_classifier_and_controller_unchanged": true,
+  "previous_tracked_files_preserved": 2569,
+  "fresh_confirmation_arrays_or_results_parsed": 0,
+  "actual_RGB_encoder_calls": 0,
+  "video_decodes": 0,
+  "downloads": 0,
+  "recognition_training_calls": 0,
+  "focused_tests": {
+    "returncode": 0,
+    "output": "test_class_stratified_source_folds (test_task_signals.TaskSignalChecks.test_class_stratified_source_folds) ... ok\ntest_exact_budget_histories_signed_independent_targets (test_task_signals.TaskSignalChecks.test_exact_budget_histories_signed_independent_targets) ... ok\ntest_heldout_targets_do_not_change_fold_model_or_predictions (test_task_signals.TaskSignalChecks.test_heldout_targets_do_not_change_fold_model_or_predictions) ... ok\ntest_missing_motion_and_confidence (test_task_signals.TaskSignalChecks.test_missing_motion_and_confidence) ... ok\ntest_no_label_current_future_rgb_or_future_motion_inputs (test_task_signals.TaskSignalChecks.test_no_label_current_future_rgb_or_future_motion_inputs) ... ok\ntest_ridge_sum_objective_constant_columns (test_task_signals.TaskSignalChecks.test_ridge_sum_objective_constant_columns) ... ok\ntest_undefined_statistics_and_ties (test_task_signals.TaskSignalChecks.test_undefined_statistics_and_ties) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.381s\n\nOK\n"
+  },
+  "release_validation": {
+    "returncode": 0,
+    "output": "Public snapshot PASS: ten videos, 150 pilot rows, 15 single-video rows; all counters valid.\nCSV-derived headlines PASS: 34.74% median reduction, 1.532x median speedup, 17.52-45.54% range.\nOriginal timing source hashes and 17 snapshot checksums PASS; 97 relative links PASS.\nPersonal-path and installation-requirement checks PASS; no GPU timing was rerun.\n"
+  }
+}
