@@ -1,0 +1,28 @@
+{
+  "reviewed_at_utc": "2026-10-16T06:36:33.692380+00:00",
+  "status": "passed",
+  "source_revision": "c3ec3e67081f4dba89356efac9549194cceebb13",
+  "reviewed_main_revision": "bb1c6343d60e1872d458aaab519c8245634eb019",
+  "relevant_reviewed_artifacts_unchanged": true,
+  "prior_tracked_scientific_files_preserved": 3043,
+  "frozen_scientific_source_hashes_preserved": true,
+  "frozen_input_hashes_preserved": 156,
+  "original_README_bytes_preserved": true,
+  "relative_README_links_checked_after_append": 159,
+  "existing_release_validator_executions": 1,
+  "existing_release_validator_result": "passed;original snapshot hashes/headlines unchanged",
+  "figure_review": "figure_review.json",
+  "PDF_validation": "four single-page structural checks;common figure canvas with inspected PNGs",
+  "editorial_review": "editorial_review/review.json",
+  "scientific_payload_sha256": {
+    "protocol.json": "a869d080e383bd1dd5fa62604237f27e1af3cd85c80cf1719dc209ab40d1c026",
+    "per_video_metrics.csv": "86368ffb8b9c319a91149e4f117274c7e4dcbf35b5d88b745b4b2051d2c22821",
+    "paired_comparisons.csv": "80fd9d56430c2ded985735548cac67a038226c0d1392ef47a35de3d1203bd6ea",
+    "aggregate_metrics.json": "d8a62e074c5edbc2005054f2df374f8770905b7cfd4cb87821569e43f880bc7a",
+    "bootstrap_intervals.json": "a7106e9b779f9d4334c17ef510f58bfff745e9bd0441c207a12e8f58753f7f94",
+    "selected_schedules.json": "e90194deeae3e5f02989843753af2ffc9df179585b7f5b59643f7d2da86c6557",
+    "canonical_schedules.npz": "5c1171ab94e8673fd19f2cea5cd6d875e0da70c2a67de47b9953e463de1e08e3"
+  },
+  "scope": "new code,README/.gitignore append and curated result package;no videos,weights,old sources/models/folds/results changed",
+  "actual_new_encoder_decodes_fits_or_video_weight_downloads": 0
+}

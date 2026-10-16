@@ -89,6 +89,9 @@ results/*
 !results/refresh_generalization_audit_v1_rerun1/
 !results/refresh_generalization_audit_v1_rerun1/**
 
+!results/refresh_pooling_control_v1/
+!results/refresh_pooling_control_v1/**
+
 # Curated snapshots also exclude downloaded assets, secrets, and temporary files.
 *.mp4
 *.avi

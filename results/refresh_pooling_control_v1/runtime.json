@@ -1,0 +1,8 @@
+{
+  "offline_analysis_elapsed_seconds": 40.94865549999986,
+  "boundary": "CPU enumeration,saving,verification,tests,figures,release validation;excludes preflight and manual visual review;not inference latency",
+  "encoder_calls": 0,
+  "decoder_calls": 0,
+  "fit_calls": 0,
+  "video_or_weight_downloads": 0
+}
