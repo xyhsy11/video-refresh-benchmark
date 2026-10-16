@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-16T02:47:52.960162+00:00",
+  "additional_check_source_sha256": "9a6c1223880bfc0bff797494f027b9a459ead3ac7d42f8f3316fa0512166a4ce",
+  "scope": "additional verification only;no model/threshold/feature changes",
+  "independent_C_input_rebuilds": 1260,
+  "maximum_C_input_discrepancy": 7.105427357601002e-15,
+  "explicit_scalar_summary_and_denominator_checks": 12,
+  "old_per_source_utilities_and_counters_reproduced": 420,
+  "recorded_B_frames": 21248,
+  "recorded_future_reference_vectors": 30297428,
+  "frames_with_missing_motion": 341,
+  "motion_CSV_hashes_checked": 140,
+  "new_training_sources_exclude_prior_reserved_ids_and_hashes": 320,
+  "previous_exclusively_training_sources_reused": 80,
+  "protected_confirmation_outcome_tables_read": 0,
+  "encoder_decodes_downloads_or_fits": 0
+}

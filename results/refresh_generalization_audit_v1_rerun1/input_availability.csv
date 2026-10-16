@@ -1,0 +1,8 @@
+group,contains,availability,additional_computation,limitations
+age/budget4,"candidate position,elapsed seconds,remaining calls,next planned refresh distance",current prefix plus saved candidate plan,bookkeeping,no current RGB/labels;full-clip16-candidate endpoints use whole-clip inspection
+codec motion6,current mean/p90/availability and interval mean/max/available fraction,decoded positions after actual periodic cache through current candidate,software codec export and CPU summaries,no current RGB;B-frame/future-reference codec vectors can depend on future encoded references
+cached confidence6,"entropy,max probability,margin for cached and mean past-output logits",only already refreshed features;past outputs stop at t-1,linear head/softmax/bookkeeping,no true-label score;not full-video dense prediction
+cached centered logits40,20 cached scores and20 mean past scores;fixed class order,"periodic cache refreshed0,4,8 strictly before decision",linear head on cached features,no current unencoded or skipped dense feature;no identities as model inputs
+history T44,"ordered cached-score changes,masks,margin variability,top1 switches",distinct past periodic refresh events only,retain history and compute differences/softmax summaries,no new RGB;length2 recoverable from C;length3 retains individual/order information
+privileged P (excluded),current fresh RGB logits,only after paying current encoding,extra current RGB work potentially needed,excluded from all audited models and motion baseline
+"targets B,C,G (excluded)",whole-video loss differences using true label and full references,retrospective evaluator only,offline reference replay,"labels/future features permitted for targets,not predictor inputs"

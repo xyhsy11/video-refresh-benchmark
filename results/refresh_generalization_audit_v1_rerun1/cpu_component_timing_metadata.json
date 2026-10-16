@@ -1,0 +1,100 @@
+{
+  "recorded_at_utc": "2026-10-16T02:46:27.839378+00:00",
+  "sample": {
+    "sample_sources": [
+      "3exdpRbcMmA",
+      "4lYz1L-SEbo",
+      "5G94o6UdX2w",
+      "5GUT-khf_tU",
+      "5WDVITnmb_Y"
+    ],
+    "opportunities_per_pass": 45,
+    "warmups": 2,
+    "repeats": 5,
+    "seed": 20261022,
+    "threads": 1,
+    "modes": [
+      "motion_rule",
+      "direct_RF400",
+      "two_target_RF200x2",
+      "history_RF400"
+    ],
+    "boundary": "preloaded rows;batch1 scaling+saved sklearn forest predict or motion decision;excludes all observation construction,loading,fitting,logging,decoding,encoder,codec motion and full recognition"
+  },
+  "execution_order": [
+    {
+      "phase": "warmup",
+      "repeat": 0,
+      "order": [
+        "direct_RF400",
+        "motion_rule",
+        "history_RF400",
+        "two_target_RF200x2"
+      ]
+    },
+    {
+      "phase": "warmup",
+      "repeat": 1,
+      "order": [
+        "two_target_RF200x2",
+        "history_RF400",
+        "motion_rule",
+        "direct_RF400"
+      ]
+    },
+    {
+      "phase": "measured",
+      "repeat": 0,
+      "order": [
+        "two_target_RF200x2",
+        "motion_rule",
+        "history_RF400",
+        "direct_RF400"
+      ]
+    },
+    {
+      "phase": "measured",
+      "repeat": 1,
+      "order": [
+        "history_RF400",
+        "direct_RF400",
+        "motion_rule",
+        "two_target_RF200x2"
+      ]
+    },
+    {
+      "phase": "measured",
+      "repeat": 2,
+      "order": [
+        "motion_rule",
+        "two_target_RF200x2",
+        "direct_RF400",
+        "history_RF400"
+      ]
+    },
+    {
+      "phase": "measured",
+      "repeat": 3,
+      "order": [
+        "two_target_RF200x2",
+        "motion_rule",
+        "history_RF400",
+        "direct_RF400"
+      ]
+    },
+    {
+      "phase": "measured",
+      "repeat": 4,
+      "order": [
+        "motion_rule",
+        "direct_RF400",
+        "history_RF400",
+        "two_target_RF200x2"
+      ]
+    }
+  ],
+  "models_resident_simultaneously": true,
+  "same_400_total_trees_does_not_imply_equal_cost": true,
+  "two_target_boundary": "two independent200-tree scaling/prediction calls,net subtraction and threshold decision included;no feature construction/history updates included",
+  "baseline_evidence": "Existing history construction timing is separately cited,not added to these timings or historical GPU timings."
+}

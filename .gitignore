@@ -86,6 +86,9 @@ results/*
 !results/cached_history_signal_diagnostic_v1_rerun1/
 !results/cached_history_signal_diagnostic_v1_rerun1/**
 
+!results/refresh_generalization_audit_v1_rerun1/
+!results/refresh_generalization_audit_v1_rerun1/**
+
 # Curated snapshots also exclude downloaded assets, secrets, and temporary files.
 *.mp4
 *.avi
