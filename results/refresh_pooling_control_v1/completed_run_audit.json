@@ -1,0 +1,22 @@
+{
+  "checks": [
+    {
+      "check": "audit_only",
+      "returncode": 0,
+      "passed": true,
+      "all_completed_files_preserved": 176,
+      "checked_at_utc": "2026-10-16T06:36:56.845668+00:00",
+      "independent_schedule_outcomes_checked": 966700,
+      "PDF_single_page_checks": 4
+    },
+    {
+      "check": "completed_default",
+      "returncode": 0,
+      "passed": true,
+      "all_completed_files_preserved": 176,
+      "checked_at_utc": "2026-10-16T06:37:16.386532+00:00",
+      "independent_schedule_outcomes_checked": 966700,
+      "PDF_single_page_checks": 4
+    }
+  ]
+}

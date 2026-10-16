@@ -1,0 +1,15 @@
+{
+  "recorded_at_utc": "2026-10-16T06:36:33.717807+00:00",
+  "working_directory": "repository root",
+  "executed_scientific_commands": [
+    "& .\\.venv\\Scripts\\python.exe -m unittest test_refresh_pooling_control -v",
+    "& .\\.venv\\Scripts\\python.exe .\\analyze_refresh_pooling_control.py --input results/recognition_baseline_v2 --output results/refresh_pooling_control_v1 --budgets 2 4 8 --bootstrap 10000 --seed 20261023 --preflight-only",
+    "& .\\.venv\\Scripts\\python.exe .\\analyze_refresh_pooling_control.py --input results/recognition_baseline_v2 --output results/refresh_pooling_control_v1 --budgets 2 4 8 --bootstrap 10000 --seed 20261023",
+    "& .\\.venv\\Scripts\\python.exe .\\analyze_refresh_pooling_control.py --input results/recognition_baseline_v2 --output results/refresh_pooling_control_v1 --budgets 2 4 8 --bootstrap 10000 --seed 20261023 --finalize-reviewed"
+  ],
+  "executed_release_command": "& .\\.venv\\Scripts\\python.exe .\\validate_release.py",
+  "executed_git_metadata_fetch": "git fetch --no-tags origin bb1c6343d60e1872d458aaab519c8245634eb019",
+  "checkpoint_documentation_only": "Official X3D docs and pinned source inspected;no checkpoint or video downloaded",
+  "initial_offline_CPU_compute_check_export_seconds": 40.94865549999986,
+  "subsequent_read_only_audits": "recorded in completed_run_audit.json after execution;not included in initial runtime;not inference latency"
+}

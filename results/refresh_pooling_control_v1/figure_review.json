@@ -1,0 +1,14 @@
+{
+  "reviewed_at_utc": "2026-10-16T06:32:33.257137+00:00",
+  "review": "Rendered four PNG figures inspected for labels,axes,cohort separation and clipping;PDF counterparts share the same figure canvas and are structurally checked",
+  "figure_sha256": {
+    "figures/cross_evaluation_matrix.pdf": "e0916594da7f5f2883e3d41efe7de61ef4016dfa6637a3c6dc508f9fc35b82dd",
+    "figures/cross_evaluation_matrix.png": "50f7063aa99f8204e93f3a1450c31946122e67b9d86aa9ba05953a4d0900d84a",
+    "figures/fixed_schedule_pooling_effects.pdf": "8d27c877505e8269fd0226826e23bb8bbc435260f39cd66840782fdf62279703",
+    "figures/fixed_schedule_pooling_effects.png": "d84f592ee1d06a2d2c40dde40ae82e2f7129bb3ad5597efbcabcfb1a6b08cd7d",
+    "figures/headroom_vs_budget.pdf": "69d57a65e7af907a2bacf693617bdbf65a4106e947b5c729a72cd903bbb271de",
+    "figures/headroom_vs_budget.png": "feed8f76e7f865d1abd49df04b24f64a9ba121b19913b0312356fc9161b0a967",
+    "figures/primary_headroom_delta.pdf": "ec2c1e065c44319724003e09ca597d37d3e150a3c13f7202293a08d7d0955101",
+    "figures/primary_headroom_delta.png": "4e8697e08e175b0faa93d74819f68031d62153e73f5f3a3a7a9901eb394def00"
+  }
+}

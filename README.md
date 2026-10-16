@@ -875,3 +875,56 @@ Next, separately preregister a temporal-recognition backbone/task benchmark with
 ![Harmful selections and missed benefits](results/refresh_generalization_audit_v1_rerun1/figures/harmful_and_missed.png)
 
 ![Training versus held-out performance](results/refresh_generalization_audit_v1_rerun1/figures/training_vs_heldout.png)
+
+## refresh_pooling_control_v1: selected frames versus cache-duration weights
+
+Status: **completed and verified; reused-data diagnostic**. Actual starting revision was `c3ec3e67081f4dba89356efac9549194cceebb13`. The relevant frozen inputs/code match reviewed merge revision `bb1c6343d60e1872d458aaab519c8245634eb019`; no reset or historical-result changes were made. The primary 400-training-video head (directory `20` means videos per class), regularization 0.01, class order, normalization and parameters remain unchanged. Exactly 100 development and 40 previously inspected exploratory sources are used. Development previously selected recognition regularization; neither cohort is fresh confirmation.
+
+Cache pooling weights each selected candidate's logits by its number of subsequent latest-cache outputs out of 16. Unique-refresh pooling averages the B selected logits equally. These are candidate-output counts, not elapsed seconds. Both use the same affine head and pool logits/features, not probabilities. Unique pooling is one alternative final-video classification, not sixteen equivalent time-indexed predictions.
+
+Every feasible schedule includes candidate 0. Exact lexicographic enumeration covers 15/455/6,435 schedules at B=2/4/8, totaling 966,700 source/schedule pairs. Periodic, feature-error oracle, cache-task oracle and unique-task oracle are cross-evaluated under both pooling rules. RandomExact averages individual losses/correctness over all feasible schedules, not averaged-logit ensemble performance. Dense B=16 is saved once per source.
+
+The primary contrast is Delta = H_C - H_U, where each headroom subtracts its own optimized true-label CE from periodic CE. Positive Delta means larger optimized headroom under cache pooling.
+
+| Cohort, B=4 | Cache headroom H_C, nats/video | Unique headroom H_U, nats/video | Delta and 95% interval |
+| --- | ---: | ---: | --- |
+| Development100 (primary) | 0.585507 | 0.568549 | +0.016958 [-0.019657, +0.050852] |
+| Previously inspected exploratory40 | 0.582720 | 0.540060 | +0.042660 [-0.016317, +0.103938] |
+
+At the **same cache-optimal frames**, changing C to U raises CE by 0.149151 [0.103270, 0.198438] on development and 0.154785 [0.078627, 0.231023] on exploratory. But reoptimizing frames for U retains substantial privileged headroom. The oracle's frame choices depend on pooling; these results do not support calling all headroom a weighting artifact. The B=4 Delta intervals include zero, which is inconclusive rather than equivalence. Only 16/100 and 5/40 cache/unique oracle schedules coincide. Both task oracles use true labels and all candidate features; their accuracy is not deployable performance or an accuracy-maximizing upper bound.
+
+| Cohort, B=4 | L_C(S_C) | L_U(S_C) | L_C(S_U) | L_U(S_U) |
+| --- | ---: | ---: | ---: | ---: |
+| Development | 0.565185 | 0.714335 | 0.776007 | 0.582143 |
+| Exploratory | 0.492441 | 0.647227 | 0.705893 | 0.535102 |
+
+The feature oracle still lowers last-cache feature error without lowering mean classification loss under either pooling rule. Its error remains a last-cache-timeline property, unchanged when final classification pooling changes. B=2 and B=8 sensitivities, paired accuracy percentage-point differences, signed source counts, effective weight counts, schedule overlap and RandomExact distributions are all saved. B=8 favors larger cache headroom in secondary intervals; it does not replace the inconclusive primary contrast. No semantic-importance percentage or causal decomposition is claimed.
+
+Seven focused tests, 560 archived primary-head B=4 rows, 3,500 independent selected-pool checks and all 966,700 schedule outcomes pass. Independent reconstruction reproduces all aggregates and bootstrap endpoints; maximum logit/loss discrepancy is 8.88e-15. The existing release validator passed once. Four PNG figures were visually inspected; their PDF counterparts share the same canvas and pass single-page structural checks. Completion was recorded after the figure-review stage. Scientific sources remain frozen; a documented editorial review repaired Markdown table breaks and expanded interpretation without changing outcomes.
+
+Uncertainty uses 10,000 class-stratified whole-source PCG64 resamples, seed 20261023, 5/class development and 2/class exploratory, shared across budgets/pools within each cohort, with linear percentile endpoints. Intervals condition on the fixed head/classes and exclude training/model-selection/repeated-research uncertainty. Secondary intervals are marginal/unadjusted; two exploratory sources/class limit interpretation. Sparse pooling can shift the representation distribution of a head trained on dense means.
+
+From the repository root:
+
+~~~powershell
+& .\.venv\Scripts\python.exe -m unittest test_refresh_pooling_control -v
+& .\.venv\Scripts\python.exe .\analyze_refresh_pooling_control.py --input results/recognition_baseline_v2 --output results/refresh_pooling_control_v1 --budgets 2 4 8 --bootstrap 10000 --seed 20261023 --preflight-only
+& .\.venv\Scripts\python.exe .\analyze_refresh_pooling_control.py --input results/recognition_baseline_v2 --output results/refresh_pooling_control_v1 --budgets 2 4 8 --bootstrap 10000 --seed 20261023
+# On a new run, inspect all four rendered figures before finalizing:
+& .\.venv\Scripts\python.exe .\analyze_refresh_pooling_control.py --input results/recognition_baseline_v2 --output results/refresh_pooling_control_v1 --budgets 2 4 8 --bootstrap 10000 --seed 20261023 --finalize-reviewed
+& .\.venv\Scripts\python.exe .\analyze_refresh_pooling_control.py --input results/recognition_baseline_v2 --output results/refresh_pooling_control_v1 --budgets 2 4 8 --bootstrap 10000 --seed 20261023 --audit-only
+~~~
+
+Completed invocations audit without retiming or overwriting scientific results. Changed scientific inputs/settings require a fresh versioned directory. Initial CPU computation/check/export cost was 40.95 seconds, excluding preflight/manual review and later read-only audits; this is offline analysis cost, not inference latency. Actual new video/weight downloads, decodes, encoder forwards, model/scaler/threshold fits and package upgrades are zero. No training arrays or protected confirmation outcomes, references or motion tables were opened.
+
+See [findings](results/refresh_pooling_control_v1/findings.md), [frozen reused-data protocol](results/refresh_pooling_control_v1/protocol.json), [input identities](results/refresh_pooling_control_v1/input_provenance.json), [selected schedules and logits](results/refresh_pooling_control_v1/selected_schedules.json), [per-video metrics](results/refresh_pooling_control_v1/per_video_metrics.csv), [paired comparisons](results/refresh_pooling_control_v1/paired_comparisons.csv), [aggregate metrics](results/refresh_pooling_control_v1/aggregate_metrics.json), [bootstrap intervals](results/refresh_pooling_control_v1/bootstrap_intervals.json), [verification](results/refresh_pooling_control_v1/verification.json), and [visual-review record](results/refresh_pooling_control_v1/figure_review.json). Canonical schedule tables, compressed per-source outcome distributions, bootstrap indices and PNG/PDF figures are retained for reproduction.
+
+Next, use the concrete [X3D-XS temporal-snippet benchmark design](results/refresh_pooling_control_v1/next_temporal_backbone_protocol.md), resolving checkpoint identity, recipe compatibility, new-source/pretraining overlap and resource questions first. It specifies valid temporal support, matched within-backbone budgets, pooling controls, new training/development/evaluation roles and complete cost accounting. No acquisition or training is launched here. This diagnostic establishes no fresh generalization, streaming causality, successful adaptive controller, end-to-end speedup or publication acceptance.
+
+![B4 privileged headroom and Delta](results/refresh_pooling_control_v1/figures/primary_headroom_delta.png)
+
+![B4 cross-evaluation matrix](results/refresh_pooling_control_v1/figures/cross_evaluation_matrix.png)
+
+![Fixed-frame pooling effects](results/refresh_pooling_control_v1/figures/fixed_schedule_pooling_effects.png)
+
+![Headroom versus refresh budget](results/refresh_pooling_control_v1/figures/headroom_vs_budget.png)

@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "archived_primary_head_B4_rows_reproduced": 560,
+  "independent_explicit_selected_pool_checks": 3500,
+  "all_schedule_outcomes_checked": 966700,
+  "maximum_independent_logit_discrepancy": 8.881784197001252e-15,
+  "maximum_independent_schedule_loss_discrepancy": 8.881784197001252e-15,
+  "schedule_counts": {
+    "2": 15,
+    "4": 455,
+    "8": 6435
+  },
+  "null_RandomExact_outputs_checked": 840,
+  "source_class_stratification_and_saved_index_reproduction": true,
+  "all_aggregates_contrasts_and_bootstrap_endpoints_reproduced": true,
+  "affine_cache_and_unique_pooling_and_accounting_identities": true,
+  "periodic_and_dense_pooling_equal": true,
+  "PDF_single_page_structure_checks": 0,
+  "training_reference_arrays_loaded": 0,
+  "protected_confirmation_outcomes_arrays_or_motion_tables_loaded": 0,
+  "actual_new_encoder_calls": 0,
+  "video_decodes": 0,
+  "fits": 0,
+  "video_or_weight_downloads": 0,
+  "focused_tests": {
+    "returncode": 0,
+    "output": "test_affine_offset_and_nonunit_scaling (test_refresh_pooling_control.PoolingChecks.test_affine_offset_and_nonunit_scaling) ... ok\ntest_both_oracles_and_exact_random_scalar_enumeration (test_refresh_pooling_control.PoolingChecks.test_both_oracles_and_exact_random_scalar_enumeration) ... ok\ntest_class_stratified_bootstrap_and_csv_nulls (test_refresh_pooling_control.PoolingChecks.test_class_stratified_bootstrap_and_csv_nulls) ... ok\ntest_counts_order_and_weights (test_refresh_pooling_control.PoolingChecks.test_counts_order_and_weights) ... ok\ntest_periodic_dense_one_and_identical_features (test_refresh_pooling_control.PoolingChecks.test_periodic_dense_one_and_identical_features) ... ok\ntest_pooling_alone_changes_prediction (test_refresh_pooling_control.PoolingChecks.test_pooling_alone_changes_prediction) ... ok\ntest_tolerance_first_choice_and_true_minimum (test_refresh_pooling_control.PoolingChecks.test_tolerance_first_choice_and_true_minimum) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.106s\n\nOK\n"
+  },
+  "release_validator": {
+    "returncode": 0,
+    "output": "Public snapshot PASS: ten videos, 150 pilot rows, 15 single-video rows; all counters valid.\nCSV-derived headlines PASS: 34.74% median reduction, 1.532x median speedup, 17.52-45.54% range.\nOriginal timing source hashes and 17 snapshot checksums PASS; 164 relative links PASS.\nPersonal-path and installation-requirement checks PASS; no GPU timing was rerun.\n"
+  },
+  "forbidden_runtime_modules_not_imported": true,
+  "actual_new_encoder_decoder_or_fitting_calls": 0,
+  "final_saved_artifact_audit": {
+    "passed": true,
+    "archived_primary_head_B4_rows_reproduced": 560,
+    "independent_explicit_selected_pool_checks": 3500,
+    "all_schedule_outcomes_checked": 966700,
+    "maximum_independent_logit_discrepancy": 8.881784197001252e-15,
+    "maximum_independent_schedule_loss_discrepancy": 8.881784197001252e-15,
+    "schedule_counts": {
+      "2": 15,
+      "4": 455,
+      "8": 6435
+    },
+    "null_RandomExact_outputs_checked": 840,
+    "source_class_stratification_and_saved_index_reproduction": true,
+    "all_aggregates_contrasts_and_bootstrap_endpoints_reproduced": true,
+    "affine_cache_and_unique_pooling_and_accounting_identities": true,
+    "periodic_and_dense_pooling_equal": true,
+    "PDF_single_page_structure_checks": 4,
+    "training_reference_arrays_loaded": 0,
+    "protected_confirmation_outcomes_arrays_or_motion_tables_loaded": 0,
+    "actual_new_encoder_calls": 0,
+    "video_decodes": 0,
+    "fits": 0,
+    "video_or_weight_downloads": 0
+  },
+  "figure_inspection_record": "figure_review.json"
+}
