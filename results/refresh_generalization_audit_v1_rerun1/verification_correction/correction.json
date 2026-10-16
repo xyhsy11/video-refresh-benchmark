@@ -1,0 +1,39 @@
+{
+  "problem": "Final CSV roundtrip check distinguished None from NaN in undefined-reason blanks;status was prematurely marked complete before that final check. Original attempt and sources preserved locally.",
+  "correction": "Check exact missing-value masks then every nonmissing numeric/text value;keep1e-12 numeric tolerance;status complete only after final audit;add schema fixture;generated reproduction commands use actual output path.",
+  "scientific_changes": "none;models,features,targets,folds,thresholds,scalers,seeds and estimators unchanged;no fits",
+  "actual_output": "results/refresh_generalization_audit_v1_rerun1",
+  "scientific_results_reproduced": {
+    "opportunity_decisions.csv": {
+      "original_sha256": "a86af0ca2686129988b045dbda88011b30e87d386df4625196dc31af1c18fe54",
+      "rerun_sha256": "a86af0ca2686129988b045dbda88011b30e87d386df4625196dc31af1c18fe54",
+      "byte_identical": true
+    },
+    "per_source_metrics.csv": {
+      "original_sha256": "a3e074f6a0ae5e2804dea7f301ae47d1fc26c044ca6755d13090db2f40000591",
+      "rerun_sha256": "a3e074f6a0ae5e2804dea7f301ae47d1fc26c044ca6755d13090db2f40000591",
+      "byte_identical": true
+    },
+    "summary.csv": {
+      "original_sha256": "77bb7ee6d6669e5f8680ba3cc12affcc31a492bbff1251df3b847befe9164751",
+      "rerun_sha256": "77bb7ee6d6669e5f8680ba3cc12affcc31a492bbff1251df3b847befe9164751",
+      "byte_identical": true
+    },
+    "bootstrap_intervals.json": {
+      "original_sha256": "be4378d658938412ccbca3d8669674b0ba62d5481fb3eeebb1ac68cc01bb26df",
+      "rerun_sha256": "be4378d658938412ccbca3d8669674b0ba62d5481fb3eeebb1ac68cc01bb26df",
+      "byte_identical": true
+    },
+    "motion_thresholds.json": {
+      "original_sha256": "b342a377552dac839735b8cca44ad6e42cc306f6a0a77cc5b8e889a3e8c333a7",
+      "rerun_sha256": "b342a377552dac839735b8cca44ad6e42cc306f6a0a77cc5b8e889a3e8c333a7",
+      "byte_identical": true
+    },
+    "training_vs_heldout.csv": {
+      "original_sha256": "3719903d323ac095f1d114a9b48e45aa40c0d619aabbed2c3d32a25b744f7b0b",
+      "rerun_sha256": "3719903d323ac095f1d114a9b48e45aa40c0d619aabbed2c3d32a25b744f7b0b",
+      "byte_identical": true
+    }
+  },
+  "CPU_timings": "remeasured with identical protocol;original rows preserved locally"
+}

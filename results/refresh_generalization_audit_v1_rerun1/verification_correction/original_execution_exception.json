@@ -1,0 +1,9 @@
+{
+  "status": "incomplete_final_CSV_roundtrip_check",
+  "original_status_was_prematurely_written_complete": true,
+  "problem": "CSV blank undefined reason read as NaN differs from in-memory None during pandas assertion;all predictions/targets were already reproduced",
+  "failed_column": "missed_benefit_reason",
+  "planned_correction": "explicit identical null-mask checks then strict nonmissing numeric/string checks;mark complete only after final check",
+  "models_targets_thresholds_features_and_tolerances_changed": false,
+  "original_run_preserved": true
+}

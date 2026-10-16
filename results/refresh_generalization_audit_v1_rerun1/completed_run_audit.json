@@ -1,0 +1,19 @@
+{
+  "checks": [
+    {
+      "check": "audit_only",
+      "passed": true,
+      "returncode": 0,
+      "all_result_files_preserved": 38,
+      "checked_at_utc": "2026-10-16T02:57:20.087004+00:00"
+    },
+    {
+      "check": "completed_default",
+      "passed": true,
+      "returncode": 0,
+      "all_result_files_preserved": 38,
+      "checked_at_utc": "2026-10-16T02:57:25.151930+00:00"
+    }
+  ],
+  "exact_commands": "See README.md and findings.md;--audit-only and completed-default invocations are read-only"
+}

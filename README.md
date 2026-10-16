@@ -832,3 +832,46 @@ Next, design a separate temporal-recognition backbone/task benchmark before anot
 ![Cached-history decision utility](results/cached_history_signal_diagnostic_v1_rerun1/figures/decision_utility.png)
 
 ![History-length comparison](results/cached_history_signal_diagnostic_v1_rerun1/figures/history_length_comparison.png)
+
+## refresh_generalization_audit_v1: independent pipeline and single-move audit
+
+Status: **completed and verified; no genuinely independent test was run**. The completed snapshot is [refresh_generalization_audit_v1_rerun1](results/refresh_generalization_audit_v1_rerun1/README.md). An initial final CSV null-representation check failed; the preserved [correction record](results/refresh_generalization_audit_v1_rerun1/verification_correction/correction.json) documents the original attempt and versioned rerun. Models, targets, decisions and scientific summaries are unchanged and reproduce byte-for-byte.
+
+This bounded audit independently traverses saved forest trees, reconstructs the frozen head's training normalization and regularization choice, explicitly replays all 1,260 signed loss targets, and rebuilds all 56 cached inputs from permitted periodic observations. It reuses 100 development sources/900 opportunities and 40 exploratory sources/360 opportunities. All nine moves stay together within the original five source-grouped folds. Recognition regularization already used the development cohort, and exploratory outcomes were previously inspected: controller OOF does not make the entire pipeline independent. This is an evaluation-design limitation, not proof of a coding bug.
+
+All decisions concern one prescribed earlier refresh versus keeping [0,4,8,12], with exactly four simulated refreshes and sixteen candidate outputs. The nine moves are never combined into a sequential schedule. Random accepts with probability 0.5; its counts and utility are analytical expectations. The motion baseline accepts only available current p90 motion strictly above its training-only median (fold-training medians for OOF; development-only median for exploratory); missing motion rejects. Neither is a complete Random Refresh or Motion Threshold controller. Frozen gain predictors accept iff predicted G>1e-12.
+
+| Method | Development OOF utility (95% interval) | Exploratory utility (95% interval) |
+| --- | --- | --- |
+| Keep periodic | 0 | 0 |
+| Random single move, expected | -0.020711 [-0.043853, +0.002944] | -0.053690 [-0.135467, +0.005692] |
+| Motion-median single move | -0.013943 [-0.047427, +0.024048] | -0.074634 [-0.233279, +0.028311] |
+| Direct RF400 | -0.025125 [-0.042323, -0.009137] | -0.064527 [-0.202759, +0.018178] |
+| Forward two-target RF200x2 | -0.011775 [-0.029779, +0.005975] | -0.078571 [-0.223520, +0.007901] |
+| Cached-history RF400 | -0.011949 [-0.028049, +0.003995] | -0.059949 [-0.196049, +0.020383] |
+
+Utility is cross-entropy gain in nats per opportunity, averaged over all nine opportunities within each source, including rejected zeros, then equally across sources. No nontrivial method establishes useful positive absolute utility over keeping periodic. All three forests have positive fold-training in-sample utility (+0.057 to +0.060) but negative OOF utility and worse held-out MAE than training-median prediction. This supports an overfitting/generalization concern for these tested inputs/models; it does not prove distribution shift or inherent unpredictability.
+
+Eight focused fixtures, 24 saved-model/scaler checks, 7,200 bootstrap-root checks, exact frozen prediction reproduction, 540 reference-array identity checks, 1,260 independent target/cache replays and 1,260 independent C-input reconstructions pass. The separate reviewer reproduces 420 earlier per-source utilities and all 12 audit summaries with scalar denominator calculations. Encoded hashes and original source IDs show no recorded overlap across recognition cohorts; reuploads/near-duplicate content under different IDs and unrecorded outcome-use history remain unverifiable. The recognition head and previous scientific artifacts remain unchanged.
+
+A new preloaded CPU microbenchmark uses five predetermined development sources, two warmups/five seeded interleaved passes, batch-size-one prediction and fixed threads. Median component times are 41.348/40.827/40.981 ms per opportunity for direct/two-target/history RF and 0.327 microseconds for the motion decision. These exclude observation/history construction, decoding, RGB, codec-vector extraction and full recognition; they are not added to historical GPU timings. Four simulated refreshes do not imply equal total runtime. Actual encoder executions, decodes, downloads and recognition/probe fits are all zero.
+
+Intervals use 10,000 whole-source paired resamples, PCG64 seed 20261022, linear percentiles and shared indices across methods within cohort. Paired secondary intervals are marginal/unadjusted. They condition on fitted models and reused cohorts, excluding full training and repeated-research uncertainty. Future-reference codec vectors and whole-clip candidate selection preserve the offline scope. Protected confirmation outcomes are not accessed or repurposed.
+
+From the repository root:
+
+~~~powershell
+& .\.venv\Scripts\python.exe -m unittest test_refresh_generalization_audit -v
+& .\.venv\Scripts\python.exe .\audit_refresh_generalization.py --output results/refresh_generalization_audit_v1_rerun1 --seed 20261022 --bootstrap 10000
+& .\.venv\Scripts\python.exe .\audit_refresh_generalization.py --output results/refresh_generalization_audit_v1_rerun1 --seed 20261022 --bootstrap 10000 --audit-only
+~~~
+
+Completed invocations audit without overwriting or retiming. See [findings](results/refresh_generalization_audit_v1_rerun1/findings.md), [cohort roles](results/refresh_generalization_audit_v1_rerun1/cohort_roles.csv), [leakage audit](results/refresh_generalization_audit_v1_rerun1/leakage_audit.md), [input availability](results/refresh_generalization_audit_v1_rerun1/input_availability.csv), [summary and denominators](results/refresh_generalization_audit_v1_rerun1/summary.csv), [paired intervals](results/refresh_generalization_audit_v1_rerun1/bootstrap_intervals.json), [training/held-out diagnostics](results/refresh_generalization_audit_v1_rerun1/training_vs_heldout.csv), [verification](results/refresh_generalization_audit_v1_rerun1/verification.json), [independent review](results/refresh_generalization_audit_v1_rerun1/independent_review.json), and [prospective fresh-test protocol](results/refresh_generalization_audit_v1_rerun1/fresh_test_protocol.md).
+
+Next, separately preregister a temporal-recognition backbone/task benchmark with new-source evaluation before another cached-feature controller variant. No architecture search or acquisition is launched. The audit establishes no recognition-accuracy improvement, streaming-causal controller or adaptive speedup.
+
+![Single-move utility intervals](results/refresh_generalization_audit_v1_rerun1/figures/utility_intervals.png)
+
+![Harmful selections and missed benefits](results/refresh_generalization_audit_v1_rerun1/figures/harmful_and_missed.png)
+
+![Training versus held-out performance](results/refresh_generalization_audit_v1_rerun1/figures/training_vs_heldout.png)

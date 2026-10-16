@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-16T02:46:40.953437+00:00",
+  "independent_identity_and_recognition_checks": {
+    "manifest_sources": 540,
+    "encoded_hash_duplicates": 0,
+    "same_parent_cross_cohort": 0,
+    "adjacent_same_parent_windows": 0,
+    "reference_arrays_hash_checked": 540,
+    "head_sha256": "760b2e807fb36368d919d56781d77b6480d590419b27038e72434af61cbeb3f0",
+    "head_regularization": 0.01,
+    "head_selection_uses_development_outcomes": true,
+    "head_train_normalization_reproduced": true,
+    "dense_accuracy_reproduced": {
+      "development": 0.72,
+      "exploratory": 0.65
+    },
+    "periodic_accuracy_reproduced": {
+      "development": 0.7,
+      "exploratory": 0.65
+    },
+    "independent_target_and_cache_replays": 1260,
+    "maximum_loss_discrepancy": 8.881784197001252e-15,
+    "maximum_target_discrepancy": 1.0658141036401503e-14,
+    "unverifiable": [
+      "semantic/near duplicates or reuploads under distinct source IDs;no perceptual content analysis",
+      "independence beyond recorded source IDs/windows and encoded hashes;encoded video bytes not rehashed or decoded in this audit",
+      "complete human inspection/decision chronology outside saved protocols and Git"
+    ]
+  },
+  "maximum_saved_prediction_discrepancy": 0.0,
+  "model_scaler_checks": 24,
+  "bootstrap_root_checks": 7200,
+  "sources_per_cohort": {
+    "development": 100,
+    "exploratory": 40
+  },
+  "opportunities_per_cohort": {
+    "development": 900,
+    "exploratory": 360
+  },
+  "source_grouping_and_training_only_motion_thresholds": true,
+  "saved_metrics_and_denominators": true,
+  "no_refitting_guard": true,
+  "actual_encoder_calls": 0,
+  "video_decodes": 0,
+  "downloads": 0,
+  "recognition_training_calls": 0,
+  "probe_training_calls": 0,
+  "protected_confirmation_outcomes_parsed": 0,
+  "independent_test_run": false,
+  "previous_artifacts_unchanged": true,
+  "focused_tests": {
+    "returncode": 0,
+    "output": "test_cross_entropy_and_undefined_statistics (test_refresh_generalization_audit.AuditChecks.test_cross_entropy_and_undefined_statistics) ... ok\ntest_expected_random_and_metric_denominators (test_refresh_generalization_audit.AuditChecks.test_expected_random_and_metric_denominators) ... ok\ntest_motion_training_only_missing_and_ties (test_refresh_generalization_audit.AuditChecks.test_motion_training_only_missing_and_ties) ... ok\ntest_no_outcomes_in_feature_whitelists (test_refresh_generalization_audit.AuditChecks.test_no_outcomes_in_feature_whitelists) ... ok\ntest_nullable_CSV_schema_checks_masks_and_values (test_refresh_generalization_audit.AuditChecks.test_nullable_CSV_schema_checks_masks_and_values) ... ok\ntest_schedule_boundaries_and_target_signs (test_refresh_generalization_audit.AuditChecks.test_schedule_boundaries_and_target_signs) ... ok\ntest_tree_traversal_and_float32_boundary (test_refresh_generalization_audit.AuditChecks.test_tree_traversal_and_float32_boundary) ... ok\ntest_whole_source_shared_bootstrap (test_refresh_generalization_audit.AuditChecks.test_whole_source_shared_bootstrap) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.270s\n\nOK\n"
+  },
+  "release_validator": {
+    "returncode": 0,
+    "output": "Public snapshot PASS: ten videos, 150 pilot rows, 15 single-video rows; all counters valid.\nCSV-derived headlines PASS: 34.74% median reduction, 1.532x median speedup, 17.52-45.54% range.\nOriginal timing source hashes and 17 snapshot checksums PASS; 149 relative links PASS.\nPersonal-path and installation-requirement checks PASS; no GPU timing was rerun.\n"
+  }
+}

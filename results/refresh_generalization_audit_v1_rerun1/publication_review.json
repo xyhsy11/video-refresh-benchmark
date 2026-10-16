@@ -1,0 +1,37 @@
+{
+  "status": "publication_review_passed",
+  "reviewed_at_utc": "2026-10-16T02:56:02.392097+00:00",
+  "actual_output": "results/refresh_generalization_audit_v1_rerun1",
+  "scope": "five new source/test modules,README/.gitignore append,curated completed rerun snapshot;original attempt preserved locally;no previous scientific files changed",
+  "frozen_main_sources_preserved": true,
+  "additional_input_review_source_sha256": "9a6c1223880bfc0bff797494f027b9a459ead3ac7d42f8f3316fa0512166a4ce",
+  "independent_input_review": "independent_review.json",
+  "verification_correction": "verification_correction/correction.json",
+  "figures_visually_checked": [
+    "figures/utility_intervals.png",
+    "figures/harmful_and_missed.png",
+    "figures/training_vs_heldout.png"
+  ],
+  "final_release_validation": {
+    "passed": true,
+    "relative_links": 164,
+    "original_pilot_hashes_and_headlines_preserved": true
+  },
+  "package_versions_unchanged_after_normalizing_distribution_name_hyphens": true,
+  "prior_tracked_scientific_files_preserved": 2999,
+  "editorial_changes": "Added measured interpretation,additional checks and preserved correction to findings;root README append;no scientific model,feature,target,threshold,seed,cohort,fold or metric changes",
+  "scientific_sha256": {
+    "opportunity_decisions.csv": "a86af0ca2686129988b045dbda88011b30e87d386df4625196dc31af1c18fe54",
+    "per_source_metrics.csv": "a3e074f6a0ae5e2804dea7f301ae47d1fc26c044ca6755d13090db2f40000591",
+    "summary.csv": "77bb7ee6d6669e5f8680ba3cc12affcc31a492bbff1251df3b847befe9164751",
+    "bootstrap_intervals.json": "be4378d658938412ccbca3d8669674b0ba62d5481fb3eeebb1ac68cc01bb26df",
+    "cpu_component_timings.csv": "61dc019d71b99ab3ad80de32337210675df353b927b09ecc38e7a32b4b53a4a1",
+    "protocol.json": "bdbe9ac6ffc0f60613cf50beca0d120d19a392b33a5713e5377329c88f273431"
+  },
+  "actual_RGB_encoder_calls": 0,
+  "video_decodes": 0,
+  "downloads": 0,
+  "recognition_fits": 0,
+  "predictor_fits": 0,
+  "no_genuinely_independent_test_run": true
+}
