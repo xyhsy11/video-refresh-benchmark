@@ -1,0 +1,19 @@
+{
+  "boundary": "encoded bytes in memory through full sequential decode and within-trial decoded-frame buffering, timestamp candidate planning, frame preparation, transfers, float32 encoders, float64 pooling/head and completed GPU prediction",
+  "exclusions": "disk load/model construction/downloads/assertions/logging/CPU feature copies; setup and file loading separate",
+  "warmups": 2,
+  "measured_repetitions": 5,
+  "thread_count": 1,
+  "interleave_seed": 20261024,
+  "batch_size": 1,
+  "B_operational_choice": "four independent one-frame ResNet calls per refreshed snippet, no cross-snippet feature caching",
+  "C_operational_choice": "native400 projection/global-average still executes; read-only hook extracts pre-projection features; this unused native-head work is included in C latency",
+  "GPU_memory": "both models plus three heads resident throughout; torch allocated baseline, reset per-trial peak, difference; allocator reserved not device-wide physical memory",
+  "CPU_memory": "Windows GetProcessMemoryInfo working set before/after; lifetime peak is process-wide, not a per-trial incremental peak",
+  "throughput": "encoded clip duration seconds divided by whole-trial wall seconds; offline throughput, not streaming response latency",
+  "forward_counts_total_including_warmups": {
+    "resnet18_endpoint": 2800,
+    "resnet18_four_frame_mean": 11200,
+    "x3d_xs": 2800
+  }
+}

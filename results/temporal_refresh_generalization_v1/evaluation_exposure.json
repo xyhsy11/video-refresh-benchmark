@@ -1,0 +1,5 @@
+{
+  "started_at_utc": "2026-10-16T11:57:39.764217+00:00",
+  "seal_sha256": "988537975458fcaf29894063404e01604decf09e201a440bb62689b617ce820d",
+  "evaluation_predictions_allowed_only_after_seal": true
+}

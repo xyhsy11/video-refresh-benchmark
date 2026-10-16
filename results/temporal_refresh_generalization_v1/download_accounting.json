@@ -1,0 +1,177 @@
+{
+  "cap_bytes": 21474836480,
+  "actual_body_bytes": 3251606327,
+  "interruption_charge_bytes": 0,
+  "requests": [
+    {
+      "url": "https://codeload.github.com/facebookresearch/pytorchvideo/zip/f3142bb05cdb56af0704ab6f0adfb0c7bbafe4a0",
+      "started_at_utc": "2026-10-16T10:59:38.705094+00:00",
+      "attempt": 1,
+      "actual_bytes": 4111741,
+      "status": "complete"
+    },
+    {
+      "url": "https://pypi.org/pypi/fvcore/0.1.5.post20221221/json",
+      "started_at_utc": "2026-10-16T10:59:40.339084+00:00",
+      "attempt": 1,
+      "actual_bytes": 1778,
+      "status": "complete"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/a5/93/d056a9c4efc6c79ba7b5159cc66bb436db93d2cc46dca18ed65c59cc8e4e/fvcore-0.1.5.post20221221.tar.gz",
+      "started_at_utc": "2026-10-16T10:59:40.654858+00:00",
+      "attempt": 1,
+      "actual_bytes": 50217,
+      "status": "complete"
+    },
+    {
+      "url": "https://pypi.org/pypi/iopath/0.1.10/json",
+      "started_at_utc": "2026-10-16T10:59:48.725539+00:00",
+      "attempt": 1,
+      "actual_bytes": 1766,
+      "status": "complete"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/72/73/b3d451dfc523756cf177d3ebb0af76dc7751b341c60e2a21871be400ae29/iopath-0.1.10.tar.gz",
+      "started_at_utc": "2026-10-16T10:59:49.002960+00:00",
+      "attempt": 1,
+      "actual_bytes": 42226,
+      "status": "complete"
+    },
+    {
+      "url": "https://pypi.org/pypi/yacs/0.1.8/json",
+      "started_at_utc": "2026-10-16T10:59:55.335109+00:00",
+      "attempt": 1,
+      "actual_bytes": 3594,
+      "status": "complete"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/38/4f/fe9a4d472aa867878ce3bb7efb16654c5d63672b86dc0e6e953a67018433/yacs-0.1.8-py3-none-any.whl",
+      "started_at_utc": "2026-10-16T10:59:55.603098+00:00",
+      "attempt": 1,
+      "actual_bytes": 14747,
+      "status": "complete"
+    },
+    {
+      "url": "https://pypi.org/pypi/termcolor/3.1.0/json",
+      "started_at_utc": "2026-10-16T10:59:58.714181+00:00",
+      "attempt": 1,
+      "actual_bytes": 8495,
+      "status": "complete"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/4f/bd/de8d508070629b6d84a30d01d57e4a65c69aa7f5abe7560b8fad3b50ea59/termcolor-3.1.0-py3-none-any.whl",
+      "started_at_utc": "2026-10-16T10:59:59.020941+00:00",
+      "attempt": 1,
+      "actual_bytes": 7684,
+      "status": "complete"
+    },
+    {
+      "url": "https://pypi.org/pypi/portalocker/3.2.0/json",
+      "started_at_utc": "2026-10-16T11:00:02.525883+00:00",
+      "attempt": 1,
+      "actual_bytes": 10606,
+      "status": "complete"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/4b/a6/38c8e2f318bf67d338f4d629e93b0b4b9af331f455f0390ea8ce4a099b26/portalocker-3.2.0-py3-none-any.whl",
+      "started_at_utc": "2026-10-16T11:00:02.806619+00:00",
+      "attempt": 1,
+      "actual_bytes": 22424,
+      "status": "complete"
+    },
+    {
+      "url": "https://pypi.org/pypi/einops/0.8.1/json",
+      "started_at_utc": "2026-10-16T11:00:06.793807+00:00",
+      "attempt": 1,
+      "actual_bytes": 16033,
+      "status": "complete"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/87/62/9773de14fe6c45c23649e98b83231fffd7b9892b6cf863251dc2afa73643/einops-0.8.1-py3-none-any.whl",
+      "started_at_utc": "2026-10-16T11:00:07.078098+00:00",
+      "attempt": 1,
+      "actual_bytes": 64359,
+      "status": "complete"
+    },
+    {
+      "url": "https://pypi.org/pypi/tqdm/4.67.1/json",
+      "started_at_utc": "2026-10-16T11:00:11.859272+00:00",
+      "attempt": 1,
+      "actual_bytes": 60951,
+      "status": "complete"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/d0/30/dc54f88dd4a2b5dc8a0279bdd7270e735851848b762aeb1c1184ed1f6b14/tqdm-4.67.1-py3-none-any.whl",
+      "started_at_utc": "2026-10-16T11:00:12.237578+00:00",
+      "attempt": 1,
+      "actual_bytes": 78540,
+      "status": "complete"
+    },
+    {
+      "url": "https://pypi.org/pypi/tabulate/0.9.0/json",
+      "started_at_utc": "2026-10-16T11:00:17.060733+00:00",
+      "attempt": 1,
+      "actual_bytes": 37684,
+      "status": "complete"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/40/44/4a5f08c96eb108af5cb50b41f76142f0afa346dfa99d5296fe7202a11854/tabulate-0.9.0-py3-none-any.whl",
+      "started_at_utc": "2026-10-16T11:00:17.177995+00:00",
+      "attempt": 1,
+      "actual_bytes": 35252,
+      "status": "complete"
+    },
+    {
+      "url": "https://pypi.org/pypi/PyYAML/6.0.3/json",
+      "started_at_utc": "2026-10-16T11:00:20.888619+00:00",
+      "attempt": 1,
+      "actual_bytes": 66402,
+      "status": "complete"
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/86/bf/899e81e4cce32febab4fb42bb97dcdf66bc135272882d1987881a4b519e9/pyyaml-6.0.3-cp312-cp312-win_amd64.whl",
+      "started_at_utc": "2026-10-16T11:00:21.044056+00:00",
+      "attempt": 1,
+      "actual_bytes": 154003,
+      "status": "complete"
+    },
+    {
+      "url": "https://dl.fbaipublicfiles.com/pytorchvideo/model_zoo/kinetics/X3D_XS.pyth",
+      "started_at_utc": "2026-10-16T11:00:25.125064+00:00",
+      "attempt": 1,
+      "actual_bytes": 30779313,
+      "status": "complete"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/annotations/train.csv",
+      "started_at_utc": "2026-10-16T11:00:26.940671+00:00",
+      "attempt": 1,
+      "actual_bytes": 10529265,
+      "status": "complete"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_18.tar.gz",
+      "started_at_utc": "2026-10-16T11:18:31.074192+00:00",
+      "attempt": 1,
+      "actual_bytes": 332398592,
+      "status": "failed",
+      "error": "[WinError 2] 系统找不到指定的文件。: '.\\\\results\\\\temporal_refresh_generalization_v1\\\\download_accounting.json.writing' -> '.\\\\results\\\\temporal_refresh_generalization_v1\\\\download_accounting.json'"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_18.tar.gz",
+      "started_at_utc": "2026-10-16T11:19:21.542295+00:00",
+      "attempt": 2,
+      "actual_bytes": 1510521854,
+      "status": "complete"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_19.tar.gz",
+      "started_at_utc": "2026-10-16T11:23:05.835070+00:00",
+      "attempt": 1,
+      "actual_bytes": 1362588801,
+      "status": "complete"
+    }
+  ],
+  "inflight": {}
+}

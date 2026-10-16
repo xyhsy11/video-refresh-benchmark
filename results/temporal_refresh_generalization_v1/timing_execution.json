@@ -1,0 +1,4342 @@
+[
+  {
+    "source_video_id": "-6HHK4EV5yU",
+    "run_id": -2,
+    "warmup": true,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "-6HHK4EV5yU",
+    "run_id": -1,
+    "warmup": true,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "-6HHK4EV5yU",
+    "run_id": 0,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "-6HHK4EV5yU",
+    "run_id": 1,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "-6HHK4EV5yU",
+    "run_id": 2,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "-6HHK4EV5yU",
+    "run_id": 3,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "-6HHK4EV5yU",
+    "run_id": 4,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "-8h42AaoMnc",
+    "run_id": -2,
+    "warmup": true,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "-8h42AaoMnc",
+    "run_id": -1,
+    "warmup": true,
+    "order": [
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "-8h42AaoMnc",
+    "run_id": 0,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "-8h42AaoMnc",
+    "run_id": 1,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "-8h42AaoMnc",
+    "run_id": 2,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "-8h42AaoMnc",
+    "run_id": 3,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "-8h42AaoMnc",
+    "run_id": 4,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "-hFHCRlEO2c",
+    "run_id": -2,
+    "warmup": true,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "-hFHCRlEO2c",
+    "run_id": -1,
+    "warmup": true,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "-hFHCRlEO2c",
+    "run_id": 0,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "-hFHCRlEO2c",
+    "run_id": 1,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "-hFHCRlEO2c",
+    "run_id": 2,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "-hFHCRlEO2c",
+    "run_id": 3,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "-hFHCRlEO2c",
+    "run_id": 4,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "05tt9wQkcYE",
+    "run_id": -2,
+    "warmup": true,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "05tt9wQkcYE",
+    "run_id": -1,
+    "warmup": true,
+    "order": [
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "05tt9wQkcYE",
+    "run_id": 0,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "05tt9wQkcYE",
+    "run_id": 1,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "05tt9wQkcYE",
+    "run_id": 2,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "05tt9wQkcYE",
+    "run_id": 3,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "05tt9wQkcYE",
+    "run_id": 4,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0AFL0KtXKRg",
+    "run_id": -2,
+    "warmup": true,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0AFL0KtXKRg",
+    "run_id": -1,
+    "warmup": true,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0AFL0KtXKRg",
+    "run_id": 0,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0AFL0KtXKRg",
+    "run_id": 1,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0AFL0KtXKRg",
+    "run_id": 2,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0AFL0KtXKRg",
+    "run_id": 3,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0AFL0KtXKRg",
+    "run_id": 4,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0EQTWTLZfGM",
+    "run_id": -2,
+    "warmup": true,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0EQTWTLZfGM",
+    "run_id": -1,
+    "warmup": true,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0EQTWTLZfGM",
+    "run_id": 0,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0EQTWTLZfGM",
+    "run_id": 1,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0EQTWTLZfGM",
+    "run_id": 2,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0EQTWTLZfGM",
+    "run_id": 3,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0EQTWTLZfGM",
+    "run_id": 4,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0dwPQPV3iYQ",
+    "run_id": -2,
+    "warmup": true,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0dwPQPV3iYQ",
+    "run_id": -1,
+    "warmup": true,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0dwPQPV3iYQ",
+    "run_id": 0,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0dwPQPV3iYQ",
+    "run_id": 1,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0dwPQPV3iYQ",
+    "run_id": 2,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0dwPQPV3iYQ",
+    "run_id": 3,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0dwPQPV3iYQ",
+    "run_id": 4,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0fmNdKx4cdI",
+    "run_id": -2,
+    "warmup": true,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0fmNdKx4cdI",
+    "run_id": -1,
+    "warmup": true,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0fmNdKx4cdI",
+    "run_id": 0,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0fmNdKx4cdI",
+    "run_id": 1,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0fmNdKx4cdI",
+    "run_id": 2,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0fmNdKx4cdI",
+    "run_id": 3,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0fmNdKx4cdI",
+    "run_id": 4,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0q9KxPP30V8",
+    "run_id": -2,
+    "warmup": true,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0q9KxPP30V8",
+    "run_id": -1,
+    "warmup": true,
+    "order": [
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0q9KxPP30V8",
+    "run_id": 0,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0q9KxPP30V8",
+    "run_id": 1,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0q9KxPP30V8",
+    "run_id": 2,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0q9KxPP30V8",
+    "run_id": 3,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "0q9KxPP30V8",
+    "run_id": 4,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "SkmsoFWg3EI",
+    "run_id": -2,
+    "warmup": true,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "SkmsoFWg3EI",
+    "run_id": -1,
+    "warmup": true,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "SkmsoFWg3EI",
+    "run_id": 0,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "SkmsoFWg3EI",
+    "run_id": 1,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "SkmsoFWg3EI",
+    "run_id": 2,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "SkmsoFWg3EI",
+    "run_id": 3,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "SkmsoFWg3EI",
+    "run_id": 4,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "UtYqJGjafes",
+    "run_id": -2,
+    "warmup": true,
+    "order": [
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "UtYqJGjafes",
+    "run_id": -1,
+    "warmup": true,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "UtYqJGjafes",
+    "run_id": 0,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "UtYqJGjafes",
+    "run_id": 1,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "UtYqJGjafes",
+    "run_id": 2,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "UtYqJGjafes",
+    "run_id": 3,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "UtYqJGjafes",
+    "run_id": 4,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "mtrJJQG5kFU",
+    "run_id": -2,
+    "warmup": true,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "mtrJJQG5kFU",
+    "run_id": -1,
+    "warmup": true,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "mtrJJQG5kFU",
+    "run_id": 0,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "mtrJJQG5kFU",
+    "run_id": 1,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "mtrJJQG5kFU",
+    "run_id": 2,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "mtrJJQG5kFU",
+    "run_id": 3,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "mtrJJQG5kFU",
+    "run_id": 4,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "nKurV5XrvE4",
+    "run_id": -2,
+    "warmup": true,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "nKurV5XrvE4",
+    "run_id": -1,
+    "warmup": true,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "nKurV5XrvE4",
+    "run_id": 0,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "nKurV5XrvE4",
+    "run_id": 1,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "nKurV5XrvE4",
+    "run_id": 2,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "nKurV5XrvE4",
+    "run_id": 3,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "nKurV5XrvE4",
+    "run_id": 4,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "o9kGXRH9pAM",
+    "run_id": -2,
+    "warmup": true,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "o9kGXRH9pAM",
+    "run_id": -1,
+    "warmup": true,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "o9kGXRH9pAM",
+    "run_id": 0,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "o9kGXRH9pAM",
+    "run_id": 1,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "o9kGXRH9pAM",
+    "run_id": 2,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "o9kGXRH9pAM",
+    "run_id": 3,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "o9kGXRH9pAM",
+    "run_id": 4,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "oj8BHQSSTfY",
+    "run_id": -2,
+    "warmup": true,
+    "order": [
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "oj8BHQSSTfY",
+    "run_id": -1,
+    "warmup": true,
+    "order": [
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "oj8BHQSSTfY",
+    "run_id": 0,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "oj8BHQSSTfY",
+    "run_id": 1,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "oj8BHQSSTfY",
+    "run_id": 2,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "oj8BHQSSTfY",
+    "run_id": 3,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "oj8BHQSSTfY",
+    "run_id": 4,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "q6I9vWst_hU",
+    "run_id": -2,
+    "warmup": true,
+    "order": [
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "q6I9vWst_hU",
+    "run_id": -1,
+    "warmup": true,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "q6I9vWst_hU",
+    "run_id": 0,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "q6I9vWst_hU",
+    "run_id": 1,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "q6I9vWst_hU",
+    "run_id": 2,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "q6I9vWst_hU",
+    "run_id": 3,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "q6I9vWst_hU",
+    "run_id": 4,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "v4FPCXxS4OU",
+    "run_id": -2,
+    "warmup": true,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "v4FPCXxS4OU",
+    "run_id": -1,
+    "warmup": true,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "v4FPCXxS4OU",
+    "run_id": 0,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "v4FPCXxS4OU",
+    "run_id": 1,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "v4FPCXxS4OU",
+    "run_id": 2,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "v4FPCXxS4OU",
+    "run_id": 3,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "v4FPCXxS4OU",
+    "run_id": 4,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "vBgzbFRZqFE",
+    "run_id": -2,
+    "warmup": true,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "vBgzbFRZqFE",
+    "run_id": -1,
+    "warmup": true,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "vBgzbFRZqFE",
+    "run_id": 0,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "vBgzbFRZqFE",
+    "run_id": 1,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "vBgzbFRZqFE",
+    "run_id": 2,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "vBgzbFRZqFE",
+    "run_id": 3,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "vBgzbFRZqFE",
+    "run_id": 4,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "wLXRFSGZh9I",
+    "run_id": -2,
+    "warmup": true,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "wLXRFSGZh9I",
+    "run_id": -1,
+    "warmup": true,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "wLXRFSGZh9I",
+    "run_id": 0,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "wLXRFSGZh9I",
+    "run_id": 1,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "wLXRFSGZh9I",
+    "run_id": 2,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "wLXRFSGZh9I",
+    "run_id": 3,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "wLXRFSGZh9I",
+    "run_id": 4,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "wqYzrDwV_o4",
+    "run_id": -2,
+    "warmup": true,
+    "order": [
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "wqYzrDwV_o4",
+    "run_id": -1,
+    "warmup": true,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "wqYzrDwV_o4",
+    "run_id": 0,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "wqYzrDwV_o4",
+    "run_id": 1,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "wqYzrDwV_o4",
+    "run_id": 2,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "wqYzrDwV_o4",
+    "run_id": 3,
+    "warmup": false,
+    "order": [
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ]
+    ]
+  },
+  {
+    "source_video_id": "wqYzrDwV_o4",
+    "run_id": 4,
+    "warmup": false,
+    "order": [
+      [
+        "resnet18_four_frame_mean",
+        "periodic_B4"
+      ],
+      [
+        "x3d_xs",
+        "periodic_B4"
+      ],
+      [
+        "resnet18_endpoint",
+        "dense16"
+      ],
+      [
+        "resnet18_four_frame_mean",
+        "dense16"
+      ],
+      [
+        "x3d_xs",
+        "dense16"
+      ],
+      [
+        "resnet18_endpoint",
+        "periodic_B4"
+      ]
+    ]
+  }
+]

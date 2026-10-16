@@ -1,0 +1,9 @@
+{
+  "official_training_annotations": "data/source/temporal_refresh_generalization_v1/k400_train.csv",
+  "sha256": "a5f585f790f35c080aa13964f14de63171e909575feb843efc1c29bb5cfc6236",
+  "rows": 246534,
+  "distinct_parent_ids": 246534,
+  "existing_train_development_parent_overlap": [],
+  "new_evaluation_policy": "exclude all official training annotation parent IDs",
+  "unresolved": "checkpoint full training provenance, reuploads, near duplicates and other pretraining sources cannot be universally verified"
+}

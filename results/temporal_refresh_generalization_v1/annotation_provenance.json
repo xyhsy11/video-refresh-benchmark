@@ -1,0 +1,13 @@
+{
+  "official_train": {
+    "url": "https://s3.amazonaws.com/kinetics/400/annotations/train.csv",
+    "sha256": "a5f585f790f35c080aa13964f14de63171e909575feb843efc1c29bb5cfc6236"
+  },
+  "official_val": {
+    "url": "https://s3.amazonaws.com/kinetics/400/annotations/val.csv",
+    "sha256": "358eaf47e7f80ebf9b17d49eb0635ad5e0fdab98a9cbd75ffdd2ee5d5e5b6944"
+  },
+  "CVDF_project": "https://github.com/cvdfoundation/kinetics-dataset",
+  "source_protocol": "fixed custom validation-source roles for existing400 training/100 development; new evaluation distinct parents from official validation pool",
+  "rights_note": "public archive access does not verify an individual original video license; no encoded videos redistributed; third-party rights separate"
+}

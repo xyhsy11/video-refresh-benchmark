@@ -1,0 +1,65 @@
+{
+  "resnet18_endpoint": {
+    "representation": "resnet18_endpoint",
+    "alpha": 0.1,
+    "grid_order": 2,
+    "training_videos": 400,
+    "development_videos": 100,
+    "train_CE": 0.26572195704631946,
+    "train_accuracy": 1.0,
+    "development_CE": 1.135178466188745,
+    "development_accuracy": 0.7,
+    "solver": {
+      "regularization": 0.1,
+      "objective": 0.5976940660571893,
+      "gradient_max_abs": 4.242787924409099e-07,
+      "closure_calls": 148,
+      "iterations": 127,
+      "constant_input_columns": 0
+    },
+    "path": "results/temporal_refresh_generalization_v1/heads/resnet18_endpoint/parameters.json",
+    "sha256": "49c04b6102d887fe1d0f0d36759db4db18ec9057d368952f98b500313487b5d3"
+  },
+  "resnet18_four_frame_mean": {
+    "representation": "resnet18_four_frame_mean",
+    "alpha": 0.01,
+    "grid_order": 1,
+    "training_videos": 400,
+    "development_videos": 100,
+    "train_CE": 0.043741313510059276,
+    "train_accuracy": 1.0,
+    "development_CE": 1.110655390757044,
+    "development_accuracy": 0.7,
+    "solver": {
+      "regularization": 0.01,
+      "objective": 0.13980171837979344,
+      "gradient_max_abs": 1.228959574186856e-07,
+      "closure_calls": 226,
+      "iterations": 177,
+      "constant_input_columns": 0
+    },
+    "path": "results/temporal_refresh_generalization_v1/heads/resnet18_four_frame_mean/parameters.json",
+    "sha256": "1d9ada5145937377fda05a6a8559ae89857483ce15b3c49d15e203b3d88dd5c0"
+  },
+  "x3d_xs": {
+    "representation": "x3d_xs",
+    "alpha": 0.01,
+    "grid_order": 1,
+    "training_videos": 400,
+    "development_videos": 100,
+    "train_CE": 0.007688222413013162,
+    "train_accuracy": 1.0,
+    "development_CE": 0.4443147009004547,
+    "development_accuracy": 0.9,
+    "solver": {
+      "regularization": 0.01,
+      "objective": 0.031066870137245718,
+      "gradient_max_abs": 2.2869854769426966e-07,
+      "closure_calls": 205,
+      "iterations": 190,
+      "constant_input_columns": 0
+    },
+    "path": "results/temporal_refresh_generalization_v1/heads/x3d_xs/parameters.json",
+    "sha256": "0dff2152b3dcda93e8953d47fa7285e1ce2f41e7327f30d64676b13684185be1"
+  }
+}

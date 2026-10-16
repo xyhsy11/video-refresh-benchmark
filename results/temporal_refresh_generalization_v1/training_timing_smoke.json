@@ -1,0 +1,49 @@
+{
+  "source_video_id": "SKKrGB_WLsE",
+  "role": "training",
+  "checks": [
+    {
+      "representation": "resnet18_endpoint",
+      "refreshes": 16,
+      "decoded_frames": 300,
+      "maximum_logit_difference": 1.7763568394002505e-15,
+      "encoder_calls": 16
+    },
+    {
+      "representation": "resnet18_endpoint",
+      "refreshes": 4,
+      "decoded_frames": 300,
+      "maximum_logit_difference": 2.6645352591003757e-15,
+      "encoder_calls": 4
+    },
+    {
+      "representation": "resnet18_four_frame_mean",
+      "refreshes": 16,
+      "decoded_frames": 300,
+      "maximum_logit_difference": 1.7763568394002505e-15,
+      "encoder_calls": 64
+    },
+    {
+      "representation": "resnet18_four_frame_mean",
+      "refreshes": 4,
+      "decoded_frames": 300,
+      "maximum_logit_difference": 3.552713678800501e-15,
+      "encoder_calls": 16
+    },
+    {
+      "representation": "x3d_xs",
+      "refreshes": 16,
+      "decoded_frames": 300,
+      "maximum_logit_difference": 1.7763568394002505e-15,
+      "encoder_calls": 16
+    },
+    {
+      "representation": "x3d_xs",
+      "refreshes": 4,
+      "decoded_frames": 300,
+      "maximum_logit_difference": 2.6645352591003757e-15,
+      "encoder_calls": 4
+    }
+  ],
+  "not_a_latency_measurement": true
+}

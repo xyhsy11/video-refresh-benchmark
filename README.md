@@ -928,3 +928,49 @@ Next, use the concrete [X3D-XS temporal-snippet benchmark design](results/refres
 ![Fixed-frame pooling effects](results/refresh_pooling_control_v1/figures/fixed_schedule_pooling_effects.png)
 
 ![Headroom versus refresh budget](results/refresh_pooling_control_v1/figures/headroom_vs_budget.png)
+
+
+## temporal_refresh_generalization_v1
+
+Status: **completed computation and verification; frozen new-source diagnostic**. Starting revision `0c5396f80adc9bdc047bf3809826fb680a75767b` has the same tracked content as design revision `ed59684e77bc481d627eb6942a52a4bfeae9dbc3`. All earlier experiments remain intact.
+
+The study retained the exact 400 training/100 development source roles, re-extracted all three representations on a new trailing-snippet grid, and selected 100 new evaluation parents, five/class. It excluded 697 prior/reserved parent IDs, 690 encoded hashes,and available official K400 training parent IDs. New downloads were 3.028294GiB under the 20 GiB ceiling. Protected confirmation outcomes/features were not accessed. Development is reused and selected recognition regularization;new evaluation is conditional on fixed heads/classes and is not universal pretraining independence.
+
+Primary: X3D-XS,B4,cache pooling; d=CE(feature oracle)?CE(periodic). **Mean d=+0.009784 nats/video,95% class-stratified paired interval[?0.012442,+0.032961]:inconclusive.** Positive means worse classification loss. There were 52 harmed/48 helped sources. Cosine error decreased 0.078148?0.060730,while CE changed 0.425848?0.435633. Dense/periodic/feature-oracle accuracy was 87%/88%/86%. Task-oracle CE headroom was 0.185008(cache) and0.179806(unique);these privileged true-label/future-feature results are not practical policy performance. B2/B8 secondary primary-form contrasts also have intervals crossing zero.
+
+|Representation|Dense development accuracy|Dense new-source accuracy|Dense16 latency,ms|PeriodicB4 latency,ms|
+|---|---:|---:|---:|---:|
+|RN18 endpoint|70%|74%|817.081|643.170|
+|RN18 four-frame mean|70%|74%|1486.705|797.782|
+|X3D-XS|90%|87%|3187.198|1227.438|
+
+Latency is the **mean of per-video medians** on 20 predetermined evaluation sources(one/class),with 2 warmups and 5 measured trials per system. It includes encoded bytes in memory?full sequential decode and within-trial timestamp-grid construction?RGB preparation/transfers?encoder?pooling/head/completed prediction. Disk loading and model setup are separate. Raw min/max variation and scoped CPU/GPU memory are saved. Equal B is not equal compute:A16/4 frame calls,B64/16 independent frame calls,C16/4 four-frame snippet calls. C retains the native 400 projection during feature extraction and includes its cost. No oracle quality is assigned measured deployable latency.
+
+The pinned PyTorchVideo revision is `f3142bb05cdb56af0704ab6f0adfb0c7bbafe4a0`;official X3D-XS SHA256 is `6dafc96144c88f800b190d2cb179ff69b8fd48c40afd4deca6c1e61f76fdfe86`. Factory crop 160 is unchanged;official inference uses four RGB frames,short side/crop 182,/255,mean0.45/std0.225. Read-only pre-projection capture yields 2048-dimensional features and reproduces native 400 pre-activation logits. An isolated `.venv_temporal` add-on environment references the unchanged historical CUDA stack. Videos,weights,dependencies and reference arrays remain ignored under `data/source/temporal_refresh_generalization_v1/`,with hashes in the manifests/ledgers.
+
+From the repository root in PowerShell,the first command creates the isolated environment if needed and runs/resumes all stages:
+
+```powershell
+& .\.venv\Scripts\python.exe .\run_temporal_refresh_generalization.py --device cuda --max-download-gib 20 --resume
+& .\.venv_temporal\Scripts\python.exe -m unittest test_temporal_refresh_generalization -v
+& .\.venv_temporal\Scripts\python.exe .\run_temporal_refresh_generalization.py --preflight-only
+# On a new run,inspect all rendered figures before finalizing:
+& .\.venv_temporal\Scripts\python.exe .\run_temporal_refresh_generalization.py --finalize-reviewed
+& .\.venv_temporal\Scripts\python.exe .\run_temporal_refresh_generalization.py --audit-only
+```
+
+Completed invocations audit without overwriting results. The existing 500 encoded sources are prerequisites;missing frozen sources cause an explicit blocker,never substitution. The old candidate fields retained inside `data_plan.json` are provenance only;extraction uses the new `snippet_grid` in the technical manifests. No refresh-gain predictor was trained. Whole-clip candidates make this offline;B/C do not isolate a pure temporal-model effect. This study does not establish an adaptive speedup or show that earlier predictors fail on X3D. These 100 exposed evaluation sources cannot later confirm a controller developed after inspecting them.
+
+Seven focused tests, 14,400 independent selected-pooling checks, 41,430 independent real schedule-outcome checks, 306 bootstrap endpoint checks,all 600 measured timing rows,and the historical release validator passed. Maximum independent CE discrepancy was 1.07e-14. PNGs were visually inspected and corresponding PDFs checked as single-page exports. Prior scientific sources/snapshots remain unchanged. All four regularization candidates per representation and solver records are retained;selection used lowest dense development CE,then accuracy/grid order(historically accuracy was first).
+
+Next: plan one precision-justified new-source replication of the fixed proxy comparison before another controller. The interval does not resolve the question;do not extend this completed cohort until a favorable result appears.
+
+See [findings](results/temporal_refresh_generalization_v1/findings.md),[protocol](results/temporal_refresh_generalization_v1/protocol.md),[evaluation seal](results/temporal_refresh_generalization_v1/evaluation_seal.json),[source roles](results/temporal_refresh_generalization_v1/dataset_manifest.json),[per-video quality](results/temporal_refresh_generalization_v1/per_video_quality.csv),[paired intervals](results/temporal_refresh_generalization_v1/bootstrap_intervals.json),[raw timing trials](results/temporal_refresh_generalization_v1/raw_timing_trials.csv),[timing summary](results/temporal_refresh_generalization_v1/timing_summary.csv),[verification](results/temporal_refresh_generalization_v1/verification.json),and [execution accounting](results/temporal_refresh_generalization_v1/metadata.json).
+
+![Primary source-paired effects](results/temporal_refresh_generalization_v1/figures/primary_paired_effects.png)
+
+![Privileged task-oracle headroom](results/temporal_refresh_generalization_v1/figures/oracle_headroom.png)
+
+![Pooling cross-evaluation](results/temporal_refresh_generalization_v1/figures/pooling_cross_evaluation.png)
+
+![Actual dense and periodic systems](results/temporal_refresh_generalization_v1/figures/measured_quality_latency.png)

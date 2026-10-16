@@ -1,0 +1,22 @@
+{
+  "X3D_constant_pixel_fixtures": [
+    {
+      "uint8_RGB": 0,
+      "expected_normalized_value": -2.0,
+      "observed_min": -2.0,
+      "observed_max": -2.0
+    },
+    {
+      "uint8_RGB": 255,
+      "expected_normalized_value": 2.4444444444444446,
+      "observed_min": 2.4444446563720703,
+      "observed_max": 2.4444446563720703
+    }
+  ],
+  "RN18_original_checkpoint_transform_verified": true,
+  "official_recipe": "https://pytorch.org/hub/facebookresearch_pytorchvideo_x3d/",
+  "native_factory_crop160_unchanged": true,
+  "inference_short_side_and_crop": 182,
+  "sampling_offsets": "uniform_subsample4 on48 virtual frames -> [0,15,31,47]",
+  "no_encoder_forwards_in_this_check": true
+}

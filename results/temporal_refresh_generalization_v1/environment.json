@@ -1,0 +1,67 @@
+{
+  "recorded_at_utc": "2026-10-16T11:19:20.917836+00:00",
+  "OS": "Windows-11-10.0.22631-SP0",
+  "CPU": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+  "python": "3.12.10",
+  "packages": {
+    "torch": "2.14.1+cu132",
+    "torchvision": "0.29.1+cu132",
+    "av": "19.0.1",
+    "numpy": "2.5.2",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "Pillow": "12.3.0",
+    "fvcore": "0.1.5.post20221221",
+    "iopath": "0.1.10",
+    "einops": "0.8.1",
+    "scipy": "1.18.1"
+  },
+  "torch_version_cuda": "13.2",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 3080 Laptop GPU",
+  "GPU_operation": [
+    0,
+    1,
+    4,
+    9
+  ],
+  "FFmpeg": {
+    "libavutil": [
+      61,
+      1,
+      102
+    ],
+    "libavcodec": [
+      63,
+      1,
+      102
+    ],
+    "libavformat": [
+      63,
+      1,
+      102
+    ],
+    "libavdevice": [
+      63,
+      1,
+      102
+    ],
+    "libavfilter": [
+      12,
+      1,
+      102
+    ],
+    "libswscale": [
+      10,
+      1,
+      102
+    ],
+    "libswresample": [
+      7,
+      1,
+      102
+    ]
+  },
+  "nvidia_smi": "NVIDIA GeForce RTX 3080 Laptop GPU, 610.62, 16384 MiB",
+  "note": "NVIDIA driver version and torch.version.cuda are distinct; isolated add-on dependencies, historical CUDA stack unchanged"
+}

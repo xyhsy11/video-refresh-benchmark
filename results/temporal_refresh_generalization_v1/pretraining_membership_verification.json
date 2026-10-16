@@ -1,0 +1,9 @@
+{
+  "checked_at_utc": "2026-10-16T12:03:59.444113+00:00",
+  "new_evaluation_sources": 100,
+  "official_training_annotation_parent_overlap": [],
+  "historical_parent_overlap": [],
+  "historical_encoded_hash_overlap": [],
+  "official_training_annotation_sha256": "a5f585f790f35c080aa13964f14de63171e909575feb843efc1c29bb5cfc6236",
+  "limitations": "available annotation parent-ID/exact-byte checks do not detect unknown pretraining data,reuploads or near-duplicate content"
+}
