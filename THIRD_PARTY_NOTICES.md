@@ -14,3 +14,8 @@ The [MIT LICENSE](LICENSE) covers original project code by Siyu Han. It does not
 The dataset annotations, videos, and underlying source-video rights are not covered by this project's MIT license. Consult the dataset distributor and original video rights holders for applicable terms. Likewise, pretrained ResNet18 weights and their training-data terms remain separate from the license for this project's code. MMAction2 is credited as the archive distributor and is not installed or required to run this benchmark.
 
 NumPy, pandas, matplotlib, Pillow, and their transitive dependencies are also used under their respective upstream licenses. Installation metadata and license files in the existing local environment have been preserved.
+
+
+## Temporal recognition study
+
+PyTorchVideo and X3D source are credited to Meta/Facebook Research; pinned revision f3142bb05cdb56af0704ab6f0adfb0c7bbafe4a0 is Apache-2.0. The original LICENSE and copyright notices remain in the local upstream source cache. The official X3D_XS.pyth checkpoint is downloaded unchanged and identified by SHA256; it is not redistributed here. fvcore/iopath and their dependencies remain separately licensed. Kinetics/CVDF annotations and encoded source videos retain their original terms; no rights to third-party video content are granted by this project MIT license.

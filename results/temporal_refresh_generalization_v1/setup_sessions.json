@@ -1,0 +1,11 @@
+[
+  {
+    "at_utc": "2026-10-16T11:56:51.722864+00:00",
+    "model_construction_and_device_transfer_seconds": 1.4134879000002911,
+    "scope": "pinned model imports/factories,checkpoint reads,strict loading and completed CUDA transfers; global CLI imports/preflight excluded",
+    "resident_parameter_buffer_bytes": {
+      "resnet18": 44744608,
+      "x3d_xs_native400": 15303424
+    }
+  }
+]

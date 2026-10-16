@@ -1,0 +1,12 @@
+{
+  "reviewed_at_utc": "2026-10-16T12:37:57.014639+00:00",
+  "generated_original_sha256": "92d399bf08ec95e6f0a650f0b31d7a1c554308666fe73df4d0859f92900b2049",
+  "edited_findings_sha256": "23c11175b95063977de65cfb0ed5177d0a3bdb32607e09fdc3df3700862c538e",
+  "changes": "Spacing/readability only; no numbers,methods,comparisons or scientific conclusions changed.",
+  "additions": "actual computation accounting,hardware/memory scopes and pre-exposure retry disclosure",
+  "release_log_whitespace": {
+    "before_sha256": "e4461e0fd302498110ddde01c450b61e1d38a57c75026345027e224a6c0247f3",
+    "after_sha256": "f821d481746407dbb960c149f776623a2ba7e933a45def696ed3494338cbb506",
+    "change": "removed redundant empty final line only;original successful validator output unchanged"
+  }
+}

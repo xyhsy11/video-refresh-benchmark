@@ -1,0 +1,34 @@
+{
+  "sources": [
+    "GkQg-lPrv_k",
+    "F6EBsLoTomM"
+  ],
+  "videos": 2,
+  "seconds": 27.04318699999999,
+  "estimated600_video_seconds_linear": 8112.956099999997,
+  "estimated_feature_bytes600": 78082800.0,
+  "cuda_peak_allocated_bytes": 122171904,
+  "disk_free_bytes": 224627052544,
+  "native_head": {
+    "strict_loading": true,
+    "feature_dimension": 2048,
+    "projection_input_shape": [
+      1,
+      1,
+      2,
+      2,
+      2048
+    ],
+    "native_activation": null,
+    "native_400_logits_shape": [
+      1,
+      400
+    ],
+    "softmax_applied_once_outside": true,
+    "maximum_affine_mean_difference": 9.5367431640625e-07,
+    "native_mean_logit_difference": 0.0,
+    "factory_crop160_input_crop182": "factory pooling kernel(4,5,5) unchanged;182 input leaves1x2x2 projection axes, averaged"
+  },
+  "feasible": true,
+  "limits": "two training sources; estimate excludes archive traversal,heads,exact diagnostics and timing"
+}

@@ -1,0 +1,9 @@
+{
+  "executed_command": ".venv_temporal/Scripts/python.exe run_temporal_refresh_generalization.py --audit-only",
+  "finished_at_utc": "2026-10-16T12:50:44.730083+00:00",
+  "elapsed_seconds": 278.3670444999998,
+  "exit_code": 0,
+  "completed_output_file_hashes_identical_before_after": true,
+  "baseline_checksums_sha256": "1d3fb5e02a3f1e0cc6f7a600324f264598d04c0c4be8402f4a19b71cc4e10dca",
+  "GPU_or_model_fits_executed": false
+}

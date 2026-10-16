@@ -1,0 +1,102 @@
+[
+  {
+    "source_video_id": "-6HHK4EV5yU",
+    "at_utc": "2026-10-16T12:08:27.948645+00:00",
+    "nvidia_smi_before_video": "32 %, 1392 MiB, 26.93 W, 63"
+  },
+  {
+    "source_video_id": "-8h42AaoMnc",
+    "at_utc": "2026-10-16T12:09:03.932448+00:00",
+    "nvidia_smi_before_video": "22 %, 1379 MiB, 54.49 W, 67"
+  },
+  {
+    "source_video_id": "-hFHCRlEO2c",
+    "at_utc": "2026-10-16T12:09:38.447643+00:00",
+    "nvidia_smi_before_video": "42 %, 1407 MiB, 34.60 W, 66"
+  },
+  {
+    "source_video_id": "05tt9wQkcYE",
+    "at_utc": "2026-10-16T12:11:27.262909+00:00",
+    "nvidia_smi_before_video": "29 %, 1416 MiB, 46.77 W, 67"
+  },
+  {
+    "source_video_id": "0AFL0KtXKRg",
+    "at_utc": "2026-10-16T12:12:57.386374+00:00",
+    "nvidia_smi_before_video": "27 %, 1410 MiB, 41.12 W, 68"
+  },
+  {
+    "source_video_id": "0EQTWTLZfGM",
+    "at_utc": "2026-10-16T12:14:58.532939+00:00",
+    "nvidia_smi_before_video": "42 %, 1403 MiB, 37.96 W, 68"
+  },
+  {
+    "source_video_id": "0dwPQPV3iYQ",
+    "at_utc": "2026-10-16T12:16:46.771957+00:00",
+    "nvidia_smi_before_video": "44 %, 1417 MiB, 35.32 W, 68"
+  },
+  {
+    "source_video_id": "0fmNdKx4cdI",
+    "at_utc": "2026-10-16T12:17:26.878436+00:00",
+    "nvidia_smi_before_video": "32 %, 1403 MiB, 39.31 W, 69"
+  },
+  {
+    "source_video_id": "0q9KxPP30V8",
+    "at_utc": "2026-10-16T12:18:09.387003+00:00",
+    "nvidia_smi_before_video": "18 %, 1441 MiB, 41.78 W, 67"
+  },
+  {
+    "source_video_id": "SkmsoFWg3EI",
+    "at_utc": "2026-10-16T12:19:42.642145+00:00",
+    "nvidia_smi_before_video": "87 %, 1423 MiB, 29.79 W, 66"
+  },
+  {
+    "source_video_id": "UtYqJGjafes",
+    "at_utc": "2026-10-16T12:20:18.798215+00:00",
+    "nvidia_smi_before_video": "6 %, 1420 MiB, 38.09 W, 68"
+  },
+  {
+    "source_video_id": "mtrJJQG5kFU",
+    "at_utc": "2026-10-16T12:20:53.012571+00:00",
+    "nvidia_smi_before_video": "44 %, 1422 MiB, 31.88 W, 67"
+  },
+  {
+    "source_video_id": "nKurV5XrvE4",
+    "at_utc": "2026-10-16T12:22:39.242889+00:00",
+    "nvidia_smi_before_video": "99 %, 1417 MiB, 29.84 W, 68"
+  },
+  {
+    "source_video_id": "o9kGXRH9pAM",
+    "at_utc": "2026-10-16T12:23:53.543401+00:00",
+    "nvidia_smi_before_video": "45 %, 1414 MiB, 29.51 W, 67"
+  },
+  {
+    "source_video_id": "oj8BHQSSTfY",
+    "at_utc": "2026-10-16T12:24:32.581680+00:00",
+    "nvidia_smi_before_video": "99 %, 1415 MiB, 31.17 W, 68"
+  },
+  {
+    "source_video_id": "q6I9vWst_hU",
+    "at_utc": "2026-10-16T12:25:53.490314+00:00",
+    "nvidia_smi_before_video": "31 %, 1414 MiB, 30.21 W, 67"
+  },
+  {
+    "source_video_id": "v4FPCXxS4OU",
+    "at_utc": "2026-10-16T12:26:38.479766+00:00",
+    "nvidia_smi_before_video": "11 %, 1416 MiB, 30.83 W, 67"
+  },
+  {
+    "source_video_id": "vBgzbFRZqFE",
+    "at_utc": "2026-10-16T12:27:07.875391+00:00",
+    "nvidia_smi_before_video": "5 %, 1416 MiB, 40.25 W, 67"
+  },
+  {
+    "source_video_id": "wLXRFSGZh9I",
+    "at_utc": "2026-10-16T12:28:54.285982+00:00",
+    "nvidia_smi_before_video": "4 %, 1416 MiB, 47.71 W, 67"
+  },
+  {
+    "source_video_id": "wqYzrDwV_o4",
+    "at_utc": "2026-10-16T12:29:26.372102+00:00",
+    "nvidia_smi_before_video": "39 %, 1390 MiB, 41.73 W, 67"
+  }
+]

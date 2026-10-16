@@ -1,0 +1,8 @@
+{
+  "N_fixed": 100,
+  "per_class": 5,
+  "development_mean_delta": 0.007650996155251768,
+  "estimated_SE": 0.01848807550033221,
+  "normal_approx_expected_CI_halfwidth": 0.03623662798065113,
+  "assumptions": "development within-class variance represents new sources; fixed head/classes; normal approximation; only5 development sources/class; no power guarantee; N remains100 regardless of evaluation interval"
+}

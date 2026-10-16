@@ -1,0 +1,21 @@
+{
+  "source_video_id": "Xl9TrgyQFOA",
+  "role": "training",
+  "candidate_ordinal": 3,
+  "selected_frame_indices": [
+    50,
+    65,
+    81,
+    97
+  ],
+  "mutated_nonselected_frame_count": 54,
+  "future_and_nonselected_pixels_input_and_feature_invariant": true,
+  "maximum_feature_differences": {
+    "resnet18_endpoint": 0.0,
+    "resnet18_four_frame_mean": 0.0,
+    "x3d_xs": 0.0
+  },
+  "intervening_unrelated_snippet_state_isolation": true,
+  "encoder_interface": "only selected RGB arrays, no full-video/labels/future frame argument",
+  "verified_at_utc": "2026-10-16T11:54:51.859728+00:00"
+}

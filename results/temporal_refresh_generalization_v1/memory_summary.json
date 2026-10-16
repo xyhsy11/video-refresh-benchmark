@@ -1,0 +1,14 @@
+{
+  "recorded_at_utc": "2026-10-16T12:43:01.405597+00:00",
+  "GPU_torch_allocated_resident_bytes": 94299648,
+  "GPU_incremental_peak_allocated_range_bytes": [
+    20466176,
+    28403712
+  ],
+  "CPU_working_set_before_after_range_bytes": [
+    1356398592,
+    1806831616
+  ],
+  "GPU_scope": "both encoders and three affine heads resident;torch allocator-owned bytes,not whole-device physical VRAM",
+  "CPU_scope": "Windows process working set samples before/after,not per-trial peak;lifetime peaks separately in raw trials"
+}

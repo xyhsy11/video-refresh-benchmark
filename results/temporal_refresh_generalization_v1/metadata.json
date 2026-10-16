@@ -1,0 +1,80 @@
+{
+  "experiment": "temporal_refresh_generalization_v1",
+  "recorded_at_utc": "2026-10-16T12:37:57.295054+00:00",
+  "completion_scope": "all acquisition,collection,fitting,evaluation,timing,independent checks and visual review completed",
+  "starting_commit": "0c5396f80adc9bdc047bf3809826fb680a75767b",
+  "source_and_input_hash_record": "evaluation_seal.json",
+  "checkpoint_sha256": "6dafc96144c88f800b190d2cb179ff69b8fd48c40afd4deca6c1e61f76fdfe86",
+  "source_counts": {
+    "train": 400,
+    "development": 100,
+    "evaluation": 100
+  },
+  "reference_features_retained": 28800,
+  "classifier_grid_fits": 12,
+  "selected_heads": 3,
+  "collection_and_diagnostic_forward_invocations_started": 58023,
+  "collection_and_diagnostic_by_phase": {
+    "training_smoke:x3d_xs": 35,
+    "training_smoke:resnet18": 160,
+    "train_development:resnet18": 40080,
+    "train_development:x3d_xs": 8010,
+    "training_verification:resnet18": 15,
+    "training_verification:x3d_xs": 3,
+    "training_timing_smoke:resnet18": 100,
+    "training_timing_smoke:x3d_xs": 20,
+    "evaluation:resnet18": 8000,
+    "evaluation:x3d_xs": 1600
+  },
+  "successful_timing_forward_invocations": 16800,
+  "total_encoder_invocations_started": 74823,
+  "retained_dataset_collection_forward_calls": 57600,
+  "smoke_and_verification_forward_invocations": 333,
+  "additional_interrupted_collection_invocations": {
+    "resnet18": 80,
+    "x3d_xs": 10
+  },
+  "interruption_note": "90 extra forward starts from interrupted pre-exposure collection attempts are preserved;their individual kernel completion is not attested separately. Do not describe all initiated invocations as retained reference collection.",
+  "timing_trials": {
+    "measured": 600,
+    "warmup_excluded": 240,
+    "total_successful": 840,
+    "incomplete_attempts": 0
+  },
+  "timing_decoded_frames_total": 212394,
+  "new_download_body_bytes": 3251606327,
+  "download_ceiling_bytes": 21474836480,
+  "protected_outcomes_or_features_accessed": false,
+  "historical_environment_upgraded": false,
+  "commands_executed": [
+    ".venv/Scripts/python.exe setup_temporal_refresh.py",
+    ".venv_temporal/Scripts/python.exe run_temporal_refresh_generalization.py --preflight-only",
+    ".venv_temporal/Scripts/python.exe -m unittest test_temporal_refresh_generalization -v",
+    ".venv_temporal/Scripts/python.exe run_temporal_refresh_generalization.py --device cuda --max-download-gib 20 --resume --stop-after heads",
+    ".venv_temporal/Scripts/python.exe run_temporal_refresh_generalization.py --device cuda --max-download-gib 20 --resume",
+    ".venv_temporal/Scripts/python.exe run_temporal_refresh_generalization.py --finalize-reviewed",
+    ".venv_temporal/Scripts/python.exe run_temporal_refresh_generalization.py --audit-only"
+  ],
+  "primary_result": {
+    "cohort": "evaluation",
+    "representation": "x3d_xs",
+    "budget": 4,
+    "contrast": "feature_minus_periodic_C",
+    "sources": 100,
+    "primary": true,
+    "mean": 0.009784449348300034,
+    "CI95_lower": -0.012442287572646777,
+    "CI95_upper": 0.032961286928129406,
+    "positive_count": 52,
+    "tied_count": 0,
+    "negative_count": 48
+  },
+  "future_membership_exclusion_inventory": "dataset_manifest.json",
+  "download_retries": {
+    "failed_events": 1,
+    "partial_body_bytes_already_included": 332398592,
+    "cause": "pre-exposure Windows concurrent-ledger atomic-replace error; same archive retried, no outcome-based replacement"
+  },
+  "completed_at_utc": "2026-10-16T12:43:45.940610+00:00",
+  "completed_audit_only_read_only_verified": true
+}

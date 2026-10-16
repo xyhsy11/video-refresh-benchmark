@@ -1,0 +1,20 @@
+{
+  "logged_collection_smoke_forward_starts": {
+    "training_smoke:x3d_xs": 35,
+    "training_smoke:resnet18": 160,
+    "train_development:resnet18": 40080,
+    "train_development:x3d_xs": 8010,
+    "training_verification:resnet18": 15,
+    "training_verification:x3d_xs": 3,
+    "training_timing_smoke:resnet18": 100,
+    "training_timing_smoke:x3d_xs": 20,
+    "evaluation:resnet18": 8000,
+    "evaluation:x3d_xs": 1600
+  },
+  "timing_forwards_including_warmups": {
+    "resnet18_endpoint": 2800,
+    "resnet18_four_frame_mean": 11200,
+    "x3d_xs": 2800
+  },
+  "note": "extra smoke/native-verification forwards counted separately, not just retained reference count; timing records no per-forward file I/O"
+}

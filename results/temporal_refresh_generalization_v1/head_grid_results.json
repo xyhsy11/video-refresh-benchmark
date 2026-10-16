@@ -1,0 +1,230 @@
+[
+  {
+    "representation": "resnet18_endpoint",
+    "alpha": 0.001,
+    "grid_order": 0,
+    "training_videos": 400,
+    "development_videos": 100,
+    "train_CE": 0.006387472394807252,
+    "train_accuracy": 1.0,
+    "development_CE": 1.296437141548034,
+    "development_accuracy": 0.69,
+    "solver": {
+      "regularization": 0.001,
+      "objective": 0.026332632073729916,
+      "gradient_max_abs": 1.0280325467215478e-07,
+      "closure_calls": 210,
+      "iterations": 182,
+      "constant_input_columns": 0
+    }
+  },
+  {
+    "representation": "resnet18_endpoint",
+    "alpha": 0.01,
+    "grid_order": 1,
+    "training_videos": 400,
+    "development_videos": 100,
+    "train_CE": 0.04365178246461001,
+    "train_accuracy": 1.0,
+    "development_CE": 1.135209274282035,
+    "development_accuracy": 0.69,
+    "solver": {
+      "regularization": 0.01,
+      "objective": 0.1400718696700352,
+      "gradient_max_abs": 1.3963721571651905e-07,
+      "closure_calls": 243,
+      "iterations": 174,
+      "constant_input_columns": 0
+    }
+  },
+  {
+    "representation": "resnet18_endpoint",
+    "alpha": 0.1,
+    "grid_order": 2,
+    "training_videos": 400,
+    "development_videos": 100,
+    "train_CE": 0.26572195704631946,
+    "train_accuracy": 1.0,
+    "development_CE": 1.135178466188745,
+    "development_accuracy": 0.7,
+    "solver": {
+      "regularization": 0.1,
+      "objective": 0.5976940660571893,
+      "gradient_max_abs": 4.242787924409099e-07,
+      "closure_calls": 148,
+      "iterations": 127,
+      "constant_input_columns": 0
+    }
+  },
+  {
+    "representation": "resnet18_endpoint",
+    "alpha": 1.0,
+    "grid_order": 3,
+    "training_videos": 400,
+    "development_videos": 100,
+    "train_CE": 1.1192371739787543,
+    "train_accuracy": 0.9275,
+    "development_CE": 1.5838737773133211,
+    "development_accuracy": 0.71,
+    "solver": {
+      "regularization": 1.0,
+      "objective": 1.6798011879953028,
+      "gradient_max_abs": 8.271081509414469e-07,
+      "closure_calls": 70,
+      "iterations": 57,
+      "constant_input_columns": 0
+    }
+  },
+  {
+    "representation": "resnet18_four_frame_mean",
+    "alpha": 0.001,
+    "grid_order": 0,
+    "training_videos": 400,
+    "development_videos": 100,
+    "train_CE": 0.00641301855312133,
+    "train_accuracy": 1.0,
+    "development_CE": 1.260254065960616,
+    "development_accuracy": 0.68,
+    "solver": {
+      "regularization": 0.001,
+      "objective": 0.026344566663686723,
+      "gradient_max_abs": 8.072719360416043e-08,
+      "closure_calls": 365,
+      "iterations": 245,
+      "constant_input_columns": 0
+    }
+  },
+  {
+    "representation": "resnet18_four_frame_mean",
+    "alpha": 0.01,
+    "grid_order": 1,
+    "training_videos": 400,
+    "development_videos": 100,
+    "train_CE": 0.043741313510059276,
+    "train_accuracy": 1.0,
+    "development_CE": 1.110655390757044,
+    "development_accuracy": 0.7,
+    "solver": {
+      "regularization": 0.01,
+      "objective": 0.13980171837979344,
+      "gradient_max_abs": 1.228959574186856e-07,
+      "closure_calls": 226,
+      "iterations": 177,
+      "constant_input_columns": 0
+    }
+  },
+  {
+    "representation": "resnet18_four_frame_mean",
+    "alpha": 0.1,
+    "grid_order": 2,
+    "training_videos": 400,
+    "development_videos": 100,
+    "train_CE": 0.2649845177125156,
+    "train_accuracy": 0.9975,
+    "development_CE": 1.117910898571249,
+    "development_accuracy": 0.71,
+    "solver": {
+      "regularization": 0.1,
+      "objective": 0.59473292209104,
+      "gradient_max_abs": 6.19234169949804e-07,
+      "closure_calls": 113,
+      "iterations": 101,
+      "constant_input_columns": 0
+    }
+  },
+  {
+    "representation": "resnet18_four_frame_mean",
+    "alpha": 1.0,
+    "grid_order": 3,
+    "training_videos": 400,
+    "development_videos": 100,
+    "train_CE": 1.1121533593376314,
+    "train_accuracy": 0.9275,
+    "development_CE": 1.5718208553188628,
+    "development_accuracy": 0.7,
+    "solver": {
+      "regularization": 1.0,
+      "objective": 1.6732679729611886,
+      "gradient_max_abs": 2.2160589494522875e-07,
+      "closure_calls": 76,
+      "iterations": 55,
+      "constant_input_columns": 0
+    }
+  },
+  {
+    "representation": "x3d_xs",
+    "alpha": 0.001,
+    "grid_order": 0,
+    "training_videos": 400,
+    "development_videos": 100,
+    "train_CE": 0.0010518707777280988,
+    "train_accuracy": 1.0,
+    "development_CE": 0.4826769950989815,
+    "development_accuracy": 0.88,
+    "solver": {
+      "regularization": 0.001,
+      "objective": 0.0051982424642831055,
+      "gradient_max_abs": 1.2113641925948396e-07,
+      "closure_calls": 179,
+      "iterations": 163,
+      "constant_input_columns": 0
+    }
+  },
+  {
+    "representation": "x3d_xs",
+    "alpha": 0.01,
+    "grid_order": 1,
+    "training_videos": 400,
+    "development_videos": 100,
+    "train_CE": 0.007688222413013162,
+    "train_accuracy": 1.0,
+    "development_CE": 0.4443147009004547,
+    "development_accuracy": 0.9,
+    "solver": {
+      "regularization": 0.01,
+      "objective": 0.031066870137245718,
+      "gradient_max_abs": 2.2869854769426966e-07,
+      "closure_calls": 205,
+      "iterations": 190,
+      "constant_input_columns": 0
+    }
+  },
+  {
+    "representation": "x3d_xs",
+    "alpha": 0.1,
+    "grid_order": 2,
+    "training_videos": 400,
+    "development_videos": 100,
+    "train_CE": 0.051906107724809,
+    "train_accuracy": 1.0,
+    "development_CE": 0.46392972803410876,
+    "development_accuracy": 0.91,
+    "solver": {
+      "regularization": 0.1,
+      "objective": 0.16322243399549605,
+      "gradient_max_abs": 7.810303861110991e-07,
+      "closure_calls": 499,
+      "iterations": 396,
+      "constant_input_columns": 0
+    }
+  },
+  {
+    "representation": "x3d_xs",
+    "alpha": 1.0,
+    "grid_order": 3,
+    "training_videos": 400,
+    "development_videos": 100,
+    "train_CE": 0.31036032293467775,
+    "train_accuracy": 0.995,
+    "development_CE": 0.65788789540892,
+    "development_accuracy": 0.9,
+    "solver": {
+      "regularization": 1.0,
+      "objective": 0.6822062843300729,
+      "gradient_max_abs": 4.284015437195157e-07,
+      "closure_calls": 79,
+      "iterations": 72,
+      "constant_input_columns": 0
+    }
+  }
+]

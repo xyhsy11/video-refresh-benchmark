@@ -1,0 +1,10 @@
+{
+  "recorded_at_utc": "2026-10-16T11:25:26.640298+00:00",
+  "evaluation_exposed": false,
+  "notes": [
+    "Transient Windows atomic-JSON replacement lock fixed with bounded retry; acquisition29 sources preserved.",
+    "Collection retains16 small GPU embeddings before one CPU transfer per representation; encoder batch1 and numerical outputs unchanged. Interrupted collection forwards remain in append-only event log.",
+    "Numeric PyAV picture-type names converted losslessly to I/P/B before seal.",
+    "Timing includes full within-trial decoding/frame buffering and timestamp-grid construction; no free preinspection or predecoded input. C native400 projection still runs and is included in latency."
+  ]
+}

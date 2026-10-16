@@ -1,0 +1,10 @@
+{
+  "sanitized_at_utc": "2026-10-16T12:41:30.638047+00:00",
+  "file": "download_accounting.json",
+  "raw_preserved_path": "data/source/temporal_refresh_generalization_v1/audit_raw/download_accounting.json",
+  "raw_sha256": "88bf219ca8334ec3fa987b7d4d877d8b597b4ede44ad70c3615ea886edef4e2d",
+  "public_sha256": "8391cabc6974ff6d240b734768834512180b86a86183a00da24e4a4c42371a7d",
+  "changes": "project-absolute paths in one pre-exposure Windows ledger-write error changed to relative paths;all URLs,hashes,timestamps,counts,bytes and measurements unchanged",
+  "all_numeric_accounting_fields_unchanged": true,
+  "failed_retry_body_bytes_included": 332398592
+}
