@@ -1,0 +1,11 @@
+cohort,representation,budget,baseline,orientation,mean,CI95_lower,CI95_upper,improved,worsened,tied
+confirmation,resnet18_endpoint,4,LegacyCosine,"accuracy(Z_pool)-accuracy(baseline), positive favors Z_pool, percentage points",2.5,-1.6666666666666667,6.666666666666667,5,2,113
+confirmation,resnet18_endpoint,4,periodic,"accuracy(Z_pool)-accuracy(baseline), positive favors Z_pool, percentage points",0,-3.3333333333333335,3.3333333333333335,3,3,114
+confirmation,resnet18_four_frame_mean,4,LegacyCosine,"accuracy(Z_pool)-accuracy(baseline), positive favors Z_pool, percentage points",0,-1.6666666666666667,2.5,1,1,118
+confirmation,resnet18_four_frame_mean,4,periodic,"accuracy(Z_pool)-accuracy(baseline), positive favors Z_pool, percentage points",-0.83333333333333337,-3.3333333333333335,1.6666666666666667,1,2,117
+confirmation,x3d_xs,2,LegacyCosine,"accuracy(Z_pool)-accuracy(baseline), positive favors Z_pool, percentage points",1.6666666666666667,0,4.166666666666667,2,0,118
+confirmation,x3d_xs,2,periodic,"accuracy(Z_pool)-accuracy(baseline), positive favors Z_pool, percentage points",0,-1.6666666666666667,1.6666666666666667,1,1,118
+confirmation,x3d_xs,4,LegacyCosine,"accuracy(Z_pool)-accuracy(baseline), positive favors Z_pool, percentage points",0,-2.5,1.6666666666666667,1,1,118
+confirmation,x3d_xs,4,periodic,"accuracy(Z_pool)-accuracy(baseline), positive favors Z_pool, percentage points",0.83333333333333337,0,2.5,1,0,119
+confirmation,x3d_xs,8,LegacyCosine,"accuracy(Z_pool)-accuracy(baseline), positive favors Z_pool, percentage points",-0.83333333333333337,-2.5,0,0,1,119
+confirmation,x3d_xs,8,periodic,"accuracy(Z_pool)-accuracy(baseline), positive favors Z_pool, percentage points",-0.83333333333333337,-2.5,0,0,1,119

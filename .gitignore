@@ -96,6 +96,9 @@ results/*
 !results/temporal_refresh_generalization_v1/
 !results/temporal_refresh_generalization_v1/**
 
+!results/refresh_objective_alignment_v1/
+!results/refresh_objective_alignment_v1/**
+
 # Curated snapshots also exclude downloaded assets, secrets, and temporary files.
 *.mp4
 *.avi

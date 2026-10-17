@@ -1,0 +1,22 @@
+{
+  "cap_bytes": 21474836480,
+  "actual_body_bytes": 2977050612,
+  "interruption_charge_bytes": 0,
+  "requests": [
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_15.tar.gz",
+      "started_at_utc": "2026-10-17T03:18:10.087129+00:00",
+      "attempt": 1,
+      "actual_bytes": 1535436476,
+      "status": "complete"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_17.tar.gz",
+      "started_at_utc": "2026-10-17T03:22:25.618325+00:00",
+      "attempt": 1,
+      "actual_bytes": 1441614136,
+      "status": "complete"
+    }
+  ],
+  "inflight": {}
+}

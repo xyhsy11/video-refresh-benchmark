@@ -1,0 +1,13 @@
+{
+  "RandomExact": "CE/correctness averages individual feasible schedules; expected dense fidelity in companion CSV; no single prediction or positions",
+  "blank_fields": "Not applicable: RandomExact has no single schedule/prediction; dense/periodic/RandomExact have no minimizing objective; undefined rank correlations have a reason",
+  "objective_columns": "Four C-timeline squared objectives even in U cross-evaluation rows; never a U-optimized claim",
+  "feature_error": "Raw local cosine on latest-cache timeline, unchanged by final classification pooling",
+  "counter_scope": "GPU reference collection separately from zero-encoder CPU replay",
+  "manifest_alias": {
+    "path": "dataset_manifest.json",
+    "byte_identical_to": "confirmation_manifest.json",
+    "sha256": "2c213efd53cc6dbd836b176f784bcedef8e392cfec2a26cb50212e1e93e4b49f",
+    "purpose": "canonical membership name for future exclusion inventories"
+  }
+}

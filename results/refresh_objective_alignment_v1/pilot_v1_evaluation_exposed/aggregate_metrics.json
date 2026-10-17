@@ -1,0 +1,2050 @@
+{
+  "rows": [
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_endpoint",
+      "budget": 4,
+      "selector": "F_local",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.9005104518069942,
+        "CI95_lower": 0.7577993748833394,
+        "CI95_upper": 1.0500475575404955
+      },
+      "accuracy_pp": {
+        "mean": 75.0,
+        "CI95_lower": 67.0,
+        "CI95_upper": 83.0
+      },
+      "macro_accuracy_pp": 75.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 75.0,
+      "mean_feature_error": 0.07171097653342075
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_endpoint",
+      "budget": 4,
+      "selector": "F_local",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.9006926187741481,
+        "CI95_lower": 0.759692809606594,
+        "CI95_upper": 1.0496835397780582
+      },
+      "accuracy_pp": {
+        "mean": 79.0,
+        "CI95_lower": 72.0,
+        "CI95_upper": 86.0
+      },
+      "macro_accuracy_pp": 79.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 79.0,
+      "mean_feature_error": 0.07171097653342075
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_endpoint",
+      "budget": 4,
+      "selector": "F_pool",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.9025602599084905,
+        "CI95_lower": 0.7675167328695275,
+        "CI95_upper": 1.042925398876579
+      },
+      "accuracy_pp": {
+        "mean": 74.0,
+        "CI95_lower": 67.0,
+        "CI95_upper": 81.0
+      },
+      "macro_accuracy_pp": 74.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 74.0,
+      "mean_feature_error": 0.08513472451805602
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_endpoint",
+      "budget": 4,
+      "selector": "F_pool",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.8962737218941242,
+        "CI95_lower": 0.7616194462678412,
+        "CI95_upper": 1.035653222240252
+      },
+      "accuracy_pp": {
+        "mean": 76.0,
+        "CI95_lower": 69.0,
+        "CI95_upper": 83.0
+      },
+      "macro_accuracy_pp": 76.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 76.0,
+      "mean_feature_error": 0.08513472451805602
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_endpoint",
+      "budget": 4,
+      "selector": "LegacyCosine",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.8751988006488977,
+        "CI95_lower": 0.7321441047939934,
+        "CI95_upper": 1.025065126205336
+      },
+      "accuracy_pp": {
+        "mean": 76.0,
+        "CI95_lower": 68.0,
+        "CI95_upper": 83.0
+      },
+      "macro_accuracy_pp": 76.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 76.0,
+      "mean_feature_error": 0.07012960351149614
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_endpoint",
+      "budget": 4,
+      "selector": "LegacyCosine",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.9048474623942662,
+        "CI95_lower": 0.7625050605703738,
+        "CI95_upper": 1.053370713036118
+      },
+      "accuracy_pp": {
+        "mean": 78.0,
+        "CI95_lower": 71.0,
+        "CI95_upper": 85.0
+      },
+      "macro_accuracy_pp": 78.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 78.0,
+      "mean_feature_error": 0.07012960351149614
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_endpoint",
+      "budget": 4,
+      "selector": "RandomExact",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.9566726659242084,
+        "CI95_lower": 0.8196592248513194,
+        "CI95_upper": 1.1002801549064063
+      },
+      "accuracy_pp": {
+        "mean": 75.2043956043956,
+        "CI95_lower": 69.2768131868132,
+        "CI95_upper": 81.15626373626372
+      },
+      "macro_accuracy_pp": 75.20439560439561,
+      "expected_correctness": true,
+      "correct_count_or_expectation": 75.2043956043956,
+      "mean_feature_error": 0.10616667305647615
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_endpoint",
+      "budget": 4,
+      "selector": "RandomExact",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.9480775038234619,
+        "CI95_lower": 0.8131239140724281,
+        "CI95_upper": 1.0900862953268144
+      },
+      "accuracy_pp": {
+        "mean": 75.45054945054945,
+        "CI95_lower": 69.56472527472528,
+        "CI95_upper": 81.34285714285714
+      },
+      "macro_accuracy_pp": 75.45054945054945,
+      "expected_correctness": true,
+      "correct_count_or_expectation": 75.45054945054945,
+      "mean_feature_error": 0.10616667305647615
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_endpoint",
+      "budget": 4,
+      "selector": "Z_local",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.9237011557319845,
+        "CI95_lower": 0.7881891893049795,
+        "CI95_upper": 1.064941812399122
+      },
+      "accuracy_pp": {
+        "mean": 75.0,
+        "CI95_lower": 68.0,
+        "CI95_upper": 82.0
+      },
+      "macro_accuracy_pp": 75.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 75.0,
+      "mean_feature_error": 0.07508206161116394
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_endpoint",
+      "budget": 4,
+      "selector": "Z_local",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.9356789531790791,
+        "CI95_lower": 0.797456824533598,
+        "CI95_upper": 1.0805574659900405
+      },
+      "accuracy_pp": {
+        "mean": 74.0,
+        "CI95_lower": 67.0,
+        "CI95_upper": 81.0
+      },
+      "macro_accuracy_pp": 74.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 74.0,
+      "mean_feature_error": 0.07508206161116394
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_endpoint",
+      "budget": 4,
+      "selector": "Z_pool",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.9008102573596646,
+        "CI95_lower": 0.7676256163197828,
+        "CI95_upper": 1.0382726747548163
+      },
+      "accuracy_pp": {
+        "mean": 74.0,
+        "CI95_lower": 66.0,
+        "CI95_upper": 81.0
+      },
+      "macro_accuracy_pp": 74.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 74.0,
+      "mean_feature_error": 0.08677707392755112
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_endpoint",
+      "budget": 4,
+      "selector": "Z_pool",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.9000266436904751,
+        "CI95_lower": 0.7629195693447396,
+        "CI95_upper": 1.0419290349050156
+      },
+      "accuracy_pp": {
+        "mean": 76.0,
+        "CI95_lower": 69.0,
+        "CI95_upper": 83.0
+      },
+      "macro_accuracy_pp": 76.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 76.0,
+      "mean_feature_error": 0.08677707392755112
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_endpoint",
+      "budget": 4,
+      "selector": "periodic",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.8928817952727861,
+        "CI95_lower": 0.7584462030316784,
+        "CI95_upper": 1.0341465140417687
+      },
+      "accuracy_pp": {
+        "mean": 79.0,
+        "CI95_lower": 72.0,
+        "CI95_upper": 86.0
+      },
+      "macro_accuracy_pp": 79.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 79.0,
+      "mean_feature_error": 0.09608729854441
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_endpoint",
+      "budget": 4,
+      "selector": "periodic",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.8928817952727861,
+        "CI95_lower": 0.7584462030316784,
+        "CI95_upper": 1.0341465140417687
+      },
+      "accuracy_pp": {
+        "mean": 79.0,
+        "CI95_lower": 72.0,
+        "CI95_upper": 86.0
+      },
+      "macro_accuracy_pp": 79.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 79.0,
+      "mean_feature_error": 0.09608729854441
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_endpoint",
+      "budget": 4,
+      "selector": "task_C",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.4870179649057642,
+        "CI95_lower": 0.38403764671747925,
+        "CI95_upper": 0.5985200167699696
+      },
+      "accuracy_pp": {
+        "mean": 92.0,
+        "CI95_lower": 87.0,
+        "CI95_upper": 96.0
+      },
+      "macro_accuracy_pp": 92.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 92.0,
+      "mean_feature_error": 0.11212344912069504
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_endpoint",
+      "budget": 4,
+      "selector": "task_C",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.6192987252648998,
+        "CI95_lower": 0.5117683687831805,
+        "CI95_upper": 0.73331738329941
+      },
+      "accuracy_pp": {
+        "mean": 90.0,
+        "CI95_lower": 85.0,
+        "CI95_upper": 95.0
+      },
+      "macro_accuracy_pp": 90.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 90.0,
+      "mean_feature_error": 0.11212344912069504
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_endpoint",
+      "budget": 4,
+      "selector": "task_U",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.6028990786812191,
+        "CI95_lower": 0.47722754005896784,
+        "CI95_upper": 0.7356046081059967
+      },
+      "accuracy_pp": {
+        "mean": 89.0,
+        "CI95_lower": 83.0,
+        "CI95_upper": 94.0
+      },
+      "macro_accuracy_pp": 88.99999999999999,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 89.0,
+      "mean_feature_error": 0.113370687035603
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_endpoint",
+      "budget": 4,
+      "selector": "task_U",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.488009089156012,
+        "CI95_lower": 0.39267814920165034,
+        "CI95_upper": 0.5936234925021319
+      },
+      "accuracy_pp": {
+        "mean": 92.0,
+        "CI95_lower": 87.0,
+        "CI95_upper": 96.0
+      },
+      "macro_accuracy_pp": 92.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 92.0,
+      "mean_feature_error": 0.113370687035603
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_endpoint",
+      "budget": 16,
+      "selector": "dense16",
+      "pool": "C=U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.9037806274700094,
+        "CI95_lower": 0.7707259203963701,
+        "CI95_upper": 1.041623060867149
+      },
+      "accuracy_pp": {
+        "mean": 74.0,
+        "CI95_lower": 67.0,
+        "CI95_upper": 81.0
+      },
+      "macro_accuracy_pp": 74.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 74.0,
+      "mean_feature_error": 0.0
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_four_frame_mean",
+      "budget": 4,
+      "selector": "F_local",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.7813473633608532,
+        "CI95_lower": 0.5986529700978785,
+        "CI95_upper": 0.9781470314564221
+      },
+      "accuracy_pp": {
+        "mean": 75.0,
+        "CI95_lower": 68.0,
+        "CI95_upper": 82.0
+      },
+      "macro_accuracy_pp": 75.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 75.0,
+      "mean_feature_error": 0.020610029652268828
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_four_frame_mean",
+      "budget": 4,
+      "selector": "F_local",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.799986292381857,
+        "CI95_lower": 0.6193417521655891,
+        "CI95_upper": 0.998092064526445
+      },
+      "accuracy_pp": {
+        "mean": 74.0,
+        "CI95_lower": 66.0,
+        "CI95_upper": 81.0
+      },
+      "macro_accuracy_pp": 74.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 74.0,
+      "mean_feature_error": 0.020610029652268828
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_four_frame_mean",
+      "budget": 4,
+      "selector": "F_pool",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.7885828724088895,
+        "CI95_lower": 0.6097846366451218,
+        "CI95_upper": 0.9794124182533915
+      },
+      "accuracy_pp": {
+        "mean": 75.0,
+        "CI95_lower": 67.0,
+        "CI95_upper": 82.0
+      },
+      "macro_accuracy_pp": 75.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 75.0,
+      "mean_feature_error": 0.024643841209228568
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_four_frame_mean",
+      "budget": 4,
+      "selector": "F_pool",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.7902347018757563,
+        "CI95_lower": 0.6134150178345714,
+        "CI95_upper": 0.9800008317338383
+      },
+      "accuracy_pp": {
+        "mean": 74.0,
+        "CI95_lower": 66.0,
+        "CI95_upper": 82.0
+      },
+      "macro_accuracy_pp": 74.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 74.0,
+      "mean_feature_error": 0.024643841209228568
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_four_frame_mean",
+      "budget": 4,
+      "selector": "LegacyCosine",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.7974224599047607,
+        "CI95_lower": 0.6134134351099291,
+        "CI95_upper": 0.9962142037116393
+      },
+      "accuracy_pp": {
+        "mean": 74.0,
+        "CI95_lower": 67.0,
+        "CI95_upper": 81.0
+      },
+      "macro_accuracy_pp": 74.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 74.0,
+      "mean_feature_error": 0.02039190112637098
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_four_frame_mean",
+      "budget": 4,
+      "selector": "LegacyCosine",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.8295221595947411,
+        "CI95_lower": 0.6470679418451615,
+        "CI95_upper": 1.0300021101035695
+      },
+      "accuracy_pp": {
+        "mean": 73.0,
+        "CI95_lower": 65.0,
+        "CI95_upper": 81.0
+      },
+      "macro_accuracy_pp": 73.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 73.0,
+      "mean_feature_error": 0.02039190112637098
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_four_frame_mean",
+      "budget": 4,
+      "selector": "RandomExact",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.8562480164110784,
+        "CI95_lower": 0.6659122011773619,
+        "CI95_upper": 1.0590919898705466
+      },
+      "accuracy_pp": {
+        "mean": 73.21978021978022,
+        "CI95_lower": 66.5029120879121,
+        "CI95_upper": 79.75868131868133
+      },
+      "macro_accuracy_pp": 73.21978021978022,
+      "expected_correctness": true,
+      "correct_count_or_expectation": 73.21978021978022,
+      "mean_feature_error": 0.040002514738003044
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_four_frame_mean",
+      "budget": 4,
+      "selector": "RandomExact",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.8491652592436961,
+        "CI95_lower": 0.6673031651375932,
+        "CI95_upper": 1.0470614944345455
+      },
+      "accuracy_pp": {
+        "mean": 72.73626373626375,
+        "CI95_lower": 66.06796703296702,
+        "CI95_upper": 79.22203296703296
+      },
+      "macro_accuracy_pp": 72.73626373626374,
+      "expected_correctness": true,
+      "correct_count_or_expectation": 72.73626373626374,
+      "mean_feature_error": 0.040002514738003044
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_four_frame_mean",
+      "budget": 4,
+      "selector": "Z_local",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.7888739273498703,
+        "CI95_lower": 0.6091719917864666,
+        "CI95_upper": 0.983016479730247
+      },
+      "accuracy_pp": {
+        "mean": 74.0,
+        "CI95_lower": 66.0,
+        "CI95_upper": 81.02499999999964
+      },
+      "macro_accuracy_pp": 74.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 74.0,
+      "mean_feature_error": 0.02188600282625262
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_four_frame_mean",
+      "budget": 4,
+      "selector": "Z_local",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.8010733656052222,
+        "CI95_lower": 0.623902621239342,
+        "CI95_upper": 0.9954887158314194
+      },
+      "accuracy_pp": {
+        "mean": 76.0,
+        "CI95_lower": 69.0,
+        "CI95_upper": 83.0
+      },
+      "macro_accuracy_pp": 76.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 76.0,
+      "mean_feature_error": 0.02188600282625262
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_four_frame_mean",
+      "budget": 4,
+      "selector": "Z_pool",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.7802209731193092,
+        "CI95_lower": 0.6048825329663492,
+        "CI95_upper": 0.9688729918088864
+      },
+      "accuracy_pp": {
+        "mean": 75.0,
+        "CI95_lower": 68.0,
+        "CI95_upper": 82.0
+      },
+      "macro_accuracy_pp": 75.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 75.0,
+      "mean_feature_error": 0.025317465193157602
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_four_frame_mean",
+      "budget": 4,
+      "selector": "Z_pool",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.7777043463763341,
+        "CI95_lower": 0.6037792073729521,
+        "CI95_upper": 0.9632315734012381
+      },
+      "accuracy_pp": {
+        "mean": 73.0,
+        "CI95_lower": 65.0,
+        "CI95_upper": 81.0
+      },
+      "macro_accuracy_pp": 73.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 73.0,
+      "mean_feature_error": 0.025317465193157602
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_four_frame_mean",
+      "budget": 4,
+      "selector": "periodic",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.7939422265028578,
+        "CI95_lower": 0.6140672979847038,
+        "CI95_upper": 0.9852468864870055
+      },
+      "accuracy_pp": {
+        "mean": 73.0,
+        "CI95_lower": 65.0,
+        "CI95_upper": 81.0
+      },
+      "macro_accuracy_pp": 73.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 73.0,
+      "mean_feature_error": 0.026730762150437955
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_four_frame_mean",
+      "budget": 4,
+      "selector": "periodic",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.7939422265028578,
+        "CI95_lower": 0.6140672979847038,
+        "CI95_upper": 0.9852468864870055
+      },
+      "accuracy_pp": {
+        "mean": 73.0,
+        "CI95_lower": 65.0,
+        "CI95_upper": 81.0
+      },
+      "macro_accuracy_pp": 73.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 73.0,
+      "mean_feature_error": 0.026730762150437955
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_four_frame_mean",
+      "budget": 4,
+      "selector": "task_C",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.5185193831343832,
+        "CI95_lower": 0.3675769680594416,
+        "CI95_upper": 0.6841918714013503
+      },
+      "accuracy_pp": {
+        "mean": 86.0,
+        "CI95_lower": 80.0,
+        "CI95_upper": 91.0
+      },
+      "macro_accuracy_pp": 86.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 86.0,
+      "mean_feature_error": 0.04696923202384288
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_four_frame_mean",
+      "budget": 4,
+      "selector": "task_C",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.5881404517489773,
+        "CI95_lower": 0.4356031359874719,
+        "CI95_upper": 0.7581565574691149
+      },
+      "accuracy_pp": {
+        "mean": 82.0,
+        "CI95_lower": 75.0,
+        "CI95_upper": 88.0
+      },
+      "macro_accuracy_pp": 82.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 82.0,
+      "mean_feature_error": 0.04696923202384288
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_four_frame_mean",
+      "budget": 4,
+      "selector": "task_U",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.6515035004261093,
+        "CI95_lower": 0.47657295081574047,
+        "CI95_upper": 0.8399585140220494
+      },
+      "accuracy_pp": {
+        "mean": 84.0,
+        "CI95_lower": 78.0,
+        "CI95_upper": 90.0
+      },
+      "macro_accuracy_pp": 84.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 84.0,
+      "mean_feature_error": 0.050247172924214975
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_four_frame_mean",
+      "budget": 4,
+      "selector": "task_U",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.45938355830046673,
+        "CI95_lower": 0.32700143334888443,
+        "CI95_upper": 0.6151710985107552
+      },
+      "accuracy_pp": {
+        "mean": 88.0,
+        "CI95_lower": 83.0,
+        "CI95_upper": 93.0
+      },
+      "macro_accuracy_pp": 88.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 88.0,
+      "mean_feature_error": 0.050247172924214975
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "resnet18_four_frame_mean",
+      "budget": 16,
+      "selector": "dense16",
+      "pool": "C=U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.7780035619088889,
+        "CI95_lower": 0.6049444947066032,
+        "CI95_upper": 0.9654947027872678
+      },
+      "accuracy_pp": {
+        "mean": 74.0,
+        "CI95_lower": 66.0,
+        "CI95_upper": 82.0
+      },
+      "macro_accuracy_pp": 74.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 74.0,
+      "mean_feature_error": 0.0
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 2,
+      "selector": "F_local",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.44353034336035024,
+        "CI95_lower": 0.2753456854708567,
+        "CI95_upper": 0.6288207488515958
+      },
+      "accuracy_pp": {
+        "mean": 88.0,
+        "CI95_lower": 83.0,
+        "CI95_upper": 93.0
+      },
+      "macro_accuracy_pp": 88.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 88.0,
+      "mean_feature_error": 0.11669993761814478
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 2,
+      "selector": "F_local",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.45018551545125235,
+        "CI95_lower": 0.27976188769261373,
+        "CI95_upper": 0.6360795890963317
+      },
+      "accuracy_pp": {
+        "mean": 87.0,
+        "CI95_lower": 81.0,
+        "CI95_upper": 93.0
+      },
+      "macro_accuracy_pp": 87.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 87.0,
+      "mean_feature_error": 0.11669993761814478
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 2,
+      "selector": "F_pool",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.44419572522486933,
+        "CI95_lower": 0.2740504261138175,
+        "CI95_upper": 0.6311907607401636
+      },
+      "accuracy_pp": {
+        "mean": 86.0,
+        "CI95_lower": 80.0,
+        "CI95_upper": 92.0
+      },
+      "macro_accuracy_pp": 86.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 86.0,
+      "mean_feature_error": 0.1279545529644539
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 2,
+      "selector": "F_pool",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.4449417358144167,
+        "CI95_lower": 0.2735924230649288,
+        "CI95_upper": 0.6349493114347018
+      },
+      "accuracy_pp": {
+        "mean": 88.0,
+        "CI95_lower": 82.0,
+        "CI95_upper": 93.0
+      },
+      "macro_accuracy_pp": 88.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 88.0,
+      "mean_feature_error": 0.1279545529644539
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 2,
+      "selector": "LegacyCosine",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.45875931138209397,
+        "CI95_lower": 0.2783474206073795,
+        "CI95_upper": 0.6538928426827045
+      },
+      "accuracy_pp": {
+        "mean": 89.0,
+        "CI95_lower": 84.0,
+        "CI95_upper": 94.0
+      },
+      "macro_accuracy_pp": 89.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 89.0,
+      "mean_feature_error": 0.11507789392400788
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 2,
+      "selector": "LegacyCosine",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.46311094741537245,
+        "CI95_lower": 0.2848585484977845,
+        "CI95_upper": 0.6586595257913908
+      },
+      "accuracy_pp": {
+        "mean": 88.0,
+        "CI95_lower": 82.0,
+        "CI95_upper": 93.0
+      },
+      "macro_accuracy_pp": 88.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 88.0,
+      "mean_feature_error": 0.11507789392400788
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 2,
+      "selector": "RandomExact",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.585077738138622,
+        "CI95_lower": 0.38750454593459316,
+        "CI95_upper": 0.7904328487057528
+      },
+      "accuracy_pp": {
+        "mean": 83.8,
+        "CI95_lower": 78.53333333333333,
+        "CI95_upper": 89.06666666666666
+      },
+      "macro_accuracy_pp": 83.79999999999998,
+      "expected_correctness": true,
+      "correct_count_or_expectation": 83.8,
+      "mean_feature_error": 0.15720888538410235
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 2,
+      "selector": "RandomExact",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.531188727754256,
+        "CI95_lower": 0.3476508290486877,
+        "CI95_upper": 0.7274373241800169
+      },
+      "accuracy_pp": {
+        "mean": 84.6,
+        "CI95_lower": 79.46666666666665,
+        "CI95_upper": 89.73333333333332
+      },
+      "macro_accuracy_pp": 84.59999999999998,
+      "expected_correctness": true,
+      "correct_count_or_expectation": 84.60000000000001,
+      "mean_feature_error": 0.15720888538410235
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 2,
+      "selector": "Z_local",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.4878568784780806,
+        "CI95_lower": 0.306744288811507,
+        "CI95_upper": 0.6808237377159161
+      },
+      "accuracy_pp": {
+        "mean": 85.0,
+        "CI95_lower": 79.0,
+        "CI95_upper": 91.0
+      },
+      "macro_accuracy_pp": 85.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 85.0,
+      "mean_feature_error": 0.12467866682932958
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 2,
+      "selector": "Z_local",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.5171599594509283,
+        "CI95_lower": 0.328747145295796,
+        "CI95_upper": 0.7167624825002804
+      },
+      "accuracy_pp": {
+        "mean": 84.0,
+        "CI95_lower": 78.0,
+        "CI95_upper": 90.0
+      },
+      "macro_accuracy_pp": 84.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 84.0,
+      "mean_feature_error": 0.12467866682932958
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 2,
+      "selector": "Z_pool",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.43546778811022796,
+        "CI95_lower": 0.267472877060124,
+        "CI95_upper": 0.6186599972677468
+      },
+      "accuracy_pp": {
+        "mean": 87.0,
+        "CI95_lower": 81.0,
+        "CI95_upper": 93.0
+      },
+      "macro_accuracy_pp": 87.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 87.0,
+      "mean_feature_error": 0.1283311916643445
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 2,
+      "selector": "Z_pool",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.4373018151962742,
+        "CI95_lower": 0.2718456502097385,
+        "CI95_upper": 0.6210743332951362
+      },
+      "accuracy_pp": {
+        "mean": 88.0,
+        "CI95_lower": 82.0,
+        "CI95_upper": 93.0
+      },
+      "macro_accuracy_pp": 88.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 88.0,
+      "mean_feature_error": 0.1283311916643445
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 2,
+      "selector": "periodic",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.4264980829103115,
+        "CI95_lower": 0.2605371125546224,
+        "CI95_upper": 0.6133012375276408
+      },
+      "accuracy_pp": {
+        "mean": 87.0,
+        "CI95_lower": 81.0,
+        "CI95_upper": 93.0
+      },
+      "macro_accuracy_pp": 87.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 87.0,
+      "mean_feature_error": 0.14284982111419553
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 2,
+      "selector": "periodic",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.4264980829103115,
+        "CI95_lower": 0.2605371125546224,
+        "CI95_upper": 0.6133012375276408
+      },
+      "accuracy_pp": {
+        "mean": 87.0,
+        "CI95_lower": 81.0,
+        "CI95_upper": 93.0
+      },
+      "macro_accuracy_pp": 87.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 87.0,
+      "mean_feature_error": 0.14284982111419553
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 2,
+      "selector": "task_C",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.26963223143695,
+        "CI95_lower": 0.13365772380827112,
+        "CI95_upper": 0.4289279436195655
+      },
+      "accuracy_pp": {
+        "mean": 94.0,
+        "CI95_lower": 90.0,
+        "CI95_upper": 98.0
+      },
+      "macro_accuracy_pp": 94.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 94.0,
+      "mean_feature_error": 0.1447120139689407
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 2,
+      "selector": "task_C",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.31968683767927963,
+        "CI95_lower": 0.1759936644012431,
+        "CI95_upper": 0.48501774771633566
+      },
+      "accuracy_pp": {
+        "mean": 92.0,
+        "CI95_lower": 88.0,
+        "CI95_upper": 96.0
+      },
+      "macro_accuracy_pp": 92.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 92.0,
+      "mean_feature_error": 0.1447120139689407
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 2,
+      "selector": "task_U",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.3930445699772622,
+        "CI95_lower": 0.2221180250038924,
+        "CI95_upper": 0.5862439125574244
+      },
+      "accuracy_pp": {
+        "mean": 92.0,
+        "CI95_lower": 87.0,
+        "CI95_upper": 96.0
+      },
+      "macro_accuracy_pp": 92.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 92.0,
+      "mean_feature_error": 0.16138833038094474
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 2,
+      "selector": "task_U",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.27806232320427776,
+        "CI95_lower": 0.14388378005171207,
+        "CI95_upper": 0.4362948350814056
+      },
+      "accuracy_pp": {
+        "mean": 92.0,
+        "CI95_lower": 88.0,
+        "CI95_upper": 96.0
+      },
+      "macro_accuracy_pp": 92.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 92.0,
+      "mean_feature_error": 0.16138833038094474
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 4,
+      "selector": "F_local",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.42754287514580125,
+        "CI95_lower": 0.2639036426937211,
+        "CI95_upper": 0.6062023315256698
+      },
+      "accuracy_pp": {
+        "mean": 86.0,
+        "CI95_lower": 80.0,
+        "CI95_upper": 92.0
+      },
+      "macro_accuracy_pp": 86.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 86.0,
+      "mean_feature_error": 0.061964900387723364
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 4,
+      "selector": "F_local",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.4317508604959561,
+        "CI95_lower": 0.2683284287149253,
+        "CI95_upper": 0.6079762762086802
+      },
+      "accuracy_pp": {
+        "mean": 85.0,
+        "CI95_lower": 79.0,
+        "CI95_upper": 91.0
+      },
+      "macro_accuracy_pp": 85.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 85.0,
+      "mean_feature_error": 0.061964900387723364
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 4,
+      "selector": "F_pool",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.43276104227028633,
+        "CI95_lower": 0.2622743231421693,
+        "CI95_upper": 0.622966345433828
+      },
+      "accuracy_pp": {
+        "mean": 88.0,
+        "CI95_lower": 83.0,
+        "CI95_upper": 93.0
+      },
+      "macro_accuracy_pp": 88.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 88.0,
+      "mean_feature_error": 0.07074525720694534
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 4,
+      "selector": "F_pool",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.43926520081493403,
+        "CI95_lower": 0.2655724538857725,
+        "CI95_upper": 0.6308647252833683
+      },
+      "accuracy_pp": {
+        "mean": 87.0,
+        "CI95_lower": 81.0,
+        "CI95_upper": 92.0
+      },
+      "macro_accuracy_pp": 87.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 87.0,
+      "mean_feature_error": 0.07074525720694534
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 4,
+      "selector": "LegacyCosine",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.4356329262651278,
+        "CI95_lower": 0.26826172457949476,
+        "CI95_upper": 0.6171165114944887
+      },
+      "accuracy_pp": {
+        "mean": 86.0,
+        "CI95_lower": 80.0,
+        "CI95_upper": 92.0
+      },
+      "macro_accuracy_pp": 86.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 86.0,
+      "mean_feature_error": 0.06073003737882922
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 4,
+      "selector": "LegacyCosine",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.4404726797850085,
+        "CI95_lower": 0.27489105120101165,
+        "CI95_upper": 0.6199561095229345
+      },
+      "accuracy_pp": {
+        "mean": 85.0,
+        "CI95_lower": 79.0,
+        "CI95_upper": 91.0
+      },
+      "macro_accuracy_pp": 85.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 85.0,
+      "mean_feature_error": 0.06073003737882922
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 4,
+      "selector": "RandomExact",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.47131049563033095,
+        "CI95_lower": 0.2955864214548856,
+        "CI95_upper": 0.6620862583250238
+      },
+      "accuracy_pp": {
+        "mean": 85.25494505494505,
+        "CI95_lower": 80.0370879120879,
+        "CI95_upper": 90.4857142857143
+      },
+      "macro_accuracy_pp": 85.25494505494507,
+      "expected_correctness": true,
+      "correct_count_or_expectation": 85.25494505494505,
+      "mean_feature_error": 0.10254607844652812
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 4,
+      "selector": "RandomExact",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.45905180032352055,
+        "CI95_lower": 0.2875039166314796,
+        "CI95_upper": 0.6465988159604702
+      },
+      "accuracy_pp": {
+        "mean": 85.19340659340659,
+        "CI95_lower": 79.92730769230768,
+        "CI95_upper": 90.50989010989011
+      },
+      "macro_accuracy_pp": 85.19340659340662,
+      "expected_correctness": true,
+      "correct_count_or_expectation": 85.19340659340659,
+      "mean_feature_error": 0.10254607844652812
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 4,
+      "selector": "Z_local",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.4161440159276236,
+        "CI95_lower": 0.25388009393695626,
+        "CI95_upper": 0.5944056044612265
+      },
+      "accuracy_pp": {
+        "mean": 86.0,
+        "CI95_lower": 80.0,
+        "CI95_upper": 92.0
+      },
+      "macro_accuracy_pp": 86.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 86.0,
+      "mean_feature_error": 0.06534401559160141
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 4,
+      "selector": "Z_local",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.4233636399699374,
+        "CI95_lower": 0.26052166191867726,
+        "CI95_upper": 0.6014291941392358
+      },
+      "accuracy_pp": {
+        "mean": 85.0,
+        "CI95_lower": 79.0,
+        "CI95_upper": 91.0
+      },
+      "macro_accuracy_pp": 85.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 85.0,
+      "mean_feature_error": 0.06534401559160141
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 4,
+      "selector": "Z_pool",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.42667675770782326,
+        "CI95_lower": 0.26003428689049546,
+        "CI95_upper": 0.6125474140194801
+      },
+      "accuracy_pp": {
+        "mean": 86.0,
+        "CI95_lower": 80.0,
+        "CI95_upper": 92.0
+      },
+      "macro_accuracy_pp": 86.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 86.0,
+      "mean_feature_error": 0.07298253839062958
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 4,
+      "selector": "Z_pool",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.42949382178737905,
+        "CI95_lower": 0.26261531604329696,
+        "CI95_upper": 0.6153822276824864
+      },
+      "accuracy_pp": {
+        "mean": 87.0,
+        "CI95_lower": 81.0,
+        "CI95_upper": 92.0
+      },
+      "macro_accuracy_pp": 87.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 87.0,
+      "mean_feature_error": 0.07298253839062958
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 4,
+      "selector": "periodic",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.4258484769168277,
+        "CI95_lower": 0.2590378758285311,
+        "CI95_upper": 0.6119849266371441
+      },
+      "accuracy_pp": {
+        "mean": 88.0,
+        "CI95_lower": 83.0,
+        "CI95_upper": 93.0
+      },
+      "macro_accuracy_pp": 88.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 88.0,
+      "mean_feature_error": 0.07814843416281378
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 4,
+      "selector": "periodic",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.4258484769168277,
+        "CI95_lower": 0.2590378758285311,
+        "CI95_upper": 0.6119849266371441
+      },
+      "accuracy_pp": {
+        "mean": 88.0,
+        "CI95_lower": 83.0,
+        "CI95_upper": 93.0
+      },
+      "macro_accuracy_pp": 88.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 88.0,
+      "mean_feature_error": 0.07814843416281378
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 4,
+      "selector": "task_C",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.24084027826252857,
+        "CI95_lower": 0.11170864918907918,
+        "CI95_upper": 0.39527158053068556
+      },
+      "accuracy_pp": {
+        "mean": 95.0,
+        "CI95_lower": 91.0,
+        "CI95_upper": 98.0
+      },
+      "macro_accuracy_pp": 95.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 95.0,
+      "mean_feature_error": 0.11167390697886517
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 4,
+      "selector": "task_C",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.2920744315303561,
+        "CI95_lower": 0.15311925586758077,
+        "CI95_upper": 0.45646750037978107
+      },
+      "accuracy_pp": {
+        "mean": 91.0,
+        "CI95_lower": 86.0,
+        "CI95_upper": 96.0
+      },
+      "macro_accuracy_pp": 91.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 91.0,
+      "mean_feature_error": 0.11167390697886517
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 4,
+      "selector": "task_U",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.30588312603264123,
+        "CI95_lower": 0.16171729317428887,
+        "CI95_upper": 0.47267143999079586
+      },
+      "accuracy_pp": {
+        "mean": 94.0,
+        "CI95_lower": 90.0,
+        "CI95_upper": 98.0
+      },
+      "macro_accuracy_pp": 94.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 94.0,
+      "mean_feature_error": 0.1206831939157818
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 4,
+      "selector": "task_U",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.2460427794770255,
+        "CI95_lower": 0.11704619158046937,
+        "CI95_upper": 0.4002354234197865
+      },
+      "accuracy_pp": {
+        "mean": 93.0,
+        "CI95_lower": 89.0,
+        "CI95_upper": 97.0
+      },
+      "macro_accuracy_pp": 93.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 93.0,
+      "mean_feature_error": 0.1206831939157818
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 8,
+      "selector": "F_local",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.4212713716005223,
+        "CI95_lower": 0.2546877696058947,
+        "CI95_upper": 0.6068849021099009
+      },
+      "accuracy_pp": {
+        "mean": 85.0,
+        "CI95_lower": 79.0,
+        "CI95_upper": 91.0
+      },
+      "macro_accuracy_pp": 85.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 85.0,
+      "mean_feature_error": 0.026652754084405626
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 8,
+      "selector": "F_local",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.4137676098839074,
+        "CI95_lower": 0.24963708207284407,
+        "CI95_upper": 0.5970941867881402
+      },
+      "accuracy_pp": {
+        "mean": 84.0,
+        "CI95_lower": 78.0,
+        "CI95_upper": 90.0
+      },
+      "macro_accuracy_pp": 84.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 84.0,
+      "mean_feature_error": 0.026652754084405626
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 8,
+      "selector": "F_pool",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.4242712982081456,
+        "CI95_lower": 0.25606415028063223,
+        "CI95_upper": 0.6102693202862419
+      },
+      "accuracy_pp": {
+        "mean": 87.0,
+        "CI95_lower": 81.0,
+        "CI95_upper": 93.0
+      },
+      "macro_accuracy_pp": 87.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 87.0,
+      "mean_feature_error": 0.031046095091242426
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 8,
+      "selector": "F_pool",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.4198700987773767,
+        "CI95_lower": 0.25322549409446465,
+        "CI95_upper": 0.605573180328749
+      },
+      "accuracy_pp": {
+        "mean": 86.0,
+        "CI95_lower": 80.0,
+        "CI95_upper": 92.0
+      },
+      "macro_accuracy_pp": 86.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 86.0,
+      "mean_feature_error": 0.031046095091242426
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 8,
+      "selector": "LegacyCosine",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.42178058472514307,
+        "CI95_lower": 0.2551414759151505,
+        "CI95_upper": 0.6058232745598741
+      },
+      "accuracy_pp": {
+        "mean": 85.0,
+        "CI95_lower": 79.0,
+        "CI95_upper": 91.0
+      },
+      "macro_accuracy_pp": 85.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 85.0,
+      "mean_feature_error": 0.02539912875918621
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 8,
+      "selector": "LegacyCosine",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.43920707788404784,
+        "CI95_lower": 0.27263499034932087,
+        "CI95_upper": 0.6208926051774427
+      },
+      "accuracy_pp": {
+        "mean": 83.0,
+        "CI95_lower": 77.0,
+        "CI95_upper": 89.0
+      },
+      "macro_accuracy_pp": 83.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 83.0,
+      "mean_feature_error": 0.02539912875918621
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 8,
+      "selector": "RandomExact",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.4363246983902998,
+        "CI95_lower": 0.26655312830169947,
+        "CI95_upper": 0.62110581834484
+      },
+      "accuracy_pp": {
+        "mean": 86.07723387723388,
+        "CI95_lower": 80.76316627816628,
+        "CI95_upper": 91.45747086247087
+      },
+      "macro_accuracy_pp": 86.07723387723387,
+      "expected_correctness": true,
+      "correct_count_or_expectation": 86.07723387723387,
+      "mean_feature_error": 0.047768565364162005
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 8,
+      "selector": "RandomExact",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.43616749709074065,
+        "CI95_lower": 0.26684606576031705,
+        "CI95_upper": 0.6217452435460059
+      },
+      "accuracy_pp": {
+        "mean": 85.85718725718725,
+        "CI95_lower": 80.54092851592851,
+        "CI95_upper": 91.25067987567986
+      },
+      "macro_accuracy_pp": 85.85718725718726,
+      "expected_correctness": true,
+      "correct_count_or_expectation": 85.85718725718726,
+      "mean_feature_error": 0.047768565364162005
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 8,
+      "selector": "Z_local",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.42755734782321325,
+        "CI95_lower": 0.26158726430319074,
+        "CI95_upper": 0.6108769371609828
+      },
+      "accuracy_pp": {
+        "mean": 85.0,
+        "CI95_lower": 79.0,
+        "CI95_upper": 91.0
+      },
+      "macro_accuracy_pp": 85.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 85.0,
+      "mean_feature_error": 0.029396052335207992
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 8,
+      "selector": "Z_local",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.42193524470708865,
+        "CI95_lower": 0.257533406820382,
+        "CI95_upper": 0.602603216518872
+      },
+      "accuracy_pp": {
+        "mean": 86.0,
+        "CI95_lower": 81.0,
+        "CI95_upper": 92.0
+      },
+      "macro_accuracy_pp": 86.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 86.0,
+      "mean_feature_error": 0.029396052335207992
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 8,
+      "selector": "Z_pool",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.42400246339452125,
+        "CI95_lower": 0.2569563279335234,
+        "CI95_upper": 0.6089871818438102
+      },
+      "accuracy_pp": {
+        "mean": 87.0,
+        "CI95_lower": 81.0,
+        "CI95_upper": 93.0
+      },
+      "macro_accuracy_pp": 87.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 87.0,
+      "mean_feature_error": 0.03507342077685802
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 8,
+      "selector": "Z_pool",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.42209254598135687,
+        "CI95_lower": 0.25692809574061276,
+        "CI95_upper": 0.6049636461071435
+      },
+      "accuracy_pp": {
+        "mean": 86.0,
+        "CI95_lower": 81.0,
+        "CI95_upper": 92.0
+      },
+      "macro_accuracy_pp": 86.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 86.0,
+      "mean_feature_error": 0.03507342077685802
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 8,
+      "selector": "periodic",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.42539610769662056,
+        "CI95_lower": 0.2580007473453688,
+        "CI95_upper": 0.6096386848504872
+      },
+      "accuracy_pp": {
+        "mean": 85.0,
+        "CI95_lower": 79.0,
+        "CI95_upper": 91.0
+      },
+      "macro_accuracy_pp": 85.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 85.0,
+      "mean_feature_error": 0.0332057134852416
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 8,
+      "selector": "periodic",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.42539610769662056,
+        "CI95_lower": 0.2580007473453688,
+        "CI95_upper": 0.6096386848504872
+      },
+      "accuracy_pp": {
+        "mean": 85.0,
+        "CI95_lower": 79.0,
+        "CI95_upper": 91.0
+      },
+      "macro_accuracy_pp": 85.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 85.0,
+      "mean_feature_error": 0.0332057134852416
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 8,
+      "selector": "task_C",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.2646423809816661,
+        "CI95_lower": 0.1296977994288906,
+        "CI95_upper": 0.4242080895553261
+      },
+      "accuracy_pp": {
+        "mean": 95.0,
+        "CI95_lower": 91.0,
+        "CI95_upper": 98.0
+      },
+      "macro_accuracy_pp": 95.0,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 95.0,
+      "mean_feature_error": 0.07425210109588555
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 8,
+      "selector": "task_C",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.35247181154601365,
+        "CI95_lower": 0.20197854186789777,
+        "CI95_upper": 0.5245981695654285
+      },
+      "accuracy_pp": {
+        "mean": 88.0,
+        "CI95_lower": 83.0,
+        "CI95_upper": 93.0
+      },
+      "macro_accuracy_pp": 88.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 88.0,
+      "mean_feature_error": 0.07425210109588555
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 8,
+      "selector": "task_U",
+      "pool": "C",
+      "sources": 100,
+      "CE": {
+        "mean": 0.3283722161116337,
+        "CI95_lower": 0.18320638789259056,
+        "CI95_upper": 0.4944761303634037
+      },
+      "accuracy_pp": {
+        "mean": 90.0,
+        "CI95_lower": 85.0,
+        "CI95_upper": 95.0
+      },
+      "macro_accuracy_pp": 90.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 90.0,
+      "mean_feature_error": 0.06812925762389238
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 8,
+      "selector": "task_U",
+      "pool": "U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.28035954332788404,
+        "CI95_lower": 0.14431006983668002,
+        "CI95_upper": 0.44218811611688696
+      },
+      "accuracy_pp": {
+        "mean": 91.0,
+        "CI95_lower": 86.0,
+        "CI95_upper": 96.0
+      },
+      "macro_accuracy_pp": 91.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 91.0,
+      "mean_feature_error": 0.06812925762389238
+    },
+    {
+      "cohort": "pilot_v1_evaluation_exposed",
+      "representation": "x3d_xs",
+      "budget": 16,
+      "selector": "dense16",
+      "pool": "C=U",
+      "sources": 100,
+      "CE": {
+        "mean": 0.42883610257793114,
+        "CI95_lower": 0.26044506063796613,
+        "CI95_upper": 0.6158759278867211
+      },
+      "accuracy_pp": {
+        "mean": 87.0,
+        "CI95_lower": 82.0,
+        "CI95_upper": 92.0
+      },
+      "macro_accuracy_pp": 87.00000000000001,
+      "expected_correctness": false,
+      "correct_count_or_expectation": 87.0,
+      "mean_feature_error": 0.0
+    }
+  ]
+}

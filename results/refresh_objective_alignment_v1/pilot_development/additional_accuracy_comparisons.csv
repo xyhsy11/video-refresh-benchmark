@@ -1,0 +1,11 @@
+cohort,representation,budget,baseline,orientation,mean,CI95_lower,CI95_upper,improved,worsened,tied
+pilot_development,resnet18_endpoint,4,LegacyCosine,"accuracy(Z_pool)-accuracy(baseline), positive favors Z_pool, percentage points",-2,-7,2,2,4,94
+pilot_development,resnet18_endpoint,4,periodic,"accuracy(Z_pool)-accuracy(baseline), positive favors Z_pool, percentage points",-4,-9,1,2,6,92
+pilot_development,resnet18_four_frame_mean,4,LegacyCosine,"accuracy(Z_pool)-accuracy(baseline), positive favors Z_pool, percentage points",0,0,0,0,0,100
+pilot_development,resnet18_four_frame_mean,4,periodic,"accuracy(Z_pool)-accuracy(baseline), positive favors Z_pool, percentage points",0,-2,2,1,1,98
+pilot_development,x3d_xs,2,LegacyCosine,"accuracy(Z_pool)-accuracy(baseline), positive favors Z_pool, percentage points",6,2,10,6,0,94
+pilot_development,x3d_xs,2,periodic,"accuracy(Z_pool)-accuracy(baseline), positive favors Z_pool, percentage points",2,-1,6,3,1,96
+pilot_development,x3d_xs,4,LegacyCosine,"accuracy(Z_pool)-accuracy(baseline), positive favors Z_pool, percentage points",1,-2,4,2,1,97
+pilot_development,x3d_xs,4,periodic,"accuracy(Z_pool)-accuracy(baseline), positive favors Z_pool, percentage points",1,0,3,1,0,99
+pilot_development,x3d_xs,8,LegacyCosine,"accuracy(Z_pool)-accuracy(baseline), positive favors Z_pool, percentage points",1,0,3,1,0,99
+pilot_development,x3d_xs,8,periodic,"accuracy(Z_pool)-accuracy(baseline), positive favors Z_pool, percentage points",2,0,5,2,0,98

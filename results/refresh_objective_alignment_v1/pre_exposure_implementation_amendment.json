@@ -1,0 +1,57 @@
+{
+  "recorded_at_utc": "2026-10-17T03:17:48.331673+00:00",
+  "confirmation_exposure": false,
+  "changes": {
+    "analyze_refresh_objective_alignment.py": {
+      "initial_sha256": "d59ade963785ec7b1e912a55da3fd9725f8ab867526818a03ded124ba2a35334",
+      "execution_sha256": "2bbc4551d7ddc24e8835e73007d11f479e09914ee8f1b93eb70a5b76427ec4ee"
+    },
+    "refresh_objective_alignment_data.py": {
+      "initial_sha256": "1a712304c98109f6b4eabf4d50739d0537ec44a9a3df5444bf64a3d8c32ae01e",
+      "execution_sha256": "ac72263c6cff2d6b7b516f5f37064a80e28c70c23aedf252e8e2bd4273890998"
+    },
+    "refresh_objective_alignment_report.py": {
+      "initial_sha256": "4b5bdf2d960fc561b260045b9917dfbb8b4219dd99cb30d1cca3ac3002d775ce",
+      "execution_sha256": "b6611575cd90b8c18eab5a4f11a32a6eb5621007e49ab4a5eac568238bd9f556"
+    },
+    "test_refresh_objective_alignment.py": {
+      "initial_sha256": "19297144ad6cc75a91eccc3600fbeb54400eebdd7c6ea244d217091d60323f9f",
+      "execution_sha256": "42e94fc56d6acbb93f728ae5f60e81e39ee135fefa4a683f54fb893038d41696"
+    }
+  },
+  "reason": "Before confirmation: strengthen independent CSV/logit audits, separate forward starts/completions and GPU environment, record real-input resource smoke/canonical schedules, and fix PowerShell README escaping; extra descriptive RandomExact fidelity tables. No objective, head, source-selection, precision, comparison, threshold or bootstrap definitions changed. Completed pilot measurement tables retained byte-identically. Resume now reads completed pilot summaries without rewriting them. Pre-exposure heatmap label contrast improved. Explicit paired secondary accuracy comparisons and independent endpoint checks added, without changing initial pilot tables. Pre-confirmation technical rejection wrapper for audio-only/no-video-stream source; see preserved failure record. No original inspector modification.",
+  "pilot_scientific_hashes": {
+    "pilot_development/aggregate_metrics.json": "70791964145eb3d49916ee50dbf5cce2c1b0eddcc5b110aba6ad569dcd0fd6a5",
+    "pilot_development/bootstrap_indices.npy": "d558d1f007ae70cbb730a5f19d1cd0876424cbf34a024e31921b50b4ada38a42",
+    "pilot_development/bootstrap_intervals.json": "ce509c7da646caac422d1b5be612ddb447cff33cd35e6968f2ea16202ff112df",
+    "pilot_development/bootstrap_sources.json": "e06bcd5ce1beedf71f490390e92a3b67738c0379da399c976e1a59a2bccd403d",
+    "pilot_development/dense_correctness_strata.csv": "999d6cc98057e72dfd74f578a987c75c14efcbb6610db6e51d093de85126821c",
+    "pilot_development/execution.json": "f62cf4f0b5d6aeec801feadb21da4f464b9e5e7e038be6d20e4ee047578981f5",
+    "pilot_development/independent_selected_checks.csv": "93e4aa3ef488fde2b3ea632e26fed0421393751012597d5dd669702d827cf066",
+    "pilot_development/paired_comparisons.csv": "44ff5a84cd37457f5ef49be8c2e601e62d3ddae5c0e44bf8daf44bebfbb7706b",
+    "pilot_development/per_class_metrics.csv": "c9c9b1803094d3495ae2e8a134d6305cc4fdd00115ee4880e9741069b90e64d2",
+    "pilot_development/per_source_deltas.csv": "70fd4445534d9897ba1c119e4e877fbb7967f77d0fa10626eeb3503b13d3cf45",
+    "pilot_development/per_video_metrics.csv": "6d9cc1ded7a15e75a5bcb7f5ac02e65cb507b66fa40a95a1ad0b5ac6031812bf",
+    "pilot_development/rank_correlation_summary.json": "bba898ba31f82d2d3428ac88ed430b81ffdb3adfd5bef7f6eb0a79791fdd5af0",
+    "pilot_development/schedule_artifacts.json": "f459ebe19e62f60d8b79f45806146a414838d402084d2631d88096c95e3daeb0",
+    "pilot_development/schedule_rank_correlations.csv": "ea4a63e146e7aa9ae7e0b4b8ed2e125d076d3f2828853fe5d0caf544dea89f7a",
+    "pilot_development/selected_schedules.json": "57aa2529b5b6bbd73aa148133dbb32463f5954f842752a87f883c1664d8c582d",
+    "pilot_v1_evaluation_exposed/aggregate_metrics.json": "bf713e2696c645ac55d4905b15a0f5d9352fe92fa2973de5b11b4a73890a7f44",
+    "pilot_v1_evaluation_exposed/bootstrap_indices.npy": "723fff93f8437b9c1b3156530dd1f4da3e47fbc3889db0ec04db98ec7470a2e3",
+    "pilot_v1_evaluation_exposed/bootstrap_intervals.json": "6be3faf85604723b9fdcbad4837da60780b6845def69c42cb11a5cea67846360",
+    "pilot_v1_evaluation_exposed/bootstrap_sources.json": "4472af85d427224bdf15deba818be68d17e0183000b72687c77b150b4356b6b6",
+    "pilot_v1_evaluation_exposed/dense_correctness_strata.csv": "ac7dc652d51586d1f51039a3112d409291b825586036a7c93b15c551598a7078",
+    "pilot_v1_evaluation_exposed/execution.json": "ac202a875746fdb88e7138ea27755925131c21c2cd0a5d3e2c0279298594e9b8",
+    "pilot_v1_evaluation_exposed/independent_selected_checks.csv": "684bc05c8bc399055b3ab8468e6d176a003560ca5051cdd437883639bec2f4ea",
+    "pilot_v1_evaluation_exposed/paired_comparisons.csv": "24004c6c7ea21b1f8063c7720858edf762d0d2d38d0a18ecab0dae2aad3fa6d6",
+    "pilot_v1_evaluation_exposed/per_class_metrics.csv": "ba8754f107ae13a28f74419208b6b59a39bb50d8e815411efc0615988fda626e",
+    "pilot_v1_evaluation_exposed/per_source_deltas.csv": "63a0a2a39ec7ad670bf10f8f0fc2aae28145429c259a495b81ac2efa0f4dda6f",
+    "pilot_v1_evaluation_exposed/per_video_metrics.csv": "50491641031f8d28054a58fb82ad868874b5c6b4124c4ad97c3a7756740bf630",
+    "pilot_v1_evaluation_exposed/rank_correlation_summary.json": "43b15390f670a42ef77864aa0d77254e5bb9b419cd429f61611c05650167b74f",
+    "pilot_v1_evaluation_exposed/schedule_artifacts.json": "83de772592a36862b19e44737989dc9eb392ac30d14f10bf4a4250707cb796f8",
+    "pilot_v1_evaluation_exposed/schedule_rank_correlations.csv": "077e7eb99f4bf1cd4411db4cfc393ccf39de9b6ab0ca25119da24357e0361622",
+    "pilot_v1_evaluation_exposed/selected_schedules.json": "954572894ca7ca478d0a9d2ae2de7477a5864c456f9a39ed938c7f3bcdf748fd"
+  },
+  "execution_sha256_finalized_at_utc": "2026-10-17T03:27:56.763032+00:00",
+  "zero_video_stream_regression_test_passed": true
+}

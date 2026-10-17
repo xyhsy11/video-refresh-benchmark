@@ -1,0 +1,13 @@
+{
+  "scope": "Offline study cost, never adaptive inference latency",
+  "invocation_elapsed_field_captured_before_reporting_and_audit": true,
+  "independent_audit_seconds": 327.78792280000016,
+  "audit_only_CLI_seconds": 291.92805769999995,
+  "collection_retained_seconds_sum": 423.40220240000235,
+  "analysis_seconds_by_cohort": {
+    "pilot_development": 97.13826700000004,
+    "pilot_v1_evaluation_exposed": 93.44601420000004,
+    "confirmation": 118.50796349999973
+  },
+  "cost_components_not_to_be_added_to_historical_GPU_timings": true
+}

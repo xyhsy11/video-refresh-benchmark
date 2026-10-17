@@ -1,0 +1,19 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+  "packages": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "torch": "2.14.1+cu132",
+    "torchvision": "0.29.1+cu132",
+    "av": "19.0.1",
+    "Pillow": "12.3.0"
+  },
+  "historical_environment_modified": false,
+  "analysis_dtype": "float64",
+  "CPU_threads": 1,
+  "new_package_installs": 0
+}

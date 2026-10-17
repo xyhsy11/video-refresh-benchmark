@@ -1,0 +1,39 @@
+{
+  "executed_at_utc": "2026-10-17T03:51:10.177044+00:00",
+  "command": ".venv_temporal/Scripts/python.exe analyze_refresh_objective_alignment.py --input results/temporal_refresh_generalization_v1 --output results/refresh_objective_alignment_v1 --audit-only",
+  "returncode": 0,
+  "seconds": 291.92805769999995,
+  "all_preexisting_output_files_byte_identical": true,
+  "files_checked": 103,
+  "read_only": true,
+  "result": {
+    "status": "passed",
+    "checked_at_utc": "2026-10-17T03:51:09.238102+00:00",
+    "independent_selected_checks": 12800,
+    "maximum_independent_difference": 1.4210854715202004e-14,
+    "bootstrap_intervals_independently_reproduced": 300,
+    "archived_v1_primary_reproduced": {
+      "status": "passed",
+      "archived_selected_rows": 4800,
+      "maximum_CE_difference": 0.0,
+      "old_X3D_B4_mean_and_interval": {
+        "mean": 0.009784449348300034,
+        "CI95_lower": -0.012442287572646777,
+        "CI95_upper": 0.032961286928129406
+      },
+      "archived_seed": 20261024,
+      "seconds": 10.93413600000008,
+      "no_new_encoder_or_decoder_calls": true
+    },
+    "old_scientific_hashes_unchanged": true,
+    "exact_schedule_counts": [
+      15,
+      455,
+      6435
+    ],
+    "no_protected_outcomes_or_training_arrays_opened": true,
+    "head_or_scaler_fits": 0,
+    "elapsed_audit_seconds": 288.72235660000024,
+    "audit_does_not_write_scientific_outputs": true
+  }
+}
