@@ -1,0 +1,10 @@
+{
+  "analysis_seconds": 118.50796349999973,
+  "real_sources": 120,
+  "source_representation_budget_jobs": 600,
+  "independent_selected_checks": 4800,
+  "maximum_scalar_difference": 1.2434497875801753e-14,
+  "actual_encoder_calls": 0,
+  "model_fits": 0,
+  "note": "CPU saved-reference analysis, not inference latency; collection separately counted"
+}

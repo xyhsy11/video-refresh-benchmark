@@ -1,0 +1,7 @@
+{
+  "at_utc": "2026-10-17T03:40:07.957503+00:00",
+  "purpose": "Additive schema/accounting clarification and canonical membership alias; no numerical results changed",
+  "manifest_alias_sha256": "2c213efd53cc6dbd836b176f784bcedef8e392cfec2a26cb50212e1e93e4b49f",
+  "original_manifest_sha256": "2c213efd53cc6dbd836b176f784bcedef8e392cfec2a26cb50212e1e93e4b49f",
+  "scientific_code_unchanged_after_seal": true
+}

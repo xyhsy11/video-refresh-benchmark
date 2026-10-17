@@ -1,0 +1,54 @@
+{
+  "at_utc": "2026-10-17T03:16:27.658246+00:00",
+  "selection": "two development parents with lowest fixed seed source-ID hashes; independent of outcomes",
+  "source_ids": [
+    "dIBNHpmFY-4",
+    "M7biA0ABhIE"
+  ],
+  "CPU_search_timings": [
+    {
+      "source_video_id": "dIBNHpmFY-4",
+      "representation": "resnet18_endpoint",
+      "B4_search_seconds": 0.03339009999990594
+    },
+    {
+      "source_video_id": "dIBNHpmFY-4",
+      "representation": "resnet18_four_frame_mean",
+      "B4_search_seconds": 0.03348510000000715
+    },
+    {
+      "source_video_id": "dIBNHpmFY-4",
+      "representation": "x3d_xs",
+      "B4_search_seconds": 0.047958399999970425
+    },
+    {
+      "source_video_id": "M7biA0ABhIE",
+      "representation": "resnet18_endpoint",
+      "B4_search_seconds": 0.03254579999997986
+    },
+    {
+      "source_video_id": "M7biA0ABhIE",
+      "representation": "resnet18_four_frame_mean",
+      "B4_search_seconds": 0.03349130000015066
+    },
+    {
+      "source_video_id": "M7biA0ABhIE",
+      "representation": "x3d_xs",
+      "B4_search_seconds": 0.049761100000068836
+    }
+  ],
+  "tracemalloc_peak_bytes": 12318899,
+  "memory_scope": "Python/NumPy tracked allocation peak, not whole-process/GPU peak",
+  "historical_same_recipe_collection_seconds": [
+    7.4497888000000785,
+    4.836232999999993
+  ],
+  "estimated_collection_seconds_at400": 2457.2043600000143,
+  "historical_estimate_not_a_new_collection_measurement": true,
+  "extra_encoder_forwards": 0,
+  "decodes": 0,
+  "downloads": 0,
+  "free_disk_bytes": 221048258560,
+  "feasible_local_resources": true,
+  "note": "Search smoke uses real saved arrays; no synthetic scientific data; collection estimate from exact frozen recipe, not adaptive latency"
+}

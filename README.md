@@ -974,3 +974,45 @@ See [findings](results/temporal_refresh_generalization_v1/findings.md),[protocol
 ![Pooling cross-evaluation](results/temporal_refresh_generalization_v1/figures/pooling_cross_evaluation.png)
 
 ![Actual dense and periodic systems](results/temporal_refresh_generalization_v1/figures/measured_quality_latency.png)
+
+## refresh_objective_alignment_v1
+
+Status: **precision-limited fresh-source study; primary result inconclusive**. The frozen v1 heads and real trailing-snippet embeddings are reused for two separate exposed pilots (100 sources each). A new cohort was frozen before inference: **120 previously unused parents, six per class**. Screening found 196 eligible candidates out of 210; the smallest class limits the balanced sample. The prescribed precision rule requested 780 sources, above both the 400-source ceiling and the available pool. The planned 0.015-nat half-width was not achieved.
+
+All selectors inspect all 16 dense references. Four exact squared-error objectives vary local versus pooled error and standardized-feature versus centered-logit geometry. Historical raw-feature local cosine remains a separate bridge baseline. These are offline, full-information diagnostics; task oracles additionally use true labels. No head, scaler, controller, threshold, or hyperparameter was fitted.
+
+Fresh **X3D-XS, B4, cache pooling**, equal-source CE differences in nats/video:
+
+| Contrast | Mean | 95% paired interval |
+| --- | ---: | --- |
+| **Primary g: Z_pool minus LegacyCosine** | **-0.011773** | **[-0.034418, +0.008860]** |
+| d: LegacyCosine minus periodic | +0.012905 | [-0.014900, +0.043415] |
+| p: Z_pool minus periodic | +0.001131 | [-0.021947, +0.023645] |
+
+Negative favors the first selector. Neither the primary improvement over LegacyCosine nor improvement over periodic is established. Z_pool agrees with dense predictions more often (98.3% versus 96.7%) and has lower KL divergence to dense, but both selectors have 85.0% top-1 accuracy. Better dense fidelity alone does not establish better true-label recognition. The two pilots, other representations, B2/B8, U cross-evaluation, factorial contrasts, and true-label oracles remain separate secondary analyses.
+
+The v1 primary result was reproduced exactly before extension. New collection used 5,760 real reference vectors and 11,520 completed encoder calls; saved-feature analysis used zero encoder calls. Downloads were 2,977,050,612 bytes (2.773 GiB), under the 20 GiB cap. No new system-latency benchmark or adaptive speedup is claimed. All previous scientific inputs/results remain preserved.
+
+From the repository root, use the existing separate temporal environment without upgrading packages:
+
+```powershell
+& .\.venv_temporal\Scripts\python.exe -m unittest test_refresh_objective_alignment -v
+& .\.venv_temporal\Scripts\python.exe .\analyze_refresh_objective_alignment.py --preflight-only
+& .\.venv_temporal\Scripts\python.exe .\analyze_refresh_objective_alignment.py --input results/temporal_refresh_generalization_v1 --output results/refresh_objective_alignment_v1 --seed 20261025 --bootstrap 10000 --device cuda --max-download-gib 20
+# Resume an interrupted run with identical configuration:
+& .\.venv_temporal\Scripts\python.exe .\analyze_refresh_objective_alignment.py --resume
+# On a newly computed run, inspect the four PNGs before recording completion:
+& .\.venv_temporal\Scripts\python.exe .\analyze_refresh_objective_alignment.py --finalize-reviewed
+# Read-only audit of completed outputs; no acquisition or GPU initialization:
+& .\.venv_temporal\Scripts\python.exe .\analyze_refresh_objective_alignment.py --audit-only
+```
+
+Completed invocations audit instead of replacing measurements. Real references and per-schedule arrays remain in ignored storage, with paths/hashes in the ledgers; missing arrays cause an explicit error, never a generated replacement. The byte-identical `dataset_manifest.json` alias of the sealed `confirmation_manifest.json` supports future source-exclusion inventories.
+
+See [findings and claim/evidence table](results/refresh_objective_alignment_v1/findings.md), [frozen protocol](results/refresh_objective_alignment_v1/protocol.md), [evaluation seal](results/refresh_objective_alignment_v1/evaluation_seal.json), [precision and feasibility](results/refresh_objective_alignment_v1/precision_and_feasibility.json), [fresh per-video results](results/refresh_objective_alignment_v1/confirmation/per_video_metrics.csv), [paired intervals](results/refresh_objective_alignment_v1/confirmation/bootstrap_intervals.json), [verification](results/refresh_objective_alignment_v1/verification.json), and [execution accounting](results/refresh_objective_alignment_v1/execution_accounting.json).
+
+Only g in the fresh panel below is primary; all other intervals are secondary and marginal/unadjusted. Resampling uses whole sources within the fixed classes, 10,000 PCG64 replicates, seed 20261025. Intervals condition on these frozen heads/classes and omit training and repeated-research uncertainty. Source exclusions do not prove absence of reuploads or all pretraining overlap. This newly exposed cohort cannot be an untouched test for a subsequently designed controller.
+
+![Objective alignment: source-paired CE differences](results/refresh_objective_alignment_v1/figures/primary_g_d_p.png)
+
+Next: a precision-powered, fixed-objective replication on a second source-disjoint dataset, with recognition heads selected independently of its evaluation sources. This study does not justify another controller variant or a claim of improved adaptive inference.

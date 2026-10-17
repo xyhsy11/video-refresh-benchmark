@@ -1,0 +1,25 @@
+{
+  "at_utc": "2026-10-17T03:44:56.572160+00:00",
+  "control_characters_absent": true,
+  "PNG_figures_visually_reviewed": 4,
+  "PDFs": {
+    "dense_fidelity_recognition.pdf": {
+      "header_valid": true,
+      "page_objects": 1
+    },
+    "factorial_objectives.pdf": {
+      "header_valid": true,
+      "page_objects": 1
+    },
+    "per_source_effects.pdf": {
+      "header_valid": true,
+      "page_objects": 1
+    },
+    "primary_g_d_p.pdf": {
+      "header_valid": true,
+      "page_objects": 1
+    }
+  },
+  "pilot_measurement_files_unchanged_after_pre_confirmation_amendments": true,
+  "post_confirmation_scientific_code_changes": false
+}

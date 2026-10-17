@@ -1,0 +1,17 @@
+{
+  "recorded_at_utc": "2026-10-17T03:38:15.312523+00:00",
+  "invocation_elapsed_seconds": 613.8394622000001,
+  "actual_encoder_forward_starts": 11520,
+  "completed_retained_forward_calls": 11520,
+  "unmatched_started_calls": 0,
+  "retained_reference_vectors": 5760,
+  "decoded_technical_candidates": 210,
+  "decoded_collection_videos": 120,
+  "model_fits": 0,
+  "package_upgrades": 0,
+  "dense_reference_calls_required_per_video": {
+    "resnet18_frame_calls": 80,
+    "x3d_snippet_calls": 16
+  },
+  "costs": "all16 dense references per representation plus CPU search; no four-forward deployable objective; no new end-to-end timing"
+}

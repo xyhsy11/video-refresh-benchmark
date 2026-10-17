@@ -1,0 +1,7 @@
+{
+  "executed_at_utc": "2026-10-17T03:44:44.004500+00:00",
+  "command": ".venv/Scripts/python.exe validate_release.py",
+  "returncode": 0,
+  "passed": true,
+  "historical_hashes_not_modified": true
+}

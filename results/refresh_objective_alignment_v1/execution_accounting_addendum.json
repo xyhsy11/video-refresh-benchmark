@@ -1,0 +1,15 @@
+{
+  "at_utc": "2026-10-17T03:40:07.319246+00:00",
+  "technical_inspection_unique_inputs": 210,
+  "technical_complete_video_decode_passes": 209,
+  "zero_video_stream_inputs": 1,
+  "additional_failed_no_video_inspection_attempts": 1,
+  "collection_complete_video_decode_passes": 120,
+  "total_complete_video_decode_passes": 329,
+  "actual_completed_encoder_calls": 11520,
+  "encoder_forward_starts": 11520,
+  "extra_smoke_encoder_calls": 0,
+  "new_recognition_training_calls": 0,
+  "new_end_to_end_timing_trials": 0,
+  "note": "Raw decoded_technical_candidates counts screening attempts; one input had no video stream and decoded zero frames. The pre-confirmation failure and retry are preserved. GPU primitive validation is not an encoder call."
+}

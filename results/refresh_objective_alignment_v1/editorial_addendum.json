@@ -1,0 +1,7 @@
+{
+  "at_utc": "2026-10-17T03:45:37.200152+00:00",
+  "original_generated_findings_sha256": "d69678282dd4711df164ae168339ae0fb131416333f28f43d0234220e143e2f5",
+  "final_findings_sha256": "0d9c53b1a9040802ff8a86c60077553b88ff20e2a3cec2b892cd524175ec008c",
+  "changes": "Append requested secondary representation/U tables, actual claim/evidence and decision, offline search costs and accounting/packaging clarification. No methods, arrays, fitted heads, source memberships, numeric trial/metric tables or scientific code changed after evaluation.",
+  "prior_artifacts_modified": false
+}

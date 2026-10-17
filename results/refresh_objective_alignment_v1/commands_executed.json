@@ -1,0 +1,12 @@
+{
+  "at_utc": "2026-10-17T03:52:47.658233+00:00",
+  "commands": [
+    ".venv_temporal/Scripts/python.exe -m unittest test_refresh_objective_alignment -v",
+    ".venv_temporal/Scripts/python.exe analyze_refresh_objective_alignment.py --preflight-only",
+    ".venv_temporal/Scripts/python.exe analyze_refresh_objective_alignment.py --pilot-only",
+    ".venv_temporal/Scripts/python.exe analyze_refresh_objective_alignment.py --input results/temporal_refresh_generalization_v1 --output results/refresh_objective_alignment_v1 --seed 20261025 --bootstrap 10000 --device cuda --max-download-gib 20 --resume",
+    ".venv/Scripts/python.exe validate_release.py",
+    ".venv_temporal/Scripts/python.exe analyze_refresh_objective_alignment.py --input results/temporal_refresh_generalization_v1 --output results/refresh_objective_alignment_v1 --audit-only"
+  ],
+  "notes": "Technical screening also ran as an explicit module call; its no-video-stream pre-confirmation failure is preserved. Seven final tests passed. Audit-only returned0 and kept every preexisting output byte-identical. Four PNGs reviewed and PDFs single-page verified."
+}

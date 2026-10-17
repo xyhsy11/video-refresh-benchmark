@@ -1,0 +1,46 @@
+{
+  "PyAV": "19.0.1",
+  "linked_FFmpeg": {
+    "libavutil": [
+      61,
+      1,
+      102
+    ],
+    "libavcodec": [
+      63,
+      1,
+      102
+    ],
+    "libavformat": [
+      63,
+      1,
+      102
+    ],
+    "libavdevice": [
+      63,
+      1,
+      102
+    ],
+    "libavfilter": [
+      12,
+      1,
+      102
+    ],
+    "libswscale": [
+      10,
+      1,
+      102
+    ],
+    "libswresample": [
+      7,
+      1,
+      102
+    ]
+  },
+  "decoder": {
+    "thread_count": 1,
+    "thread_type": "NONE",
+    "skip_frame": "NONE",
+    "hardware": false
+  }
+}

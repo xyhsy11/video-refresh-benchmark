@@ -1,0 +1,5 @@
+{
+  "reviewed_at_utc": "2026-10-17T03:52:52.733840+00:00",
+  "PNGs_visually_inspected": true,
+  "checks": "readable labels, signs/units/cohorts, exploratory/confirmation labels, no misleading oracle latency"
+}

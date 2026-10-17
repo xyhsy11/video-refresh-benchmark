@@ -1,0 +1,38 @@
+{
+  "rn18_weights": "ResNet18_Weights.IMAGENET1K_V1(DEFAULT)",
+  "rn18_checkpoint_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+  "rn18_preprocess": "ImageClassification(\n    crop_size=[224]\n    resize_size=[256]\n    mean=[0.485, 0.456, 0.406]\n    std=[0.229, 0.224, 0.225]\n    interpolation=InterpolationMode.BILINEAR\n)",
+  "x3d_revision": "f3142bb05cdb56af0704ab6f0adfb0c7bbafe4a0",
+  "x3d_checkpoint_sha256": "6dafc96144c88f800b190d2cb179ff69b8fd48c40afd4deca6c1e61f76fdfe86",
+  "x3d_factory": "x3d_xs(pretrained=False), unchanged input_clip_length4/input_crop_size160",
+  "x3d_preprocessing": "uint8 RGB C,T,H,W /255; normalize mean0.45/std0.225; official bilinear ShortSideScale182 align_corners=False; torchvision CenterCropVideo182",
+  "x3d_native_head": "ResNetBasicHead(\n  (pool): ProjectedPool(\n    (pre_conv): Conv3d(192, 432, kernel_size=(1, 1, 1), stride=(1, 1, 1), bias=False)\n    (pre_norm): BatchNorm3d(432, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)\n    (pre_act): ReLU()\n    (pool): AvgPool3d(kernel_size=(np.int64(4), 5, 5), stride=1, padding=0)\n    (post_conv): Conv3d(432, 2048, kernel_size=(1, 1, 1), stride=(1, 1, 1), bias=False)\n    (post_act): ReLU()\n  )\n  (dropout): Dropout(p=0.5, inplace=False)\n  (proj): Linear(in_features=2048, out_features=400, bias=True)\n  (output_pool): AdaptiveAvgPool3d(output_size=1)\n)",
+  "x3d_feature": "read-only proj input hook, mean all nonbatch/nonchannel axes; pre-projection and pre-classification-activation",
+  "upstream_code_hashes": {
+    "data/source/temporal_refresh_generalization_v1/pytorchvideo-f3142bb05cdb56af0704ab6f0adfb0c7bbafe4a0/pytorchvideo/models/hub/x3d.py": "4825ccbd581408a1a5a36bdf0427d9431b64e6e3d4a9744403aba10b10c5f680",
+    "data/source/temporal_refresh_generalization_v1/pytorchvideo-f3142bb05cdb56af0704ab6f0adfb0c7bbafe4a0/pytorchvideo/models/x3d.py": "91fc57b52ecad991ffb84ad77183482cce4eb7d4e04d8ba0938b6ea6ca5b8fcd",
+    "data/source/temporal_refresh_generalization_v1/pytorchvideo-f3142bb05cdb56af0704ab6f0adfb0c7bbafe4a0/pytorchvideo/models/head.py": "52d13b0f3c8511f828c6587c73372f218618b0a480de97d288d32fe8a451956b",
+    "data/source/temporal_refresh_generalization_v1/pytorchvideo-f3142bb05cdb56af0704ab6f0adfb0c7bbafe4a0/pytorchvideo/transforms/functional.py": "aa41f70e2d62f309bd5ad77d62c88055b744b5faafe7d71aad37eb61c11a3e4c"
+  },
+  "numerics": {
+    "dtype": "float32",
+    "batch_size": 1,
+    "eval": true,
+    "inference_mode": true,
+    "autocast": false,
+    "compiled": false,
+    "deterministic_algorithms": true,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "cudnn_allow_tf32": false,
+    "matmul_allow_tf32": false,
+    "float32_matmul_precision": "highest",
+    "torch_cpu_threads": 1,
+    "torch_interop_threads": 1,
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+    "transfer_non_blocking": true,
+    "input_cpu_memory_pinned": false,
+    "note": "Pageable CPU transfers; non_blocking does not promise transfer/compute overlap."
+  },
+  "upstream_license": "Apache-2.0; source/LICENSE retained; dataset/weights separate terms"
+}

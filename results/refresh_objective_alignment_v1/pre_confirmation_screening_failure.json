@@ -1,0 +1,10 @@
+{
+  "at_utc": "2026-10-17T03:27:03.014286+00:00",
+  "source_video_id": "sAA809R_u1E",
+  "path": "data/source/refresh_objective_alignment_v1/candidates/sAA809R_u1E_000077_000087.mp4",
+  "sha256": "eeb1166096256e254eee9418914e6b20268b172a930e9ed46afa6d99574c5356",
+  "video_streams": 0,
+  "exception": "IndexError at container.streams.video[0]",
+  "confirmation_exposure": false,
+  "resolution": "New wrapper recognizes zero-video-stream input as technical rejection; original v1 helper unchanged"
+}

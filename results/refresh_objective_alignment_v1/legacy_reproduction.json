@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "archived_selected_rows": 4800,
+  "maximum_CE_difference": 0.0,
+  "old_X3D_B4_mean_and_interval": {
+    "mean": 0.009784449348300034,
+    "CI95_lower": -0.012442287572646777,
+    "CI95_upper": 0.032961286928129406
+  },
+  "archived_seed": 20261024,
+  "seconds": 10.93413600000008,
+  "no_new_encoder_or_decoder_calls": true
+}
