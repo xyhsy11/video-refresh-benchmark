@@ -1,0 +1,21 @@
+{
+  "alpha": 0.001,
+  "objective": 0.020932601193049877,
+  "gradient_max_abs": 1.0585799375063286e-07,
+  "closure_calls": 548,
+  "iterations": 400,
+  "at_iteration_limit": true,
+  "convergence_assessment": "gradient and objective tolerances logged; no silent retry",
+  "constant_columns": 0,
+  "solver": "torch LBFGS historical settings",
+  "weight_sum": 1.0,
+  "empirical_CE_weighting": "class/group/clip",
+  "grid_order": 0,
+  "train_CE": 0.0047161389752271195,
+  "train_accuracy": 1.000000000000003,
+  "development_CE": 0.3350351957882625,
+  "development_accuracy": 0.9059405940594052,
+  "path": "results/ucf101_proxy_replication_v1/heads/parameters.json",
+  "sha256": "42e9f9813ce13c1b7200c5753ce6af0e7a76016530808c868b433b70ac40a150",
+  "selection": "development DENSE CE, accuracy, grid order; no sparse selection"
+}

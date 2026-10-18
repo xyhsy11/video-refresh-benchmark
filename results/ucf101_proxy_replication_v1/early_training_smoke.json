@@ -1,0 +1,61 @@
+{
+  "records": [
+    {
+      "clip": "v_ApplyEyeMakeup_g08_c03.avi",
+      "seconds": 1.9241805000001477,
+      "shape": [
+        16,
+        2048
+      ],
+      "decoded_frames": 146,
+      "native": {
+        "strict_loading": true,
+        "shape": [
+          1,
+          2048
+        ],
+        "projection_shape": [
+          1,
+          1,
+          2,
+          2,
+          2048
+        ],
+        "native_mean_max_difference": 0.0,
+        "affine_mean_max_difference": 1.9073486328125e-06,
+        "native_projection_executed": true
+      }
+    },
+    {
+      "clip": "v_ApplyEyeMakeup_g08_c01.avi",
+      "seconds": 1.168241899998975,
+      "shape": [
+        16,
+        2048
+      ],
+      "decoded_frames": 120,
+      "native": {
+        "strict_loading": true,
+        "shape": [
+          1,
+          2048
+        ],
+        "projection_shape": [
+          1,
+          1,
+          2,
+          2,
+          2048
+        ],
+        "native_mean_max_difference": 0.0,
+        "affine_mean_max_difference": 1.9073486328125e-06,
+        "native_projection_executed": true
+      }
+    }
+  ],
+  "projected_nominal_collection_seconds": 7808.366559997785,
+  "actual_encoder_calls": 32,
+  "training_only": true,
+  "arrays_retained": false,
+  "at_utc": "2026-10-17T12:42:00.128321+00:00"
+}

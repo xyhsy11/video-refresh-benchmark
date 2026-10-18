@@ -1,0 +1,1237 @@
+{
+  "contrasts": {
+    "g": {
+      "variance_of_mean": 9.529522972074722e-06,
+      "predicted_CI95_halfwidth": 0.0060505053879425855,
+      "predicted_CI95_width": 0.012101010775885171,
+      "by_class": [
+        {
+          "label": "ApplyEyeMakeup",
+          "development_groups": 3,
+          "development_variance": 0.0028496549490945253,
+          "test_groups": 7
+        },
+        {
+          "label": "ApplyLipstick",
+          "development_groups": 3,
+          "development_variance": 0.012296104671449322,
+          "test_groups": 7
+        },
+        {
+          "label": "Archery",
+          "development_groups": 3,
+          "development_variance": 0.0005099553190147268,
+          "test_groups": 7
+        },
+        {
+          "label": "BabyCrawling",
+          "development_groups": 3,
+          "development_variance": 3.5276385103104464e-07,
+          "test_groups": 7
+        },
+        {
+          "label": "BalanceBeam",
+          "development_groups": 3,
+          "development_variance": 0.014060089101337696,
+          "test_groups": 7
+        },
+        {
+          "label": "BandMarching",
+          "development_groups": 3,
+          "development_variance": 0.000352751587796803,
+          "test_groups": 7
+        },
+        {
+          "label": "BaseballPitch",
+          "development_groups": 3,
+          "development_variance": 0.0072018056608469235,
+          "test_groups": 7
+        },
+        {
+          "label": "Basketball",
+          "development_groups": 3,
+          "development_variance": 5.778885562997276e-06,
+          "test_groups": 7
+        },
+        {
+          "label": "BasketballDunk",
+          "development_groups": 3,
+          "development_variance": 1.4219476845341193e-07,
+          "test_groups": 5
+        },
+        {
+          "label": "BenchPress",
+          "development_groups": 2,
+          "development_variance": 6.80462698522806e-05,
+          "test_groups": 6
+        },
+        {
+          "label": "Biking",
+          "development_groups": 3,
+          "development_variance": 0.0003569736457460892,
+          "test_groups": 7
+        },
+        {
+          "label": "Billiards",
+          "development_groups": 3,
+          "development_variance": 3.0677754971322076e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "BlowDryHair",
+          "development_groups": 3,
+          "development_variance": 0.00047500467562974324,
+          "test_groups": 7
+        },
+        {
+          "label": "BlowingCandles",
+          "development_groups": 3,
+          "development_variance": 4.007902256108039e-12,
+          "test_groups": 7
+        },
+        {
+          "label": "BodyWeightSquats",
+          "development_groups": 3,
+          "development_variance": 0.0008411277874048942,
+          "test_groups": 7
+        },
+        {
+          "label": "Bowling",
+          "development_groups": 3,
+          "development_variance": 8.417866664680635e-06,
+          "test_groups": 7
+        },
+        {
+          "label": "BoxingPunchingBag",
+          "development_groups": 3,
+          "development_variance": 5.900745393062702e-09,
+          "test_groups": 7
+        },
+        {
+          "label": "BoxingSpeedBag",
+          "development_groups": 3,
+          "development_variance": 0.0028528166770056167,
+          "test_groups": 7
+        },
+        {
+          "label": "BreastStroke",
+          "development_groups": 3,
+          "development_variance": 0.0004318696161908954,
+          "test_groups": 7
+        },
+        {
+          "label": "BrushingTeeth",
+          "development_groups": 3,
+          "development_variance": 0.0003842044490571631,
+          "test_groups": 7
+        },
+        {
+          "label": "CleanAndJerk",
+          "development_groups": 3,
+          "development_variance": 1.672993524588934e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "CliffDiving",
+          "development_groups": 3,
+          "development_variance": 3.096352467256867e-07,
+          "test_groups": 7
+        },
+        {
+          "label": "CricketBowling",
+          "development_groups": 3,
+          "development_variance": 0.0024331291506585286,
+          "test_groups": 7
+        },
+        {
+          "label": "CricketShot",
+          "development_groups": 3,
+          "development_variance": 0.00728377337909844,
+          "test_groups": 7
+        },
+        {
+          "label": "CuttingInKitchen",
+          "development_groups": 3,
+          "development_variance": 0.005084738367124174,
+          "test_groups": 7
+        },
+        {
+          "label": "Diving",
+          "development_groups": 3,
+          "development_variance": 9.004131390794013e-06,
+          "test_groups": 7
+        },
+        {
+          "label": "Drumming",
+          "development_groups": 3,
+          "development_variance": 0.007209491795375314,
+          "test_groups": 7
+        },
+        {
+          "label": "Fencing",
+          "development_groups": 3,
+          "development_variance": 2.0169249224962807e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "FieldHockeyPenalty",
+          "development_groups": 3,
+          "development_variance": 0.0014188583591048679,
+          "test_groups": 7
+        },
+        {
+          "label": "FloorGymnastics",
+          "development_groups": 3,
+          "development_variance": 0.001720073438921796,
+          "test_groups": 7
+        },
+        {
+          "label": "FrisbeeCatch",
+          "development_groups": 3,
+          "development_variance": 3.917458466683868e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "FrontCrawl",
+          "development_groups": 3,
+          "development_variance": 0.018354936814497628,
+          "test_groups": 7
+        },
+        {
+          "label": "GolfSwing",
+          "development_groups": 3,
+          "development_variance": 0.000747736897671335,
+          "test_groups": 7
+        },
+        {
+          "label": "Haircut",
+          "development_groups": 3,
+          "development_variance": 0.10640912361635484,
+          "test_groups": 7
+        },
+        {
+          "label": "Hammering",
+          "development_groups": 3,
+          "development_variance": 0.0015428859523233154,
+          "test_groups": 7
+        },
+        {
+          "label": "HammerThrow",
+          "development_groups": 3,
+          "development_variance": 0.010296965201918105,
+          "test_groups": 7
+        },
+        {
+          "label": "HandstandPushups",
+          "development_groups": 3,
+          "development_variance": 0.0002030988060196349,
+          "test_groups": 7
+        },
+        {
+          "label": "HandstandWalking",
+          "development_groups": 3,
+          "development_variance": 0.008833440723419314,
+          "test_groups": 7
+        },
+        {
+          "label": "HeadMassage",
+          "development_groups": 3,
+          "development_variance": 0.008151463983232451,
+          "test_groups": 7
+        },
+        {
+          "label": "HighJump",
+          "development_groups": 3,
+          "development_variance": 0.02329278934077399,
+          "test_groups": 7
+        },
+        {
+          "label": "HorseRace",
+          "development_groups": 3,
+          "development_variance": 3.144354396769129e-06,
+          "test_groups": 7
+        },
+        {
+          "label": "HorseRiding",
+          "development_groups": 3,
+          "development_variance": 0.0004999184095393037,
+          "test_groups": 7
+        },
+        {
+          "label": "HulaHoop",
+          "development_groups": 3,
+          "development_variance": 2.337136204519128e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "IceDancing",
+          "development_groups": 3,
+          "development_variance": 1.6355761064315352e-07,
+          "test_groups": 7
+        },
+        {
+          "label": "JavelinThrow",
+          "development_groups": 2,
+          "development_variance": 2.8101323242318417e-06,
+          "test_groups": 7
+        },
+        {
+          "label": "JugglingBalls",
+          "development_groups": 3,
+          "development_variance": 0.012860638054022926,
+          "test_groups": 7
+        },
+        {
+          "label": "JumpingJack",
+          "development_groups": 3,
+          "development_variance": 0.018236844541809953,
+          "test_groups": 7
+        },
+        {
+          "label": "JumpRope",
+          "development_groups": 3,
+          "development_variance": 0.07155640537991076,
+          "test_groups": 7
+        },
+        {
+          "label": "Kayaking",
+          "development_groups": 3,
+          "development_variance": 5.346708545243427e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "Knitting",
+          "development_groups": 3,
+          "development_variance": 2.5270377741999478e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "LongJump",
+          "development_groups": 3,
+          "development_variance": 2.3918611135250147e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "Lunges",
+          "development_groups": 3,
+          "development_variance": 0.024731123530741014,
+          "test_groups": 7
+        },
+        {
+          "label": "MilitaryParade",
+          "development_groups": 3,
+          "development_variance": 6.980077455412993e-06,
+          "test_groups": 7
+        },
+        {
+          "label": "Mixing",
+          "development_groups": 3,
+          "development_variance": 0.0016962889327588847,
+          "test_groups": 7
+        },
+        {
+          "label": "MoppingFloor",
+          "development_groups": 3,
+          "development_variance": 5.466471254253392e-09,
+          "test_groups": 7
+        },
+        {
+          "label": "Nunchucks",
+          "development_groups": 3,
+          "development_variance": 0.001265908795956086,
+          "test_groups": 7
+        },
+        {
+          "label": "ParallelBars",
+          "development_groups": 3,
+          "development_variance": 0.00018458519619314013,
+          "test_groups": 7
+        },
+        {
+          "label": "PizzaTossing",
+          "development_groups": 3,
+          "development_variance": 0.01310958269142889,
+          "test_groups": 7
+        },
+        {
+          "label": "PlayingCello",
+          "development_groups": 3,
+          "development_variance": 0.0017963759589716755,
+          "test_groups": 7
+        },
+        {
+          "label": "PlayingDaf",
+          "development_groups": 3,
+          "development_variance": 2.7750372535401188e-08,
+          "test_groups": 7
+        },
+        {
+          "label": "PlayingDhol",
+          "development_groups": 3,
+          "development_variance": 7.698485341755995e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "PlayingFlute",
+          "development_groups": 3,
+          "development_variance": 5.020320712049657e-07,
+          "test_groups": 7
+        },
+        {
+          "label": "PlayingGuitar",
+          "development_groups": 3,
+          "development_variance": 1.5647089229226316e-08,
+          "test_groups": 7
+        },
+        {
+          "label": "PlayingPiano",
+          "development_groups": 3,
+          "development_variance": 3.311517389564815e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "PlayingSitar",
+          "development_groups": 3,
+          "development_variance": 1.7652647856054254e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "PlayingTabla",
+          "development_groups": 3,
+          "development_variance": 0.0001809397199836695,
+          "test_groups": 7
+        },
+        {
+          "label": "PlayingViolin",
+          "development_groups": 3,
+          "development_variance": 1.1719685624997516e-06,
+          "test_groups": 7
+        },
+        {
+          "label": "PoleVault",
+          "development_groups": 3,
+          "development_variance": 0.00040753298902455686,
+          "test_groups": 7
+        },
+        {
+          "label": "PommelHorse",
+          "development_groups": 3,
+          "development_variance": 7.404235185852382e-06,
+          "test_groups": 7
+        },
+        {
+          "label": "PullUps",
+          "development_groups": 3,
+          "development_variance": 0.0018909356470808475,
+          "test_groups": 7
+        },
+        {
+          "label": "Punch",
+          "development_groups": 3,
+          "development_variance": 3.3052031503995526e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "PushUps",
+          "development_groups": 3,
+          "development_variance": 3.504308525452045e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "Rafting",
+          "development_groups": 3,
+          "development_variance": 8.46128261913303e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "RockClimbingIndoor",
+          "development_groups": 3,
+          "development_variance": 1.0177548142800454e-07,
+          "test_groups": 7
+        },
+        {
+          "label": "RopeClimbing",
+          "development_groups": 3,
+          "development_variance": 4.686204106974385e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "Rowing",
+          "development_groups": 3,
+          "development_variance": 0.002325660222425018,
+          "test_groups": 7
+        },
+        {
+          "label": "SalsaSpin",
+          "development_groups": 3,
+          "development_variance": 1.4230285258102498e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "ShavingBeard",
+          "development_groups": 3,
+          "development_variance": 0.06541288168858395,
+          "test_groups": 7
+        },
+        {
+          "label": "Shotput",
+          "development_groups": 3,
+          "development_variance": 0.0035057141805720977,
+          "test_groups": 7
+        },
+        {
+          "label": "SkateBoarding",
+          "development_groups": 3,
+          "development_variance": 2.7531569000999568e-08,
+          "test_groups": 7
+        },
+        {
+          "label": "Skiing",
+          "development_groups": 3,
+          "development_variance": 1.686404664287562e-06,
+          "test_groups": 7
+        },
+        {
+          "label": "Skijet",
+          "development_groups": 3,
+          "development_variance": 0.02545327185356678,
+          "test_groups": 7
+        },
+        {
+          "label": "SkyDiving",
+          "development_groups": 3,
+          "development_variance": 3.2594513245198775e-08,
+          "test_groups": 7
+        },
+        {
+          "label": "SoccerJuggling",
+          "development_groups": 3,
+          "development_variance": 0.02743108693375321,
+          "test_groups": 7
+        },
+        {
+          "label": "SoccerPenalty",
+          "development_groups": 3,
+          "development_variance": 0.0005267508522819106,
+          "test_groups": 7
+        },
+        {
+          "label": "StillRings",
+          "development_groups": 3,
+          "development_variance": 3.850856834236591e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "SumoWrestling",
+          "development_groups": 3,
+          "development_variance": 6.346134701964412e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "Surfing",
+          "development_groups": 3,
+          "development_variance": 1.9653709205800562e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "Swing",
+          "development_groups": 3,
+          "development_variance": 0.0009034122340923788,
+          "test_groups": 7
+        },
+        {
+          "label": "TableTennisShot",
+          "development_groups": 3,
+          "development_variance": 0.00038594004719687595,
+          "test_groups": 7
+        },
+        {
+          "label": "TaiChi",
+          "development_groups": 3,
+          "development_variance": 1.3829817375369422e-08,
+          "test_groups": 7
+        },
+        {
+          "label": "TennisSwing",
+          "development_groups": 3,
+          "development_variance": 0.005171871287562643,
+          "test_groups": 7
+        },
+        {
+          "label": "ThrowDiscus",
+          "development_groups": 3,
+          "development_variance": 0.1241608138611563,
+          "test_groups": 7
+        },
+        {
+          "label": "TrampolineJumping",
+          "development_groups": 3,
+          "development_variance": 0.00023420316376055047,
+          "test_groups": 7
+        },
+        {
+          "label": "Typing",
+          "development_groups": 3,
+          "development_variance": 1.0379594477109218e-07,
+          "test_groups": 7
+        },
+        {
+          "label": "UnevenBars",
+          "development_groups": 3,
+          "development_variance": 0.02751417836028862,
+          "test_groups": 7
+        },
+        {
+          "label": "VolleyballSpiking",
+          "development_groups": 3,
+          "development_variance": 5.15559212294696e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "WalkingWithDog",
+          "development_groups": 3,
+          "development_variance": 3.7959966482063075e-07,
+          "test_groups": 7
+        },
+        {
+          "label": "WallPushups",
+          "development_groups": 3,
+          "development_variance": 0.002158232229426576,
+          "test_groups": 7
+        },
+        {
+          "label": "WritingOnBoard",
+          "development_groups": 3,
+          "development_variance": 0.00017160200935314174,
+          "test_groups": 7
+        },
+        {
+          "label": "YoYo",
+          "development_groups": 3,
+          "development_variance": 0.00023154634953404107,
+          "test_groups": 7
+        }
+      ],
+      "target_halfwidth": 0.015,
+      "target_met": true
+    },
+    "p": {
+      "variance_of_mean": 1.5614341783815486e-05,
+      "predicted_CI95_halfwidth": 0.0077449374043116435,
+      "predicted_CI95_width": 0.015489874808623287,
+      "by_class": [
+        {
+          "label": "ApplyEyeMakeup",
+          "development_groups": 3,
+          "development_variance": 0.06356273550554542,
+          "test_groups": 7
+        },
+        {
+          "label": "ApplyLipstick",
+          "development_groups": 3,
+          "development_variance": 0.00021691988908486564,
+          "test_groups": 7
+        },
+        {
+          "label": "Archery",
+          "development_groups": 3,
+          "development_variance": 0.02385587993117057,
+          "test_groups": 7
+        },
+        {
+          "label": "BabyCrawling",
+          "development_groups": 3,
+          "development_variance": 1.7270720591512254e-09,
+          "test_groups": 7
+        },
+        {
+          "label": "BalanceBeam",
+          "development_groups": 3,
+          "development_variance": 0.022960259606455306,
+          "test_groups": 7
+        },
+        {
+          "label": "BandMarching",
+          "development_groups": 3,
+          "development_variance": 0.00013822935469103346,
+          "test_groups": 7
+        },
+        {
+          "label": "BaseballPitch",
+          "development_groups": 3,
+          "development_variance": 5.758338829184322e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "Basketball",
+          "development_groups": 3,
+          "development_variance": 0.002058292137486769,
+          "test_groups": 7
+        },
+        {
+          "label": "BasketballDunk",
+          "development_groups": 3,
+          "development_variance": 9.55330081655715e-07,
+          "test_groups": 5
+        },
+        {
+          "label": "BenchPress",
+          "development_groups": 2,
+          "development_variance": 0.0020855065340279156,
+          "test_groups": 6
+        },
+        {
+          "label": "Biking",
+          "development_groups": 3,
+          "development_variance": 1.6020752384383434e-06,
+          "test_groups": 7
+        },
+        {
+          "label": "Billiards",
+          "development_groups": 3,
+          "development_variance": 0.0003411570082589015,
+          "test_groups": 7
+        },
+        {
+          "label": "BlowDryHair",
+          "development_groups": 3,
+          "development_variance": 4.453642825320962e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "BlowingCandles",
+          "development_groups": 3,
+          "development_variance": 2.4581642664908834e-10,
+          "test_groups": 7
+        },
+        {
+          "label": "BodyWeightSquats",
+          "development_groups": 3,
+          "development_variance": 0.006503383665755306,
+          "test_groups": 7
+        },
+        {
+          "label": "Bowling",
+          "development_groups": 3,
+          "development_variance": 2.2314650239035064e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "BoxingPunchingBag",
+          "development_groups": 3,
+          "development_variance": 5.284983980057736e-09,
+          "test_groups": 7
+        },
+        {
+          "label": "BoxingSpeedBag",
+          "development_groups": 3,
+          "development_variance": 0.02302675515932944,
+          "test_groups": 7
+        },
+        {
+          "label": "BreastStroke",
+          "development_groups": 3,
+          "development_variance": 0.007935441207078611,
+          "test_groups": 7
+        },
+        {
+          "label": "BrushingTeeth",
+          "development_groups": 3,
+          "development_variance": 0.005436385980329282,
+          "test_groups": 7
+        },
+        {
+          "label": "CleanAndJerk",
+          "development_groups": 3,
+          "development_variance": 3.908487510937716e-06,
+          "test_groups": 7
+        },
+        {
+          "label": "CliffDiving",
+          "development_groups": 3,
+          "development_variance": 2.0233358907672695e-07,
+          "test_groups": 7
+        },
+        {
+          "label": "CricketBowling",
+          "development_groups": 3,
+          "development_variance": 1.516027945273869e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "CricketShot",
+          "development_groups": 3,
+          "development_variance": 0.0031041821160484127,
+          "test_groups": 7
+        },
+        {
+          "label": "CuttingInKitchen",
+          "development_groups": 3,
+          "development_variance": 0.0019081948765846454,
+          "test_groups": 7
+        },
+        {
+          "label": "Diving",
+          "development_groups": 3,
+          "development_variance": 1.809162109988832e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "Drumming",
+          "development_groups": 3,
+          "development_variance": 0.000779615115643056,
+          "test_groups": 7
+        },
+        {
+          "label": "Fencing",
+          "development_groups": 3,
+          "development_variance": 1.5980365603437427e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "FieldHockeyPenalty",
+          "development_groups": 3,
+          "development_variance": 0.026769534698233538,
+          "test_groups": 7
+        },
+        {
+          "label": "FloorGymnastics",
+          "development_groups": 3,
+          "development_variance": 0.0011872312201829031,
+          "test_groups": 7
+        },
+        {
+          "label": "FrisbeeCatch",
+          "development_groups": 3,
+          "development_variance": 1.254795237522638e-06,
+          "test_groups": 7
+        },
+        {
+          "label": "FrontCrawl",
+          "development_groups": 3,
+          "development_variance": 0.017399122283384787,
+          "test_groups": 7
+        },
+        {
+          "label": "GolfSwing",
+          "development_groups": 3,
+          "development_variance": 0.0025087565297226833,
+          "test_groups": 7
+        },
+        {
+          "label": "Haircut",
+          "development_groups": 3,
+          "development_variance": 0.07247350045405296,
+          "test_groups": 7
+        },
+        {
+          "label": "Hammering",
+          "development_groups": 3,
+          "development_variance": 0.00022746515921861612,
+          "test_groups": 7
+        },
+        {
+          "label": "HammerThrow",
+          "development_groups": 3,
+          "development_variance": 0.002988235015801612,
+          "test_groups": 7
+        },
+        {
+          "label": "HandstandPushups",
+          "development_groups": 3,
+          "development_variance": 0.0019408349122415477,
+          "test_groups": 7
+        },
+        {
+          "label": "HandstandWalking",
+          "development_groups": 3,
+          "development_variance": 0.11327440169721636,
+          "test_groups": 7
+        },
+        {
+          "label": "HeadMassage",
+          "development_groups": 3,
+          "development_variance": 0.0006079224666248615,
+          "test_groups": 7
+        },
+        {
+          "label": "HighJump",
+          "development_groups": 3,
+          "development_variance": 0.046251758104268334,
+          "test_groups": 7
+        },
+        {
+          "label": "HorseRace",
+          "development_groups": 3,
+          "development_variance": 9.528409081518899e-07,
+          "test_groups": 7
+        },
+        {
+          "label": "HorseRiding",
+          "development_groups": 3,
+          "development_variance": 0.001066047162826177,
+          "test_groups": 7
+        },
+        {
+          "label": "HulaHoop",
+          "development_groups": 3,
+          "development_variance": 0.0006600839881118531,
+          "test_groups": 7
+        },
+        {
+          "label": "IceDancing",
+          "development_groups": 3,
+          "development_variance": 4.6753432142676474e-08,
+          "test_groups": 7
+        },
+        {
+          "label": "JavelinThrow",
+          "development_groups": 2,
+          "development_variance": 1.5641576468999118e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "JugglingBalls",
+          "development_groups": 3,
+          "development_variance": 0.005349112445268356,
+          "test_groups": 7
+        },
+        {
+          "label": "JumpingJack",
+          "development_groups": 3,
+          "development_variance": 0.0007111612734643346,
+          "test_groups": 7
+        },
+        {
+          "label": "JumpRope",
+          "development_groups": 3,
+          "development_variance": 0.12359032560839839,
+          "test_groups": 7
+        },
+        {
+          "label": "Kayaking",
+          "development_groups": 3,
+          "development_variance": 0.006503638975017241,
+          "test_groups": 7
+        },
+        {
+          "label": "Knitting",
+          "development_groups": 3,
+          "development_variance": 1.0096450030702326e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "LongJump",
+          "development_groups": 3,
+          "development_variance": 5.362723507414613e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "Lunges",
+          "development_groups": 3,
+          "development_variance": 0.04587110972862789,
+          "test_groups": 7
+        },
+        {
+          "label": "MilitaryParade",
+          "development_groups": 3,
+          "development_variance": 2.1478587116972288e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "Mixing",
+          "development_groups": 3,
+          "development_variance": 0.002866409195320097,
+          "test_groups": 7
+        },
+        {
+          "label": "MoppingFloor",
+          "development_groups": 3,
+          "development_variance": 1.253679331345363e-07,
+          "test_groups": 7
+        },
+        {
+          "label": "Nunchucks",
+          "development_groups": 3,
+          "development_variance": 0.008715934522659851,
+          "test_groups": 7
+        },
+        {
+          "label": "ParallelBars",
+          "development_groups": 3,
+          "development_variance": 0.04431899965718662,
+          "test_groups": 7
+        },
+        {
+          "label": "PizzaTossing",
+          "development_groups": 3,
+          "development_variance": 0.022331224350935975,
+          "test_groups": 7
+        },
+        {
+          "label": "PlayingCello",
+          "development_groups": 3,
+          "development_variance": 0.004938839828385257,
+          "test_groups": 7
+        },
+        {
+          "label": "PlayingDaf",
+          "development_groups": 3,
+          "development_variance": 5.2317879544050494e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "PlayingDhol",
+          "development_groups": 3,
+          "development_variance": 0.0001058837744509396,
+          "test_groups": 7
+        },
+        {
+          "label": "PlayingFlute",
+          "development_groups": 3,
+          "development_variance": 1.5462100633946443e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "PlayingGuitar",
+          "development_groups": 3,
+          "development_variance": 1.1869531459677367e-07,
+          "test_groups": 7
+        },
+        {
+          "label": "PlayingPiano",
+          "development_groups": 3,
+          "development_variance": 6.618194696167575e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "PlayingSitar",
+          "development_groups": 3,
+          "development_variance": 6.137231551152921e-06,
+          "test_groups": 7
+        },
+        {
+          "label": "PlayingTabla",
+          "development_groups": 3,
+          "development_variance": 3.2201745092435333e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "PlayingViolin",
+          "development_groups": 3,
+          "development_variance": 7.098719054093153e-06,
+          "test_groups": 7
+        },
+        {
+          "label": "PoleVault",
+          "development_groups": 3,
+          "development_variance": 0.025562031062329023,
+          "test_groups": 7
+        },
+        {
+          "label": "PommelHorse",
+          "development_groups": 3,
+          "development_variance": 1.2776628980631533e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "PullUps",
+          "development_groups": 3,
+          "development_variance": 2.493299027375054e-06,
+          "test_groups": 7
+        },
+        {
+          "label": "Punch",
+          "development_groups": 3,
+          "development_variance": 0.0024519694140403216,
+          "test_groups": 7
+        },
+        {
+          "label": "PushUps",
+          "development_groups": 3,
+          "development_variance": 3.8508650988407967e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "Rafting",
+          "development_groups": 3,
+          "development_variance": 0.006759112536396748,
+          "test_groups": 7
+        },
+        {
+          "label": "RockClimbingIndoor",
+          "development_groups": 3,
+          "development_variance": 6.709459690246527e-08,
+          "test_groups": 7
+        },
+        {
+          "label": "RopeClimbing",
+          "development_groups": 3,
+          "development_variance": 8.239629047336977e-07,
+          "test_groups": 7
+        },
+        {
+          "label": "Rowing",
+          "development_groups": 3,
+          "development_variance": 0.0007544235763938014,
+          "test_groups": 7
+        },
+        {
+          "label": "SalsaSpin",
+          "development_groups": 3,
+          "development_variance": 3.7679659570359483e-06,
+          "test_groups": 7
+        },
+        {
+          "label": "ShavingBeard",
+          "development_groups": 3,
+          "development_variance": 0.1217984133314095,
+          "test_groups": 7
+        },
+        {
+          "label": "Shotput",
+          "development_groups": 3,
+          "development_variance": 0.013347899618371382,
+          "test_groups": 7
+        },
+        {
+          "label": "SkateBoarding",
+          "development_groups": 3,
+          "development_variance": 4.351426890483272e-07,
+          "test_groups": 7
+        },
+        {
+          "label": "Skiing",
+          "development_groups": 3,
+          "development_variance": 9.590288992245032e-06,
+          "test_groups": 7
+        },
+        {
+          "label": "Skijet",
+          "development_groups": 3,
+          "development_variance": 0.002865580431591525,
+          "test_groups": 7
+        },
+        {
+          "label": "SkyDiving",
+          "development_groups": 3,
+          "development_variance": 1.201163354047738e-06,
+          "test_groups": 7
+        },
+        {
+          "label": "SoccerJuggling",
+          "development_groups": 3,
+          "development_variance": 0.07601005995613848,
+          "test_groups": 7
+        },
+        {
+          "label": "SoccerPenalty",
+          "development_groups": 3,
+          "development_variance": 0.00019244342278607027,
+          "test_groups": 7
+        },
+        {
+          "label": "StillRings",
+          "development_groups": 3,
+          "development_variance": 5.731588577835251e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "SumoWrestling",
+          "development_groups": 3,
+          "development_variance": 6.9867126548933215e-06,
+          "test_groups": 7
+        },
+        {
+          "label": "Surfing",
+          "development_groups": 3,
+          "development_variance": 6.981226272606728e-06,
+          "test_groups": 7
+        },
+        {
+          "label": "Swing",
+          "development_groups": 3,
+          "development_variance": 0.0002523166142947701,
+          "test_groups": 7
+        },
+        {
+          "label": "TableTennisShot",
+          "development_groups": 3,
+          "development_variance": 0.0016022916032529398,
+          "test_groups": 7
+        },
+        {
+          "label": "TaiChi",
+          "development_groups": 3,
+          "development_variance": 2.100668813654548e-08,
+          "test_groups": 7
+        },
+        {
+          "label": "TennisSwing",
+          "development_groups": 3,
+          "development_variance": 0.0038711169486294237,
+          "test_groups": 7
+        },
+        {
+          "label": "ThrowDiscus",
+          "development_groups": 3,
+          "development_variance": 0.00023714271321922307,
+          "test_groups": 7
+        },
+        {
+          "label": "TrampolineJumping",
+          "development_groups": 3,
+          "development_variance": 0.003634188547683499,
+          "test_groups": 7
+        },
+        {
+          "label": "Typing",
+          "development_groups": 3,
+          "development_variance": 3.518112470292253e-07,
+          "test_groups": 7
+        },
+        {
+          "label": "UnevenBars",
+          "development_groups": 3,
+          "development_variance": 0.13600932179172392,
+          "test_groups": 7
+        },
+        {
+          "label": "VolleyballSpiking",
+          "development_groups": 3,
+          "development_variance": 3.512306871081732e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "WalkingWithDog",
+          "development_groups": 3,
+          "development_variance": 2.4542069545965496e-05,
+          "test_groups": 7
+        },
+        {
+          "label": "WallPushups",
+          "development_groups": 3,
+          "development_variance": 0.0017041520103900775,
+          "test_groups": 7
+        },
+        {
+          "label": "WritingOnBoard",
+          "development_groups": 3,
+          "development_variance": 0.0001716967391515421,
+          "test_groups": 7
+        },
+        {
+          "label": "YoYo",
+          "development_groups": 3,
+          "development_variance": 0.0001666356256741832,
+          "test_groups": 7
+        }
+      ],
+      "target_halfwidth": 0.015,
+      "target_met": true
+    }
+  },
+  "fixed_test_size": 704,
+  "rule": "Var(mean) approximately sum_c(s_c^2/G_test,c)/101^2; development group means, two clips per group",
+  "caveats": "Only 2-3 development groups/class; head selected on development; noisy variances and uncertain transfer. h=.015 nats is a planning precision target, not a practical-effect/equivalence margin; no 80% power claim. Execute all eligible fixed test groups regardless of sign/precision."
+}

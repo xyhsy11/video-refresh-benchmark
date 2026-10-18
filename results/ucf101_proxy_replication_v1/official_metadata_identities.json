@@ -1,0 +1,16 @@
+{
+  "page_url": "https://www.crcv.ucf.edu/data/UCF101.php",
+  "page_sha256": "755316c6c7c2b3ca6dc727e06e51b460f8ef0e353529a0241ddd48ec92a61be7",
+  "split_url": "https://www.crcv.ucf.edu/data/UCF101/UCF101TrainTestSplits-RecognitionTask.zip",
+  "split_sha256": "5c0d1a53b8ed364a2ac830a73f405e51bece7d98ce1254fd19ed4a36b224bd27",
+  "members": {
+    "classInd.txt": "d7abbb76074d04e80c62ad8a61529bb8eec32ef978569601b2890edec3af0359",
+    "trainlist01.txt": "f7a4d7abc05147b921c17fc227d731197c3583f29945d1f1d46bce830d1b9f12",
+    "testlist01.txt": "81be4765084d72739dca4d11658f7ec369c441ad9e227f11d9468fe2a1c14890"
+  },
+  "video_url": "https://www.crcv.ucf.edu/data/UCF101/UCF101.rar",
+  "version": "UCF101 official 2012 archive, official split 1; video archive Last-Modified Wed, 21 Nov 2012 19:40:04 GMT, Content-Length 6932971618, ETag 50ad2e14-19d3cc062 observed by verified-TLS HEAD",
+  "access": "Public direct official links. No account, click-through or new terms accepted.",
+  "terms": "Official page requests dataset technical-report citation. No explicit video redistribution license found on downloaded page; original video rights remain separate. Research analysis only; no video redistribution.",
+  "citation": "Soomro, Zamir and Shah, UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild, CRCV-TR-12-01, 2012."
+}

@@ -1,0 +1,11 @@
+{
+  "groups": 30,
+  "clips": 30,
+  "dense_median_seconds": 1.945443750000777,
+  "periodic_median_seconds": 0.49774504999913916,
+  "median_paired_ratio": 3.945064468476728,
+  "boundary": "encoded bytes in memory -> fresh full decode + actual PTS plan -> selected RGB/transfer -> batch1 FP32 encoder/native400 -> pooled new head -> CUDA-completed logits and prediction",
+  "repeats": "two warmups, five interleaved measurements/mode/clip, one CPU thread; trials not independent sources",
+  "memory_scope": "torch allocated resident/incremental peak; process working set and lifetime peak, not exact per-trial CPU peak",
+  "offline_selectors": "All proxy selectors require 16 dense encodings PLUS exhaustive CPU search; periodic cost is not oracle latency"
+}

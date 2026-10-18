@@ -1,0 +1,13 @@
+{
+  "phase": "training-only native-codec adaptation and smoke, before bulk extraction",
+  "initial_full_inspection_rejected_for_nonmonotone_decode_emission_PTS": 1,
+  "diagnostic_full_decodes_to_inspect_actual_PTS": 2,
+  "revised_actual_PTS_sorted_full_inspections": 2,
+  "actual_smoke_full_decodes": 2,
+  "total_full_decodes": 7,
+  "encoder_starts": 32,
+  "encoder_completions": 32,
+  "feature_arrays_retained": false,
+  "test_model_inputs": 0,
+  "note": "This is actual execution accounting, not fabricated observations or eligibility outcomes; real clip identities, timings and native-head checks are in early_training_smoke_inputs.json and early_training_smoke.json."
+}

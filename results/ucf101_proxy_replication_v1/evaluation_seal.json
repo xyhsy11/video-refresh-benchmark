@@ -1,0 +1,67 @@
+{
+  "sealed_at_utc": "2026-10-18T04:21:27.038453+00:00",
+  "code_HEAD": "340a1ad4f08d4e817f916ac2c3c159aa50200687",
+  "sha256": {
+    "run_ucf101_proxy_replication.py": "6c03db2656ea73d7c3d029f9286c5d558e9b0eef3d1d1a70b44a0960ad34ede4",
+    "test_ucf101_proxy_replication.py": "db8d945cc3004e4c81d019103fe21cc4899640c47018ab349cbcdd41e8f50567",
+    "ucf101_proxy_analysis.py": "354d56e00973de477c46bb528fe6a659d93102a044f9d9f1521456a60a7c835d",
+    "ucf101_proxy_common.py": "a26437cd6806f9f7b236cafe26afb7634d508d1f091e4d5c570de564dec47343",
+    "ucf101_proxy_data.py": "39f097455198d9ac9ae0fa58946bb35fa44622f61fb186f9d0a3aea4d216a8b3",
+    "ucf101_proxy_inference.py": "11fcf481c400f58fb46ebde602b83b830ae5d305b87ed055c89dc14a93f34b3a",
+    "ucf101_proxy_math.py": "098384c6e7c096825145f47a4e5ecee0948febaf4e792bf34c3163cc42c22f77",
+    "ucf101_proxy_verify.py": "e9aecb4d3671273d69232c61da15d959f041d4cc4aa7f6cc07e53840d276b0cd",
+    "refresh_pooling_utils.py": "81753ed2a9cdce70d68c7dd64c03e76676c25d4997d0af754c8fdb6b6adad1fd",
+    "temporal_refresh_common.py": "5e4f53da9110e43eaa1ff4624645bdb14ade891074f09e46540615d39f7d4cbb",
+    "research_utils.py": "06b0bd9df2ebbbf314a5a21e086f00e7018d7dbd7a189adac3cf2d79f0352044",
+    "benchmark.py": "d9c2e63d0b888b953b0cb03d583d8176cd579dc6ecd54a04676a0ef4a0d308f1",
+    "temporal_refresh_timing.py": "c8f0ac084d413340304f5a3e4be91745c2c41869716c486c8332b6ffc5def840",
+    "results/ucf101_proxy_replication_v1/protocol.md": "a9222d932dfb7d22cc2098a6118e212be28cbec4811802c905785ce19bcc16a1",
+    "results/ucf101_proxy_replication_v1/proposal_amendments.md": "2f065d4f2ef88f7ae794ecfb4a70bfabf04deb4ad6a7bfbc18e4b1b1245b2851",
+    "results/ucf101_proxy_replication_v1/population_plan.json": "398b800c8ecd657fde281affe5c2e7ed65575d3a74b2d2c63fbf6a6d1d3858ba",
+    "results/ucf101_proxy_replication_v1/eligible_manifest.json": "ee79b131f6b8331b6a59221eaba15b0db54b65249e98d4f1687f5ffe8b24649a",
+    "results/ucf101_proxy_replication_v1/official_metadata_identities.json": "66057744a03c712fa00cde8b3bb4d083fb5cdb3caa418ed191b36a5564b8ab2d",
+    "results/ucf101_proxy_replication_v1/duplicate_threshold.json": "660e6cdbb9935cd31fb515e85a2195494605847bbca99d9529c93244df9eb2f8",
+    "results/ucf101_proxy_replication_v1/duplicate_and_pretraining_audit.json": "22a33e465c66966330c7a15c3932679c4246b648084f10a7e87e04ab856d788d",
+    "results/ucf101_proxy_replication_v1/encoder_identity.json": "f26ee7a283c26cfa55a5a1905962dbbfa54803ffbe474f6d35269aebff28a169",
+    "results/ucf101_proxy_replication_v1/heads/parameters.json": "42e9f9813ce13c1b7200c5753ce6af0e7a76016530808c868b433b70ac40a150",
+    "results/ucf101_proxy_replication_v1/head_selection.json": "b70bcc8a092dc6d19cb18ee8cefada171b14c2475b7f641bb57f934e813f01ae",
+    "results/ucf101_proxy_replication_v1/training_grid.json": "23687290d19fcf1888bc61fd936270eadd70d7d927597fe2bfbea3a3c8c8f954",
+    "results/ucf101_proxy_replication_v1/precision_estimates.json": "6a3897e92d0e7aa4ebdbc9edf8be0ba22a0c6319de3e702cafc8a8994f6c4fab",
+    "results/ucf101_proxy_replication_v1/stratum_thresholds.json": "084d31f810235bf269ae25e35c8d5c82de7095ad8b0bec0da9948b3487016101",
+    "results/ucf101_proxy_replication_v1/unit_tests.json": "8ffefaafb897b11cf6a60c34d2f18e7eaf3bdbc03a9659b29278b7dca39a0e44",
+    "data/source/temporal_refresh_generalization_v1/X3D_XS.pyth": "6dafc96144c88f800b190d2cb179ff69b8fd48c40afd4deca6c1e61f76fdfe86",
+    "data/source/temporal_refresh_generalization_v1/pytorchvideo-f3142bb05cdb56af0704ab6f0adfb0c7bbafe4a0/pytorchvideo/models/hub/x3d.py": "4825ccbd581408a1a5a36bdf0427d9431b64e6e3d4a9744403aba10b10c5f680",
+    "data/source/temporal_refresh_generalization_v1/pytorchvideo-f3142bb05cdb56af0704ab6f0adfb0c7bbafe4a0/pytorchvideo/models/x3d.py": "91fc57b52ecad991ffb84ad77183482cce4eb7d4e04d8ba0938b6ea6ca5b8fcd",
+    "data/source/temporal_refresh_generalization_v1/pytorchvideo-f3142bb05cdb56af0704ab6f0adfb0c7bbafe4a0/pytorchvideo/models/head.py": "52d13b0f3c8511f828c6587c73372f218618b0a480de97d288d32fe8a451956b",
+    "data/source/temporal_refresh_generalization_v1/pytorchvideo-f3142bb05cdb56af0704ab6f0adfb0c7bbafe4a0/pytorchvideo/transforms/functional.py": "aa41f70e2d62f309bd5ad77d62c88055b744b5faafe7d71aad37eb61c11a3e4c",
+    "data/source/ucf101_proxy_replication_v1/official_splits.zip": "5c0d1a53b8ed364a2ac830a73f405e51bece7d98ce1254fd19ed4a36b224bd27",
+    "data/source/ucf101_proxy_replication_v1/official_page.html": "755316c6c7c2b3ca6dc727e06e51b460f8ef0e353529a0241ddd48ec92a61be7",
+    "results/ucf101_proxy_replication_v1/schedules_B2.npz": "6b3949eb71bd12ab4f9f2916414367a268505e00321f73fda6fecc20256e645a",
+    "results/ucf101_proxy_replication_v1/schedules_B4.npz": "98be860ed774bed8e1a46064ac189b88f22c217511ae85524c928be85944be72",
+    "results/ucf101_proxy_replication_v1/schedules_B8.npz": "9a3402ae47f726dda324e6a0b6b0b417a3e2cf5d7c785d3ecdc7fbbf7ace5998"
+  },
+  "group_counts": {
+    "train": 1510,
+    "development": 301,
+    "test": 704
+  },
+  "clip_counts": {
+    "train": 3020,
+    "development": 602,
+    "test": 1408
+  },
+  "primary": "test X3D-XS T16 B4 C g=CE(Z_pool)-CE(LegacyCosine)",
+  "secondary": "p=Z_pool-periodic; d=LegacyCosine-periodic",
+  "test_size": "all eligible official split-1 test groups fixed now, two eligible clips per group, no sign-based extension",
+  "bootstrap": {
+    "repeats": 10000,
+    "rng": "PCG64",
+    "seed": 20261026,
+    "unit": "class-stratified paired group",
+    "percentiles": [
+      2.5,
+      97.5
+    ]
+  },
+  "no_test_features_before_seal": true
+}

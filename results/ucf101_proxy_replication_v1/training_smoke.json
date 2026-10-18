@@ -1,0 +1,30 @@
+{
+  "actual_training_clips": [
+    "v_Nunchucks_g22_c03.avi",
+    "v_Biking_g19_c02.avi"
+  ],
+  "encoder_calls": 32,
+  "elapsed_seconds": 2.6383846999999605,
+  "projected_collection_seconds": 6635.537520499901,
+  "projected_feature_bytes": 335998970.0,
+  "free_disk_bytes": 197385793536,
+  "native_head_verification": {
+    "strict_loading": true,
+    "shape": [
+      1,
+      2048
+    ],
+    "projection_shape": [
+      1,
+      1,
+      2,
+      2,
+      2048
+    ],
+    "native_mean_max_difference": 0.0,
+    "affine_mean_max_difference": 9.5367431640625e-07,
+    "native_projection_executed": true
+  },
+  "no_test_features": true,
+  "recorded_at_utc": "2026-10-18T02:53:38.087042+00:00"
+}

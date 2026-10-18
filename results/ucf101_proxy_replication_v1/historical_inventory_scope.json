@@ -1,0 +1,11 @@
+{
+  "recorded_at_utc": "2026-10-18T02:39:24.475481+00:00",
+  "inventory_path": "results/ucf101_proxy_replication_v1/source_exclusions.json",
+  "inventory_sha256": "afadbfb4db3a0f97cf8545d20c9ef417c7481f0c15f3dac00d9e9e1bcd4af961",
+  "source_ids": 917,
+  "encoded_hashes": 910,
+  "implementation": "temporal_refresh_data.historical_exclusions; identity-only membership documents, including alternate development/dataset splits and prior exclusion inventories",
+  "implementation_sha256": "de278e7d7a8317e545ace3291aecd3a5fd3c09353331a500768f34b33c130f51",
+  "test_exposure": false,
+  "limitation": "UCF-to-YouTube source mappings are unavailable; literal identifiers and byte hashes do not prove absence of reuploads"
+}

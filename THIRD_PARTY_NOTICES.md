@@ -18,4 +18,12 @@ NumPy, pandas, matplotlib, Pillow, and their transitive dependencies are also us
 
 ## Temporal recognition study
 
+The UCF101 replication uses official [CRCV UCF101](https://www.crcv.ucf.edu/data/UCF101.php)
+videos and split-1 metadata. Cite Soomro, Zamir and Shah, CRCV-TR-12-01 (2012).
+The downloaded official page provides public research download links and a citation request;
+no explicit video redistribution license was identified. Source-video rights remain separate
+from this repository's MIT license. No account or new click-through terms are accepted and
+no video bytes are redistributed. Official URLs, byte hashes and access records are retained
+under results/ucf101_proxy_replication_v1/.
+
 PyTorchVideo and X3D source are credited to Meta/Facebook Research; pinned revision f3142bb05cdb56af0704ab6f0adfb0c7bbafe4a0 is Apache-2.0. The original LICENSE and copyright notices remain in the local upstream source cache. The official X3D_XS.pyth checkpoint is downloaded unchanged and identified by SHA256; it is not redistributed here. fvcore/iopath and their dependencies remain separately licensed. Kinetics/CVDF annotations and encoded source videos retain their original terms; no rights to third-party video content are granted by this project MIT license.

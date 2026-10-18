@@ -1,0 +1,15 @@
+{
+  "checked_at_utc": "2026-10-18T02:53:21.744914+00:00",
+  "complete_official_groups": 2525,
+  "attempted_clips": 5114,
+  "technically_eligible_inspected_clips": 5041,
+  "historical_source_identifiers": 917,
+  "historical_encoded_hashes": 910,
+  "exact_historical_hash_matches": [],
+  "literal_clip_identifier_matches": [],
+  "UCF_parent_source_mapping_available": 0,
+  "unknown": "Official UCF class/group/clip names are not YouTube parent IDs; pretraining/reupload overlap remains unknown",
+  "inventory_sha256": "afadbfb4db3a0f97cf8545d20c9ef417c7481f0c15f3dac00d9e9e1bcd4af961",
+  "screening_manifest_sha256": "6a7ebb3b4ea6e3b6ccc5b47dd5b1b2696541222305fb34e4df4a19ebcd00aa21",
+  "model_outcomes_used": false
+}

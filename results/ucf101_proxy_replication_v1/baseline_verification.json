@@ -1,0 +1,66 @@
+{
+  "at_utc": "2026-10-17T12:30:41.399233+00:00",
+  "archived_primary": {
+    "g": {
+      "mean": -0.011773127912486659,
+      "CI95_lower": -0.034417971918452535,
+      "CI95_upper": 0.008859788997384674,
+      "sources": 120,
+      "evidence": "archived genuine per-source CE + saved source bootstrap indices; no feature claim"
+    },
+    "p": {
+      "mean": 0.0011314977053339245,
+      "CI95_lower": -0.02194677778838278,
+      "CI95_upper": 0.023644576880004074,
+      "sources": 120,
+      "evidence": "archived genuine per-source CE + saved source bootstrap indices; no feature claim"
+    }
+  },
+  "real_feature_checks": [
+    {
+      "source": "xO5V8RtT3Gc",
+      "path": "data/source/refresh_objective_alignment_v1/features/xO5V8RtT3Gc.npz",
+      "sha256": "89d84994b2f21714d309a324b09e64cd08882d62f1d679dc074f678b4653d5e5",
+      "maximum_difference": 1.6653345369377348e-16,
+      "real_shape": [
+        16,
+        2048
+      ],
+      "schedules_enumerated": 455,
+      "methods_checked": 7
+    },
+    {
+      "source": "lUsBb2Tg9nc",
+      "path": "data/source/refresh_objective_alignment_v1/features/lUsBb2Tg9nc.npz",
+      "sha256": "6abe953d5dc8644aa10dc7e624774abd95d4b90d1d0fad42ec055191e8f3acdd",
+      "maximum_difference": 2.220446049250313e-16,
+      "real_shape": [
+        16,
+        2048
+      ],
+      "schedules_enumerated": 455,
+      "methods_checked": 7
+    },
+    {
+      "source": "rySwGneEIXc",
+      "path": "data/source/refresh_objective_alignment_v1/features/rySwGneEIXc.npz",
+      "sha256": "1426ea0ac2cb237517ccb2ff56262f2dbea548aef11a3866ce96378e29bff49c",
+      "maximum_difference": 2.220446049250313e-16,
+      "real_shape": [
+        16,
+        2048
+      ],
+      "schedules_enumerated": 455,
+      "methods_checked": 7
+    }
+  ],
+  "affected_blockers": [],
+  "status": "passed",
+  "historical_seals_verified": true,
+  "new_encoder_calls": 0,
+  "protocol_paths": [
+    "results/refresh_objective_alignment_v1/protocol.md",
+    "results/temporal_refresh_generalization_v1/protocol.md"
+  ],
+  "implementation_review": "Historical floor-PTS tolerance 1e-9; full-video offline metadata; raw cosine tie1e-12; float64 pooling. Historical uniform clip fitting must be replaced by class/group/clip weighted fitting; H264/5..15s filter must NOT be reused."
+}

@@ -1,0 +1,5 @@
+{
+  "first_test_inference_authorized_at_utc": "2026-10-18T04:21:29.093920+00:00",
+  "seal_sha256": "ea131720657a1193376312499b861c3d7a1cbd29ea8ecd3b6f948b6c4d2e8570",
+  "scope": "recorded immediately before any test model call, including features"
+}

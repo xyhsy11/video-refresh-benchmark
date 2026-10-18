@@ -1,5 +1,17 @@
 # video-refresh-benchmark
 
+The fixed all-class UCF101 split-1 second-dataset replication is implemented in
+[run_ucf101_proxy_replication.py](run_ucf101_proxy_replication.py). Its actual execution
+state, evidence and limitations are in
+[results/ucf101_proxy_replication_v1/findings.md](results/ucf101_proxy_replication_v1/findings.md)
+and [protocol.md](results/ucf101_proxy_replication_v1/protocol.md).
+See the [completed evidence review](results/ucf101_proxy_replication_v1/completion_review.md) and the [disclosed post-exposure audit/layout amendment](results/ucf101_proxy_replication_v1/post_exposure_amendment.md).
+
+```powershell
+& .\.venv_temporal\Scripts\python.exe .\run_ucf101_proxy_replication.py --resume
+& .\.venv_temporal\Scripts\python.exe -B .\run_ucf101_proxy_replication.py --audit-only
+```
+
 **Author: Siyu Han**
 
 A reproducible benchmark comparing sequential video decoding, dense RGB feature extraction, and periodic RGB feature caching.

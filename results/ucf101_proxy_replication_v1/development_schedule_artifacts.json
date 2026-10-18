@@ -1,0 +1,2410 @@
+[
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ApplyEyeMakeup_g18_c02.avi_B4.npz",
+    "sha256": "97c8c2d48e93a38aa2285040595bdcb9d9ce5e9150765bbb5d786be296092700"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ApplyEyeMakeup_g18_c05.avi_B4.npz",
+    "sha256": "c3137bbb654e288b204d3c923be3639984477ed8a9ed5897de57ff7592595423"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ApplyEyeMakeup_g19_c02.avi_B4.npz",
+    "sha256": "d17ea6b142d676f33d9f29d40dc09e111c4f77a347df2969baebd6e345355e8a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ApplyEyeMakeup_g19_c03.avi_B4.npz",
+    "sha256": "3689e863f114eeeb57438805924199b5cdac24c2d501ff8051cfa9d7428491d1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ApplyEyeMakeup_g20_c05.avi_B4.npz",
+    "sha256": "c423479e9ba7e3492ca39bfa7e2305b6456d6fe0e7207cf8b720417e6420c10e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ApplyEyeMakeup_g20_c01.avi_B4.npz",
+    "sha256": "ffa82ace26f60e50b1114968de27a9731ba1d340e51f6f4c1c4bca8c918fe9f4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ApplyLipstick_g13_c04.avi_B4.npz",
+    "sha256": "d1bc9422433e0042a28c24141aff2573f0263cb509a175a85d84e98de4266c5a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ApplyLipstick_g13_c01.avi_B4.npz",
+    "sha256": "43bc5ac4385cdf8d1e510dd56281fd278d9b12f606c13e29b4f566bc5f0131ef"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ApplyLipstick_g20_c01.avi_B4.npz",
+    "sha256": "720d987f9b2f0d8849db8614e1619539b2618117d1e5cd8ac003c2bc4893445b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ApplyLipstick_g20_c03.avi_B4.npz",
+    "sha256": "379e8ce176b88fd494aeacff20b72a9104c4cc870348e25db4f0b0568c3bf9d9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ApplyLipstick_g23_c01.avi_B4.npz",
+    "sha256": "35dcbc90ae813abd79c3deb90d67ec8f724ada09d24af28d560f91fb52bc3a2d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ApplyLipstick_g23_c04.avi_B4.npz",
+    "sha256": "645c0d1d952b5ae6791944fbdeeb78b66b8814e762ded24770b19cb25e0b96bd"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Archery_g08_c05.avi_B4.npz",
+    "sha256": "49a81aefa56c60ef739e6dd4e1d0eba010775d7c1b0b6ec057580450bdd7f46a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Archery_g08_c02.avi_B4.npz",
+    "sha256": "dbedfe67fdde7eadc1082e0686dd6cef16c6217bfccf90ad72f497386f070a5a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Archery_g13_c06.avi_B4.npz",
+    "sha256": "728845d84e3766b1192d916dfe1fa335ab06a598b3328257f531de4ed593f14e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Archery_g13_c04.avi_B4.npz",
+    "sha256": "a82f41ab4ddfbdf83a42af061581e84bf99177df801315dd068e1d6de3e69046"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Archery_g20_c01.avi_B4.npz",
+    "sha256": "30f85c8e430df0f773956004545e31c328686bf1352e926c8dbf1df052a307f3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Archery_g20_c07.avi_B4.npz",
+    "sha256": "2512b36a836ba532c59bf03d8f1853d20df571e2ab0734be8f748fbe60bee8f4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BabyCrawling_g16_c02.avi_B4.npz",
+    "sha256": "5d1d335b701d1d9c38372cdea446c7642e47f96aaca71172b753e2f843746383"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BabyCrawling_g16_c05.avi_B4.npz",
+    "sha256": "918e323823f0742d8585510220e3e102dfb7595fe2bad58b69e5c62da6f22571"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BabyCrawling_g17_c03.avi_B4.npz",
+    "sha256": "80673ef7e7dfc04d3c3111dd704adfbacf927444a165244f649394bae6a140a6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BabyCrawling_g17_c04.avi_B4.npz",
+    "sha256": "1806ec689788c763c751e9abccacc870e7a516df2f9874e3d22596cb430e53b3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BabyCrawling_g19_c05.avi_B4.npz",
+    "sha256": "e2edcdce91bd644b832cdce73f2f0b46f6016f8c0de9a26858b567dd9fa5d897"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BabyCrawling_g19_c04.avi_B4.npz",
+    "sha256": "9a4cd294e653205d36a66f01da3d1ecab2edd1f7b8655f73387935450ddcf85f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BalanceBeam_g09_c01.avi_B4.npz",
+    "sha256": "245715b06f560da31845527677eebd5ce08a93ef21df9af1258e2f44801ced2b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BalanceBeam_g09_c02.avi_B4.npz",
+    "sha256": "b01b645dff1b94bce9c9d861b33d8431937713c0dd15e0a2614221b00a8bd82d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BalanceBeam_g16_c01.avi_B4.npz",
+    "sha256": "4cb852866737f8213916e3b6317511f4509ef949ab20d941b4d1795b7cae4ed2"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BalanceBeam_g16_c03.avi_B4.npz",
+    "sha256": "a58a806f6048dc670cbd9275465fadb1facdd74e45697d4a7e1c54980ef050af"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BalanceBeam_g22_c04.avi_B4.npz",
+    "sha256": "27748d1f96d59307a26352b8a8e6afc860b089b9ffe9020f08e7bc8c0789d9ec"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BalanceBeam_g22_c02.avi_B4.npz",
+    "sha256": "8f17220751934b4e8bcb87f705ea222e27b1b69526254f36c19845a65c9511f4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BandMarching_g09_c03.avi_B4.npz",
+    "sha256": "4547eb2bb1b22ee2600407fe08c2edd591adf44c1110d1fcbc4cefcb428ab826"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BandMarching_g09_c02.avi_B4.npz",
+    "sha256": "0856b9b5eacb36673d949623f13705a615d893c0ec71aebf3f7564b24b7698b9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BandMarching_g14_c04.avi_B4.npz",
+    "sha256": "b57bb04d65afa360daaf9981707b53700749700066abeced94842cd418325011"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BandMarching_g14_c05.avi_B4.npz",
+    "sha256": "b80820a3c37b011d0d033a0a3c092f7b1f0e2cd7129a5bbd17900f4de7be9239"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BandMarching_g15_c01.avi_B4.npz",
+    "sha256": "60200ddc31508136105bd6e19f5c65bff7ea4cadca27b2f583f7b93d3973ec4d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BandMarching_g15_c03.avi_B4.npz",
+    "sha256": "0fa37e4903526890668a82889f013cb2a543d193fd15903f6d149b0553527c99"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BaseballPitch_g09_c01.avi_B4.npz",
+    "sha256": "715152bd5187c27ef28798bd244e8a20a3016ae082b498f28b6357f66da768a4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BaseballPitch_g09_c07.avi_B4.npz",
+    "sha256": "1d0d6b5baffa138f7093e134e62addeac92177f095fbe8c91678fefe59268d80"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BaseballPitch_g14_c03.avi_B4.npz",
+    "sha256": "0caa2970262e15318a1bbe0976b689ca71b160caa68f854b3411ba48ba179d61"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BaseballPitch_g14_c02.avi_B4.npz",
+    "sha256": "cd608de3761984863c2dfa9dceb5bcf13fbb50a53e2022e416346bd71d0fe67c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BaseballPitch_g17_c05.avi_B4.npz",
+    "sha256": "86f8d3e335dbd197df5ec39d30999500cd1841aef2614b7795ff972f9a023796"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BaseballPitch_g17_c07.avi_B4.npz",
+    "sha256": "8f6b35deb5dee65e434be13e2131f1b4fb2863dd5ac1f814999ad6b37e46e747"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Basketball_g12_c05.avi_B4.npz",
+    "sha256": "ff3daaa9585f159105b5e2626d60a9b7ccef820a549245e4b5689c54c98f7d16"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Basketball_g12_c01.avi_B4.npz",
+    "sha256": "d83df61f4d0f3181fe67b3b9fedc878b118294c7b9edca8ac146d32f0dcd95c0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Basketball_g21_c01.avi_B4.npz",
+    "sha256": "cafdb7b7ff3397e99620ad09df1c7017617550d63a8633e18134d4a1108e3b83"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Basketball_g21_c02.avi_B4.npz",
+    "sha256": "15f8f4242eb89e4f405548c1cfa9ef0fbb1794016b60a299fcf3ae2299b5cca7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Basketball_g22_c04.avi_B4.npz",
+    "sha256": "7a95a01beea9648a9a97fb99c3ee065a7d6cc51d5e7661a54a9d250681ca6ef0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Basketball_g22_c03.avi_B4.npz",
+    "sha256": "6f28e18d48b31b59da9e9afd6c26c213e050f06e7eeedea016a0b79db2e0c50f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BasketballDunk_g14_c01.avi_B4.npz",
+    "sha256": "ec50d912f19d8cfbfe6f4e02273eff4736658f715a762cb135a265c954b1f4c7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BasketballDunk_g14_c06.avi_B4.npz",
+    "sha256": "9f286553905a7d5549fb298464f5eb83582e17326a3d1d35242f845d4d047b7e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BasketballDunk_g19_c01.avi_B4.npz",
+    "sha256": "f1f113f00bc0105f35196c6887a28282aea3c07c6ed2bebb31b49413899d5b70"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BasketballDunk_g19_c03.avi_B4.npz",
+    "sha256": "6108bfcd88fe9e8263b3055882768ac98b9d8230e9bc216a67a25d96d68d3038"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BasketballDunk_g25_c04.avi_B4.npz",
+    "sha256": "f8de56c1240c7271337ce9ab132de48e90e6e18d16e8f3e9fb9a3b49bdd81ea3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BasketballDunk_g25_c03.avi_B4.npz",
+    "sha256": "eb633d498e6d33c6ac5364b79d8bb1d6d418048edd9aca127e4450cf179b1185"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BenchPress_g11_c02.avi_B4.npz",
+    "sha256": "37cec98d7e09340132f626456ab10d5e3b9943fcf58529ceed469b7e66da75e3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BenchPress_g11_c05.avi_B4.npz",
+    "sha256": "87f1c4c85c2e93d72ba7331b0e5a51ea048e8a4a316bd753dc95f4d200644573"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BenchPress_g21_c01.avi_B4.npz",
+    "sha256": "66a91d8a32b287fbd0dd1c4c65edb44da143aed300ddbb0a6a8d4526a210581b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BenchPress_g21_c04.avi_B4.npz",
+    "sha256": "62c75ce52eb15f2c4621a736cad240080241fdbf23d0da8af34ecf7d681ef16b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Biking_g12_c03.avi_B4.npz",
+    "sha256": "7e924d5dde0091d79913c9ea8fdbc049f1976a768e400a74ab0de010a834c628"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Biking_g12_c02.avi_B4.npz",
+    "sha256": "f2ed06bf2bf75eb4b0ac852a0f8629f4b444ac3dc11a33f294d8f066b1f79b58"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Biking_g21_c01.avi_B4.npz",
+    "sha256": "575ce430d3a677f0a372c089a807bbdec503b2403efb2e49d7bec0a7c21b6040"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Biking_g21_c03.avi_B4.npz",
+    "sha256": "edd02ebcde533556335a806180165cbfa6c1ba4b08ebe7da58641e245aaf3804"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Biking_g23_c04.avi_B4.npz",
+    "sha256": "b0e607ff2fa08fe1e15421c56492727bffd5f55ae07204faf970ce488aef79d8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Biking_g23_c02.avi_B4.npz",
+    "sha256": "e6418d4a5752c1cc77d208fa27a7e523a408e0ee526e9ee3273eb5c28212deef"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Billiards_g13_c03.avi_B4.npz",
+    "sha256": "15aba0a371aad5ff0ea2b5bde1d0ac9a8733c8f804d9b7a944b7f66f1e5a768f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Billiards_g13_c06.avi_B4.npz",
+    "sha256": "dc29b9d07b2093487bd6992f84a290d09effe838bab0277653b54d9503dc8dcd"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Billiards_g16_c02.avi_B4.npz",
+    "sha256": "f1f1cc76745fdeabd8de4607d7a46aed104578d5dad205d2f848c2c4bcb4c9df"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Billiards_g16_c03.avi_B4.npz",
+    "sha256": "41def25d8a65cff15ebafee481c288b48042a017a9db30318e25c01396643003"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Billiards_g23_c01.avi_B4.npz",
+    "sha256": "4bae72ce7fa5483d0b5aa120bc92eee721d31fa945044b2aa60a52c2e0c1dff1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Billiards_g23_c04.avi_B4.npz",
+    "sha256": "62dee24d6952b3ddc6e39a5f417c0d44952710835461e5e5bb9d38080d8bceaf"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BlowDryHair_g08_c03.avi_B4.npz",
+    "sha256": "ee2b9bf7c89fcc9cada0e5a03d38bbc2eeb0f0cc0c4edee34af8ddfadbc34031"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BlowDryHair_g08_c04.avi_B4.npz",
+    "sha256": "38906d69fccb1eb1b99d227ede38baea5ba28e8c84298da679dfdcefb774b310"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BlowDryHair_g22_c04.avi_B4.npz",
+    "sha256": "0d9d6104ff49ee030b61c627684fab051488a99b00799eb41bd81a0fac5b89b3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BlowDryHair_g22_c01.avi_B4.npz",
+    "sha256": "089285c13e8ee50d292abc58ea0c31bfb7a3a001650511859b8da8b512f02a15"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BlowDryHair_g25_c02.avi_B4.npz",
+    "sha256": "0ba16c93d5bda1cf2fae93cd8c1054ad5b92b9020879e4f8d1f381fa8ab614cf"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BlowDryHair_g25_c03.avi_B4.npz",
+    "sha256": "ecf208190fa2deeb571c18a4a10657e2377c5f5dc7b600eca349aa04ebef7b83"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BlowingCandles_g08_c01.avi_B4.npz",
+    "sha256": "e910463e3f4916fa7e3e9493bb36cb5857aebcbdd2fadc15cd08975429c42550"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BlowingCandles_g08_c02.avi_B4.npz",
+    "sha256": "20eb5700837cb44bb05ea85470e7f5cb432014091cf004b3b648b89a3e966c87"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BlowingCandles_g10_c01.avi_B4.npz",
+    "sha256": "08b2474b2cf4d51ff30dbb3c7130d3a9ec5449f87db724db135369a81d6acde2"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BlowingCandles_g10_c04.avi_B4.npz",
+    "sha256": "8ec34d7840dc1209df2f23212021430aa57d81bfc8f3040a43002b04fe5390d0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BlowingCandles_g18_c03.avi_B4.npz",
+    "sha256": "4ea92fe0f04fa74eb82f0ed622ff0d5f063ad1dee929d9ac574d42b9d40e806c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BlowingCandles_g18_c02.avi_B4.npz",
+    "sha256": "1059e5ad05ec84a49cad2f89823018a2bb2f7abaf47061dbc0a720ee5fcebc2c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BodyWeightSquats_g13_c01.avi_B4.npz",
+    "sha256": "6d256ccbf88a0970eeadc33a48f0e2062aead8d1a9d12d8d49b71a52b9bd68d9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BodyWeightSquats_g13_c04.avi_B4.npz",
+    "sha256": "47a72b1999e25a3514a786ec3858cb91eb9da4d80ab0a5d4925aa7721254547f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BodyWeightSquats_g14_c01.avi_B4.npz",
+    "sha256": "19293494c63e6c968011c75d04f5ca7f5c0747adf081bf42be13edfeba06599c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BodyWeightSquats_g14_c04.avi_B4.npz",
+    "sha256": "22d7e6cd83d33c60f6f65a76325bf9a12dae34dd856d625d9105536e309a4eab"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BodyWeightSquats_g25_c03.avi_B4.npz",
+    "sha256": "850cf34cdd0f324e36d5468b4a45c0e667383a2f5bb3edb70468e9958b1f3d8e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BodyWeightSquats_g25_c04.avi_B4.npz",
+    "sha256": "dfaf1f42375447e2853d48829b01d1b1091f86bb07aaeced6c1870cc95344710"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Bowling_g10_c03.avi_B4.npz",
+    "sha256": "5d5ff3471f8d9d2b9186052340f8da65f89c6f6f89c94e9d1dcd9efb748d63c2"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Bowling_g10_c05.avi_B4.npz",
+    "sha256": "11bcaf7ec4405159b21705045806676f146ddbab164ff1790d555fa487749953"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Bowling_g15_c01.avi_B4.npz",
+    "sha256": "a30490487d4a57da8690994ee6aeefa29188145d927e7556635b83e7d59c0365"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Bowling_g15_c07.avi_B4.npz",
+    "sha256": "14fcbd5008fd6f7248178045772b7b89298195df5064ea08ff170577f740b49e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Bowling_g18_c01.avi_B4.npz",
+    "sha256": "7e933b8bffe55c4f8c62392e30cbdfc1f3961e3dc136af195384050989ff1f5c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Bowling_g18_c05.avi_B4.npz",
+    "sha256": "793d7bc95c71bb4af2698e8709883b537f23fcb0e6f8cb78d8d069f8b0c7482d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BoxingPunchingBag_g08_c04.avi_B4.npz",
+    "sha256": "ce962f9530494e11d70b08367db28416513ba30ba7ae15ca30d636e9e136d08f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BoxingPunchingBag_g08_c05.avi_B4.npz",
+    "sha256": "3145714faad6ba8ec75845f3888dd1777dc3cb638a623e1c774994ebd839e896"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BoxingPunchingBag_g16_c01.avi_B4.npz",
+    "sha256": "a2a3e968c8e059a60697d48fe531ae064436fcfa4a66d78eff2a3e0591882dec"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BoxingPunchingBag_g16_c04.avi_B4.npz",
+    "sha256": "454da4299e58b3ec706c282a12ff76abfe9042a9b2284b10a6fc29df449f3469"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BoxingPunchingBag_g21_c05.avi_B4.npz",
+    "sha256": "3866a39e76f840ac7d192fb88ed79dc873e3f17b7dbcef57cbcc23019e69650b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BoxingPunchingBag_g21_c07.avi_B4.npz",
+    "sha256": "b916b3c112edcc0214a9da7f162b4a789ea76e1f1570d3df7d3b1ff9459f506f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BoxingSpeedBag_g15_c01.avi_B4.npz",
+    "sha256": "1991f39c0ed736656ce49daa52f0e04c37fd27f500b23b925366ee891a0a82a5"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BoxingSpeedBag_g15_c04.avi_B4.npz",
+    "sha256": "23701cffa3cac462166243d278032b223e8f3c75d68035da350bf5e1bec67496"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BoxingSpeedBag_g19_c02.avi_B4.npz",
+    "sha256": "fc5ac13578afd43b619f5ecc09c461d4e4cab18fde5ba3e6d96033c128a5ed03"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BoxingSpeedBag_g19_c03.avi_B4.npz",
+    "sha256": "e31a46c7592988000372ff8a1f705c990ac8bec0a81495e8e912f9ab6de4c700"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BoxingSpeedBag_g21_c02.avi_B4.npz",
+    "sha256": "06062be9fd42c4966daa8da88fd9c588a00529862aaab163d6567ae59dbf2358"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BoxingSpeedBag_g21_c01.avi_B4.npz",
+    "sha256": "89bfeff4741f6cd62253187c01ba3f865e246990692fa5c4a66d98160f8b419c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BreastStroke_g11_c01.avi_B4.npz",
+    "sha256": "00706b118e5acc23fa2debd20eac829d8027fe544cd55b2f31bc0094d7046b2d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BreastStroke_g11_c03.avi_B4.npz",
+    "sha256": "e524ff413e87a74009893253ad6e174fe66e9c4621027ddc344d3e3be9ea64b4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BreastStroke_g17_c04.avi_B4.npz",
+    "sha256": "49ee509b8d76bdf02467d0e7a9645380d0afcf2e8455742f6c1f80609f288259"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BreastStroke_g17_c02.avi_B4.npz",
+    "sha256": "0bec602272eaccf5bfa6a755e709e4f5bbf6ad4f0320cf01578d9a8584ac12ed"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BreastStroke_g21_c04.avi_B4.npz",
+    "sha256": "ba3e48986a97c4e774c1c3c45bad350f332c202405b8c4a900e24b1070996ce3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BreastStroke_g21_c03.avi_B4.npz",
+    "sha256": "dcf28861e09f8b07128200cee4a0e1c70bea0d9c9f890aa84d132b020548f066"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BrushingTeeth_g12_c01.avi_B4.npz",
+    "sha256": "56851ac25fc123665a08b6e84a748341058a9c0ec10dcafec6a11e2425dff45f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BrushingTeeth_g12_c05.avi_B4.npz",
+    "sha256": "7d9fd32514f6f04e4098b0f6ad01af6ded2c14e91566a3e6a29b946eb59912d6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BrushingTeeth_g23_c05.avi_B4.npz",
+    "sha256": "8eefdcd5d8740c8ca65b42e3b02d9de83d3e5fb37f7877fe22d7cddffc88f24d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BrushingTeeth_g23_c01.avi_B4.npz",
+    "sha256": "ba8f5d81bd220eefb7285acff33ca4c9667f084205a066b41542c027d14e97ad"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BrushingTeeth_g25_c01.avi_B4.npz",
+    "sha256": "67c89f59e6ddc93ccfd76a87efe2c548becca150b2409b404c51feae802a8941"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_BrushingTeeth_g25_c06.avi_B4.npz",
+    "sha256": "591b2911270b0ba27fbe5d772460264ed9ad37a6b6617e831c9db85f487041af"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CleanAndJerk_g11_c03.avi_B4.npz",
+    "sha256": "c9318a0eb5b52933599487c2a57a95032a19eb33c0af0967fe66b16a55520273"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CleanAndJerk_g11_c01.avi_B4.npz",
+    "sha256": "8ec90985ab979cbd143c2d08bba664df3d9152400e53764708bc10f086824df7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CleanAndJerk_g12_c05.avi_B4.npz",
+    "sha256": "b6f942203197d80132672ec40105b107be02f3e893ddb80cf790b1fd05088aaf"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CleanAndJerk_g12_c01.avi_B4.npz",
+    "sha256": "58dc2b73ef97ecbf77d7c9fe44253d45b5fd78035d3ebf1f7ba48dae4ad621fa"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CleanAndJerk_g17_c01.avi_B4.npz",
+    "sha256": "2081bcf4c50b8cb9c72980438dbd4832ecd411f3bf7385acd4ab1953057f8df7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CleanAndJerk_g17_c02.avi_B4.npz",
+    "sha256": "c0ddbd7067b9ea8cdc212599a3e7143ceb5fa31312ca03e8988930b9fc44ad92"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CliffDiving_g10_c03.avi_B4.npz",
+    "sha256": "9044f8d7b2a7795969a6bc0138e3160046b668878771c1ee668aeb4661ef70ea"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CliffDiving_g10_c06.avi_B4.npz",
+    "sha256": "f8993d2231eafd225428eb7f84363c6775b4a7ab4743eb709c1ba9aa870e0064"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CliffDiving_g12_c01.avi_B4.npz",
+    "sha256": "41640e2e996a231f67bb0d21b1444353dca0377ed2b5f3fa7ddd5b570c0b4e0e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CliffDiving_g12_c02.avi_B4.npz",
+    "sha256": "714c9cf537f0064247283bd5512e4ea45d58fd019ac9d80f0a73b541317e580e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CliffDiving_g22_c05.avi_B4.npz",
+    "sha256": "a1af2f2631cb9d771d9f1defc9ba6ab7a2b0b45fe3c043695c0d14f62af2242e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CliffDiving_g22_c01.avi_B4.npz",
+    "sha256": "6e48321fd01ee6023a751cdda8bb35c495758645a2423ee6d706e27abd3aef3e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CricketBowling_g21_c02.avi_B4.npz",
+    "sha256": "b303a8543844d2d61697698c277e4b07a83690ccc2447e5cf87eb22826e713d7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CricketBowling_g21_c06.avi_B4.npz",
+    "sha256": "9c9d4baffa8c19f73dc7f51d87aacb6785a2d810bf10e5fdf1e46126e33e56c1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CricketBowling_g22_c06.avi_B4.npz",
+    "sha256": "078f7fb140082ae0541252103508b62c5d55039756d097bfcde8f0f3ecb782f0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CricketBowling_g22_c07.avi_B4.npz",
+    "sha256": "4732c3e108f0372c00dbfe57f121dd5371e7477b5d015454a5b3d0ea07732905"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CricketBowling_g23_c01.avi_B4.npz",
+    "sha256": "726834e07a38226312af625ad822329cc5d589bbf75818148e4c80dc69419225"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CricketBowling_g23_c04.avi_B4.npz",
+    "sha256": "96901400aaaa2d37889da9760be1b481b7a8adbfca08efe40c3d708b2085a41e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CricketShot_g12_c01.avi_B4.npz",
+    "sha256": "3b3ccbc2c191cd11bea45720b9eb64d08ec70a05915b396359e17f463f2c20f8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CricketShot_g12_c04.avi_B4.npz",
+    "sha256": "2054651b907459cca6c1d3d154213dfed7617d1fe3c17ee51f340a129b1b644f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CricketShot_g17_c03.avi_B4.npz",
+    "sha256": "0fa5a1267c5e7f38ce2e0dc19a2e5bf164ec944d9b724b2823aad3f14769c1ba"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CricketShot_g17_c01.avi_B4.npz",
+    "sha256": "d506eb59f99dd5ab53245033bf88f505e7a4c1754ce986b47e9fee3c6deb14d1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CricketShot_g21_c04.avi_B4.npz",
+    "sha256": "6b993b68794b01463cfeccfed2e50710c8e387f5a8da6b5263174b7694470816"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CricketShot_g21_c06.avi_B4.npz",
+    "sha256": "dd1acc8c8c7958ff25ca5eb18d535bb388c519d3cb3cd955f32511c66a469038"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CuttingInKitchen_g09_c02.avi_B4.npz",
+    "sha256": "b988adc3783cf74658389fd1c8760399ac47ab0cabaccdeba8041864c232e9e3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CuttingInKitchen_g09_c04.avi_B4.npz",
+    "sha256": "5e65ebd1d784139ba3237207f4246c0a19d2c1bb4b35c1f3bce48362a118ccb8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CuttingInKitchen_g13_c02.avi_B4.npz",
+    "sha256": "672e9ad0dba44e5203514e05aea5f06d52642a09e0bbb217bac44341b1448013"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CuttingInKitchen_g13_c01.avi_B4.npz",
+    "sha256": "ad2eca1f0ad59426ffe73c3d8f21f328759c8c206c545b9ed18289ea89c469c6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CuttingInKitchen_g17_c01.avi_B4.npz",
+    "sha256": "a462bd10d2b4a3a64cf48b6fe01736598c4a4c19dad5defa85624c1b9ba98e14"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_CuttingInKitchen_g17_c03.avi_B4.npz",
+    "sha256": "2a7f942a4cf52add508ba5d3b60fcea90bdb665d4bfbd1de3a569ffee7eec58b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Diving_g11_c01.avi_B4.npz",
+    "sha256": "a31e963810b5f99aa9a867eb493983ccb77cb42d0b3e6eedaa675dc525dc15e0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Diving_g11_c04.avi_B4.npz",
+    "sha256": "f253a7f2a2499d1284876da79c7dcbdda5af508793ddd3c57db08f4d6e8da212"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Diving_g15_c01.avi_B4.npz",
+    "sha256": "6b94e929cd5a9272dc7cfd6861c6c0cc84f9ee963b39586a0a84fb67833615b9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Diving_g15_c04.avi_B4.npz",
+    "sha256": "0fa70d78a94bc3b23363a385dd3c2afcfd98b3fa7f3202e92c2664ffa768c4ad"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Diving_g24_c02.avi_B4.npz",
+    "sha256": "d383d4b90d648e2a72728f158182d42f24a6b848b090d496852bbd573dacd2ae"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Diving_g24_c04.avi_B4.npz",
+    "sha256": "8ef4ce13270c317573046d3bc5715c95f38d53efcd13630d8b7b1ff2b9a80311"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Drumming_g13_c02.avi_B4.npz",
+    "sha256": "c5940579ab7e9dae302b9a5c84757d4ef4692ade6e88472238e23af20fb60290"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Drumming_g13_c03.avi_B4.npz",
+    "sha256": "0aa12d80f8325631db65b9e3cdf12b687526b64c330537aff96e68aa29baafcc"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Drumming_g14_c06.avi_B4.npz",
+    "sha256": "fec6faa9c6840cde90488ee8b2dbbe63e556ec453cd2871c2e9ab6b08c559521"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Drumming_g14_c03.avi_B4.npz",
+    "sha256": "2ee26fce846e2c15967bc96fd82bc7b0fd38f06398132c6f30ff5a619a2e979d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Drumming_g25_c04.avi_B4.npz",
+    "sha256": "d42231f2dece40ca226e238a6d0d0e4840babd94b57cacdc306dacffef53cc62"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Drumming_g25_c03.avi_B4.npz",
+    "sha256": "0b5a78e64083a52c31df3443b80062151640eac443be20270444371980b9d2fd"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Fencing_g11_c02.avi_B4.npz",
+    "sha256": "a3d7d65de65a2d700de47c5a93831df69f7fed1ec57b9f47514be374097a9ce1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Fencing_g11_c01.avi_B4.npz",
+    "sha256": "3f3207837656eb0ecbcac26e7431353abf599ab7f0f85fbb255918f4fbc7cf9a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Fencing_g17_c02.avi_B4.npz",
+    "sha256": "333c82882fea7b3cb5b0b401cfa817953f6a1f0192b3bf1c30f92553bd0fa2fb"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Fencing_g17_c03.avi_B4.npz",
+    "sha256": "57835600f74eb30a022be7b67587a9fb80b537f8d0e2418e508fd10c01eb7504"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Fencing_g20_c03.avi_B4.npz",
+    "sha256": "a07fa501cac08990c65b610f313367cec1f601c59ec84c240e561295259994c4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Fencing_g20_c02.avi_B4.npz",
+    "sha256": "ed673e3533676ed08904d953b80fd803b22d324876e7bc0ea98d34a9d789b4b9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_FieldHockeyPenalty_g17_c01.avi_B4.npz",
+    "sha256": "9190a0a58c08991c4216a5b52636dfdca2ccec690eff189f8c2f8f411b6f3b97"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_FieldHockeyPenalty_g17_c04.avi_B4.npz",
+    "sha256": "32c4a3d98e03d38bc7c1bf6c6e32d6014f71d03b37e2e4a0b96db0bae1aebd5b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_FieldHockeyPenalty_g22_c03.avi_B4.npz",
+    "sha256": "d08de0f9a4c057cbc83df5930c67d6ebc5eb7b139dc1c4b37c8b13aea079988a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_FieldHockeyPenalty_g22_c02.avi_B4.npz",
+    "sha256": "87f5ea79c8528bf93f96e562ee95b58bfe756ba304a9ab6fb09a380282c3b558"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_FieldHockeyPenalty_g24_c05.avi_B4.npz",
+    "sha256": "a05968cdd2edd8f1904494d59ef8f89f853cf093742230c38beacd0e7e5768c9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_FieldHockeyPenalty_g24_c01.avi_B4.npz",
+    "sha256": "fb8c1eabba7c2472caca974acc03ad02685f338e4e732aa32ce11173b3fc5b6f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_FloorGymnastics_g09_c06.avi_B4.npz",
+    "sha256": "b17db4dee8c1c4518e4f2d1be5e37bc6015c60556397465659595a4559b61c01"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_FloorGymnastics_g09_c05.avi_B4.npz",
+    "sha256": "709bcc7b5cedad39696ec08f5c6ec16f8cb87d3c5ccd31c48190767ad352b17b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_FloorGymnastics_g11_c04.avi_B4.npz",
+    "sha256": "3900def91668b08439a80f8924ffa62b87784c249bf301c4a36fe1e6506c4252"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_FloorGymnastics_g11_c02.avi_B4.npz",
+    "sha256": "3a4e580d57594c1470e81d6ef0b337a1434a9cb13a9130a65f5cb471fe2406fe"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_FloorGymnastics_g23_c04.avi_B4.npz",
+    "sha256": "2fb8702097414368b74c2c3cb7e1a7757fe30f644e023f5bbc2a53f1d07435e3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_FloorGymnastics_g23_c02.avi_B4.npz",
+    "sha256": "decd1cd9502b626b9650974a95daf2713910546476e6ad49440d1bde6b468995"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_FrisbeeCatch_g13_c04.avi_B4.npz",
+    "sha256": "41f0e271292f3d5f13d554a618b1ae7d770a7a9d19091e35006285c10dc4c7c3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_FrisbeeCatch_g13_c01.avi_B4.npz",
+    "sha256": "d14e276ea89d342430217bef60cd8ca8bbb8d34ac910cc00e7138f374fd7f6fb"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_FrisbeeCatch_g18_c01.avi_B4.npz",
+    "sha256": "c164e3444e84af2a6aedec16884307800a952fb47b75ffa22d41c105ac297348"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_FrisbeeCatch_g18_c04.avi_B4.npz",
+    "sha256": "f17bbe02d598048b4fb2add5d720134cefb4d0a837c6c5fd901e76fea6cef72c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_FrisbeeCatch_g25_c01.avi_B4.npz",
+    "sha256": "503d68aee2a6c7221112e1883fca8f5b253267041fd7828035a45b56fff32995"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_FrisbeeCatch_g25_c04.avi_B4.npz",
+    "sha256": "442d76d3764cb344b7d26a0e9ae429df7b218e2ad0abab4207e99fc6cda18be4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_FrontCrawl_g16_c02.avi_B4.npz",
+    "sha256": "f8bcd96f0d220e05c106e673d361ecc83278d9fbe701ce0ebc4a2972a966e88e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_FrontCrawl_g16_c04.avi_B4.npz",
+    "sha256": "506ee4786fe9152b933bae5afa34819db761aa706c65636a0eb1b87451525107"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_FrontCrawl_g19_c03.avi_B4.npz",
+    "sha256": "114718ef228f77993228379a20a34c86baeb24cae4ba25d8375048ca633069b7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_FrontCrawl_g19_c04.avi_B4.npz",
+    "sha256": "b432c37d3a7ee21e98fbf8ec50eed012013a952328c1e66d3ccec456e0801ef8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_FrontCrawl_g22_c02.avi_B4.npz",
+    "sha256": "dce894a1cee66e67db5f800f108748466c9c562670b2f8affbf99c95ea16db56"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_FrontCrawl_g22_c06.avi_B4.npz",
+    "sha256": "91ce0d3d40570215cf5f396a33560f820c3f9eff3904f3bb8dedcbb09e081585"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_GolfSwing_g10_c03.avi_B4.npz",
+    "sha256": "7a33aff158970666696023a59cb1bccd468089fab489bbc1814535d1a3022867"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_GolfSwing_g10_c02.avi_B4.npz",
+    "sha256": "c6997f27e532ecee4c39917687f837cfbe231d80d4568e28b2f0f4d76de7958e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_GolfSwing_g15_c02.avi_B4.npz",
+    "sha256": "cb644f0fd7db199bb7fef3040f4bc72686f7d9b909523931ee4c90919230a346"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_GolfSwing_g15_c01.avi_B4.npz",
+    "sha256": "b511f5b28bc2b04fbfcbd2e42aeb391df5ebd861ba2e04cbe0ee356a12aca60a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_GolfSwing_g25_c05.avi_B4.npz",
+    "sha256": "4aeaa39c6391b318c21c924a2df16fcdcd4b18d43cddba4fc2bcf8ed31706b3d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_GolfSwing_g25_c01.avi_B4.npz",
+    "sha256": "86a2bc1e0dbae91a4ea7c03b59f3e879652242583fd4806b47fb8d53a1132388"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Haircut_g11_c03.avi_B4.npz",
+    "sha256": "1e164e3626e9474647d56a111d61edc3cc134e2f7246abfe77bdc2f1e7d05f5c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Haircut_g11_c04.avi_B4.npz",
+    "sha256": "93860e3ae071f8bf1891a3a43ac52d5c8a4b4d83876a8a59a044b80f29aa8a10"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Haircut_g17_c03.avi_B4.npz",
+    "sha256": "720b500d3f4787da562d50951b65af9a89435c1f845387ff7cc84fa21c30d5f7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Haircut_g17_c04.avi_B4.npz",
+    "sha256": "a919c6d87db46dbc145f58e4927949116e13eef4f5e479d9a3595e240ceac9a1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Haircut_g20_c05.avi_B4.npz",
+    "sha256": "71747213e4d6f3fce232e2b8229b7624f6bb6dda1d9cec21f91d9f52c0d0c248"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Haircut_g20_c02.avi_B4.npz",
+    "sha256": "7eeb9e201e705c403910d3561358a345dbb384aa1b7127cf8758845ce4cc6a07"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HammerThrow_g13_c07.avi_B4.npz",
+    "sha256": "7181795eeb40150b41ed232d2df98fdd95e9a8f62bb74cc96b6b7449d0f7d1f7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HammerThrow_g13_c01.avi_B4.npz",
+    "sha256": "02c41f6bf8f3a17cf73f31ac68a5824100aa52dff1340f5b9f1b36d2ae06cf43"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HammerThrow_g15_c04.avi_B4.npz",
+    "sha256": "f4a527c73bac4d9a30312ee5255048d323e4d36d9de92c6890efd103764c36fc"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HammerThrow_g15_c03.avi_B4.npz",
+    "sha256": "06627a6a5a0ad8aaed8e581460680dcd1f73fdb1a58aae6538302b697207a483"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HammerThrow_g21_c01.avi_B4.npz",
+    "sha256": "63ba4d0193507fd378320ce2107c2f06b075dad80b3e2540bccf68e0579c6061"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HammerThrow_g21_c04.avi_B4.npz",
+    "sha256": "e5b980afbb3cf1b75ee290cc752f49bf6273e39bde7faeaa16ae6e0c92647029"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Hammering_g08_c01.avi_B4.npz",
+    "sha256": "652c143b010e7c23cf4703a1c8e1d76c6aa5d11781cb366d189a46ce6f25054e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Hammering_g08_c03.avi_B4.npz",
+    "sha256": "6d2e12c6e2cfa427a18d7ca0280d183ded6f142535593ab85ca5023a40ee3e60"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Hammering_g13_c04.avi_B4.npz",
+    "sha256": "07d23dcfea692d575f649da8a3b0a4e6bfd6ce3cefe04d9c81dfd07980d8928f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Hammering_g13_c06.avi_B4.npz",
+    "sha256": "f1cf3085ee4ce4ff5d615c7182d7d350618f3b2c9d558d2641a5a50e70f7a2de"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Hammering_g15_c03.avi_B4.npz",
+    "sha256": "bcbf2be8614f4628d7e39d072797995baf4b116278e2e9652468f694b4edd591"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Hammering_g15_c02.avi_B4.npz",
+    "sha256": "605e4c0b012b39901595fe3b1175d00eebe1d684fae39a1887bc4ebda206b37b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HandStandPushups_g09_c03.avi_B4.npz",
+    "sha256": "b8dca14f1fefecea84caa0095988f1a398ce54a45b8442bc7c9665946418c8f0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HandStandPushups_g09_c01.avi_B4.npz",
+    "sha256": "76cf1e0f10ad223ac9f7d226bed5ee41009edc62b77de18063a4e46e2bfe81e8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HandStandPushups_g14_c02.avi_B4.npz",
+    "sha256": "4cc8d8414b7d9d0989371cd5c4d53219275cf40dc23f9e9254a3ee7484510e24"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HandStandPushups_g14_c04.avi_B4.npz",
+    "sha256": "39dfbfc34e037901c8f79520e45268ef7f3c5ace9f52ab78651a634684ad903a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HandStandPushups_g19_c01.avi_B4.npz",
+    "sha256": "a912e2eca654dba272f418d34d7db3b4ae1462be88173bcc2b85029e3812c631"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HandStandPushups_g19_c03.avi_B4.npz",
+    "sha256": "706c6a14f056169fc5b625f99a7041f7773cc94b52594f055ef19a01c211b44d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HandstandWalking_g13_c03.avi_B4.npz",
+    "sha256": "5420bf4d39641480850e118f46dcccd9beba5c74828d603fd1092beb97cf9e07"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HandstandWalking_g13_c04.avi_B4.npz",
+    "sha256": "6fbed4caae48a6a2b85aeb92101f68c7352f94a92ae49eaa8c9f4c3441052c39"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HandstandWalking_g17_c04.avi_B4.npz",
+    "sha256": "4be7b1aec03a82d72cab74047b759af305719146afc1881fec2da89bd603a4ec"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HandstandWalking_g17_c02.avi_B4.npz",
+    "sha256": "23d6e1efbdd398786cf54a14e1617eb766d617cd9a6cfb700d26b8ca2ea40c21"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HandstandWalking_g19_c03.avi_B4.npz",
+    "sha256": "684cb20ee37dae2f95f2a99612e3cd3896b324ada96b3558dacb929cbab87b89"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HandstandWalking_g19_c04.avi_B4.npz",
+    "sha256": "64f8780316115eb994e67f5452c24047ae337c0797d0a1de7ff717fa690f1027"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HeadMassage_g10_c02.avi_B4.npz",
+    "sha256": "2e3d6b634170d10df9aa4a78fd20c9938069f649d438364d549c70603c61b2ea"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HeadMassage_g10_c01.avi_B4.npz",
+    "sha256": "0eeae469d518e5e76d5032cb32a1af9314a3aca6c22cccc0ca67aa75212ccb85"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HeadMassage_g15_c02.avi_B4.npz",
+    "sha256": "70d9e601fe1b608dd191a867ee14a0c52d008783d47a0617cbbb344308d18d62"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HeadMassage_g15_c04.avi_B4.npz",
+    "sha256": "7854a9b495fbefbc8184d1fbfdbb9b7e7a4631090ef4a15fd6fd0e4fe9f7b61f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HeadMassage_g22_c07.avi_B4.npz",
+    "sha256": "7c6f78e7e8ae160783833d9e4810474c0c6caec7233dab270f1c9f13ce03a0b2"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HeadMassage_g22_c01.avi_B4.npz",
+    "sha256": "12014e0696ee7b8ee758ab8646a4b9cd855802bc153b3213b0ebfe425e96ef85"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HighJump_g12_c01.avi_B4.npz",
+    "sha256": "75c20e390abe4cc8857e14f6ca52e06c87dc8ee7624b6e3a1d9f67727b95fe9d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HighJump_g12_c04.avi_B4.npz",
+    "sha256": "9d593f2dd0fe43bfec3f72d8b8be136a45e68873f2b14afcc8e9609580ad944d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HighJump_g14_c04.avi_B4.npz",
+    "sha256": "99135eeff0a06298162a93ffbb8356ff3a523c08b46356581d91f03c794abfc5"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HighJump_g14_c01.avi_B4.npz",
+    "sha256": "90154f88ab256191ae5e44f85f299aad0cdfbf28a13e166669fd61da2e6a51e3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HighJump_g24_c03.avi_B4.npz",
+    "sha256": "c2a528b71dcb516ec3da7771a0fd07d821673886119480ac25f9309184c52109"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HighJump_g24_c01.avi_B4.npz",
+    "sha256": "16308d5712980b3ea4a6f64646e6b93d570e453151ade1b3cfaacdec4135f30d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HorseRace_g14_c01.avi_B4.npz",
+    "sha256": "35da1f55898ed62cbb8a1d35f60c99c829c4dc3fecd85d47f2d8f2704e9c9017"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HorseRace_g14_c02.avi_B4.npz",
+    "sha256": "0ade5b3d89e39735d65bcfd10e7751166c752de4b7c9e0e6d2502c1bc8040e14"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HorseRace_g17_c01.avi_B4.npz",
+    "sha256": "cfaec9279e3d5b1c93ad4ef044ab94d3cb45e25754d3a1834884091dab43a4a2"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HorseRace_g17_c03.avi_B4.npz",
+    "sha256": "623971a6929592c55ef240e7468bac0b720fdf1d547d8f3a13d48722c95f5a1a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HorseRace_g19_c05.avi_B4.npz",
+    "sha256": "e9fc139e35a80f51e12c4622aa9ea20c58f8866172b7fc857020f7596855dc6f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HorseRace_g19_c06.avi_B4.npz",
+    "sha256": "a425bc26ff6865b4c2e733c6db1efcd71b2199dc1da1eec15191d8faee94392a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HorseRiding_g20_c03.avi_B4.npz",
+    "sha256": "2380412d1b2cbdbab88a61d293b48b18716ac2aa099a62da9830b6da9fcf2aad"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HorseRiding_g20_c04.avi_B4.npz",
+    "sha256": "b94abac3fbe003c5c613a7f09d02d35701ae33cfe3314efd34caf640360871dc"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HorseRiding_g22_c06.avi_B4.npz",
+    "sha256": "2f7709e8d6b0fa99e00d8d99d66d27838f31cfa8164b549347cc56305fc866f2"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HorseRiding_g22_c04.avi_B4.npz",
+    "sha256": "073f2f137a6e30244ceab80000f347b7d1136a29da7a63aec592e95858418f49"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HorseRiding_g23_c04.avi_B4.npz",
+    "sha256": "8b94ddd5f1e44994a5b89a32eb2c65921bb1507f2ef1c98ecf08c390b936ecbe"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HorseRiding_g23_c06.avi_B4.npz",
+    "sha256": "247f3c2fcb00c310fd01d42d5f574a713f4d18cb26d35316474a09bc8d72d4ac"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HulaHoop_g11_c03.avi_B4.npz",
+    "sha256": "3306a1018995c45c0b07642a22574607e1f3de4614a6cbd0f75a0183d30764cc"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HulaHoop_g11_c01.avi_B4.npz",
+    "sha256": "3a2b421d626bac33c6cbbf0ebb7a1d414a775777d99bb86adfa6e1db91d3d01a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HulaHoop_g14_c05.avi_B4.npz",
+    "sha256": "2ccdf16d77a73a6faa0c37623378db5f8efa1a45dbce9679a67e3b27906a914b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HulaHoop_g14_c03.avi_B4.npz",
+    "sha256": "8259c999a35c903b6fff0ce09280d98c14917cab94813ce14f1adaed925f3f67"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HulaHoop_g23_c02.avi_B4.npz",
+    "sha256": "fc9ba5025550f8b12f015b2daee7b092250f9d014ed19f1b30374f725be74dd5"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_HulaHoop_g23_c01.avi_B4.npz",
+    "sha256": "254f32ada8257f891a3e2302717944183c48faff903ddbd5fefba90f7f258b78"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_IceDancing_g09_c01.avi_B4.npz",
+    "sha256": "b300b85bba3841a400bf420360a378bbb67dceef78eaaf2a8b85218e7195b7cb"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_IceDancing_g09_c02.avi_B4.npz",
+    "sha256": "af3118160b7e16a3f9fad24c412a673df544bf31a8f65c0cd3aed27c9f5a3efc"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_IceDancing_g11_c04.avi_B4.npz",
+    "sha256": "e932c10f478077499c97b4941554533afd25e5c60e1d5537adff66242b2f50c1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_IceDancing_g11_c01.avi_B4.npz",
+    "sha256": "8c5746c9a82f5b5f8aa60d7a89ebe070c4e710d7e5b4787cb45ad947ffb959d7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_IceDancing_g14_c06.avi_B4.npz",
+    "sha256": "af57ababfaf1b7d0c4d247f81d0912c2e3d7bd45e19d45987124e2077cf352fa"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_IceDancing_g14_c03.avi_B4.npz",
+    "sha256": "f64ca5485030ab0b220fbec4ea2ae026372584aa70b2c8c6baf2025708d3d59a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_JavelinThrow_g22_c02.avi_B4.npz",
+    "sha256": "3f71b182df4dfa7a84105ffc001ae42e1f69eab85c480da1ba38fcd6b042671f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_JavelinThrow_g22_c01.avi_B4.npz",
+    "sha256": "011d38a9b6550583312409b87b25727881c5075c2327f7be3fb85207b15f051c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_JavelinThrow_g25_c05.avi_B4.npz",
+    "sha256": "67b74905cd7b2913b3473a2039445de898121c133676112e3af39a3aba323db1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_JavelinThrow_g25_c02.avi_B4.npz",
+    "sha256": "a81ed2e3e62cacbd8a80c07ee7bf6b11c6b27ae74de85864b9b4827f5e507563"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_JugglingBalls_g09_c04.avi_B4.npz",
+    "sha256": "2ae05ce4d2f88ab8a1cc184b2dab6e1eeaee266a47ad68004010f9c25ceb129d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_JugglingBalls_g09_c01.avi_B4.npz",
+    "sha256": "7950913bb09cddb70180b5ed7d6ddbec4690996b5b7d99c716430320b5f63cfb"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_JugglingBalls_g12_c03.avi_B4.npz",
+    "sha256": "4bd90aca63f2d4de2b8fcca974ccac005613cf9b2281d3dd1894664dac2062d1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_JugglingBalls_g12_c01.avi_B4.npz",
+    "sha256": "99d444940f92962851a25b3fdb5ec98307efe363a62e1d822edc331bbf310e31"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_JugglingBalls_g20_c01.avi_B4.npz",
+    "sha256": "b6e2ffd897585515c8ff5cc2e01f9e6c30acfd20a36444ce48161f3cefba4d97"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_JugglingBalls_g20_c03.avi_B4.npz",
+    "sha256": "1489e03a6092df08c268f78c2b086cc5af6d71d9e04580feddf9a1c3971e17ff"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_JumpRope_g10_c01.avi_B4.npz",
+    "sha256": "b698aa54af099db3ace18e3a9b17da025aa55af287906fc62896eba09c223437"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_JumpRope_g10_c03.avi_B4.npz",
+    "sha256": "4c55c1611afece201eac77652daadcbf4ee2f61169f23a5013012b11863fe280"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_JumpRope_g11_c03.avi_B4.npz",
+    "sha256": "099b7f64e5952d02069b66f346eb9a1743ca9b018e238efc8e7ceb69255e65ec"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_JumpRope_g11_c04.avi_B4.npz",
+    "sha256": "a07b7955c7a3706526a943e29e1eba5052556f384a5dc05244ad751fe44ac2b1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_JumpRope_g22_c01.avi_B4.npz",
+    "sha256": "8b8aa5236f9bf1df6910483bdde78578992c0cd765eca9cc08cf20b29fe5ac44"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_JumpRope_g22_c03.avi_B4.npz",
+    "sha256": "f8d31d22be459f417ab18b07cf00e501ca272fa2c0db761771fa94e9a0021f53"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_JumpingJack_g10_c02.avi_B4.npz",
+    "sha256": "2811c4b657596f8bcd9ede260e5273f05c27f38d5e8ec9dc9def588a8a296876"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_JumpingJack_g10_c03.avi_B4.npz",
+    "sha256": "839b6eda7e4ed86fe44dc92704c2dcbae9d3c3409e334b32c72093af86a8f0e7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_JumpingJack_g15_c02.avi_B4.npz",
+    "sha256": "ea9f81f4cb53fafb6229c54e7e000745e506b9d290f37156f4bbb1579e081726"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_JumpingJack_g15_c03.avi_B4.npz",
+    "sha256": "80eb66193e2fce5792f572d1a62ea3239b1d48dcb1754ffcb128543735af63b6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_JumpingJack_g22_c01.avi_B4.npz",
+    "sha256": "56ef836f99baf29a04d94a517d7130bb0c740551057a3e3f02aca5b6e368c5b8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_JumpingJack_g22_c03.avi_B4.npz",
+    "sha256": "dea1a208c72d7b8d10fdaf471fd54a7f3f3a2249a360effcdded76bf04e8b1a9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Kayaking_g17_c03.avi_B4.npz",
+    "sha256": "dc717f3aecf7b90157eb61e58d842000a1e7cd7b60774ab7669bceb6e90e15de"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Kayaking_g17_c05.avi_B4.npz",
+    "sha256": "b7a4e3f54c665e954104635a498c7704c87ec59867c91eb4fc68449c05ff4eb3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Kayaking_g21_c06.avi_B4.npz",
+    "sha256": "a694cd2b39cec1a8fb9ae037e4d30f8c207125ed09dc5966092776c907ec7ad0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Kayaking_g21_c05.avi_B4.npz",
+    "sha256": "2c3aa77e2556ea3da16ced81419f9b6c14f825c5b2f90c92581b248f08e84d01"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Kayaking_g25_c02.avi_B4.npz",
+    "sha256": "7849087d5ce788e77c4edbd3b36153fa29b22007fb6fa244155e8bfe1e975c57"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Kayaking_g25_c04.avi_B4.npz",
+    "sha256": "6c9a904db5478b4f017768a4c33eccdbd15ddad433a109636343b99946e74029"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Knitting_g09_c02.avi_B4.npz",
+    "sha256": "81b0f55887e4f455a8be8f94a3644202274c9961b491bd8a873c0f812e576a70"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Knitting_g09_c04.avi_B4.npz",
+    "sha256": "7526386639de2f7a6708d657cc14daa1a8b403208e7f0865b12717559ae7073b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Knitting_g11_c01.avi_B4.npz",
+    "sha256": "c88f9e24b9787ed608add05cfefc57dbfb34d2978df0ce8328734d0e7b7a097e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Knitting_g11_c03.avi_B4.npz",
+    "sha256": "7fec8a9ef455f1309189b4442443a48a9e1c8631464db1acbcc6a112d8b7da80"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Knitting_g14_c05.avi_B4.npz",
+    "sha256": "e999e8b8b7e21c14cdae22a454ec3fae008657c1b10a40d93b5ed4b917bddf83"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Knitting_g14_c04.avi_B4.npz",
+    "sha256": "7962af858a7c8f450903054382348c574b737109c4bfd63f3c83a4830b768976"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_LongJump_g12_c05.avi_B4.npz",
+    "sha256": "8893bec137de826f74adaf8b4222f475015581259d7646441abecef960f9c7ba"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_LongJump_g12_c03.avi_B4.npz",
+    "sha256": "740fae3c24ae822d70a1aba729b892f3b7650bab182c326ed86202e4695ca2c9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_LongJump_g19_c02.avi_B4.npz",
+    "sha256": "fea669a4d8b7a659faaba48b69cc32bdc45a8a0f39217e314d91d4215371ddad"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_LongJump_g19_c01.avi_B4.npz",
+    "sha256": "b098ec3a506ff8590c646f315c761dd053d6af939de123296c3d27c042fc783a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_LongJump_g24_c02.avi_B4.npz",
+    "sha256": "11a5dee5974ede28f0f566bd00dffdece841b0d6124ed8716e5d0f25ce982f93"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_LongJump_g24_c01.avi_B4.npz",
+    "sha256": "425e37c907b696f6bc224e0d939aeae2de81c23fd35d05a7ca005d4ff27151d0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Lunges_g13_c01.avi_B4.npz",
+    "sha256": "3ae97dc7e7640db3cad08f1f04e9792d068f6540aa60b5063d2d34528bc78116"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Lunges_g13_c02.avi_B4.npz",
+    "sha256": "01008e27ef9109233dc0cb56652e9ec56e338430d4027094357abe5603a79845"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Lunges_g18_c05.avi_B4.npz",
+    "sha256": "378fb79642b3c14f76c802576028d9ef4faa1932f91eae72d8b9e93748658402"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Lunges_g18_c02.avi_B4.npz",
+    "sha256": "50e64374f13fbd9fc171e4d77e6e12587c36b88e04ce6ba9101da24622526cf0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Lunges_g21_c02.avi_B4.npz",
+    "sha256": "8fb033eb4282006c03010fdfd1bbeec3df3cedce9f664a37a0d9a9daa9a29768"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Lunges_g21_c05.avi_B4.npz",
+    "sha256": "80d258885ed21274c01ca87f4c49d4a78bb1ec637834637c7d9591a64a2de075"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_MilitaryParade_g10_c04.avi_B4.npz",
+    "sha256": "b14d4b831d9e57de37506c7ef0bbafa9faeaa64e4c0d2aebf2c281105f14730d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_MilitaryParade_g10_c01.avi_B4.npz",
+    "sha256": "3c41b4e15ba4e9a00e3b4a4aa0ef058e07fd6789d1a6fafdce332c2482d03c7c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_MilitaryParade_g17_c03.avi_B4.npz",
+    "sha256": "54412242bd078b830f5889d9ed6694f07bb60b8a211cbde2da2821f3490c6949"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_MilitaryParade_g17_c05.avi_B4.npz",
+    "sha256": "57919eb9acbd4fac31becbc4d219065942dadec1656879432aee93482f5705dc"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_MilitaryParade_g20_c03.avi_B4.npz",
+    "sha256": "6779986ef5dcba4e323fe3b68d80edf4d1ccca0072cabbdb71f41b40e0a076e9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_MilitaryParade_g20_c01.avi_B4.npz",
+    "sha256": "8010a6c51eb603aaa731444e016fdee7a4f6747caa972a15061856eb9489c95a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Mixing_g10_c04.avi_B4.npz",
+    "sha256": "a60ef92972c572a767f39faff66add4d7ba66ee353b5e0e9eb8a48c6274ca342"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Mixing_g10_c01.avi_B4.npz",
+    "sha256": "cfcc03783b2f60fe3a7a4ccf061ebbe8ade07b2015c35c894120b2d6d50a433b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Mixing_g15_c03.avi_B4.npz",
+    "sha256": "07f47d6816d81077d9c28d4527db52678e1c5bf16cc344e6a6f03fa652e01634"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Mixing_g15_c02.avi_B4.npz",
+    "sha256": "686a45676d9962ad777dec9376ea9b0e1b8fdf1d0260deb7a55f12bc6372c7cd"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Mixing_g18_c02.avi_B4.npz",
+    "sha256": "f57710437f07efb74636c1ee67cd6f7d9bb798ddb9557fc34db72ee0b9533aca"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Mixing_g18_c03.avi_B4.npz",
+    "sha256": "4b15ebf9a8142f4a1c9f35fcf1ee73068bda8025d3df21783ba1ab93304b90ae"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_MoppingFloor_g12_c03.avi_B4.npz",
+    "sha256": "dbfa07e1fd8cc2a4cf348098c67a85f9ef646203f4a38354a820850197581f8a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_MoppingFloor_g12_c02.avi_B4.npz",
+    "sha256": "e0d15ae085d219e79fdb894297c7d7e414a66397c829724c3f71ef8bf261ec13"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_MoppingFloor_g18_c01.avi_B4.npz",
+    "sha256": "98fa08f0b02078d704529d7dcf8231d28a6fb63a89cb2ffd1c1c87c19a7f8481"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_MoppingFloor_g18_c02.avi_B4.npz",
+    "sha256": "690c690047eae6d1fe2b3cd959a24aefebcb1b4b9cfbaf01d7f2e175d1ca24a4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_MoppingFloor_g20_c04.avi_B4.npz",
+    "sha256": "93a98a60a2f0d0f8c7346bf3d73fd89b25a8d36e2df690afc76addb95a454e6a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_MoppingFloor_g20_c02.avi_B4.npz",
+    "sha256": "1234be752fe315da4237d89e95a127ed494ddf52ccb95693c6318ef23b3d95f6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Nunchucks_g18_c05.avi_B4.npz",
+    "sha256": "d86c2b120629a258ffa8113ffb8be2741f969e877499679cd6db8769c2379858"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Nunchucks_g18_c02.avi_B4.npz",
+    "sha256": "e01296c35fed4a85be0e964640f0db09e281459b1b9b70eab3d3262136a016c8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Nunchucks_g21_c04.avi_B4.npz",
+    "sha256": "3e74bd09993bfe880be1fc508d1c2231c9af7ffbbefade41022a2d6e93c4922d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Nunchucks_g21_c05.avi_B4.npz",
+    "sha256": "ec993bcfae92a741e6e815966bfd367eabc05339c7633e5f8f3ff2eb1313acf9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Nunchucks_g24_c01.avi_B4.npz",
+    "sha256": "dca97cc6f509f9f7dded7e04e62727993500bcfc9591365ef45db90a58ae2d02"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Nunchucks_g24_c02.avi_B4.npz",
+    "sha256": "a14c0dad9972aadcb808cd70d419743e3f3011ee8db9024dd5c9888e2765723f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ParallelBars_g13_c04.avi_B4.npz",
+    "sha256": "373e4c692a6f6e0975108c4c368a5febacadfc70a67b91a04e7592a12b338e19"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ParallelBars_g13_c01.avi_B4.npz",
+    "sha256": "89e7eda846abfc7eb5d003c6bf14510a48128dd26fe95792d3fbfddb69dde50b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ParallelBars_g14_c02.avi_B4.npz",
+    "sha256": "68f737a37b957165ee4d5451f272b7ceae9d7d4ecd8e783c64b0b7160fcb680d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ParallelBars_g14_c04.avi_B4.npz",
+    "sha256": "98d0de56d70675964a555e9c6f7fc1cc44487d7cc47cfd116a8c9e4d1a80b306"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ParallelBars_g23_c02.avi_B4.npz",
+    "sha256": "15588eabd4e893ebe4e2863cb395f6c0cdf18e6388e1dbcfe26036f71da577d3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ParallelBars_g23_c03.avi_B4.npz",
+    "sha256": "833cd9b4318cff17feb586421c7a5ea16e12c955361e5b7ade711052e63e039f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PizzaTossing_g16_c01.avi_B4.npz",
+    "sha256": "99202f53e431c973d0603a735cdd9fb9ac8a83c4366941940bdd8bc00e6d3213"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PizzaTossing_g16_c02.avi_B4.npz",
+    "sha256": "75055cd9e8770d632ebd6d46dddaad7bfe75cd43e3ebb042decbe09110845065"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PizzaTossing_g17_c03.avi_B4.npz",
+    "sha256": "ec69c9288544eae530c5d743c445bf3acc6504e99ed20b006e341acb430b07c5"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PizzaTossing_g17_c02.avi_B4.npz",
+    "sha256": "dc11c0e5b32950ffcfd3ab3a424ccb1ba95e35edb52085205f72885368f9f473"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PizzaTossing_g21_c01.avi_B4.npz",
+    "sha256": "2db4ef8bad9e8a7b21f4c6b860668b31389cd714ae8e1fc6a5fd525740dce6f4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PizzaTossing_g21_c03.avi_B4.npz",
+    "sha256": "bd8bace05880e5abb5069fdf66f4e1aa1c774a04998455fb85e31eaf4ae45500"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingCello_g10_c01.avi_B4.npz",
+    "sha256": "785c88b7321b1d67aa2003cdb0a6c71dd8800a7821a1aa8aee5ef4618b1eece4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingCello_g10_c05.avi_B4.npz",
+    "sha256": "d80bde8a4bc5dc257e491acfce4b172616aa1e1d0c2fad4fa3fd744344d0ebcd"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingCello_g14_c03.avi_B4.npz",
+    "sha256": "1ce9cf60edf33127168ec18092ce23924bde35d6d27ee77e18254c8b069f0d79"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingCello_g14_c04.avi_B4.npz",
+    "sha256": "048e9020c8a9c0765533bdd66f87c6a77281cee59c464db7adfbc56ea5f9bcd8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingCello_g25_c01.avi_B4.npz",
+    "sha256": "e10a047241c42f36f108b4b1b98f3c6057b08496261e5d6b7ec06454f88d8322"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingCello_g25_c03.avi_B4.npz",
+    "sha256": "acc7cc94dcf5103a8cbdc459fe123f5c3a0e5cf87ca62693fa510104408910c8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingDaf_g08_c02.avi_B4.npz",
+    "sha256": "a84c199a91a5e4db49674039ea3dfb0ef170a8007535d8b4a736dff17c445be4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingDaf_g08_c06.avi_B4.npz",
+    "sha256": "ba21343e6844a4a6c00db1f7360fd484a33f2d9ed82e49480433c15688fdb3f9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingDaf_g23_c02.avi_B4.npz",
+    "sha256": "cac6714c211c0363cce8de472db376ce1b3248b4999dffcaa44844c156525017"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingDaf_g23_c06.avi_B4.npz",
+    "sha256": "2c2cb2299839f96b66d82e4b8cf791606d4fd0dace9de31300e4a4d6e17d38f8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingDaf_g25_c01.avi_B4.npz",
+    "sha256": "2046cfa961470dcae80d791489a6049749418bb143fe613d3a6068c4108c0504"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingDaf_g25_c07.avi_B4.npz",
+    "sha256": "a042fba417cffbccbfbe5efbea1f45ca12b962d98af01adc7617e1c203986bae"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingDhol_g13_c01.avi_B4.npz",
+    "sha256": "9bd0097783aca87c41882c6e0d3102a77a523d6837135a05953de73e5a171420"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingDhol_g13_c04.avi_B4.npz",
+    "sha256": "a2cb07921ca8a88b4b9faf630d52cb304eb4ebf6222d4758542c0b446852ebef"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingDhol_g15_c03.avi_B4.npz",
+    "sha256": "33f511b9e8d6d56029d320efd7defde0e523e7c9a38fb15895681bb2f6478f7c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingDhol_g15_c01.avi_B4.npz",
+    "sha256": "47e122af3295ac625904c162bd43a565edbf37fa96b77ec759aa5dffdad4712a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingDhol_g22_c04.avi_B4.npz",
+    "sha256": "31beb0ac606c8c0b9afdca1eaba3ab102880101bee124533fa2ef46776533596"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingDhol_g22_c06.avi_B4.npz",
+    "sha256": "dea9860dec0b654eb9c6efacdbc2b2aa063a1ef8dc1c28bad8c148c87e03d66f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingFlute_g13_c01.avi_B4.npz",
+    "sha256": "c3cd7ef2656d2571ab8225907ddc6b0de3255a1bec4c6c6ae5871ff599b60c78"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingFlute_g13_c03.avi_B4.npz",
+    "sha256": "cd17b3b81b263b1d75535a39a14d543eb7963b5f7a2c643611db473327cb472c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingFlute_g15_c05.avi_B4.npz",
+    "sha256": "99b516de1841726a18081976bec132fd26d51d49be8555c2bf0f08cdf507bcf2"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingFlute_g15_c01.avi_B4.npz",
+    "sha256": "502ce54eb9e1f6c085852bdb31b4d9eba2e4724ffc0dc2b3a238d6a974f93834"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingFlute_g21_c01.avi_B4.npz",
+    "sha256": "ab7fdad4353d3f5a48ef98b6354fcf159ad2375fa0c92cc05e999078038b784c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingFlute_g21_c03.avi_B4.npz",
+    "sha256": "d634d0f7a65780b9f65b6fe6ed8f16f21943699042de316152d5619b85cb087f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingGuitar_g12_c02.avi_B4.npz",
+    "sha256": "1a1a3557281ae747e07974d043e0965668466cc876b6a14dca06a3ebf99c29bb"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingGuitar_g12_c03.avi_B4.npz",
+    "sha256": "830140ae69028e59d8eab55860439f53773057ca1ef8cdd13e73a3df9fcf9d23"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingGuitar_g17_c04.avi_B4.npz",
+    "sha256": "bd59596711dddbd7dbba305f49355d4a1021f650e7dac0ec1b21119e2ee35432"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingGuitar_g17_c02.avi_B4.npz",
+    "sha256": "70ab84eb32d7d13332dbdf4df861577570fa214e4bceacba86ca362cac695545"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingGuitar_g25_c02.avi_B4.npz",
+    "sha256": "73d79ea8700499f782f257c9582b1e79ec86e9269c65e3c01e0acd029b458baa"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingGuitar_g25_c07.avi_B4.npz",
+    "sha256": "aed59c253639d45f2d177a130fb6bb6d8aeb8d400e4901fccc676240dcc574e5"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingPiano_g09_c04.avi_B4.npz",
+    "sha256": "60da2a09c3141a83d2f6b14d6e44613781fa16d2bfd062e4ab5e124ff8cedbba"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingPiano_g09_c02.avi_B4.npz",
+    "sha256": "681429494d9f79750a5973145377d1e9742a0374b65dd6e0288cacb09fea3d60"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingPiano_g14_c03.avi_B4.npz",
+    "sha256": "18dc5baffe1c43b70beaf59983309284353d6ec81a3ac9bd65006977929bfdee"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingPiano_g14_c02.avi_B4.npz",
+    "sha256": "4f22a56d7452272dea037484ffbcd487f8e6f7948329025d29ea44620ed54b21"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingPiano_g22_c01.avi_B4.npz",
+    "sha256": "a7afbac374e58e7c70bf00f66627ff7136f909c8aeff1c8e58a9fbf1b84a0bfd"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingPiano_g22_c03.avi_B4.npz",
+    "sha256": "93ab22d38d1d640ca985dd6e0d2e08b2fcfdd5a06af8d9a7d90c20b80e36b8af"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingSitar_g09_c02.avi_B4.npz",
+    "sha256": "2c3cce5bea8ede72e7e6df154efaa11758a97973d211176546beac11f41ec71b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingSitar_g09_c04.avi_B4.npz",
+    "sha256": "d98e5c6a25f47df3c2116d2d37d934bc4c906be412eb21d0019fc0c8cc223db2"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingSitar_g12_c03.avi_B4.npz",
+    "sha256": "8d94753a53e7f6c5dd8d0d8c60258663123781d505181480434a32a64dfafdd2"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingSitar_g12_c04.avi_B4.npz",
+    "sha256": "edbcb4c3b11c60e66271f1742f35ea318ceca99187e2b47bda42d5dee3866d5c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingSitar_g20_c03.avi_B4.npz",
+    "sha256": "2ef677621fe61615e6e40d1038bbb047e2f8090a6c9d18086cda6ed570914e81"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingSitar_g20_c04.avi_B4.npz",
+    "sha256": "2383c5f4c0a7e25e6494d1c8a31ddf2ee02a90acc248d3febb3cbf397e32efaa"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingTabla_g08_c01.avi_B4.npz",
+    "sha256": "552ca9374e4cb13ac538b914ce3b75b78f88f1c136519baef256f054a496521e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingTabla_g08_c04.avi_B4.npz",
+    "sha256": "6e65ef4a96f5fbf8d5830acad568fb6b6677e7891acdbe1d8ce1d50acc1be4d9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingTabla_g11_c03.avi_B4.npz",
+    "sha256": "ec9f1a80106388a0f11d9b945336186fd286f451765be3df4691ec13c4a632ac"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingTabla_g11_c04.avi_B4.npz",
+    "sha256": "dfefefe61938849d1062be5e086e61797ee7c83a51844b346d2c4fc530eb12d3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingTabla_g23_c03.avi_B4.npz",
+    "sha256": "2059fbee321c59fd6703ac34d4362322f5858a3be8769014796323fae9a37ffa"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingTabla_g23_c01.avi_B4.npz",
+    "sha256": "6ae785a7670c8ab409b136f2cd5e444b0b515e49d7b1f866ba696e2e66b81c62"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingViolin_g17_c01.avi_B4.npz",
+    "sha256": "e1c82e2b04967f99a8c4e477db88c1f731f7cf208ff4426134c3b0fa8d31bc14"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingViolin_g17_c04.avi_B4.npz",
+    "sha256": "c96de6b25b83ff8643d2849e22e471ded14c72d3897a74ba14c723416914188c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingViolin_g19_c02.avi_B4.npz",
+    "sha256": "64467cedd30aeab4a9832179ad8597e442548f5bf9b33ba291d4799f1765ab8e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingViolin_g19_c04.avi_B4.npz",
+    "sha256": "f47d4463d53d6bd519fe032c79263525a05cb2af6d742788039dd2a06840eeb2"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingViolin_g23_c01.avi_B4.npz",
+    "sha256": "74d0fcb948f804164da5fd5f7e0051212faef6d3afe5214da195d73c2ab1eb0d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PlayingViolin_g23_c02.avi_B4.npz",
+    "sha256": "6b5cb8ea5da313bc3b57e97424a539e8244be1cc73d098c450bba0b252fafb93"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PoleVault_g08_c02.avi_B4.npz",
+    "sha256": "8d61c709dd5a79bd895e8f3f43478dfe1de9e8e12f7ad88fcce864122853cc97"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PoleVault_g08_c04.avi_B4.npz",
+    "sha256": "6ce2820de8b2b4e0d9f0e8b14a2c93f9ede2c70da9bf99923286112cab96c9e5"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PoleVault_g09_c04.avi_B4.npz",
+    "sha256": "34850c5fe682c1490b5122c08c348ca82c15de7880592d5d75c6a8d73c012918"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PoleVault_g09_c03.avi_B4.npz",
+    "sha256": "5d79cebdcaa5959f8a8dbfa8f6af4e7b528115f1760e612192e3620006910f10"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PoleVault_g22_c02.avi_B4.npz",
+    "sha256": "2207db32dcafb504198c40dd1cefbcd452055d991643fedd84ee2ce640863bd9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PoleVault_g22_c04.avi_B4.npz",
+    "sha256": "d41257b54bb593a78b3b3fcecb51b7174ab0199b7f11f3714b002fc83770c571"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PommelHorse_g08_c03.avi_B4.npz",
+    "sha256": "ef47156ffddbf819cea57103e1ea737c1a2d50cc744cc7c075c1d481c1869655"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PommelHorse_g08_c04.avi_B4.npz",
+    "sha256": "da7007cf6fcd2439c893031fb91bab71d708444a850df291b523d7bac70568d8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PommelHorse_g12_c06.avi_B4.npz",
+    "sha256": "03e3bfb81ab4959cf51b0205938577581242049f0e8e67c5adbf72aaa5b0433c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PommelHorse_g12_c02.avi_B4.npz",
+    "sha256": "dc3d0ee51c618aafd0c5202825150babdac017f03c4724c1853d764aeadb239f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PommelHorse_g14_c03.avi_B4.npz",
+    "sha256": "2666c363d0d2865f41e688c699662be8dc57c83b31d7f9851b3dfaf411800412"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PommelHorse_g14_c04.avi_B4.npz",
+    "sha256": "5aab5c6e71f89be57276c35cc51ae5d3bad3418364d83c159a0b53105969446f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PullUps_g11_c04.avi_B4.npz",
+    "sha256": "eda8a18b12222b2a32f8e507d621a2cda7fb33abf76c6d33be51597349249eb2"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PullUps_g11_c01.avi_B4.npz",
+    "sha256": "68b244c96dc20407b7bb9ae6b81ba48c3e7cd3623af79f84eeb42538447ac7e3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PullUps_g16_c01.avi_B4.npz",
+    "sha256": "41e691a4b2363630c6e5cad70243e11977957e9af93af34bb50287290d8a5e5f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PullUps_g16_c02.avi_B4.npz",
+    "sha256": "86ff1e759fb5bef3a52d95a26f1b8d46bdedca3d6331dbbcc73a47ceade6789a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PullUps_g23_c02.avi_B4.npz",
+    "sha256": "1a780998bd29ae0a994d38977aa65bf334780881d25578260a4749ac5d7a1217"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PullUps_g23_c03.avi_B4.npz",
+    "sha256": "bb32b9ccdb1c62f88a803e6346b8ec0e59448d63c93ead41f7c0c359b0c75ffb"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Punch_g10_c05.avi_B4.npz",
+    "sha256": "fd147bf18761ee5bb76e2fdf092235d12bbb132411854fc84516540969bba585"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Punch_g10_c06.avi_B4.npz",
+    "sha256": "9b1d9870def278b688dea2207e56c9df351c74b06a720632b3b7d5e58cbb68e3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Punch_g19_c04.avi_B4.npz",
+    "sha256": "51205786d9fb99ecb33066d04bda7c82e64a33e217009a6d4c7280c3d534fd4a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Punch_g19_c03.avi_B4.npz",
+    "sha256": "b2e54ecf71c73fdf0e538854cf1b1268c13e7b39cc4044cc4a271adb510a7b39"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Punch_g23_c05.avi_B4.npz",
+    "sha256": "a721a83fb7ab5f0e4bba1b52147e597c4575c0ca92947b2a8dc2dda7245c8527"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Punch_g23_c01.avi_B4.npz",
+    "sha256": "f5b5c6a0d46b0b2532724ba0b54c27951658d6440ae7e02ca8851f8640377185"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PushUps_g09_c01.avi_B4.npz",
+    "sha256": "6618c8ca7d47678502e66c59da70504e4b492882212e320365ccdb0085665a43"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PushUps_g09_c04.avi_B4.npz",
+    "sha256": "25d27b7cf609916a8428499c153492f8249aa6666eca4da3cbc0ae45a6727630"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PushUps_g10_c04.avi_B4.npz",
+    "sha256": "d49abccce32002a40d07d55c2e1bfef0f6d7b80cb0fc2787f9a9d8e8115d2817"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PushUps_g10_c01.avi_B4.npz",
+    "sha256": "931d9ea4d4b16ab3a069f524487e7f7bc32a8495885c7a4ae8baf4c6435c8660"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PushUps_g12_c02.avi_B4.npz",
+    "sha256": "bda82d390bd236deda632bfffb9f86861fa5bc4ec586de00f6a89a2a4050d51e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_PushUps_g12_c04.avi_B4.npz",
+    "sha256": "5e7bb1d846edcc6731b476b245c251c8fcc741a42d9f86574b055a7067941a6a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Rafting_g13_c03.avi_B4.npz",
+    "sha256": "a5d389c07aa55520343565db76fa494ab1851b67b9ec18aaad4eace4143eb901"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Rafting_g13_c05.avi_B4.npz",
+    "sha256": "a899c184ce9ba0b2b019a5b25eae87926eb0756d6f1e3bbbc3322521a054876c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Rafting_g18_c01.avi_B4.npz",
+    "sha256": "6ebd17a02381be63274bc5a14912c9af9400009b811c0239a387a31a516a841c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Rafting_g18_c02.avi_B4.npz",
+    "sha256": "0153cbddf014cfe8d028856835fe710eb4db31160f2d864e9edbb5239ffec68f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Rafting_g21_c04.avi_B4.npz",
+    "sha256": "2ae251d7a70174da253d710d724663c56d96e4e75443bf93530f20813e3294ae"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Rafting_g21_c03.avi_B4.npz",
+    "sha256": "ef76c0a2b9b4c4e592cf95b396f23bd1fe2f73259f0aa3d88cd946cc942c79dd"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_RockClimbingIndoor_g10_c01.avi_B4.npz",
+    "sha256": "441fa51a82ca83a4a8b5b50413e681f9a78c29167e4dc75b7663018cb8335ad1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_RockClimbingIndoor_g10_c06.avi_B4.npz",
+    "sha256": "1c0fff784dbab04bc6bf7d282bc0ed5130dcd2319f970f4296e0ba71a129a07a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_RockClimbingIndoor_g11_c03.avi_B4.npz",
+    "sha256": "90f9ceb31159b2ef44065adee084943be41c9392d8ae5eb53c2f547a4da02c8d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_RockClimbingIndoor_g11_c04.avi_B4.npz",
+    "sha256": "fdf4d27c78fdaec095e7fecd642d1b055a16274a8ceeed46232643b4c1356ea4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_RockClimbingIndoor_g20_c05.avi_B4.npz",
+    "sha256": "44cf22e8b29961c2890ac5e873eae53b633c01f05cf09eab3ba42ab0a049f993"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_RockClimbingIndoor_g20_c03.avi_B4.npz",
+    "sha256": "c3bf3ad2a42bb86f52bddce8a03940a27bd7833ad0c41f13b301c5fb13394ef3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_RopeClimbing_g18_c02.avi_B4.npz",
+    "sha256": "1f0846135c75a95fcc34d4d2fe0abf8c80f794d52ac9640d8bedab0d24230e4f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_RopeClimbing_g18_c03.avi_B4.npz",
+    "sha256": "23a20d5c0e9e2671196408d37b84768916ff91d62b18245023439bedf5506c9c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_RopeClimbing_g22_c01.avi_B4.npz",
+    "sha256": "14543e1c4535728dc83e642600a8d048ce68b46c1894cc00cafe158ca54cb4fc"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_RopeClimbing_g22_c04.avi_B4.npz",
+    "sha256": "2f8ef1f55b1e1041ea4e5c8fb099aa70c196d5d3b174481440b7a4497f9e095d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_RopeClimbing_g24_c03.avi_B4.npz",
+    "sha256": "682e5a644825944df0ab25d5642a7e40bbfd2e83c3e99af69b9fc6764d578782"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_RopeClimbing_g24_c01.avi_B4.npz",
+    "sha256": "12dd35217a7801b8d02d05f47cb1257bb925d170e2fea2f73ae54e83153947b5"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Rowing_g08_c01.avi_B4.npz",
+    "sha256": "328c3bdad6d20f4f1e39df4f22e02794b49fa63521ed7ee01f9388ee9a177701"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Rowing_g08_c02.avi_B4.npz",
+    "sha256": "5daf9f770acd6136acdcd0b97046ef706198691c0e47c63374d25448a40766ea"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Rowing_g14_c07.avi_B4.npz",
+    "sha256": "ae5d4f3b8115600b3c8af927d2ab3aac6e6a5a59849a53b7d4ec7f9fa0a49c94"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Rowing_g14_c01.avi_B4.npz",
+    "sha256": "7e543f87e1f95a0c3d404c2ed7bac51c71a61bbbfbc79efc2d3357d4f229a6ca"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Rowing_g25_c01.avi_B4.npz",
+    "sha256": "e7f1dd7fc06748ef2d9d622d4e0c028ab239f63c12e684dcd7caf36dca9f54c5"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Rowing_g25_c02.avi_B4.npz",
+    "sha256": "cbae0f2c35d2d14cb59bdaad0e85d34d5bf1900058416864fac8a09241c3f0cb"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SalsaSpin_g09_c03.avi_B4.npz",
+    "sha256": "22386bf4e18f3a3dccfde307f1e1917571e8d568fca8f5e8b1ced2929ba7f63e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SalsaSpin_g09_c04.avi_B4.npz",
+    "sha256": "50aa77d06c402afb175146ff5a51fcf7aee3ea14033d125f8eb33e9f1d756689"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SalsaSpin_g10_c05.avi_B4.npz",
+    "sha256": "497e72755b25683a0302f1d1b98d33309eb1890af682db7ca5f2d0a34fd863f9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SalsaSpin_g10_c01.avi_B4.npz",
+    "sha256": "7fdd5192750cd2104317575a48a5ae01b1cd62a1eddb4ceb1ed534b5added05e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SalsaSpin_g12_c01.avi_B4.npz",
+    "sha256": "00d6a6569ca3b8288ca26cb5f6ab7bcf4cc9f1c469a114dcb9342e7890b4298e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SalsaSpin_g12_c05.avi_B4.npz",
+    "sha256": "6f87344543de5ef2e48e5f3698bb637fccf3960ea30f09984fa0b8444ba31292"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ShavingBeard_g13_c01.avi_B4.npz",
+    "sha256": "61ef63a8259d4567b660f204cc3b6b48349a98fd1aae6c7c49deb24777972823"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ShavingBeard_g13_c06.avi_B4.npz",
+    "sha256": "f188dd4d1e31b6325892b8822b114272d9af0d013e36e05cef9d654f1281a3e0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ShavingBeard_g17_c04.avi_B4.npz",
+    "sha256": "37237c6cddc917935eec6548f40feaa93f3248c3d32c4bb26fc2b0b78032f1d2"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ShavingBeard_g17_c01.avi_B4.npz",
+    "sha256": "7e0615158b61f4afe132878e8e5813b62b9eec173b4af1b501a8e2f1ba4c6414"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ShavingBeard_g24_c06.avi_B4.npz",
+    "sha256": "6376c131f03a2d68ec3a7690eed5bf971197a2809b617a236ad3d6dbda2b9366"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ShavingBeard_g24_c07.avi_B4.npz",
+    "sha256": "fa017ae5cc4db3ae99b0806638b433578a3f45bc19582600c1c866788282bd75"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Shotput_g13_c01.avi_B4.npz",
+    "sha256": "033e1c9551e9fc7721e7de17f00ba81414ea6732e46ede2ccad9bda08938a842"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Shotput_g13_c04.avi_B4.npz",
+    "sha256": "88eb83fbff986890215a7eb891a7faa9671f7fb0b7161062eb85db1a3396f4c4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Shotput_g19_c03.avi_B4.npz",
+    "sha256": "8f64ccb417bc8c42583cc67084da3b2f66cbd43db74f657d34f26654d8a00762"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Shotput_g19_c02.avi_B4.npz",
+    "sha256": "acc196a65c35a8257ffd59b026c9998535c8489aacc354f12a2a54c92e22e7c9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Shotput_g25_c03.avi_B4.npz",
+    "sha256": "71c7048248adb909ea53f765f181b7df824e69d1cb419424b43e7e9c0e627d89"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Shotput_g25_c01.avi_B4.npz",
+    "sha256": "a520cfc470deea37a46bad5c114166e963ee68502ecbfb6763651d09a21f704a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SkateBoarding_g08_c05.avi_B4.npz",
+    "sha256": "4ae8c4aaefd0717658823e712123d9f5a56e304c7f1b14f976ef67d65990fd17"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SkateBoarding_g08_c01.avi_B4.npz",
+    "sha256": "587aa564203e26493321e3ce93cb14a4b2864a4e1c7dc8a220035c14e7ac3dff"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SkateBoarding_g15_c01.avi_B4.npz",
+    "sha256": "9d76c1dcc9f5357f62fa3f2c9315e21d6f53b12417a6d6824d5e98ffe3d58a41"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SkateBoarding_g15_c06.avi_B4.npz",
+    "sha256": "ae26baab71dccd4b0922b21e43edc0a13ac993e0b5866c6dc0f17a3445b9092e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SkateBoarding_g23_c01.avi_B4.npz",
+    "sha256": "33854797d71b3fd02c904958bd2422eb9c2c42508469ad3337eaa7436f8baf25"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SkateBoarding_g23_c02.avi_B4.npz",
+    "sha256": "9c50e8a26b7f39686ddac56eee738583892ac08b6ae8e9786518d0f1faaab1ea"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Skiing_g13_c07.avi_B4.npz",
+    "sha256": "e61a5661439805badabb2e47d9ac9aa3595e950db6cf17c18d2c5f39b04904a6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Skiing_g13_c03.avi_B4.npz",
+    "sha256": "4a8a438cd35bfea33d568b287fb6483c0a0c02bc3664d9fc1dc8704fcf4a6c37"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Skiing_g15_c04.avi_B4.npz",
+    "sha256": "79b2aca7b51c3e38f88a48d85c0889c37a6ebd233b88b436a92fc2de65d9492d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Skiing_g15_c02.avi_B4.npz",
+    "sha256": "56d91c56417775d9406a7c4efa0f83a864a390776504cbdd215b4627103eb6e3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Skiing_g20_c07.avi_B4.npz",
+    "sha256": "77468e266cbee44a16ea8aca9aa69a6b16d38668e2ee393e7b91fc8eebfb64a6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Skiing_g20_c01.avi_B4.npz",
+    "sha256": "944cf790a4d90c0651975ae80c88ed27decdaa9d8ef3c7e113fd22e06dbdabca"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Skijet_g08_c02.avi_B4.npz",
+    "sha256": "6f2d062dcb9ddd3a066d09d3e2cc267068022a65e054358d633472abdb362d0a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Skijet_g08_c03.avi_B4.npz",
+    "sha256": "5c5652c5fbc7b11b16175a19770e1995f5956a0ccebdac92b496de100a9510c9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Skijet_g20_c02.avi_B4.npz",
+    "sha256": "d9dd9a6cac2ade6d3586099bd00d8d5f8fcfa0c5bd8f75e5e93d1edbebeb17fa"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Skijet_g20_c01.avi_B4.npz",
+    "sha256": "a96064d763ee1765a17906c106bbd49deeeeab215cf76c3395dc3f3d5e09bc9e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Skijet_g23_c01.avi_B4.npz",
+    "sha256": "46f77b32d369c27a7718be28eee1ef5cf49c51f7a1f7a36cdd6868eb88982bec"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Skijet_g23_c04.avi_B4.npz",
+    "sha256": "56a0530b1fdf541fbf0bd9b727d8056c140fbac10064a32e87ece83619bcf5e0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SkyDiving_g15_c03.avi_B4.npz",
+    "sha256": "112ec2602e0173a94b166c5f1096bdc107c0e757e300d69b618e95281d53b080"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SkyDiving_g15_c02.avi_B4.npz",
+    "sha256": "983d3ab1e4dc323bd46ba95c63a168ddd9a901faf69d2b2b54759bdab89b84e3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SkyDiving_g20_c06.avi_B4.npz",
+    "sha256": "8f765801fe36bb56c812467a670700473e48089616c2a2ccac03929c60435b5c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SkyDiving_g20_c04.avi_B4.npz",
+    "sha256": "a5008f98abe70e361473795328bb26dc806169b68eba97f2047411b8eee94900"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SkyDiving_g22_c04.avi_B4.npz",
+    "sha256": "278c77964790052a7bd70d654cd894558907efc36274d7de6e07921df785cab6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SkyDiving_g22_c02.avi_B4.npz",
+    "sha256": "c042efaa59eef22f40b2fb5de2bf0d3d993f03f5a731a13e294d8736fcaf3458"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SoccerJuggling_g10_c01.avi_B4.npz",
+    "sha256": "79cd728dac8a2eaa7b1f56cdf0c8d2b1ac9fb7c1fbdd19f2e5f04f7fb1002089"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SoccerJuggling_g10_c03.avi_B4.npz",
+    "sha256": "b025de4598f012ee13e9c339415768400eeab522afa296eeb4519fef0a29eec8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SoccerJuggling_g16_c05.avi_B4.npz",
+    "sha256": "b2be2e4967cb3d7c25ecfd40dc6a33c20ff49e29ff6bd595a462bc8ad37eae01"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SoccerJuggling_g16_c02.avi_B4.npz",
+    "sha256": "f78bc4592ad7934ebfcefaa4c5bca38ba5d701cd82f1af92a7c6c3169b4591eb"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SoccerJuggling_g21_c02.avi_B4.npz",
+    "sha256": "9659053a9b4d1ed6d880298982d7f359b327f8dcbcfc661e93072b0616a7e2b2"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SoccerJuggling_g21_c04.avi_B4.npz",
+    "sha256": "15460469bcfc9b1f6f9f5d507d50df98e8bc5546ac51f067c76dfb703c93098d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SoccerPenalty_g11_c01.avi_B4.npz",
+    "sha256": "621ff679f5ff8242ee4f9e2466611f3efa195e90aa106a6c1c59a7853fa6349c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SoccerPenalty_g11_c04.avi_B4.npz",
+    "sha256": "18e23f1fed217cf689e33981b95c9bc56b27c43264629585eca8c6c33720d89b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SoccerPenalty_g12_c04.avi_B4.npz",
+    "sha256": "5af43fc695e096cb3e3e687751df029a0b18623ac1eb6b6494226cc90b03336e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SoccerPenalty_g12_c02.avi_B4.npz",
+    "sha256": "8bf2fe0bb428d7c8c59992b7f528299675769fbdb5d94d25b277dc6dc201c2bb"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SoccerPenalty_g18_c05.avi_B4.npz",
+    "sha256": "e14036d453961403428a9b8fa2db3bd77b3b43ced3038b199c9eafbdb21fd7b5"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SoccerPenalty_g18_c01.avi_B4.npz",
+    "sha256": "9a7892a9f51e438130b9f8f93cbe556bb9037cdbe7758699a43626ab7fb43b4b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_StillRings_g13_c03.avi_B4.npz",
+    "sha256": "c11725176ffe59e53d39fabfcbf1c313704f117988d35bc8ab5e0b15c88a0d0e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_StillRings_g13_c01.avi_B4.npz",
+    "sha256": "d3dd1e8cc89ebf2624e95ecf66d100d5a42fb0f4dff5a140ca5354fa61cdc0ca"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_StillRings_g17_c03.avi_B4.npz",
+    "sha256": "babbfb749b75e1da5540f4966ced5dd93ac631a178d980758a07cabca4390f3b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_StillRings_g17_c01.avi_B4.npz",
+    "sha256": "12dea7e236be43f42f7c9a4b450b43a5a300f190bcdc9c48ad9dc7f46d12be36"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_StillRings_g25_c06.avi_B4.npz",
+    "sha256": "357fd13877136a3e4d2b5d59cd0238ae6fcb2421ec966cf9a41a1ade0e38fb12"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_StillRings_g25_c03.avi_B4.npz",
+    "sha256": "e185a8413efd2b4cd2b0c04c3b0e8afa4545ec6e7feb77b6c66dbab995ebc3d6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SumoWrestling_g14_c03.avi_B4.npz",
+    "sha256": "823821d0a2ebaf7f8ea9e28a35c93a9d4574e829842693e129cd1e9c4f682eb7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SumoWrestling_g14_c01.avi_B4.npz",
+    "sha256": "2c908fb3f890d44b9900b233c36851026f1a8363231188abb9f30760d3afd3bc"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SumoWrestling_g24_c01.avi_B4.npz",
+    "sha256": "14a33d51c1bb1303d279df80493557cf7c8f6bccab240e8d39b5610152f5dbcc"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SumoWrestling_g24_c04.avi_B4.npz",
+    "sha256": "31b482bfb7150e076e36a221d5a0f8c5563edd22315e9ff12e6481d74be48b83"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SumoWrestling_g25_c04.avi_B4.npz",
+    "sha256": "d1f87d2adc0b5042d4ae7bebaa1c395ba187fd073f8affdee4cb8ee891cc8265"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_SumoWrestling_g25_c03.avi_B4.npz",
+    "sha256": "6aa744a0ac86f7578bb3a26c0834f4914713728be791028cf30e37c8b30cb12b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Surfing_g19_c02.avi_B4.npz",
+    "sha256": "796b1ef5f42b717e3dc98adbfbd694db6683f36965d67fbaa67bcf017baeaf56"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Surfing_g19_c01.avi_B4.npz",
+    "sha256": "eee39c0c01173f2ca5c09253b2b86b4a76af3e61d72af4d711f9508faf068f31"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Surfing_g22_c04.avi_B4.npz",
+    "sha256": "c89a261fe4758bf69dce5be18de5bd1c1afcc4af0b63e581658d76f19298fa90"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Surfing_g22_c02.avi_B4.npz",
+    "sha256": "dfa05f790aa7eb5ee51e3cbe1c682e944491ee9991dce0fc1f239689d96501cc"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Surfing_g25_c02.avi_B4.npz",
+    "sha256": "496340a7d2a8188a15ac2a849e0f375f88d1528338b2ccbdc6fe09741d153539"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Surfing_g25_c03.avi_B4.npz",
+    "sha256": "c1d804c0f121cbd86adf94be5ca47e65152a783dcfba7fa45274595c1fa16910"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Swing_g08_c05.avi_B4.npz",
+    "sha256": "885f7d9e73520433324d21a6075b2b41649d8d00bafbcc62e7928e30dc2893e3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Swing_g08_c04.avi_B4.npz",
+    "sha256": "9dd07ea6463667e95655bd7191371526e2adeccaeb0037b4f4fe077b4ffeb54e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Swing_g22_c01.avi_B4.npz",
+    "sha256": "b58b2cb42e8d7e130b47018a648edb908978be90fd03e320c4fe275ce538ce49"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Swing_g22_c02.avi_B4.npz",
+    "sha256": "881dd57309fc87fdb03cb7684882c35a2ce1d349ee4afcbd3c028a84173b41cc"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Swing_g24_c05.avi_B4.npz",
+    "sha256": "8c069087481d80db2de4f6847d531eda480e1437580767fbdedb96d699e9defa"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Swing_g24_c03.avi_B4.npz",
+    "sha256": "06b9643db0fd7840a062627faf81f13adf356edf538f8621178080484842706c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_TableTennisShot_g09_c04.avi_B4.npz",
+    "sha256": "3461af1efefc3d8468aa14cd8d17b4935d76483a5fda65869bd3a9f8b1cff4fd"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_TableTennisShot_g09_c05.avi_B4.npz",
+    "sha256": "30eac707ab91979bc6d9b6aaa947ccbde99b8251a7475afdee3fb3f40ee691ec"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_TableTennisShot_g13_c04.avi_B4.npz",
+    "sha256": "858d2c7008c4afe6b949e20eb2fc2cd0cd64e4e32c4d5bbb63c6e83f0e2f8ba0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_TableTennisShot_g13_c03.avi_B4.npz",
+    "sha256": "6f68e2e63adebb2b1db96fdf20be947c7c0f191e513607316583033e5d76edd3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_TableTennisShot_g25_c07.avi_B4.npz",
+    "sha256": "b132c4e6d560ef12b2646f8cacc812fff46fd15f4e0ddf355af422ada9ce80bf"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_TableTennisShot_g25_c01.avi_B4.npz",
+    "sha256": "5adcb776cf010dcd86a490ddeba38c28aef1329303bf601938bc0cf7546ae240"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_TaiChi_g18_c03.avi_B4.npz",
+    "sha256": "c4f12e66b96d0b54b36a8602186e897de7dc42e442dc32284c63c5ed012aa85a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_TaiChi_g18_c04.avi_B4.npz",
+    "sha256": "e78777d09bbaaf7a1a84a73f1e0fc9923e6eece317aaa23c82c5abb5a22a1af2"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_TaiChi_g20_c04.avi_B4.npz",
+    "sha256": "9533dc9d1fd7a71f9a98a7795ca39d28dc4c50d7095260bbc581e3d399ebb774"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_TaiChi_g20_c02.avi_B4.npz",
+    "sha256": "2b7a0579d604bc148f5d959e904019027930ad78b4aee9dafbc14fadd408e8d7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_TaiChi_g21_c01.avi_B4.npz",
+    "sha256": "bf98c4fb9f9800786fe8075e34023b7901935a09b7da241f697b51cf18ebedfd"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_TaiChi_g21_c04.avi_B4.npz",
+    "sha256": "c5ddc59428f69a2edc9581057f2232e7dfc99ef7d93cb0f3b9516dda0dcee012"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_TennisSwing_g19_c03.avi_B4.npz",
+    "sha256": "3e6ea571ef87ddc8aa7a6d6594cc3fd0114865ce85f0c43915ea2521f075f63f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_TennisSwing_g19_c05.avi_B4.npz",
+    "sha256": "36385b9d861656b2f8d3e4ee96dc4a7336cf5c17de0d108a3e2e424f6381c4a2"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_TennisSwing_g21_c01.avi_B4.npz",
+    "sha256": "f82aa7225ec828bdfda4cd94198b79b7e6f9b56656ccda8a0a80397fcc18a98a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_TennisSwing_g21_c05.avi_B4.npz",
+    "sha256": "6f36168e1f6152ae20ae105410f1a0fa01f1e42ef539eb4b6f303f861e8ae677"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_TennisSwing_g24_c03.avi_B4.npz",
+    "sha256": "d639565f5905234e363ca19c9c4881bfa6d468260981ef4bbfa6eecb0c2f7938"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_TennisSwing_g24_c02.avi_B4.npz",
+    "sha256": "02c49b8fc6291c1a01ee4b3e6d8901bbf501a12c8b7c768db78c902269b8d0da"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ThrowDiscus_g09_c01.avi_B4.npz",
+    "sha256": "c47d35cc743136abece38d9382e9e4e2a6f532cda4beaa0b6ff6c5b3c35b93cf"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ThrowDiscus_g09_c06.avi_B4.npz",
+    "sha256": "64a1ff540c3d132c09edff70a80f346f857439dc974be4fe5fc83b3efc950d5e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ThrowDiscus_g11_c06.avi_B4.npz",
+    "sha256": "57c504f96dac4926d7c14ae26659522fea6b40742b82c19681b8b85b352caaa4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ThrowDiscus_g11_c05.avi_B4.npz",
+    "sha256": "5106c4fe565553f20c080fbb6dd450d725dba03757ea197dbbaa705863dfedf8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ThrowDiscus_g23_c01.avi_B4.npz",
+    "sha256": "612c028178b18bd47d985f223b415062eea0d9736ba26a024bf74483bb297321"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_ThrowDiscus_g23_c05.avi_B4.npz",
+    "sha256": "1c416227b9bdac1fb73f2b7b905b0dab06168e8d6a2fe922be6ac8c5b5160582"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_TrampolineJumping_g10_c02.avi_B4.npz",
+    "sha256": "0b08cd555f2cfee3b37ac2c8e3a7b45ac141faabdbf5e12ee59f61654317c24b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_TrampolineJumping_g10_c01.avi_B4.npz",
+    "sha256": "5c00bfe971420d9c14ea394e00d0b07115627c9034e04eb31c634bf6ad006b2d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_TrampolineJumping_g15_c03.avi_B4.npz",
+    "sha256": "56ac2237f75c12a8441406639b00bacd4c5dc64012d02e1fdd36a1a04519eb78"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_TrampolineJumping_g15_c04.avi_B4.npz",
+    "sha256": "155532f86815d346994d51520a9d2402e1ea825c32948addfa8f73d78ac11b45"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_TrampolineJumping_g16_c04.avi_B4.npz",
+    "sha256": "8c425d15d8c788c1e631f5d783c9cc8a1fb1fe11ce4018263a27b330e79a4da3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_TrampolineJumping_g16_c02.avi_B4.npz",
+    "sha256": "3373918c8a83c3a215a37031624ac5f6fa3be7962ca2b218e1b63eacecc5e84e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Typing_g11_c01.avi_B4.npz",
+    "sha256": "d59d190d250f25c94e5b8d46e106fc1aaaac140a9f99efa0dd6b31930df2d0e5"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Typing_g11_c03.avi_B4.npz",
+    "sha256": "4cba00e51458ecf0f16ec694eef6b1ca551359eb065606f737df579fcfac9ab4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Typing_g17_c02.avi_B4.npz",
+    "sha256": "796988d7c43842166726188c2661b8af638f7ecb2effa045f35ad30b125942a9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Typing_g17_c01.avi_B4.npz",
+    "sha256": "68ac9c3afbefe43d2021a00ea716453f71caad8b9c45ed00bf7ae543bfff4941"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Typing_g19_c01.avi_B4.npz",
+    "sha256": "6ba6814218dc5b1a4307c06448fc9a4bec59f76a816f7c78614e538017db9042"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_Typing_g19_c02.avi_B4.npz",
+    "sha256": "7487aeca61cb6f6d1df3887f9a59385341d1f18ce4b857ef756dda9caebf582e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_UnevenBars_g20_c03.avi_B4.npz",
+    "sha256": "5a20739754c2930ffb2ce059b045675368d1978242bcc29d92d3857bddf65e83"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_UnevenBars_g20_c04.avi_B4.npz",
+    "sha256": "7c81424b291fe352c8b0d4bac4c16afcc7b79f3db944232cf1e115173d9ea2c4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_UnevenBars_g24_c03.avi_B4.npz",
+    "sha256": "7274a75c84e3da3410e7ef0572f5434ad2a63a976f226e2e8b8c0d268e26af35"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_UnevenBars_g24_c04.avi_B4.npz",
+    "sha256": "2357b145efdd7fe5d604ceb38eebb7ceec1ed28ffd2d1879c8d9879fdbc52637"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_UnevenBars_g25_c03.avi_B4.npz",
+    "sha256": "285e5a977b50ac321e2953092a9275f8dc86b61dbbd904ecb651170141d0d8f8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_UnevenBars_g25_c02.avi_B4.npz",
+    "sha256": "1a125e76f6db19f2c1c119f2ba4324a073b1b6e24d196b932c5f632e31a76022"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_VolleyballSpiking_g12_c01.avi_B4.npz",
+    "sha256": "270dd9861cff81d62f1977057e9194ece1b5f899b7982cc44aaf8bfdca73eeaa"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_VolleyballSpiking_g12_c03.avi_B4.npz",
+    "sha256": "f082f8817fcbf9c42cf6fe91c023e1bd23f594e42dab55bcc4c96eaeb42935f9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_VolleyballSpiking_g20_c03.avi_B4.npz",
+    "sha256": "abc320ec518cae7bed764f32e1c597786cfd7ce211093a113035bb173509bcfa"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_VolleyballSpiking_g20_c01.avi_B4.npz",
+    "sha256": "a5f049ed53f03bd1606f97bf15d4327eecb3bdc3bdef383cfb2299c3a806cf2a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_VolleyballSpiking_g23_c02.avi_B4.npz",
+    "sha256": "d916ed5f2dd9fe663179b06e407c984c9140ede2cb8a4746910676adea901998"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_VolleyballSpiking_g23_c03.avi_B4.npz",
+    "sha256": "f9f43bea995a7e43189e47ff54faff80d5d7141c5bf3e790f4f5cd767ec398d5"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_WalkingWithDog_g09_c03.avi_B4.npz",
+    "sha256": "3521a6934083698d5baf79bcdaa191041ff369ad40758659c3ec8227c36316b5"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_WalkingWithDog_g09_c02.avi_B4.npz",
+    "sha256": "388af5505d36e8bd45103b0f173f788052ed4fbd0d26272fad4c3e71dfb038b0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_WalkingWithDog_g15_c02.avi_B4.npz",
+    "sha256": "b8654e70cc15677af33784ee800a4e86e387db78f2eee10573213122e85108da"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_WalkingWithDog_g15_c03.avi_B4.npz",
+    "sha256": "cec890d8fc4916b2687a8dfeebdcb8a98e2afb6bb7042fd5f9d98c5ce4ebc6fb"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_WalkingWithDog_g19_c02.avi_B4.npz",
+    "sha256": "e1c5d0fa2a56af220acc0748cfc34445364ba93c353c58c2441b51045fdee3b1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_WalkingWithDog_g19_c01.avi_B4.npz",
+    "sha256": "35ff852d65aabcce2e4cdca58683dd5f14c775f997072e371936eb2ae6528b6e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_WallPushups_g15_c03.avi_B4.npz",
+    "sha256": "6bbef4ef892fb9d6fae0b5c8b2f335dd23be7b0a19657056c7bf8296881231ff"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_WallPushups_g15_c05.avi_B4.npz",
+    "sha256": "8d6db4e2f998367a22f101904e243fe9d71218a98fe99160ce22c3ae225d3b79"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_WallPushups_g17_c05.avi_B4.npz",
+    "sha256": "fee0e580d44da7e91b1299b93a16c797e0e370058c0351049a0bb6389781f79c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_WallPushups_g17_c03.avi_B4.npz",
+    "sha256": "d50e7fca1fbf20d826f9f5d3fe12b0d018466fe4a988b0cb5f70320e41ffb444"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_WallPushups_g21_c05.avi_B4.npz",
+    "sha256": "8ab0476b06706d5b2876d1cf37d0dcd9ae1205f31205a9df74e253587c0f63b0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_WallPushups_g21_c01.avi_B4.npz",
+    "sha256": "585c6aa67288b0fcfcd2007e95ffbf54d6b2d6df64cd5b8840ecb606b9aed98f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_WritingOnBoard_g16_c01.avi_B4.npz",
+    "sha256": "0656f12fe110140aff960394120c3d699e1fa5ba25462e59533edad5e1996457"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_WritingOnBoard_g16_c05.avi_B4.npz",
+    "sha256": "cffb5ff233043983ca48c6f4a5762015ae0d64e55d5cac1fdf9f1db11e83dc48"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_WritingOnBoard_g18_c07.avi_B4.npz",
+    "sha256": "90467c6ee6912650f207191c2a529513646cc0712fbd651bd710cf3075c0bf76"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_WritingOnBoard_g18_c05.avi_B4.npz",
+    "sha256": "650bd43f0b8970f423c8ba3a959b8009d089586d7d999039843a0239f2f86249"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_WritingOnBoard_g19_c04.avi_B4.npz",
+    "sha256": "1a7f3bef855f88af82dd25560193893f0aec350e1ddd39959f216214868f6598"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_WritingOnBoard_g19_c01.avi_B4.npz",
+    "sha256": "45eb9c49e52bbdb77e48d89544c358ad30b781ef613f326c4d5c3a73f69d43b4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_YoYo_g19_c02.avi_B4.npz",
+    "sha256": "4677fac63f72d78eb6efea22f181801f78520dc5c08f1fbcafa2b6383716b629"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_YoYo_g19_c06.avi_B4.npz",
+    "sha256": "ebdcdbdd1f6a7fac2a088c5d794401637b88a7f35217523b25379d1b6fe7b7ce"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_YoYo_g20_c04.avi_B4.npz",
+    "sha256": "9a1cef351c519bc18aca2b76cd8d60dc664bb454d5241b1584f46fa1e612ab64"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_YoYo_g20_c03.avi_B4.npz",
+    "sha256": "2d42a72490e3dd06091b9b79b31ca7accbc9d09b38a791d726c7c273c8f54346"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_YoYo_g25_c02.avi_B4.npz",
+    "sha256": "ccc3037efdee854ef58593b2f91f9051432821fb1e986d70b05ce1cf19947f3c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/schedules/development/v_YoYo_g25_c03.avi_B4.npz",
+    "sha256": "d3e69e8e3fc7a6d8c626d9fd77c94cccf76fab4a78f47f8992d7195380f46c76"
+  }
+]

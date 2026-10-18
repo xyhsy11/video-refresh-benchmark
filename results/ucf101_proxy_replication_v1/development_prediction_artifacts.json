@@ -1,0 +1,2410 @@
+[
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ApplyEyeMakeup_g18_c02.avi.json",
+    "sha256": "1d8d1192d5bdc5c61632321872d827e1373c6baacb8cfe15f304d06ba16b8bc7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ApplyEyeMakeup_g18_c05.avi.json",
+    "sha256": "65e7758fc44ad610b8e4947503ae4d655118074052996174a4996d349e8a6276"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ApplyEyeMakeup_g19_c02.avi.json",
+    "sha256": "9da3ef3c1cc05c5475ec43875824721950e8188f81446b53c268188cb816edeb"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ApplyEyeMakeup_g19_c03.avi.json",
+    "sha256": "d0671fa65606e5f23779c55db93e1357aec99806b2ab3fde125be2a9ca222f89"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ApplyEyeMakeup_g20_c05.avi.json",
+    "sha256": "2a48b042784f93e090296fec073a4ce23fb425ce911002fd501d50613a64b870"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ApplyEyeMakeup_g20_c01.avi.json",
+    "sha256": "3b693f38623162bf28c18e486e0e144cf2870a417d8661d51a6dc2b874bdd2e6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ApplyLipstick_g13_c04.avi.json",
+    "sha256": "ff88e55e5255ed8e4625bb49b0fbed801e1067e2cebd1cfb42021b16fa6ff3fa"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ApplyLipstick_g13_c01.avi.json",
+    "sha256": "477eebd333330de29e16b659d4360e0b3dab607511ac1b82a9e000c023bf6bab"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ApplyLipstick_g20_c01.avi.json",
+    "sha256": "1fc82a7072dd5b278fe3bc639ff2285f7acdd743e90b8ad1e657df735422f949"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ApplyLipstick_g20_c03.avi.json",
+    "sha256": "f78a041ddf26e1e2329806676ccd420ca30ef3e9f169e3bd31060862baa06734"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ApplyLipstick_g23_c01.avi.json",
+    "sha256": "d957d75d791027e76682188307923994386db56a18865e8ebcec36fb196c7e42"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ApplyLipstick_g23_c04.avi.json",
+    "sha256": "dd3257f1097600e8740d0f02827dd7c15addca63f92e187186bd45b8c923136a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Archery_g08_c05.avi.json",
+    "sha256": "d6cff6863748da1b4f0b3b746bc44281de142dd163f969efb18775eb9a3d30f6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Archery_g08_c02.avi.json",
+    "sha256": "c72c8b7ab006986faa35a4af286b86dd0ceae1e1184bd7e5b6324849f14f23b2"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Archery_g13_c06.avi.json",
+    "sha256": "eeeea1ad7c086291f70491c776eb635981c5a3367330bea473f8f612f68159ae"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Archery_g13_c04.avi.json",
+    "sha256": "dec082566f62a91d1134410fd1ea8206ddbff84afbf0909b019a7e16d95fa08e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Archery_g20_c01.avi.json",
+    "sha256": "1442bedebd061b7549a76fadaec45e5c473a1e5124dc96b69cdbaefdeb78133a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Archery_g20_c07.avi.json",
+    "sha256": "4a3f2f3d60f1bd9f7e0ffbe3723cca8a837ff8d87d8761c67d36925ebe5470c6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BabyCrawling_g16_c02.avi.json",
+    "sha256": "64c9b043ddfd15fe8690134b40a58b0428841782c86d6dc8b06ba56bc92362ea"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BabyCrawling_g16_c05.avi.json",
+    "sha256": "8e6098379e73c0a994b0540facea581e04a1c7ed9ca5e17c84d4e90a55053b7e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BabyCrawling_g17_c03.avi.json",
+    "sha256": "df7dccbac1948466ecceb2a27ee59dd2ba1e5ca7ddb305085ea13fb895eb8a1e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BabyCrawling_g17_c04.avi.json",
+    "sha256": "64c2246027887ea0d4196d2e3cae51f9e0b569884ed283e915f1e39c0c5946fe"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BabyCrawling_g19_c05.avi.json",
+    "sha256": "4e54dd582029e8a1e733df4f8c74979d512c8e4a3fbdd9f16e916565627e807c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BabyCrawling_g19_c04.avi.json",
+    "sha256": "083476175bf37aade349f955095e02831af90572b5bfa2cd17eded4204c2955f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BalanceBeam_g09_c01.avi.json",
+    "sha256": "cd1aa41256323023381477c0c9379a97ef0ba3d36700bbfffd5dc860511bee2c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BalanceBeam_g09_c02.avi.json",
+    "sha256": "381166d487523849e56035b85141a1d3968a56129db45401ab9db955738fc1e0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BalanceBeam_g16_c01.avi.json",
+    "sha256": "200c8b95c548d557133b38ba77a6323993e0444bffb5d82ade14d4763556400e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BalanceBeam_g16_c03.avi.json",
+    "sha256": "a6176e4d8aae65c37ecbe9d4cb15c740d55cffda2f682d101d9397270b9083f1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BalanceBeam_g22_c04.avi.json",
+    "sha256": "a1cc11fd7ac3cb35b50551d965624196ba1a5e79e584d726b50b1dff7a5d7ff1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BalanceBeam_g22_c02.avi.json",
+    "sha256": "addafff88caafb42cf8257b3550953cc1d0ca424f07acf8fb354516848d93b09"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BandMarching_g09_c03.avi.json",
+    "sha256": "9ea98f9a666859c58f289ac09795fb83878c43bb2c85e38d726521ef65b943e6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BandMarching_g09_c02.avi.json",
+    "sha256": "02645de344f84ceac9464a66d37928528edff7eeab41c9fc0104b3b3578ae0ef"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BandMarching_g14_c04.avi.json",
+    "sha256": "87382d37022b214239223acda428d4e193edd27466e0b6c47e9a22e4a2510626"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BandMarching_g14_c05.avi.json",
+    "sha256": "af199198ccfce2e6a62151719feb4fcf534577f3c021c6fd311929bdb4d02101"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BandMarching_g15_c01.avi.json",
+    "sha256": "5b443125d5e9f40e0741a814944099fe0261f0ab74e38333f7c9daa5ba9c5e0d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BandMarching_g15_c03.avi.json",
+    "sha256": "f6d38927bd24bfadb193267e271c961c94baeee0675cee8d3cff0840666a807a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BaseballPitch_g09_c01.avi.json",
+    "sha256": "65d7d797e2f60227b969664b0f56e206e77e18290ad789ab947d8988cd37d6ad"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BaseballPitch_g09_c07.avi.json",
+    "sha256": "300839b5ed7aa15757cc492c66fa0274d1a42cc6df29ae587dfb9c9603297788"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BaseballPitch_g14_c03.avi.json",
+    "sha256": "219ae46c47a531c9cfe347ff11d1c8d3701896c1488d605211a1a543ccd1e7a9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BaseballPitch_g14_c02.avi.json",
+    "sha256": "3b202ae21a270ef6a4c8574e1892ea2f0b11de6b95b6b3779beca189a03824f6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BaseballPitch_g17_c05.avi.json",
+    "sha256": "b00a39c555258b9100e0a6eed0eb86e8810461785698492acdc3b78ce5261f1f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BaseballPitch_g17_c07.avi.json",
+    "sha256": "95ca64105c4cd068ae487326e03d8d772ad5c49703e8018835eb7949fc7d9f3c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Basketball_g12_c05.avi.json",
+    "sha256": "573c28655927115ecf0d5fc293018b730571ff50a10c8c4ec35c2824572a75d2"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Basketball_g12_c01.avi.json",
+    "sha256": "677d3bd25008ca2594da20db14122ee29ae6de5016ad34b55e72e7b6784d0613"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Basketball_g21_c01.avi.json",
+    "sha256": "3e9bc422f48fb2eeb5e8177d50c7b996dc05cfc2cbbb39df3770f5e59ae68656"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Basketball_g21_c02.avi.json",
+    "sha256": "41d10f32cd3fbdcedbe640cca3abad0cd71067dfe10bd082644d7016ff0002d1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Basketball_g22_c04.avi.json",
+    "sha256": "9063647a3aa7286d1943b95d97caf2dcfe3e06a1108aa1083d7fe63035e27914"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Basketball_g22_c03.avi.json",
+    "sha256": "220c9c1329ebe016acb7bafbd286076743059ba7cbee99aa55887cf9de158ec3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BasketballDunk_g14_c01.avi.json",
+    "sha256": "1ddc1a1ec120b1d8b609e308eeb27f93cb399d370c0731900bbdebd92f015f8f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BasketballDunk_g14_c06.avi.json",
+    "sha256": "c53e19b9969db889c9e97ec63e2f120a52b955e117b7fb1927815e6cb6bdc2ee"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BasketballDunk_g19_c01.avi.json",
+    "sha256": "8b248646ca0d2b59c0f75a0a94c03b64607e788f5543c97a185cd43537ff5f74"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BasketballDunk_g19_c03.avi.json",
+    "sha256": "fcbfc8170bcb83dc95d0ae4937c50709c5d8d1b3d9fe7b4743cdca24e31758ce"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BasketballDunk_g25_c04.avi.json",
+    "sha256": "e4ae61a59dffe7dc8890d83a895e97ede8fc2a5891c0697b6ad7daa0ed5c64ce"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BasketballDunk_g25_c03.avi.json",
+    "sha256": "48ab17f649bd6600df21e0cdd9eb9c4c64d8a8699665c4b98193308a30496100"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BenchPress_g11_c02.avi.json",
+    "sha256": "2c4f92d1cdd808719eed267ff8101ee51cacaa409a8e829baed3924da648b6e0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BenchPress_g11_c05.avi.json",
+    "sha256": "485883026af8258f7b72967039ffd696dfdeef4368b297d04ddede54a60ec39e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BenchPress_g21_c01.avi.json",
+    "sha256": "eeb696d1c66a4cc4d182d4105f41bc1a9d473ef19fbd53ab8dd64940550d5f19"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BenchPress_g21_c04.avi.json",
+    "sha256": "972b6a015f1e61381bc74558abd09f5fddef10f17c63deb03ec675057c4665ef"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Biking_g12_c03.avi.json",
+    "sha256": "2a6d69789d67ab0410e3cfc0aae49086c383618875a549fee8dbe1bd38884da2"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Biking_g12_c02.avi.json",
+    "sha256": "0ec58e193e1e842e5dc46b9c418af83f89fee67e0939156bbadcffd659ac8e55"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Biking_g21_c01.avi.json",
+    "sha256": "393495e3f6b4cc893dadcf8322109247056ed3f2d5555774212f67e9b7c9ebf9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Biking_g21_c03.avi.json",
+    "sha256": "f979e860d6ce15903022a17ebc376afaffe492dbf5afbb740fc9076979f96fcc"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Biking_g23_c04.avi.json",
+    "sha256": "09feec8c39f267e607af6500aaa0a16a77441e53bd2f4560a09ef162ee59d99d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Biking_g23_c02.avi.json",
+    "sha256": "335ff1b6a4974d350542702de851bf65db901c69e5f8d1497ac89ad2c75380cf"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Billiards_g13_c03.avi.json",
+    "sha256": "78b2e9af53fc8945b56ee577584f929f6c0de93d2356a9736133cf98e3d875e0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Billiards_g13_c06.avi.json",
+    "sha256": "56f58ea0e9129d43bd630e3c9d4caab89e69f0ce21104b757c7b979eba66e2d7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Billiards_g16_c02.avi.json",
+    "sha256": "18baaa9747260189cec87f8128f2abcadbd8becf0e681058af2024c9e793697b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Billiards_g16_c03.avi.json",
+    "sha256": "bb0b6b9b65c963a979f33309ca01d9ed0d781a47e43b5b73179669a8c06b0ec6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Billiards_g23_c01.avi.json",
+    "sha256": "19d835540badb8112d5ce99cae7fc730ad13bd2a72e5a44b014688d1b3cb9265"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Billiards_g23_c04.avi.json",
+    "sha256": "551c95ede86904d669c2175a129239ab84fd0f6fde11ece6c52b33cadeb0d708"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BlowDryHair_g08_c03.avi.json",
+    "sha256": "2db75cc40c74bd2d2b83ce8e9f70d836135b6bed855a05e4bbcaa10d26388ef9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BlowDryHair_g08_c04.avi.json",
+    "sha256": "15913ff5c793946dfeb4fcf481b31b408ee83b23b3ab7212ecfb078db75bcb38"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BlowDryHair_g22_c04.avi.json",
+    "sha256": "b69fc208f3d5c0d70706a59983cbcb8cd2801e72fc3f9414fb94f80ee18edb2c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BlowDryHair_g22_c01.avi.json",
+    "sha256": "8d4d21075cd194576ecb7523717d31b7d0d05a94eb48e0881ccaeef0ff2e38fa"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BlowDryHair_g25_c02.avi.json",
+    "sha256": "356a02608d24e7471d51d1a4672b3468ddb93902e08d6ea0f727a2d941b3fef9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BlowDryHair_g25_c03.avi.json",
+    "sha256": "eb1cb340102f6c6b0f07a7faa718de356e71d231dc6e7aabdec427c07f788e8e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BlowingCandles_g08_c01.avi.json",
+    "sha256": "96f041e738f5870227cb00e378f966b510cdf70d125c1d1df40a55a3aa0cdb2d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BlowingCandles_g08_c02.avi.json",
+    "sha256": "940b33cdd08d0bb1ba72a07208b9a4c07515b82c2ce61df8abcab7c461a9d604"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BlowingCandles_g10_c01.avi.json",
+    "sha256": "97563d5ce15fdd07d77c9b8b406ae15a4aaef03b0ff44bcb0513f86e4b6eab7a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BlowingCandles_g10_c04.avi.json",
+    "sha256": "54ef2860456c6a5be4a4f2bcc39e14fc96ba504034e66a4c69b31d349b5d35a3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BlowingCandles_g18_c03.avi.json",
+    "sha256": "95099397fb0733d7be604fbb18356483546c045b07baf86cef81ad9672de2953"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BlowingCandles_g18_c02.avi.json",
+    "sha256": "dcb5770842a31e7b1b3b126bd43a943ecf6f7ff3b870265d80662c158de51404"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BodyWeightSquats_g13_c01.avi.json",
+    "sha256": "75c0de00f58dea08b775466d3d597c430569b41a0e111bb90367bdbe9a1d1cac"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BodyWeightSquats_g13_c04.avi.json",
+    "sha256": "9574271c542cc01ba8df64032ae40af93b4cd87c5a1e44c0cd06c9c5899337a4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BodyWeightSquats_g14_c01.avi.json",
+    "sha256": "cf7c8b5834b96903d0a0e022864d25a4c47469fb9f0c193972afee0d6289857a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BodyWeightSquats_g14_c04.avi.json",
+    "sha256": "be28fa3c0d48c7227884662792aa02531ea38d1f72e3a43eb26cbb2a97a43ff8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BodyWeightSquats_g25_c03.avi.json",
+    "sha256": "dba65bc635660594112a2b9474b9d6ae811704108c24de712c5c8341e1ac19a8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BodyWeightSquats_g25_c04.avi.json",
+    "sha256": "0c67cefda7a1adb25531bfb439218978464980675625d859ecce6d434f6cad9d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Bowling_g10_c03.avi.json",
+    "sha256": "5acfe2f68726e315de4c1ef8bc54c389489e40932197c426987f07a3800b2a3d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Bowling_g10_c05.avi.json",
+    "sha256": "f27eb6075eb685acc3d1798f75a6ffb1fb4af25a3c3ef16b43ea5d1dd808cf3a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Bowling_g15_c01.avi.json",
+    "sha256": "3779703f01393e6f41c2db67d330ee803e780bd0efecd16bc22fef801cf4b549"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Bowling_g15_c07.avi.json",
+    "sha256": "686ed14d7d999daf5e3ae8e0808ce20c63fa743b58527f4b92ceb4fc3f8d71a8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Bowling_g18_c01.avi.json",
+    "sha256": "cb472f7bf43c5c4cbbf90584274319161805186396200cd97ce9cc68eff7549f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Bowling_g18_c05.avi.json",
+    "sha256": "5ed2d3a1337de7c66ba3ddc29748f88ffb6848956a6f8ec66764007c06a00167"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BoxingPunchingBag_g08_c04.avi.json",
+    "sha256": "3811c3491c6864a1eda9a5b14ffa5014462068304288f1edede897529a3acc4b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BoxingPunchingBag_g08_c05.avi.json",
+    "sha256": "dd761a582df7114fb7fb572d161ae95a83bd919bbeac649d2673d075e2e625f1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BoxingPunchingBag_g16_c01.avi.json",
+    "sha256": "22e16b7bc0da008f850f3578244dfe40853ab88b7e6326312b28a1f13ca7932d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BoxingPunchingBag_g16_c04.avi.json",
+    "sha256": "94ad8516f67258c7e4ad009374291830a2685ac1493da3e39f7e3afde17b24a8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BoxingPunchingBag_g21_c05.avi.json",
+    "sha256": "4e3aee9083b39d368414ed87182798867d25cc62db27312e312bbf95e84a27dd"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BoxingPunchingBag_g21_c07.avi.json",
+    "sha256": "d361b2e46c07007831ee0cf2b40311bc34c1988be7e28f0f302fe1d202a79ab9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BoxingSpeedBag_g15_c01.avi.json",
+    "sha256": "0a1f990cdc07130fb54c89ddd854e268d3870948e638bce492c6fff73416dfa7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BoxingSpeedBag_g15_c04.avi.json",
+    "sha256": "61a609a44ab76f65d6718ee825f10efae6b2ec7002dc0325a0e9d9d119685d63"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BoxingSpeedBag_g19_c02.avi.json",
+    "sha256": "b6b7a24d4f5f6166bcde4547d18ffececcbf64c25bf73e84a2986ed8b57f92e4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BoxingSpeedBag_g19_c03.avi.json",
+    "sha256": "e2d286be616c450a2c93259ec2a05049ccfe63aa7c5f05be1da05c4a89a8b639"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BoxingSpeedBag_g21_c02.avi.json",
+    "sha256": "f6db1b78d5b6a973fbac11713ff409b317198949556554431d3376eacaae39a5"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BoxingSpeedBag_g21_c01.avi.json",
+    "sha256": "3a74f9e440811caff3c5e08a23afea42646c0f655054842954eb562567311e27"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BreastStroke_g11_c01.avi.json",
+    "sha256": "dd750f15b36c8a3d5de16a89d2ca3cd3ae585beeae98b3f4259a336f2a6db87f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BreastStroke_g11_c03.avi.json",
+    "sha256": "4eb7cf404ae0f50ad0454bb978eb4d131b3f1149c1094227dd2b65e8bb2c6a83"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BreastStroke_g17_c04.avi.json",
+    "sha256": "81c686ab5639220ea536528d8511e0cc8604a21d0192b6d34d670154acb2853c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BreastStroke_g17_c02.avi.json",
+    "sha256": "5b768a6bcf979688c2c0ff5781b8b2e0ff1e5a9c91a4efad639f846d5eef6739"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BreastStroke_g21_c04.avi.json",
+    "sha256": "c1102c06d420305541bc507475491765658c919c94a8ade0569afe6d84c721f0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BreastStroke_g21_c03.avi.json",
+    "sha256": "80f8f109597e746b665cd1f5a76689d6b1cfa429264dc10f7817e192f46255b9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BrushingTeeth_g12_c01.avi.json",
+    "sha256": "a838e360469af30da7831d702d04536756e9761a4aed0cf48a72e88b2bc1ac61"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BrushingTeeth_g12_c05.avi.json",
+    "sha256": "048b079ca1a0ced062cc18de976ff52d648a2d03715fa64224e922ee8f0cf765"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BrushingTeeth_g23_c05.avi.json",
+    "sha256": "7b59714a1a70851dbafe5a6870160e4c1104e1c24335ea7e1d9c5d2a000d33fd"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BrushingTeeth_g23_c01.avi.json",
+    "sha256": "b52052fef34f8c49bcc1092c582119a89900790939472edd5a26c912da5f3f3c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BrushingTeeth_g25_c01.avi.json",
+    "sha256": "e6ad115d9f906e20f66e9e814fd9894a13422bc18c2d4a2cbba70a47263fb18c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_BrushingTeeth_g25_c06.avi.json",
+    "sha256": "9cce0a7b2a0b0bb2ebc50bcb6f801dcd0b436d14b26659785e26463d6d563a04"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CleanAndJerk_g11_c03.avi.json",
+    "sha256": "84fdd5e5359d2470328ce59d00ea1d72e88bd4a19fe6bf09c805c06035741eb9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CleanAndJerk_g11_c01.avi.json",
+    "sha256": "51ee0e4bd094fdc2c77c5e5cbe172a6bbf40e0861f818c6859dab0cdee03e495"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CleanAndJerk_g12_c05.avi.json",
+    "sha256": "8c54a5292a7429aaa6a166c6dc0a2ba5a2563d538061ebb660cd9f4e2b613e67"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CleanAndJerk_g12_c01.avi.json",
+    "sha256": "6c786aa701f370f35ba5617ea304681caf1981eabf73c3432c6b132c690d7a7e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CleanAndJerk_g17_c01.avi.json",
+    "sha256": "9fc91e94745569cda82fd8c09096cb4d7536d1e8d0d4b29dc53397ea6af25fa8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CleanAndJerk_g17_c02.avi.json",
+    "sha256": "cd1a7616c34d670c45b4f29bb8a079b5b5746188228f22d16c340e60504f1cd0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CliffDiving_g10_c03.avi.json",
+    "sha256": "674fbe4be0ccbc98c428bf09e7cabeed8a8d3fda4c92dec3c64914ad8e42d5bc"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CliffDiving_g10_c06.avi.json",
+    "sha256": "21e491973e16529fa6a827adf8a92568c20ff37d69d381bf6b22af40a4517a2a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CliffDiving_g12_c01.avi.json",
+    "sha256": "40578f25746efb717b213844efb87eff0d731de15b29d3d6694b2a065787eb1c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CliffDiving_g12_c02.avi.json",
+    "sha256": "674321884986ab69f6c5bf2b2a8a46cf488f511354ca9846adca2db6dc566edf"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CliffDiving_g22_c05.avi.json",
+    "sha256": "dafcfb0f5541e4d6df2d18ef99cb0fd8272541190c17437ea0a53bf75c4436a3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CliffDiving_g22_c01.avi.json",
+    "sha256": "a60084dbc0094ce2f769ec6cd45ed4965e519a812b3e207838afd89d2e1146c4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CricketBowling_g21_c02.avi.json",
+    "sha256": "3bf36d7567ed35c034807a70db1e3bd9b92ffa58be5c7c97fc5f006df890571d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CricketBowling_g21_c06.avi.json",
+    "sha256": "65eb8aa7aafffa56cfe84ad11a0531a3352bce395b2aa101cff69fbe67710c0b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CricketBowling_g22_c06.avi.json",
+    "sha256": "daa02f157cbd40f35c2683f59117451bd0bd0e713a1dc28311f418d05ca96fbb"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CricketBowling_g22_c07.avi.json",
+    "sha256": "cb43094534ddea92dd393595f6349602bda5214dfffb7139ceadb59607254dd7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CricketBowling_g23_c01.avi.json",
+    "sha256": "9ead8332cadd89781b1d5b41f2ee5c84111282c0120c4259011286899315740b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CricketBowling_g23_c04.avi.json",
+    "sha256": "848f1ca6c9f782d52a8d4a37c33a4b8c0812a0a90bedfe940abd6c622c1b002b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CricketShot_g12_c01.avi.json",
+    "sha256": "9ada350c720bd6eb7bc29eb26b76fac7fd87d0de7707b4d6163de2e61a51e12b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CricketShot_g12_c04.avi.json",
+    "sha256": "4200ff34a642ab04873130c41e2bf3337f1f0ca05c6813fc95247834521a0c12"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CricketShot_g17_c03.avi.json",
+    "sha256": "7425c5fd3f7e52ab3bc1aafe353830915ef3dbd3a7d3d40c187cdafed1739ebf"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CricketShot_g17_c01.avi.json",
+    "sha256": "bf2e78b8d94bd721969268a9fa24434ef88bd5c7dea34cf41308bc2d31ae2e4b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CricketShot_g21_c04.avi.json",
+    "sha256": "5baf6d73f0d67b04ae213ec5044dc146ab62bf853ab5fbb7c48e460af619defa"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CricketShot_g21_c06.avi.json",
+    "sha256": "e3843c3898909100f93dd258117a382bc4360eadeb4839c6d283131d30544366"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CuttingInKitchen_g09_c02.avi.json",
+    "sha256": "950b22a40c733f6199a8a6c94f9e6a4f9252519518b193e40aa78ddaac9c4656"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CuttingInKitchen_g09_c04.avi.json",
+    "sha256": "065ad22d57fb34d6efe132c4a53efb72f4c7c0d78c316f2d2f0383f55de91313"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CuttingInKitchen_g13_c02.avi.json",
+    "sha256": "4e017934daccf2fe0ea5c6a20c6fe5b3f45b91a2291cba7f64b47a85ea4e16d1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CuttingInKitchen_g13_c01.avi.json",
+    "sha256": "3863357bc9ab40601ea43781fa9d7c497e18b52651e1ea312c930510896bea9e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CuttingInKitchen_g17_c01.avi.json",
+    "sha256": "95252c98496e0bba18abca6f3d53737e0be8f5e2e17d6256f50db7d77c5bdd8a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_CuttingInKitchen_g17_c03.avi.json",
+    "sha256": "82077c81f131dd142ba120351db228bb1a4017710fca283d1e682fc97a02894c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Diving_g11_c01.avi.json",
+    "sha256": "f53d3f0e64ebcd698ac5c8333daad37a0dd63e3b1587e2adc7c67f54b3de042c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Diving_g11_c04.avi.json",
+    "sha256": "32a5ca3cf77a8b5ea7e1a5170b01ac88930b3f52736767ac7640e542ae5bdd0f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Diving_g15_c01.avi.json",
+    "sha256": "ca649d4a8f502f0867964a03dc1db0fd01f614f55320250bfe3259732ac8c1ed"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Diving_g15_c04.avi.json",
+    "sha256": "09e9bc96c85a1e48085f377b1cf40b3dbaddd178d71b1bf2cad6962006acb96b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Diving_g24_c02.avi.json",
+    "sha256": "9e3f65141826fb461a310cd7395c1f97a6075008df2c141194a16cf432aa19a7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Diving_g24_c04.avi.json",
+    "sha256": "06eba8a0a46f1e5f0b70eb4b9ece45eafdca0c731699c1ff3c233a39107c785e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Drumming_g13_c02.avi.json",
+    "sha256": "13a1a5cc75a8e5fbabd2922a0f7b1db9dd058fa895e934ba4de50250bea4d0dd"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Drumming_g13_c03.avi.json",
+    "sha256": "fc80aca1e89a9b48782d509da4810313b46818412ba854dd9dc108a7a3954743"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Drumming_g14_c06.avi.json",
+    "sha256": "a0c44f6f63f25ceb68c9e6d96d9a0dd2b83322bcdcd1a22d4363c34c89a23ec8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Drumming_g14_c03.avi.json",
+    "sha256": "89b5629b3fbb4f4540f4c98f575d87b5775a35567c65d261aad4e06c68cb968c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Drumming_g25_c04.avi.json",
+    "sha256": "0a0625a934969fcc2925bfdd0bb7cf5d9f5171018007a43b756f18d5cda47dfa"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Drumming_g25_c03.avi.json",
+    "sha256": "b3c3c27832b0822df9072ffe37469bbcd8c626c76bfb0954159f90cacda475b2"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Fencing_g11_c02.avi.json",
+    "sha256": "c1de9147e3a7779ada4b290725d5927bb5ebff7f3b727482d730355427c0199c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Fencing_g11_c01.avi.json",
+    "sha256": "613eb64d61a3a910699c5367e39c563b6604b04f33b3615101fee11d4ecd5e52"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Fencing_g17_c02.avi.json",
+    "sha256": "cbca3eda6e3df8a0333d5c9dd7971417717514e10f564b093049aeebeec921a4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Fencing_g17_c03.avi.json",
+    "sha256": "28070267c0038a953e754a3922206f3cd05cfa635ada5546f66ae79e0af7f7f0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Fencing_g20_c03.avi.json",
+    "sha256": "ccaabd608048c3ec2c24bb0e8bee4f356ee3d12020c72ca6e2cf7221cb2638d0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Fencing_g20_c02.avi.json",
+    "sha256": "0b1c9f1102aad0f5309e92677ddddaa843581925f268bcb82d77de1fb7833bc2"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_FieldHockeyPenalty_g17_c01.avi.json",
+    "sha256": "5813af314ede65842a75559465d7e75d1fe68f0999729ce7aef42447dfc3f23e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_FieldHockeyPenalty_g17_c04.avi.json",
+    "sha256": "e9dd7e0fad613d9b9bae8299a82758793bd6dc62e1aa7fb34717e307f2470e7c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_FieldHockeyPenalty_g22_c03.avi.json",
+    "sha256": "5d849c035b8ad1e999bf75f0294d8ba4e1b96eaf2820cbf2bb95d421271a34c4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_FieldHockeyPenalty_g22_c02.avi.json",
+    "sha256": "91fa9bda186c0ce5516d84352e0344fb633d240d0741cd6accc915bc3712b965"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_FieldHockeyPenalty_g24_c05.avi.json",
+    "sha256": "1dcb2d53394a67d5658034bc2f606cad03f09bf9c079ccc7eda5f7c091b1eeb1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_FieldHockeyPenalty_g24_c01.avi.json",
+    "sha256": "29b63c1f4df8d641bf7c6e9fae62cdbf8459ba02a5310af430ba460287369ef4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_FloorGymnastics_g09_c06.avi.json",
+    "sha256": "d8b371caa92517a68251ac7e0e81cfd50f39e2f71f024dab9bf6c177de918167"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_FloorGymnastics_g09_c05.avi.json",
+    "sha256": "bf520264d10111cbf9568d4c317e96f59080c35fbd94ceb4a3424db3e9720d07"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_FloorGymnastics_g11_c04.avi.json",
+    "sha256": "eafe443a0c2663c898b8c6da7891b0e83d1bfc91cda3619941fa5d780697bb1d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_FloorGymnastics_g11_c02.avi.json",
+    "sha256": "c04482a936c6c00ac306efd1a7dae4b094101a5205a38e1a58c23ea9f9fa0557"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_FloorGymnastics_g23_c04.avi.json",
+    "sha256": "b89e0a335293999f97bd7769c6005f36060007726d0f57bfbba6d3576563fcac"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_FloorGymnastics_g23_c02.avi.json",
+    "sha256": "ad0e474b9d7225e620604b225cb4f387ce31f1968324d0769ab90f11173563d7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_FrisbeeCatch_g13_c04.avi.json",
+    "sha256": "3a802f32728c873738962fecd17a2bacf7e1764b3ccb6d267be4afb8f6a807eb"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_FrisbeeCatch_g13_c01.avi.json",
+    "sha256": "f5fb11ab7d990d041a12644760b12c4ab0a2982c6457c9f871de429c8f31fef3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_FrisbeeCatch_g18_c01.avi.json",
+    "sha256": "5c0b444f5cab235f63c27bd34e2d1865eb5ef3d98b92b70cd4f5e51083ca8156"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_FrisbeeCatch_g18_c04.avi.json",
+    "sha256": "8fdc30bfa14a0070c5696cf33b22805d8edc2f9a0ebadba4da225e141f0d19b5"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_FrisbeeCatch_g25_c01.avi.json",
+    "sha256": "7b3558dcc293f1c8f9fa82cf22ecd02233ab67b22654da8777508d348403b9d4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_FrisbeeCatch_g25_c04.avi.json",
+    "sha256": "221b12429c52070e5b25390420de9be44077156adad884c8b2d0522034879a4a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_FrontCrawl_g16_c02.avi.json",
+    "sha256": "fe14bc1d2e50a6cdd84077a72d0d18f0cd9b0c804a72ffcc218bc88cb700a132"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_FrontCrawl_g16_c04.avi.json",
+    "sha256": "4cf8106aaa6da6b0fa6680bfeacf210485dd6fcee7cf98cf0b1eef8930d941b7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_FrontCrawl_g19_c03.avi.json",
+    "sha256": "3b5350ea845d5ededd5a21e1a0133ea130ec06e789b32e85d6e364e9b30e1a2e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_FrontCrawl_g19_c04.avi.json",
+    "sha256": "0aaf06b257dade7aabd3741a328bd7011c591b9d50a8a404f79a034c4352e3ea"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_FrontCrawl_g22_c02.avi.json",
+    "sha256": "bcfb40afaad071c947f7413d25adf08ccf91697dd67731999bbae9e7c8007b92"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_FrontCrawl_g22_c06.avi.json",
+    "sha256": "7c1c3fe7f618b51b5d8f6646bf76ba76fc65c34ce7733aa5939909091ae2e287"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_GolfSwing_g10_c03.avi.json",
+    "sha256": "ef740974cf080912853461e466b7fa350fdbe10e781806d07ca56a95883c78b1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_GolfSwing_g10_c02.avi.json",
+    "sha256": "8695a80520050351bc1f6506307d07c2f63292a7cc39e43dbd041113be29112a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_GolfSwing_g15_c02.avi.json",
+    "sha256": "24a56a9ca3149aef4759e51eba1b50cbf5be3f1916038c658a5e7888782189c9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_GolfSwing_g15_c01.avi.json",
+    "sha256": "964c72c3dea0e10e2d4d56fa83954816b6e49f38849d434b66da93d1afb5eb10"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_GolfSwing_g25_c05.avi.json",
+    "sha256": "a6a514db3d1bf9e7a8cd79af53c0ef870d16ef28cedb1e1e588a5313292349bc"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_GolfSwing_g25_c01.avi.json",
+    "sha256": "63557e449b5e39d623175de10161ada31d1ecac330271dc41872c725d05b37ff"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Haircut_g11_c03.avi.json",
+    "sha256": "d06816167d147983b1cd0a3ef82243bfa4d42f6e8b6b142a38cb74e047a02a17"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Haircut_g11_c04.avi.json",
+    "sha256": "dd4fbfa1903383fe6d88c7edc95901cfd01e0c9cb6b95fec22caac0cc8efe9de"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Haircut_g17_c03.avi.json",
+    "sha256": "50ab6c4de3c67127cb68a405061852264eb8642de6b539351ba4961e878cdd9d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Haircut_g17_c04.avi.json",
+    "sha256": "f75d6facf6521a0be4f4805510e919e2dfa3087f0599b661c0126ce24676775f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Haircut_g20_c05.avi.json",
+    "sha256": "abc778cb6bd612072f9bcb7f698945a609eeb7d6444184ddafd9a859c02595da"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Haircut_g20_c02.avi.json",
+    "sha256": "c32557615d1c6fe0070e5e0ff714ac461f0405837dec09be5152cdd36b3dbf2e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HammerThrow_g13_c07.avi.json",
+    "sha256": "2e0dcc470ed69dc0109c7494cc845028fa9e46ddf111c9f906c9cab90cba241a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HammerThrow_g13_c01.avi.json",
+    "sha256": "b6edd1549bb2a24c243b369fd9a51de6727c1b68459064f9089844d390e70aff"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HammerThrow_g15_c04.avi.json",
+    "sha256": "720b23450b99b9368a7d223ea6ef9b294755579385f1c13f267e8fff07e05135"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HammerThrow_g15_c03.avi.json",
+    "sha256": "ff7e60de89991c2c5fb1e2c5ce5fe14adcce2cded82c109a80d2780f631e841d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HammerThrow_g21_c01.avi.json",
+    "sha256": "cc510c1e2c32557609c3162e0682b0caec29dd95b836e671eb8396850547480b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HammerThrow_g21_c04.avi.json",
+    "sha256": "6302dc59b18175efb9883d06a81dec7d965084de1c5f15952231a8a266da78b4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Hammering_g08_c01.avi.json",
+    "sha256": "7e92d63d126320dcee61ba47818596f1d58fa99bc1a81f7bd1d50f97fd24d964"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Hammering_g08_c03.avi.json",
+    "sha256": "62d1c624082b910c4a2baa13ebc92713ef599d98178fc8100f36d8cc11b296af"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Hammering_g13_c04.avi.json",
+    "sha256": "6f5ada92cca7c10b26eb53272d4ebacdefc69be307f39fa4aa9c3e748ffcaea3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Hammering_g13_c06.avi.json",
+    "sha256": "776a49c7a2c60c5e33d6144ffcc9f5a34ff9835a7d5d9b86ec93ca6b93e7bce9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Hammering_g15_c03.avi.json",
+    "sha256": "104fe358209665c5559a9d04b79574c6e17b30f8c22a1ec209741e3220a50293"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Hammering_g15_c02.avi.json",
+    "sha256": "1a47ca2f59989a88ec5c93b66ae03222d59e94b822a014b28724f487d6e932b4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HandStandPushups_g09_c03.avi.json",
+    "sha256": "c959ba4836122d960b814334f2e07b00efb50ac92e5026029030df592ede5b1c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HandStandPushups_g09_c01.avi.json",
+    "sha256": "9a47b5c7425eaa3f47e2d0c9ab9bf60f523ec474a2650dc13d9da9263bbc7e4e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HandStandPushups_g14_c02.avi.json",
+    "sha256": "13af0792322a1c308b0c9ab8d75fcbe8dffc1eb43fb8389562634f967e6eaa3a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HandStandPushups_g14_c04.avi.json",
+    "sha256": "7ffdae17a67e750eeda7556136a5a5529f12966cad20448ea0113003eb597630"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HandStandPushups_g19_c01.avi.json",
+    "sha256": "3434caed03cf952f80e84779e4632f640e1c37f1770bdba2c98432a865701ef9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HandStandPushups_g19_c03.avi.json",
+    "sha256": "fd5bd8a563aef3c00e2471e95b6f93f4899442e1a4b2f76c209726dc008d4901"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HandstandWalking_g13_c03.avi.json",
+    "sha256": "81dfd0ce087a2bb3a29cb3f2ec85ac0b97b4fbf3b033bd7ffcdcebc58ea9d46b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HandstandWalking_g13_c04.avi.json",
+    "sha256": "0def93f03caafc578ac04ce285d2cae6fefc254e49c2e02fff601f6b7279ab21"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HandstandWalking_g17_c04.avi.json",
+    "sha256": "cffb067301462f9e9a35b4d1381bc80e4220503512d6a4e2f93ea0cf969521d6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HandstandWalking_g17_c02.avi.json",
+    "sha256": "ada4c10019dbf5763257ac7028e3ddf5800c929866479b375119a359083cd41c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HandstandWalking_g19_c03.avi.json",
+    "sha256": "687a6ef357793ed94d9f472aadf8e7b71f9e09fa5cb9b628289c7bb28f8a07b3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HandstandWalking_g19_c04.avi.json",
+    "sha256": "e100223c0a2d632245726c1a0038f2a24346a00ad376c0cdaf8047c1cc6013cb"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HeadMassage_g10_c02.avi.json",
+    "sha256": "8213602b6a6d7967f6bf7ca454109be5aa553319389b8a17cbee89d1cf230688"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HeadMassage_g10_c01.avi.json",
+    "sha256": "6f69858156c7067d94425e4fd4cdeb4135dc04737f33a9efa1a9f4e46b698f8d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HeadMassage_g15_c02.avi.json",
+    "sha256": "adf1d49ef633e83f79ee3e5d6ca0385797272fa06c836305b02f6c36eef54ae6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HeadMassage_g15_c04.avi.json",
+    "sha256": "74e8e9fda5f69e72e08219bb26c2a55ed14be2b6d5954a907c49128e6f6e1796"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HeadMassage_g22_c07.avi.json",
+    "sha256": "b8dd641edec2881a3bcf4cb87118113b11310ba2e5215c4beb7ef849ff0c958d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HeadMassage_g22_c01.avi.json",
+    "sha256": "d9406813f0ed6e1074b81263fd0843a289311ee3654b6694dcf674ea87246ebe"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HighJump_g12_c01.avi.json",
+    "sha256": "01784ceca915b39df4c7b7b680e5ce26d755a6ab62e3b56766765571c115bec9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HighJump_g12_c04.avi.json",
+    "sha256": "e6126b7580c2ee7c8d84b55b657a7a96f31bf32d8f08fbd99ed2b7feb0ceeaa4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HighJump_g14_c04.avi.json",
+    "sha256": "9e7705f455c2cd3ed970249bf22a20206cfbe69475464ac148279ee676fbecb0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HighJump_g14_c01.avi.json",
+    "sha256": "9c436fa94cba13f937ef38a14a55f0b1e1065acb84ff800dc26368601301488c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HighJump_g24_c03.avi.json",
+    "sha256": "c41d2ebc9b39847efc000ff47e250edea3508a85275b0ebf8130b51f5ba485b8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HighJump_g24_c01.avi.json",
+    "sha256": "939042a58d3d94c345d95bcbdb0f2ca99af895ea8389461993789f4f01344cd1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HorseRace_g14_c01.avi.json",
+    "sha256": "2a8f270ac2a185e17711b294bf261b5afc5fdc5f1c185f96ad7755ec5beaab34"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HorseRace_g14_c02.avi.json",
+    "sha256": "d36922836efc36a0f20fc20ad167e67942b1f368f7af40bfef477b3d00669395"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HorseRace_g17_c01.avi.json",
+    "sha256": "5ded29c093c25170fb3a7c7f84e12df9485cfff323f71e071fd5f62415a76a8c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HorseRace_g17_c03.avi.json",
+    "sha256": "d06ba601f7bce88d9f326c9605d5f041d4e8aca6ea3b2ae249af5efa96581221"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HorseRace_g19_c05.avi.json",
+    "sha256": "b26353b2c7b18a7c3afbd75c173512a7402f0d52dc624cc949f96cf0740744ad"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HorseRace_g19_c06.avi.json",
+    "sha256": "354148b1d1a75cc3b31036ab82df14ffc61be64cc55254d7bfc9b7315fe42394"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HorseRiding_g20_c03.avi.json",
+    "sha256": "199001c611d4ec9fc13771c8c8a9e5e449ea10f9cebcea4b7af3346e406d48a5"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HorseRiding_g20_c04.avi.json",
+    "sha256": "3aed4cc3cc423249ebcd72ea5bfd53e1bf7a2fe39f5636c58dc1f3ee9be230bf"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HorseRiding_g22_c06.avi.json",
+    "sha256": "4c34aa4029502c86fa0f272c8dea4eea8b12770921dda8515023746aa7b1c8f4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HorseRiding_g22_c04.avi.json",
+    "sha256": "5cc677a9f42fa091ba071e479197398502dad4cd7ff961e9115640399bb12973"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HorseRiding_g23_c04.avi.json",
+    "sha256": "0a63c39ba80debbcfd2a4bda29bab3386cc6723f6a44e4788200dd1033acb0cf"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HorseRiding_g23_c06.avi.json",
+    "sha256": "be16e0f9b51a4aec541164e205e629424219fbc7fc710d2410d2aa1db444e884"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HulaHoop_g11_c03.avi.json",
+    "sha256": "0ee5953af310d0bb05cc2aec9e994f4ce4851f17bba553cf31ccbf15cc63f3f9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HulaHoop_g11_c01.avi.json",
+    "sha256": "5ccebf497dbbbe9305918580aa15f5e2d4c7c239ffdad294e5327ffa49b19d3b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HulaHoop_g14_c05.avi.json",
+    "sha256": "99b10daf69806f7afdfcf4ed013645a8626747704738a520ec7a00ed5065a5ea"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HulaHoop_g14_c03.avi.json",
+    "sha256": "486b96ae20f063851a7c5b7cee7bbb627cf6fc592676eaf08b509e32f7e57d43"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HulaHoop_g23_c02.avi.json",
+    "sha256": "719100cd79252306c8e82b33ea880d4bc47051f4f172fb7499ef1d93dab861d6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_HulaHoop_g23_c01.avi.json",
+    "sha256": "f598ea068c600f351d196ef61e2aea95fa587311eec1014fec4442e01de09237"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_IceDancing_g09_c01.avi.json",
+    "sha256": "91951aec26ec15463418e40c725465fb500ed45ae1d80422eafabfa83816c04e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_IceDancing_g09_c02.avi.json",
+    "sha256": "5bebb73928988f0965ba22f044b2213e3994c282d52f71f504c612dfd6713db5"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_IceDancing_g11_c04.avi.json",
+    "sha256": "5dfd5b39ac06fae0efce8d3dd426fd052f8d3c65e814eb259eba1814f80bc76f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_IceDancing_g11_c01.avi.json",
+    "sha256": "04d0b0b5d42a5964179d5ac45ce0ff0fcca91537ffb3fae20cae4ed5c38bd740"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_IceDancing_g14_c06.avi.json",
+    "sha256": "45ad8d6dc7c5e61ce60e3d56c9df704dfa3639032976d1663885a0b7f74d4e85"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_IceDancing_g14_c03.avi.json",
+    "sha256": "8d7f82d8005498139320569577bdb5cad51b69487d53e184ae2af54eb3a69df9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_JavelinThrow_g22_c02.avi.json",
+    "sha256": "29fea84f3e357190889a63f85ae2b04ae263e6643f29a591472ad71da38fe288"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_JavelinThrow_g22_c01.avi.json",
+    "sha256": "6df18db5e28b47d8b282cc66755f275fadf1ce84e09ef346b2e5fd64c138934e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_JavelinThrow_g25_c05.avi.json",
+    "sha256": "61ced126dd71391ea6df7de3600763c0ee082dbe8fb95101b8b41151e85a5951"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_JavelinThrow_g25_c02.avi.json",
+    "sha256": "e041e4c5e1aa3e5daf6d15bfea9bfab722af6034fbddadf08ce6e50849474650"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_JugglingBalls_g09_c04.avi.json",
+    "sha256": "d7e96f1832906ec8783724bef270be33fb7575b2100734b83ea8fda9b25545c2"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_JugglingBalls_g09_c01.avi.json",
+    "sha256": "a903a6459a2d6880561f07fb62622ee5c91ccd1067d84e0a1b90ec41142e4d37"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_JugglingBalls_g12_c03.avi.json",
+    "sha256": "c7075da1356b31fb025cafead024ddd4d1ef1beed59fe2830c0193a5347fe27a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_JugglingBalls_g12_c01.avi.json",
+    "sha256": "79ffb10db17ed3dcab55ea6994b2ae4e899e60aeae3758b2b3c2af03b926a5be"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_JugglingBalls_g20_c01.avi.json",
+    "sha256": "e18bfeed099a8c867b886c8f75b1c04e12b25f1309126d606e73c156922dc318"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_JugglingBalls_g20_c03.avi.json",
+    "sha256": "c25417a6367fe3394611ebf492bc4420785c2fb96fd75ea0d9042614cca8b715"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_JumpRope_g10_c01.avi.json",
+    "sha256": "389d13bd0449926ece363765fa3f77e091913cd4ac50e97348eb43fcc65fcd12"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_JumpRope_g10_c03.avi.json",
+    "sha256": "4061a4c594544fcea94732c37524a838978ed08d80cb7723f728024f0079ef3a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_JumpRope_g11_c03.avi.json",
+    "sha256": "3b8bdb93d3bfb77a16c677a3aa509c23ea38a5b3126b020ea4f6169156b89921"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_JumpRope_g11_c04.avi.json",
+    "sha256": "e7af9647f1cbaf21a3941097b09a48633356e546a646490dd5ec61d519281454"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_JumpRope_g22_c01.avi.json",
+    "sha256": "2454148c77d8164147c9955fd76397b0be87d150fe935919328005346d53408c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_JumpRope_g22_c03.avi.json",
+    "sha256": "394e39463550afe37fd301af5b139a8540099f78f3f56c13820e5d1ec18164f1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_JumpingJack_g10_c02.avi.json",
+    "sha256": "395cbae4f11ef513f8c2a2efd3097bf09d4ffdeaef5910e980d3d0d8a6187332"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_JumpingJack_g10_c03.avi.json",
+    "sha256": "85df2023586139480b8732d566ed8344dcf924eb2a7e1632fb3614b9eb9afaac"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_JumpingJack_g15_c02.avi.json",
+    "sha256": "614a5344db752ca4f50cc546f0481faa959d392829f4d8865551056de065b614"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_JumpingJack_g15_c03.avi.json",
+    "sha256": "55555bc919dce4ad526c4db1218eef6797b75dfce99fabae048e357adfbacc93"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_JumpingJack_g22_c01.avi.json",
+    "sha256": "aa38db43700f078faa40d9fb292140a1771bdc7ed729e308114f20ce73fe5302"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_JumpingJack_g22_c03.avi.json",
+    "sha256": "844a300cdb01eb691f67690a96d8c25ab313b8fbfc04a52eca39aadc8be5b4c4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Kayaking_g17_c03.avi.json",
+    "sha256": "108288280a1796e914e2056700e5de96e11f2ad316addd02d9948d2994b777cf"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Kayaking_g17_c05.avi.json",
+    "sha256": "5146d6a7b2dd74c2648639a67afe28a66603b5b4c6c58b429583ad1cecc395f9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Kayaking_g21_c06.avi.json",
+    "sha256": "6e03ce5a950751a3c4fa98ee9d8152883e4fa474ce1e81026beb8b4780569d44"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Kayaking_g21_c05.avi.json",
+    "sha256": "7d22ec00da5874cea5fb13220bb67dc3594aa5bc99403cbb80dc1f931e8b7b50"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Kayaking_g25_c02.avi.json",
+    "sha256": "44a1ff09b3c59f90f6f6fe9429155969686303834ece2234f4417c826d6c5405"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Kayaking_g25_c04.avi.json",
+    "sha256": "3fbe3684a45b58ac86603851af0350cd54410442d5244000a6e8e1e9b2fc1d59"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Knitting_g09_c02.avi.json",
+    "sha256": "4a7e702a148578d7cc275518e4714c33f0684646c935f08630e13001dba97b4f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Knitting_g09_c04.avi.json",
+    "sha256": "483177a47aa2a6a0e3a26b359f5256bcaa71a9088436bf44e6c375109cc1e261"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Knitting_g11_c01.avi.json",
+    "sha256": "8ed0a55f06ff99908e7c79663372d9b24e53c42a9922cab044a77d30aaffbf3e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Knitting_g11_c03.avi.json",
+    "sha256": "ef84f494fa8ee4dae692d1389a2709fd2d2bdb82744f93eecf5818f7249cdc2c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Knitting_g14_c05.avi.json",
+    "sha256": "f1fb2020c4244b4bf9322f1f33a571fcbd6976a57d1b4622bbd3eb9bf02d8387"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Knitting_g14_c04.avi.json",
+    "sha256": "73f4186932a89049a1d5eb2a2b0da0ee3b4a3b8eecedefa898c9c2ecb87c1998"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_LongJump_g12_c05.avi.json",
+    "sha256": "fe83869ff0d1dab5397899e193d79a86090c274a6dbd9c6c4c1ca254a38399e6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_LongJump_g12_c03.avi.json",
+    "sha256": "fe5431978d4a9ffb62e3bcba94983f6dcbda18d91ce72c94c56161e75c695f1a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_LongJump_g19_c02.avi.json",
+    "sha256": "712aa9a31bd3ce5e2a64b52c08e4c58aeefe4115ca98bf69325a495db72f9ca3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_LongJump_g19_c01.avi.json",
+    "sha256": "686a74ff19fc8d27becd85d6361a1a958c0e0253f6269c0f555eab5423ca709c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_LongJump_g24_c02.avi.json",
+    "sha256": "976a29de7436a74e992ca333bfbf8b90856571acd4b941f600ef3e3229c6904f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_LongJump_g24_c01.avi.json",
+    "sha256": "784fc122d2681035481110a0efb166929f13fd0a9fec7a7f1d7fad6f566f4062"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Lunges_g13_c01.avi.json",
+    "sha256": "c455ecee8bc28ff19fa6a5a10eb68abb5a73e7b6b2538106acbb6c89f33290a3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Lunges_g13_c02.avi.json",
+    "sha256": "6f39d70a904e3b67a4ecaaef8e967799d40a2ab9b25dac7f1db563b61a642252"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Lunges_g18_c05.avi.json",
+    "sha256": "e9d506390e3fb1f9bd0cbbe91b60461d1f5ccb35050ab120ad2f066ed6b49cc4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Lunges_g18_c02.avi.json",
+    "sha256": "097da05bd27ce5651537260d8659b6ec43c5cf6b18cb9e0237e6c7190dd57ea6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Lunges_g21_c02.avi.json",
+    "sha256": "7a9f08c31073babf33c2b615bc1c195eabaeb89de69bec56f8a796d885094ad0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Lunges_g21_c05.avi.json",
+    "sha256": "e39b3809dd84e749ce4dc22d06f13ddb80bad272c6edc9ea16913afc2029d0cd"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_MilitaryParade_g10_c04.avi.json",
+    "sha256": "dd598c8268c8596aec5cdee3081007725583b01b5e78911a19b750edc1bb292e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_MilitaryParade_g10_c01.avi.json",
+    "sha256": "9144078e0d144ed03cf2685c80e074d46b2aa8b476b7609f2dab34c58cbca8a6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_MilitaryParade_g17_c03.avi.json",
+    "sha256": "c84ecd56f2de6df722eff3c905d8b795b53db48c5892bfb910f6cb1769e9380c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_MilitaryParade_g17_c05.avi.json",
+    "sha256": "0d9642256c2b451966ee546808bcb7ff20674ffbeeeb128791517eeb59215e22"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_MilitaryParade_g20_c03.avi.json",
+    "sha256": "3e8652f0734cadcda1747b70df0dfceb982ba0280b8d3f834ca24bdccb912f82"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_MilitaryParade_g20_c01.avi.json",
+    "sha256": "871a1cc30b6b7f4683559c96e1556dcf5c99ccb43869fbcb662b90b22ae75d17"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Mixing_g10_c04.avi.json",
+    "sha256": "507f95b6e36cfcf01c1806bb08915159ce84c8ed89b69947116a5115884373eb"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Mixing_g10_c01.avi.json",
+    "sha256": "4502f5424e2ed9ecdfc47b415554389753ee9c1d5e85bce6fd51e1031cf4c6db"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Mixing_g15_c03.avi.json",
+    "sha256": "a8268cb176d79eaae03755e88c14963d9251ade5cffdae5b4f32b7eb19c009fb"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Mixing_g15_c02.avi.json",
+    "sha256": "3454512c6b5f1eed7271a2ea48efc58c02dedc9d2af32699b5fee846f7c7f59c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Mixing_g18_c02.avi.json",
+    "sha256": "29bc689470efea00b37fea994ead5fc86ef0c1669908c448c42c97a8aabe76d0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Mixing_g18_c03.avi.json",
+    "sha256": "d0692fb80de7c78e3255d376778b45a1af19ac873e6c5a231b2c66671356a079"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_MoppingFloor_g12_c03.avi.json",
+    "sha256": "fc5ff24dc6b08336a5bf7a548f66c348912a3a77b863a564b12e042355c3503f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_MoppingFloor_g12_c02.avi.json",
+    "sha256": "c7f15d2f91638d78105904835154f417045d39291a58a0356ec4449c34014149"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_MoppingFloor_g18_c01.avi.json",
+    "sha256": "a5bb2679823022a433ab245a6fc36de25578d79d81f0996465cca4c6516f2fb1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_MoppingFloor_g18_c02.avi.json",
+    "sha256": "5a2d0d0a4358656a5263592aa60bb30281464ec4ed00c7fb3b632f79f0f8f071"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_MoppingFloor_g20_c04.avi.json",
+    "sha256": "1dbfdd363743ddcfaefc4b844e00c9fd2bc8634c3da7697adda090ce6cc9a6ca"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_MoppingFloor_g20_c02.avi.json",
+    "sha256": "5d6887fdb2a024123fa8826667bf81ad51122e6ddf506a53a9f54b6460027316"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Nunchucks_g18_c05.avi.json",
+    "sha256": "baa1490d48d50bde3ecb7b5b7f6fdfa9f0295d56f3d922e51c50467b056a374e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Nunchucks_g18_c02.avi.json",
+    "sha256": "07270b38ef3b84f65372613eeac2ace4f9f0f05adb7d8a762c1eabc0c14fe38c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Nunchucks_g21_c04.avi.json",
+    "sha256": "697a58c13f2891dd8ab73c309be6e537ac58626c460e1f316b6eb982896de4b3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Nunchucks_g21_c05.avi.json",
+    "sha256": "a569581351a6495de49c8ffa3e66c492a8a755e3b56578d1bf43be2f3e61f869"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Nunchucks_g24_c01.avi.json",
+    "sha256": "58e732b9c596cce74068073fdfaea07475d2a26b06946fa987d7f903a2b7549a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Nunchucks_g24_c02.avi.json",
+    "sha256": "5d3b3b204bff66b9a381a5e45f2286e0626614db9816abbaafbb7a220b00e2b3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ParallelBars_g13_c04.avi.json",
+    "sha256": "f244c735c9cba2467541cb540f8fe68db243a96f85d1c707f38be94183f56cd7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ParallelBars_g13_c01.avi.json",
+    "sha256": "101266dc62dc7e8ee08245b387967100895d53f2240b05d3d136a4fac207b84b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ParallelBars_g14_c02.avi.json",
+    "sha256": "fd9cbab4808f33dceaedc04842025d8f4d1e54fcce104eb35f4748ef536318f6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ParallelBars_g14_c04.avi.json",
+    "sha256": "a6e4d05dd1746738f04d5659053751e41f02349542824a7bb5129b201561b1f6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ParallelBars_g23_c02.avi.json",
+    "sha256": "342dda62c01d39ac13e78a11ef7cff902aaf4062ed26919ca0999d1db98a1963"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ParallelBars_g23_c03.avi.json",
+    "sha256": "a6d6aef55c44d2d0d0c8e5572f7393afdd73c9186d1e48bf80d57b346ee3aac9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PizzaTossing_g16_c01.avi.json",
+    "sha256": "682388b840c668d53cda9b0fa03704918182f002fe348ee6dae9b19bb236f4f7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PizzaTossing_g16_c02.avi.json",
+    "sha256": "6f77a03e5d267807f6cc838fa10775680ff1e1b69beb98f2386f5d041d6932f7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PizzaTossing_g17_c03.avi.json",
+    "sha256": "492e6d1384759f24cfcbc32ad784168d4f7466739849a9d5308500bd63ef3910"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PizzaTossing_g17_c02.avi.json",
+    "sha256": "fde8a6ad76edd0fde900cd04150e7261673074697d95c718e405d4337885f3f5"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PizzaTossing_g21_c01.avi.json",
+    "sha256": "18289f460ecc6df5ef0f20bc2cf9a58df20e36d968b60276cc3455b50ab94bf4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PizzaTossing_g21_c03.avi.json",
+    "sha256": "671703b9857fa69badd76c1f8abf88d8b4a869786635ef3f61b2dc546878c36a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingCello_g10_c01.avi.json",
+    "sha256": "289c21be648ee72288bb84718a60d9b3dafc692973a3f9499f36ff0c985edcef"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingCello_g10_c05.avi.json",
+    "sha256": "2036e240a3f570bb4622bf1bd3aa5d8ba4d9539bd28ea4d4fdb4d2e683655d24"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingCello_g14_c03.avi.json",
+    "sha256": "5e146e5fb25285a34901043f1d28cb414d78395acf449b9c147dc89525f84a32"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingCello_g14_c04.avi.json",
+    "sha256": "2c5829f8e811d73f4525abcd90a45bac83cdf4928aeb03f2e35f578c3fdea3fa"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingCello_g25_c01.avi.json",
+    "sha256": "3afd4e7f8661ae4e776bda5c335488749baf5b046c973b10616a37e2fe155559"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingCello_g25_c03.avi.json",
+    "sha256": "cf265951eb491f21b9e4251fa5966c3747a2e09131fa5a725fdebc7ed9edee5b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingDaf_g08_c02.avi.json",
+    "sha256": "d5ba7e98ff3952f4d35dd4f7459907ffac6a50b6495c1746e0d4e79788938c4c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingDaf_g08_c06.avi.json",
+    "sha256": "2409e40c4f007b2cc89b6f85e1aa0eaa0b00291d1d8fb1551398c743c13f6ef1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingDaf_g23_c02.avi.json",
+    "sha256": "572d9c7e9a80bb0dcec2ce8a706f8596a9cfafd54d7866ee0e6161f0b7950066"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingDaf_g23_c06.avi.json",
+    "sha256": "2b4d5a4f2564aee6c0f9f0e820fa7f4169dd312c4db11f0c65d1c8630742a23d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingDaf_g25_c01.avi.json",
+    "sha256": "538cbf16b96350ed1ecf522150352a437c25887949d5bd72a6e007a3c43ff1f1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingDaf_g25_c07.avi.json",
+    "sha256": "b4b765d92eb547cb7ab5d42bf04d69d838b14abc5a81ab6b574592f3cb910e68"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingDhol_g13_c01.avi.json",
+    "sha256": "7815d3020ab97b8f4d23336c61643f9cc558369853693a9c437c8af4e6932058"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingDhol_g13_c04.avi.json",
+    "sha256": "fe171e5bd378308645b6340c64e1dec26524a1be2865eb6f5e522c8c7c6eb7e8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingDhol_g15_c03.avi.json",
+    "sha256": "6fabba9c33042f16b342a30690ab1d5c8800d0ebea62db9ca53e89d297f9e4bd"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingDhol_g15_c01.avi.json",
+    "sha256": "56c4458e9045741c3da79487c6b267249989aece514bdc6abd6a5bb581bfba98"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingDhol_g22_c04.avi.json",
+    "sha256": "82fe6720e387ff417e7d3b2da45ea6241a2ea0547f2f61de1fddcd251be628ed"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingDhol_g22_c06.avi.json",
+    "sha256": "887143fa86de2c1b3c1e43b47d0dd813a80d33a9f6df157d6a6870e1bcd710a7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingFlute_g13_c01.avi.json",
+    "sha256": "35e01fe0246185bb39313b28558f69a2034cba44be4e2b0587b1319ba2b8c460"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingFlute_g13_c03.avi.json",
+    "sha256": "9c95c3f2282dfebd90fed9d70f90ca09ae19e0c0b1eac9134f840ec0c684d29b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingFlute_g15_c05.avi.json",
+    "sha256": "5e54cf93b006aedea03d1ba3bf929513171ee5633cce9a47cdf4d9898749adb2"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingFlute_g15_c01.avi.json",
+    "sha256": "604f6342d3a6d33dd4d6bf6de437e06c83aa978bed37c9b75105ac099963b4d3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingFlute_g21_c01.avi.json",
+    "sha256": "c620413dad4b9bcdc76997fa7fef1108d23b8e73ad00acf3eec4713325be4c3b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingFlute_g21_c03.avi.json",
+    "sha256": "ad1efa239d89bc218030f9a6b1d50a2cbf371747d374a7eed8aaeb81964b57a3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingGuitar_g12_c02.avi.json",
+    "sha256": "6be7acd0ee2633759e753a3662ce7a89ba7ae25e85f8ac759f5b3fbb52ea82f6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingGuitar_g12_c03.avi.json",
+    "sha256": "6f0ab07e72d097ea1f5f4bff2e0f80ee3b87cddf73d2a0d830493c9ba77b6975"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingGuitar_g17_c04.avi.json",
+    "sha256": "ecc579c142527a8a75a195e9c1bc9c3cca3c6ba930cdc7b4db167bf6598fcb8f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingGuitar_g17_c02.avi.json",
+    "sha256": "f83b756e077865a867d2c626158a5cd54040932859965f91fe9271ecb21691f3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingGuitar_g25_c02.avi.json",
+    "sha256": "dfab284bc444920d7b85a175ca89b23383acd65d7b7bf7bac09e7d1951f8d4c1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingGuitar_g25_c07.avi.json",
+    "sha256": "5d4e32bce9288ece7be6653aace99528f553f986710291bcc7b6149f01768939"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingPiano_g09_c04.avi.json",
+    "sha256": "0b760921600965aca0f3b1fea5ebf4c684ebae980523325069d11c11aa2d7e57"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingPiano_g09_c02.avi.json",
+    "sha256": "2bffc01076e5a27b26e8e0547a2f4e8518e97eb81243c575a22cc7c9cec05dc8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingPiano_g14_c03.avi.json",
+    "sha256": "0323df1c7c13fbc16e4730a2bbb91533a0cf0acb43752058bf3c00371cd54cbe"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingPiano_g14_c02.avi.json",
+    "sha256": "7517c4d2760b12a4a2a154b08a177554d23b9790cb6bb2fcd69161501e510b10"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingPiano_g22_c01.avi.json",
+    "sha256": "10450010f09fb1adda71fb60db79bce8805c07c50f7a06c69f8e8f2b74df3495"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingPiano_g22_c03.avi.json",
+    "sha256": "248ff0a9a733d7e9ffe963ccd4a63a4f81bf7cd2c6888e407c1928bc873d59e8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingSitar_g09_c02.avi.json",
+    "sha256": "cf0615ca1bbebe832e7549808d4da9673f922ae0e2dece2118facfa818b57789"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingSitar_g09_c04.avi.json",
+    "sha256": "5215fbb3f485d51d1031b50e5d59d4887dbf83c45f5a82b64004d6b22c49ad9f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingSitar_g12_c03.avi.json",
+    "sha256": "331437cdf17a41f117dcfa01ad59bc88a3ff250f929adfa2ec2397d1f444c097"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingSitar_g12_c04.avi.json",
+    "sha256": "85c8267a73cdab6429f00a1377a04abb963211aa88a0b0ea9ddc577e32fafacf"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingSitar_g20_c03.avi.json",
+    "sha256": "29fbb82c661d4e433caa78ba06ca8dcdc3cca7a24752f65086353c627b64de7e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingSitar_g20_c04.avi.json",
+    "sha256": "7184cfd7409b90c755e637991431b1d6bd643e62b391ef28bd9a1df8ccb7c303"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingTabla_g08_c01.avi.json",
+    "sha256": "b7ce1350d5fd30ae04e7480c033d19805cf3d7f3ea6e7feed61664713149504d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingTabla_g08_c04.avi.json",
+    "sha256": "8c628779fd87cd40720f97d73574fcfbae9fc0fa33f14e7c8bf9812141ce9303"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingTabla_g11_c03.avi.json",
+    "sha256": "39e799209bd50908c0c8e2a911730fbb950914b5897ffacbc074b1f99ea8a16f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingTabla_g11_c04.avi.json",
+    "sha256": "dbad676612c44a131d075da1f90d8d33540b5b205dc5beac6a5224afe8a8bc36"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingTabla_g23_c03.avi.json",
+    "sha256": "47d20f02d9943a92f8b46b1132d04138864b2fb1bea6b21ac1cc80e66a99b596"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingTabla_g23_c01.avi.json",
+    "sha256": "dd3ac1dc3861403b36e91fc267b8d98b2f2a3471e97d988a6f2662b1f29a9529"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingViolin_g17_c01.avi.json",
+    "sha256": "b4f3cc9ed66a5c020fb5376d520bb82eca80d5ce5ae58ef324a325f45528f371"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingViolin_g17_c04.avi.json",
+    "sha256": "db6e675b80528657a4151a2049ccb9c33a177d9211fdd293612da1bc216e3111"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingViolin_g19_c02.avi.json",
+    "sha256": "717244ce58e52d7279abbd10bbaa3e855f9656836b3bd1b7d98ff16230c434d1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingViolin_g19_c04.avi.json",
+    "sha256": "9618602b4c988cd2d28eae6e0dac89926b410b4ca52460a4673013adef1d1705"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingViolin_g23_c01.avi.json",
+    "sha256": "af4c9e62cd91d8ac97b4a51476bff044576a2ecf2fbca342316bf62884809888"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PlayingViolin_g23_c02.avi.json",
+    "sha256": "cf47fe84864c99e517c89d418ab5bd61406053ad8cf0d8cbd904eb650721a5a5"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PoleVault_g08_c02.avi.json",
+    "sha256": "7e1eac91588a7620f6d3c927a8eb392c60266bac5fbe3ab07ab1f0b0ddb7b81c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PoleVault_g08_c04.avi.json",
+    "sha256": "323fded1bea9d324cf7f3c177d3d55c6da103846af1a0303d9d5a2bea84f033c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PoleVault_g09_c04.avi.json",
+    "sha256": "3c0908904b6d7237eb620eb029ce49d80f1c29c57ac2d39b8589632c97ac50bc"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PoleVault_g09_c03.avi.json",
+    "sha256": "880eb789e6ef1ce9829bc0db6fba9eabf10b1b76dc1d64997a4ee57738f268b3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PoleVault_g22_c02.avi.json",
+    "sha256": "5cacc90d1ab62116192e75b91a9a3a5cbe73e596d3e7184a990cd24a8fc6ac66"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PoleVault_g22_c04.avi.json",
+    "sha256": "37d1908fd1a91018c6f1c38c2a777fa3bdab0836b3781010b0bcf77d0c00d12d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PommelHorse_g08_c03.avi.json",
+    "sha256": "019ad3f9ba0876eaba6be2f8d4d914b3061600fce58210d1950fef51f5ab9858"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PommelHorse_g08_c04.avi.json",
+    "sha256": "df4ba676e13f64e03e605328de2a30c2db79a892dabf4907482774aba4506148"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PommelHorse_g12_c06.avi.json",
+    "sha256": "48418ce1cd3578512d4e3857c86c20d9acda12dc94d2979ff09f1e442c2fd4bc"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PommelHorse_g12_c02.avi.json",
+    "sha256": "62ac77dc225abcbc7aec795ede00b8b3009b0c6c7d3f8efeb576bda20dd8beca"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PommelHorse_g14_c03.avi.json",
+    "sha256": "6b4c0362e49c5c93857b993b3e1b5e65a5f0fd30fe6a9c551abf1a6190a53798"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PommelHorse_g14_c04.avi.json",
+    "sha256": "b44fad2b29d2543ffc6b9ae5cf5531692c21c3f0087fcedfd7b2b08f34820597"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PullUps_g11_c04.avi.json",
+    "sha256": "7e78955ae535ae910dbc4d604056fd1e9f9bf18995494d8e40e25e2c21f0bf48"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PullUps_g11_c01.avi.json",
+    "sha256": "ddbb7a449f5e1be3a668fdaadab29d9efd6aab301e3e477b82bdc4cac489327f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PullUps_g16_c01.avi.json",
+    "sha256": "e14e0b951887ce1eb560d6167573ff621263e696f1fc8fcfafee671af09115be"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PullUps_g16_c02.avi.json",
+    "sha256": "0e3436e4b05d7e00aa1c6afa286c8fb9b9eab760014b90e803d363a66536997b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PullUps_g23_c02.avi.json",
+    "sha256": "4e820eb83b6a1a0f6648d692f02de59463c51a0bf5615987668fd77138367517"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PullUps_g23_c03.avi.json",
+    "sha256": "c636c2ad08f81c309f8856988e457a24cee0192ed8c7ed115c5982068047cede"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Punch_g10_c05.avi.json",
+    "sha256": "9b8cfe2ec715a6a2f1e27be1dc417eb94753b807aa057f6d161c9da94ea3a28c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Punch_g10_c06.avi.json",
+    "sha256": "3a8f2ea6335f01c88f71face685e6c94aa8604ee091fca8fd0205adb38a17d49"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Punch_g19_c04.avi.json",
+    "sha256": "1ef89a26299130d371d090679992269760f8e79e60191a9ac4f692b098d54cfd"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Punch_g19_c03.avi.json",
+    "sha256": "9bbd11712658b5ad24010c75a99a7d7b7bda1547396c83f0e7dd19f772a5d909"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Punch_g23_c05.avi.json",
+    "sha256": "0480062f1e8e3f65d665a795792bd1ae827947167dbadb1aeb24acb946de936f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Punch_g23_c01.avi.json",
+    "sha256": "f23504b30b3669d36b9ca482cf5f49f01d87401c2911af1abbc4ff325e936d29"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PushUps_g09_c01.avi.json",
+    "sha256": "5347b06763dce73839766c541103d2e872907cc665792d36a3ca719dc75e186b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PushUps_g09_c04.avi.json",
+    "sha256": "4b9cea1a3c7fac4a394cb2fc2601b6dfcd4896a4d53475ea75a22bdfee16ff3e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PushUps_g10_c04.avi.json",
+    "sha256": "27b0c4808c74a2b0e36b50eaf8711236174d56b26e5c0c9aeec805e73bbf50b4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PushUps_g10_c01.avi.json",
+    "sha256": "71c211d1b829e328167264d5a4d690cb88b3ea811069e5164c09762ffa3726c7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PushUps_g12_c02.avi.json",
+    "sha256": "c5d02f141690f82a0e663f626ac05af18a391473e7fbc13427f9214a84ed5add"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_PushUps_g12_c04.avi.json",
+    "sha256": "6b2a7d5688d416552fa639f58a9f51772499424ea689d47b1acc1b1141516ae3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Rafting_g13_c03.avi.json",
+    "sha256": "b1b921c1c7e95f9c08a7d613f0d7d2442cfff4be168b353454fd8bf9e3c8d251"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Rafting_g13_c05.avi.json",
+    "sha256": "1f38c91dd9e03a5c0a4d9834c33b806ffa7d40f9cab4059edc84155f49adee09"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Rafting_g18_c01.avi.json",
+    "sha256": "fcb929a26d7511f9d52b2df9be4729dc819d403cfbcdbed312e166a73c23b463"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Rafting_g18_c02.avi.json",
+    "sha256": "ed36ceda3f80179dc628d10010fe08ecc329b07e9a358d145895d979a5a92941"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Rafting_g21_c04.avi.json",
+    "sha256": "b6d3dda1eb57a70f70176e3e541fb96a2d22ecfd2c5826daa8e6cb8378ce306c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Rafting_g21_c03.avi.json",
+    "sha256": "e8d9edd363b028eefb9265898afa208ea044716031b58bcf05b229cc044067b5"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_RockClimbingIndoor_g10_c01.avi.json",
+    "sha256": "47f0646ae95df90c3d5de68ebaa9fce74f690e4eec40a9e6dca840e424eec6ea"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_RockClimbingIndoor_g10_c06.avi.json",
+    "sha256": "0949cce8d995141da43e53d4c65b42a5976e58c43cabab3c00dbded5600d427f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_RockClimbingIndoor_g11_c03.avi.json",
+    "sha256": "6a456de99d9ef00fe5ef9e02569ca125528830ec2248980755af629c0805f465"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_RockClimbingIndoor_g11_c04.avi.json",
+    "sha256": "f388625bd1cfb602f0a2e79c03e421101eb38813cd6e2277e83a090cc05293b3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_RockClimbingIndoor_g20_c05.avi.json",
+    "sha256": "f197307466cbba5d5f3fb3e20e5953bb99399c36515f19b5b365886e1a9ab050"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_RockClimbingIndoor_g20_c03.avi.json",
+    "sha256": "ff9cd0ec4a4bd2cd8aecfc9316ddc0b7809efe532644cdfe521b7ef9de73414f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_RopeClimbing_g18_c02.avi.json",
+    "sha256": "bc59e5fe09259b01f52f7ed5df309690327506b608369171aab2de92a4ff4225"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_RopeClimbing_g18_c03.avi.json",
+    "sha256": "1f28bd83754e2d7fe728de4e4791ddce319689dd0e43d20644bd3c2a8b77ebc0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_RopeClimbing_g22_c01.avi.json",
+    "sha256": "a39d85994ceaad9e6fe321da4ad9b8536fecfe216d31c0122dea30609d995476"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_RopeClimbing_g22_c04.avi.json",
+    "sha256": "279a1907a5c36eee84f25e464769709bcb79ea8d3aed5e5d333924171ba3916d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_RopeClimbing_g24_c03.avi.json",
+    "sha256": "c37a0d2793a28833fc086f822076fca067627cb20dd09e605f9529c7e0eab9db"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_RopeClimbing_g24_c01.avi.json",
+    "sha256": "8324635c117413dfcdf01fc55b376799acb5548fe2c942cf5b6cf8506d6a8ee0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Rowing_g08_c01.avi.json",
+    "sha256": "0909b3b2f348c7e92495243b53ef7fca4b984bfc25e0c2ab3988f115bc7707c7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Rowing_g08_c02.avi.json",
+    "sha256": "2b2ca00ee20f5673b51ceb1b26e76d17a7347b2929bedabd9d04f18944a4c1c6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Rowing_g14_c07.avi.json",
+    "sha256": "4ef546f3963def7b51ee6f5e765843dd8f4cd11cdad5d3838a77dd83db3bf109"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Rowing_g14_c01.avi.json",
+    "sha256": "956c973d6cb388629952953445fc564f06486e219b9604ffcba24ed4ebf867c6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Rowing_g25_c01.avi.json",
+    "sha256": "7e2962338f37da2a72ff7536093e0ab6e3bbed6c7b067c9458a9f24adc69ff33"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Rowing_g25_c02.avi.json",
+    "sha256": "ab7c797393a678d16efb8e0e731b78c85b9dd1ff68e902b4fcbc10a0e38de3c9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SalsaSpin_g09_c03.avi.json",
+    "sha256": "1f3ca026ccbee55349065362bb2d3c44dfeb8d2b4ef7d4ea3d7db31006094e95"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SalsaSpin_g09_c04.avi.json",
+    "sha256": "c0fbfdd7997de4b731f2e9609daa34c6deb0142a852d6e3e9ed07a498b868181"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SalsaSpin_g10_c05.avi.json",
+    "sha256": "540b1704332c440325389ca424aa114ace76cda055e97381e8415c95b16f3f53"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SalsaSpin_g10_c01.avi.json",
+    "sha256": "687d486bc2dc2c40a1a52a886dc31dfdf895faaa8dedc7a77d3a748b89a18406"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SalsaSpin_g12_c01.avi.json",
+    "sha256": "823ac4629e7d9b8728410fd8f56831856e1e9346f92943fe728f4ae3ebdaae77"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SalsaSpin_g12_c05.avi.json",
+    "sha256": "a499019b4abb9803e373664b2976572b4f620f724cef9c2649ba9ca6027ce7de"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ShavingBeard_g13_c01.avi.json",
+    "sha256": "d75bde5cd71a26996b11b813c9ae6f98e13c000a72a51f9057ee45f062771b1d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ShavingBeard_g13_c06.avi.json",
+    "sha256": "a0ae8bd9730df176bea73563dfd027b844a8e284619651a4745bdce645304198"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ShavingBeard_g17_c04.avi.json",
+    "sha256": "ef2b1585e54ca87457eb37dbe132dec3ed1050f1a5d9ff008618bd100cc1b629"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ShavingBeard_g17_c01.avi.json",
+    "sha256": "6db60d5e9e30b5c39f6669603fc9121287e9ff5fd810f668aa5bd31ae7151139"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ShavingBeard_g24_c06.avi.json",
+    "sha256": "a923e5e7b627475dafd18dad8b3bb76e1efe856285e999a1144c9300122934ad"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ShavingBeard_g24_c07.avi.json",
+    "sha256": "56a69d09f8e28151ef40ae991a7da09fc48cd6e870f31cc52a2ea878a802caad"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Shotput_g13_c01.avi.json",
+    "sha256": "2c10edf73ca2b4b64d21d15937edb0999dd307d9dab3f32bc080b5945112f053"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Shotput_g13_c04.avi.json",
+    "sha256": "3d569810a8cdf0e1b5dbe5734a8d825d3e0ba18915677b20bfeea4e0039f9abd"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Shotput_g19_c03.avi.json",
+    "sha256": "4f062bf389cc741b2ee6f00b1223315a21b937984facb5030f3aae04c1e6a5d9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Shotput_g19_c02.avi.json",
+    "sha256": "8a5445e53ba69da008bc1f83858952412abfaff12c8ad975f575f47289297d9e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Shotput_g25_c03.avi.json",
+    "sha256": "e1c7eca8a3c4059fed1a1d9bc5cc0a40efdcbb6324ab53468c345064b0771c22"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Shotput_g25_c01.avi.json",
+    "sha256": "eb35e90b7b740e8a9e3314c6ae8b54c331656ba206807b31dfdb27e924fc4e0a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SkateBoarding_g08_c05.avi.json",
+    "sha256": "d69bfa30f9e35b05455e49cc1ea940bef9f2aa3152bc5c161814aaeef6b38030"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SkateBoarding_g08_c01.avi.json",
+    "sha256": "1496d8f1f24e438a9fc444583c0fb66c77efc0213957dd6fa5e9a52b2169a4f5"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SkateBoarding_g15_c01.avi.json",
+    "sha256": "a09b8ebc74fc49eb0fbafebada834bfaab11982283c93e6c6b764dc5e6ee641d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SkateBoarding_g15_c06.avi.json",
+    "sha256": "9b1c3e9b0e8e44cb9585ec4e8d1f968a96a597f95c3ca387b82c1222a5ba7901"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SkateBoarding_g23_c01.avi.json",
+    "sha256": "f305ea8b07639dc01411a3d451d03c62ecdbc7533d52932568bd4ea8764c53eb"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SkateBoarding_g23_c02.avi.json",
+    "sha256": "b9c952f13955c04b7fca4d22c78dd9198be738cf7b246c08ccce0f153a25ab91"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Skiing_g13_c07.avi.json",
+    "sha256": "ce31e8f31c5d1957fa87ab6946c19ac45e9212c967d1d676222a8f670139c0e1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Skiing_g13_c03.avi.json",
+    "sha256": "916cdf0ba7b9937e33abec92df63f5166bcbe0adb3a95ecaa78f0425fb5a7c7a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Skiing_g15_c04.avi.json",
+    "sha256": "9276ecf5f16661b96285efcf9ddbd2f7d93e5876713c59b7334059980af46f73"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Skiing_g15_c02.avi.json",
+    "sha256": "e0d57c503c1135b978b830891e709db37ab9d1166304cdb679658723283dae36"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Skiing_g20_c07.avi.json",
+    "sha256": "294bab16f0fee2810ff6292b10d1156398746beadd1deb8faca5c67ce3f09fa0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Skiing_g20_c01.avi.json",
+    "sha256": "ea76f71feff6095051283d3d56954ac0cc526047182ab12908e108b2dc4abe68"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Skijet_g08_c02.avi.json",
+    "sha256": "4f7af546a6426d54b1d52cb0a6a0a09032a49cd4fa511acc39c007fe05caebff"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Skijet_g08_c03.avi.json",
+    "sha256": "9dfaef98a99ca2d42c7cf4eeb5f38e1be2984684bcf70f0fca051b74496ad8ff"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Skijet_g20_c02.avi.json",
+    "sha256": "7ab7ef993580bb83739484dd6f2097df03f7be2ce00589fcdfec76656cbdc5fd"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Skijet_g20_c01.avi.json",
+    "sha256": "3c96bb4d92111bae8e29805c2522f393b13aea7bd7659177af657b22abb290ce"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Skijet_g23_c01.avi.json",
+    "sha256": "ef1dd462ff086abef2ac20072b46fb782d843af81695a330003ef10a5ba8f1cd"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Skijet_g23_c04.avi.json",
+    "sha256": "adc558dbd6d2de93f645dc01891c376335c53be7b745dab8567719b9e5293072"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SkyDiving_g15_c03.avi.json",
+    "sha256": "cce09a0911619fa5c77a8ad53b7a193c904d1dd4fac94ccf726d50dca4b5e5dc"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SkyDiving_g15_c02.avi.json",
+    "sha256": "7ed7c20ee4bdb3af6c0418a54bfa351e5d53a76206ea5e10be94eaab60314040"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SkyDiving_g20_c06.avi.json",
+    "sha256": "05e6cb20c77d5fc505a89083e34606423ae3fa0de406a499f8de56af5ef6a212"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SkyDiving_g20_c04.avi.json",
+    "sha256": "ddbf942801235566d93fb8f28c9384ca1df484e446ec4ba4699fb7c91f1b96f1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SkyDiving_g22_c04.avi.json",
+    "sha256": "9b2541070f4547110e26d6a0e195cbc103c362d0df7feeded02e3d0bc43f25f1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SkyDiving_g22_c02.avi.json",
+    "sha256": "7b2d4c0799526077dedc95bec46ee8a13b08fa1cfd5f0c423e56b3c331a88875"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SoccerJuggling_g10_c01.avi.json",
+    "sha256": "22b8de3d0dc5df55520b06e5f7e5d8b20977a859eb576873548cbf5317f03676"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SoccerJuggling_g10_c03.avi.json",
+    "sha256": "5bab67a35b1ad72bb13f69caad3ee95589c50361375e88868717051ed64b99af"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SoccerJuggling_g16_c05.avi.json",
+    "sha256": "a6111b19b5ab3745118ddd6ce7612fc274d09f5c13c2dc5a47e3a07457fe7ebc"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SoccerJuggling_g16_c02.avi.json",
+    "sha256": "741ba6cca0c7321fc9351d9f646c0693b3f336afe6a6613eb4af053f29d8bb42"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SoccerJuggling_g21_c02.avi.json",
+    "sha256": "9b127b691731c4a2d9dddf9f72278bf8985b45cbbfe1d3c47716cd211c05decc"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SoccerJuggling_g21_c04.avi.json",
+    "sha256": "fabe463aaabd10dfa872dd945923d76d097c046994c64324ada2dd8a46a31819"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SoccerPenalty_g11_c01.avi.json",
+    "sha256": "8f895230ebae4aab8f1b0da833a95657cc9932c7b864b8c002c64e801725bb9d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SoccerPenalty_g11_c04.avi.json",
+    "sha256": "24adeabd9e7ae741d8bea6f094dc34b17f2e57e3338ea8e3bbbcb22687984036"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SoccerPenalty_g12_c04.avi.json",
+    "sha256": "c0b04f72b73027dc81b51997cf3701cf92ab55026680ccfe936cbe500d9a8d99"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SoccerPenalty_g12_c02.avi.json",
+    "sha256": "c3cb9f7bbe4e72e630363ce1cd654670454df611e52873c82b14041b73665286"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SoccerPenalty_g18_c05.avi.json",
+    "sha256": "f8d020981724016da027b5ab46f006238d3c2c7cbda2e0a03c2c4885cc4fc5a0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SoccerPenalty_g18_c01.avi.json",
+    "sha256": "74ecb161b2be32f09d949c1fc31e17dd22b01fa1f974d35e9bd9563fc71d4139"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_StillRings_g13_c03.avi.json",
+    "sha256": "682f154571c0f396f3aed724a81c458aa22db6f82fb02e8b7ecbb6c954f226f4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_StillRings_g13_c01.avi.json",
+    "sha256": "24ba879cf2711c67097881c0fc9059c1238d041d556f8d7f1a793a4c5986b2d7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_StillRings_g17_c03.avi.json",
+    "sha256": "a45e70035cf146abd37118015e3e6527fbc246e6ed34bdf0bd5e4360aaed9106"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_StillRings_g17_c01.avi.json",
+    "sha256": "276dfca43329aace8042392a36ba396914c2c0f206f23f2e439fe542e025f8c6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_StillRings_g25_c06.avi.json",
+    "sha256": "69d50f4932e4013019657adad6c6c4ca54de56f65ef311a733bf45fc77f4c107"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_StillRings_g25_c03.avi.json",
+    "sha256": "36d6edb1eb15d6facf69b2a8913838a32f4de4f60f645cbce4bc2db010aefaec"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SumoWrestling_g14_c03.avi.json",
+    "sha256": "308573ea5bc283cbaef29945e7117b322b621ba4f515807a5da7950b8dfbeb4a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SumoWrestling_g14_c01.avi.json",
+    "sha256": "a0c2142f0e3d110d031365b58eab79493b2bb5e7ca84464fda662ab9a13a6072"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SumoWrestling_g24_c01.avi.json",
+    "sha256": "5d8933899ee34cdb3546ad17d67209d4f8d5e8063d99638f5c7ac43eeb50cceb"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SumoWrestling_g24_c04.avi.json",
+    "sha256": "d18d34d64ffb22b3bc8abbc192b397e8529fa27f3cf32058c06a36b8205da2c4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SumoWrestling_g25_c04.avi.json",
+    "sha256": "e388a5c2f060196bc00b1918449b59b9c3252fc971ac708cc87c18af5b6227a3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_SumoWrestling_g25_c03.avi.json",
+    "sha256": "a77fe19637ef4c2b17aa61e15cee7f315df1d74ec3a89ac588bb65a1901cb82e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Surfing_g19_c02.avi.json",
+    "sha256": "f788f6dd128799110f0441998080949884eb86e01413ba056f43ae20ed686d3c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Surfing_g19_c01.avi.json",
+    "sha256": "f371a9cc8addad3aab9047be6537c7c415caa614405976a3a07216cbc1e0ddb4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Surfing_g22_c04.avi.json",
+    "sha256": "0529a338206d536cf0c6cf997aba4bc9061b05c37dd95f56911f494d50d7568d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Surfing_g22_c02.avi.json",
+    "sha256": "30a4ba762aa41a311f1a288c9ff2df085974d0557a822af9a1e9647a5d5664c0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Surfing_g25_c02.avi.json",
+    "sha256": "22827023aab05ec5cd8eaae9c77d441ec282d873c29ae937421baf638e06e134"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Surfing_g25_c03.avi.json",
+    "sha256": "a77ddaec714150be9e3ad4beb401826adad1233ca0b237f1ab721b54da215823"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Swing_g08_c05.avi.json",
+    "sha256": "b082c65adf34231c21d6fc4f561bcc0046f205fed11c2644dc71b9f63183c3e8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Swing_g08_c04.avi.json",
+    "sha256": "cac70181a0a49d88ded9577ef0ad5ae875a14a279c144c1520af58e698cf2177"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Swing_g22_c01.avi.json",
+    "sha256": "77b3eea0fc3c9f60dc37d9fdc817ce7b010170b03ce1e5e831c55f29d7209710"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Swing_g22_c02.avi.json",
+    "sha256": "a1e5c29b916ca1b21fcb9bc41957e8d39ab41722f05b6e5499b087f3684815b3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Swing_g24_c05.avi.json",
+    "sha256": "548e5622a522bddb1c6f288d9f894c5e53f94020e674b054d67cdef207bdd66d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Swing_g24_c03.avi.json",
+    "sha256": "5b54b31920e2b40c94f789e471c728b57e905961df2ae492ed7d90fe70ec8f6d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_TableTennisShot_g09_c04.avi.json",
+    "sha256": "74626d7fe24e88a663e9d038b1ce7c7d0b538b3da60d908f149e03ebad73a57c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_TableTennisShot_g09_c05.avi.json",
+    "sha256": "943fb9eb2be5341b87fbf1f5a129f6ae213eb0f3115c4c0537cc33cdff45a914"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_TableTennisShot_g13_c04.avi.json",
+    "sha256": "07b9d7779d102b3c504765c0ee84c3f248f690ac2dcba7694a86bbd5515bdda4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_TableTennisShot_g13_c03.avi.json",
+    "sha256": "1e49fc298a5c3994100004d46f53b9b64a2ec7c7e64ef745c77a576740cf2fba"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_TableTennisShot_g25_c07.avi.json",
+    "sha256": "82f8bf3c6e4920267b08cb1d4dc5af5f9e46fb087696dec10bb94e55a4429d2a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_TableTennisShot_g25_c01.avi.json",
+    "sha256": "cc267398fa4b03e378f4469ba568a896217d3684deea8d63b859bef2d99cbe63"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_TaiChi_g18_c03.avi.json",
+    "sha256": "072403fd7949564b38cf7aef30163e5f18a1c9d7591a799ff0dc08dbca8ec870"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_TaiChi_g18_c04.avi.json",
+    "sha256": "77c756d5e383dcb45007d141f342a090eb8f10577aa1370c150a5a152d0c8056"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_TaiChi_g20_c04.avi.json",
+    "sha256": "77a5015be65f3de2dcb0f5acdca16189d4cbbb23ba6a0ab1f2ae18878cf4583a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_TaiChi_g20_c02.avi.json",
+    "sha256": "243ad87fa52586d7523eb043662f42a531d7cf725c9b2a643afa67c877e9ef1b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_TaiChi_g21_c01.avi.json",
+    "sha256": "62229d83c2dbe35aa200320f866e5102dedce089884543bc3943cc23bbdf8377"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_TaiChi_g21_c04.avi.json",
+    "sha256": "20bfb8f0d67c9631940977e778b62e1a14775ad759d7380c9fd39e9d02c2d928"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_TennisSwing_g19_c03.avi.json",
+    "sha256": "63af3667c375eb2e19f46f1296dfe0b6af5397aaacdbe7cc302d4958efb989a4"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_TennisSwing_g19_c05.avi.json",
+    "sha256": "f521b34f8fe0c6352a5981b300b515530ae5823822ba23bd0a4d698e5d6b5ac3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_TennisSwing_g21_c01.avi.json",
+    "sha256": "a823fbee3b60135e159e5c81edd1940448784b1910208233491f571c4d3acbbb"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_TennisSwing_g21_c05.avi.json",
+    "sha256": "a0e7d723d1274b4799b9ff8065c4717a2c81eaf51c1fe1648da40a9cd15015f0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_TennisSwing_g24_c03.avi.json",
+    "sha256": "379f12601007efe90f096918d14eefd3f9071a084ab5feaa63aa7cba5ab58bea"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_TennisSwing_g24_c02.avi.json",
+    "sha256": "069a357ed427ed673a278cc8147d436c9fe81421467b1fe53c4d127c358feb00"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ThrowDiscus_g09_c01.avi.json",
+    "sha256": "082aeb8ef9a30636e8f9917421d9c2eb6acdbdb21442498dc2e134837a89d608"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ThrowDiscus_g09_c06.avi.json",
+    "sha256": "d6090c5c2e8e0c4e5eabe5eed7d65dc474cd92f5d13dc9703b1f20d46e4c7822"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ThrowDiscus_g11_c06.avi.json",
+    "sha256": "6f9265509fd28b2199995fc1793c850e243cb345331eb8451a7275a97e93555c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ThrowDiscus_g11_c05.avi.json",
+    "sha256": "39779f22f8ae9a352d55d780132f7f03e7ae5497012bfd3a1d61f8b7ca8620a3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ThrowDiscus_g23_c01.avi.json",
+    "sha256": "e6e6a379724eefcc3c173d588684bee481d8c384ece828e0b44f06e6913462df"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_ThrowDiscus_g23_c05.avi.json",
+    "sha256": "08d88be766136829170ef6aeb729f50960ad1edec32eb5bba7d8a9fdd6de03a7"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_TrampolineJumping_g10_c02.avi.json",
+    "sha256": "e87535e9b9b1a1432c0c9b4af5eefcb679056ddbbfc32bd4facb3a5841de0412"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_TrampolineJumping_g10_c01.avi.json",
+    "sha256": "e34d8c3530127982bdfa965879140caded3bc20a7df339c0b5226b1398eeb8d3"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_TrampolineJumping_g15_c03.avi.json",
+    "sha256": "585e71a9ea449e75731606a7366b245014bb4b16b9865e11f4b9b41a6c64f915"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_TrampolineJumping_g15_c04.avi.json",
+    "sha256": "a3502cfa68a7317e8e047b6b0c07c0e8c1dfaa860d12075fac433f6dfb78d756"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_TrampolineJumping_g16_c04.avi.json",
+    "sha256": "5aa26b2ca6a0be593ee0b3d765e62c523a2c7d548a1730ed70299f750eef9ae6"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_TrampolineJumping_g16_c02.avi.json",
+    "sha256": "a02c97071c898c41d8a771f41eff164d5dad6697ed0c2151f4581a58412566af"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Typing_g11_c01.avi.json",
+    "sha256": "1aff8ab4ec4f9fb1828ca8e637c14ba1daa545ea0519a676c816bb014dca79dc"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Typing_g11_c03.avi.json",
+    "sha256": "b321ffb27710bd2e7311fb301663089dcc8b5e6c46560a56b559e5697ec6aa3a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Typing_g17_c02.avi.json",
+    "sha256": "97a132364c353c3ef1dc4730fba82ad1df3b8e09eeb49d8e5321a11690533a98"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Typing_g17_c01.avi.json",
+    "sha256": "fd19435303af450a224044484e72c43b4ebe380ff656acff206d9281d9fe955f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Typing_g19_c01.avi.json",
+    "sha256": "ce01a0d4b67ed0178760ffd8d7955a2a50a465f5181581ea02383c0208404f46"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_Typing_g19_c02.avi.json",
+    "sha256": "83cd6f052b85295a4a4653b50e11fd671a467949a937bd4750024f3e3290c46b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_UnevenBars_g20_c03.avi.json",
+    "sha256": "6325ed203f1206032767723e4c3f283e501fe37ae1f7e93ce7a0c5155e4b17e9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_UnevenBars_g20_c04.avi.json",
+    "sha256": "b53aa5083495a1f322d72c7d62fb4f51129ee06f5f5146bcf8052c17b62dce1e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_UnevenBars_g24_c03.avi.json",
+    "sha256": "9214a34dbfcd67f3bbef202ed569888fa2eb97b625c48b376be13fd94d8ecd27"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_UnevenBars_g24_c04.avi.json",
+    "sha256": "b513f878bd393fbdd684270422f3df0bdc533e0305a03b0ce966b86c86c0715b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_UnevenBars_g25_c03.avi.json",
+    "sha256": "e7d1dc68922eedcacf1393dd0d86e3ffe7e7288a834c128f840e33cc4dfa6e3e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_UnevenBars_g25_c02.avi.json",
+    "sha256": "51da134944475fc76f9a3a6c02337473c950b0b3df9f6d78af99115616cfc3d8"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_VolleyballSpiking_g12_c01.avi.json",
+    "sha256": "68bde70fcc9d6877f8272def681d2ef2b1e1f8a8972afd31f3cce0c20f47b369"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_VolleyballSpiking_g12_c03.avi.json",
+    "sha256": "23f7703fc4c33a7efb0fbb9cbbc0288b51424552b6e814fd8ef3f9a9ca41277e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_VolleyballSpiking_g20_c03.avi.json",
+    "sha256": "7a9353af636070688c041854fdc48c9d8afd64d21c1f89e23e12d3b7a46bd2da"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_VolleyballSpiking_g20_c01.avi.json",
+    "sha256": "1839058ec6ab82b25d6ddc7ceb1a66682b2f0c7e3f6e7367df45932ce785b8ff"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_VolleyballSpiking_g23_c02.avi.json",
+    "sha256": "90c76272426655f14f0967519f1887e8ab916eac9670d2bdca5d1dcc7c5a1bf1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_VolleyballSpiking_g23_c03.avi.json",
+    "sha256": "91de034e3a9651b798fb05a4d41e039e2b7e53ff7aec88b39ea5c737bc407789"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_WalkingWithDog_g09_c03.avi.json",
+    "sha256": "ee41cf04262528b805cf55b7b4694325ccf723d471235384e1b45feb5537c61a"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_WalkingWithDog_g09_c02.avi.json",
+    "sha256": "27fef682edd5f3969c571a1947edbc13cbc3c62956914c9edb8b26f2ec40a494"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_WalkingWithDog_g15_c02.avi.json",
+    "sha256": "b68e48a67c168ec4f73df5b97d32e39970e7efa9a52d34ffabac7d086a025569"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_WalkingWithDog_g15_c03.avi.json",
+    "sha256": "28a28e949d8662ebc4a76f6510d717f0de59063927c6b6b937feae83d9df41cf"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_WalkingWithDog_g19_c02.avi.json",
+    "sha256": "4cdc09f8222139dc6a35eb56a020c1eef1d02c2d9c36810ff7a2d1d30b82415e"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_WalkingWithDog_g19_c01.avi.json",
+    "sha256": "4867981913a737145ecffa0d9794d312c8599fb8c0612809ea1dea7a6f24735c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_WallPushups_g15_c03.avi.json",
+    "sha256": "4ad43c849f87bb38d4ccaf0e55107386f739b639895b2bdec1a1c7bacc7a663f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_WallPushups_g15_c05.avi.json",
+    "sha256": "d31cb0d6733d8b2146238d05b591093d007b6cb9451e7af349400ee1cd90dd50"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_WallPushups_g17_c05.avi.json",
+    "sha256": "d899edf008ac3f10721d200b6fd05126ba1d86061b5f0d838794bc3ee07774db"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_WallPushups_g17_c03.avi.json",
+    "sha256": "aa8c4265474b0d7de8da526a31ab48dd9558bcd897c6dde4fa5af776febf470f"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_WallPushups_g21_c05.avi.json",
+    "sha256": "6fbf8709decc341deecb93ce8b12d34683c34edaffc3a1edbb32334cc04d038d"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_WallPushups_g21_c01.avi.json",
+    "sha256": "c82d3e55297835b94f90dc6f283e43f0a3e8a636e75f8d262215acb585f902ed"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_WritingOnBoard_g16_c01.avi.json",
+    "sha256": "cf8ee36d725b00e080028f27c9b015a2d09dc3cb33df42a259ba47eb146d33a0"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_WritingOnBoard_g16_c05.avi.json",
+    "sha256": "a8c01bc513d7b5c8412033c8c2fa318c19668ccfcdbb396633857056d5a23646"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_WritingOnBoard_g18_c07.avi.json",
+    "sha256": "11f52062a3142699424a84eb57284dbf402a26cef83f9a40ff5828cfd1015be1"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_WritingOnBoard_g18_c05.avi.json",
+    "sha256": "08e662bd58271479221aa3e95549abf571db8fc0bdfcd0c5269fff05980e9748"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_WritingOnBoard_g19_c04.avi.json",
+    "sha256": "003a98e7b698a228cf7b4fd3eedaea4dd6b8c76ea3fec6f2e2350b70ee051c5c"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_WritingOnBoard_g19_c01.avi.json",
+    "sha256": "5e0cda1c67c8899fdfcdd62f841dd341bdfdb6ff1ed4b8b6ac86664427a5849b"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_YoYo_g19_c02.avi.json",
+    "sha256": "920326f59a8488790de3674e695141de889e0b69bd37fed1c509d9303417be75"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_YoYo_g19_c06.avi.json",
+    "sha256": "8b07aeb64f6006c5afa8e236d12b5866811052ad71cab4fa8083129742379daa"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_YoYo_g20_c04.avi.json",
+    "sha256": "384d089b900d5d9d47133dd7b04cc1785a6d1a3b1f558e2710353ca3138a15bb"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_YoYo_g20_c03.avi.json",
+    "sha256": "7038ab7f046d2c7d6afb58edb22d6bef6d21d1a437545c84e184b54b98aa41b9"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_YoYo_g25_c02.avi.json",
+    "sha256": "ba6618ff77b13ad066388dcc93bd9f24e81ba4cef01f5a7c36a55a4c1ab75250"
+  },
+  {
+    "path": "data/source/ucf101_proxy_replication_v1/analysis/development/v_YoYo_g25_c03.avi.json",
+    "sha256": "2d0c4d33bee9240add9cc462dc1a6daa01f79f14ae2c72b6312e599e0471d0b3"
+  }
+]

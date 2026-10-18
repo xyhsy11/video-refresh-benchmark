@@ -1,0 +1,123 @@
+{
+  "stages": {
+    "baseline_verification": {
+      "status": "verified",
+      "at_utc": "2026-10-18T09:55:19.595681+00:00"
+    },
+    "metadata": {
+      "status": "prepared",
+      "at_utc": "2026-10-18T09:55:22.263729+00:00",
+      "classes": 101,
+      "official_clips": 13320
+    },
+    "acquisition": {
+      "status": "prepared",
+      "at_utc": "2026-10-18T09:56:54.157377+00:00",
+      "archive_sha256": "ca8dfadb4c891cb11316f94d52b6b0ac2a11994e67a0cae227180cd160bd8e55"
+    },
+    "population": {
+      "status": "prepared",
+      "at_utc": "2026-10-18T09:56:58.866114+00:00",
+      "clips": 5030
+    },
+    "training_smoke": {
+      "status": "pilot",
+      "at_utc": "2026-10-18T09:57:30.160960+00:00",
+      "projection": {
+        "actual_training_clips": [
+          "v_Nunchucks_g22_c03.avi",
+          "v_Biking_g19_c02.avi"
+        ],
+        "encoder_calls": 32,
+        "elapsed_seconds": 2.6383846999999605,
+        "projected_collection_seconds": 6635.537520499901,
+        "projected_feature_bytes": 335998970.0,
+        "free_disk_bytes": 197385793536,
+        "native_head_verification": {
+          "strict_loading": true,
+          "shape": [
+            1,
+            2048
+          ],
+          "projection_shape": [
+            1,
+            1,
+            2,
+            2,
+            2048
+          ],
+          "native_mean_max_difference": 0.0,
+          "affine_mean_max_difference": 9.5367431640625e-07,
+          "native_projection_executed": true
+        },
+        "no_test_features": true,
+        "recorded_at_utc": "2026-10-18T02:53:38.087042+00:00"
+      }
+    },
+    "train_features": {
+      "status": "prepared",
+      "at_utc": "2026-10-18T10:01:04.753198+00:00",
+      "clips": 3020
+    },
+    "development_features": {
+      "status": "prepared",
+      "at_utc": "2026-10-18T10:01:27.189750+00:00",
+      "clips": 602
+    },
+    "head": {
+      "status": "prepared",
+      "at_utc": "2026-10-18T10:01:27.378880+00:00"
+    },
+    "development_analysis": {
+      "status": "pilot",
+      "at_utc": "2026-10-18T10:01:27.664731+00:00"
+    },
+    "precision": {
+      "status": "pilot",
+      "at_utc": "2026-10-18T10:01:31.475128+00:00"
+    },
+    "evaluation": {
+      "status": "frozen",
+      "at_utc": "2026-10-18T10:01:32.632845+00:00"
+    },
+    "test_features": {
+      "status": "evaluated",
+      "at_utc": "2026-10-18T10:09:58.754815+00:00",
+      "clips": 1408
+    },
+    "quality": {
+      "status": "evaluated",
+      "at_utc": "2026-10-18T11:01:49.178671+00:00"
+    },
+    "timing": {
+      "status": "evaluated",
+      "at_utc": "2026-10-18T11:14:45.249520+00:00"
+    },
+    "figures": {
+      "status": "verified",
+      "at_utc": "2026-10-18T11:22:45.825016+00:00",
+      "record": "figure_review.json",
+      "layout_amendment": "post_exposure_amendment.md"
+    },
+    "final": {
+      "status": "verified",
+      "at_utc": "2026-10-18T11:22:32.727477+00:00"
+    },
+    "execution": {
+      "status": "verified",
+      "at_utc": "2026-10-18T11:22:45.825016+00:00",
+      "reason": "All feasible stages completed after documented interruptions; original interruption evidence preserved in resume_sessions.jsonl and execution_notes.md"
+    },
+    "verification": {
+      "status": "verified",
+      "at_utc": "2026-10-18T11:22:45.825016+00:00",
+      "record": "verification.json",
+      "amendment": "post_exposure_amendment.json"
+    }
+  },
+  "status": "verified",
+  "current_stage": "final",
+  "updated_at_utc": "2026-10-18T11:22:32.727477+00:00",
+  "resume_command": "& .\\.venv_temporal\\Scripts\\python.exe .\\run_ucf101_proxy_replication.py --resume",
+  "audit_command": "& .\\.venv_temporal\\Scripts\\python.exe -B .\\run_ucf101_proxy_replication.py --audit-only"
+}

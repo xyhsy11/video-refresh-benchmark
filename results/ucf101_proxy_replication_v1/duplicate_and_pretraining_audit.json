@@ -1,0 +1,101 @@
+{
+  "at_utc": "2026-10-18T02:53:10.035097+00:00",
+  "historical_manifest_evidence": [
+    {
+      "path": "results/cache_drift_v2/dataset_manifest.json",
+      "sha256": "37e07c40dc8e872fd6c2d3ee972f7c6a4ef67831372bc9f66378b08c7da3f357"
+    },
+    {
+      "path": "results/cache_drift_v2/split_manifest.json",
+      "sha256": "98349efb6ebf53be8a8e8f2331592fa36c0e8153bd83b2beebf57d9aa9393a35"
+    },
+    {
+      "path": "results/fresh_refresh_confirmation_v1/frozen_test_manifest.json",
+      "sha256": "2b250fd0c858f710c9f5c621283e4e8c048d3df430ea4b2fa16bb567a9b83b90"
+    },
+    {
+      "path": "results/motion_overhead_2026_10_11/manifest.json",
+      "sha256": "1dc3d04eb3e04ec47cbbfa5c8cc88b3aa8607f9a848a63da149b4ecd9be417d9"
+    },
+    {
+      "path": "results/motion_setup/manifest.json",
+      "sha256": "1dc3d04eb3e04ec47cbbfa5c8cc88b3aa8607f9a848a63da149b4ecd9be417d9"
+    },
+    {
+      "path": "results/pilot_2026_10_10/manifest.json",
+      "sha256": "1dc3d04eb3e04ec47cbbfa5c8cc88b3aa8607f9a848a63da149b4ecd9be417d9"
+    },
+    {
+      "path": "results/recognition_baseline_v2/dataset_manifest.json",
+      "sha256": "9b403e07e4d547ed3ae40046809d2afe87f0dedfab287d79f9dd08845c945992"
+    },
+    {
+      "path": "results/refresh_objective_alignment_v1/dataset_manifest.json",
+      "sha256": "2c213efd53cc6dbd836b176f784bcedef8e392cfec2a26cb50212e1e93e4b49f"
+    },
+    {
+      "path": "results/refresh_objective_alignment_v1/confirmation_manifest.json",
+      "sha256": "2c213efd53cc6dbd836b176f784bcedef8e392cfec2a26cb50212e1e93e4b49f"
+    },
+    {
+      "path": "results/temporal_refresh_generalization_v1/dataset_manifest.json",
+      "sha256": "295bdcf2d9a2670f0a1aa5c24435ac0b9660892df1f9ca1ff34009882c8e62d1"
+    },
+    {
+      "path": "results/temporal_refresh_generalization_v1/train_development_manifest.json",
+      "sha256": "d9e1a85e5c8d1dc4330f02f855c5ab51f6c08b083b9120c7a7363364646a7582"
+    },
+    {
+      "path": "results/temporal_refresh_generalization_v1/evaluation_manifest.json",
+      "sha256": "4df0126bace72acf35417c5367e6eb29c80e4e82b7bac75536413c2a3fa964a6"
+    }
+  ],
+  "historical_hashes": 910,
+  "historical_source_ids": 1810,
+  "edges": [
+    {
+      "a": "v_PlayingGuitar_g22_c05.avi",
+      "b": "v_PlayingGuitar_g21_c06.avi",
+      "reason": "conservative temporal pHash candidate",
+      "cross_role": false
+    },
+    {
+      "a": "v_BenchPress_g07_c02.avi",
+      "b": "v_BenchPress_g22_c05.avi",
+      "reason": "conservative temporal pHash candidate",
+      "cross_role": true
+    }
+  ],
+  "quarantined_groups": [
+    [
+      "BenchPress",
+      "g07"
+    ],
+    [
+      "BenchPress",
+      "g22"
+    ],
+    [
+      "PlayingGuitar",
+      "g21"
+    ],
+    [
+      "PlayingGuitar",
+      "g22"
+    ]
+  ],
+  "official_K400_training_annotations": {
+    "path": "data/source/temporal_refresh_generalization_v1/k400_train.csv",
+    "sha256": "a5f585f790f35c080aa13964f14de63171e909575feb843efc1c29bb5cfc6236",
+    "rows": 246534,
+    "parent_IDs": 246534,
+    "UCF_parent_identifiers_available": 0,
+    "mapped_UCF_overlap": null,
+    "reason": "Official UCF filenames supply class/group/clip, no YouTube parent mapping; unknown is not zero overlap"
+  },
+  "manual_decisions": [],
+  "manual_policy": "No manual retain overrides; every flagged connected group quarantined in full; roles never moved",
+  "checkpoint_pretraining": "X3D-XS Kinetics400; local official train.csv identities available, UCF filename-to-YouTube parent mapping unavailable",
+  "unknown": "UCF source URLs/parent IDs, Kinetics reuploads, perceptual matches to unavailable pretraining video bytes and unflagged near duplicates remain unknown",
+  "limitation": "Exact historical hashes and available IDs audited; perceptual screen covers experimental UCF groups, not all historical/pretraining video content. Not universally pretraining-clean."
+}

@@ -1,0 +1,49 @@
+{
+  "at_utc": "2026-10-18T11:18:01.375866+00:00",
+  "original_seal_sha256": "ea131720657a1193376312499b861c3d7a1cbd29ea8ecd3b6f948b6c4d2e8570",
+  "original_exposure_sha256": "1ad04d5b6f777c012e4a99ed8ff2942417157462de453fcd5497a5e28c5ee03b",
+  "reason": "Final real-feature audit encountered DataFrame.clip attribute/method collision; fix bracket column access. Preserve original seal/code/exposure and hash-lock all already computed scientific outputs. Separate decomposition render layout fix avoids overlapping ticks; original render retained.",
+  "scientific_estimators_changed": false,
+  "post_exposure": true,
+  "changed_frozen_files": {
+    "ucf101_proxy_common.py": {
+      "original_sha256": "a26437cd6806f9f7b236cafe26afb7634d508d1f091e4d5c570de564dec47343",
+      "archived_original": "results/ucf101_proxy_replication_v1/post_exposure_originals/ucf101_proxy_common.py",
+      "amended_sha256": "48250e1140beb1aaaa9f4db1e8f644f1e232449bcfa463f5bdd53f36749fb97b"
+    },
+    "ucf101_proxy_verify.py": {
+      "original_sha256": "e9aecb4d3671273d69232c61da15d959f041d4cc4aa7f6cc07e53840d276b0cd",
+      "archived_original": "results/ucf101_proxy_replication_v1/post_exposure_originals/ucf101_proxy_verify.py",
+      "amended_sha256": "3d94eeb8b280609a32107ad44d40e551459e750883e39868e105f1af1276be69"
+    }
+  },
+  "unchanged_scientific_outputs": {
+    "results/ucf101_proxy_replication_v1/primary_intervals.json": "6652a9e3b6fd64ffdf77c3912ae2c8ac842476509274121527beaf8cd140df9f",
+    "results/ucf101_proxy_replication_v1/secondary_intervals.csv": "962b7b5c3b5864c23452ec42d1cdcd80d69bf9f4745245aba0f0eff274d5bc46",
+    "results/ucf101_proxy_replication_v1/per_clip_contrasts.csv": "ebd95c29db42d04ad567f1cd1c2a91597d5b028c1c1ef0b79289a7595a91de19",
+    "results/ucf101_proxy_replication_v1/per_group_contrasts.csv": "194a8a8d8bb17038fff7ae06a753274001eee87bf067f8ae8d42f2f0785cf019",
+    "results/ucf101_proxy_replication_v1/per_group_metrics.csv": "76ae308b48d51f8ac3447cc55aa3c6289514114b9400a9ca2a12a2e0a30c7bc0",
+    "results/ucf101_proxy_replication_v1/per_class_metrics.csv": "f13236d85a918a61a1c1d7cb33a7d2036c2fe40e19f6494a32d0883d63b675ee",
+    "results/ucf101_proxy_replication_v1/test_metrics.csv": "121bab2c65650931d89c61b22181bb050b91e051ab248f8a2500ba5609157475",
+    "results/ucf101_proxy_replication_v1/aggregate_metrics.json": "fd1d0141db34ba4369b4428b114dcc70b0e6718321ac42bd72bf1a82ac0c7436",
+    "results/ucf101_proxy_replication_v1/bootstrap_group_indices.npy": "36b85e908e6805029563ab381fdc8795f871133c41ffeb8c89f982975a56b7de",
+    "results/ucf101_proxy_replication_v1/bootstrap_column_weights.npy": "2721455f6d6a19918c97e8524071663271108ddc432e66474773449995d0e76a",
+    "results/ucf101_proxy_replication_v1/bootstrap_groups.json": "c3a245d3de8839e315b0337129446a79cce611c50c108c1e9c17e3a2453c9775",
+    "results/ucf101_proxy_replication_v1/test_prediction_artifacts.json": "6c4549188ff66bd35f97b4a3dea69fa0c2a8c34e581bf59b99163cd08686a115",
+    "results/ucf101_proxy_replication_v1/test_schedule_artifacts.json": "3525e7dc885a321d30dbb7a1551623e4ef6e50fc3dedd982a83aecd848382f37",
+    "results/ucf101_proxy_replication_v1/test_scalar_checks.csv": "d9eb6b2f0b9c72ce6bcd996771cd22872b4a54654dc095d04d3979374553c7cc",
+    "results/ucf101_proxy_replication_v1/test_schedule_correlations.csv": "5e72290329c2bb029c2243652547e1e3bdd8636bb0671ccb39623e0673215ee8",
+    "results/ucf101_proxy_replication_v1/secondary_strata.csv": "47a5fa2a11ba625779b314562a473f20a3275ea06770b15883b8ab6abab1d241",
+    "results/ucf101_proxy_replication_v1/timing_trials.csv": "e1793ffceddf9a17d20cdc063a572f12dfaa4dd873c62618ad564c6033937847",
+    "results/ucf101_proxy_replication_v1/timing_per_clip.csv": "0a0f10cea268ae2410e95d532a519de6e5553a886bba9088aa66bc76bf3235ce",
+    "results/ucf101_proxy_replication_v1/timing_summary.json": "b7d2a606db71506b1bd1fbcd99cf09c7cc929cc712f9e1048d0ac3566b6ada40",
+    "results/ucf101_proxy_replication_v1/timing_paired_ratios.csv": "0557e0642663c7cba3f47497e9c2507c30f968e055a6ae99efff9bfdc640c622",
+    "results/ucf101_proxy_replication_v1/train_collection.json": "a7fafb26a29769463632c7b1d89d29795cc59b1cd621fe960f53eb4e66389250",
+    "results/ucf101_proxy_replication_v1/development_collection.json": "534666b62826003ae1995a6a5ed75f83567ae1e25376a1800312c5d2ce04397d",
+    "results/ucf101_proxy_replication_v1/test_collection.json": "ae675da017adf1bd74b037cdf3d2b32fa7d50400b4ca65c496209828975a5d2a"
+  },
+  "new_reporting_renderer": {
+    "path": "render_ucf101_reporting_figures.py",
+    "sha256": "595fd80914c2727f6e0ae0a645d4db2a210b6440d2934c840e5ba13c3355165d"
+  }
+}

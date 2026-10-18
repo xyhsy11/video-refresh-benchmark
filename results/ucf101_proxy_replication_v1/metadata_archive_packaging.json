@@ -1,0 +1,22 @@
+{
+  "created_at_utc": "2026-10-18T02:58:21.325804+00:00",
+  "records": [
+    {
+      "raw_path": "results/ucf101_proxy_replication_v1/eligibility_progress.json",
+      "raw_sha256": "6a7ebb3b4ea6e3b6ccc5b47dd5b1b2696541222305fb34e4df4a19ebcd00aa21",
+      "raw_bytes": 220164948,
+      "archive_path": "results/ucf101_proxy_replication_v1/eligibility_progress.json.gz",
+      "archive_sha256": "071488fe7f0651b979d09097dcc9fb59a1867a40691ac4ac347e31d7d02ef924",
+      "archive_bytes": 14088077
+    },
+    {
+      "raw_path": "results/ucf101_proxy_replication_v1/screened_population.json",
+      "raw_sha256": "168c1607d85958fc9443db2df924d5c3ed57c242e1633a2b5b49138a7b8b9617",
+      "raw_bytes": 97235664,
+      "archive_path": "results/ucf101_proxy_replication_v1/screened_population.json.gz",
+      "archive_sha256": "acb03355c94c720466dc2323867e4eadb092e395fa9a74ecb2b71727580a68af",
+      "archive_bytes": 6703896
+    }
+  ],
+  "policy": "Lossless compressed publication copies avoid GitHub single-file limits; original raw scientific/checkpoint files remain untouched in the working directory. Decompressed byte hashes verified. No model outputs or membership changed."
+}
