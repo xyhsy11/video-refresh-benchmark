@@ -1,0 +1,8 @@
+{
+  "reviewed_at_utc": "2026-10-18T03:06:15.099471+00:00",
+  "source_table_sha256": "1f0652c1e405b19584c7d4bf80a3e5ddef24e0402261a7014c0bb82e9a030a65",
+  "figure_sha256": "9ae10a72f682d53b3ca39e7beeaa926efb108a4fff979481fa225e6c3ea7bc16",
+  "actual_counts_checked": true,
+  "rendered_PNG_inspected": true,
+  "review": "Readable axes and counts; all101-class population and two-clips-per-group scope explicit; no recognition outcomes plotted"
+}

@@ -99,6 +99,12 @@ results/*
 !results/refresh_objective_alignment_v1/
 !results/refresh_objective_alignment_v1/**
 
+!results/ucf101_proxy_replication_v1/
+!results/ucf101_proxy_replication_v1/**
+results/ucf101_proxy_replication_v1/run.lock
+results/ucf101_proxy_replication_v1/eligibility_progress.json
+results/ucf101_proxy_replication_v1/screened_population.json
+
 # Curated snapshots also exclude downloaded assets, secrets, and temporary files.
 *.mp4
 *.avi

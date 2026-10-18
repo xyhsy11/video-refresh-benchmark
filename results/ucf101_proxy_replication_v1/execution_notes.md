@@ -1,0 +1,25 @@
+# Resume execution notes
+
+Resumed 2026-10-18 Asia/Tokyo on original branch experiment/ucf101-proxy-replication-v1, HEAD340a1ad. Origin main remains reviewed247ba4e; no newer changes. Historical scientific outputs untouched.
+
+All13320 official videos extracted with archive CRC checks. Screened2525 groups /5114 candidate clips;73 technical clip failures,6 excluded groups.5038 selected clips before duplicate screen. Fixed training-calibrated pHash threshold4;2 candidate edges quarantine4 whole groups (BenchPress g07/g22 and PlayingGuitar g21/g22). Final all101-class population: train1510 groups/3020clips, development301/602, test704/1408; minimum group counts13/2/5. Timing cohort30 distinct classes/groups fixed in eligible_manifest.json before outcomes.
+
+12 explicitly synthetic tests passed. Real training-only smoke2 clips/32calls retained as training; early prior smoke32extra calls retained in encoder log. Real new encoder native-head checks passed. Full training/development features, NEW weighted101-class head, development precision, seal then test remain sequenced by the running runner. Never alter eligibility using recognition.
+
+Complete historical audit917sourceIDs/910encodedhashes;0 exact hashes or literal identifiers match screened UCF clips. True UCF-to-YouTube/Kinetics/reupload mappings unknown.
+
+Original eligibility_progress.json and screened_population.json remain local; .json.gz copies have verified identical decompressed hashes and are the publication copies to avoid GitHub size limits. Main eligible_manifest.json is92.74MiB and below GitHub100MiB. Run command and read-only audit are in protocol.md.
+
+Before test exposure, clarified plot legends/captions, completed-resume read-only guard and outcome-dependent report decision wording. These alter no selector, statistic or inference. Checkpoint state/status and encoder events are authoritative for actual progress.
+
+Pending final work: monitor full runner; inspect4 rendered PNGs; read-only audit; finalize-reviewed; reserve/report publication network bytes under20GiB; commit and push. Preserve all historical results and no force/reset.
+
+Important lifecycle note: the precision JSON fix is on disk and its 12 tests pass, but the long-running parent imported analysis before that edit. If its pre-test precision writer stops on the old NumPy bool, resume the identical command to load the correction; completed training/development features and the selected head are checkpointed and must be reused. This remains before test exposure; do not replace cohorts or retrain/tune after outcomes.
+
+The identity-checked restart succeeded, reusing all train/dev arrays, selected head42e9f981... and development analysis. Precision planning halfwidths g=.0060505053879425855, p=.0077449374043116435. Protocol/code/head/population are now sealed; evaluation_exposure.json records first test access. DO NOT edit any sealed code, protocol, amendments, parameters or memberships after this point without an explicit post-exposure amendment. Running session86889 is collecting all1408test clips /704groups, followed by B2/B4/B8 analyses,10k group bootstrap,30group timing and figures. Final audit/visual review/finalize/commit/push remain pending.
+
+User-requested continuation on 2026-10-18 at approximately 09:55 UTC: prior runner PID48340 was absent; 1263/1408 genuine test feature checkpoints remained, immutable seal/exposure verification passed. Removed only its confirmed stale run.lock, recorded resume_sessions.jsonl, and resumed the same command (new PID88764, unified session96359). Training/development arrays and selected head were revalidated and reused. No sealed implementation, head, population, statistic or inference rule changed after exposure. All test extraction, full analysis, timing, visual review, final audit and Git publication still follow actual checkpoints; no result inferred from partial collection.
+
+Milestone 2026-10-18T10:38:00.153420+00:00: all5030 selected clips now have genuine retained arrays: train3020/48320calls, development602/9632calls, test1408/22528calls, total80480retained completed snippet calls. Runner96359/PID88764 is now evaluating all test clips at B2/B4/B8, beyond750 checkpoints. Full paired inference, actual30group timing, four rendered-figure inspection, finalization/audit, commit/push remain pending. Network ledger includes2GiB conservative publication reserve; totalcharged/reserved13.9566GiB of20GiB. This is administrative continuation evidence, not a change to the sealed scientific implementation.
+
+Completed 2026-10-18T11:22:45.831997+00:00: all fixed analyses and30group timings complete;17synthetic tests passed, corrected genuine-feature/grouped-interval audit passed, and all4current renders inspected. One explicit post-exposure audit/layout amendment is recorded with preserved originals and23unchanged scientific output hashes. Final verified artifacts/checksums prepared; Git commit/push pending. No new inference or refit was performed to resolve the final audit failure.

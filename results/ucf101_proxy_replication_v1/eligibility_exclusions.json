@@ -1,0 +1,405 @@
+{
+  "clip_rejections": {
+    "v_BaseballPitch_g12_c04.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:36:13.607270+00:00"
+    },
+    "v_BasketballDunk_g08_c01.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:36:16.890490+00:00"
+    },
+    "v_BasketballDunk_g18_c04.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:36:18.463282+00:00"
+    },
+    "v_BlowingCandles_g22_c03.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:36:31.316993+00:00"
+    },
+    "v_BlowingCandles_g23_c03.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:36:31.491527+00:00"
+    },
+    "v_BlowingCandles_g24_c04.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:36:31.570316+00:00"
+    },
+    "v_BodyWeightSquats_g23_c01.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:36:33.031407+00:00"
+    },
+    "v_CricketShot_g13_c02.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:36:55.431415+00:00"
+    },
+    "v_CricketShot_g13_c01.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:36:55.450361+00:00"
+    },
+    "v_CricketShot_g13_c04.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:36:55.505213+00:00"
+    },
+    "v_CricketShot_g13_c06.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:36:55.525161+00:00"
+    },
+    "v_CricketShot_g19_c02.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:36:57.464972+00:00"
+    },
+    "v_CuttingInKitchen_g11_c04.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:36:58.494222+00:00"
+    },
+    "v_CuttingInKitchen_g19_c03.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:36:59.201365+00:00"
+    },
+    "v_CuttingInKitchen_g19_c02.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:36:59.221276+00:00"
+    },
+    "v_CuttingInKitchen_g19_c04.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:36:59.276168+00:00"
+    },
+    "v_HandStandPushups_g22_c05.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:37:38.535777+00:00"
+    },
+    "v_JavelinThrow_g10_c02.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:38:05.425743+00:00"
+    },
+    "v_JumpingJack_g14_c02.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:38:21.821228+00:00"
+    },
+    "v_JumpingJack_g14_c04.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:38:21.845169+00:00"
+    },
+    "v_JumpingJack_g14_c03.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:38:21.913980+00:00"
+    },
+    "v_Lunges_g20_c03.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:38:46.502024+00:00"
+    },
+    "v_Lunges_g20_c01.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:38:46.517982+00:00"
+    },
+    "v_Lunges_g20_c02.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:38:46.535969+00:00"
+    },
+    "v_Lunges_g20_c04.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:38:46.551892+00:00"
+    },
+    "v_PushUps_g13_c03.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:40:32.564317+00:00"
+    },
+    "v_PushUps_g16_c04.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:40:32.859529+00:00"
+    },
+    "v_BasketballDunk_g19_c02.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:43:45.324356+00:00"
+    },
+    "v_BlowingCandles_g08_c04.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:43:55.338251+00:00"
+    },
+    "v_JavelinThrow_g14_c03.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:44:30.819779+00:00"
+    },
+    "v_JavelinThrow_g14_c01.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:44:30.838762+00:00"
+    },
+    "v_JavelinThrow_g14_c04.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:44:30.856714+00:00"
+    },
+    "v_JavelinThrow_g14_c06.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:44:30.874633+00:00"
+    },
+    "v_JavelinThrow_g14_c02.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:44:30.895578+00:00"
+    },
+    "v_JavelinThrow_g14_c05.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:44:30.919512+00:00"
+    },
+    "v_JumpingJack_g22_c02.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:44:41.555176+00:00"
+    },
+    "v_JumpingJack_g22_c04.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:44:41.573128+00:00"
+    },
+    "v_ThrowDiscus_g23_c02.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:45:49.939308+00:00"
+    },
+    "v_VolleyballSpiking_g12_c02.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:46:00.475427+00:00"
+    },
+    "v_WallPushups_g15_c04.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:46:01.159295+00:00"
+    },
+    "v_WallPushups_g21_c07.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:46:01.381698+00:00"
+    },
+    "v_Archery_g05_c04.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:46:14.106560+00:00"
+    },
+    "v_Archery_g07_c03.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:46:14.305030+00:00"
+    },
+    "v_BaseballPitch_g06_c04.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:46:26.942513+00:00"
+    },
+    "v_Basketball_g02_c01.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:46:27.176889+00:00"
+    },
+    "v_BasketballDunk_g04_c04.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:46:37.631213+00:00"
+    },
+    "v_BasketballDunk_g04_c01.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:46:37.688096+00:00"
+    },
+    "v_BasketballDunk_g04_c02.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:46:37.708007+00:00"
+    },
+    "v_BasketballDunk_g05_c05.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:46:37.726930+00:00"
+    },
+    "v_BasketballDunk_g05_c01.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:46:37.779790+00:00"
+    },
+    "v_BasketballDunk_g05_c04.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:46:37.798739+00:00"
+    },
+    "v_BasketballDunk_g07_c06.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:46:37.913434+00:00"
+    },
+    "v_BasketballDunk_g07_c02.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:46:37.927427+00:00"
+    },
+    "v_BasketballDunk_g07_c05.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:46:37.942389+00:00"
+    },
+    "v_BasketballDunk_g07_c04.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:46:37.959341+00:00"
+    },
+    "v_BasketballDunk_g07_c01.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:46:37.977263+00:00"
+    },
+    "v_BasketballDunk_g07_c03.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:46:37.997209+00:00"
+    },
+    "v_BlowingCandles_g03_c04.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:46:52.017255+00:00"
+    },
+    "v_BlowingCandles_g07_c01.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:46:52.430152+00:00"
+    },
+    "v_BlowingCandles_g07_c02.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:46:52.452092+00:00"
+    },
+    "v_BodyWeightSquats_g03_c02.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:46:52.765255+00:00"
+    },
+    "v_Bowling_g04_c04.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:47:03.301360+00:00"
+    },
+    "v_FieldHockeyPenalty_g03_c03.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:47:45.318928+00:00"
+    },
+    "v_HandStandPushups_g02_c01.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:48:11.865195+00:00"
+    },
+    "v_JumpingJack_g03_c01.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:48:54.169478+00:00"
+    },
+    "v_JumpingJack_g04_c01.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:49:05.099791+00:00"
+    },
+    "v_PizzaTossing_g03_c04.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:49:35.873585+00:00"
+    },
+    "v_Punch_g01_c03.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:50:33.454421+00:00"
+    },
+    "v_Punch_g02_c04.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:50:33.637932+00:00"
+    },
+    "v_SoccerPenalty_g06_c02.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:51:33.847417+00:00"
+    },
+    "v_Swing_g06_c07.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:51:48.478485+00:00"
+    },
+    "v_VolleyballSpiking_g05_c03.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:52:20.081871+00:00"
+    },
+    "v_VolleyballSpiking_g07_c01.avi": {
+      "eligible": false,
+      "reason": "ValueError: Fewer than16 complete distinct-frame trailing snippets",
+      "inspected_at_utc": "2026-10-18T02:52:20.289279+00:00"
+    }
+  },
+  "group_exclusions": {
+    "CuttingInKitchen/g19": {
+      "included": false,
+      "videos": [],
+      "reason": "Fewer than two technically eligible clips; whole group excluded"
+    },
+    "JumpingJack/g14": {
+      "included": false,
+      "videos": [],
+      "reason": "Fewer than two technically eligible clips; whole group excluded"
+    },
+    "Lunges/g20": {
+      "included": false,
+      "videos": [],
+      "reason": "Fewer than two technically eligible clips; whole group excluded"
+    },
+    "JavelinThrow/g14": {
+      "included": false,
+      "videos": [],
+      "reason": "Fewer than two technically eligible clips; whole group excluded"
+    },
+    "BasketballDunk/g04": {
+      "included": false,
+      "videos": [],
+      "reason": "Fewer than two technically eligible clips; whole group excluded"
+    },
+    "BasketballDunk/g07": {
+      "included": false,
+      "videos": [],
+      "reason": "Fewer than two technically eligible clips; whole group excluded"
+    }
+  },
+  "attempted_clips": 5114,
+  "complete_group_count": 2525,
+  "screening_rule": "first two eligible in separate hash order, same group only; stop once two pass; no outcomes",
+  "scope": "Selected technically eligible clips and replacements screened; unattempted candidates not claimed eligible"
+}

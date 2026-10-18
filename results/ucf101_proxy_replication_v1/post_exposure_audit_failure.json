@@ -1,0 +1,15 @@
+{
+  "at_utc": "2026-10-18T11:17:06.983163+00:00",
+  "first_exposure": {
+    "first_test_inference_authorized_at_utc": "2026-10-18T04:21:29.093920+00:00",
+    "seal_sha256": "ea131720657a1193376312499b861c3d7a1cbd29ea8ecd3b6f948b6c4d2e8570",
+    "scope": "recorded immediately before any test model call, including features"
+  },
+  "failure": "IndexError at ucf101_proxy_verify.py:106: rows.clip resolves pandas DataFrame.clip method; boolean filter contains no rows",
+  "scientific_stages_completed": [
+    "all train/development/test features",
+    "all fixed selector analyses and grouped bootstrap",
+    "30-group real timing"
+  ],
+  "correction_scope": "Bracket access to clip column in audit; explicit amendment enforcement; decomposition figure layout only. No scientific computation or eligible membership changes."
+}

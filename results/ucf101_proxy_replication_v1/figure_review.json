@@ -1,0 +1,10 @@
+{
+  "at_utc": "2026-10-18T11:22:32.723489+00:00",
+  "rendered_figures_inspected": true,
+  "files": [
+    "primary_intervals",
+    "fidelity_recognition",
+    "decomposition",
+    "measured_cost"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "returncode": 0,
+  "output": "test_complete_real_feature_analysis_path_with_explicit_synthetic_arrays (test_ucf101_proxy_replication.SyntheticProtocolTests.test_complete_real_feature_analysis_path_with_explicit_synthetic_arrays) ... ok\ntest_completed_resume_is_read_only (test_ucf101_proxy_replication.SyntheticProtocolTests.test_completed_resume_is_read_only) ... ok\ntest_generic101_affine_pooling_scalar_objectives_and_cancellation (test_ucf101_proxy_replication.SyntheticProtocolTests.test_generic101_affine_pooling_scalar_objectives_and_cancellation) ... ok\ntest_group_bootstrap_unequal_counts_nonalpha_class_order (test_ucf101_proxy_replication.SyntheticProtocolTests.test_group_bootstrap_unequal_counts_nonalpha_class_order) ... ok\ntest_label_isolation_and_exact_minima_ties (test_ucf101_proxy_replication.SyntheticProtocolTests.test_label_isolation_and_exact_minima_ties) ... ok\ntest_native_AVI_presentation_order_preserves_real_frame_identity (test_ucf101_proxy_replication.SyntheticProtocolTests.test_native_AVI_presentation_order_preserves_real_frame_identity) ... ok\ntest_official_group_roles_and_class_scoped_g01 (test_ucf101_proxy_replication.SyntheticProtocolTests.test_official_group_roles_and_class_scoped_g01) ... ok\ntest_raw_cosine_and_candidate_reuse_counts (test_ucf101_proxy_replication.SyntheticProtocolTests.test_raw_cosine_and_candidate_reuse_counts) ... ok\ntest_real_PTS_floor_math_on_labeled_synthetic_fixture (test_ucf101_proxy_replication.SyntheticProtocolTests.test_real_PTS_floor_math_on_labeled_synthetic_fixture) ... ok\ntest_seal_enforcement (test_ucf101_proxy_replication.SyntheticProtocolTests.test_seal_enforcement) ... ok\ntest_stable_exact_decomposition_direction_plus_KL (test_ucf101_proxy_replication.SyntheticProtocolTests.test_stable_exact_decomposition_direction_plus_KL) ... ok\ntest_weighted_class_group_clip_moments (test_ucf101_proxy_replication.SyntheticProtocolTests.test_weighted_class_group_clip_moments) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 32.880s\n\nOK\n",
+  "code_sha256": {
+    "run_ucf101_proxy_replication.py": "6c03db2656ea73d7c3d029f9286c5d558e9b0eef3d1d1a70b44a0960ad34ede4",
+    "test_ucf101_proxy_replication.py": "db8d945cc3004e4c81d019103fe21cc4899640c47018ab349cbcdd41e8f50567",
+    "ucf101_proxy_analysis.py": "354d56e00973de477c46bb528fe6a659d93102a044f9d9f1521456a60a7c835d",
+    "ucf101_proxy_common.py": "a26437cd6806f9f7b236cafe26afb7634d508d1f091e4d5c570de564dec47343",
+    "ucf101_proxy_data.py": "39f097455198d9ac9ae0fa58946bb35fa44622f61fb186f9d0a3aea4d216a8b3",
+    "ucf101_proxy_inference.py": "11fcf481c400f58fb46ebde602b83b830ae5d305b87ed055c89dc14a93f34b3a",
+    "ucf101_proxy_math.py": "098384c6e7c096825145f47a4e5ecee0948febaf4e792bf34c3163cc42c22f77",
+    "ucf101_proxy_verify.py": "e9aecb4d3671273d69232c61da15d959f041d4cc4aa7f6cc07e53840d276b0cd"
+  },
+  "at_utc": "2026-10-18T04:19:06.995415+00:00",
+  "fixtures": "explicitly synthetic unit tests only"
+}

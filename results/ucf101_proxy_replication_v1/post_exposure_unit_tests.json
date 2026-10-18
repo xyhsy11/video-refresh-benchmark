@@ -1,0 +1,11 @@
+{
+  "at_utc": "2026-10-18T11:19:49.084141+00:00",
+  "returncode": 0,
+  "stdout": "",
+  "stderr": ".................\n----------------------------------------------------------------------\nRan 17 tests in 60.637s\n\nOK\n",
+  "scope": "12 original synthetic tests plus 5 synthetic amendment safety tests; original sealed unit_tests.json unchanged",
+  "test_source_hashes": {
+    "test_ucf101_proxy_replication.py": "db8d945cc3004e4c81d019103fe21cc4899640c47018ab349cbcdd41e8f50567",
+    "test_ucf101_post_exposure_audit.py": "8cb595541b39b799fcff608411ae950ca11c8862f1465f75ebe0674c1d78099b"
+  }
+}

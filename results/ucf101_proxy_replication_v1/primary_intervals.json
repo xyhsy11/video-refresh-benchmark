@@ -1,0 +1,41 @@
+[
+  {
+    "budget": 4,
+    "pool": "C",
+    "contrast": "g",
+    "mean": -0.01028520462063958,
+    "CI95_lower": -0.016928706877805597,
+    "CI95_upper": -0.0038889719156408537,
+    "interval_width": 0.013039734962164744,
+    "groups": 704,
+    "clips": 1408,
+    "primary": true,
+    "inference": "class-stratified paired group bootstrap; all secondary intervals marginal/unadjusted"
+  },
+  {
+    "budget": 4,
+    "pool": "C",
+    "contrast": "p",
+    "mean": -0.008225279847889493,
+    "CI95_lower": -0.015485514556338514,
+    "CI95_upper": -0.0013013300770930074,
+    "interval_width": 0.014184184479245507,
+    "groups": 704,
+    "clips": 1408,
+    "primary": false,
+    "inference": "class-stratified paired group bootstrap; all secondary intervals marginal/unadjusted"
+  },
+  {
+    "budget": 4,
+    "pool": "C",
+    "contrast": "d",
+    "mean": 0.0020599247727500804,
+    "CI95_lower": -0.004773050368276124,
+    "CI95_upper": 0.009124498866224956,
+    "interval_width": 0.01389754923450108,
+    "groups": 704,
+    "clips": 1408,
+    "primary": false,
+    "inference": "class-stratified paired group bootstrap; all secondary intervals marginal/unadjusted"
+  }
+]

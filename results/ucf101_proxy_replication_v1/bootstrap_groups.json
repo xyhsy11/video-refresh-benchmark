@@ -1,0 +1,2818 @@
+[
+  {
+    "label": "ApplyEyeMakeup",
+    "group": "g01"
+  },
+  {
+    "label": "ApplyEyeMakeup",
+    "group": "g02"
+  },
+  {
+    "label": "ApplyEyeMakeup",
+    "group": "g03"
+  },
+  {
+    "label": "ApplyEyeMakeup",
+    "group": "g04"
+  },
+  {
+    "label": "ApplyEyeMakeup",
+    "group": "g05"
+  },
+  {
+    "label": "ApplyEyeMakeup",
+    "group": "g06"
+  },
+  {
+    "label": "ApplyEyeMakeup",
+    "group": "g07"
+  },
+  {
+    "label": "ApplyLipstick",
+    "group": "g01"
+  },
+  {
+    "label": "ApplyLipstick",
+    "group": "g02"
+  },
+  {
+    "label": "ApplyLipstick",
+    "group": "g03"
+  },
+  {
+    "label": "ApplyLipstick",
+    "group": "g04"
+  },
+  {
+    "label": "ApplyLipstick",
+    "group": "g05"
+  },
+  {
+    "label": "ApplyLipstick",
+    "group": "g06"
+  },
+  {
+    "label": "ApplyLipstick",
+    "group": "g07"
+  },
+  {
+    "label": "Archery",
+    "group": "g01"
+  },
+  {
+    "label": "Archery",
+    "group": "g02"
+  },
+  {
+    "label": "Archery",
+    "group": "g03"
+  },
+  {
+    "label": "Archery",
+    "group": "g04"
+  },
+  {
+    "label": "Archery",
+    "group": "g05"
+  },
+  {
+    "label": "Archery",
+    "group": "g06"
+  },
+  {
+    "label": "Archery",
+    "group": "g07"
+  },
+  {
+    "label": "BabyCrawling",
+    "group": "g01"
+  },
+  {
+    "label": "BabyCrawling",
+    "group": "g02"
+  },
+  {
+    "label": "BabyCrawling",
+    "group": "g03"
+  },
+  {
+    "label": "BabyCrawling",
+    "group": "g04"
+  },
+  {
+    "label": "BabyCrawling",
+    "group": "g05"
+  },
+  {
+    "label": "BabyCrawling",
+    "group": "g06"
+  },
+  {
+    "label": "BabyCrawling",
+    "group": "g07"
+  },
+  {
+    "label": "BalanceBeam",
+    "group": "g01"
+  },
+  {
+    "label": "BalanceBeam",
+    "group": "g02"
+  },
+  {
+    "label": "BalanceBeam",
+    "group": "g03"
+  },
+  {
+    "label": "BalanceBeam",
+    "group": "g04"
+  },
+  {
+    "label": "BalanceBeam",
+    "group": "g05"
+  },
+  {
+    "label": "BalanceBeam",
+    "group": "g06"
+  },
+  {
+    "label": "BalanceBeam",
+    "group": "g07"
+  },
+  {
+    "label": "BandMarching",
+    "group": "g01"
+  },
+  {
+    "label": "BandMarching",
+    "group": "g02"
+  },
+  {
+    "label": "BandMarching",
+    "group": "g03"
+  },
+  {
+    "label": "BandMarching",
+    "group": "g04"
+  },
+  {
+    "label": "BandMarching",
+    "group": "g05"
+  },
+  {
+    "label": "BandMarching",
+    "group": "g06"
+  },
+  {
+    "label": "BandMarching",
+    "group": "g07"
+  },
+  {
+    "label": "BaseballPitch",
+    "group": "g01"
+  },
+  {
+    "label": "BaseballPitch",
+    "group": "g02"
+  },
+  {
+    "label": "BaseballPitch",
+    "group": "g03"
+  },
+  {
+    "label": "BaseballPitch",
+    "group": "g04"
+  },
+  {
+    "label": "BaseballPitch",
+    "group": "g05"
+  },
+  {
+    "label": "BaseballPitch",
+    "group": "g06"
+  },
+  {
+    "label": "BaseballPitch",
+    "group": "g07"
+  },
+  {
+    "label": "Basketball",
+    "group": "g01"
+  },
+  {
+    "label": "Basketball",
+    "group": "g02"
+  },
+  {
+    "label": "Basketball",
+    "group": "g03"
+  },
+  {
+    "label": "Basketball",
+    "group": "g04"
+  },
+  {
+    "label": "Basketball",
+    "group": "g05"
+  },
+  {
+    "label": "Basketball",
+    "group": "g06"
+  },
+  {
+    "label": "Basketball",
+    "group": "g07"
+  },
+  {
+    "label": "BasketballDunk",
+    "group": "g01"
+  },
+  {
+    "label": "BasketballDunk",
+    "group": "g02"
+  },
+  {
+    "label": "BasketballDunk",
+    "group": "g03"
+  },
+  {
+    "label": "BasketballDunk",
+    "group": "g05"
+  },
+  {
+    "label": "BasketballDunk",
+    "group": "g06"
+  },
+  {
+    "label": "BenchPress",
+    "group": "g01"
+  },
+  {
+    "label": "BenchPress",
+    "group": "g02"
+  },
+  {
+    "label": "BenchPress",
+    "group": "g03"
+  },
+  {
+    "label": "BenchPress",
+    "group": "g04"
+  },
+  {
+    "label": "BenchPress",
+    "group": "g05"
+  },
+  {
+    "label": "BenchPress",
+    "group": "g06"
+  },
+  {
+    "label": "Biking",
+    "group": "g01"
+  },
+  {
+    "label": "Biking",
+    "group": "g02"
+  },
+  {
+    "label": "Biking",
+    "group": "g03"
+  },
+  {
+    "label": "Biking",
+    "group": "g04"
+  },
+  {
+    "label": "Biking",
+    "group": "g05"
+  },
+  {
+    "label": "Biking",
+    "group": "g06"
+  },
+  {
+    "label": "Biking",
+    "group": "g07"
+  },
+  {
+    "label": "Billiards",
+    "group": "g01"
+  },
+  {
+    "label": "Billiards",
+    "group": "g02"
+  },
+  {
+    "label": "Billiards",
+    "group": "g03"
+  },
+  {
+    "label": "Billiards",
+    "group": "g04"
+  },
+  {
+    "label": "Billiards",
+    "group": "g05"
+  },
+  {
+    "label": "Billiards",
+    "group": "g06"
+  },
+  {
+    "label": "Billiards",
+    "group": "g07"
+  },
+  {
+    "label": "BlowDryHair",
+    "group": "g01"
+  },
+  {
+    "label": "BlowDryHair",
+    "group": "g02"
+  },
+  {
+    "label": "BlowDryHair",
+    "group": "g03"
+  },
+  {
+    "label": "BlowDryHair",
+    "group": "g04"
+  },
+  {
+    "label": "BlowDryHair",
+    "group": "g05"
+  },
+  {
+    "label": "BlowDryHair",
+    "group": "g06"
+  },
+  {
+    "label": "BlowDryHair",
+    "group": "g07"
+  },
+  {
+    "label": "BlowingCandles",
+    "group": "g01"
+  },
+  {
+    "label": "BlowingCandles",
+    "group": "g02"
+  },
+  {
+    "label": "BlowingCandles",
+    "group": "g03"
+  },
+  {
+    "label": "BlowingCandles",
+    "group": "g04"
+  },
+  {
+    "label": "BlowingCandles",
+    "group": "g05"
+  },
+  {
+    "label": "BlowingCandles",
+    "group": "g06"
+  },
+  {
+    "label": "BlowingCandles",
+    "group": "g07"
+  },
+  {
+    "label": "BodyWeightSquats",
+    "group": "g01"
+  },
+  {
+    "label": "BodyWeightSquats",
+    "group": "g02"
+  },
+  {
+    "label": "BodyWeightSquats",
+    "group": "g03"
+  },
+  {
+    "label": "BodyWeightSquats",
+    "group": "g04"
+  },
+  {
+    "label": "BodyWeightSquats",
+    "group": "g05"
+  },
+  {
+    "label": "BodyWeightSquats",
+    "group": "g06"
+  },
+  {
+    "label": "BodyWeightSquats",
+    "group": "g07"
+  },
+  {
+    "label": "Bowling",
+    "group": "g01"
+  },
+  {
+    "label": "Bowling",
+    "group": "g02"
+  },
+  {
+    "label": "Bowling",
+    "group": "g03"
+  },
+  {
+    "label": "Bowling",
+    "group": "g04"
+  },
+  {
+    "label": "Bowling",
+    "group": "g05"
+  },
+  {
+    "label": "Bowling",
+    "group": "g06"
+  },
+  {
+    "label": "Bowling",
+    "group": "g07"
+  },
+  {
+    "label": "BoxingPunchingBag",
+    "group": "g01"
+  },
+  {
+    "label": "BoxingPunchingBag",
+    "group": "g02"
+  },
+  {
+    "label": "BoxingPunchingBag",
+    "group": "g03"
+  },
+  {
+    "label": "BoxingPunchingBag",
+    "group": "g04"
+  },
+  {
+    "label": "BoxingPunchingBag",
+    "group": "g05"
+  },
+  {
+    "label": "BoxingPunchingBag",
+    "group": "g06"
+  },
+  {
+    "label": "BoxingPunchingBag",
+    "group": "g07"
+  },
+  {
+    "label": "BoxingSpeedBag",
+    "group": "g01"
+  },
+  {
+    "label": "BoxingSpeedBag",
+    "group": "g02"
+  },
+  {
+    "label": "BoxingSpeedBag",
+    "group": "g03"
+  },
+  {
+    "label": "BoxingSpeedBag",
+    "group": "g04"
+  },
+  {
+    "label": "BoxingSpeedBag",
+    "group": "g05"
+  },
+  {
+    "label": "BoxingSpeedBag",
+    "group": "g06"
+  },
+  {
+    "label": "BoxingSpeedBag",
+    "group": "g07"
+  },
+  {
+    "label": "BreastStroke",
+    "group": "g01"
+  },
+  {
+    "label": "BreastStroke",
+    "group": "g02"
+  },
+  {
+    "label": "BreastStroke",
+    "group": "g03"
+  },
+  {
+    "label": "BreastStroke",
+    "group": "g04"
+  },
+  {
+    "label": "BreastStroke",
+    "group": "g05"
+  },
+  {
+    "label": "BreastStroke",
+    "group": "g06"
+  },
+  {
+    "label": "BreastStroke",
+    "group": "g07"
+  },
+  {
+    "label": "BrushingTeeth",
+    "group": "g01"
+  },
+  {
+    "label": "BrushingTeeth",
+    "group": "g02"
+  },
+  {
+    "label": "BrushingTeeth",
+    "group": "g03"
+  },
+  {
+    "label": "BrushingTeeth",
+    "group": "g04"
+  },
+  {
+    "label": "BrushingTeeth",
+    "group": "g05"
+  },
+  {
+    "label": "BrushingTeeth",
+    "group": "g06"
+  },
+  {
+    "label": "BrushingTeeth",
+    "group": "g07"
+  },
+  {
+    "label": "CleanAndJerk",
+    "group": "g01"
+  },
+  {
+    "label": "CleanAndJerk",
+    "group": "g02"
+  },
+  {
+    "label": "CleanAndJerk",
+    "group": "g03"
+  },
+  {
+    "label": "CleanAndJerk",
+    "group": "g04"
+  },
+  {
+    "label": "CleanAndJerk",
+    "group": "g05"
+  },
+  {
+    "label": "CleanAndJerk",
+    "group": "g06"
+  },
+  {
+    "label": "CleanAndJerk",
+    "group": "g07"
+  },
+  {
+    "label": "CliffDiving",
+    "group": "g01"
+  },
+  {
+    "label": "CliffDiving",
+    "group": "g02"
+  },
+  {
+    "label": "CliffDiving",
+    "group": "g03"
+  },
+  {
+    "label": "CliffDiving",
+    "group": "g04"
+  },
+  {
+    "label": "CliffDiving",
+    "group": "g05"
+  },
+  {
+    "label": "CliffDiving",
+    "group": "g06"
+  },
+  {
+    "label": "CliffDiving",
+    "group": "g07"
+  },
+  {
+    "label": "CricketBowling",
+    "group": "g01"
+  },
+  {
+    "label": "CricketBowling",
+    "group": "g02"
+  },
+  {
+    "label": "CricketBowling",
+    "group": "g03"
+  },
+  {
+    "label": "CricketBowling",
+    "group": "g04"
+  },
+  {
+    "label": "CricketBowling",
+    "group": "g05"
+  },
+  {
+    "label": "CricketBowling",
+    "group": "g06"
+  },
+  {
+    "label": "CricketBowling",
+    "group": "g07"
+  },
+  {
+    "label": "CricketShot",
+    "group": "g01"
+  },
+  {
+    "label": "CricketShot",
+    "group": "g02"
+  },
+  {
+    "label": "CricketShot",
+    "group": "g03"
+  },
+  {
+    "label": "CricketShot",
+    "group": "g04"
+  },
+  {
+    "label": "CricketShot",
+    "group": "g05"
+  },
+  {
+    "label": "CricketShot",
+    "group": "g06"
+  },
+  {
+    "label": "CricketShot",
+    "group": "g07"
+  },
+  {
+    "label": "CuttingInKitchen",
+    "group": "g01"
+  },
+  {
+    "label": "CuttingInKitchen",
+    "group": "g02"
+  },
+  {
+    "label": "CuttingInKitchen",
+    "group": "g03"
+  },
+  {
+    "label": "CuttingInKitchen",
+    "group": "g04"
+  },
+  {
+    "label": "CuttingInKitchen",
+    "group": "g05"
+  },
+  {
+    "label": "CuttingInKitchen",
+    "group": "g06"
+  },
+  {
+    "label": "CuttingInKitchen",
+    "group": "g07"
+  },
+  {
+    "label": "Diving",
+    "group": "g01"
+  },
+  {
+    "label": "Diving",
+    "group": "g02"
+  },
+  {
+    "label": "Diving",
+    "group": "g03"
+  },
+  {
+    "label": "Diving",
+    "group": "g04"
+  },
+  {
+    "label": "Diving",
+    "group": "g05"
+  },
+  {
+    "label": "Diving",
+    "group": "g06"
+  },
+  {
+    "label": "Diving",
+    "group": "g07"
+  },
+  {
+    "label": "Drumming",
+    "group": "g01"
+  },
+  {
+    "label": "Drumming",
+    "group": "g02"
+  },
+  {
+    "label": "Drumming",
+    "group": "g03"
+  },
+  {
+    "label": "Drumming",
+    "group": "g04"
+  },
+  {
+    "label": "Drumming",
+    "group": "g05"
+  },
+  {
+    "label": "Drumming",
+    "group": "g06"
+  },
+  {
+    "label": "Drumming",
+    "group": "g07"
+  },
+  {
+    "label": "Fencing",
+    "group": "g01"
+  },
+  {
+    "label": "Fencing",
+    "group": "g02"
+  },
+  {
+    "label": "Fencing",
+    "group": "g03"
+  },
+  {
+    "label": "Fencing",
+    "group": "g04"
+  },
+  {
+    "label": "Fencing",
+    "group": "g05"
+  },
+  {
+    "label": "Fencing",
+    "group": "g06"
+  },
+  {
+    "label": "Fencing",
+    "group": "g07"
+  },
+  {
+    "label": "FieldHockeyPenalty",
+    "group": "g01"
+  },
+  {
+    "label": "FieldHockeyPenalty",
+    "group": "g02"
+  },
+  {
+    "label": "FieldHockeyPenalty",
+    "group": "g03"
+  },
+  {
+    "label": "FieldHockeyPenalty",
+    "group": "g04"
+  },
+  {
+    "label": "FieldHockeyPenalty",
+    "group": "g05"
+  },
+  {
+    "label": "FieldHockeyPenalty",
+    "group": "g06"
+  },
+  {
+    "label": "FieldHockeyPenalty",
+    "group": "g07"
+  },
+  {
+    "label": "FloorGymnastics",
+    "group": "g01"
+  },
+  {
+    "label": "FloorGymnastics",
+    "group": "g02"
+  },
+  {
+    "label": "FloorGymnastics",
+    "group": "g03"
+  },
+  {
+    "label": "FloorGymnastics",
+    "group": "g04"
+  },
+  {
+    "label": "FloorGymnastics",
+    "group": "g05"
+  },
+  {
+    "label": "FloorGymnastics",
+    "group": "g06"
+  },
+  {
+    "label": "FloorGymnastics",
+    "group": "g07"
+  },
+  {
+    "label": "FrisbeeCatch",
+    "group": "g01"
+  },
+  {
+    "label": "FrisbeeCatch",
+    "group": "g02"
+  },
+  {
+    "label": "FrisbeeCatch",
+    "group": "g03"
+  },
+  {
+    "label": "FrisbeeCatch",
+    "group": "g04"
+  },
+  {
+    "label": "FrisbeeCatch",
+    "group": "g05"
+  },
+  {
+    "label": "FrisbeeCatch",
+    "group": "g06"
+  },
+  {
+    "label": "FrisbeeCatch",
+    "group": "g07"
+  },
+  {
+    "label": "FrontCrawl",
+    "group": "g01"
+  },
+  {
+    "label": "FrontCrawl",
+    "group": "g02"
+  },
+  {
+    "label": "FrontCrawl",
+    "group": "g03"
+  },
+  {
+    "label": "FrontCrawl",
+    "group": "g04"
+  },
+  {
+    "label": "FrontCrawl",
+    "group": "g05"
+  },
+  {
+    "label": "FrontCrawl",
+    "group": "g06"
+  },
+  {
+    "label": "FrontCrawl",
+    "group": "g07"
+  },
+  {
+    "label": "GolfSwing",
+    "group": "g01"
+  },
+  {
+    "label": "GolfSwing",
+    "group": "g02"
+  },
+  {
+    "label": "GolfSwing",
+    "group": "g03"
+  },
+  {
+    "label": "GolfSwing",
+    "group": "g04"
+  },
+  {
+    "label": "GolfSwing",
+    "group": "g05"
+  },
+  {
+    "label": "GolfSwing",
+    "group": "g06"
+  },
+  {
+    "label": "GolfSwing",
+    "group": "g07"
+  },
+  {
+    "label": "Haircut",
+    "group": "g01"
+  },
+  {
+    "label": "Haircut",
+    "group": "g02"
+  },
+  {
+    "label": "Haircut",
+    "group": "g03"
+  },
+  {
+    "label": "Haircut",
+    "group": "g04"
+  },
+  {
+    "label": "Haircut",
+    "group": "g05"
+  },
+  {
+    "label": "Haircut",
+    "group": "g06"
+  },
+  {
+    "label": "Haircut",
+    "group": "g07"
+  },
+  {
+    "label": "Hammering",
+    "group": "g01"
+  },
+  {
+    "label": "Hammering",
+    "group": "g02"
+  },
+  {
+    "label": "Hammering",
+    "group": "g03"
+  },
+  {
+    "label": "Hammering",
+    "group": "g04"
+  },
+  {
+    "label": "Hammering",
+    "group": "g05"
+  },
+  {
+    "label": "Hammering",
+    "group": "g06"
+  },
+  {
+    "label": "Hammering",
+    "group": "g07"
+  },
+  {
+    "label": "HammerThrow",
+    "group": "g01"
+  },
+  {
+    "label": "HammerThrow",
+    "group": "g02"
+  },
+  {
+    "label": "HammerThrow",
+    "group": "g03"
+  },
+  {
+    "label": "HammerThrow",
+    "group": "g04"
+  },
+  {
+    "label": "HammerThrow",
+    "group": "g05"
+  },
+  {
+    "label": "HammerThrow",
+    "group": "g06"
+  },
+  {
+    "label": "HammerThrow",
+    "group": "g07"
+  },
+  {
+    "label": "HandstandPushups",
+    "group": "g01"
+  },
+  {
+    "label": "HandstandPushups",
+    "group": "g02"
+  },
+  {
+    "label": "HandstandPushups",
+    "group": "g03"
+  },
+  {
+    "label": "HandstandPushups",
+    "group": "g04"
+  },
+  {
+    "label": "HandstandPushups",
+    "group": "g05"
+  },
+  {
+    "label": "HandstandPushups",
+    "group": "g06"
+  },
+  {
+    "label": "HandstandPushups",
+    "group": "g07"
+  },
+  {
+    "label": "HandstandWalking",
+    "group": "g01"
+  },
+  {
+    "label": "HandstandWalking",
+    "group": "g02"
+  },
+  {
+    "label": "HandstandWalking",
+    "group": "g03"
+  },
+  {
+    "label": "HandstandWalking",
+    "group": "g04"
+  },
+  {
+    "label": "HandstandWalking",
+    "group": "g05"
+  },
+  {
+    "label": "HandstandWalking",
+    "group": "g06"
+  },
+  {
+    "label": "HandstandWalking",
+    "group": "g07"
+  },
+  {
+    "label": "HeadMassage",
+    "group": "g01"
+  },
+  {
+    "label": "HeadMassage",
+    "group": "g02"
+  },
+  {
+    "label": "HeadMassage",
+    "group": "g03"
+  },
+  {
+    "label": "HeadMassage",
+    "group": "g04"
+  },
+  {
+    "label": "HeadMassage",
+    "group": "g05"
+  },
+  {
+    "label": "HeadMassage",
+    "group": "g06"
+  },
+  {
+    "label": "HeadMassage",
+    "group": "g07"
+  },
+  {
+    "label": "HighJump",
+    "group": "g01"
+  },
+  {
+    "label": "HighJump",
+    "group": "g02"
+  },
+  {
+    "label": "HighJump",
+    "group": "g03"
+  },
+  {
+    "label": "HighJump",
+    "group": "g04"
+  },
+  {
+    "label": "HighJump",
+    "group": "g05"
+  },
+  {
+    "label": "HighJump",
+    "group": "g06"
+  },
+  {
+    "label": "HighJump",
+    "group": "g07"
+  },
+  {
+    "label": "HorseRace",
+    "group": "g01"
+  },
+  {
+    "label": "HorseRace",
+    "group": "g02"
+  },
+  {
+    "label": "HorseRace",
+    "group": "g03"
+  },
+  {
+    "label": "HorseRace",
+    "group": "g04"
+  },
+  {
+    "label": "HorseRace",
+    "group": "g05"
+  },
+  {
+    "label": "HorseRace",
+    "group": "g06"
+  },
+  {
+    "label": "HorseRace",
+    "group": "g07"
+  },
+  {
+    "label": "HorseRiding",
+    "group": "g01"
+  },
+  {
+    "label": "HorseRiding",
+    "group": "g02"
+  },
+  {
+    "label": "HorseRiding",
+    "group": "g03"
+  },
+  {
+    "label": "HorseRiding",
+    "group": "g04"
+  },
+  {
+    "label": "HorseRiding",
+    "group": "g05"
+  },
+  {
+    "label": "HorseRiding",
+    "group": "g06"
+  },
+  {
+    "label": "HorseRiding",
+    "group": "g07"
+  },
+  {
+    "label": "HulaHoop",
+    "group": "g01"
+  },
+  {
+    "label": "HulaHoop",
+    "group": "g02"
+  },
+  {
+    "label": "HulaHoop",
+    "group": "g03"
+  },
+  {
+    "label": "HulaHoop",
+    "group": "g04"
+  },
+  {
+    "label": "HulaHoop",
+    "group": "g05"
+  },
+  {
+    "label": "HulaHoop",
+    "group": "g06"
+  },
+  {
+    "label": "HulaHoop",
+    "group": "g07"
+  },
+  {
+    "label": "IceDancing",
+    "group": "g01"
+  },
+  {
+    "label": "IceDancing",
+    "group": "g02"
+  },
+  {
+    "label": "IceDancing",
+    "group": "g03"
+  },
+  {
+    "label": "IceDancing",
+    "group": "g04"
+  },
+  {
+    "label": "IceDancing",
+    "group": "g05"
+  },
+  {
+    "label": "IceDancing",
+    "group": "g06"
+  },
+  {
+    "label": "IceDancing",
+    "group": "g07"
+  },
+  {
+    "label": "JavelinThrow",
+    "group": "g01"
+  },
+  {
+    "label": "JavelinThrow",
+    "group": "g02"
+  },
+  {
+    "label": "JavelinThrow",
+    "group": "g03"
+  },
+  {
+    "label": "JavelinThrow",
+    "group": "g04"
+  },
+  {
+    "label": "JavelinThrow",
+    "group": "g05"
+  },
+  {
+    "label": "JavelinThrow",
+    "group": "g06"
+  },
+  {
+    "label": "JavelinThrow",
+    "group": "g07"
+  },
+  {
+    "label": "JugglingBalls",
+    "group": "g01"
+  },
+  {
+    "label": "JugglingBalls",
+    "group": "g02"
+  },
+  {
+    "label": "JugglingBalls",
+    "group": "g03"
+  },
+  {
+    "label": "JugglingBalls",
+    "group": "g04"
+  },
+  {
+    "label": "JugglingBalls",
+    "group": "g05"
+  },
+  {
+    "label": "JugglingBalls",
+    "group": "g06"
+  },
+  {
+    "label": "JugglingBalls",
+    "group": "g07"
+  },
+  {
+    "label": "JumpingJack",
+    "group": "g01"
+  },
+  {
+    "label": "JumpingJack",
+    "group": "g02"
+  },
+  {
+    "label": "JumpingJack",
+    "group": "g03"
+  },
+  {
+    "label": "JumpingJack",
+    "group": "g04"
+  },
+  {
+    "label": "JumpingJack",
+    "group": "g05"
+  },
+  {
+    "label": "JumpingJack",
+    "group": "g06"
+  },
+  {
+    "label": "JumpingJack",
+    "group": "g07"
+  },
+  {
+    "label": "JumpRope",
+    "group": "g01"
+  },
+  {
+    "label": "JumpRope",
+    "group": "g02"
+  },
+  {
+    "label": "JumpRope",
+    "group": "g03"
+  },
+  {
+    "label": "JumpRope",
+    "group": "g04"
+  },
+  {
+    "label": "JumpRope",
+    "group": "g05"
+  },
+  {
+    "label": "JumpRope",
+    "group": "g06"
+  },
+  {
+    "label": "JumpRope",
+    "group": "g07"
+  },
+  {
+    "label": "Kayaking",
+    "group": "g01"
+  },
+  {
+    "label": "Kayaking",
+    "group": "g02"
+  },
+  {
+    "label": "Kayaking",
+    "group": "g03"
+  },
+  {
+    "label": "Kayaking",
+    "group": "g04"
+  },
+  {
+    "label": "Kayaking",
+    "group": "g05"
+  },
+  {
+    "label": "Kayaking",
+    "group": "g06"
+  },
+  {
+    "label": "Kayaking",
+    "group": "g07"
+  },
+  {
+    "label": "Knitting",
+    "group": "g01"
+  },
+  {
+    "label": "Knitting",
+    "group": "g02"
+  },
+  {
+    "label": "Knitting",
+    "group": "g03"
+  },
+  {
+    "label": "Knitting",
+    "group": "g04"
+  },
+  {
+    "label": "Knitting",
+    "group": "g05"
+  },
+  {
+    "label": "Knitting",
+    "group": "g06"
+  },
+  {
+    "label": "Knitting",
+    "group": "g07"
+  },
+  {
+    "label": "LongJump",
+    "group": "g01"
+  },
+  {
+    "label": "LongJump",
+    "group": "g02"
+  },
+  {
+    "label": "LongJump",
+    "group": "g03"
+  },
+  {
+    "label": "LongJump",
+    "group": "g04"
+  },
+  {
+    "label": "LongJump",
+    "group": "g05"
+  },
+  {
+    "label": "LongJump",
+    "group": "g06"
+  },
+  {
+    "label": "LongJump",
+    "group": "g07"
+  },
+  {
+    "label": "Lunges",
+    "group": "g01"
+  },
+  {
+    "label": "Lunges",
+    "group": "g02"
+  },
+  {
+    "label": "Lunges",
+    "group": "g03"
+  },
+  {
+    "label": "Lunges",
+    "group": "g04"
+  },
+  {
+    "label": "Lunges",
+    "group": "g05"
+  },
+  {
+    "label": "Lunges",
+    "group": "g06"
+  },
+  {
+    "label": "Lunges",
+    "group": "g07"
+  },
+  {
+    "label": "MilitaryParade",
+    "group": "g01"
+  },
+  {
+    "label": "MilitaryParade",
+    "group": "g02"
+  },
+  {
+    "label": "MilitaryParade",
+    "group": "g03"
+  },
+  {
+    "label": "MilitaryParade",
+    "group": "g04"
+  },
+  {
+    "label": "MilitaryParade",
+    "group": "g05"
+  },
+  {
+    "label": "MilitaryParade",
+    "group": "g06"
+  },
+  {
+    "label": "MilitaryParade",
+    "group": "g07"
+  },
+  {
+    "label": "Mixing",
+    "group": "g01"
+  },
+  {
+    "label": "Mixing",
+    "group": "g02"
+  },
+  {
+    "label": "Mixing",
+    "group": "g03"
+  },
+  {
+    "label": "Mixing",
+    "group": "g04"
+  },
+  {
+    "label": "Mixing",
+    "group": "g05"
+  },
+  {
+    "label": "Mixing",
+    "group": "g06"
+  },
+  {
+    "label": "Mixing",
+    "group": "g07"
+  },
+  {
+    "label": "MoppingFloor",
+    "group": "g01"
+  },
+  {
+    "label": "MoppingFloor",
+    "group": "g02"
+  },
+  {
+    "label": "MoppingFloor",
+    "group": "g03"
+  },
+  {
+    "label": "MoppingFloor",
+    "group": "g04"
+  },
+  {
+    "label": "MoppingFloor",
+    "group": "g05"
+  },
+  {
+    "label": "MoppingFloor",
+    "group": "g06"
+  },
+  {
+    "label": "MoppingFloor",
+    "group": "g07"
+  },
+  {
+    "label": "Nunchucks",
+    "group": "g01"
+  },
+  {
+    "label": "Nunchucks",
+    "group": "g02"
+  },
+  {
+    "label": "Nunchucks",
+    "group": "g03"
+  },
+  {
+    "label": "Nunchucks",
+    "group": "g04"
+  },
+  {
+    "label": "Nunchucks",
+    "group": "g05"
+  },
+  {
+    "label": "Nunchucks",
+    "group": "g06"
+  },
+  {
+    "label": "Nunchucks",
+    "group": "g07"
+  },
+  {
+    "label": "ParallelBars",
+    "group": "g01"
+  },
+  {
+    "label": "ParallelBars",
+    "group": "g02"
+  },
+  {
+    "label": "ParallelBars",
+    "group": "g03"
+  },
+  {
+    "label": "ParallelBars",
+    "group": "g04"
+  },
+  {
+    "label": "ParallelBars",
+    "group": "g05"
+  },
+  {
+    "label": "ParallelBars",
+    "group": "g06"
+  },
+  {
+    "label": "ParallelBars",
+    "group": "g07"
+  },
+  {
+    "label": "PizzaTossing",
+    "group": "g01"
+  },
+  {
+    "label": "PizzaTossing",
+    "group": "g02"
+  },
+  {
+    "label": "PizzaTossing",
+    "group": "g03"
+  },
+  {
+    "label": "PizzaTossing",
+    "group": "g04"
+  },
+  {
+    "label": "PizzaTossing",
+    "group": "g05"
+  },
+  {
+    "label": "PizzaTossing",
+    "group": "g06"
+  },
+  {
+    "label": "PizzaTossing",
+    "group": "g07"
+  },
+  {
+    "label": "PlayingCello",
+    "group": "g01"
+  },
+  {
+    "label": "PlayingCello",
+    "group": "g02"
+  },
+  {
+    "label": "PlayingCello",
+    "group": "g03"
+  },
+  {
+    "label": "PlayingCello",
+    "group": "g04"
+  },
+  {
+    "label": "PlayingCello",
+    "group": "g05"
+  },
+  {
+    "label": "PlayingCello",
+    "group": "g06"
+  },
+  {
+    "label": "PlayingCello",
+    "group": "g07"
+  },
+  {
+    "label": "PlayingDaf",
+    "group": "g01"
+  },
+  {
+    "label": "PlayingDaf",
+    "group": "g02"
+  },
+  {
+    "label": "PlayingDaf",
+    "group": "g03"
+  },
+  {
+    "label": "PlayingDaf",
+    "group": "g04"
+  },
+  {
+    "label": "PlayingDaf",
+    "group": "g05"
+  },
+  {
+    "label": "PlayingDaf",
+    "group": "g06"
+  },
+  {
+    "label": "PlayingDaf",
+    "group": "g07"
+  },
+  {
+    "label": "PlayingDhol",
+    "group": "g01"
+  },
+  {
+    "label": "PlayingDhol",
+    "group": "g02"
+  },
+  {
+    "label": "PlayingDhol",
+    "group": "g03"
+  },
+  {
+    "label": "PlayingDhol",
+    "group": "g04"
+  },
+  {
+    "label": "PlayingDhol",
+    "group": "g05"
+  },
+  {
+    "label": "PlayingDhol",
+    "group": "g06"
+  },
+  {
+    "label": "PlayingDhol",
+    "group": "g07"
+  },
+  {
+    "label": "PlayingFlute",
+    "group": "g01"
+  },
+  {
+    "label": "PlayingFlute",
+    "group": "g02"
+  },
+  {
+    "label": "PlayingFlute",
+    "group": "g03"
+  },
+  {
+    "label": "PlayingFlute",
+    "group": "g04"
+  },
+  {
+    "label": "PlayingFlute",
+    "group": "g05"
+  },
+  {
+    "label": "PlayingFlute",
+    "group": "g06"
+  },
+  {
+    "label": "PlayingFlute",
+    "group": "g07"
+  },
+  {
+    "label": "PlayingGuitar",
+    "group": "g01"
+  },
+  {
+    "label": "PlayingGuitar",
+    "group": "g02"
+  },
+  {
+    "label": "PlayingGuitar",
+    "group": "g03"
+  },
+  {
+    "label": "PlayingGuitar",
+    "group": "g04"
+  },
+  {
+    "label": "PlayingGuitar",
+    "group": "g05"
+  },
+  {
+    "label": "PlayingGuitar",
+    "group": "g06"
+  },
+  {
+    "label": "PlayingGuitar",
+    "group": "g07"
+  },
+  {
+    "label": "PlayingPiano",
+    "group": "g01"
+  },
+  {
+    "label": "PlayingPiano",
+    "group": "g02"
+  },
+  {
+    "label": "PlayingPiano",
+    "group": "g03"
+  },
+  {
+    "label": "PlayingPiano",
+    "group": "g04"
+  },
+  {
+    "label": "PlayingPiano",
+    "group": "g05"
+  },
+  {
+    "label": "PlayingPiano",
+    "group": "g06"
+  },
+  {
+    "label": "PlayingPiano",
+    "group": "g07"
+  },
+  {
+    "label": "PlayingSitar",
+    "group": "g01"
+  },
+  {
+    "label": "PlayingSitar",
+    "group": "g02"
+  },
+  {
+    "label": "PlayingSitar",
+    "group": "g03"
+  },
+  {
+    "label": "PlayingSitar",
+    "group": "g04"
+  },
+  {
+    "label": "PlayingSitar",
+    "group": "g05"
+  },
+  {
+    "label": "PlayingSitar",
+    "group": "g06"
+  },
+  {
+    "label": "PlayingSitar",
+    "group": "g07"
+  },
+  {
+    "label": "PlayingTabla",
+    "group": "g01"
+  },
+  {
+    "label": "PlayingTabla",
+    "group": "g02"
+  },
+  {
+    "label": "PlayingTabla",
+    "group": "g03"
+  },
+  {
+    "label": "PlayingTabla",
+    "group": "g04"
+  },
+  {
+    "label": "PlayingTabla",
+    "group": "g05"
+  },
+  {
+    "label": "PlayingTabla",
+    "group": "g06"
+  },
+  {
+    "label": "PlayingTabla",
+    "group": "g07"
+  },
+  {
+    "label": "PlayingViolin",
+    "group": "g01"
+  },
+  {
+    "label": "PlayingViolin",
+    "group": "g02"
+  },
+  {
+    "label": "PlayingViolin",
+    "group": "g03"
+  },
+  {
+    "label": "PlayingViolin",
+    "group": "g04"
+  },
+  {
+    "label": "PlayingViolin",
+    "group": "g05"
+  },
+  {
+    "label": "PlayingViolin",
+    "group": "g06"
+  },
+  {
+    "label": "PlayingViolin",
+    "group": "g07"
+  },
+  {
+    "label": "PoleVault",
+    "group": "g01"
+  },
+  {
+    "label": "PoleVault",
+    "group": "g02"
+  },
+  {
+    "label": "PoleVault",
+    "group": "g03"
+  },
+  {
+    "label": "PoleVault",
+    "group": "g04"
+  },
+  {
+    "label": "PoleVault",
+    "group": "g05"
+  },
+  {
+    "label": "PoleVault",
+    "group": "g06"
+  },
+  {
+    "label": "PoleVault",
+    "group": "g07"
+  },
+  {
+    "label": "PommelHorse",
+    "group": "g01"
+  },
+  {
+    "label": "PommelHorse",
+    "group": "g02"
+  },
+  {
+    "label": "PommelHorse",
+    "group": "g03"
+  },
+  {
+    "label": "PommelHorse",
+    "group": "g04"
+  },
+  {
+    "label": "PommelHorse",
+    "group": "g05"
+  },
+  {
+    "label": "PommelHorse",
+    "group": "g06"
+  },
+  {
+    "label": "PommelHorse",
+    "group": "g07"
+  },
+  {
+    "label": "PullUps",
+    "group": "g01"
+  },
+  {
+    "label": "PullUps",
+    "group": "g02"
+  },
+  {
+    "label": "PullUps",
+    "group": "g03"
+  },
+  {
+    "label": "PullUps",
+    "group": "g04"
+  },
+  {
+    "label": "PullUps",
+    "group": "g05"
+  },
+  {
+    "label": "PullUps",
+    "group": "g06"
+  },
+  {
+    "label": "PullUps",
+    "group": "g07"
+  },
+  {
+    "label": "Punch",
+    "group": "g01"
+  },
+  {
+    "label": "Punch",
+    "group": "g02"
+  },
+  {
+    "label": "Punch",
+    "group": "g03"
+  },
+  {
+    "label": "Punch",
+    "group": "g04"
+  },
+  {
+    "label": "Punch",
+    "group": "g05"
+  },
+  {
+    "label": "Punch",
+    "group": "g06"
+  },
+  {
+    "label": "Punch",
+    "group": "g07"
+  },
+  {
+    "label": "PushUps",
+    "group": "g01"
+  },
+  {
+    "label": "PushUps",
+    "group": "g02"
+  },
+  {
+    "label": "PushUps",
+    "group": "g03"
+  },
+  {
+    "label": "PushUps",
+    "group": "g04"
+  },
+  {
+    "label": "PushUps",
+    "group": "g05"
+  },
+  {
+    "label": "PushUps",
+    "group": "g06"
+  },
+  {
+    "label": "PushUps",
+    "group": "g07"
+  },
+  {
+    "label": "Rafting",
+    "group": "g01"
+  },
+  {
+    "label": "Rafting",
+    "group": "g02"
+  },
+  {
+    "label": "Rafting",
+    "group": "g03"
+  },
+  {
+    "label": "Rafting",
+    "group": "g04"
+  },
+  {
+    "label": "Rafting",
+    "group": "g05"
+  },
+  {
+    "label": "Rafting",
+    "group": "g06"
+  },
+  {
+    "label": "Rafting",
+    "group": "g07"
+  },
+  {
+    "label": "RockClimbingIndoor",
+    "group": "g01"
+  },
+  {
+    "label": "RockClimbingIndoor",
+    "group": "g02"
+  },
+  {
+    "label": "RockClimbingIndoor",
+    "group": "g03"
+  },
+  {
+    "label": "RockClimbingIndoor",
+    "group": "g04"
+  },
+  {
+    "label": "RockClimbingIndoor",
+    "group": "g05"
+  },
+  {
+    "label": "RockClimbingIndoor",
+    "group": "g06"
+  },
+  {
+    "label": "RockClimbingIndoor",
+    "group": "g07"
+  },
+  {
+    "label": "RopeClimbing",
+    "group": "g01"
+  },
+  {
+    "label": "RopeClimbing",
+    "group": "g02"
+  },
+  {
+    "label": "RopeClimbing",
+    "group": "g03"
+  },
+  {
+    "label": "RopeClimbing",
+    "group": "g04"
+  },
+  {
+    "label": "RopeClimbing",
+    "group": "g05"
+  },
+  {
+    "label": "RopeClimbing",
+    "group": "g06"
+  },
+  {
+    "label": "RopeClimbing",
+    "group": "g07"
+  },
+  {
+    "label": "Rowing",
+    "group": "g01"
+  },
+  {
+    "label": "Rowing",
+    "group": "g02"
+  },
+  {
+    "label": "Rowing",
+    "group": "g03"
+  },
+  {
+    "label": "Rowing",
+    "group": "g04"
+  },
+  {
+    "label": "Rowing",
+    "group": "g05"
+  },
+  {
+    "label": "Rowing",
+    "group": "g06"
+  },
+  {
+    "label": "Rowing",
+    "group": "g07"
+  },
+  {
+    "label": "SalsaSpin",
+    "group": "g01"
+  },
+  {
+    "label": "SalsaSpin",
+    "group": "g02"
+  },
+  {
+    "label": "SalsaSpin",
+    "group": "g03"
+  },
+  {
+    "label": "SalsaSpin",
+    "group": "g04"
+  },
+  {
+    "label": "SalsaSpin",
+    "group": "g05"
+  },
+  {
+    "label": "SalsaSpin",
+    "group": "g06"
+  },
+  {
+    "label": "SalsaSpin",
+    "group": "g07"
+  },
+  {
+    "label": "ShavingBeard",
+    "group": "g01"
+  },
+  {
+    "label": "ShavingBeard",
+    "group": "g02"
+  },
+  {
+    "label": "ShavingBeard",
+    "group": "g03"
+  },
+  {
+    "label": "ShavingBeard",
+    "group": "g04"
+  },
+  {
+    "label": "ShavingBeard",
+    "group": "g05"
+  },
+  {
+    "label": "ShavingBeard",
+    "group": "g06"
+  },
+  {
+    "label": "ShavingBeard",
+    "group": "g07"
+  },
+  {
+    "label": "Shotput",
+    "group": "g01"
+  },
+  {
+    "label": "Shotput",
+    "group": "g02"
+  },
+  {
+    "label": "Shotput",
+    "group": "g03"
+  },
+  {
+    "label": "Shotput",
+    "group": "g04"
+  },
+  {
+    "label": "Shotput",
+    "group": "g05"
+  },
+  {
+    "label": "Shotput",
+    "group": "g06"
+  },
+  {
+    "label": "Shotput",
+    "group": "g07"
+  },
+  {
+    "label": "SkateBoarding",
+    "group": "g01"
+  },
+  {
+    "label": "SkateBoarding",
+    "group": "g02"
+  },
+  {
+    "label": "SkateBoarding",
+    "group": "g03"
+  },
+  {
+    "label": "SkateBoarding",
+    "group": "g04"
+  },
+  {
+    "label": "SkateBoarding",
+    "group": "g05"
+  },
+  {
+    "label": "SkateBoarding",
+    "group": "g06"
+  },
+  {
+    "label": "SkateBoarding",
+    "group": "g07"
+  },
+  {
+    "label": "Skiing",
+    "group": "g01"
+  },
+  {
+    "label": "Skiing",
+    "group": "g02"
+  },
+  {
+    "label": "Skiing",
+    "group": "g03"
+  },
+  {
+    "label": "Skiing",
+    "group": "g04"
+  },
+  {
+    "label": "Skiing",
+    "group": "g05"
+  },
+  {
+    "label": "Skiing",
+    "group": "g06"
+  },
+  {
+    "label": "Skiing",
+    "group": "g07"
+  },
+  {
+    "label": "Skijet",
+    "group": "g01"
+  },
+  {
+    "label": "Skijet",
+    "group": "g02"
+  },
+  {
+    "label": "Skijet",
+    "group": "g03"
+  },
+  {
+    "label": "Skijet",
+    "group": "g04"
+  },
+  {
+    "label": "Skijet",
+    "group": "g05"
+  },
+  {
+    "label": "Skijet",
+    "group": "g06"
+  },
+  {
+    "label": "Skijet",
+    "group": "g07"
+  },
+  {
+    "label": "SkyDiving",
+    "group": "g01"
+  },
+  {
+    "label": "SkyDiving",
+    "group": "g02"
+  },
+  {
+    "label": "SkyDiving",
+    "group": "g03"
+  },
+  {
+    "label": "SkyDiving",
+    "group": "g04"
+  },
+  {
+    "label": "SkyDiving",
+    "group": "g05"
+  },
+  {
+    "label": "SkyDiving",
+    "group": "g06"
+  },
+  {
+    "label": "SkyDiving",
+    "group": "g07"
+  },
+  {
+    "label": "SoccerJuggling",
+    "group": "g01"
+  },
+  {
+    "label": "SoccerJuggling",
+    "group": "g02"
+  },
+  {
+    "label": "SoccerJuggling",
+    "group": "g03"
+  },
+  {
+    "label": "SoccerJuggling",
+    "group": "g04"
+  },
+  {
+    "label": "SoccerJuggling",
+    "group": "g05"
+  },
+  {
+    "label": "SoccerJuggling",
+    "group": "g06"
+  },
+  {
+    "label": "SoccerJuggling",
+    "group": "g07"
+  },
+  {
+    "label": "SoccerPenalty",
+    "group": "g01"
+  },
+  {
+    "label": "SoccerPenalty",
+    "group": "g02"
+  },
+  {
+    "label": "SoccerPenalty",
+    "group": "g03"
+  },
+  {
+    "label": "SoccerPenalty",
+    "group": "g04"
+  },
+  {
+    "label": "SoccerPenalty",
+    "group": "g05"
+  },
+  {
+    "label": "SoccerPenalty",
+    "group": "g06"
+  },
+  {
+    "label": "SoccerPenalty",
+    "group": "g07"
+  },
+  {
+    "label": "StillRings",
+    "group": "g01"
+  },
+  {
+    "label": "StillRings",
+    "group": "g02"
+  },
+  {
+    "label": "StillRings",
+    "group": "g03"
+  },
+  {
+    "label": "StillRings",
+    "group": "g04"
+  },
+  {
+    "label": "StillRings",
+    "group": "g05"
+  },
+  {
+    "label": "StillRings",
+    "group": "g06"
+  },
+  {
+    "label": "StillRings",
+    "group": "g07"
+  },
+  {
+    "label": "SumoWrestling",
+    "group": "g01"
+  },
+  {
+    "label": "SumoWrestling",
+    "group": "g02"
+  },
+  {
+    "label": "SumoWrestling",
+    "group": "g03"
+  },
+  {
+    "label": "SumoWrestling",
+    "group": "g04"
+  },
+  {
+    "label": "SumoWrestling",
+    "group": "g05"
+  },
+  {
+    "label": "SumoWrestling",
+    "group": "g06"
+  },
+  {
+    "label": "SumoWrestling",
+    "group": "g07"
+  },
+  {
+    "label": "Surfing",
+    "group": "g01"
+  },
+  {
+    "label": "Surfing",
+    "group": "g02"
+  },
+  {
+    "label": "Surfing",
+    "group": "g03"
+  },
+  {
+    "label": "Surfing",
+    "group": "g04"
+  },
+  {
+    "label": "Surfing",
+    "group": "g05"
+  },
+  {
+    "label": "Surfing",
+    "group": "g06"
+  },
+  {
+    "label": "Surfing",
+    "group": "g07"
+  },
+  {
+    "label": "Swing",
+    "group": "g01"
+  },
+  {
+    "label": "Swing",
+    "group": "g02"
+  },
+  {
+    "label": "Swing",
+    "group": "g03"
+  },
+  {
+    "label": "Swing",
+    "group": "g04"
+  },
+  {
+    "label": "Swing",
+    "group": "g05"
+  },
+  {
+    "label": "Swing",
+    "group": "g06"
+  },
+  {
+    "label": "Swing",
+    "group": "g07"
+  },
+  {
+    "label": "TableTennisShot",
+    "group": "g01"
+  },
+  {
+    "label": "TableTennisShot",
+    "group": "g02"
+  },
+  {
+    "label": "TableTennisShot",
+    "group": "g03"
+  },
+  {
+    "label": "TableTennisShot",
+    "group": "g04"
+  },
+  {
+    "label": "TableTennisShot",
+    "group": "g05"
+  },
+  {
+    "label": "TableTennisShot",
+    "group": "g06"
+  },
+  {
+    "label": "TableTennisShot",
+    "group": "g07"
+  },
+  {
+    "label": "TaiChi",
+    "group": "g01"
+  },
+  {
+    "label": "TaiChi",
+    "group": "g02"
+  },
+  {
+    "label": "TaiChi",
+    "group": "g03"
+  },
+  {
+    "label": "TaiChi",
+    "group": "g04"
+  },
+  {
+    "label": "TaiChi",
+    "group": "g05"
+  },
+  {
+    "label": "TaiChi",
+    "group": "g06"
+  },
+  {
+    "label": "TaiChi",
+    "group": "g07"
+  },
+  {
+    "label": "TennisSwing",
+    "group": "g01"
+  },
+  {
+    "label": "TennisSwing",
+    "group": "g02"
+  },
+  {
+    "label": "TennisSwing",
+    "group": "g03"
+  },
+  {
+    "label": "TennisSwing",
+    "group": "g04"
+  },
+  {
+    "label": "TennisSwing",
+    "group": "g05"
+  },
+  {
+    "label": "TennisSwing",
+    "group": "g06"
+  },
+  {
+    "label": "TennisSwing",
+    "group": "g07"
+  },
+  {
+    "label": "ThrowDiscus",
+    "group": "g01"
+  },
+  {
+    "label": "ThrowDiscus",
+    "group": "g02"
+  },
+  {
+    "label": "ThrowDiscus",
+    "group": "g03"
+  },
+  {
+    "label": "ThrowDiscus",
+    "group": "g04"
+  },
+  {
+    "label": "ThrowDiscus",
+    "group": "g05"
+  },
+  {
+    "label": "ThrowDiscus",
+    "group": "g06"
+  },
+  {
+    "label": "ThrowDiscus",
+    "group": "g07"
+  },
+  {
+    "label": "TrampolineJumping",
+    "group": "g01"
+  },
+  {
+    "label": "TrampolineJumping",
+    "group": "g02"
+  },
+  {
+    "label": "TrampolineJumping",
+    "group": "g03"
+  },
+  {
+    "label": "TrampolineJumping",
+    "group": "g04"
+  },
+  {
+    "label": "TrampolineJumping",
+    "group": "g05"
+  },
+  {
+    "label": "TrampolineJumping",
+    "group": "g06"
+  },
+  {
+    "label": "TrampolineJumping",
+    "group": "g07"
+  },
+  {
+    "label": "Typing",
+    "group": "g01"
+  },
+  {
+    "label": "Typing",
+    "group": "g02"
+  },
+  {
+    "label": "Typing",
+    "group": "g03"
+  },
+  {
+    "label": "Typing",
+    "group": "g04"
+  },
+  {
+    "label": "Typing",
+    "group": "g05"
+  },
+  {
+    "label": "Typing",
+    "group": "g06"
+  },
+  {
+    "label": "Typing",
+    "group": "g07"
+  },
+  {
+    "label": "UnevenBars",
+    "group": "g01"
+  },
+  {
+    "label": "UnevenBars",
+    "group": "g02"
+  },
+  {
+    "label": "UnevenBars",
+    "group": "g03"
+  },
+  {
+    "label": "UnevenBars",
+    "group": "g04"
+  },
+  {
+    "label": "UnevenBars",
+    "group": "g05"
+  },
+  {
+    "label": "UnevenBars",
+    "group": "g06"
+  },
+  {
+    "label": "UnevenBars",
+    "group": "g07"
+  },
+  {
+    "label": "VolleyballSpiking",
+    "group": "g01"
+  },
+  {
+    "label": "VolleyballSpiking",
+    "group": "g02"
+  },
+  {
+    "label": "VolleyballSpiking",
+    "group": "g03"
+  },
+  {
+    "label": "VolleyballSpiking",
+    "group": "g04"
+  },
+  {
+    "label": "VolleyballSpiking",
+    "group": "g05"
+  },
+  {
+    "label": "VolleyballSpiking",
+    "group": "g06"
+  },
+  {
+    "label": "VolleyballSpiking",
+    "group": "g07"
+  },
+  {
+    "label": "WalkingWithDog",
+    "group": "g01"
+  },
+  {
+    "label": "WalkingWithDog",
+    "group": "g02"
+  },
+  {
+    "label": "WalkingWithDog",
+    "group": "g03"
+  },
+  {
+    "label": "WalkingWithDog",
+    "group": "g04"
+  },
+  {
+    "label": "WalkingWithDog",
+    "group": "g05"
+  },
+  {
+    "label": "WalkingWithDog",
+    "group": "g06"
+  },
+  {
+    "label": "WalkingWithDog",
+    "group": "g07"
+  },
+  {
+    "label": "WallPushups",
+    "group": "g01"
+  },
+  {
+    "label": "WallPushups",
+    "group": "g02"
+  },
+  {
+    "label": "WallPushups",
+    "group": "g03"
+  },
+  {
+    "label": "WallPushups",
+    "group": "g04"
+  },
+  {
+    "label": "WallPushups",
+    "group": "g05"
+  },
+  {
+    "label": "WallPushups",
+    "group": "g06"
+  },
+  {
+    "label": "WallPushups",
+    "group": "g07"
+  },
+  {
+    "label": "WritingOnBoard",
+    "group": "g01"
+  },
+  {
+    "label": "WritingOnBoard",
+    "group": "g02"
+  },
+  {
+    "label": "WritingOnBoard",
+    "group": "g03"
+  },
+  {
+    "label": "WritingOnBoard",
+    "group": "g04"
+  },
+  {
+    "label": "WritingOnBoard",
+    "group": "g05"
+  },
+  {
+    "label": "WritingOnBoard",
+    "group": "g06"
+  },
+  {
+    "label": "WritingOnBoard",
+    "group": "g07"
+  },
+  {
+    "label": "YoYo",
+    "group": "g01"
+  },
+  {
+    "label": "YoYo",
+    "group": "g02"
+  },
+  {
+    "label": "YoYo",
+    "group": "g03"
+  },
+  {
+    "label": "YoYo",
+    "group": "g04"
+  },
+  {
+    "label": "YoYo",
+    "group": "g05"
+  },
+  {
+    "label": "YoYo",
+    "group": "g06"
+  },
+  {
+    "label": "YoYo",
+    "group": "g07"
+  }
+]

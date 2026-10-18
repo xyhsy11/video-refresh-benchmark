@@ -1,0 +1,119 @@
+{
+  "recorded_at_utc": "2026-10-18T04:18:13.791789+00:00",
+  "failed_state": {
+    "stages": {
+      "baseline_verification": {
+        "status": "verified",
+        "at_utc": "2026-10-18T02:31:39.858061+00:00"
+      },
+      "metadata": {
+        "status": "prepared",
+        "at_utc": "2026-10-18T02:32:30.071835+00:00",
+        "classes": 101,
+        "official_clips": 13320
+      },
+      "acquisition": {
+        "status": "prepared",
+        "at_utc": "2026-10-18T02:35:57.427079+00:00",
+        "archive_sha256": "ca8dfadb4c891cb11316f94d52b6b0ac2a11994e67a0cae227180cd160bd8e55"
+      },
+      "population": {
+        "status": "prepared",
+        "at_utc": "2026-10-18T02:53:25.547744+00:00",
+        "clips": 5030
+      },
+      "training_smoke": {
+        "status": "pilot",
+        "at_utc": "2026-10-18T02:53:38.101003+00:00",
+        "projection": {
+          "actual_training_clips": [
+            "v_Nunchucks_g22_c03.avi",
+            "v_Biking_g19_c02.avi"
+          ],
+          "encoder_calls": 32,
+          "elapsed_seconds": 2.6383846999999605,
+          "projected_collection_seconds": 6635.537520499901,
+          "projected_feature_bytes": 335998970.0,
+          "free_disk_bytes": 197385793536,
+          "native_head_verification": {
+            "strict_loading": true,
+            "shape": [
+              1,
+              2048
+            ],
+            "projection_shape": [
+              1,
+              1,
+              2,
+              2,
+              2048
+            ],
+            "native_mean_max_difference": 0.0,
+            "affine_mean_max_difference": 9.5367431640625e-07,
+            "native_projection_executed": true
+          },
+          "no_test_features": true,
+          "recorded_at_utc": "2026-10-18T02:53:38.087042+00:00"
+        }
+      },
+      "train_features": {
+        "status": "prepared",
+        "at_utc": "2026-10-18T03:54:42.656790+00:00",
+        "clips": 3020
+      },
+      "development_features": {
+        "status": "prepared",
+        "at_utc": "2026-10-18T04:05:32.620036+00:00",
+        "clips": 602
+      },
+      "head": {
+        "status": "prepared",
+        "at_utc": "2026-10-18T04:11:50.851609+00:00"
+      },
+      "development_analysis": {
+        "status": "incomplete",
+        "at_utc": "2026-10-18T04:17:53.474977+00:00",
+        "error_type": "TypeError",
+        "reason": "Object of type bool is not JSON serializable"
+      },
+      "precision": {
+        "status": "pending"
+      },
+      "evaluation": {
+        "status": "pending"
+      },
+      "test_features": {
+        "status": "pending"
+      },
+      "quality": {
+        "status": "pending"
+      },
+      "timing": {
+        "status": "pending"
+      },
+      "figures": {
+        "status": "pending"
+      },
+      "final": {
+        "status": "pending"
+      },
+      "execution": {
+        "status": "interrupted",
+        "at_utc": "2026-10-17T13:47:07.166887+00:00",
+        "reason": "User interrupted; no test exposure, bulk features or fitted UCF head"
+      }
+    },
+    "status": "incomplete",
+    "current_stage": "development_analysis",
+    "updated_at_utc": "2026-10-18T04:17:53.474977+00:00",
+    "resume_command": "& .\\.venv_temporal\\Scripts\\python.exe .\\run_ucf101_proxy_replication.py --resume",
+    "audit_command": "& .\\.venv_temporal\\Scripts\\python.exe -B .\\run_ucf101_proxy_replication.py --audit-only"
+  },
+  "reason": "Long-running worker imported analysis before the already-tested NumPy bool serialization correction; all completed feature/head/development artifacts are retained for identity-checked resume",
+  "head_sha256": "42e9f9813ce13c1b7200c5753ce6af0e7a76016530808c868b433b70ac40a150",
+  "training_clips": 3020,
+  "development_clips": 602,
+  "development_metrics_sha256": "d8ae85ab4f1abe6b64b4c6c767e0cbcdec104f892ae84dda87dd0b2e5deb7851",
+  "test_exposed": false,
+  "refitting_or_population_changes_authorized": false
+}

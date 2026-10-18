@@ -1,0 +1,7 @@
+{
+  "url": "https://www.crcv.ucf.edu/data/UCF101/UCF101.rar",
+  "sha256": "ca8dfadb4c891cb11316f94d52b6b0ac2a11994e67a0cae227180cd160bd8e55",
+  "bytes": 6932971618,
+  "recovered_at_utc": "2026-10-18T02:32:57.722230+00:00",
+  "recovery": "User interrupted after final rename, before identity hash; complete official range ledger and verified prefix retained. Full extraction CRC remains mandatory before input screening."
+}
