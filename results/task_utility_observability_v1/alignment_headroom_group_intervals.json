@@ -1,0 +1,267 @@
+{
+  "seed": 20261022,
+  "repeats": 2000,
+  "scope": "EXPLORATORY marginal group intervals; same saved draws; hold comparison is label frequency, not an executed policy",
+  "rows": [
+    {
+      "population": "periodic",
+      "target": "local",
+      "metric": "teacher_task_sign_agreement",
+      "mean": 0.5111386138613856,
+      "CI95": [
+        0.5014438943894388,
+        0.5200134075907589
+      ]
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "metric": "teacher_minus_hold_label_agreement",
+      "mean": 0.0099009900990099,
+      "CI95": [
+        -0.0030940594059405946,
+        0.02207611386138611
+      ]
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "metric": "teacher_refresh_task_negative_mass",
+      "mean": 0.12438118811881196,
+      "CI95": [
+        0.11716171617161718,
+        0.13181208745874587
+      ]
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "metric": "teacher_wrong_branch_regret",
+      "mean": 0.09850739945136648,
+      "CI95": [
+        0.08520430114363135,
+        0.11138869063108474
+      ]
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "metric": "teacher_task_sign_agreement",
+      "mean": 0.566006600660066,
+      "CI95": [
+        0.5563118811881187,
+        0.5757064768976896
+      ]
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "metric": "teacher_minus_hold_label_agreement",
+      "mean": -0.026815181518151807,
+      "CI95": [
+        -0.037334983498349836,
+        -0.016295379537953795
+      ]
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "metric": "teacher_refresh_task_negative_mass",
+      "mean": 0.14273927392739283,
+      "CI95": [
+        0.13572091584158416,
+        0.14975247524752477
+      ]
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "metric": "teacher_wrong_branch_regret",
+      "mean": 0.00956373378279623,
+      "CI95": [
+        0.007642991714588648,
+        0.011418234815362876
+      ]
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "metric": "teacher_task_sign_agreement",
+      "mean": 0.49630555775357676,
+      "CI95": [
+        0.4849190456476967,
+        0.5078891060465937
+      ]
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "metric": "teacher_minus_hold_label_agreement",
+      "mean": 0.01389083963341389,
+      "CI95": [
+        -0.004413050680068007,
+        0.03178691770275928
+      ]
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "metric": "teacher_refresh_task_negative_mass",
+      "mean": 0.1629246028998504,
+      "CI95": [
+        0.1528547571446705,
+        0.17321451719347758
+      ]
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "metric": "teacher_wrong_branch_regret",
+      "mean": 0.09773114230238229,
+      "CI95": [
+        0.08336722175804998,
+        0.11158010191366755
+      ]
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "metric": "teacher_task_sign_agreement",
+      "mean": 0.581665501715006,
+      "CI95": [
+        0.5713736820110582,
+        0.5923403822181669
+      ]
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "metric": "teacher_minus_hold_label_agreement",
+      "mean": 0.009145351348321644,
+      "CI95": [
+        -0.006284236425016132,
+        0.0245069682105573
+      ]
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "metric": "teacher_refresh_task_negative_mass",
+      "mean": 0.16529734704239651,
+      "CI95": [
+        0.15631469328251507,
+        0.17464851498886155
+      ]
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "metric": "teacher_wrong_branch_regret",
+      "mean": 0.009638751069273721,
+      "CI95": [
+        0.007566572042388736,
+        0.01165823247429211
+      ]
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "metric": "teacher_task_sign_agreement",
+      "mean": 0.5014603383415259,
+      "CI95": [
+        0.48971580760411193,
+        0.5135342849188765
+      ]
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "metric": "teacher_minus_hold_label_agreement",
+      "mean": -0.00476003644320476,
+      "CI95": [
+        -0.020572463668070102,
+        0.010258478286015399
+      ]
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "metric": "teacher_refresh_task_negative_mass",
+      "mean": 0.1457838778383333,
+      "CI95": [
+        0.1365065132886915,
+        0.1549933229930136
+      ]
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "metric": "teacher_wrong_branch_regret",
+      "mean": 0.08962956235415026,
+      "CI95": [
+        0.07658824343664238,
+        0.10249903901809002
+      ]
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "metric": "teacher_task_sign_agreement",
+      "mean": 0.5680187455558737,
+      "CI95": [
+        0.5571473325217137,
+        0.5787428430343035
+      ]
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "metric": "teacher_minus_hold_label_agreement",
+      "mean": -0.020946765006170945,
+      "CI95": [
+        -0.03499301561337452,
+        -0.007498230764010464
+      ]
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "metric": "teacher_refresh_task_negative_mass",
+      "mean": 0.15387724211981638,
+      "CI95": [
+        0.14505149330180273,
+        0.16298997722574454
+      ]
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "metric": "teacher_wrong_branch_regret",
+      "mean": 0.009429162583767615,
+      "CI95": [
+        0.007441081913395323,
+        0.011347814296949178
+      ]
+    },
+    {
+      "population": "execution_videos",
+      "target": "final_C_pool",
+      "metric": "task_oracle_headroom",
+      "mean": 0.11194454404605285,
+      "CI95": [
+        0.0894726316887365,
+        0.1336526575658751
+      ]
+    },
+    {
+      "population": "execution_videos",
+      "target": "final_C_pool",
+      "metric": "proxy_Z_pool_reduction",
+      "mean": 0.0015764499155351366,
+      "CI95": [
+        -0.0056295035243264175,
+        0.008606485277701977
+      ]
+    }
+  ]
+}

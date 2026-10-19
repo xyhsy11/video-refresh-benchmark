@@ -1,5 +1,7 @@
 # video-refresh-benchmark
 
+Experiment 22, [task-utility observability and cost feasibility](results/task_utility_observability_v1/findings.md), completed as a CPU-only exploratory reanalysis of UCF101 training/development evidence. Incremental information from the existing cheap signals is **not established** beyond history; the true-label hindsight task headroom is larger than the fidelity-teacher advantage. No new GPU inference or official-test outcome access occurred. See the [decision](results/task_utility_observability_v1/decision.md), [protocol and audit commands](results/task_utility_observability_v1/README.md), and [next population gate](results/task_utility_observability_v1/next_experiment.md).
+
 UCF101 [causal policy development execution](results/ucf101_causal_development_v1/findings.md) is complete: real four-forward policies ran on400 development clips/200 groups. H+M did not establish lower CE than periodic and was slower in measured timing. This is DEVELOPMENT/EXPLORATORY, with a reused head selected on prior development data; no exposed official-test outcomes were accessed. See the [completed review](results/ucf101_causal_development_v1/completion_review.md) and [commands](results/ucf101_causal_development_v1/README.md).
 
 

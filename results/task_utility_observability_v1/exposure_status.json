@@ -1,0 +1,34 @@
+{
+  "scope": "EXPLORATORY/DEVELOPMENT; no independent confirmation",
+  "original_development_exposure": {
+    "at_utc": "2026-10-19T07:15:03.425145+00:00",
+    "seal_sha256": "74602a9a7cc118dd5fe3ced304f33875adfb789f22f633ce9eef3b613bfc1125",
+    "scope": "First actual causal DEVELOPMENT rollout; data already used for historical recognition-head selection; no official-test access"
+  },
+  "original_exposure_sha256": "b0adbe8a0bb5ed2fa58a7073b0ce768ced61657cb7560437bc4557b46d62eb22",
+  "head_selected_on_all_original_development": true,
+  "probe_fitting_sources_overlap_recognition_head_fitting": true,
+  "execution_sources_previously_exposed": true,
+  "new_design_seal": {
+    "sha256": {
+      "task_utility_observability.py": "64d29bd3cdf46225524358457b6fc20a26214e104db91fd95d4e307f523b83c1",
+      "task_utility_observability_study.py": "2a7e205301c30dbb8481478d220b8779949de6cbe2acb0bdd1b5400d214366de",
+      "run_task_utility_observability.py": "6df798b6c260cdc3c6336a8a729079df7921f3845078eb30b76f05e384da0905",
+      "test_task_utility_observability.py": "b543bb5b1948c5af9aa8a43a2a5b1b0ddb11822d1b2440ad1bee5007ec4d7a56",
+      "causal_observability_policy.py": "dda0908b98b042b4e5ac88a86cead957530582d4e1f4e7a186714450a0d212c6",
+      "causal_observability_common.py": "8fae3697454857bcf3cb6d6a3bcdaec5b448776badbd5633e45b5d48b11f5414",
+      "results/task_utility_observability_v1/protocol.md": "b564840b38b04907471671f21d89c3eab10696373780cb4dba231b687d09e4cf",
+      "results/task_utility_observability_v1/task_target_definitions.md": "1a73ca8cf5a4679602604b3db299abe8086f16d02c4cd376d2dcda405a4091a2"
+    },
+    "at_utc": "2026-10-19T09:24:40.817821+00:00",
+    "scope": "Analysis specification before new targets/probes; prior development outcomes already exposed",
+    "seed": 20261022,
+    "bootstrap_repeats": 2000,
+    "persistence_amendment_at_utc": "2026-10-19T09:29:38.735439+00:00",
+    "resume_authentication_amendment_at_utc": "2026-10-19T09:30:46.831021+00:00",
+    "post_initial_analysis_metric_correction_at_utc": "2026-10-19T09:36:20.289200+00:00"
+  },
+  "official_test_outcomes_opened": false,
+  "post_initial_analysis_amendment_disclosed": "implementation_amendments.json",
+  "at_utc": "2026-10-19T09:44:03.384009+00:00"
+}

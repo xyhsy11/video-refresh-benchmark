@@ -1,0 +1,83 @@
+"""Read-only by default: genuine group uncertainty, coverage and amendment review.
+
+This supplements the prespecified alignment/headroom analyses without selecting
+new populations, probes, targets or policies. --write saves receipts only here.
+"""
+from pathlib import Path
+from collections import Counter
+import argparse
+import csv
+import json
+import sys
+import numpy as np
+ROOT=Path(__file__).resolve().parents[2];sys.path.insert(0,str(ROOT))
+import task_utility_observability as m
+import task_utility_observability_study as s
+
+
+def main():
+    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--write',action='store_true');args=parser.parse_args()
+    s.GUARD.install();s.load_inputs()
+    group=s.read(s.OUT/'bootstrap_groups.json')['groups'];lookup={tuple(g):i for i,g in enumerate(group)}
+    draws=np.load(s.OUT/'bootstrap_group_indices.npy',allow_pickle=False)
+    counts=np.stack([np.bincount(d,minlength=len(group)) for d in draws])
+    result=[]
+    def interval(rows,values,weights):
+        ids=np.array([lookup[r['label'],r['group']] for r in rows]);sums=np.bincount(ids,weights=weights*values,minlength=len(group))
+        return dict(mean=float(weights @ values),CI95=np.percentile(counts @ sums,[2.5,97.5]).tolist())
+    for item in s.read(s.OUT/'prediction_inventory.json'):
+        if item['role']!='execution':continue
+        rows,a=s.read_prediction(item);w=m.hierarchical_weights(rows);teacher=np.array([r['teacher_refresh'] for r in rows],bool)
+        for ti,target in enumerate(m.TARGETS):
+            gain=a['gains'][ti];positive=gain>0;agreement=teacher==positive
+            for metric,values in [('teacher_task_sign_agreement',agreement.astype(float)),
+                ('teacher_minus_hold_label_agreement',agreement.astype(float)-(gain<=0).astype(float)),
+                ('teacher_refresh_task_negative_mass',(teacher&(gain<0)).astype(float)),
+                ('teacher_wrong_branch_regret',abs(gain)*~agreement)]:
+                result.append(dict(population=item['population'],target=target,metric=metric,**interval(rows,values,w)))
+    with (s.OUT/'per_clip_offline_headroom.csv').open(newline='',encoding='utf-8') as f:
+        clips=[r for r in csv.DictReader(f) if r['role']=='execution']
+    w=m.hierarchical_weights(clips)
+    for name,first,second in [('task_oracle_headroom','periodic_CE','task_oracle_CE'),('proxy_Z_pool_reduction','periodic_CE','Z_pool_CE')]:
+        values=np.array([float(r[first])-float(r[second]) for r in clips])
+        result.append(dict(population='execution_videos',target='final_C_pool',metric=name,**interval(clips,values,w)))
+    # Verify the post-analysis constant-correlation correction did not retune
+    # or change ANY selected model parameter/calibrator/threshold/prediction.
+    archive=s.DATA/'execution_history/pre_constant_correlation_correction'
+    models=[]
+    for p in (s.OUT/'probes').glob('*.json'):
+        old=s.read(archive/'probes'/p.name);new=s.read(p)
+        for key in ['classifier','regression','calibration','threshold','feature_indices']:
+            assert old[key]==new[key],(p.name,key)
+        models.append(p.name)
+    predictions=[]
+    for p in s.OUT.glob('predictions_*.npz'):
+        with np.load(archive/p.name,allow_pickle=False) as a,np.load(p,allow_pickle=False) as b:
+            for k in a.files:np.testing.assert_array_equal(a[k],b[k])
+        predictions.append(p.name)
+    # H/H+M standardization of common H coordinates is exactly identical.
+    for target in m.TARGETS:
+        a=s.read(s.OUT/'probes'/f'{target}_H.json');b=s.read(s.OUT/'probes'/f'{target}_HM.json')
+        for kind in ['classifier','regression']:
+            for key in ['means','scales']:np.testing.assert_array_equal(a[kind][key],b[kind][key][:114])
+    with (s.OUT/'probe_metrics.csv').open(newline='',encoding='utf-8') as f:metrics=list(csv.DictReader(f))
+    coverage={}
+    for r in metrics:
+        if r['role']=='execution':
+            key=(r['population'],r['stratum']);coverage[key]=dict(population=key[0],stratum=key[1],states=int(r['states']),groups=int(r['groups']),classes=int(r['classes']),sparse=int(r['groups'])<20)
+    ledger=s.read(s.OUT/'observation_provenance.json');states=[]
+    for clip in ledger:states.extend(s.read(s.DATA/'clips'/f'{clip}.json')['states'])
+    state_counts=Counter((r['role'],r['population'],r['discretionary']) for r in states)
+    receipt=dict(passed=True,models_bitwise_parameter_unchanged=models,prediction_vectors_bitwise_unchanged=predictions,
+        constant_correlation_only_corrected=True,H_HM_shared_standardization_exact=True,
+        state_counts=[dict(role=k[0],population=k[1],discretionary=k[2],states=n) for k,n in sorted(state_counts.items())],
+        coverage=list(coverage.values()),new_GPU_calls=0,new_decodes=0,scope='Descriptive supplemental review; no new model/target/threshold selection',
+        source_code_sha256=s.sha(Path(__file__)))
+    if args.write:
+        s.save(s.OUT/'supplemental_review.json',receipt)
+        s.save(s.OUT/'alignment_headroom_group_intervals.json',dict(seed=m.SEED,repeats=len(draws),
+            scope='EXPLORATORY marginal group intervals; same saved draws; hold comparison is label frequency, not an executed policy',rows=result))
+    print(json.dumps(dict(receipt=receipt,intervals=result),indent=2))
+
+
+if __name__=='__main__':main()

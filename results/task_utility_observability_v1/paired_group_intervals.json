@@ -1,0 +1,3246 @@
+{
+  "repeats": 2000,
+  "seed": 20261022,
+  "intervals": [
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "PR_AUC",
+      "difference": 0.04571081236565777,
+      "CI95": [
+        0.02639840104736046,
+        0.0672397555535398
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "ROC_AUC",
+      "difference": 0.059668058831738535,
+      "CI95": [
+        0.03917394008006532,
+        0.08011101855232375
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "Brier",
+      "difference": -0.004021997044284631,
+      "CI95": [
+        -0.005583636606747046,
+        -0.002453881250737923
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "MAE",
+      "difference": 0.006272938060755184,
+      "CI95": [
+        0.001937515969579217,
+        0.010594793561037326
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "Spearman",
+      "difference": 0.09127278626770302,
+      "CI95": [
+        0.04715275734205767,
+        0.131839336129391
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "signed_bias",
+      "difference": 0.06674572148605064,
+      "CI95": [
+        0.0557655857872629,
+        0.07682889280671569
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "sign_error",
+      "difference": -0.04022277227722765,
+      "CI95": [
+        -0.06106126237623775,
+        -0.019389438943894333
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "precision",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "recall",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "PR_AUC",
+      "difference": 0.0001809798348983982,
+      "CI95": [
+        -0.0012922329879506672,
+        0.0016865371626590881
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "ROC_AUC",
+      "difference": -0.0003592738957137742,
+      "CI95": [
+        -0.002594621104793163,
+        0.0018423284853348754
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "Brier",
+      "difference": -3.7220419129790905e-05,
+      "CI95": [
+        -0.00014341102819959498,
+        7.071937087543184e-05
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "MAE",
+      "difference": 0.00047260044609448437,
+      "CI95": [
+        2.6866234037019328e-05,
+        0.0009029261424289302
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "Spearman",
+      "difference": 0.0043277575073863706,
+      "CI95": [
+        -0.0009384772640905265,
+        0.009646418348002894
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "signed_bias",
+      "difference": -0.0012776619465436068,
+      "CI95": [
+        -0.0019451540247251912,
+        -0.000658181216282553
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "sign_error",
+      "difference": 0.00020627062706274346,
+      "CI95": [
+        -0.006188118811881194,
+        0.006394389438943883
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "precision",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "recall",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "PR_AUC",
+      "difference": -0.020877227056725678,
+      "CI95": [
+        -0.0383157866187224,
+        -0.00355576665245018
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "ROC_AUC",
+      "difference": -0.024759434556328785,
+      "CI95": [
+        -0.04656806330331255,
+        -0.003993161503032021
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "Brier",
+      "difference": 0.0006817741613117656,
+      "CI95": [
+        -1.0868295692627308e-05,
+        0.0013652342562135273
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "MAE",
+      "difference": -8.949681610961879e-05,
+      "CI95": [
+        -0.0004292127601379238,
+        0.00025125262488208654
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "Spearman",
+      "difference": -0.03984795247415789,
+      "CI95": [
+        -0.07704626986515345,
+        -0.0011604345376684706
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "signed_bias",
+      "difference": -0.001107305014645935,
+      "CI95": [
+        -0.001792099739161106,
+        -0.0004446575685290335
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "sign_error",
+      "difference": 0.016501650165016535,
+      "CI95": [
+        -0.0008302392739273187,
+        0.03382838283828382
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "precision",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "recall",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "PR_AUC",
+      "difference": 0.0032998347251353977,
+      "CI95": [
+        -0.008635738296430231,
+        0.0159475565908379
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "ROC_AUC",
+      "difference": 0.006043834478721033,
+      "CI95": [
+        -0.010094231860591071,
+        0.02067948742291036
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "Brier",
+      "difference": -3.554404682859502e-06,
+      "CI95": [
+        -0.0002456648420953486,
+        0.00024571808311501505
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "MAE",
+      "difference": 0.0007131963605643277,
+      "CI95": [
+        0.00041397474290822344,
+        0.000999273286718199
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "Spearman",
+      "difference": null,
+      "CI95": [
+        null,
+        null
+      ],
+      "valid_draws": 0,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "signed_bias",
+      "difference": -0.0011073050146459072,
+      "CI95": [
+        -0.0017920997391610814,
+        -0.0004446575685290074
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "sign_error",
+      "difference": -0.003712871287128716,
+      "CI95": [
+        -0.016501650165016594,
+        0.00907590759075916
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "precision",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "recall",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "PR_AUC",
+      "difference": -0.004835729565101643,
+      "CI95": [
+        -0.01617787138330182,
+        0.008498153735393556
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "ROC_AUC",
+      "difference": -0.012105704005938689,
+      "CI95": [
+        -0.019858310591509568,
+        -0.0042485695005355165
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "Brier",
+      "difference": 0.0032922439226349687,
+      "CI95": [
+        0.0018539111716385482,
+        0.0046745176156650844
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "MAE",
+      "difference": -6.093407232177911e-05,
+      "CI95": [
+        -7.982624480035631e-05,
+        -4.2013123028551355e-05
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "Spearman",
+      "difference": -0.004311115338298782,
+      "CI95": [
+        -0.02428730627793678,
+        0.01635883626253412
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "signed_bias",
+      "difference": -4.844473564451744e-05,
+      "CI95": [
+        -7.599286949888694e-05,
+        -2.3345448380288306e-05
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "sign_error",
+      "difference": 0.008869636963696303,
+      "CI95": [
+        -0.0008250825082508628,
+        0.018358085808580837
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "precision",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "recall",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "PR_AUC",
+      "difference": -0.0014619210667127236,
+      "CI95": [
+        -0.005408166093985807,
+        0.002437703431791254
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "ROC_AUC",
+      "difference": -0.0010174015859616414,
+      "CI95": [
+        -0.004282444306741864,
+        0.0024966091276850174
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "Brier",
+      "difference": 6.832906526021976e-05,
+      "CI95": [
+        -0.000253278181391086,
+        0.00039049412003358194
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "MAE",
+      "difference": 6.012186813154907e-07,
+      "CI95": [
+        -2.5517696851537487e-06,
+        3.7396349312115955e-06
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "Spearman",
+      "difference": -0.0019936593398542923,
+      "CI95": [
+        -0.005669246142417634,
+        0.0017656200778757554
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "signed_bias",
+      "difference": -4.924260229129812e-06,
+      "CI95": [
+        -1.335866157131391e-05,
+        3.9585519198088126e-06
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "sign_error",
+      "difference": -0.0012376237623762387,
+      "CI95": [
+        -0.005156765676567643,
+        0.0024752475247524774
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "precision",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "recall",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "PR_AUC",
+      "difference": -0.08663154589750571,
+      "CI95": [
+        -0.10343131882925513,
+        -0.06974715933215266
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "ROC_AUC",
+      "difference": -0.1279564047298246,
+      "CI95": [
+        -0.14723178551555163,
+        -0.10895386444140191
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "Brier",
+      "difference": 0.010548035142460693,
+      "CI95": [
+        0.008222272782213361,
+        0.012797252038862476
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "MAE",
+      "difference": 6.400063585399601e-05,
+      "CI95": [
+        4.965086894227703e-05,
+        7.746295696894401e-05
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "Spearman",
+      "difference": -0.22710448345577094,
+      "CI95": [
+        -0.2632987387780987,
+        -0.19000373442551885
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "signed_bias",
+      "difference": -1.087777746138982e-05,
+      "CI95": [
+        -3.125115217551288e-05,
+        8.813921573627124e-06
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "sign_error",
+      "difference": 0.011551155115511469,
+      "CI95": [
+        0.00598184818481845,
+        0.01691419141914191
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "precision",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "recall",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "PR_AUC",
+      "difference": 0.0038968951540086505,
+      "CI95": [
+        -0.006242738049500071,
+        0.015116109451802093
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "ROC_AUC",
+      "difference": -0.006612757778752143,
+      "CI95": [
+        -0.020893241890989553,
+        0.007213389794766954
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "Brier",
+      "difference": 0.0001807300176625004,
+      "CI95": [
+        -7.369437059629446e-05,
+        0.0004470433763736721
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "MAE",
+      "difference": 5.133015673029762e-06,
+      "CI95": [
+        -5.81166396422415e-06,
+        1.642147276869013e-05
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "Spearman",
+      "difference": null,
+      "CI95": [
+        null,
+        null
+      ],
+      "valid_draws": 0,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "signed_bias",
+      "difference": -1.087777746138982e-05,
+      "CI95": [
+        -3.1251152175516264e-05,
+        8.813921573625431e-06
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "sign_error",
+      "difference": 0.0004125412541253759,
+      "CI95": [
+        -0.001856435643564358,
+        0.0024752475247524774
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "precision",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "periodic",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "recall",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "PR_AUC",
+      "difference": 0.0455066261232846,
+      "CI95": [
+        0.023131533921939514,
+        0.07060472295227396
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "ROC_AUC",
+      "difference": 0.059441399577972565,
+      "CI95": [
+        0.03503998788998419,
+        0.0839923102744749
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "Brier",
+      "difference": -0.0038014730340462655,
+      "CI95": [
+        -0.005659389623398232,
+        -0.0020099467318295014
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "MAE",
+      "difference": 0.0036752540145513213,
+      "CI95": [
+        -0.0011103505719100848,
+        0.00863993854883221
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "Spearman",
+      "difference": 0.09851742439058972,
+      "CI95": [
+        0.048102038800647354,
+        0.14997400868078506
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "signed_bias",
+      "difference": 0.06796339064941614,
+      "CI95": [
+        0.05724071956791116,
+        0.07800580715126904
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "sign_error",
+      "difference": -0.039879880845227256,
+      "CI95": [
+        -0.0633523345466412,
+        -0.016519530215384052
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "precision",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "recall",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "PR_AUC",
+      "difference": 0.0006226555060048211,
+      "CI95": [
+        -0.0009701173674011992,
+        0.0021208472314582587
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "ROC_AUC",
+      "difference": 0.0005613980368777138,
+      "CI95": [
+        -0.0020983857177276828,
+        0.003102436002462042
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "Brier",
+      "difference": -3.4367935526607996e-05,
+      "CI95": [
+        -0.00015478716173675868,
+        9.54254957485079e-05
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "MAE",
+      "difference": 0.0006704126489748274,
+      "CI95": [
+        0.0002857765122737443,
+        0.0010530962947050053
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "Spearman",
+      "difference": 0.00483442521322705,
+      "CI95": [
+        -0.0008804444941545801,
+        0.01087019291002548
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "signed_bias",
+      "difference": -0.0012883835787410869,
+      "CI95": [
+        -0.001957652288725751,
+        -0.0006740895439461545
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "sign_error",
+      "difference": 0.001589204250095344,
+      "CI95": [
+        -0.004993079493388846,
+        0.00809120798755704
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "precision",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "recall",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "PR_AUC",
+      "difference": -0.007294052296165532,
+      "CI95": [
+        -0.03102990871942251,
+        0.01776775645130649
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "ROC_AUC",
+      "difference": -0.006428799845473732,
+      "CI95": [
+        -0.033724551655102145,
+        0.019344009434632953
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "Brier",
+      "difference": -0.0005301376450867479,
+      "CI95": [
+        -0.0018351153834816232,
+        0.0007079093174012297
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "MAE",
+      "difference": -0.00012589569523774324,
+      "CI95": [
+        -0.0005062780562809898,
+        0.0002437717536191943
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "Spearman",
+      "difference": -0.040783417076608354,
+      "CI95": [
+        -0.08669790742367399,
+        0.004311673032102243
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "signed_bias",
+      "difference": -0.002248118863831453,
+      "CI95": [
+        -0.0029426761092041873,
+        -0.0015447074420018166
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "sign_error",
+      "difference": -0.00207759786967715,
+      "CI95": [
+        -0.018956782525779585,
+        0.015560789252002131
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "precision",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "recall",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "PR_AUC",
+      "difference": 0.002686041302485953,
+      "CI95": [
+        -0.010524468788617238,
+        0.01767750503703094
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "ROC_AUC",
+      "difference": 0.0025487750455395197,
+      "CI95": [
+        -0.014980795552134647,
+        0.01980355430433656
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "Brier",
+      "difference": 2.887367146869879e-05,
+      "CI95": [
+        -0.00023900070899314299,
+        0.00031244954800127973
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "MAE",
+      "difference": 0.0008082160177383946,
+      "CI95": [
+        0.0005070305432999883,
+        0.0010915114404362874
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "Spearman",
+      "difference": null,
+      "CI95": [
+        null,
+        null
+      ],
+      "valid_draws": 0,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "signed_bias",
+      "difference": -0.0010862495975319936,
+      "CI95": [
+        -0.0017627712310675924,
+        -0.0004108357562984921
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "sign_error",
+      "difference": 0.006647945014281675,
+      "CI95": [
+        -0.008453236463756245,
+        0.022328910603972456
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "precision",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "recall",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "PR_AUC",
+      "difference": -0.014407091452833587,
+      "CI95": [
+        -0.02935235603297604,
+        0.0010489869823410761
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "ROC_AUC",
+      "difference": -0.006174640357596073,
+      "CI95": [
+        -0.016053129694572274,
+        0.0039040464052468673
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "Brier",
+      "difference": 0.0010357669776799583,
+      "CI95": [
+        -0.001605046603399106,
+        0.0035509006313902943
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "MAE",
+      "difference": -3.623488025120136e-05,
+      "CI95": [
+        -5.7522589101207786e-05,
+        -1.5176225428419338e-05
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "Spearman",
+      "difference": 0.0026548916872365935,
+      "CI95": [
+        -0.01850385767343534,
+        0.0240000450013337
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "signed_bias",
+      "difference": -2.938769477268434e-05,
+      "CI95": [
+        -5.8623295875526605e-05,
+        -1.4394984501441557e-06
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "sign_error",
+      "difference": 0.019626310158488314,
+      "CI95": [
+        0.010248985406782428,
+        0.028331806738366095
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "precision",
+      "difference": -0.0016245435160153754,
+      "CI95": [
+        -0.00307275227766131,
+        -0.00023908841972057274
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "recall",
+      "difference": 0.017969194812127887,
+      "CI95": [
+        0.01384958753304387,
+        0.021846827295754163
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "PR_AUC",
+      "difference": 0.0004857548484696883,
+      "CI95": [
+        -0.0044110935261433785,
+        0.006292558828616032
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "ROC_AUC",
+      "difference": 0.0005030271209546244,
+      "CI95": [
+        -0.0027772454237339843,
+        0.003952388858067188
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "Brier",
+      "difference": -0.00010712787516292677,
+      "CI95": [
+        -0.0004701312153511432,
+        0.0002518107492607592
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "MAE",
+      "difference": 1.6090015442157823e-06,
+      "CI95": [
+        -1.736483082278098e-06,
+        4.844131035837586e-06
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "Spearman",
+      "difference": -0.0008955177847890794,
+      "CI95": [
+        -0.003995582876190321,
+        0.0024119933426278908
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "signed_bias",
+      "difference": -4.754132871922709e-06,
+      "CI95": [
+        -1.3237237822762235e-05,
+        4.178208771150273e-06
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "sign_error",
+      "difference": -0.0019381058985019073,
+      "CI95": [
+        -0.006013787161683153,
+        0.002320055322839958
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "precision",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "recall",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "PR_AUC",
+      "difference": -0.10017603229816818,
+      "CI95": [
+        -0.1212890843487709,
+        -0.0786317864343073
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "ROC_AUC",
+      "difference": -0.11668333232514472,
+      "CI95": [
+        -0.13544051469596363,
+        -0.09725455631214938
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "Brier",
+      "difference": 0.008461867768635334,
+      "CI95": [
+        0.004837408360453124,
+        0.011900325637661349
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "MAE",
+      "difference": 9.299870657987486e-05,
+      "CI95": [
+        7.518513931526238e-05,
+        0.00010935798173874805
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "Spearman",
+      "difference": -0.2311365720982496,
+      "CI95": [
+        -0.2701906976904518,
+        -0.19087486106171966
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "signed_bias",
+      "difference": -0.00015889015705517102,
+      "CI95": [
+        -0.0001818889675744445,
+        -0.00013537590687472085
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "sign_error",
+      "difference": 0.04172749692551658,
+      "CI95": [
+        0.030191011031048126,
+        0.053676836261922815
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "precision",
+      "difference": -0.0016245435160153754,
+      "CI95": [
+        -0.00307275227766131,
+        -0.00023908841972057274
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "recall",
+      "difference": 0.017969194812127887,
+      "CI95": [
+        0.01384958753304387,
+        0.021846827295754163
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "PR_AUC",
+      "difference": 0.011551768059544887,
+      "CI95": [
+        -0.0012369981874936625,
+        0.026042932934922405
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "ROC_AUC",
+      "difference": -0.0016064080661492008,
+      "CI95": [
+        -0.01692227181867155,
+        0.01444996482505894
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "Brier",
+      "difference": 3.3210387394538854e-05,
+      "CI95": [
+        -0.00028073460080619075,
+        0.000335991669315466
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "MAE",
+      "difference": 8.152879281651815e-06,
+      "CI95": [
+        -4.648145720035322e-06,
+        2.0628977494429027e-05
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "Spearman",
+      "difference": null,
+      "CI95": [
+        null,
+        null
+      ],
+      "valid_draws": 0,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "signed_bias",
+      "difference": -1.2043375601336267e-05,
+      "CI95": [
+        -3.230238763845864e-05,
+        7.920133311553954e-06
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "sign_error",
+      "difference": -0.00026145471690020017,
+      "CI95": [
+        -0.002323584006752366,
+        0.001659231857251643
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "precision",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "random",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "recall",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "PR_AUC",
+      "difference": 0.0422777318591987,
+      "CI95": [
+        0.020631342057876704,
+        0.06436154115061993
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "ROC_AUC",
+      "difference": 0.06409620151482587,
+      "CI95": [
+        0.040623967419150295,
+        0.08785611927436654
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "Brier",
+      "difference": -0.003744710591808448,
+      "CI95": [
+        -0.005412923658286447,
+        -0.002121604898337424
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "MAE",
+      "difference": 0.009891598286930425,
+      "CI95": [
+        0.006115647293579941,
+        0.014072027621388391
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "Spearman",
+      "difference": 0.08094209563652927,
+      "CI95": [
+        0.03743441468781977,
+        0.12221202157399669
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "signed_bias",
+      "difference": 0.06307685045391001,
+      "CI95": [
+        0.052821649805027605,
+        0.07259928222082104
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "sign_error",
+      "difference": -0.043422261182162025,
+      "CI95": [
+        -0.06478154546223838,
+        -0.02145123561119846
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "precision",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "recall",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "PR_AUC",
+      "difference": -0.0004752414756897805,
+      "CI95": [
+        -0.0022174965271348464,
+        0.0010020438602379677
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "ROC_AUC",
+      "difference": -0.0006004109644384137,
+      "CI95": [
+        -0.0029831004500343594,
+        0.0018390118884530483
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "Brier",
+      "difference": 1.4966474702865495e-05,
+      "CI95": [
+        -9.975683484016798e-05,
+        0.00013506537110836986
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "MAE",
+      "difference": 0.0004591789592591211,
+      "CI95": [
+        -2.7545752016855222e-08,
+        0.0009089968071720998
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "Spearman",
+      "difference": 0.0025246845592427902,
+      "CI95": [
+        -0.0043366330244587,
+        0.009242015413509146
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "signed_bias",
+      "difference": -0.0013103070799810879,
+      "CI95": [
+        -0.0019831494137800953,
+        -0.0006885481621006792
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "sign_error",
+      "difference": -0.0006187844059131753,
+      "CI95": [
+        -0.008278444602701985,
+        0.006863204864442477
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "precision",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "recall",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "PR_AUC",
+      "difference": -0.01664581573341073,
+      "CI95": [
+        -0.038198020528674645,
+        0.006703023916048518
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "ROC_AUC",
+      "difference": -0.009078295388504132,
+      "CI95": [
+        -0.03379567637520066,
+        0.015055857607577633
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "Brier",
+      "difference": -0.0003640829104738508,
+      "CI95": [
+        -0.0012646821866811916,
+        0.0005326634128911226
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "MAE",
+      "difference": -0.0003687183395875704,
+      "CI95": [
+        -0.0007594433002544247,
+        3.5362870250822488e-06
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "Spearman",
+      "difference": -0.02091122887632284,
+      "CI95": [
+        -0.060705366138075714,
+        0.018789417791957086
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "signed_bias",
+      "difference": -0.0014222660693330065,
+      "CI95": [
+        -0.002123641667490867,
+        -0.0007531695676189003
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "sign_error",
+      "difference": -0.01562779217482191,
+      "CI95": [
+        -0.03207655277890412,
+        0.00017539923635218497
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "precision",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "recall",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "PR_AUC",
+      "difference": -0.007516834304184372,
+      "CI95": [
+        -0.021211613160718207,
+        0.008478731127784054
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "ROC_AUC",
+      "difference": -0.0020809660162105503,
+      "CI95": [
+        -0.019517489279963416,
+        0.014183991699654765
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "Brier",
+      "difference": 0.00012820457519735484,
+      "CI95": [
+        -0.00014474157053203236,
+        0.0004047612029547384
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "MAE",
+      "difference": 0.0007300248380540386,
+      "CI95": [
+        0.0004051690572530103,
+        0.0010448610333233985
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "Spearman",
+      "difference": null,
+      "CI95": [
+        null,
+        null
+      ],
+      "valid_draws": 0,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "signed_bias",
+      "difference": -0.0011401166687572788,
+      "CI95": [
+        -0.0018237889346910657,
+        -0.00046917373585217707
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "sign_error",
+      "difference": -0.01676340710994184,
+      "CI95": [
+        -0.02902521433462029,
+        -0.0036636146444312626
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "precision",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "local",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "recall",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "PR_AUC",
+      "difference": -0.014144218983361767,
+      "CI95": [
+        -0.030319523591427307,
+        0.002344214963196863
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "ROC_AUC",
+      "difference": -0.015366820815896909,
+      "CI95": [
+        -0.02509018172982131,
+        -0.005476585221174363
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "Brier",
+      "difference": 0.002236479120150292,
+      "CI95": [
+        0.00026787818917557856,
+        0.004237399626368006
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "MAE",
+      "difference": -5.495356768924625e-05,
+      "CI95": [
+        -7.909597749676065e-05,
+        -3.170663384620705e-05
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "Spearman",
+      "difference": 0.008641187600343242,
+      "CI95": [
+        -0.016810875996633067,
+        0.03409432420198112
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "signed_bias",
+      "difference": -6.671757652344443e-05,
+      "CI95": [
+        -9.622689165051388e-05,
+        -3.7153644437587076e-05
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "sign_error",
+      "difference": 0.010180688398510107,
+      "CI95": [
+        0.000514264338521689,
+        0.019924837435666646
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "precision",
+      "difference": -0.0021749404581572485,
+      "CI95": [
+        -0.003333832306172352,
+        -0.0009929153492986454
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "H",
+      "reference": "baseline",
+      "metric": "recall",
+      "difference": 0.009529310324687734,
+      "CI95": [
+        0.006514839592863225,
+        0.012295602191097372
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "PR_AUC",
+      "difference": -0.0010309820655231006,
+      "CI95": [
+        -0.005403406322671382,
+        0.0035790314943647816
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "ROC_AUC",
+      "difference": -0.0019253474835613238,
+      "CI95": [
+        -0.005680406483368603,
+        0.0019060808305682178
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "Brier",
+      "difference": 0.00024177415663168,
+      "CI95": [
+        -0.00011173225170127421,
+        0.0005898012437091707
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "MAE",
+      "difference": 4.1754326370047057e-07,
+      "CI95": [
+        -3.143779071671307e-06,
+        3.6461447942801555e-06
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "Spearman",
+      "difference": -0.0011648066370533172,
+      "CI95": [
+        -0.00523209622801545,
+        0.0029358524053376607
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "signed_bias",
+      "difference": -4.800586804513951e-06,
+      "CI95": [
+        -1.3211615304501573e-05,
+        4.128816896551905e-06
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "sign_error",
+      "difference": -0.0005255127161067352,
+      "CI95": [
+        -0.0041820198503366044,
+        0.0034636444413672454
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "precision",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "HM",
+      "reference": "H",
+      "metric": "recall",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "PR_AUC",
+      "difference": -0.09020561345155392,
+      "CI95": [
+        -0.11031678187429984,
+        -0.0688098073097515
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "ROC_AUC",
+      "difference": -0.1264540098084781,
+      "CI95": [
+        -0.14766929772477896,
+        -0.10454526668108999
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "Brier",
+      "difference": 0.008098607678787478,
+      "CI95": [
+        0.005278304982984714,
+        0.010814877225238707
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "MAE",
+      "difference": 6.127229092499353e-05,
+      "CI95": [
+        4.686482784931508e-05,
+        7.524224355338026e-05
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "Spearman",
+      "difference": -0.20123214901905073,
+      "CI95": [
+        -0.23992907365240973,
+        -0.16047395497302797
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "signed_bias",
+      "difference": -3.879733217549211e-05,
+      "CI95": [
+        -5.882591990152425e-05,
+        -1.9617871440059604e-05
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "sign_error",
+      "difference": 0.013781323187263661,
+      "CI95": [
+        0.006335417882447533,
+        0.021070143758881322
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "precision",
+      "difference": -0.0021749404581572485,
+      "CI95": [
+        -0.003333832306172352,
+        -0.0009929153492986454
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "baseline",
+      "metric": "recall",
+      "difference": 0.009529310324687734,
+      "CI95": [
+        0.006514839592863225,
+        0.012295602191097372
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "PR_AUC",
+      "difference": -0.0014976025857353359,
+      "CI95": [
+        -0.01282833237824674,
+        0.011464220418432786
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "ROC_AUC",
+      "difference": -0.01975941894737998,
+      "CI95": [
+        -0.035038992831273943,
+        -0.004245204691083588
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "Brier",
+      "difference": 0.00036568299954670147,
+      "CI95": [
+        8.479651098642904e-05,
+        0.0006471652303152022
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "MAE",
+      "difference": 2.261957596547126e-06,
+      "CI95": [
+        -1.022700347183339e-05,
+        1.472259699364722e-05
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "Spearman",
+      "difference": null,
+      "CI95": [
+        null,
+        null
+      ],
+      "valid_draws": 0,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "signed_bias",
+      "difference": -1.0898569773563904e-05,
+      "CI95": [
+        -3.1134790958422826e-05,
+        8.743620756177983e-06
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "sign_error",
+      "difference": 0.0007262539440757165,
+      "CI95": [
+        -0.001520509193776498,
+        0.002973017081927931
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "precision",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    },
+    {
+      "population": "HM_executed",
+      "target": "budget",
+      "candidate": "M",
+      "reference": "constant",
+      "metric": "recall",
+      "difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "valid_draws": 2000,
+      "orientation": "candidate minus reference; lower better for Brier/MAE/sign_error, higher for AUC/Spearman; signed_bias not a utility",
+      "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only; marginal/unadjusted conditional bootstrap; not confirmation"
+    }
+  ]
+}

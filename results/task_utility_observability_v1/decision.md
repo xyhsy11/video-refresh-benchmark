@@ -1,0 +1,7 @@
+SIGNAL_INFORMATION_NOT_ESTABLISHED
+
+Reviewed decision B, EXPLORATORY / DEVELOPMENT. The existing32 cheap grayscale statistics add negligible/inconsistent predictive information beyond H under a fixed outcome-independent periodic state population, with the same conclusion in separately labeled random and actual H+M state distributions. M-only is close to the base-rate predictor; magnitude prediction does not improve; the measured pathway adds substantial latency. Small effect sizes, source coverage, weak calibration/threshold utility, simple-model limitations and prior exposure jointly determine this decision, not whether a selected CI excludes zero.
+
+Preserve the positive evidence: history contains modest immediate task-sign information, exact true-label scheduling headroom is nontrivial, and the causal runtime was genuinely executed previously. Neither fact establishes useful incremental cheap information or an effective deployed controller. This decision is not equivalence or information-theoretic impossibility.
+
+Focus manuscript claims on objective mismatch, conditional causal-observability limitations and measured acquisition overhead. Do not retune the original controllers, add architecture searches or reuse exposed official-test outcomes as confirmation. Proceed only to a separately reviewed fresh-population/separated-training gate, not an automatic policy/GPU experiment.

@@ -1,0 +1,28 @@
+{
+  "scope": "Experiment22 CPU-only; archived original GPU calls/timing are dependencies, not new execution",
+  "new_X3D_calls": 0,
+  "new_GPU_calls": 0,
+  "new_video_decodes": 0,
+  "new_dataset_network_bytes": 0,
+  "new_recognition_heads": 0,
+  "new_adaptive_controllers": 0,
+  "new_large_neural_architectures": 0,
+  "recorded_linear_grid_fits_per_pass": [
+    68,
+    68
+  ],
+  "recorded_selection_calibrators_per_pass": [
+    10,
+    10
+  ],
+  "two_CPU_fitting_passes_reason": "Disclosed constant-Spearman reporting correction; all selected model parameters and prediction vectors bitwise unchanged",
+  "actual_timing_trials_reused": 1470,
+  "actual_new_timing_trials": 0,
+  "resolved_failures": [
+    "Windows temporary file replacement denial",
+    "Resume allowlist authentication initialization"
+  ],
+  "unresolved_failures": [],
+  "verification_check_roundoff": "Initial bitwise H/HM moment equality check failed by1.63e-14; disclosed tolerance1e-12 passes; no input/model change",
+  "retained_local_bytes": 49788346
+}

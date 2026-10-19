@@ -1,0 +1,278 @@
+"""Experiment 22: pure CPU observability arithmetic; no video/model runtime imports.
+
+Synthetic inputs belong only in test_task_utility_observability.py. Empirical
+callers must supply authenticated archived features and recorded observations.
+"""
+from __future__ import annotations
+from dataclasses import dataclass
+from itertools import combinations
+from collections import Counter, defaultdict
+import numpy as np
+from scipy.special import expit, logsumexp
+from scipy.optimize import minimize
+
+SEED = 20261022
+GRID = (.001, .01, .1, 1.)
+VIEWS = ('constant', 'baseline', 'H', 'M', 'HM')
+TARGETS = ('local', 'budget')
+BOOTSTRAPS = 2000
+
+
+def require(ok, message):
+    if not ok:
+        raise RuntimeError(message)
+
+
+def affine(features, head):
+    return ((np.asarray(features, dtype=np.float64)-head['means'])/head['scales']) @ head['weights'].T + head['bias']
+
+
+def ce(z, y):
+    z = np.asarray(z, dtype=np.float64)
+    return logsumexp(z, axis=-1)-z[..., y]
+
+
+def schedules():
+    pos = np.array([(0, *c) for c in combinations(range(1, 16), 3)], dtype=np.int64)
+    cache = np.maximum.accumulate(np.array([[t if t in p else 0 for t in range(16)] for p in pos]), axis=1)
+    weights = np.stack([np.bincount(c, minlength=16)/16 for c in cache])
+    return pos, cache, weights
+
+
+POSITIONS, CACHE, WEIGHTS = schedules()
+
+
+def discretionary(t, history):
+    remaining = 4-len(history)
+    return t > 0 and 0 < remaining < 16-t
+
+
+def feasible_ids(t, history, action=None):
+    require(t in range(1, 16) and history and history[0] == 0, 'Invalid mandatory-first prefix')
+    require(history == sorted(set(history)) and all(i < t for i in history), 'Future/duplicate prefix')
+    mask = np.array([[int(i) for i in p if i < t] == history for p in POSITIONS])
+    if action is not None:
+        mask &= np.any(POSITIONS == t, axis=1) == bool(action)
+    return np.flatnonzero(mask)
+
+
+def task_targets(candidate_logits, y, t, history, losses=None, proxy=None):
+    z = np.asarray(candidate_logits, dtype=np.float64)
+    losses = ce(WEIGHTS @ z, y) if losses is None else losses
+    ids = feasible_ids(t, history)
+    require(len(ids) > 0, 'Impossible recorded prefix')
+    branches = [feasible_ids(t, history, a) for a in (0, 1)]
+    q = [float(losses[k].min()) if len(k) else None for k in branches]
+    best = [int(k[np.argmin(losses[k])]) if len(k) else None for k in branches]
+    if proxy is None:
+        centered = z-z.mean(1, keepdims=True)
+        proxy = np.square(WEIGHTS @ centered-centered.mean(0)).mean(1)
+    teacher_id = int(ids[np.flatnonzero(proxy[ids] <= proxy[ids].min()+1e-12)[0]])
+    return dict(gain_local=float(ce(z[history[-1]], y)-ce(z[t], y)),
+        Q_hold=q[0], Q_refresh=q[1], gain_budget=None if None in q else q[0]-q[1],
+        hold_schedule=best[0], refresh_schedule=best[1],
+        hold_completions=len(branches[0]), refresh_completions=len(branches[1]),
+        teacher_refresh=int(t in POSITIONS[teacher_id]), teacher_schedule=teacher_id)
+
+
+def independent_completion_targets(z, y, t, history, scalar_losses):
+    """Independent combinations enumeration, not the vectorized prefix mask."""
+    q = []
+    lookup = {tuple(p): i for i, p in enumerate(POSITIONS)}
+    for action in (0, 1):
+        left = 4-len(history)-action
+        choices = [] if left < 0 else list(combinations(range(t+1, 16), left))
+        vals = [scalar_losses[lookup[tuple(history+([t] if action else [])+list(c))]] for c in choices]
+        q.append(min(vals) if vals else None)
+    local = float(np.logaddexp.reduce(z[history[-1]])-z[history[-1], y]-
+                  np.logaddexp.reduce(z[t])+z[t, y])
+    return local, q
+
+
+@dataclass(frozen=True)
+class CausalInputs:
+    t: int
+    age: int
+    remaining: int
+    history: tuple
+    cheap: tuple
+
+    @property
+    def label(self):
+        raise RuntimeError('Label access prohibited')
+
+    @property
+    def current_feature(self):
+        raise RuntimeError('Uncomputed current feature access prohibited')
+
+    @property
+    def future_features(self):
+        raise RuntimeError('Future feature access prohibited')
+
+
+def causal_inputs(t, history_positions, realized_features, cheap):
+    require(t > 0 and history_positions and history_positions[0] == 0, 'Missing initial history')
+    require(history_positions == sorted(set(history_positions)) and max(history_positions) < t,
+            'Noncausal feature identity')
+    require(set(realized_features) == set(history_positions), 'Only earlier realized refreshes may enter inputs')
+    require(len(cheap) == 32 and np.isfinite(cheap).all(), 'Invalid encountered cheap statistics')
+    return CausalInputs(t, t-history_positions[-1], 4-len(history_positions),
+        tuple(tuple(realized_features[i]) for i in history_positions), tuple(cheap))
+
+
+def observation_vector(obs, head):
+    # Reuse only the historical pure feature definition, not its runtime/trainer.
+    from causal_observability_policy import Observation, history_vector
+    h = history_vector(Observation(obs.t, obs.age, obs.remaining, obs.history, ()), head)
+    # Historical H is K+12=113; discretionary flag is explicitly appended.
+    return np.r_[h, float(0 < obs.remaining < 16-obs.t), np.asarray(obs.cheap)]
+
+
+def view_indices(k=101):
+    h = k+12
+    return dict(constant=np.array([], dtype=int), baseline=np.array([0, 1, 2, h]),
+        H=np.arange(h+1), M=np.arange(h+1, h+33), HM=np.arange(h+33))
+
+
+def hierarchical_weights(rows):
+    """Equal classes -> groups within class -> clips within group -> states/clip."""
+    classes = sorted({r['label'] for r in rows})
+    groups, clips = defaultdict(set), defaultdict(set)
+    count = Counter()
+    for r in rows:
+        groups[r['label']].add(r['group'])
+        clips[r['label'], r['group']].add(r['clip'])
+        count[r['clip']] += 1
+    w = np.array([1/(len(classes)*len(groups[r['label']])*len(clips[r['label'], r['group']])*count[r['clip']]) for r in rows])
+    require(abs(w.sum()-1) < 1e-12, 'Unnormalized hierarchical weights')
+    return w
+
+
+def group_plan(rows, repeats=BOOTSTRAPS, seed=SEED):
+    groups = sorted({(r['label'], r['group']) for r in rows})
+    rng = np.random.Generator(np.random.PCG64(seed))
+    blocks = []
+    for c in sorted({c for c, g in groups}):
+        ids = np.array([i for i, (cl, g) in enumerate(groups) if cl == c])
+        blocks.append(ids[rng.integers(len(ids), size=(repeats, len(ids)))])
+    draws = np.concatenate(blocks, axis=1).astype(np.int32)
+    return groups, draws
+
+
+def bootstrap_weights(rows, groups, draws):
+    lookup = {tuple(g): i for i, g in enumerate(groups)}
+    ids = np.array([lookup[r['label'], r['group']] for r in rows])
+    counts = np.stack([np.bincount(d, minlength=len(groups)) for d in draws])
+    return hierarchical_weights(rows)[None, :]*counts[:, ids]
+
+
+def fit_linear(x, target, weights, alpha, classification):
+    x = np.asarray(x, dtype=np.float64); y = np.asarray(target, dtype=np.float64)
+    means = weights @ x; scales = np.sqrt(weights @ np.square(x-means))
+    scales = np.where(scales <= 1e-12, 1., scales); a = (x-means)/scales
+    if classification:
+        initial = np.zeros(a.shape[1]+1)
+        prevalence = float(weights @ y)
+        initial[-1] = np.log(np.clip(prevalence, 1e-12, 1-1e-12)/(1-np.clip(prevalence, 1e-12, 1-1e-12)))
+        def objective(v):
+            z = a @ v[:-1]+v[-1]; error = weights*(expit(z)-y)
+            return float(weights @ (np.logaddexp(0, z)-y*z)+alpha/2*(v[:-1] @ v[:-1])), np.r_[a.T @ error+alpha*v[:-1], error.sum()]
+        result = minimize(objective, initial, jac=True, method='L-BFGS-B',
+            options=dict(maxiter=400, maxls=40, ftol=1e-12, gtol=1e-8, maxcor=20))
+        v = result.x
+        fit = dict(iterations=int(result.nit), success=bool(result.success), message=str(result.message),
+            objective=float(result.fun), max_abs_gradient=float(np.max(abs(result.jac))))
+    else:
+        a = np.c_[a, np.ones(len(a))]
+        matrix = a.T @ (weights[:, None]*a)+np.diag(np.r_[np.full(a.shape[1]-1, alpha), 0.])
+        v = np.linalg.solve(matrix, a.T @ (weights*y))
+        residual = matrix @ v-a.T @ (weights*y)
+        fit = dict(success=True, solver='numpy.linalg.solve weighted ridge', max_abs_normal_residual=float(abs(residual).max()))
+    return dict(means=means.tolist(), scales=scales.tolist(), coefficients=v[:-1].tolist(), intercept=float(v[-1]),
+        alpha=alpha, classification=classification, fit=fit)
+
+
+def predict(model, x):
+    z = ((np.asarray(x)-model['means'])/np.asarray(model['scales'])) @ np.asarray(model['coefficients'])+model['intercept']
+    return expit(z) if model['classification'] else z
+
+
+def calibrate(probabilities, y, weights):
+    # A fixed nondecreasing Platt map; selection-only, rankings unchanged.
+    p = np.clip(probabilities, 1e-12, 1-1e-12); logits = np.log(p/(1-p))
+    def objective(v):
+        z = v[0]*logits+v[1]; error = weights*(expit(z)-y)
+        return float(weights @ (np.logaddexp(0, z)-y*z)+.01/2*(v[0]-1)**2), np.array([error @ logits+.01*(v[0]-1), error.sum()])
+    r = minimize(objective, np.array([1., 0.]), jac=True, bounds=[(0., None), (None, None)],
+        method='L-BFGS-B', options=dict(maxiter=400, ftol=1e-12, gtol=1e-8, maxls=40))
+    return dict(slope=float(r.x[0]), intercept=float(r.x[1]), success=bool(r.success), iterations=int(r.nit), message=str(r.message))
+
+
+def calibrated(p, calibration):
+    q = np.clip(p, 1e-12, 1-1e-12)
+    return expit(calibration['slope']*np.log(q/(1-q))+calibration['intercept'])
+
+
+def rank_auc(y, score, w):
+    """Weighted ROC AUC and noninterpolated PR AUC (average precision), ties pooled."""
+    order = np.argsort(-score, kind='stable'); s = score[order]; yy = y[order]; ww = w[order]
+    ends = np.r_[np.flatnonzero(s[1:] != s[:-1]), len(s)-1]
+    tp = np.cumsum(ww*yy)[ends]; fp = np.cumsum(ww*(1-yy))[ends]
+    positives, negatives = tp[-1], fp[-1]
+    if positives <= 0 or negatives <= 0:
+        return None, None
+    ap = float(np.sum(np.diff(np.r_[0, tp])/positives * tp/np.maximum(tp+fp, 1e-300)))
+    roc = float(np.trapezoid(np.r_[0, tp/positives], np.r_[0, fp/negatives]))
+    return roc, ap
+
+
+def weighted_ranks(a, w):
+    order = np.argsort(a, kind='stable'); values = a[order]; ww = w[order]
+    starts = np.r_[0, np.flatnonzero(values[1:] != values[:-1])+1]
+    sums = np.add.reduceat(ww, starts); ranks = np.cumsum(sums)-sums/2
+    result = np.empty(len(a)); result[order] = np.repeat(ranks, np.diff(np.r_[starts, len(a)]))
+    return result
+
+
+def weighted_spearman(a, b, w):
+    supported = w > 0
+    if np.ptp(a[supported]) == 0 or np.ptp(b[supported]) == 0:
+        return None
+    ra = weighted_ranks(a, w); rb = weighted_ranks(b, w)
+    ra -= w @ ra; rb -= w @ rb
+    denom = np.sqrt((w @ (ra*ra))*(w @ (rb*rb)))
+    return None if denom <= 1e-20 else float((w @ (ra*rb))/denom)
+
+
+def metrics(gain, p, regression, w, threshold=.5):
+    y = (gain > 0).astype(float); selected = p >= threshold
+    roc, ap = rank_auc(y, p, w)
+    tp = float(w @ (y*selected)); pred = float(w @ selected); pos = float(w @ y)
+    err = regression-gain
+    return dict(positive_prevalence=pos, ROC_AUC=roc, PR_AUC=ap,
+        Brier=float(w @ np.square(p-y)), precision=None if pred == 0 else tp/pred,
+        recall=None if pos == 0 else tp/pos, prediction_positive_fraction=pred,
+        MAE=float(w @ abs(err)), Spearman=weighted_spearman(gain, regression, w),
+        signed_bias=float(w @ err), sign_error=float(w @ ((regression > 0) != (gain > 0))))
+
+
+def calibration_bins(gain, p, w):
+    out = []
+    for i in range(10):
+        m = (p >= i/10) & ((p < (i+1)/10) if i < 9 else p <= 1)
+        mass = float(w[m].sum())
+        out.append(dict(lower=i/10, upper=(i+1)/10, states=int(m.sum()), mass=mass,
+            predicted=None if mass == 0 else float(w[m] @ p[m]/mass),
+            observed=None if mass == 0 else float(w[m] @ (gain[m] > 0)/mass)))
+    return out
+
+
+def threshold_choice(gain, p, w):
+    choices = []
+    y = gain > 0
+    for order, threshold in enumerate((.25, .5, .75)):
+        selected = p >= threshold; tp = float(w @ (selected*y)); pred = float(w @ selected); pos = float(w @ y)
+        precision = tp/pred if pred else 0.; recall = tp/pos if pos else 0.
+        f1 = 2*tp/(pred+pos) if pred+pos else 0.
+        choices.append(dict(threshold=threshold, F1=f1, precision=precision, recall=recall, grid_order=order))
+    return max(choices, key=lambda r:(r['F1'], r['precision'], -r['grid_order'])), choices

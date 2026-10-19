@@ -1,0 +1,8 @@
+{
+  "returncode": 0,
+  "stdout": "{\n  \"passed\": true,\n  \"scope\": \"EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only\",\n  \"input_clips\": 1006,\n  \"metric_tables_reproduced\": 50,\n  \"history\": {\n    \"passed\": true,\n    \"historical_result_blobs\": 3615,\n    \"method\": \"Git blob identity only; official-test scientific contents not parsed\"\n  },\n  \"bootstrap_pairing_and_intervals_verified\": true,\n  \"independent_target_replay_receipt_verified\": true,\n  \"original_source_and_feature_hashes_verified\": true,\n  \"official_test_outcomes_opened\": false,\n  \"new_GPU_calls\": 0,\n  \"new_video_decodes\": 0,\n  \"network_bytes\": 0,\n  \"read_only\": true,\n  \"model_predictions\": 0,\n  \"training_calls\": 0,\n  \"results_regenerated\": 0\n}\n",
+  "stderr": "",
+  "public_artifacts_unchanged": true,
+  "files": 94,
+  "archived_partial_and_initial_analysis_hashes_checked": true
+}

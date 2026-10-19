@@ -1,0 +1,236 @@
+{
+  "source_sha256": {
+    "results/ucf101_causal_development_v1/timing_trials.csv": "5f2abeb836427d4cdc4993bec200e11fa34a1dbafabba217fc4462773f269945",
+    "results/ucf101_causal_development_v1/timing_summary.json": "e05be759a6361ab55986355cb97df946322f817afac816a4430ce631ce1f23db",
+    "results/ucf101_causal_development_v1/metric_column_semantics.md": "224b564f7217612e4086d5f724dcc0e6722dff32e37868b3be00c0bf8ae71de8",
+    "results/ucf101_causal_development_v1/development_per_clip_metrics.csv": "93725e34f2635e19bef8baf168a531be52f747c9c3e19ab681bfbaf143e695d6"
+  },
+  "measured_trials": 1050,
+  "all_trials": 1470,
+  "groups": 30,
+  "classes": 30,
+  "methods": [
+    {
+      "method": "RandomB4_seeded",
+      "groups": 30,
+      "seconds": 0.3994809499999974,
+      "cheap_thumbnail_seconds": 0.0,
+      "cheap_statistics_seconds": 0.0,
+      "controller_decide_seconds": 4.0400002035312355e-05,
+      "observation_preparation_seconds": 0.005690200001481571
+    },
+    {
+      "method": "dense16",
+      "groups": 30,
+      "seconds": 1.3858362000028137,
+      "cheap_thumbnail_seconds": 0.0,
+      "cheap_statistics_seconds": 0.0,
+      "controller_decide_seconds": 0.0,
+      "observation_preparation_seconds": 0.0
+    },
+    {
+      "method": "history",
+      "groups": 30,
+      "seconds": 0.4092168000006495,
+      "cheap_thumbnail_seconds": 0.0,
+      "cheap_statistics_seconds": 0.0,
+      "controller_decide_seconds": 0.0156551500022033,
+      "observation_preparation_seconds": 0.006727349997163401
+    },
+    {
+      "method": "history_motion",
+      "groups": 30,
+      "seconds": 0.5700277999985701,
+      "cheap_thumbnail_seconds": 0.07469149999087676,
+      "cheap_statistics_seconds": 0.01293045000420534,
+      "controller_decide_seconds": 0.02027259999886155,
+      "observation_preparation_seconds": 0.09352950000175042
+    },
+    {
+      "method": "motion",
+      "groups": 30,
+      "seconds": 0.5063039499982551,
+      "cheap_thumbnail_seconds": 0.057359249993169215,
+      "cheap_statistics_seconds": 0.011562050000065938,
+      "controller_decide_seconds": 6.779999966965988e-05,
+      "observation_preparation_seconds": 0.07385710000016843
+    },
+    {
+      "method": "periodic",
+      "groups": 30,
+      "seconds": 0.405591849999837,
+      "cheap_thumbnail_seconds": 0.0,
+      "cheap_statistics_seconds": 0.0,
+      "controller_decide_seconds": 4.39000032201875e-05,
+      "observation_preparation_seconds": 0.005779500004791771
+    },
+    {
+      "method": "periodic_unused_gate",
+      "groups": 30,
+      "seconds": 0.544742199997927,
+      "cheap_thumbnail_seconds": 0.07757549999769253,
+      "cheap_statistics_seconds": 0.012774900003932999,
+      "controller_decide_seconds": 8.194999827537686e-05,
+      "observation_preparation_seconds": 0.09766400000262365
+    }
+  ],
+  "incremental": [
+    {
+      "method": "history_motion",
+      "reference": "periodic",
+      "paired_median_extra_seconds": 0.15216645000145945,
+      "conditional_group_bootstrap_median_CI95": [
+        0.13509834999968007,
+        0.1702354999979434
+      ],
+      "groups_slower": 30,
+      "groups": 30
+    },
+    {
+      "method": "history",
+      "reference": "periodic",
+      "paired_median_extra_seconds": 0.0025023500002134824,
+      "conditional_group_bootstrap_median_CI95": [
+        -0.002952049999294104,
+        0.014310799999293522
+      ],
+      "groups_slower": 16,
+      "groups": 30
+    },
+    {
+      "method": "history_motion",
+      "reference": "history",
+      "paired_median_extra_seconds": 0.13765245000104187,
+      "conditional_group_bootstrap_median_CI95": [
+        0.1158561499996722,
+        0.1667134500003158
+      ],
+      "groups_slower": 30,
+      "groups": 30
+    },
+    {
+      "method": "periodic_unused_gate",
+      "reference": "periodic",
+      "paired_median_extra_seconds": 0.13533374999860825,
+      "conditional_group_bootstrap_median_CI95": [
+        0.12899635000212584,
+        0.1554805000032502
+      ],
+      "groups_slower": 30,
+      "groups": 30
+    }
+  ],
+  "pareto": [
+    {
+      "population": "all_400_quality_vs_30_cost",
+      "method": "periodic",
+      "CE": 0.24742722945955997,
+      "latency": 0.405591849999837,
+      "dominated_by": []
+    },
+    {
+      "population": "all_400_quality_vs_30_cost",
+      "method": "RandomB4_seeded",
+      "CE": 0.2561591375875432,
+      "latency": 0.3994809499999974,
+      "dominated_by": []
+    },
+    {
+      "population": "all_400_quality_vs_30_cost",
+      "method": "motion",
+      "CE": 0.27575320420602784,
+      "latency": 0.5063039499982551,
+      "dominated_by": [
+        "periodic",
+        "RandomB4_seeded",
+        "history"
+      ]
+    },
+    {
+      "population": "all_400_quality_vs_30_cost",
+      "method": "history",
+      "CE": 0.2579509516813773,
+      "latency": 0.4092168000006495,
+      "dominated_by": [
+        "periodic",
+        "RandomB4_seeded"
+      ]
+    },
+    {
+      "population": "all_400_quality_vs_30_cost",
+      "method": "history_motion",
+      "CE": 0.25539960246970395,
+      "latency": 0.5700277999985701,
+      "dominated_by": [
+        "periodic"
+      ]
+    },
+    {
+      "population": "all_400_quality_vs_30_cost",
+      "method": "dense16",
+      "CE": 0.2443242951434409,
+      "latency": 1.3858362000028137,
+      "dominated_by": []
+    },
+    {
+      "population": "matched_30_timing_clips",
+      "method": "periodic",
+      "CE": 0.05783080828952685,
+      "latency": 0.405591849999837,
+      "dominated_by": []
+    },
+    {
+      "population": "matched_30_timing_clips",
+      "method": "RandomB4_seeded",
+      "CE": 0.07936176846867786,
+      "latency": 0.3994809499999974,
+      "dominated_by": []
+    },
+    {
+      "population": "matched_30_timing_clips",
+      "method": "motion",
+      "CE": 0.12337683263023198,
+      "latency": 0.5063039499982551,
+      "dominated_by": [
+        "periodic",
+        "RandomB4_seeded",
+        "history"
+      ]
+    },
+    {
+      "population": "matched_30_timing_clips",
+      "method": "history",
+      "CE": 0.08096324546874592,
+      "latency": 0.4092168000006495,
+      "dominated_by": [
+        "periodic",
+        "RandomB4_seeded"
+      ]
+    },
+    {
+      "population": "matched_30_timing_clips",
+      "method": "history_motion",
+      "CE": 0.08049145807160034,
+      "latency": 0.5700277999985701,
+      "dominated_by": [
+        "periodic",
+        "RandomB4_seeded"
+      ]
+    },
+    {
+      "population": "matched_30_timing_clips",
+      "method": "dense16",
+      "CE": 0.06685341333534929,
+      "latency": 1.3858362000028137,
+      "dominated_by": [
+        "periodic"
+      ]
+    }
+  ],
+  "boundary": "encoded-memory -> fresh full decode/PTS -> all cheap observations/decisions -> selected RGB/transfers -> native X3D -> pooling/head/prediction -> CUDA-completed output",
+  "observation_preparation_includes_thumbnail_and_statistics": true,
+  "no_replay_timing": true,
+  "new_GPU_calls": 0,
+  "scope": "Previously measured real execution; no new timing or optimized deployment claim",
+  "uncertainty": "Timing bootstrap resamples 30 source groups, not repetitions; conditional on this input-selected cohort. Across-class inference limited to observed classes. Mixed-cohort quality/cost points are separately labeled."
+}

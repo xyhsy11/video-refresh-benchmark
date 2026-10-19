@@ -1,0 +1,59 @@
+{
+  "amendments": [
+    {
+      "at_utc": "2026-10-19T09:29:38.735439+00:00",
+      "reason": "WinError5 atomic journal replacement; temporary Windows file sharing denial",
+      "original_workflow_sha256": "5c515a2b3f6d33a6af4d0a5c6b4e3439b0ea19e7ca8d5efed5907f48ca36370d",
+      "revised_workflow_sha256": "e42d43f38791adfab4f15c14e1b6c13834b0bf6e13afe3c0650b512db8a60f43",
+      "retained_initial_seal": "execution_history/attempt1_analysis_design_seal.json",
+      "retained_initial_code": "execution_history/attempt1_workflow.py.txt",
+      "changes": [
+        "Retry identical atomic replacement up to100 times at50ms intervals",
+        "Accurately mark final status after successful read-only audit"
+      ],
+      "scientific_target_observation_probe_statistics_rules_changed": false,
+      "probe_fitting_or_execution_cohort_prediction_before_amendment": false,
+      "partial_checkpoints_reused_only_after_hash_verification": true
+    },
+    {
+      "at_utc": "2026-10-19T09:30:46.831021+00:00",
+      "reason": "Fail-closed guard lacked authenticated retained execution-feature paths after process restart",
+      "original_code_sha256": {
+        "task_utility_observability_study.py": "e42d43f38791adfab4f15c14e1b6c13834b0bf6e13afe3c0650b512db8a60f43",
+        "test_task_utility_observability.py": "df9a50fd8e42233f33abc5d51e4351cc63c0700e0dc8d2f1ee791d2c29f7d4df"
+      },
+      "revised_code_sha256": {
+        "task_utility_observability_study.py": "2a7e205301c30dbb8481478d220b8779949de6cbe2acb0bdd1b5400d214366de",
+        "test_task_utility_observability.py": "d33902906c88a62708ee9b11afc16fc6598b762029ec28eb4bfbbe06d38af7fe"
+      },
+      "retained_evidence": "execution_history/attempt2_*",
+      "changes": [
+        "On resume reauthenticate all four original hashed parent trial payloads before checking retained execution inputs",
+        "Add synthetic resume guard regression test"
+      ],
+      "scientific_target_observation_probe_statistics_rules_changed": false,
+      "probe_fitting_or_execution_cohort_prediction_before_amendment": false
+    },
+    {
+      "at_utc": "2026-10-19T09:36:20.289200+00:00",
+      "reason": "Constant regression predictions have mathematically undefined Spearman; floating centering produced tiny finite residual correlations",
+      "original_code_sha256": {
+        "task_utility_observability.py": "40c047c0c780053a2b6aefa252ef5fff4d2408298d976628527ae88e161f93f9",
+        "test_task_utility_observability.py": "d33902906c88a62708ee9b11afc16fc6598b762029ec28eb4bfbbe06d38af7fe"
+      },
+      "revised_code_sha256": {
+        "task_utility_observability.py": "64d29bd3cdf46225524358457b6fc20a26214e104db91fd95d4e307f523b83c1",
+        "test_task_utility_observability.py": "b543bb5b1948c5af9aa8a43a2a5b1b0ddb11822d1b2440ad1bee5007ec4d7a56"
+      },
+      "retained_evidence": "execution_history/pre_constant_correction_inventory.json",
+      "changes": [
+        "Explicitly return undefined correlation when either variable is constant on positive-weight support",
+        "Add unequal-weight synthetic regression fixture"
+      ],
+      "scientific_targets_populations_features_models_grid_selection_statistics_rules_changed": false,
+      "post_initial_execution_prediction_analysis": true,
+      "original_nonconstant_probe_results_not_selected_or_retuned": true,
+      "CPU_refit_and_recompute_with_same_fixed_settings": true
+    }
+  ]
+}

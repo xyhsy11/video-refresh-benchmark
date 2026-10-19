@@ -1,0 +1,8 @@
+{
+  "retained_partial_evidence": {
+    "data/source/task_utility_observability_v1/execution_history/attempt1_observation_provenance.json": "f391ed38283833c4aaab94ce5dbcd71a6adcffe03baa62a9ed095e11786b4edf",
+    "data/source/task_utility_observability_v1/execution_history/attempt1_observation_provenance.json.writing": "7b69a76e7c6a8c5961ef498f99bef1d6b3fb0a74584cef2238e946aa34bf02db"
+  },
+  "completed_ledger_clips": 842,
+  "probe_training_existed": false
+}

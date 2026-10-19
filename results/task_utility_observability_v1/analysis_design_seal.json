@@ -1,0 +1,19 @@
+{
+  "sha256": {
+    "task_utility_observability.py": "64d29bd3cdf46225524358457b6fc20a26214e104db91fd95d4e307f523b83c1",
+    "task_utility_observability_study.py": "2a7e205301c30dbb8481478d220b8779949de6cbe2acb0bdd1b5400d214366de",
+    "run_task_utility_observability.py": "6df798b6c260cdc3c6336a8a729079df7921f3845078eb30b76f05e384da0905",
+    "test_task_utility_observability.py": "b543bb5b1948c5af9aa8a43a2a5b1b0ddb11822d1b2440ad1bee5007ec4d7a56",
+    "causal_observability_policy.py": "dda0908b98b042b4e5ac88a86cead957530582d4e1f4e7a186714450a0d212c6",
+    "causal_observability_common.py": "8fae3697454857bcf3cb6d6a3bcdaec5b448776badbd5633e45b5d48b11f5414",
+    "results/task_utility_observability_v1/protocol.md": "b564840b38b04907471671f21d89c3eab10696373780cb4dba231b687d09e4cf",
+    "results/task_utility_observability_v1/task_target_definitions.md": "1a73ca8cf5a4679602604b3db299abe8086f16d02c4cd376d2dcda405a4091a2"
+  },
+  "at_utc": "2026-10-19T09:24:40.817821+00:00",
+  "scope": "Analysis specification before new targets/probes; prior development outcomes already exposed",
+  "seed": 20261022,
+  "bootstrap_repeats": 2000,
+  "persistence_amendment_at_utc": "2026-10-19T09:29:38.735439+00:00",
+  "resume_authentication_amendment_at_utc": "2026-10-19T09:30:46.831021+00:00",
+  "post_initial_analysis_metric_correction_at_utc": "2026-10-19T09:36:20.289200+00:00"
+}

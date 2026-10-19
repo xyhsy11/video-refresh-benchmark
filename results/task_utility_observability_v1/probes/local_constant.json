@@ -1,0 +1,45 @@
+{
+  "target": "local",
+  "view": "constant",
+  "feature_indices": [],
+  "classifier": {
+    "means": [],
+    "scales": [],
+    "coefficients": [],
+    "intercept": 0.033831609378046294,
+    "alpha": 0.0,
+    "classification": true,
+    "fit": {
+      "iterations": 0,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "objective": 0.6930041288028645,
+      "max_abs_gradient": 5.178149575790769e-16
+    }
+  },
+  "regression": {
+    "means": [],
+    "scales": [],
+    "coefficients": [],
+    "intercept": 0.005403375433906873,
+    "alpha": 0.0,
+    "classification": false,
+    "fit": {
+      "success": true,
+      "solver": "numpy.linalg.solve weighted ridge",
+      "max_abs_normal_residual": 0.0
+    }
+  },
+  "calibration": {
+    "slope": 0.9999999993845967,
+    "intercept": 0.010730222166132338,
+    "success": true,
+    "iterations": 5,
+    "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+  },
+  "threshold": 0.25,
+  "identity": {
+    "design_sha256": "6bc5158f7304a2d01221d9800be0677421bc9ce04ee8f88ccc4f87a2e03d4429",
+    "observations_sha256": "fcac6d809f53135d602ea2a1575c515dc650a7c420db564e6ae5c56b37f58214"
+  }
+}

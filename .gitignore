@@ -58,6 +58,10 @@ dist/
 
 # Keep curated public snapshots; retain other results locally.
 results/*
+!results/task_utility_observability_v1/
+!results/task_utility_observability_v1/**
+results/task_utility_observability_v1/run.lock
+results/task_utility_observability_v1/*.writing
 !results/ucf101_causal_development_v1/
 !results/ucf101_causal_development_v1/**
 results/ucf101_causal_development_v1/run.lock

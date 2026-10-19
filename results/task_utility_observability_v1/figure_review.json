@@ -1,0 +1,13 @@
+{
+  "actually_inspected": true,
+  "at_utc": "2026-10-19T09:44:03.384009+00:00",
+  "figures_sha256": {
+    "results/task_utility_observability_v1/figures/information_and_observed_cost.pdf": "2aee467dab95d01493070caec03daf8a8398c395042f14e521b351cc5d6e6075",
+    "results/task_utility_observability_v1/figures/information_and_observed_cost.png": "ba7ecd5726b741649f74021bbf1ce99c082b734775b7f02fd6253a43d66c428d",
+    "results/task_utility_observability_v1/figures/task_benefit_prediction.pdf": "909cb651c0a537f0605749a7f9661142b976d23995bddc0d951b695463ce5930",
+    "results/task_utility_observability_v1/figures/task_benefit_prediction.png": "278b62bf411341ab6406158f26ae00c54a006011c085d709ca8b8e0e185b0e95",
+    "results/task_utility_observability_v1/figures/teacher_task_alignment.pdf": "1a582be99916475593be9a7446ea2c17e03e3e646e2dc6792855618f7a27313d",
+    "results/task_utility_observability_v1/figures/teacher_task_alignment.png": "b162c43317d2bb1da7fe60b34342c498fbef3302cb814864c4db0f4de6265efc"
+  },
+  "review": "All three PNGs visually inspected: readable labels/values/intervals, no clipping, exploratory scope and distinct timing/prediction populations; corresponding PDFs saved from same figures"
+}
