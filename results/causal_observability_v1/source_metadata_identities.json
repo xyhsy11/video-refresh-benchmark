@@ -1,0 +1,33 @@
+{
+  "at_utc": "2026-10-19T04:02:50.378682+00:00",
+  "official_page": {
+    "url": "https://serre.lab.brown.edu/hmdb51.html",
+    "sha256": "89c40c021c41cccb6087c129a35839947a54a1b8686ea9072e434db9f1affc85"
+  },
+  "distribution": {
+    "repository": "Serrelab/hmdb51",
+    "revision": "1f1e6df3fccdfe34a230e60c00a799b82905b35f",
+    "metadata_sha256": "fbc2a0cd4f97d27b3d4c7d70308e21f0c163f1687254ca4be05e8f7762d62496",
+    "README_sha256": "46d26761660e577006614ea966961994fcadc81b86978133cd2c6ff8399d4838"
+  },
+  "original_archives": {
+    "hmdb51_org.rar": {
+      "url": "https://huggingface.co/datasets/Serrelab/hmdb51/resolve/1f1e6df3fccdfe34a230e60c00a799b82905b35f/hmdb51_org.rar",
+      "bytes": 2124008126,
+      "sha256": "9e714a0d8b76104d76e932764a7ca636f929fff66279cda3f2e326fa912a328e",
+      "acquired_at_utc": "2026-10-19T03:40:59.519872+00:00",
+      "headers_sha256": "bc6a2d143de89c640dc52a14376632216c1a4f793a28e04b8658d3a9dd16128a"
+    },
+    "test_train_splits.rar": {
+      "url": "https://huggingface.co/datasets/Serrelab/hmdb51/resolve/1f1e6df3fccdfe34a230e60c00a799b82905b35f/test_train_splits.rar",
+      "bytes": 199521,
+      "sha256": "229c94f845720d01eb3946d39f39292ea962d50a18136484aa47c1eba251d2b7",
+      "acquired_at_utc": "2026-10-19T03:38:53.949204+00:00",
+      "headers_sha256": "5ae070d785345342a9e80da42a5f26d0b35ac3524f4ce0f83861db61138a6690"
+    }
+  },
+  "license": "Official Serre Lab page and distribution card state CC BY4.0; Kuehne et al., HMDB, ICCV2011; no account/click-through accepted; no video redistribution",
+  "official_page_claimed_clips": 6849,
+  "actual_original_archive_and_annotations_clips": 6766,
+  "version_difference": "Report actual archived membership6766; do not invent missing83 clips or use repackaged substitutes"
+}

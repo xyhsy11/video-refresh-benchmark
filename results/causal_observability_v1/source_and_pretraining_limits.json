@@ -1,0 +1,8 @@
+{
+  "at_utc": "2026-10-19T04:02:50.407264+00:00",
+  "filename_source_titles_missing": 0,
+  "external_parent_identifiers_missing": 6766,
+  "checkpoint_pretraining": "Kinetics400 X3D-XS; UCF/HMDB-to-original parent mappings missing",
+  "overlap_unknown": "Title-prefix proxies are not verified external source URLs. All6766 original parent IDs/URLs unavailable. Unknown pretraining/reupload overlap is not zero overlap.",
+  "policy": "Retain official test source families and quarantine matching training members; no class/drop count amendment approved"
+}

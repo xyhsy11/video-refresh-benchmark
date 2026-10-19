@@ -1,0 +1,42 @@
+{
+  "at_utc": "2026-10-19T03:48:34.950351+00:00",
+  "exact_edges": [
+    [
+      "Die_Another_Day_-_Fencing_Scene_Part_1_[HD]_avi_fencing_u_cm_np2_fr_goo_2.avi",
+      "Die_Another_Day_-_Fencing_Scene_Part_1_[HD]_fencing_u_cm_np2_fr_goo_2.avi"
+    ],
+    [
+      "Die_Another_Day_-_Fencing_Scene_Part_1_[HD]_avi_fencing_u_cm_np2_fr_goo_3.avi",
+      "Die_Another_Day_-_Fencing_Scene_Part_1_[HD]_fencing_u_cm_np2_fr_goo_3.avi"
+    ],
+    [
+      "Roundoff_Flick__flic_flac_f_cm_np1_fr_bad_0.avi",
+      "Roundoff_Flick_flic_flac_f_cm_np1_fr_bad_0.avi"
+    ],
+    [
+      "How_to_pour_beer__eh__pour_u_nm_np1_fr_goo_0.avi",
+      "How_to_pour_beer_pour_u_nm_np1_fr_goo_0.avi"
+    ],
+    [
+      "Wrestling_World_Cup_2008_-_FW-_Team_-_Award_Ceremony_shake_hands_f_cm_np2_fr_med_6.avi",
+      "Wrestling_World_Cup_2008_-_FW-_Team_-_Award_Ceremony_shake_hands_f_cm_np2_fr_med_7.avi"
+    ]
+  ],
+  "near_edges": [
+    {
+      "first": "Hangingbyamomentfavoritekisses_kiss_u_cm_np2_le_goo_8.avi",
+      "second": "Best_Kisses_in_TV_Movies_1_3_kiss_u_cm_np2_le_goo_8.avi",
+      "hamming": [
+        0,
+        2,
+        2
+      ]
+    }
+  ],
+  "fixed_pHash_rule": "all three 63-bit hashes <=4 bit difference; duration ratio>=.9; conservative connected families; fixed before model outcomes",
+  "training_calibration_population": 2618,
+  "manual_retain_overrides": [],
+  "source_unknown": 0,
+  "unknown_overlap": "Actual source URLs/YouTube IDs and checkpoint pretraining mappings unavailable; title proxies do not establish universal independence",
+  "test_priority_policy": "Keep eligible official test membership; exclude conflicting official training members, never move data across roles"
+}

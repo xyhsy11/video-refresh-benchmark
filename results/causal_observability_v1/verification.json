@@ -1,0 +1,83 @@
+{
+  "at_utc": "2026-10-19T04:10:09.799527+00:00",
+  "scope": "Read-only audit; tests are distinct from completed empirical stages",
+  "original_archives_and_annotations": "verified",
+  "classes": 51,
+  "actual_encoder_events": [
+    {
+      "phase": "pretest_native400_smoke",
+      "event": "complete",
+      "count": 20
+    },
+    {
+      "phase": "pretest_native400_smoke",
+      "event": "start",
+      "count": 20
+    }
+  ],
+  "official_test_encoder_starts": 0,
+  "real_native400_integration": {
+    "trials": 4,
+    "maximum_independent_logit_difference": 0,
+    "new51_class_head_integration": "NOT RUN until feasible population and fitting"
+  },
+  "seal": "NOT CREATED; population/training gate pending",
+  "historical_results": "All original tracked scientific blobs preserved",
+  "status": {
+    "stages": {
+      "review": {
+        "status": "verified",
+        "at_utc": "2026-10-19T03:38:50.038212+00:00"
+      },
+      "data": {
+        "status": "prepared",
+        "at_utc": "2026-10-19T04:10:00.252156+00:00"
+      },
+      "eligibility": {
+        "status": "blocked",
+        "at_utc": "2026-10-19T04:10:09.782103+00:00",
+        "reason": "Fixed population design remains infeasible in 48 classes; original completed screening retained. A new population/candidate rule needs an explicit pre-outcome amendment, not silent resume changes."
+      },
+      "tests": {
+        "status": "verified",
+        "at_utc": "2026-10-19T04:10:09.732322+00:00"
+      },
+      "GPU_smoke": {
+        "status": "partial",
+        "at_utc": "2026-10-19T03:57:43.693073+00:00",
+        "native400": "verified",
+        "new51_head": "pending population design",
+        "actual_completed_calls": 16
+      },
+      "training": {
+        "status": "pending"
+      },
+      "freeze": {
+        "status": "pending"
+      },
+      "test_rollouts": {
+        "status": "pending"
+      },
+      "diagnostics": {
+        "status": "pending"
+      },
+      "timing": {
+        "status": "pending"
+      },
+      "verification": {
+        "status": "pending"
+      },
+      "figures": {
+        "status": "pending"
+      },
+      "final": {
+        "status": "pending"
+      }
+    },
+    "current_stage": "eligibility",
+    "status": "blocked",
+    "updated_at_utc": "2026-10-19T04:10:09.782103+00:00",
+    "resume_command": "& .\\.venv_temporal\\Scripts\\python.exe .\\run_causal_observability.py --resume",
+    "audit_command": "& .\\.venv_temporal\\Scripts\\python.exe -B .\\run_causal_observability.py --audit-only"
+  }
+}

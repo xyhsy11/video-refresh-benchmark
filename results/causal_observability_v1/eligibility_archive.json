@@ -1,0 +1,8 @@
+{
+  "path": "results/causal_observability_v1/eligibility_attempts.jsonl.gz",
+  "sha256": "c6cc3cc3023b928433abc092fe45ff409a06e803e96d8c91c430aeb4d03a1d6c",
+  "decompressed_sha256": "23dc2d1b1bf65b8c3d497db289f576c7797de42c52785729d6a8be7f2a7f5c7d",
+  "decompressed_bytes": 42674235,
+  "attempts": 6766,
+  "scope": "All actual input-only PyAV screening records, including requested/actual PTS and frame identities on eligible clips; no model outcomes"
+}

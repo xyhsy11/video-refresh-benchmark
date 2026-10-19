@@ -1,5 +1,7 @@
 # video-refresh-benchmark
 
+Experiment19, [Causal Observability Gap](results/causal_observability_v1/findings.md), has an isolated sequential-execution implementation and a preserved **population-blocked pretest attempt**. The original HMDB51 bytes/annotations, all6,766 input screenings, source-family conflicts, 17 synthetic tests and two-video native400 GPU checks are recorded. No trained HMDB51 controller or official test result is claimed. See the [protocol](results/causal_observability_v1/protocol.md) and [resume/audit commands](results/causal_observability_v1/README.md).
+
 The fixed all-class UCF101 split-1 second-dataset replication is implemented in
 [run_ucf101_proxy_replication.py](run_ucf101_proxy_replication.py). Its actual execution
 state, evidence and limitations are in

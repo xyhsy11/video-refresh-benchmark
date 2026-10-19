@@ -1,0 +1,26 @@
+{
+  "at_utc": "2026-10-19T04:07:16.418941+00:00",
+  "checks": [
+    {
+      "contrast": "g",
+      "mean": -0.010285204620639574,
+      "CI95_lower": -0.016928706877805597,
+      "CI95_upper": -0.003888971915640854
+    },
+    {
+      "contrast": "p",
+      "mean": -0.00822527984788949,
+      "CI95_lower": -0.015485514556338514,
+      "CI95_upper": -0.0013013300770930083
+    },
+    {
+      "contrast": "d",
+      "mean": 0.002059924772750085,
+      "CI95_lower": -0.0047730503682761275,
+      "CI95_upper": 0.009124498866224951
+    }
+  ],
+  "scope": "Genuine archived per-group tables and saved group indices; original UCF seal/amendment/all artifact hashes verified; no new GPU calls or UCF features reconstructed",
+  "groups": 704,
+  "clips": 1408
+}

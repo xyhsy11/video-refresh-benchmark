@@ -1,0 +1,63 @@
+{
+  "stages": {
+    "review": {
+      "status": "verified",
+      "at_utc": "2026-10-19T03:38:50.038212+00:00"
+    },
+    "data": {
+      "status": "prepared",
+      "at_utc": "2026-10-19T04:10:00.252156+00:00"
+    },
+    "eligibility": {
+      "status": "blocked",
+      "at_utc": "2026-10-19T04:10:09.782103+00:00",
+      "reason": "Fixed population design remains infeasible in 48 classes; original completed screening retained. A new population/candidate rule needs an explicit pre-outcome amendment, not silent resume changes."
+    },
+    "tests": {
+      "status": "verified",
+      "at_utc": "2026-10-19T04:10:09.732322+00:00"
+    },
+    "GPU_smoke": {
+      "status": "partial",
+      "at_utc": "2026-10-19T03:57:43.693073+00:00",
+      "native400": "verified",
+      "new51_head": "pending population design",
+      "actual_completed_calls": 16
+    },
+    "training": {
+      "status": "pending"
+    },
+    "freeze": {
+      "status": "pending"
+    },
+    "test_rollouts": {
+      "status": "pending"
+    },
+    "diagnostics": {
+      "status": "pending"
+    },
+    "timing": {
+      "status": "pending"
+    },
+    "verification": {
+      "status": "verified_pretest",
+      "at_utc": "2026-10-19T04:13:30.942323+00:00",
+      "scope": "Original data/input identities, genuine native400 replay, historical preservation; no empirical task result"
+    },
+    "figures": {
+      "status": "input_only_reviewed",
+      "at_utc": "2026-10-19T04:13:30.942323+00:00",
+      "pending": "Four task-quality/cost figures require real outcomes"
+    },
+    "final": {
+      "status": "blocked",
+      "at_utc": "2026-10-19T04:13:30.942323+00:00",
+      "reason": "Fixed population cannot support exact45/15/10 and all51 eligible test classes"
+    }
+  },
+  "current_stage": "eligibility",
+  "status": "blocked",
+  "updated_at_utc": "2026-10-19T04:10:09.782103+00:00",
+  "resume_command": "& .\\.venv_temporal\\Scripts\\python.exe .\\run_causal_observability.py --resume",
+  "audit_command": "& .\\.venv_temporal\\Scripts\\python.exe -B .\\run_causal_observability.py --audit-only"
+}

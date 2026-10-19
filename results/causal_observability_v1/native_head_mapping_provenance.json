@@ -1,0 +1,11 @@
+{
+  "at_utc": "2026-10-19T04:15:31.787570+00:00",
+  "scope": "Native checkpoint 400-class projection only; not a fitted HMDB51 classifier",
+  "weight_source": "Verified checkpoint -> unchanged factory model.blocks[-1].proj.weight and bias",
+  "weight_shape": [
+    400,
+    2048
+  ],
+  "normalization": "Exactly identity mapping (zero offset/unit scale) to express the native unstandardized affine projection in the common head interface. These are mathematical constants, not fabricated observations or estimated population moments.",
+  "features": "All smoke input vectors came from actual X3D projection-input hooks on real decoded original HMDB training clips; no simulated or reconstructed vectors"
+}

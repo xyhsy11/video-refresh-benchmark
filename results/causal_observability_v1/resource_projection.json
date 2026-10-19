@@ -1,0 +1,14 @@
+{
+  "at_utc": "2026-10-19T04:10:50.525202+00:00",
+  "scope": "Planning projection from actual two-source native400 smoke, before any bulk HMDB feature collection; population prevents this projected run",
+  "measured_smoke_B4_seconds_per_video": 0.36834957499991106,
+  "nominal_full_design": {
+    "training_dense_calls": 57120,
+    "test_deployed_B4_calls": 30600,
+    "test_diagnostic_dense_calls": 24480,
+    "timing_calls_51sources_7modes_14trials": 14280
+  },
+  "projected_test_deployable_seconds": 2817.8742487493196,
+  "actual_scientific_test_calls": 0,
+  "limits": "Two source/native400 smoke; not fitted51-class latency, not a measured final timing result; controller training/search costs additional. No coverage reduction authorized to meet estimates."
+}
