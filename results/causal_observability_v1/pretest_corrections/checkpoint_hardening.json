@@ -1,0 +1,9 @@
+{
+  "at_utc": "2026-10-19T04:04:10.332016+00:00",
+  "scope": "Before official test exposure, after native400-only integration",
+  "change": "Dense feature checkpoints now reject changed input/model/extraction-code provenance. No live inference/observation/pooling arithmetic changed.",
+  "successful_smoke_runtime_archive": "results/causal_observability_v1/pretest_corrections/runtime_at_successful_native_smoke.py",
+  "smoke_source_sha256": "3dcb435a30c7f7371077f6e1716c0bd731809e2fee975a33fb69384e0c43aa72",
+  "current_runtime_sha256": "ebbf6eaa9f949f5652c844f4d3a653145c41db1644e3a6cf7b3fd47572df0019",
+  "official_test_calls": 0
+}

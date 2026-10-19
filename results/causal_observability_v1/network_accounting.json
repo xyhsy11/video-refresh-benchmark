@@ -1,0 +1,70 @@
+{
+  "cap_bytes": 21474836480,
+  "charged_bytes": 2674722761,
+  "requests": [
+    {
+      "url": "https://serre.lab.brown.edu/hmdb51.html",
+      "path": "data/source/causal_observability_v1/official_page.html",
+      "at_utc": "2026-10-19T03:38:50.042201+00:00",
+      "status": "complete",
+      "reserve": 2097152,
+      "returncode": 0,
+      "actual_file_bytes": 9361,
+      "stderr": "",
+      "finished_at_utc": "2026-10-19T03:38:51.291993+00:00",
+      "sha256": "89c40c021c41cccb6087c129a35839947a54a1b8686ea9072e434db9f1affc85"
+    },
+    {
+      "url": "https://huggingface.co/datasets/Serrelab/hmdb51/resolve/1f1e6df3fccdfe34a230e60c00a799b82905b35f/README.md",
+      "path": "data/source/causal_observability_v1/distribution_README.md",
+      "at_utc": "2026-10-19T03:38:51.336871+00:00",
+      "status": "complete",
+      "reserve": 2097152,
+      "returncode": 0,
+      "actual_file_bytes": 1196,
+      "stderr": "",
+      "finished_at_utc": "2026-10-19T03:38:51.746775+00:00",
+      "sha256": "46d26761660e577006614ea966961994fcadc81b86978133cd2c6ff8399d4838"
+    },
+    {
+      "url": "https://huggingface.co/api/datasets/Serrelab/hmdb51/revision/1f1e6df3fccdfe34a230e60c00a799b82905b35f?blobs=true",
+      "path": "data/source/causal_observability_v1/distribution_metadata.json",
+      "at_utc": "2026-10-19T03:38:51.790659+00:00",
+      "status": "complete",
+      "reserve": 2097152,
+      "returncode": 0,
+      "actual_file_bytes": 2157,
+      "stderr": "",
+      "finished_at_utc": "2026-10-19T03:38:52.221311+00:00",
+      "sha256": "fbc2a0cd4f97d27b3d4c7d70308e21f0c163f1687254ca4be05e8f7762d62496"
+    },
+    {
+      "url": "https://huggingface.co/datasets/Serrelab/hmdb51/resolve/1f1e6df3fccdfe34a230e60c00a799b82905b35f/test_train_splits.rar",
+      "path": "data/source/causal_observability_v1/test_train_splits.rar",
+      "at_utc": "2026-10-19T03:38:52.260209+00:00",
+      "status": "complete",
+      "reserve": 2097152,
+      "returncode": 0,
+      "actual_file_bytes": 199521,
+      "stderr": "",
+      "finished_at_utc": "2026-10-19T03:38:53.941228+00:00",
+      "sha256": "229c94f845720d01eb3946d39f39292ea962d50a18136484aa47c1eba251d2b7"
+    },
+    {
+      "url": "https://huggingface.co/datasets/Serrelab/hmdb51/resolve/1f1e6df3fccdfe34a230e60c00a799b82905b35f/hmdb51_org.rar",
+      "path": "data/source/causal_observability_v1/hmdb51_org.rar",
+      "at_utc": "2026-10-19T03:39:04.127863+00:00",
+      "status": "complete",
+      "reserve": 2307915776,
+      "returncode": 0,
+      "actual_file_bytes": 2124008126,
+      "stderr": "",
+      "finished_at_utc": "2026-10-19T03:40:53.260939+00:00",
+      "sha256": "9e714a0d8b76104d76e932764a7ca636f929fff66279cda3f2e326fa912a328e"
+    }
+  ],
+  "preflight_reserve_bytes": 8388608,
+  "note": "Git metadata/web/HEAD overhead conservatively reserved; completed bodies plus 1MiB/request, failures charged full response limit",
+  "publication_reserve_bytes": 536870912,
+  "publication_reserve_note": "Conservative Git publication/retry allowance, not measured transfer bytes"
+}

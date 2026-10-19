@@ -1,0 +1,16 @@
+{
+  "at_utc": "2026-10-19T04:13:30.898441+00:00",
+  "code_HEAD_before_commit": "017fe79843428127be55ebf0b8819a9921b46d6e",
+  "sha256": {
+    "causal_observability_analysis.py": "ac3d1e7a217f249c83b3d66830a12182940c6f892e91b17aada03d99c94a9df5",
+    "causal_observability_common.py": "8fae3697454857bcf3cb6d6a3bcdaec5b448776badbd5633e45b5d48b11f5414",
+    "causal_observability_data.py": "94dcf62bfa30ccb09b3723f40c1d5b1248d8982c6f9fc9de0c4305494cbf9075",
+    "causal_observability_learning.py": "b8c05965d3b2fe477bed9398201e21a6d4708d0f38e4b7d4be52d3a3330fd435",
+    "causal_observability_policy.py": "dda0908b98b042b4e5ac88a86cead957530582d4e1f4e7a186714450a0d212c6",
+    "causal_observability_runtime.py": "ebbf6eaa9f949f5652c844f4d3a653145c41db1644e3a6cf7b3fd47572df0019",
+    "causal_observability_verify.py": "f4b602f89093db93da3ae12bfb7a827f460e9426af5bab0608a8a16e47cf7e2b",
+    "run_causal_observability.py": "3c6db7bb3422c11d9f5ae70bb6aecb3385798a29e5d6eb38c55da20e06d6844b",
+    "test_causal_observability.py": "e1606846389a46c8fbab58fe040ed1770a89fd2dd3cdb460a30e4645bc914157"
+  },
+  "scope": "Implementation snapshot of blocked pretest attempt; not an evaluation seal or completed empirical stages"
+}

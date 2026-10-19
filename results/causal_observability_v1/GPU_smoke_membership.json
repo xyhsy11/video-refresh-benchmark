@@ -1,0 +1,20 @@
+{
+  "at_utc": "2026-10-19T03:52:53.211558+00:00",
+  "clips": [
+    {
+      "label": "draw_sword",
+      "clip": "Fight_Science_-_Shinkendo_draw_sword_f_cm_np3_fr_med_0.avi",
+      "source_family": "fightscienceshinkendo",
+      "sha256": "4be23a6490da58eea998bb518e054dbb9047efc2e39d378fa6174ebea0ff1f65",
+      "official_flag": 1
+    },
+    {
+      "label": "pour",
+      "clip": "How_to_Build_a_Cocktail_pour_u_nm_np1_fr_med_2.avi",
+      "source_family": "howtobuildacocktail",
+      "sha256": "6cbf3d02b9a9de8b9a044c8d3b69f155ee3e00966a734d9b9199ad93f891f69e",
+      "official_flag": 1
+    }
+  ],
+  "selection": "Hash seed20261019; eligible official-training-only sources after test-family quarantine; no recognition outcomes"
+}

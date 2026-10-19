@@ -1,0 +1,5 @@
+{
+  "at_utc": "2026-10-19T04:04:41.779968+00:00",
+  "preserved_incomplete_attempt": "Metadata packaging stopped at final training-only pHash diagnostic because administrative snippet omitted numpy import; all earlier source identities/journal archive retained",
+  "correction": "Import numpy and finish only pHash diagnostic/input figure; no features or outcomes rerun"
+}

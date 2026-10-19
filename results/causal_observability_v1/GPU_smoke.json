@@ -1,0 +1,86 @@
+{
+  "at_utc": "2026-10-19T03:57:43.573398+00:00",
+  "status": "native400_integration_passed_new51_head_integration_pending",
+  "results": [
+    {
+      "path": "data/source/causal_observability_v1/smoke/b9fd3c26fd3f0e80337c994055fdfc7252c273dad06456922153e9643d84563b.json",
+      "sha256": "70bd60c355781822e8dcdc61e02dd6d3eeb88e3acf7d276a64a31ffd73de5a21",
+      "clip": "Fight_Science_-_Shinkendo_draw_sword_f_cm_np3_fr_med_0.avi",
+      "method": "periodic",
+      "positions": [
+        0,
+        4,
+        8,
+        12
+      ],
+      "encoder_starts": 4,
+      "encoder_completions": 4,
+      "grayscale_conversions": 0,
+      "RGB_conversions": 16,
+      "seconds": 0.4854808999998568
+    },
+    {
+      "path": "data/source/causal_observability_v1/smoke/6becf2abbf91cf1d1c8f4594b3ed21e16c5a7d8820b5b44966a862119cae3da8.json",
+      "sha256": "8ebabb37c66e14ad0630314c7962861f84e0c19251116b1939f8274d5514a79e",
+      "clip": "Fight_Science_-_Shinkendo_draw_sword_f_cm_np3_fr_med_0.avi",
+      "method": "motion",
+      "positions": [
+        0,
+        12,
+        14,
+        15
+      ],
+      "encoder_starts": 4,
+      "encoder_completions": 4,
+      "grayscale_conversions": 16,
+      "RGB_conversions": 16,
+      "seconds": 0.3715621999999712
+    },
+    {
+      "path": "data/source/causal_observability_v1/smoke/a0992fcd3b170a94bf66d0ce781eb01ed68d28e0636a41e100d9418bf7de1818.json",
+      "sha256": "d734aab61d2ddc33d8458a20ded23d58839e4a8225ecb0bad9c8d5b63cfc6c7a",
+      "clip": "How_to_Build_a_Cocktail_pour_u_nm_np1_fr_med_2.avi",
+      "method": "periodic",
+      "positions": [
+        0,
+        4,
+        8,
+        12
+      ],
+      "encoder_starts": 4,
+      "encoder_completions": 4,
+      "grayscale_conversions": 0,
+      "RGB_conversions": 16,
+      "seconds": 0.27491939999981696
+    },
+    {
+      "path": "data/source/causal_observability_v1/smoke/1506bf6055a977aec00470d49bc88b78c29ce21b78a8adabb5ed7c07dd98f357.json",
+      "sha256": "58d3ab255c7fc30c89fbddae4ad7fc2cc25f99adcd5a3c7acdad087dd06c7bac",
+      "clip": "How_to_Build_a_Cocktail_pour_u_nm_np1_fr_med_2.avi",
+      "method": "motion",
+      "positions": [
+        0,
+        13,
+        14,
+        15
+      ],
+      "encoder_starts": 4,
+      "encoder_completions": 4,
+      "grayscale_conversions": 16,
+      "RGB_conversions": 16,
+      "seconds": 0.3414357999999993
+    }
+  ],
+  "native_head_path": "data/source/causal_observability_v1/native400_smoke_head.json",
+  "native_head_sha256": "ee853f0e07c2ceee6cd3de126918785feb87b77564eb434289bcf20085aeba26",
+  "official_test_calls": 0,
+  "completed_smoke_calls": 16,
+  "setup_seconds_excluded": 5.399417600000106,
+  "new51_head_integration": "NOT RUN until feasible population and fitting",
+  "code_sha256": {
+    "causal_observability_runtime.py": "3dcb435a30c7f7371077f6e1716c0bd731809e2fee975a33fb69384e0c43aa72",
+    "causal_observability_policy.py": "dda0908b98b042b4e5ac88a86cead957530582d4e1f4e7a186714450a0d212c6"
+  },
+  "projected_B4_seconds_per_video": 0.36834957499991106,
+  "projection_limit": "Two real sources/native400 head; not final latency benchmark or simulated measurements"
+}

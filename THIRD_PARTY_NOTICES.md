@@ -1,5 +1,7 @@
 # Credits and third-party terms
 
+Experiment19 HMDB51 provenance: Kuehne, Jhuang, Garrote, Poggio and Serre, "HMDB: A Large Video Database for Human Motion Recognition," ICCV2011. The official Serre Lab page and pinned Serrelab distribution advertise CC BY4.0. Original unstabilized video/annotation archive identities are in `results/causal_observability_v1/source_metadata_identities.json`. Only annotations, identities and derived input-screening records are published; video archives remain local. External parent-video IDs and checkpoint-pretraining/reupload mappings are unknown. No account or click-through agreement was accepted. The verified existing X3D checkpoint/PyTorchVideo source is reused without an environment upgrade.
+
 The [MIT LICENSE](LICENSE) covers original project code by Siyu Han. It does not relicense dependencies, datasets, source videos, or pretrained weights. Their copyright notices and terms remain separate. No dependency source code, dataset videos, or model weights are bundled in this Git repository; local downloads and installed packages retain their existing notices.
 
 | Project or resource | Use here | Upstream information |

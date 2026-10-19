@@ -1,0 +1,13 @@
+{
+  "at_utc": "2026-10-19T03:53:51.372794+00:00",
+  "official_test_calls": 0,
+  "stage": "native400 training-only GPU smoke",
+  "failure": "Strict independent replay failed: FP32 feature array mean used float32 accumulation while executed last-cache pooling uses float64",
+  "maximum_observed_difference": 2.36068244e-07,
+  "original_runtime_sha256": "65cc673423f8160498ef5c9b7e2ed710d8e5462a653e17ef379c35f26d045115",
+  "original_trial_encoder_starts": 4,
+  "original_trial_encoder_completions": 4,
+  "partial_output": "Four real encoder calls preserved in events; complete prediction artifact not saved because verifier raised. No vectors reconstructed from reported means.",
+  "correction": "Use explicit float64 mean for independent genuine-feature replay; retain tolerance1e-10; rerun same frozen smoke membership",
+  "post_test_exposure": false
+}

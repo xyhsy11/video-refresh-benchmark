@@ -1,0 +1,15 @@
+{
+  "at_utc": "2026-10-19T04:15:31.784611+00:00",
+  "original_archives_and_annotations": "verified",
+  "implementation_identity": "verified pretest snapshot; not an evaluation seal",
+  "historical_results": "All original tracked scientific blobs preserved",
+  "official_test_encoder_starts": 0,
+  "real_native400_integration": {
+    "trials": 4,
+    "maximum_independent_logit_difference": 0,
+    "new51_class_head_integration": "NOT RUN until feasible population and fitting"
+  },
+  "scientific_state": "blocked",
+  "read_only_audit_preserved_artifact_manifest": true,
+  "scope": "Final independent read-only audit summary; administrative summary added afterward and included in regenerated artifact hash manifest"
+}
