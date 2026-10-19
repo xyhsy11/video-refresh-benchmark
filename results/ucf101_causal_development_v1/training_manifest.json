@@ -1,0 +1,4049 @@
+{
+  "scope": "DEVELOPMENT/EXPLORATORY; not official-test evaluation",
+  "study_role": "controller_train",
+  "clips": 404,
+  "groups": 202,
+  "population_manifest_sha256": "d13821d967c07365073beed5f06a8084bdac6df094dda84a23894adcd43b116d",
+  "videos": [
+    {
+      "clip": "v_ApplyEyeMakeup_g09_c02.avi",
+      "label": "ApplyEyeMakeup",
+      "group": "g09",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/ApplyEyeMakeup/v_ApplyEyeMakeup_g09_c02.avi",
+      "sha256": "28bbd3c325e9419493d79485a926d300511da85852ef62bbf5871c8479b687f7",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_ApplyEyeMakeup_g09_c01.avi",
+      "label": "ApplyEyeMakeup",
+      "group": "g09",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/ApplyEyeMakeup/v_ApplyEyeMakeup_g09_c01.avi",
+      "sha256": "b9e29e3dde0e54ec11ae77656ef4d56e23a4b7ccba87ea32ce64c318be66a762",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_ApplyEyeMakeup_g11_c02.avi",
+      "label": "ApplyEyeMakeup",
+      "group": "g11",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/ApplyEyeMakeup/v_ApplyEyeMakeup_g11_c02.avi",
+      "sha256": "2dd66197d99e5a483a6270b2aa6df4b0d0c7d62c743431006c6e6f444ac2dba6",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_ApplyEyeMakeup_g11_c05.avi",
+      "label": "ApplyEyeMakeup",
+      "group": "g11",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/ApplyEyeMakeup/v_ApplyEyeMakeup_g11_c05.avi",
+      "sha256": "dc10a8a35036ddd1ae82c9749862c5acd19a9bdaa6dd24e86cdb1f79a48e935c",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_ApplyLipstick_g19_c01.avi",
+      "label": "ApplyLipstick",
+      "group": "g19",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/ApplyLipstick/v_ApplyLipstick_g19_c01.avi",
+      "sha256": "b988894fb8a6ef94558d88f5b8fd814d663e5cdca99c8aa8c0ebcb1a6d58ccdc",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_ApplyLipstick_g19_c03.avi",
+      "label": "ApplyLipstick",
+      "group": "g19",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/ApplyLipstick/v_ApplyLipstick_g19_c03.avi",
+      "sha256": "683e4400f1763fdb4646767a244fb0fa2a242c1b9f7e9a51d73aa0277886b1a1",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_ApplyLipstick_g21_c05.avi",
+      "label": "ApplyLipstick",
+      "group": "g21",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/ApplyLipstick/v_ApplyLipstick_g21_c05.avi",
+      "sha256": "28f5dfee0d9050474319920aee6168a6e14c6fa6903ae1db01e1fc6b8c1733c4",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_ApplyLipstick_g21_c02.avi",
+      "label": "ApplyLipstick",
+      "group": "g21",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/ApplyLipstick/v_ApplyLipstick_g21_c02.avi",
+      "sha256": "6ef49bb74e33542a6f6bc0e5d6450e4302b1e86ff16d41a881b5d5bea3698a27",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Archery_g17_c01.avi",
+      "label": "Archery",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Archery/v_Archery_g17_c01.avi",
+      "sha256": "7cc22cad935a2573a977ff9c66ca2a70af0b6a4669e9c2981995827950564425",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Archery_g17_c03.avi",
+      "label": "Archery",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Archery/v_Archery_g17_c03.avi",
+      "sha256": "5e3aed323efee40c07cd196a5985561c2b159d068dd9ba619c550b99c23f698e",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Archery_g19_c04.avi",
+      "label": "Archery",
+      "group": "g19",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Archery/v_Archery_g19_c04.avi",
+      "sha256": "7f8f762daca9ee8ea1b6231aba12b1e2c975b87ea4eb1fd56e243d5d69839912",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Archery_g19_c02.avi",
+      "label": "Archery",
+      "group": "g19",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Archery/v_Archery_g19_c02.avi",
+      "sha256": "964fce4111ec1f8c81418a3a74255c009b096ed7a5536bc14a81421acb6e7e81",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BabyCrawling_g12_c06.avi",
+      "label": "BabyCrawling",
+      "group": "g12",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BabyCrawling/v_BabyCrawling_g12_c06.avi",
+      "sha256": "135a4a322a9d4fa21d2d842214656394b55f5e92dd5811d42d83f25950de355e",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BabyCrawling_g12_c02.avi",
+      "label": "BabyCrawling",
+      "group": "g12",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BabyCrawling/v_BabyCrawling_g12_c02.avi",
+      "sha256": "177220b754bf0ff1c27b6e990337889eeb78e703e68a330425392f221ff88d68",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BabyCrawling_g18_c04.avi",
+      "label": "BabyCrawling",
+      "group": "g18",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BabyCrawling/v_BabyCrawling_g18_c04.avi",
+      "sha256": "1c1db81a2e47515e2da545f3aecac525c66c2556f7ddbf4864b14318aff1130f",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BabyCrawling_g18_c06.avi",
+      "label": "BabyCrawling",
+      "group": "g18",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BabyCrawling/v_BabyCrawling_g18_c06.avi",
+      "sha256": "19a5cf33542db3beb6e2adf911ba71fb235355720c0a4c2aca6dadd52f62be11",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BalanceBeam_g15_c03.avi",
+      "label": "BalanceBeam",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BalanceBeam/v_BalanceBeam_g15_c03.avi",
+      "sha256": "38ac8e4561c3b7235bb349d51f03e938f13b3aa2f9259318d3b69aff0537d271",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BalanceBeam_g15_c01.avi",
+      "label": "BalanceBeam",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BalanceBeam/v_BalanceBeam_g15_c01.avi",
+      "sha256": "ac34f14d9ff2e02d22977c15ccd336c8657ba4bffcc546241ac33c3cd063e519",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BalanceBeam_g17_c03.avi",
+      "label": "BalanceBeam",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BalanceBeam/v_BalanceBeam_g17_c03.avi",
+      "sha256": "1159dde685bd9c4ce5ec4f46e3446ccca86252edf3a94b53a581c9abb19887c5",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BalanceBeam_g17_c02.avi",
+      "label": "BalanceBeam",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BalanceBeam/v_BalanceBeam_g17_c02.avi",
+      "sha256": "48da88ba06e74f39e51a937287598c283d4e4a7bca2b7673129db3b376313087",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BandMarching_g10_c02.avi",
+      "label": "BandMarching",
+      "group": "g10",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BandMarching/v_BandMarching_g10_c02.avi",
+      "sha256": "4acd916a7672f14a2af02db0824f757eb3d1ad68fba3cb0326719b5a2ad81632",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BandMarching_g10_c04.avi",
+      "label": "BandMarching",
+      "group": "g10",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BandMarching/v_BandMarching_g10_c04.avi",
+      "sha256": "c796593d1bf0fceacd3f377039826f54c372fd4a677f33408c86ffcc78057c13",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BandMarching_g24_c04.avi",
+      "label": "BandMarching",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BandMarching/v_BandMarching_g24_c04.avi",
+      "sha256": "70da41349fd3ae3ba930f80d6044bb692a373800be17367b7cdd48636c379165",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BandMarching_g24_c06.avi",
+      "label": "BandMarching",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BandMarching/v_BandMarching_g24_c06.avi",
+      "sha256": "dc3b77dbbcc4a0c32e5814966c9e41296160219c493c3c6111275801eecbfcb5",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BaseballPitch_g11_c02.avi",
+      "label": "BaseballPitch",
+      "group": "g11",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BaseballPitch/v_BaseballPitch_g11_c02.avi",
+      "sha256": "f9f6dc6a40ef33ef1ea5ed6243038a4b97627df4fa71c2930fbcc32f6f955efb",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BaseballPitch_g11_c03.avi",
+      "label": "BaseballPitch",
+      "group": "g11",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BaseballPitch/v_BaseballPitch_g11_c03.avi",
+      "sha256": "589fd39bb4c40a28ecac6bded97d0b6a2c06144d890a505f828b81f877841868",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BaseballPitch_g20_c02.avi",
+      "label": "BaseballPitch",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BaseballPitch/v_BaseballPitch_g20_c02.avi",
+      "sha256": "78f3d200e8e0d8d3ba5a3acb1338f20b173eca18adc494a3c4130164bfcda39b",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BaseballPitch_g20_c04.avi",
+      "label": "BaseballPitch",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BaseballPitch/v_BaseballPitch_g20_c04.avi",
+      "sha256": "3557cbb2cd2c16240e2a847f57d498e91e36d04d8e9810a0c91842a965966e1b",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Basketball_g13_c01.avi",
+      "label": "Basketball",
+      "group": "g13",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Basketball/v_Basketball_g13_c01.avi",
+      "sha256": "b8979237515cf511d35a0b14ee938941eda210616b2bd486e361187b7137d432",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Basketball_g13_c02.avi",
+      "label": "Basketball",
+      "group": "g13",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Basketball/v_Basketball_g13_c02.avi",
+      "sha256": "e586dc45f1404760edbbd70bbfba8ef38c323293fbddc0b00346a2c5d04d0521",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Basketball_g19_c01.avi",
+      "label": "Basketball",
+      "group": "g19",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Basketball/v_Basketball_g19_c01.avi",
+      "sha256": "859281f93c82b9de544687bcb695df955cabf7a0e05175403bb33e7a6ff0749d",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Basketball_g19_c03.avi",
+      "label": "Basketball",
+      "group": "g19",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Basketball/v_Basketball_g19_c03.avi",
+      "sha256": "240f52db8e1b8a629f1bc555b1df9d6cdc2bf5f3a1eb3114cd79878bde13716e",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BasketballDunk_g15_c03.avi",
+      "label": "BasketballDunk",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BasketballDunk/v_BasketballDunk_g15_c03.avi",
+      "sha256": "9b117cf66641245625aed0ad5a07457d3b5d7e5e55caf0ac38ff4623ebdcbdd4",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BasketballDunk_g15_c05.avi",
+      "label": "BasketballDunk",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BasketballDunk/v_BasketballDunk_g15_c05.avi",
+      "sha256": "a2b7e0522adc5929ae86f011926f1cdc49c7f83ebe36af9eda683a5584e597df",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BasketballDunk_g20_c05.avi",
+      "label": "BasketballDunk",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BasketballDunk/v_BasketballDunk_g20_c05.avi",
+      "sha256": "cb471a739a995bf2dbf852a8d61f02e1106a57173f5735aa5aa1ffff36c496a1",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BasketballDunk_g20_c03.avi",
+      "label": "BasketballDunk",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BasketballDunk/v_BasketballDunk_g20_c03.avi",
+      "sha256": "548e4681848be3eeb9ed90dbe9ae460b3ff52034641fa25e17101c455f6a683d",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BenchPress_g19_c04.avi",
+      "label": "BenchPress",
+      "group": "g19",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BenchPress/v_BenchPress_g19_c04.avi",
+      "sha256": "00a14d2ca2739800c7803575170f200b1be291e762659bc311d022f953b610a8",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BenchPress_g19_c01.avi",
+      "label": "BenchPress",
+      "group": "g19",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BenchPress/v_BenchPress_g19_c01.avi",
+      "sha256": "8b1e3ae3ba6ef9ffa4681c71f40667334a130949db4aeae9980bb6728a682553",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BenchPress_g25_c04.avi",
+      "label": "BenchPress",
+      "group": "g25",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BenchPress/v_BenchPress_g25_c04.avi",
+      "sha256": "2bff5c521ec9bbee22143324e27e11a629be3ac3b6f5a9d5a569fc20ae627adc",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BenchPress_g25_c07.avi",
+      "label": "BenchPress",
+      "group": "g25",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BenchPress/v_BenchPress_g25_c07.avi",
+      "sha256": "3f77e8129a3bba672b847edb944cddbba570154eaf6450092f93fcbca5786488",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Biking_g10_c06.avi",
+      "label": "Biking",
+      "group": "g10",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Biking/v_Biking_g10_c06.avi",
+      "sha256": "e523ed979ea8e69cb2f2e69f95aace74ce8ebcd84303a4468f9591db2fe37e39",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Biking_g10_c04.avi",
+      "label": "Biking",
+      "group": "g10",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Biking/v_Biking_g10_c04.avi",
+      "sha256": "4bc1d35cbe593659094d76d2107f805b3ea61762033fbe4a1303c3f2de92b504",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Biking_g16_c01.avi",
+      "label": "Biking",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Biking/v_Biking_g16_c01.avi",
+      "sha256": "17be416ff9cd38502bc0feb30ec60d2c275447ad80c2324c68288e48912d3f67",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Biking_g16_c05.avi",
+      "label": "Biking",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Biking/v_Biking_g16_c05.avi",
+      "sha256": "b62388a69bab5a8aacfee8a09485c9d27f834398d9c7b8b4d83cb66eae276243",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Billiards_g17_c02.avi",
+      "label": "Billiards",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Billiards/v_Billiards_g17_c02.avi",
+      "sha256": "4cbc071dc4d5ee5b6f701e0fb08eb7f04eae4f61283ca62fed5d7a979d8846af",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Billiards_g17_c03.avi",
+      "label": "Billiards",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Billiards/v_Billiards_g17_c03.avi",
+      "sha256": "2375e24514ddfe5b6120a35def708fc4fe9115884fee0e72bebb21fc57c5a5e4",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Billiards_g22_c02.avi",
+      "label": "Billiards",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Billiards/v_Billiards_g22_c02.avi",
+      "sha256": "b65ba26b4f6053c2b187fce7a3361824677ec53359bd6a8599f66346c7eb8195",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Billiards_g22_c03.avi",
+      "label": "Billiards",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Billiards/v_Billiards_g22_c03.avi",
+      "sha256": "284685dd1588b0c01047ab95814ab15e3348d72762666c8de3ff7da6b84fd3e0",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BlowDryHair_g09_c02.avi",
+      "label": "BlowDryHair",
+      "group": "g09",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BlowDryHair/v_BlowDryHair_g09_c02.avi",
+      "sha256": "715b2b2e4d12330c25c8f77013018fef6894e65fc937974342542e2fc4c179cb",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BlowDryHair_g09_c01.avi",
+      "label": "BlowDryHair",
+      "group": "g09",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BlowDryHair/v_BlowDryHair_g09_c01.avi",
+      "sha256": "3518bda7d895c1299d8c60ad264d3f9d56b0b87aa3375ada96352fda4f7f1133",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BlowDryHair_g12_c02.avi",
+      "label": "BlowDryHair",
+      "group": "g12",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BlowDryHair/v_BlowDryHair_g12_c02.avi",
+      "sha256": "3acbec1bd4f973e93da9a121ca2b7ac7e06b813c85708e8acacc766d98ed7ebe",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BlowDryHair_g12_c01.avi",
+      "label": "BlowDryHair",
+      "group": "g12",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BlowDryHair/v_BlowDryHair_g12_c01.avi",
+      "sha256": "9a28ac0a8bad361c25e1937c02d5213e09f6113b909237db26dfa0e3d3ca5138",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BlowingCandles_g09_c02.avi",
+      "label": "BlowingCandles",
+      "group": "g09",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BlowingCandles/v_BlowingCandles_g09_c02.avi",
+      "sha256": "856a785b6d44160b2734e27cda482e46139eee2ecb30ec943e5cd68a03a839e0",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BlowingCandles_g09_c03.avi",
+      "label": "BlowingCandles",
+      "group": "g09",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BlowingCandles/v_BlowingCandles_g09_c03.avi",
+      "sha256": "ec6870f2724d03945621ed630ae72d2deba02e69bc39c09a4ab98cfb94510488",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BlowingCandles_g17_c02.avi",
+      "label": "BlowingCandles",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BlowingCandles/v_BlowingCandles_g17_c02.avi",
+      "sha256": "c80f669a0da86e4dfaf41d2a71107f1d5f0e3fe548f5f72c4632d504b844ea24",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BlowingCandles_g17_c04.avi",
+      "label": "BlowingCandles",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BlowingCandles/v_BlowingCandles_g17_c04.avi",
+      "sha256": "002c4fbf815f54707ca45534a30a582ea443fe4baa9907f42032908d559fb079",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BodyWeightSquats_g11_c01.avi",
+      "label": "BodyWeightSquats",
+      "group": "g11",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BodyWeightSquats/v_BodyWeightSquats_g11_c01.avi",
+      "sha256": "688b6cae58bbe82a22f367ab2203e7906434be8e5fa0dc7449182455349fb300",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BodyWeightSquats_g11_c04.avi",
+      "label": "BodyWeightSquats",
+      "group": "g11",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BodyWeightSquats/v_BodyWeightSquats_g11_c04.avi",
+      "sha256": "571f987af0e7104888f9fe3816eb67b4aa19dee8acd97bd246a0f2c6e3047f4e",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BodyWeightSquats_g19_c02.avi",
+      "label": "BodyWeightSquats",
+      "group": "g19",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BodyWeightSquats/v_BodyWeightSquats_g19_c02.avi",
+      "sha256": "231bbe0c145db1fec7016007797db495894fdea0aa5b40563f1ebf8ad704a318",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BodyWeightSquats_g19_c01.avi",
+      "label": "BodyWeightSquats",
+      "group": "g19",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BodyWeightSquats/v_BodyWeightSquats_g19_c01.avi",
+      "sha256": "bb1de99bc18e98b419793368e26be06ec9671b9b7c062ffa66f2c3e1006cc167",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Bowling_g12_c04.avi",
+      "label": "Bowling",
+      "group": "g12",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Bowling/v_Bowling_g12_c04.avi",
+      "sha256": "cc772ccc087dae4dafe49826901278a3af14362b0e1332bc1e9a5b352c3cd127",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Bowling_g12_c01.avi",
+      "label": "Bowling",
+      "group": "g12",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Bowling/v_Bowling_g12_c01.avi",
+      "sha256": "97d30bfe198ff4e30fd75553a0cbec549bfbbe2cda17eccebeefbcbee760923a",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Bowling_g22_c03.avi",
+      "label": "Bowling",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Bowling/v_Bowling_g22_c03.avi",
+      "sha256": "e29fbdd184963c1d45124dfd152c9866ae229d1fd8db1ea1bc00f90efdabe4bb",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Bowling_g22_c06.avi",
+      "label": "Bowling",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Bowling/v_Bowling_g22_c06.avi",
+      "sha256": "cd30ec905fe15bfce8b6226ad9b338635063125e72723ff0783f3a8788f971b9",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BoxingPunchingBag_g10_c03.avi",
+      "label": "BoxingPunchingBag",
+      "group": "g10",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BoxingPunchingBag/v_BoxingPunchingBag_g10_c03.avi",
+      "sha256": "aa05f243fe37ca1ea49502591ee12d14c887cba21ec9fa3b5765c3abf90f9977",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BoxingPunchingBag_g10_c01.avi",
+      "label": "BoxingPunchingBag",
+      "group": "g10",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BoxingPunchingBag/v_BoxingPunchingBag_g10_c01.avi",
+      "sha256": "950ced8e9030b0d62ab2223bdbd527c02fda93b9482d95f85aca739c3394800b",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BoxingPunchingBag_g20_c06.avi",
+      "label": "BoxingPunchingBag",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BoxingPunchingBag/v_BoxingPunchingBag_g20_c06.avi",
+      "sha256": "0d71ecc223314bf71d4a1c3b2631c70d047a62fb09643e79a9c9bc92b9accb83",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BoxingPunchingBag_g20_c01.avi",
+      "label": "BoxingPunchingBag",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BoxingPunchingBag/v_BoxingPunchingBag_g20_c01.avi",
+      "sha256": "3bdeb17ec6c293e94aa8f488563222e04eb81b5601d51981e18f942a0a7ba433",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BoxingSpeedBag_g12_c02.avi",
+      "label": "BoxingSpeedBag",
+      "group": "g12",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BoxingSpeedBag/v_BoxingSpeedBag_g12_c02.avi",
+      "sha256": "3e231ead78a17bb9d1d3f07e6890aaba7ffe8621db3605c37e4ba9e4c8120377",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BoxingSpeedBag_g12_c03.avi",
+      "label": "BoxingSpeedBag",
+      "group": "g12",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BoxingSpeedBag/v_BoxingSpeedBag_g12_c03.avi",
+      "sha256": "afbd4ce83e99f408121368acf503ff345da34370361b3bb6422a327ecbe252fd",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BoxingSpeedBag_g13_c07.avi",
+      "label": "BoxingSpeedBag",
+      "group": "g13",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BoxingSpeedBag/v_BoxingSpeedBag_g13_c07.avi",
+      "sha256": "966d3ce61f68992a2f180e11f9076a8a39a0817a73c4aa393f89f6b4f394847f",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BoxingSpeedBag_g13_c03.avi",
+      "label": "BoxingSpeedBag",
+      "group": "g13",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BoxingSpeedBag/v_BoxingSpeedBag_g13_c03.avi",
+      "sha256": "6af605d604b8da8826302c7d5811525300f184e18f7843acfadd9e01c1141cce",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BreastStroke_g08_c04.avi",
+      "label": "BreastStroke",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BreastStroke/v_BreastStroke_g08_c04.avi",
+      "sha256": "6cf99d148bc0e4f0b189c401476bcae16e74c990a87420d156555f5b65aa43ef",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BreastStroke_g08_c02.avi",
+      "label": "BreastStroke",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BreastStroke/v_BreastStroke_g08_c02.avi",
+      "sha256": "6ff599961c70110133e7b214fb95abb1fdce202c4ec58ec69e9ec3cc2e7dbbf1",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BreastStroke_g20_c02.avi",
+      "label": "BreastStroke",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BreastStroke/v_BreastStroke_g20_c02.avi",
+      "sha256": "301e4d5c6106fb06a9ca2665de2b4822b1a8e5b99c3a347faf424547083a4d3f",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BreastStroke_g20_c03.avi",
+      "label": "BreastStroke",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BreastStroke/v_BreastStroke_g20_c03.avi",
+      "sha256": "154c510d3012f397bb1f07ff804906f47db41433a3e4655dcdff9dbd98b6964a",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BrushingTeeth_g17_c04.avi",
+      "label": "BrushingTeeth",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BrushingTeeth/v_BrushingTeeth_g17_c04.avi",
+      "sha256": "428ec1711c61a3617fb75ee51a62dcbbc81fa5f9d54c237db260ba76b5b35e3a",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BrushingTeeth_g17_c02.avi",
+      "label": "BrushingTeeth",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BrushingTeeth/v_BrushingTeeth_g17_c02.avi",
+      "sha256": "678a45a915a3f3ec73e2656b5bf5b09387e56cde74bd26aa9524f404fed60aae",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BrushingTeeth_g20_c03.avi",
+      "label": "BrushingTeeth",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BrushingTeeth/v_BrushingTeeth_g20_c03.avi",
+      "sha256": "30b9c4d378ea99610591f39f0b7db5cac6fd98c489ff0a7ca5fad52b921732a8",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_BrushingTeeth_g20_c04.avi",
+      "label": "BrushingTeeth",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/BrushingTeeth/v_BrushingTeeth_g20_c04.avi",
+      "sha256": "cfc75bbbb0d8132720b8cbe103e72d3f55379ec10c064a2307a1392e2602b40f",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_CleanAndJerk_g15_c04.avi",
+      "label": "CleanAndJerk",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/CleanAndJerk/v_CleanAndJerk_g15_c04.avi",
+      "sha256": "b5ea08f7ed6afd814d541bb0ce84e6dd7cf26d2ba5b5295f2eeb5e0ee1c88da0",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_CleanAndJerk_g15_c01.avi",
+      "label": "CleanAndJerk",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/CleanAndJerk/v_CleanAndJerk_g15_c01.avi",
+      "sha256": "ff6d7c5dd3be208516e9796853ca1c4937f9921fd83a0727dba00ae529a76689",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_CleanAndJerk_g16_c03.avi",
+      "label": "CleanAndJerk",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/CleanAndJerk/v_CleanAndJerk_g16_c03.avi",
+      "sha256": "dbcba2ad617bdc533dca06622e9977076a68e6564580925bd22d17cc9fc79750",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_CleanAndJerk_g16_c02.avi",
+      "label": "CleanAndJerk",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/CleanAndJerk/v_CleanAndJerk_g16_c02.avi",
+      "sha256": "110a5ff7800167cf3e26a1960e1b1a26c98a811edebffd756de58d6935ac348d",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_CliffDiving_g08_c03.avi",
+      "label": "CliffDiving",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/CliffDiving/v_CliffDiving_g08_c03.avi",
+      "sha256": "7d482a5458d0fffadd9d1cbb3741c1a9bc61efd2b511ba22961dff5a43770769",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_CliffDiving_g08_c04.avi",
+      "label": "CliffDiving",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/CliffDiving/v_CliffDiving_g08_c04.avi",
+      "sha256": "e12b7d6f4fa8ae86a46d1bb678573aab40bac8cd6b7906b8c6158e74f83664d1",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_CliffDiving_g21_c03.avi",
+      "label": "CliffDiving",
+      "group": "g21",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/CliffDiving/v_CliffDiving_g21_c03.avi",
+      "sha256": "c37d6679daadfd47aad6460a5ef0918d871b65d3188d5fcfa6c3cef630a1bac1",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_CliffDiving_g21_c04.avi",
+      "label": "CliffDiving",
+      "group": "g21",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/CliffDiving/v_CliffDiving_g21_c04.avi",
+      "sha256": "722200fbece5723d8629a4fe79fde6de5fc080880c94e15a5243e2f0cb6bd269",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_CricketBowling_g08_c05.avi",
+      "label": "CricketBowling",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/CricketBowling/v_CricketBowling_g08_c05.avi",
+      "sha256": "73b3728c3f815cb6d1ec692e36e68ea06dc94e607f5810497909957574f619f3",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_CricketBowling_g08_c03.avi",
+      "label": "CricketBowling",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/CricketBowling/v_CricketBowling_g08_c03.avi",
+      "sha256": "20915429bf7cf66760014a79cccde8598b6534a206dd44f02c77b3ea054a0a02",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_CricketBowling_g15_c03.avi",
+      "label": "CricketBowling",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/CricketBowling/v_CricketBowling_g15_c03.avi",
+      "sha256": "47796aca63f8a811a5a7f82d357df5edbada80a1c4e028c769c91e470e0ca3ef",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_CricketBowling_g15_c04.avi",
+      "label": "CricketBowling",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/CricketBowling/v_CricketBowling_g15_c04.avi",
+      "sha256": "ab01047b8eacc99c29f0b6ce241867ddbb3709a735c0820d729a220eb153afbb",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_CricketShot_g09_c03.avi",
+      "label": "CricketShot",
+      "group": "g09",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/CricketShot/v_CricketShot_g09_c03.avi",
+      "sha256": "fd7ecaab7b8cc97ffd6030b633bf0614087941819faa65139546356d90a79a21",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_CricketShot_g09_c06.avi",
+      "label": "CricketShot",
+      "group": "g09",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/CricketShot/v_CricketShot_g09_c06.avi",
+      "sha256": "aa4284c13718d6560a28764740b65986b2421c932f6f3ca407f3aec6018ff9e2",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_CricketShot_g15_c01.avi",
+      "label": "CricketShot",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/CricketShot/v_CricketShot_g15_c01.avi",
+      "sha256": "d46a0c1dd8b500bbb50bac28b115a4d2e5983fcbef5b3a43016d141caee32349",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_CricketShot_g15_c05.avi",
+      "label": "CricketShot",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/CricketShot/v_CricketShot_g15_c05.avi",
+      "sha256": "fb279c1baeea1a96976738eff13abe09954c3ed495c3b3a6a3280f7b50ed37e2",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_CuttingInKitchen_g10_c01.avi",
+      "label": "CuttingInKitchen",
+      "group": "g10",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/CuttingInKitchen/v_CuttingInKitchen_g10_c01.avi",
+      "sha256": "d1254660ed54028bc723fa9b5dbcd9eba38ae3767fd96562a1e57aa8731dc0e6",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_CuttingInKitchen_g10_c05.avi",
+      "label": "CuttingInKitchen",
+      "group": "g10",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/CuttingInKitchen/v_CuttingInKitchen_g10_c05.avi",
+      "sha256": "84952f0e51bc3263366d95679a4ca59d2387f131fc3b9debb2df1f13992c74de",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_CuttingInKitchen_g15_c04.avi",
+      "label": "CuttingInKitchen",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/CuttingInKitchen/v_CuttingInKitchen_g15_c04.avi",
+      "sha256": "19cc39d5abc061b02c037c13147c7bfb389c0539ff86c3480223a6ce8c3c0035",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_CuttingInKitchen_g15_c01.avi",
+      "label": "CuttingInKitchen",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/CuttingInKitchen/v_CuttingInKitchen_g15_c01.avi",
+      "sha256": "64c73a75ef43ed6ab50f0f67bc49acadec7bfdee85f660b2bb88a5115991e65b",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Diving_g18_c04.avi",
+      "label": "Diving",
+      "group": "g18",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Diving/v_Diving_g18_c04.avi",
+      "sha256": "e5d2b5330ba8bd72e88d30e1bc7b60e7f68f04bbaf7fc3d93317ad02b9427f26",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Diving_g18_c03.avi",
+      "label": "Diving",
+      "group": "g18",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Diving/v_Diving_g18_c03.avi",
+      "sha256": "038938e4150bb7292306465390dbec5212a5371383bffe1c51fbf5b188bd6dbb",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Diving_g21_c05.avi",
+      "label": "Diving",
+      "group": "g21",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Diving/v_Diving_g21_c05.avi",
+      "sha256": "49f39b21cbfd73b679e14fe76dc62a3eab764be0e0bb11ea0c0be04e925cac16",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Diving_g21_c02.avi",
+      "label": "Diving",
+      "group": "g21",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Diving/v_Diving_g21_c02.avi",
+      "sha256": "40637bb94e7822b0f5068d1d2ae6dc85efea95f7d28abbccea98f529e7988384",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Drumming_g21_c04.avi",
+      "label": "Drumming",
+      "group": "g21",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Drumming/v_Drumming_g21_c04.avi",
+      "sha256": "01c7948ccdc183114bfcf358cd23485c5eaa6e1d2aea29a4d1cc7af90248630e",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Drumming_g21_c06.avi",
+      "label": "Drumming",
+      "group": "g21",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Drumming/v_Drumming_g21_c06.avi",
+      "sha256": "850ec01cca8004fdae1e93ab7a03369f955d6de4ef7927f8f241c1a1044ca363",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Drumming_g24_c05.avi",
+      "label": "Drumming",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Drumming/v_Drumming_g24_c05.avi",
+      "sha256": "ed62a976ab5bf1a9950b43597127a79a49550152570d058ed6d60593bc31c9f5",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Drumming_g24_c06.avi",
+      "label": "Drumming",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Drumming/v_Drumming_g24_c06.avi",
+      "sha256": "149727b63e41045c4b13790e4c5d9d1fb85ed73a1a68e9bd1f13ba5f7661ff87",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Fencing_g10_c01.avi",
+      "label": "Fencing",
+      "group": "g10",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Fencing/v_Fencing_g10_c01.avi",
+      "sha256": "22a3729856b7820cc49ad02eaa7f617d4daea33d315cac723f8d5bd1251af0fb",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Fencing_g10_c05.avi",
+      "label": "Fencing",
+      "group": "g10",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Fencing/v_Fencing_g10_c05.avi",
+      "sha256": "8f01c3a38ee31fda251fc84d94e90efdbcc3e967f5adaafb50df4ea4f681b4a7",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Fencing_g24_c04.avi",
+      "label": "Fencing",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Fencing/v_Fencing_g24_c04.avi",
+      "sha256": "57b743af5a5cd448eb45e5dff2f58201e7181945273d861e479b5f07818c5c9c",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Fencing_g24_c02.avi",
+      "label": "Fencing",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Fencing/v_Fencing_g24_c02.avi",
+      "sha256": "9a65393515e204be1cacf599b4fe1a286dd7fb4c6aba980e6df52841305b669f",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_FieldHockeyPenalty_g09_c04.avi",
+      "label": "FieldHockeyPenalty",
+      "group": "g09",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/FieldHockeyPenalty/v_FieldHockeyPenalty_g09_c04.avi",
+      "sha256": "216798fb002bf9c0bfdf334f47fb51f77ddafe3ba3a431a2f76bde890822667a",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_FieldHockeyPenalty_g09_c05.avi",
+      "label": "FieldHockeyPenalty",
+      "group": "g09",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/FieldHockeyPenalty/v_FieldHockeyPenalty_g09_c05.avi",
+      "sha256": "bfd357326118bcda301250b017212165cd702b40a73039797353a780b3d4bd8d",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_FieldHockeyPenalty_g16_c02.avi",
+      "label": "FieldHockeyPenalty",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/FieldHockeyPenalty/v_FieldHockeyPenalty_g16_c02.avi",
+      "sha256": "4c9dfbcc836c84204dc293362a338fbde110d8d776977707a24b141d885ff3dd",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_FieldHockeyPenalty_g16_c04.avi",
+      "label": "FieldHockeyPenalty",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/FieldHockeyPenalty/v_FieldHockeyPenalty_g16_c04.avi",
+      "sha256": "465c3b914f36ea2a15550611c4ba5f0ea53345f07d014acc460cc78b9c0a286f",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_FloorGymnastics_g08_c04.avi",
+      "label": "FloorGymnastics",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/FloorGymnastics/v_FloorGymnastics_g08_c04.avi",
+      "sha256": "80f004a0bbdfc845aafc52e4a2c18b5287edfbe566dc0cbe16074aa0d0eb520d",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_FloorGymnastics_g08_c02.avi",
+      "label": "FloorGymnastics",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/FloorGymnastics/v_FloorGymnastics_g08_c02.avi",
+      "sha256": "38e5f031f0776c551b2865138ce19f4878e7516fb17c3b07b5e63892b944fe56",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_FloorGymnastics_g22_c01.avi",
+      "label": "FloorGymnastics",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/FloorGymnastics/v_FloorGymnastics_g22_c01.avi",
+      "sha256": "65e750ecd99a2a46cf75e3baf9c353bb49a920e55e43151be514d3e556f178af",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_FloorGymnastics_g22_c03.avi",
+      "label": "FloorGymnastics",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/FloorGymnastics/v_FloorGymnastics_g22_c03.avi",
+      "sha256": "a7941e1dab3a485aafd5e9d9bf8d82a49145fd5833ce23e74f5d87a5aa0469ec",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_FrisbeeCatch_g10_c03.avi",
+      "label": "FrisbeeCatch",
+      "group": "g10",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/FrisbeeCatch/v_FrisbeeCatch_g10_c03.avi",
+      "sha256": "d4e5f39cb46f0c0b9774acbaf2e22b16249a418c5e86edc9421f664ada47b746",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_FrisbeeCatch_g10_c06.avi",
+      "label": "FrisbeeCatch",
+      "group": "g10",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/FrisbeeCatch/v_FrisbeeCatch_g10_c06.avi",
+      "sha256": "17d085260a6efc1331e9ff894f78cf2afa5b585e1b690418d22d21c64fe7d4ca",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_FrisbeeCatch_g21_c03.avi",
+      "label": "FrisbeeCatch",
+      "group": "g21",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/FrisbeeCatch/v_FrisbeeCatch_g21_c03.avi",
+      "sha256": "e6c5efd3fe4582387e77f6a23dc74e94e77127e4dd1266e20bb1f64d9c2a945e",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_FrisbeeCatch_g21_c01.avi",
+      "label": "FrisbeeCatch",
+      "group": "g21",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/FrisbeeCatch/v_FrisbeeCatch_g21_c01.avi",
+      "sha256": "8cc955b742128eb3ed3b7dfef1921ece777b4d37718a5da5acec24d6cb9696b1",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_FrontCrawl_g18_c02.avi",
+      "label": "FrontCrawl",
+      "group": "g18",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/FrontCrawl/v_FrontCrawl_g18_c02.avi",
+      "sha256": "344f28e0330db3995c63d6ad99e62e3cf248fc4741401627e21478da48cdfaec",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_FrontCrawl_g18_c07.avi",
+      "label": "FrontCrawl",
+      "group": "g18",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/FrontCrawl/v_FrontCrawl_g18_c07.avi",
+      "sha256": "cd264685e60b6cd5589a9ee3a7c7e2df6c94b004c1ae11a50f54badbb803f93b",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_FrontCrawl_g24_c05.avi",
+      "label": "FrontCrawl",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/FrontCrawl/v_FrontCrawl_g24_c05.avi",
+      "sha256": "f97a08de0afd1141393e6c03574da1563f9a96a7948dd9f5ad08408e87c8cb17",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_FrontCrawl_g24_c02.avi",
+      "label": "FrontCrawl",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/FrontCrawl/v_FrontCrawl_g24_c02.avi",
+      "sha256": "e8aba8072d2796b6128547f09e16883d1b9e803946889e167487fdd5dd6a1286",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_GolfSwing_g19_c04.avi",
+      "label": "GolfSwing",
+      "group": "g19",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/GolfSwing/v_GolfSwing_g19_c04.avi",
+      "sha256": "acf5a62aeb426f3f9c4dd09801064a1b4ec952888fd7a706562fb6eb456eb46a",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_GolfSwing_g19_c01.avi",
+      "label": "GolfSwing",
+      "group": "g19",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/GolfSwing/v_GolfSwing_g19_c01.avi",
+      "sha256": "a6362849e345b9e369790e44ad9eae4cec6795ecca3ae4dca1f005e3d837c837",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_GolfSwing_g22_c01.avi",
+      "label": "GolfSwing",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/GolfSwing/v_GolfSwing_g22_c01.avi",
+      "sha256": "9cf2212b166dd5b767a552a8c7edfdfcc6597f078e6d35877256e9b92162556d",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_GolfSwing_g22_c03.avi",
+      "label": "GolfSwing",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/GolfSwing/v_GolfSwing_g22_c03.avi",
+      "sha256": "e6189141ba92e59b7dcbe7e8f4f6047a862a1554334d98bffda4e68501ecd0d4",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Haircut_g13_c04.avi",
+      "label": "Haircut",
+      "group": "g13",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Haircut/v_Haircut_g13_c04.avi",
+      "sha256": "4d5370a9f40e4dd08731fca4624ac2d7ddca0bd756a688ec0aed49d2d569da76",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Haircut_g13_c03.avi",
+      "label": "Haircut",
+      "group": "g13",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Haircut/v_Haircut_g13_c03.avi",
+      "sha256": "3306ad00fb9f9b1632f989517eac8d6fdcdddfe2bcc4762c0344f8eb37a2508a",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Haircut_g22_c06.avi",
+      "label": "Haircut",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Haircut/v_Haircut_g22_c06.avi",
+      "sha256": "6d35e64c253487cd9de8e3c56cf4c4f3a6b7f909fc04d9497c0e71623c15fb64",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Haircut_g22_c03.avi",
+      "label": "Haircut",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Haircut/v_Haircut_g22_c03.avi",
+      "sha256": "724f79a0732a40b637d05747e1ff352e4e00f8365afe3f5c34bd8faef4135bc0",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Hammering_g22_c02.avi",
+      "label": "Hammering",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Hammering/v_Hammering_g22_c02.avi",
+      "sha256": "24e14117a40f6c227daac5a9299665350f0856067e2d1c2774a83bd5fc4c230a",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Hammering_g22_c05.avi",
+      "label": "Hammering",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Hammering/v_Hammering_g22_c05.avi",
+      "sha256": "c97fd11b75c51ab2c90779e18e1ca06a848b9d7ac6f891b76098e5bfa847f80b",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Hammering_g25_c01.avi",
+      "label": "Hammering",
+      "group": "g25",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Hammering/v_Hammering_g25_c01.avi",
+      "sha256": "7f49bb51f61f3d606e62037d3fbe8e0cdc33542dd7e49bb5b70a796cc2ea22a6",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Hammering_g25_c04.avi",
+      "label": "Hammering",
+      "group": "g25",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Hammering/v_Hammering_g25_c04.avi",
+      "sha256": "b82f6a3bfc73938d214a57e26c8aea5a28e592e3f6166702af427708dbb0792e",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HammerThrow_g17_c03.avi",
+      "label": "HammerThrow",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HammerThrow/v_HammerThrow_g17_c03.avi",
+      "sha256": "d4a09eb52ff61fcd50cde442b6828ed0baf34c266a8d37c8c3b3f7502a016f8a",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HammerThrow_g17_c05.avi",
+      "label": "HammerThrow",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HammerThrow/v_HammerThrow_g17_c05.avi",
+      "sha256": "c14ecaa80351f9a194857bbdd72f2e1412fdf17df80f0547bb24a33997038dcd",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HammerThrow_g22_c02.avi",
+      "label": "HammerThrow",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HammerThrow/v_HammerThrow_g22_c02.avi",
+      "sha256": "ccf398f09b2b39610ef282fe2bbceeaae68667d00ff97472cf556015ac1206ef",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HammerThrow_g22_c03.avi",
+      "label": "HammerThrow",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HammerThrow/v_HammerThrow_g22_c03.avi",
+      "sha256": "662626afd8e4d469b0bd64e2db1817586ab6f2acc5cbda4d1950953a4aeec67a",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HandStandPushups_g10_c01.avi",
+      "label": "HandstandPushups",
+      "group": "g10",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HandstandPushups/v_HandStandPushups_g10_c01.avi",
+      "sha256": "284861f3a3e02f8f8ac35785a4104cb666f67d09360adad399e7e5fa549324cb",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HandStandPushups_g10_c03.avi",
+      "label": "HandstandPushups",
+      "group": "g10",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HandstandPushups/v_HandStandPushups_g10_c03.avi",
+      "sha256": "40bb60bd1f6c6b884e38fb4c3f4c1605f1ecf9c8a1f08c022f6536a37d239980",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HandStandPushups_g23_c02.avi",
+      "label": "HandstandPushups",
+      "group": "g23",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HandstandPushups/v_HandStandPushups_g23_c02.avi",
+      "sha256": "d64c8cdf80585a295a3dcd5142abfcdcde5df3023c4d31f47da7ccb8114ae445",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HandStandPushups_g23_c05.avi",
+      "label": "HandstandPushups",
+      "group": "g23",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HandstandPushups/v_HandStandPushups_g23_c05.avi",
+      "sha256": "21ee6146a37d22d54b47ec01d2a6967a4993f1c39952695bdae09501ed400fad",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HandstandWalking_g08_c02.avi",
+      "label": "HandstandWalking",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HandstandWalking/v_HandstandWalking_g08_c02.avi",
+      "sha256": "f3e11a8673be5b70a51c9b92e7770d6327a2d11e4931e8a32789349b370a10f9",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HandstandWalking_g08_c01.avi",
+      "label": "HandstandWalking",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HandstandWalking/v_HandstandWalking_g08_c01.avi",
+      "sha256": "525f9af9603bf8ebb7caa77a13834721944544fad772163cf9626f522913d031",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HandstandWalking_g16_c03.avi",
+      "label": "HandstandWalking",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HandstandWalking/v_HandstandWalking_g16_c03.avi",
+      "sha256": "dcc23f89465350c7d31fc5b8de0a2a459128be043147d1fa2917e69caa9cfee3",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HandstandWalking_g16_c04.avi",
+      "label": "HandstandWalking",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HandstandWalking/v_HandstandWalking_g16_c04.avi",
+      "sha256": "16b47d53382f08c289e85e451984474fd35f76bf2880cf664f0b5eaec928ce4e",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HeadMassage_g23_c07.avi",
+      "label": "HeadMassage",
+      "group": "g23",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HeadMassage/v_HeadMassage_g23_c07.avi",
+      "sha256": "ef691304549c31dab911bbcf8b730b0e7c293883aa4bbe4b1801e73b2dc052a0",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HeadMassage_g23_c02.avi",
+      "label": "HeadMassage",
+      "group": "g23",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HeadMassage/v_HeadMassage_g23_c02.avi",
+      "sha256": "d06ff00e2661be2d369d38e5edc45968a6fa4abfa36fe16f635b84f06b11cf79",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HeadMassage_g24_c03.avi",
+      "label": "HeadMassage",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HeadMassage/v_HeadMassage_g24_c03.avi",
+      "sha256": "744c57252fca0c7796be920ae5fe3f29e291ef38c9e53b78a66fb85a42da29a1",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HeadMassage_g24_c02.avi",
+      "label": "HeadMassage",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HeadMassage/v_HeadMassage_g24_c02.avi",
+      "sha256": "8ec32721f5b1431d81508b9aebd6779801531aed44f73fbd4a7083d7e95e0e6a",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HighJump_g17_c03.avi",
+      "label": "HighJump",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HighJump/v_HighJump_g17_c03.avi",
+      "sha256": "6bc7f84c18e30c33d3737f96e199047a29d8d03bde72bb269e51ad7dd27d0b3e",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HighJump_g17_c04.avi",
+      "label": "HighJump",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HighJump/v_HighJump_g17_c04.avi",
+      "sha256": "4ad8628cc2f2c8a73c943583d28ccd2a4184dbe71b93b40bf43b163293403c56",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HighJump_g20_c03.avi",
+      "label": "HighJump",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HighJump/v_HighJump_g20_c03.avi",
+      "sha256": "4bec4e5439a00e17298b8bb45b35b28f6bd87914b0d96bbf76dc1d7d46719a4e",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HighJump_g20_c02.avi",
+      "label": "HighJump",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HighJump/v_HighJump_g20_c02.avi",
+      "sha256": "0591d4f271708b4b13acb58198eb7ad51b45e795609818da32d247e8f4f77938",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HorseRace_g11_c01.avi",
+      "label": "HorseRace",
+      "group": "g11",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HorseRace/v_HorseRace_g11_c01.avi",
+      "sha256": "13f475d51135b2165152acc457de0ea87c41942ad49c8f7fff74f86c287328b0",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HorseRace_g11_c05.avi",
+      "label": "HorseRace",
+      "group": "g11",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HorseRace/v_HorseRace_g11_c05.avi",
+      "sha256": "b8ff7540d423fab125d1d18206362f76a3e92dad2e9ada5e859192fd1863dc53",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HorseRace_g21_c01.avi",
+      "label": "HorseRace",
+      "group": "g21",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HorseRace/v_HorseRace_g21_c01.avi",
+      "sha256": "3eba562b7260521d05404de5c440e76d83b696d07965f533500987fc81097cae",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HorseRace_g21_c03.avi",
+      "label": "HorseRace",
+      "group": "g21",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HorseRace/v_HorseRace_g21_c03.avi",
+      "sha256": "f61f17ff80def4c9cb1c9cb5ffff657b67f8435ed4ab809bab483f1e1b0b6f67",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HorseRiding_g14_c05.avi",
+      "label": "HorseRiding",
+      "group": "g14",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HorseRiding/v_HorseRiding_g14_c05.avi",
+      "sha256": "22467dee70bb04761ba55db77825682b3aa1385ff1f400b994cf20a934574b50",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HorseRiding_g14_c03.avi",
+      "label": "HorseRiding",
+      "group": "g14",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HorseRiding/v_HorseRiding_g14_c03.avi",
+      "sha256": "a7a491e8bf5801acd21c2dfcb0220d73cfcf5dae613ac8f043c93397021458c8",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HorseRiding_g18_c02.avi",
+      "label": "HorseRiding",
+      "group": "g18",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HorseRiding/v_HorseRiding_g18_c02.avi",
+      "sha256": "200b0f09f67beb79da0dca3b810292874ed356211102121cd4c8cd0ed5f2629e",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HorseRiding_g18_c01.avi",
+      "label": "HorseRiding",
+      "group": "g18",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HorseRiding/v_HorseRiding_g18_c01.avi",
+      "sha256": "4526a80bb253ee5d93ea4dc9453a04b13d853bc58cea7aa3613bd829ecdb8cef",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HulaHoop_g15_c05.avi",
+      "label": "HulaHoop",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HulaHoop/v_HulaHoop_g15_c05.avi",
+      "sha256": "095e6aeee99dd605a902c9e6170fbf13d58727bad8ba284ee027667d17218e44",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HulaHoop_g15_c02.avi",
+      "label": "HulaHoop",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HulaHoop/v_HulaHoop_g15_c02.avi",
+      "sha256": "f7af9b6b33047ec187292f2b746529a40160a1a08a010cdecefe0c4785b30615",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HulaHoop_g22_c05.avi",
+      "label": "HulaHoop",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HulaHoop/v_HulaHoop_g22_c05.avi",
+      "sha256": "cef670044ef16afa502b18619ed017ce0ab25b5d1df5af275c8cdc79cfe8c297",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_HulaHoop_g22_c03.avi",
+      "label": "HulaHoop",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/HulaHoop/v_HulaHoop_g22_c03.avi",
+      "sha256": "586a94a08e7e11b9f6f2a66043b19bad6ef901229d67f401787d40f5584bdf3a",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_IceDancing_g08_c01.avi",
+      "label": "IceDancing",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/IceDancing/v_IceDancing_g08_c01.avi",
+      "sha256": "2abe73ce21342b86d060d27086359e85074f8a8d31b9aa76356394e2a9f955fd",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_IceDancing_g08_c04.avi",
+      "label": "IceDancing",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/IceDancing/v_IceDancing_g08_c04.avi",
+      "sha256": "1d894dd5787f64e06e05abf2192ba05353f36f79a044a204bbe70cc1171ab0c1",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_IceDancing_g17_c01.avi",
+      "label": "IceDancing",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/IceDancing/v_IceDancing_g17_c01.avi",
+      "sha256": "3dae26d06a7326f38c656ede551b79aa62723d5e80a5125369ae6f5fe6580c17",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_IceDancing_g17_c02.avi",
+      "label": "IceDancing",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/IceDancing/v_IceDancing_g17_c02.avi",
+      "sha256": "26b83604b819ef67e9dd4040c102b9f14f7e8807ca457981758729e31500b966",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_JavelinThrow_g21_c03.avi",
+      "label": "JavelinThrow",
+      "group": "g21",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/JavelinThrow/v_JavelinThrow_g21_c03.avi",
+      "sha256": "c0886c83078c778edced1fa3b06993ee09eecec5076a1c133d976b1d443b5faf",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_JavelinThrow_g21_c04.avi",
+      "label": "JavelinThrow",
+      "group": "g21",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/JavelinThrow/v_JavelinThrow_g21_c04.avi",
+      "sha256": "157efa7d396f5b58a1aefca4296b6ccefb842b4b7954fb1251d836912c6af075",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_JavelinThrow_g23_c04.avi",
+      "label": "JavelinThrow",
+      "group": "g23",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/JavelinThrow/v_JavelinThrow_g23_c04.avi",
+      "sha256": "fa140191f03d92391d46f49cf382ba75a81d8edfdcce3fefd26ef0d2ab422d4d",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_JavelinThrow_g23_c02.avi",
+      "label": "JavelinThrow",
+      "group": "g23",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/JavelinThrow/v_JavelinThrow_g23_c02.avi",
+      "sha256": "0699f7f4406aece56bfadeee01d87e14cc93d6557309369f682888262ebabcb0",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_JugglingBalls_g13_c04.avi",
+      "label": "JugglingBalls",
+      "group": "g13",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/JugglingBalls/v_JugglingBalls_g13_c04.avi",
+      "sha256": "1c17394d03a67e165eb8f460c6eecfb396fe110c1b3e1be042fd204294badc23",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_JugglingBalls_g13_c02.avi",
+      "label": "JugglingBalls",
+      "group": "g13",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/JugglingBalls/v_JugglingBalls_g13_c02.avi",
+      "sha256": "e6e10213d82e177829c17c545a553eeaaa7b24314dbb4d488907ad203e2ddbc0",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_JugglingBalls_g16_c01.avi",
+      "label": "JugglingBalls",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/JugglingBalls/v_JugglingBalls_g16_c01.avi",
+      "sha256": "bdd0d5a45fe4b426aa7a37d5c7442739ed1194438d67694ec683ffe4a4b4c93a",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_JugglingBalls_g16_c02.avi",
+      "label": "JugglingBalls",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/JugglingBalls/v_JugglingBalls_g16_c02.avi",
+      "sha256": "be19deeee79dfa584660af956cd05c03c8183137b9faa16d6efadfff22df6535",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_JumpingJack_g09_c03.avi",
+      "label": "JumpingJack",
+      "group": "g09",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/JumpingJack/v_JumpingJack_g09_c03.avi",
+      "sha256": "60a4c603b6fd23f082399ae877faabb4fd74f616afe8c1092e34f7245de02e1f",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_JumpingJack_g09_c01.avi",
+      "label": "JumpingJack",
+      "group": "g09",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/JumpingJack/v_JumpingJack_g09_c01.avi",
+      "sha256": "3af7c5e8954c08f89be577af9bb19a7acefcfa63679700f4eebc5e5f3d4dddd0",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_JumpingJack_g20_c02.avi",
+      "label": "JumpingJack",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/JumpingJack/v_JumpingJack_g20_c02.avi",
+      "sha256": "43e083efa479cb21a71f741ea2498eb33ee78a8f02a949863547f2a90a728f7f",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_JumpingJack_g20_c01.avi",
+      "label": "JumpingJack",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/JumpingJack/v_JumpingJack_g20_c01.avi",
+      "sha256": "5c42f878b9dd40be7d6e9f4dd3fc104577cda382445bb2f9c5593d15e22ccb21",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_JumpRope_g20_c01.avi",
+      "label": "JumpRope",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/JumpRope/v_JumpRope_g20_c01.avi",
+      "sha256": "a105fdebc11563d5194ed744df8c05acf8942c5c9155dce06cd6c7d7757ec949",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_JumpRope_g20_c05.avi",
+      "label": "JumpRope",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/JumpRope/v_JumpRope_g20_c05.avi",
+      "sha256": "0131c421b15df428e043b16fe19c86a0ee4c85339b4169d66c2241c3de22f12a",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_JumpRope_g23_c02.avi",
+      "label": "JumpRope",
+      "group": "g23",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/JumpRope/v_JumpRope_g23_c02.avi",
+      "sha256": "7bc047a1925ca0751c05228595a1c7db1d6f926d94c1836802e29daa38931670",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_JumpRope_g23_c04.avi",
+      "label": "JumpRope",
+      "group": "g23",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/JumpRope/v_JumpRope_g23_c04.avi",
+      "sha256": "2cf5057cddd08dfe0bc4dae736d133994d6babfa0fa8e265c699a102c10bb949",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Kayaking_g09_c06.avi",
+      "label": "Kayaking",
+      "group": "g09",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Kayaking/v_Kayaking_g09_c06.avi",
+      "sha256": "348ed0eb227ecd39281b1a95bc5942a6fe8967f69ee0cb6c5ff913d90e3b5521",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Kayaking_g09_c05.avi",
+      "label": "Kayaking",
+      "group": "g09",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Kayaking/v_Kayaking_g09_c05.avi",
+      "sha256": "0f20bab9c514b15b01d23572503e4c667db18ab62cc1fce667f9b93f6dce0090",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Kayaking_g16_c07.avi",
+      "label": "Kayaking",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Kayaking/v_Kayaking_g16_c07.avi",
+      "sha256": "8d082c5a944230783fc79d5a6d6729ea25adfffa202809db934ebe36ff57d64b",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Kayaking_g16_c02.avi",
+      "label": "Kayaking",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Kayaking/v_Kayaking_g16_c02.avi",
+      "sha256": "18f15603f5738cde32f00a2a48383eea39b084294623b4f4750383f078797d9c",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Knitting_g08_c02.avi",
+      "label": "Knitting",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Knitting/v_Knitting_g08_c02.avi",
+      "sha256": "b15ee4a2ca187c9809697a7cd5aecb13f4eef7f669aa1b135f4080c52efeaa83",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Knitting_g08_c04.avi",
+      "label": "Knitting",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Knitting/v_Knitting_g08_c04.avi",
+      "sha256": "95af089e61d71e165e24b5b681720ef87727549a3098bc25b48d730a1844adf8",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Knitting_g18_c02.avi",
+      "label": "Knitting",
+      "group": "g18",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Knitting/v_Knitting_g18_c02.avi",
+      "sha256": "3f18e05088b2a495f0efa89bcf24c9200c0ecbe1bc08440816f3b18ff29af0c8",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Knitting_g18_c04.avi",
+      "label": "Knitting",
+      "group": "g18",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Knitting/v_Knitting_g18_c04.avi",
+      "sha256": "29bd4f1467f9fbecea1793f6c08ed289c6c8d46b132d01e54ae68c923b223263",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_LongJump_g15_c05.avi",
+      "label": "LongJump",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/LongJump/v_LongJump_g15_c05.avi",
+      "sha256": "0cb1dd12d4d3247a6e3fb618c9bbbfe83e2eb1cc6a3f25cc2357895bd16686f3",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_LongJump_g15_c03.avi",
+      "label": "LongJump",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/LongJump/v_LongJump_g15_c03.avi",
+      "sha256": "b141cfb99e481c30370cfadae27d579fd4231d759b2f21e5aa5b885a813f7e72",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_LongJump_g20_c01.avi",
+      "label": "LongJump",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/LongJump/v_LongJump_g20_c01.avi",
+      "sha256": "70b282fab67cbcf49764dd5d1e8b21d3176235a811eb8707d7f27bbd6941b404",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_LongJump_g20_c02.avi",
+      "label": "LongJump",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/LongJump/v_LongJump_g20_c02.avi",
+      "sha256": "d889dfa449e4be76fbbea28e7120f28ef72b89c4164c63924a1b57726444ce83",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Lunges_g08_c03.avi",
+      "label": "Lunges",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Lunges/v_Lunges_g08_c03.avi",
+      "sha256": "2ec375356cd73d500e266eadfebc83acc70e0fda56eddc03a6676cac3e33ad4a",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Lunges_g08_c04.avi",
+      "label": "Lunges",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Lunges/v_Lunges_g08_c04.avi",
+      "sha256": "80656cc06f0d05a1d0a298d804b53ab165622d0c9a3c466ee6b484fd2550db91",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Lunges_g15_c01.avi",
+      "label": "Lunges",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Lunges/v_Lunges_g15_c01.avi",
+      "sha256": "92ac4cbd252963a6b6cb05516fc2ba0798adf5317e36aba3381e9b881ceebd10",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Lunges_g15_c04.avi",
+      "label": "Lunges",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Lunges/v_Lunges_g15_c04.avi",
+      "sha256": "6bb50566c4ab73103410c5f044056adafa1b4c32cf77aad76144832655c51fc1",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_MilitaryParade_g11_c02.avi",
+      "label": "MilitaryParade",
+      "group": "g11",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/MilitaryParade/v_MilitaryParade_g11_c02.avi",
+      "sha256": "76648d1cca6dc47e8ad649dac50a1c4b6b408d1e2b8c9e19b142851977851825",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_MilitaryParade_g11_c04.avi",
+      "label": "MilitaryParade",
+      "group": "g11",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/MilitaryParade/v_MilitaryParade_g11_c04.avi",
+      "sha256": "2eb2c46ee9eb2e4e37a8997e7468fdfb6b7f74795eb687e86d7bac2fc8211c9b",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_MilitaryParade_g16_c04.avi",
+      "label": "MilitaryParade",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/MilitaryParade/v_MilitaryParade_g16_c04.avi",
+      "sha256": "f504205c8fc33686f708d88798d7c5cb44f7f00ac3afc80e3986251015123996",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_MilitaryParade_g16_c03.avi",
+      "label": "MilitaryParade",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/MilitaryParade/v_MilitaryParade_g16_c03.avi",
+      "sha256": "e6fa038ba2c46f60a5078266b342f05b429667d8edb66c26d88f2268f3917391",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Mixing_g16_c02.avi",
+      "label": "Mixing",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Mixing/v_Mixing_g16_c02.avi",
+      "sha256": "644dd76c14e2ea57eb216957f3cbee8f1cd2af590efabad50fd47d262df8f6b2",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Mixing_g16_c01.avi",
+      "label": "Mixing",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Mixing/v_Mixing_g16_c01.avi",
+      "sha256": "1eed96dfbfde7f955aa8e044240763024076d3ca4a543862a308f72684176ddd",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Mixing_g20_c02.avi",
+      "label": "Mixing",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Mixing/v_Mixing_g20_c02.avi",
+      "sha256": "d4e6f2822f6b027d59285b691f213ddd8f8854197ff1395d4892ff9b684604ca",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Mixing_g20_c03.avi",
+      "label": "Mixing",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Mixing/v_Mixing_g20_c03.avi",
+      "sha256": "d1e9b7762ae04cb15c3aa3e166a490404a6e062994de157327f6dbdf7a3264cb",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_MoppingFloor_g14_c01.avi",
+      "label": "MoppingFloor",
+      "group": "g14",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/MoppingFloor/v_MoppingFloor_g14_c01.avi",
+      "sha256": "af69e65571f965c78bbbb0e99d3a021415e53b33a46168bd1c76a9ecddfa7ad0",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_MoppingFloor_g14_c02.avi",
+      "label": "MoppingFloor",
+      "group": "g14",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/MoppingFloor/v_MoppingFloor_g14_c02.avi",
+      "sha256": "895921dd7bb287fe8ce0fbdb357f1c8905393e8b4f166f2dbf609a0f085d513a",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_MoppingFloor_g16_c02.avi",
+      "label": "MoppingFloor",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/MoppingFloor/v_MoppingFloor_g16_c02.avi",
+      "sha256": "1fd3613a8c01cd6c56a00cb936c07b400641d2c73f65cb3750682da3ce48bc86",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_MoppingFloor_g16_c04.avi",
+      "label": "MoppingFloor",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/MoppingFloor/v_MoppingFloor_g16_c04.avi",
+      "sha256": "bb44b48c90b568cd845997b2b48ee4b34c31e80a77d4db6b3415e41cb1b1a2df",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Nunchucks_g15_c06.avi",
+      "label": "Nunchucks",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Nunchucks/v_Nunchucks_g15_c06.avi",
+      "sha256": "e1393a050001d6330fd3b3ad8bce2182d623d5cdf3ac33e0b35666f673ac58d2",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Nunchucks_g15_c01.avi",
+      "label": "Nunchucks",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Nunchucks/v_Nunchucks_g15_c01.avi",
+      "sha256": "45f17a4ca8e0015abcf79664397136fba787a27c7034c704a36450ddd0b8f4af",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Nunchucks_g25_c04.avi",
+      "label": "Nunchucks",
+      "group": "g25",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Nunchucks/v_Nunchucks_g25_c04.avi",
+      "sha256": "d5d72b29031b6ace0f80e0301d5e7e6fd75e2db5e829a7e87c8a8df58f107ab6",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Nunchucks_g25_c02.avi",
+      "label": "Nunchucks",
+      "group": "g25",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Nunchucks/v_Nunchucks_g25_c02.avi",
+      "sha256": "476813519b99167a2d59d758c0dd78df6107fc3262254e70a799da00b4684ee7",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_ParallelBars_g12_c01.avi",
+      "label": "ParallelBars",
+      "group": "g12",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/ParallelBars/v_ParallelBars_g12_c01.avi",
+      "sha256": "d9f3060cea29a350c080e7edab6dfacf39e70a345f77aed2223f9278de130991",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_ParallelBars_g12_c03.avi",
+      "label": "ParallelBars",
+      "group": "g12",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/ParallelBars/v_ParallelBars_g12_c03.avi",
+      "sha256": "164faf19d5ed4fd771e69742602453e83dff04f2303b664b77668ef28e17d052",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_ParallelBars_g18_c02.avi",
+      "label": "ParallelBars",
+      "group": "g18",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/ParallelBars/v_ParallelBars_g18_c02.avi",
+      "sha256": "2e73531d70450a603770d00814bbe44b28928c2a0e35c0e6c79a3f68506e061e",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_ParallelBars_g18_c04.avi",
+      "label": "ParallelBars",
+      "group": "g18",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/ParallelBars/v_ParallelBars_g18_c04.avi",
+      "sha256": "e27ce3e8a68cdf3d35242aed5e83b0e7006bae7287d4c5a4524025e33ff40a6c",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PizzaTossing_g19_c03.avi",
+      "label": "PizzaTossing",
+      "group": "g19",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PizzaTossing/v_PizzaTossing_g19_c03.avi",
+      "sha256": "8376e42b233813f00980f17391210ed077228e3793f3b269084e87fe9d50b9d0",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PizzaTossing_g19_c01.avi",
+      "label": "PizzaTossing",
+      "group": "g19",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PizzaTossing/v_PizzaTossing_g19_c01.avi",
+      "sha256": "19b0bade7b3680496ffaa56f006fbcd34d769cc3853a4c773d50c2f539efcfe5",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PizzaTossing_g20_c03.avi",
+      "label": "PizzaTossing",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PizzaTossing/v_PizzaTossing_g20_c03.avi",
+      "sha256": "c489fd1c533466e6ba7058ccba6fe06163d2e52f45431a3f154e893f54e1f153",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PizzaTossing_g20_c01.avi",
+      "label": "PizzaTossing",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PizzaTossing/v_PizzaTossing_g20_c01.avi",
+      "sha256": "4f17ff093451a47b5dec3d44ec01d970d1efba33145355c1ce8a371e2592b59b",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingCello_g11_c06.avi",
+      "label": "PlayingCello",
+      "group": "g11",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingCello/v_PlayingCello_g11_c06.avi",
+      "sha256": "424852ca082fcba934328dfd6f2c5bdc510ce852b35694c1e2783fe3a6bd84d8",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingCello_g11_c03.avi",
+      "label": "PlayingCello",
+      "group": "g11",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingCello/v_PlayingCello_g11_c03.avi",
+      "sha256": "6954060b44dc79fcea7d76187f5cf9342b5dd9aaadea358646ed48a8bc7ffcea",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingCello_g15_c06.avi",
+      "label": "PlayingCello",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingCello/v_PlayingCello_g15_c06.avi",
+      "sha256": "13009909b22d6cdac3fc1923bec07bec0fb3a7142fbab1ef8fb17248a2b23014",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingCello_g15_c02.avi",
+      "label": "PlayingCello",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingCello/v_PlayingCello_g15_c02.avi",
+      "sha256": "5d7684e5f4ed95143fe28219312e02cb0a2f4ac0dadad150e11552bccd54bb42",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingDaf_g11_c02.avi",
+      "label": "PlayingDaf",
+      "group": "g11",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingDaf/v_PlayingDaf_g11_c02.avi",
+      "sha256": "60dea21d37748d900f24c53f4256d56b5f6881ec834db2e86fcc417f248baca4",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingDaf_g11_c05.avi",
+      "label": "PlayingDaf",
+      "group": "g11",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingDaf/v_PlayingDaf_g11_c05.avi",
+      "sha256": "f7037f5c1c638262c897b8f8360e41f8b264fc9b1b21811666d6b36fe25a2c8b",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingDaf_g14_c03.avi",
+      "label": "PlayingDaf",
+      "group": "g14",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingDaf/v_PlayingDaf_g14_c03.avi",
+      "sha256": "bac17e7d31354875f00b0666615d8e411f69edaf57b6843cce08f45d9f40d2ad",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingDaf_g14_c05.avi",
+      "label": "PlayingDaf",
+      "group": "g14",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingDaf/v_PlayingDaf_g14_c05.avi",
+      "sha256": "6558bceed1ec39654e6e7295259db92cdffd40c59db20a320f4967866b3304d3",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingDhol_g17_c07.avi",
+      "label": "PlayingDhol",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingDhol/v_PlayingDhol_g17_c07.avi",
+      "sha256": "fd55653fbd8a1be661cde6ac08d2be94728ed1a059bdab6fba9c4f04b18cea7a",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingDhol_g17_c03.avi",
+      "label": "PlayingDhol",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingDhol/v_PlayingDhol_g17_c03.avi",
+      "sha256": "f19fb822ee0fa9c5efa6448b91f89b1d5147ac8f3872572e1494f3739ea5bf17",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingDhol_g19_c07.avi",
+      "label": "PlayingDhol",
+      "group": "g19",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingDhol/v_PlayingDhol_g19_c07.avi",
+      "sha256": "673fdccaeaa5eca18123b747be5a23c8098309147b36b25de44cf1409b307f63",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingDhol_g19_c05.avi",
+      "label": "PlayingDhol",
+      "group": "g19",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingDhol/v_PlayingDhol_g19_c05.avi",
+      "sha256": "a550ccf9af722ff9e5c8589d35b55143c481308524439fcc8fc4c77a0a43ca92",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingFlute_g11_c01.avi",
+      "label": "PlayingFlute",
+      "group": "g11",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingFlute/v_PlayingFlute_g11_c01.avi",
+      "sha256": "9d86d35a1dcf9872b28353729f1135b93cc481d83f776d4a0cb64d1505a5e8ff",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingFlute_g11_c03.avi",
+      "label": "PlayingFlute",
+      "group": "g11",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingFlute/v_PlayingFlute_g11_c03.avi",
+      "sha256": "36deefd512d882797654966c388a53cca7c7472e834c1d21cf13b9a22aaf7aa0",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingFlute_g19_c01.avi",
+      "label": "PlayingFlute",
+      "group": "g19",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingFlute/v_PlayingFlute_g19_c01.avi",
+      "sha256": "3931c4529f49b63d7eba478fbb56b51fac457e7d60ba20c0cbb54064a70e1457",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingFlute_g19_c04.avi",
+      "label": "PlayingFlute",
+      "group": "g19",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingFlute/v_PlayingFlute_g19_c04.avi",
+      "sha256": "3c8272bd4aaf16fe35043d776ed837b157b516f58cb58ae2a7420e6af2fb2593",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingGuitar_g18_c05.avi",
+      "label": "PlayingGuitar",
+      "group": "g18",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingGuitar/v_PlayingGuitar_g18_c05.avi",
+      "sha256": "3f6e405effe7c788588cdcbe6d4c1257bd2d923d89c5d62b2f524cd0ce4b390e",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingGuitar_g18_c04.avi",
+      "label": "PlayingGuitar",
+      "group": "g18",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingGuitar/v_PlayingGuitar_g18_c04.avi",
+      "sha256": "07bb6f4395a6c635a1744e004ee1e4ecad441f0d1a465fc3dffc4935b6db90cb",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingGuitar_g23_c05.avi",
+      "label": "PlayingGuitar",
+      "group": "g23",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingGuitar/v_PlayingGuitar_g23_c05.avi",
+      "sha256": "9576b67f0d0b92838fb0a06b63f57b98524179a43b38ab0064e8fc5f2da52a59",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingGuitar_g23_c03.avi",
+      "label": "PlayingGuitar",
+      "group": "g23",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingGuitar/v_PlayingGuitar_g23_c03.avi",
+      "sha256": "607e5bd8c71fda1facab850f5ebb71affe8c4c153cf67aa6ec825756ee0bf4b6",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingPiano_g17_c03.avi",
+      "label": "PlayingPiano",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingPiano/v_PlayingPiano_g17_c03.avi",
+      "sha256": "74fdd182f765dc8c51f98c0e8c1d7f7968542f9a3b1f242ec32cca6046956078",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingPiano_g17_c02.avi",
+      "label": "PlayingPiano",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingPiano/v_PlayingPiano_g17_c02.avi",
+      "sha256": "91a576689ff95a64d3a0a4cc6010adc6bd79e705d74f33fac1045524b8193500",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingPiano_g24_c01.avi",
+      "label": "PlayingPiano",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingPiano/v_PlayingPiano_g24_c01.avi",
+      "sha256": "205f86ea5bce25c86e271f92db131bbbf582b9a599f1802b662aa4dfa9082a06",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingPiano_g24_c02.avi",
+      "label": "PlayingPiano",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingPiano/v_PlayingPiano_g24_c02.avi",
+      "sha256": "985333f8e3855cdfa718dda8aca14c75518de67c1d9dd273ffc6034d605e2e9f",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingSitar_g18_c05.avi",
+      "label": "PlayingSitar",
+      "group": "g18",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingSitar/v_PlayingSitar_g18_c05.avi",
+      "sha256": "dbbe5ecc8b232f0367312cd46f27a80ab621fe55a78be36a757103b567e64022",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingSitar_g18_c02.avi",
+      "label": "PlayingSitar",
+      "group": "g18",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingSitar/v_PlayingSitar_g18_c02.avi",
+      "sha256": "9f02768f00d71de100eee9ed18ce1fe488b7713ed384b773a8c175cd744cff13",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingSitar_g22_c03.avi",
+      "label": "PlayingSitar",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingSitar/v_PlayingSitar_g22_c03.avi",
+      "sha256": "153806def93a2288908db58ed3f18be44e3a5acd8f67651c17ed74325faa3fee",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingSitar_g22_c04.avi",
+      "label": "PlayingSitar",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingSitar/v_PlayingSitar_g22_c04.avi",
+      "sha256": "ef57506ecdf029e1ebfa2bd8a340583458d2845b28a449b1f32947f39480d762",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingTabla_g13_c05.avi",
+      "label": "PlayingTabla",
+      "group": "g13",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingTabla/v_PlayingTabla_g13_c05.avi",
+      "sha256": "f283f9f672eb1adaa640b21dcac36be68b4006213ed733d6bbbc4cc6cbd77c9a",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingTabla_g13_c02.avi",
+      "label": "PlayingTabla",
+      "group": "g13",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingTabla/v_PlayingTabla_g13_c02.avi",
+      "sha256": "eaeaac4dd200a807fd29f0d34142b0aa1d6dce8eb4b234bdde3e9b6fc7efeebd",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingTabla_g14_c02.avi",
+      "label": "PlayingTabla",
+      "group": "g14",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingTabla/v_PlayingTabla_g14_c02.avi",
+      "sha256": "449cd6bb0c07b31b27b06a966bfc76e3f236af2bd6f6dc15b11c34d22d31d32c",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingTabla_g14_c04.avi",
+      "label": "PlayingTabla",
+      "group": "g14",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingTabla/v_PlayingTabla_g14_c04.avi",
+      "sha256": "72040908f8daa76f9a2194956773a07915e7eb8f6ff6103f2427ab34110e55c5",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingViolin_g24_c01.avi",
+      "label": "PlayingViolin",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingViolin/v_PlayingViolin_g24_c01.avi",
+      "sha256": "acad2f8f5d405c12cd53d417ce60a5f330a7ae52f21740ffd2231544f88b7819",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingViolin_g24_c04.avi",
+      "label": "PlayingViolin",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingViolin/v_PlayingViolin_g24_c04.avi",
+      "sha256": "6eb8eece577b1209bd83c414244bb7a3912b8aac2a6bbd5ff139ee188b47ea74",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingViolin_g25_c02.avi",
+      "label": "PlayingViolin",
+      "group": "g25",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingViolin/v_PlayingViolin_g25_c02.avi",
+      "sha256": "12aa7070b3f742ca49175c7f8a889c49235971e53de7a6a3fab8cb7fbd4198bf",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PlayingViolin_g25_c01.avi",
+      "label": "PlayingViolin",
+      "group": "g25",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PlayingViolin/v_PlayingViolin_g25_c01.avi",
+      "sha256": "737c5767d87d68532aaffb937464ce0ca50f6331d66041a85822f018f51ff0e5",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PoleVault_g12_c01.avi",
+      "label": "PoleVault",
+      "group": "g12",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PoleVault/v_PoleVault_g12_c01.avi",
+      "sha256": "5288246957e4d030fc1ba16a22771624cf7bfe07bfa86a3d5ef38257f7dc63a0",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PoleVault_g12_c07.avi",
+      "label": "PoleVault",
+      "group": "g12",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PoleVault/v_PoleVault_g12_c07.avi",
+      "sha256": "8171a93eba418dfbdfd12b619feadf2794b4668d0fa2e7b8901d372ba5ebb608",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PoleVault_g23_c04.avi",
+      "label": "PoleVault",
+      "group": "g23",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PoleVault/v_PoleVault_g23_c04.avi",
+      "sha256": "839b9a97db92e6948714dc7ebc13d2c67fb0e7b00d2e290f60cd6ca4279c5abb",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PoleVault_g23_c03.avi",
+      "label": "PoleVault",
+      "group": "g23",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PoleVault/v_PoleVault_g23_c03.avi",
+      "sha256": "565ea8a59d4334f8d55ead061f2ac4ba7286540e01586d036da1ce2172d04f43",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PommelHorse_g13_c01.avi",
+      "label": "PommelHorse",
+      "group": "g13",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PommelHorse/v_PommelHorse_g13_c01.avi",
+      "sha256": "8afb0fb8a4398501a8ced8850d89d63c4e5c8e6c0ac1a1912e2f4f93a16ab5ce",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PommelHorse_g13_c07.avi",
+      "label": "PommelHorse",
+      "group": "g13",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PommelHorse/v_PommelHorse_g13_c07.avi",
+      "sha256": "b8368d5420e3faeb9306bdff65080e38148c06e84870cd093153be19ccd61353",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PommelHorse_g21_c04.avi",
+      "label": "PommelHorse",
+      "group": "g21",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PommelHorse/v_PommelHorse_g21_c04.avi",
+      "sha256": "34b69083f805f987135f011c65f4ad398224670fc90b2f97f9767b6a34082466",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PommelHorse_g21_c02.avi",
+      "label": "PommelHorse",
+      "group": "g21",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PommelHorse/v_PommelHorse_g21_c02.avi",
+      "sha256": "3949bf8d67b508de1ef1b9c8f91a9cd0a093a5d97ca2df8929de9ed91d1c1f0f",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PullUps_g14_c01.avi",
+      "label": "PullUps",
+      "group": "g14",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PullUps/v_PullUps_g14_c01.avi",
+      "sha256": "0df891e09a55d82b3c71155c877fb2cdeaf0b2135cdd0c29fa9aff44f322a35e",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PullUps_g14_c03.avi",
+      "label": "PullUps",
+      "group": "g14",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PullUps/v_PullUps_g14_c03.avi",
+      "sha256": "6d0415a2363c4e34aefbbb2502e5b2ae898ed6c96c3783f54df5e01e21197193",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PullUps_g20_c02.avi",
+      "label": "PullUps",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PullUps/v_PullUps_g20_c02.avi",
+      "sha256": "cc8a8c5e7f716a10518c8902b873e5765585d700a97946606d040f0c76fab0d8",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PullUps_g20_c04.avi",
+      "label": "PullUps",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PullUps/v_PullUps_g20_c04.avi",
+      "sha256": "a2ccaeee646a1cf4fca570a02f881b5ac59c3e5b370c649cf088bb53711b6d01",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Punch_g11_c01.avi",
+      "label": "Punch",
+      "group": "g11",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Punch/v_Punch_g11_c01.avi",
+      "sha256": "ca3800a272a091299ba85d994d2911716ba4078dc587808db2f24730d7a64d85",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Punch_g11_c03.avi",
+      "label": "Punch",
+      "group": "g11",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Punch/v_Punch_g11_c03.avi",
+      "sha256": "3dfed3051835aa0460dffff30facedb7dfaae5dedb3b4853b8b80551266dec03",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Punch_g24_c02.avi",
+      "label": "Punch",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Punch/v_Punch_g24_c02.avi",
+      "sha256": "3feeb8766beef21775428322c3b65860fc8bfe9ef646030de03e03f2837e303b",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Punch_g24_c04.avi",
+      "label": "Punch",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Punch/v_Punch_g24_c04.avi",
+      "sha256": "f86aa7ea7363935f59ba9c30661e9c7b68ea70d3a7e67d3dddc75857ecb0cf72",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PushUps_g17_c03.avi",
+      "label": "PushUps",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PushUps/v_PushUps_g17_c03.avi",
+      "sha256": "c20d91fd64081109764de6a637b976ec9160538cba703e814695ecb5de2484c2",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PushUps_g17_c02.avi",
+      "label": "PushUps",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PushUps/v_PushUps_g17_c02.avi",
+      "sha256": "e745fc2b69f736e7aa0651fd053e64a6e17e1009ee7de32f5dcbb9e5cf068f52",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PushUps_g22_c03.avi",
+      "label": "PushUps",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PushUps/v_PushUps_g22_c03.avi",
+      "sha256": "c4ae48382e2d35131288a6720ff6d610f0a24415b2a57c8aa8c83b53c1af0020",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_PushUps_g22_c01.avi",
+      "label": "PushUps",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/PushUps/v_PushUps_g22_c01.avi",
+      "sha256": "c76f2f245886c2e50bc8634e546354ae3259453dbbde66253d152a19d7d343ab",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Rafting_g23_c04.avi",
+      "label": "Rafting",
+      "group": "g23",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Rafting/v_Rafting_g23_c04.avi",
+      "sha256": "a8c55d7ddde9f1676e7aec7b204a79d89bcd9a38c7a6efe16ebd79c06d854f6f",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Rafting_g23_c01.avi",
+      "label": "Rafting",
+      "group": "g23",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Rafting/v_Rafting_g23_c01.avi",
+      "sha256": "f678f79e5ab29344b5e00bc3091b21c5f62938542c1e91115531f5108131cdd1",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Rafting_g25_c03.avi",
+      "label": "Rafting",
+      "group": "g25",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Rafting/v_Rafting_g25_c03.avi",
+      "sha256": "d26e3349f6770f482065fb54a09051a5d397e9938e16d7aa23a97f500b6cfad2",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Rafting_g25_c04.avi",
+      "label": "Rafting",
+      "group": "g25",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Rafting/v_Rafting_g25_c04.avi",
+      "sha256": "c4cd1f428e2d86111a3c494217ddcb8f028ab833577cb11c082b715c6ea5cb2c",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_RockClimbingIndoor_g12_c01.avi",
+      "label": "RockClimbingIndoor",
+      "group": "g12",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/RockClimbingIndoor/v_RockClimbingIndoor_g12_c01.avi",
+      "sha256": "6b8fcb83c8cf664de85189ec4c1f7b56c852d5b56739e295e2098a95b1667b82",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_RockClimbingIndoor_g12_c06.avi",
+      "label": "RockClimbingIndoor",
+      "group": "g12",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/RockClimbingIndoor/v_RockClimbingIndoor_g12_c06.avi",
+      "sha256": "4b10043d3e3e45bbec09310d2043fe23d482258b8d502948132d543443cfc35e",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_RockClimbingIndoor_g16_c02.avi",
+      "label": "RockClimbingIndoor",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/RockClimbingIndoor/v_RockClimbingIndoor_g16_c02.avi",
+      "sha256": "68ace4ec6a6960a000510d9c5b3e119b78f550fb5525a9dea6ba82d2d0b6f742",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_RockClimbingIndoor_g16_c05.avi",
+      "label": "RockClimbingIndoor",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/RockClimbingIndoor/v_RockClimbingIndoor_g16_c05.avi",
+      "sha256": "ce81ace4320c42f57554f1d228f0de17c78b840e0be51290f610d84a357898ac",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_RopeClimbing_g17_c01.avi",
+      "label": "RopeClimbing",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/RopeClimbing/v_RopeClimbing_g17_c01.avi",
+      "sha256": "1daae2cd08c4d0f49b9f92d78d5e7cc66cc82be5c54d3321011b1addd1d13a0c",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_RopeClimbing_g17_c03.avi",
+      "label": "RopeClimbing",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/RopeClimbing/v_RopeClimbing_g17_c03.avi",
+      "sha256": "c2ae8811afcc59bfce8e146a49e22df8573ec39220e9258bbdd1ac2126be36be",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_RopeClimbing_g19_c01.avi",
+      "label": "RopeClimbing",
+      "group": "g19",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/RopeClimbing/v_RopeClimbing_g19_c01.avi",
+      "sha256": "96680af218a11cf681977e59733dd670cf07768aa8bc409fddd921594519155c",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_RopeClimbing_g19_c07.avi",
+      "label": "RopeClimbing",
+      "group": "g19",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/RopeClimbing/v_RopeClimbing_g19_c07.avi",
+      "sha256": "8a61b04c9f9710edd069ec3b82208204366d54f6c34772eacf9b95e036fbe573",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Rowing_g17_c02.avi",
+      "label": "Rowing",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Rowing/v_Rowing_g17_c02.avi",
+      "sha256": "9d0d79c686ef60775057c6a882c717259daf9190abb678f85d6c4de0f1b5b4b0",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Rowing_g17_c06.avi",
+      "label": "Rowing",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Rowing/v_Rowing_g17_c06.avi",
+      "sha256": "99467caad749c7336246f8a04e16182ec922fbe96e04c4b8ee45a24f5b1cb923",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Rowing_g24_c01.avi",
+      "label": "Rowing",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Rowing/v_Rowing_g24_c01.avi",
+      "sha256": "f3f42b1bad399b70c24568cfe52b9631c1616e3fb95b544a87fa640992be3ae9",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Rowing_g24_c03.avi",
+      "label": "Rowing",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Rowing/v_Rowing_g24_c03.avi",
+      "sha256": "454103ba3ca2ecf9cbcf471aa8a5692d0d8939d4188da41140bb488d5a09ba61",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_SalsaSpin_g23_c02.avi",
+      "label": "SalsaSpin",
+      "group": "g23",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/SalsaSpin/v_SalsaSpin_g23_c02.avi",
+      "sha256": "cac7e201db1f04ec534d71552855a61daee7d0b0fdbd9a69370f9d51ec6396b6",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_SalsaSpin_g23_c04.avi",
+      "label": "SalsaSpin",
+      "group": "g23",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/SalsaSpin/v_SalsaSpin_g23_c04.avi",
+      "sha256": "06f9b7c12963fedd52aeccb56d46a5b46355df4215294bab2f6b610e43f8347b",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_SalsaSpin_g25_c04.avi",
+      "label": "SalsaSpin",
+      "group": "g25",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/SalsaSpin/v_SalsaSpin_g25_c04.avi",
+      "sha256": "c88bfc5d04fc167a89ff1bc7466c39b5183570fdee3ef2361c7908bebcd4d3d4",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_SalsaSpin_g25_c02.avi",
+      "label": "SalsaSpin",
+      "group": "g25",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/SalsaSpin/v_SalsaSpin_g25_c02.avi",
+      "sha256": "1e2299bb1fac008e03fb969f51194324c380742d6e30e204ca2ed3a66d7a1429",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_ShavingBeard_g08_c05.avi",
+      "label": "ShavingBeard",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/ShavingBeard/v_ShavingBeard_g08_c05.avi",
+      "sha256": "030d6e1904d417fe7f2d3f42e79da40f2b2fb38edc267819101dc02358aed844",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_ShavingBeard_g08_c03.avi",
+      "label": "ShavingBeard",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/ShavingBeard/v_ShavingBeard_g08_c03.avi",
+      "sha256": "e6cc5273c659cd3f4d4719dd04054aa082fa3d510a43173a3a14ec6f755a63c2",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_ShavingBeard_g16_c02.avi",
+      "label": "ShavingBeard",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/ShavingBeard/v_ShavingBeard_g16_c02.avi",
+      "sha256": "6eca1ab64f32a1b65195534afb652673d9d8441d776778df2591e1dde678fda1",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_ShavingBeard_g16_c06.avi",
+      "label": "ShavingBeard",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/ShavingBeard/v_ShavingBeard_g16_c06.avi",
+      "sha256": "d45757e82c13d36585ef150af628392e97e5435d10f8c996ae2715dceb3a26c4",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Shotput_g09_c03.avi",
+      "label": "Shotput",
+      "group": "g09",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Shotput/v_Shotput_g09_c03.avi",
+      "sha256": "3b81cb63ae55d73f63cf6cd51828479c6b37c1a71934c7c377bdc331f122091a",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Shotput_g09_c04.avi",
+      "label": "Shotput",
+      "group": "g09",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Shotput/v_Shotput_g09_c04.avi",
+      "sha256": "c35fbe8efc0ecf4aedb893378c138df6821e8d0d8f68d224592049754f47078c",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Shotput_g15_c04.avi",
+      "label": "Shotput",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Shotput/v_Shotput_g15_c04.avi",
+      "sha256": "d04db3b9010f7bb6c0711113dc7631fb53e9c583e44a14c6bfb3e8c1edaa8590",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Shotput_g15_c06.avi",
+      "label": "Shotput",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Shotput/v_Shotput_g15_c06.avi",
+      "sha256": "264d567ee9d4349b942ef297da0a8372a6086f401fbfb82ac98787185dd03248",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_SkateBoarding_g10_c07.avi",
+      "label": "SkateBoarding",
+      "group": "g10",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/SkateBoarding/v_SkateBoarding_g10_c07.avi",
+      "sha256": "d6de040d90c96ec712934b237bd33cd9fd1823ed536515386028cbec72233187",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_SkateBoarding_g10_c04.avi",
+      "label": "SkateBoarding",
+      "group": "g10",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/SkateBoarding/v_SkateBoarding_g10_c04.avi",
+      "sha256": "60f4ac30140395c8ef398e4949d041bcb9b2cb368cd4f9313366519661a266ca",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_SkateBoarding_g24_c03.avi",
+      "label": "SkateBoarding",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/SkateBoarding/v_SkateBoarding_g24_c03.avi",
+      "sha256": "6ba0bf2175e5615e2e98f6b7d63744d0868007c55092882228811ffde07e76af",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_SkateBoarding_g24_c04.avi",
+      "label": "SkateBoarding",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/SkateBoarding/v_SkateBoarding_g24_c04.avi",
+      "sha256": "668baeb639b975af961a230465f72fd57e1701e13720eb93647c76906670daa7",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Skiing_g08_c03.avi",
+      "label": "Skiing",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Skiing/v_Skiing_g08_c03.avi",
+      "sha256": "cfc33d969191969c6d601625a6b7b8859c2c1bce3fb81511d09b188af5771f4e",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Skiing_g08_c06.avi",
+      "label": "Skiing",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Skiing/v_Skiing_g08_c06.avi",
+      "sha256": "3c3594dd41081ac31d483b529577b39f666117fbfcee5c2e5c71186e513605c2",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Skiing_g24_c03.avi",
+      "label": "Skiing",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Skiing/v_Skiing_g24_c03.avi",
+      "sha256": "bce448c18463d20228ac5d15c29d9fce2683dfb5ac7403ce714b2a9515e50976",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Skiing_g24_c06.avi",
+      "label": "Skiing",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Skiing/v_Skiing_g24_c06.avi",
+      "sha256": "d1ae4d0d7c5c0180daf7e1ea5af29fee3469cdceb8f906ae772562f939a62ccd",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Skijet_g16_c03.avi",
+      "label": "Skijet",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Skijet/v_Skijet_g16_c03.avi",
+      "sha256": "6139c245676e1009e7306d55f326c9c3fcdef7c2a2d98a016c7185362669ce24",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Skijet_g16_c01.avi",
+      "label": "Skijet",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Skijet/v_Skijet_g16_c01.avi",
+      "sha256": "a2cbbce484e95582919ed3f62afb28e38dc1c3896fdb05c4b7f48efd6b292d96",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Skijet_g21_c03.avi",
+      "label": "Skijet",
+      "group": "g21",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Skijet/v_Skijet_g21_c03.avi",
+      "sha256": "99cd9579c7fd222969bf0157c894cbf9947a45d76ceb0ec4536ad4bee7d112cb",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Skijet_g21_c02.avi",
+      "label": "Skijet",
+      "group": "g21",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Skijet/v_Skijet_g21_c02.avi",
+      "sha256": "d6f2cc9af221546619063533ed8a74d323996cdb3d01a129c7d4bc39d641871c",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_SkyDiving_g09_c03.avi",
+      "label": "SkyDiving",
+      "group": "g09",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/SkyDiving/v_SkyDiving_g09_c03.avi",
+      "sha256": "c28ef05baf70a53d66ac96cbe83ddcfa89ee5a207898b516205467283795520a",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_SkyDiving_g09_c01.avi",
+      "label": "SkyDiving",
+      "group": "g09",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/SkyDiving/v_SkyDiving_g09_c01.avi",
+      "sha256": "0d451c6aa5ed29bccc2294f262a6ab11782ca1dfbaaa25221ffce2a155dfd164",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_SkyDiving_g18_c05.avi",
+      "label": "SkyDiving",
+      "group": "g18",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/SkyDiving/v_SkyDiving_g18_c05.avi",
+      "sha256": "0d3e57f20352e7d27892e9de2923b53eabd5dd032edd6d43eb50287f057fd136",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_SkyDiving_g18_c04.avi",
+      "label": "SkyDiving",
+      "group": "g18",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/SkyDiving/v_SkyDiving_g18_c04.avi",
+      "sha256": "848394cf3bcb7a2bc7ee78e111892887e7417e1717b86d4137b8f41d046ec4bc",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_SoccerJuggling_g12_c05.avi",
+      "label": "SoccerJuggling",
+      "group": "g12",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/SoccerJuggling/v_SoccerJuggling_g12_c05.avi",
+      "sha256": "9c70c1e31acda46699b8fc69a497a1aa11d7af399906bee7a7908283a089121d",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_SoccerJuggling_g12_c03.avi",
+      "label": "SoccerJuggling",
+      "group": "g12",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/SoccerJuggling/v_SoccerJuggling_g12_c03.avi",
+      "sha256": "6bf381c87a4c851bdf47b225be0df621861fb490a43bef69bdb9779b0f01408d",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_SoccerJuggling_g15_c02.avi",
+      "label": "SoccerJuggling",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/SoccerJuggling/v_SoccerJuggling_g15_c02.avi",
+      "sha256": "ffd801b117c04974d00037ebeecd5bc443e5cc2a81feb287565988d0eafac048",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_SoccerJuggling_g15_c03.avi",
+      "label": "SoccerJuggling",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/SoccerJuggling/v_SoccerJuggling_g15_c03.avi",
+      "sha256": "7b1f03648e14099634feda13ce9f89bb44ee301a5653f6f2fe9c49d01f58f1f2",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_SoccerPenalty_g22_c01.avi",
+      "label": "SoccerPenalty",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/SoccerPenalty/v_SoccerPenalty_g22_c01.avi",
+      "sha256": "0cf2257a394edd2daf194def71672e75bbbc8251382b49804bd328c9e4e067f0",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_SoccerPenalty_g22_c03.avi",
+      "label": "SoccerPenalty",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/SoccerPenalty/v_SoccerPenalty_g22_c03.avi",
+      "sha256": "f3b1fa622327def4cab83f3e6a77fe02a6536ccbecc19fbf3db1ecbc5dde59fe",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_SoccerPenalty_g24_c03.avi",
+      "label": "SoccerPenalty",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/SoccerPenalty/v_SoccerPenalty_g24_c03.avi",
+      "sha256": "d58dc8e3d65fd392845aedf7d4c46eba23746e0bfbaf88e51a6036ec804ab110",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_SoccerPenalty_g24_c02.avi",
+      "label": "SoccerPenalty",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/SoccerPenalty/v_SoccerPenalty_g24_c02.avi",
+      "sha256": "c76ff433c71b50767351fef984f4dcdfbaf50377dd94df1b9ff5f1ee645f90b7",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_StillRings_g22_c03.avi",
+      "label": "StillRings",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/StillRings/v_StillRings_g22_c03.avi",
+      "sha256": "4729dc136e6d299d3ba5f26916a953faa88e273a675a56b33bf2b1aff8c75270",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_StillRings_g22_c01.avi",
+      "label": "StillRings",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/StillRings/v_StillRings_g22_c01.avi",
+      "sha256": "92602498a069d870c565a9b5481a93a9e4ba8b6a0114860b906c053b0f5ab370",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_StillRings_g23_c02.avi",
+      "label": "StillRings",
+      "group": "g23",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/StillRings/v_StillRings_g23_c02.avi",
+      "sha256": "72ad96b8013f83e8e42030128ba94476f7b412b6989dfdc00a6ea51832a0dd07",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_StillRings_g23_c01.avi",
+      "label": "StillRings",
+      "group": "g23",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/StillRings/v_StillRings_g23_c01.avi",
+      "sha256": "b0e0d6fb9bc066e8f8eb2314521387d87ce37d8b2a0441b9a7a8abb2ef8ccbed",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_SumoWrestling_g13_c01.avi",
+      "label": "SumoWrestling",
+      "group": "g13",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/SumoWrestling/v_SumoWrestling_g13_c01.avi",
+      "sha256": "bffc2de3bfd6e4f8db03e4c0d07d7c4bfdc5f5dd075b0dad75fc5f064868fb94",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_SumoWrestling_g13_c04.avi",
+      "label": "SumoWrestling",
+      "group": "g13",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/SumoWrestling/v_SumoWrestling_g13_c04.avi",
+      "sha256": "a02d07b456df6cb16a9059e4053bd3ac1c578d1c78434e17fcb4c688cbf708fb",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_SumoWrestling_g16_c01.avi",
+      "label": "SumoWrestling",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/SumoWrestling/v_SumoWrestling_g16_c01.avi",
+      "sha256": "113615b3f3f45edc66c30b548c78a20e3ea37c442500774d5494f97600508f16",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_SumoWrestling_g16_c04.avi",
+      "label": "SumoWrestling",
+      "group": "g16",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/SumoWrestling/v_SumoWrestling_g16_c04.avi",
+      "sha256": "5ec9de2c05caaa133cc82e26d328ddd79ff32e0febe5627131853de42ca08ef1",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Surfing_g23_c02.avi",
+      "label": "Surfing",
+      "group": "g23",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Surfing/v_Surfing_g23_c02.avi",
+      "sha256": "81f42c6eb751de6a36a3efff7e4cc99642d26e4dec14a1eb8e9feed27ad7a574",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Surfing_g23_c04.avi",
+      "label": "Surfing",
+      "group": "g23",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Surfing/v_Surfing_g23_c04.avi",
+      "sha256": "152b436ec90476ae224ea2745e3a36019559d0ab4a776ffa8e6590265defd26c",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Surfing_g24_c04.avi",
+      "label": "Surfing",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Surfing/v_Surfing_g24_c04.avi",
+      "sha256": "8e1e97bc57889fd923b33819266fc25dde50cf4da910998f9bb595e485fd8c85",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Surfing_g24_c02.avi",
+      "label": "Surfing",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Surfing/v_Surfing_g24_c02.avi",
+      "sha256": "1a31f2916af92318077923223f78ce9c6a22ddabc34f3c61bd3614fa9393aca1",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Swing_g10_c04.avi",
+      "label": "Swing",
+      "group": "g10",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Swing/v_Swing_g10_c04.avi",
+      "sha256": "35c360f5be3e202e9645720e48f926f4d555056255077008262ad37c9e7f9930",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Swing_g10_c03.avi",
+      "label": "Swing",
+      "group": "g10",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Swing/v_Swing_g10_c03.avi",
+      "sha256": "ab4479f4c875513ca06c085da4bddb63a1b604201764203d2d7767d3821b34cc",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Swing_g25_c03.avi",
+      "label": "Swing",
+      "group": "g25",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Swing/v_Swing_g25_c03.avi",
+      "sha256": "0be101f1b372c0dd149c458325460c816d7b8a8f870c84f704e62ba98acd4224",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Swing_g25_c04.avi",
+      "label": "Swing",
+      "group": "g25",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Swing/v_Swing_g25_c04.avi",
+      "sha256": "d4bb430649c50a35b73b4bdcf7f9e7c33a1920c58679615102a4140986e73da0",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_TableTennisShot_g17_c03.avi",
+      "label": "TableTennisShot",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/TableTennisShot/v_TableTennisShot_g17_c03.avi",
+      "sha256": "5b590f7b21fef45231e0036fdf318740b31dbaa93f939d607869d0360811d02d",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_TableTennisShot_g17_c04.avi",
+      "label": "TableTennisShot",
+      "group": "g17",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/TableTennisShot/v_TableTennisShot_g17_c04.avi",
+      "sha256": "d400fe63161faecebc17dde809ba53b4a6f5f3cef0e0369296ecf84a1b149b39",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_TableTennisShot_g24_c06.avi",
+      "label": "TableTennisShot",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/TableTennisShot/v_TableTennisShot_g24_c06.avi",
+      "sha256": "4a2258348defc70df4b9c0116bfc2a0c52e64d41863469906b6053bcbee4f8e8",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_TableTennisShot_g24_c04.avi",
+      "label": "TableTennisShot",
+      "group": "g24",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/TableTennisShot/v_TableTennisShot_g24_c04.avi",
+      "sha256": "3a2322fca70a4550956a8cbf090d753c5b8e151484371daf142d32606206542f",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_TaiChi_g08_c04.avi",
+      "label": "TaiChi",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/TaiChi/v_TaiChi_g08_c04.avi",
+      "sha256": "00fe6b4509415ff741d547c58478a0f848db3306db8ad07260631228988d3d60",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_TaiChi_g08_c03.avi",
+      "label": "TaiChi",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/TaiChi/v_TaiChi_g08_c03.avi",
+      "sha256": "ad5d44a3a7695c0f55b4524a880fab8cfe4fd3070141f8db3c5fe67aee46b55a",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_TaiChi_g13_c02.avi",
+      "label": "TaiChi",
+      "group": "g13",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/TaiChi/v_TaiChi_g13_c02.avi",
+      "sha256": "c5439dfba0328aad2be135f7ff6f2364ee788129304f92478abeeb8b59228764",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_TaiChi_g13_c04.avi",
+      "label": "TaiChi",
+      "group": "g13",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/TaiChi/v_TaiChi_g13_c04.avi",
+      "sha256": "0a32073c22f3737635f5a2964f8c2df3a46212c176bcaf5720d2a4e834e4af3a",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_TennisSwing_g13_c03.avi",
+      "label": "TennisSwing",
+      "group": "g13",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/TennisSwing/v_TennisSwing_g13_c03.avi",
+      "sha256": "e61768b316430cc6b393d096bc726b229f33601aabdc19ce959f59622bf03e34",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_TennisSwing_g13_c07.avi",
+      "label": "TennisSwing",
+      "group": "g13",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/TennisSwing/v_TennisSwing_g13_c07.avi",
+      "sha256": "8658ed63dbc4dc74210e2773133b58f7b2665085a7ae8c5029cd1d6b30bd6c6d",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_TennisSwing_g15_c04.avi",
+      "label": "TennisSwing",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/TennisSwing/v_TennisSwing_g15_c04.avi",
+      "sha256": "17686e42780175597b8f95ec7699b6c6c93c3d2fa17193daaba40fa70b71a06e",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_TennisSwing_g15_c01.avi",
+      "label": "TennisSwing",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/TennisSwing/v_TennisSwing_g15_c01.avi",
+      "sha256": "0a8660d2074dc082d5c996bebec66379f2ee80e531c86bf5bbc92c365008d057",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_ThrowDiscus_g14_c04.avi",
+      "label": "ThrowDiscus",
+      "group": "g14",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/ThrowDiscus/v_ThrowDiscus_g14_c04.avi",
+      "sha256": "840d31c3234a10457cde26e2a9e822ed4416eb540c62d17bef35a713c5830ff6",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_ThrowDiscus_g14_c02.avi",
+      "label": "ThrowDiscus",
+      "group": "g14",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/ThrowDiscus/v_ThrowDiscus_g14_c02.avi",
+      "sha256": "8292ecba58c7d7720746a2f1dd494ca12cfd2e4dd1eb371bbe46b82abf2f6c3c",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_ThrowDiscus_g20_c04.avi",
+      "label": "ThrowDiscus",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/ThrowDiscus/v_ThrowDiscus_g20_c04.avi",
+      "sha256": "596a7c9ddd74eb49fd3a1340776b366442173a2d9c0c70f11cd6d3951462fadf",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_ThrowDiscus_g20_c01.avi",
+      "label": "ThrowDiscus",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/ThrowDiscus/v_ThrowDiscus_g20_c01.avi",
+      "sha256": "c3517f872951f4cf06e7180fc0d6b8e89fff9fe105766de143b2c89f73c622bb",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_TrampolineJumping_g14_c02.avi",
+      "label": "TrampolineJumping",
+      "group": "g14",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/TrampolineJumping/v_TrampolineJumping_g14_c02.avi",
+      "sha256": "710172e2e414507c36e3af3bcfb130832325fc3c8e3e9a7b9599b2334b74be7d",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_TrampolineJumping_g14_c04.avi",
+      "label": "TrampolineJumping",
+      "group": "g14",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/TrampolineJumping/v_TrampolineJumping_g14_c04.avi",
+      "sha256": "3ccfea2233a60a273238946a923e59198ab51e5e9fd57aa772280248957556cf",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_TrampolineJumping_g22_c03.avi",
+      "label": "TrampolineJumping",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/TrampolineJumping/v_TrampolineJumping_g22_c03.avi",
+      "sha256": "6b75ea0da7156b5f20d3d74cbe6e7cf9b9d5767251bc78702e60547a0206eaba",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_TrampolineJumping_g22_c02.avi",
+      "label": "TrampolineJumping",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/TrampolineJumping/v_TrampolineJumping_g22_c02.avi",
+      "sha256": "c8f475992c6635a0e99792370285f4ba06ebff4725af7e2cd5e2b4ba284b2089",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Typing_g09_c02.avi",
+      "label": "Typing",
+      "group": "g09",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Typing/v_Typing_g09_c02.avi",
+      "sha256": "1fbb36e7ef711c51362718a43bfd4a77289fb3d035ee14b840f75bddb95ad822",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Typing_g09_c04.avi",
+      "label": "Typing",
+      "group": "g09",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Typing/v_Typing_g09_c04.avi",
+      "sha256": "3bbc8e09bd6891137221f3b4192a1ca5e2adac3ebfc9c4900d0f4bbf3fd8df8b",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Typing_g15_c03.avi",
+      "label": "Typing",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Typing/v_Typing_g15_c03.avi",
+      "sha256": "4132841c8ae20b6871545cbd5dd5d5712df46785cc7337b4742ed6b85b1a6edf",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_Typing_g15_c01.avi",
+      "label": "Typing",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/Typing/v_Typing_g15_c01.avi",
+      "sha256": "313055b6811396b2fa547331403e21348883b70a407b4702eb2e41be50937bf6",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_UnevenBars_g19_c01.avi",
+      "label": "UnevenBars",
+      "group": "g19",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/UnevenBars/v_UnevenBars_g19_c01.avi",
+      "sha256": "a97c8b00d6a764635d17e7755e5665aed99bd1dd3776c8dba3d0e6377de5da59",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_UnevenBars_g19_c04.avi",
+      "label": "UnevenBars",
+      "group": "g19",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/UnevenBars/v_UnevenBars_g19_c04.avi",
+      "sha256": "f75d0bffda1fdcffa00faac45af112bcee4f83ae3cd337841f16f7164d8ab30c",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_UnevenBars_g21_c03.avi",
+      "label": "UnevenBars",
+      "group": "g21",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/UnevenBars/v_UnevenBars_g21_c03.avi",
+      "sha256": "06b45b6973e173b6c3ac58a88bacc3651cfb443ad2669f2188aa381f98a8aa1d",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_UnevenBars_g21_c02.avi",
+      "label": "UnevenBars",
+      "group": "g21",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/UnevenBars/v_UnevenBars_g21_c02.avi",
+      "sha256": "ce1d73ca2d28f4c94d600e1139c27b5129e4e0029fd7c2581fd24130a7899416",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_VolleyballSpiking_g08_c06.avi",
+      "label": "VolleyballSpiking",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/VolleyballSpiking/v_VolleyballSpiking_g08_c06.avi",
+      "sha256": "69d335136069fbf32eb0ce58e3fea66ed609f8074dbf2262873fd3247ed6e34c",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_VolleyballSpiking_g08_c01.avi",
+      "label": "VolleyballSpiking",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/VolleyballSpiking/v_VolleyballSpiking_g08_c01.avi",
+      "sha256": "12d4fee63cb5bf04d8a8d1f646b73c557697a010d09ba5e85dd56e9e9a172fa3",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_VolleyballSpiking_g22_c04.avi",
+      "label": "VolleyballSpiking",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/VolleyballSpiking/v_VolleyballSpiking_g22_c04.avi",
+      "sha256": "56ea89d5d2dd1b7cbb4e4edd9e0751937959764d47eecfdd5be79a8ebdd03c66",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_VolleyballSpiking_g22_c02.avi",
+      "label": "VolleyballSpiking",
+      "group": "g22",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/VolleyballSpiking/v_VolleyballSpiking_g22_c02.avi",
+      "sha256": "65b98fe93b705c531e4c9155143ee192472769afffe38c4c4102e85a0751ce9e",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_WalkingWithDog_g14_c01.avi",
+      "label": "WalkingWithDog",
+      "group": "g14",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/WalkingWithDog/v_WalkingWithDog_g14_c01.avi",
+      "sha256": "fb6e368f2a54a045ba12c24250499a98f46137158dbc94aa8138025478481a1d",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_WalkingWithDog_g14_c02.avi",
+      "label": "WalkingWithDog",
+      "group": "g14",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/WalkingWithDog/v_WalkingWithDog_g14_c02.avi",
+      "sha256": "682f1c54fc0f74dcbf18723ee43394adefe47eae73b732eff4c674ecaabf7a26",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_WalkingWithDog_g18_c01.avi",
+      "label": "WalkingWithDog",
+      "group": "g18",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/WalkingWithDog/v_WalkingWithDog_g18_c01.avi",
+      "sha256": "0f3e90995558131650dccea089c0b5c74be3100aff9ba7f76503670015c67721",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_WalkingWithDog_g18_c02.avi",
+      "label": "WalkingWithDog",
+      "group": "g18",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/WalkingWithDog/v_WalkingWithDog_g18_c02.avi",
+      "sha256": "f8c5b450425208e03db2bcc880974cc091c5e6c0a38df6b46b24ad5508e099e4",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_WallPushups_g08_c01.avi",
+      "label": "WallPushups",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/WallPushups/v_WallPushups_g08_c01.avi",
+      "sha256": "a69e68345b8d0cc1cf23af9518344d6e86f7e8818dce0921bd8008801efcf35c",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_WallPushups_g08_c03.avi",
+      "label": "WallPushups",
+      "group": "g08",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/WallPushups/v_WallPushups_g08_c03.avi",
+      "sha256": "4bd6d1869a76c6df226a9e0f1be7c13d1d1b90d614ce3c3ac8a74319e9540e43",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_WallPushups_g20_c02.avi",
+      "label": "WallPushups",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/WallPushups/v_WallPushups_g20_c02.avi",
+      "sha256": "a7ba5ab0c831ab35f7a701b40d3c765dbd1b30ae60be06e31b58f192d37bfbfb",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_WallPushups_g20_c03.avi",
+      "label": "WallPushups",
+      "group": "g20",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/WallPushups/v_WallPushups_g20_c03.avi",
+      "sha256": "d5bda74c8f3edcf0bb774960b867faaa40a5f7d819ed7621449d3479bad5fb7b",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_WritingOnBoard_g12_c03.avi",
+      "label": "WritingOnBoard",
+      "group": "g12",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/WritingOnBoard/v_WritingOnBoard_g12_c03.avi",
+      "sha256": "35bb224deaf4ef69bcfa02af980fac2f074be7fc4de9b37145b062a50565a1c1",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_WritingOnBoard_g12_c02.avi",
+      "label": "WritingOnBoard",
+      "group": "g12",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/WritingOnBoard/v_WritingOnBoard_g12_c02.avi",
+      "sha256": "fda7ac5530b28f40551189bd2fd3207343aeee5f1c279f3748696edb7baaca0a",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_WritingOnBoard_g15_c02.avi",
+      "label": "WritingOnBoard",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/WritingOnBoard/v_WritingOnBoard_g15_c02.avi",
+      "sha256": "64607cf98e570e8b7c7a73cf2e834944ad44cd590d0821f45ad048315e3d02c2",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_WritingOnBoard_g15_c01.avi",
+      "label": "WritingOnBoard",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/WritingOnBoard/v_WritingOnBoard_g15_c01.avi",
+      "sha256": "ebaf3ac16f0485cfdabb5ee4c3f19247e9ff4fbc35cdb78a71952199e7eb65c0",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_YoYo_g11_c03.avi",
+      "label": "YoYo",
+      "group": "g11",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/YoYo/v_YoYo_g11_c03.avi",
+      "sha256": "7a40c9781020ba17468c2b722f199638b82beeca4c42c7e895317fc44c1ff997",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_YoYo_g11_c01.avi",
+      "label": "YoYo",
+      "group": "g11",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/YoYo/v_YoYo_g11_c01.avi",
+      "sha256": "75c107efa0ef611ebe6d2d33910b7aa84cbbe3cebdb06353e71d5ce11f4ff982",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_YoYo_g15_c04.avi",
+      "label": "YoYo",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/YoYo/v_YoYo_g15_c04.avi",
+      "sha256": "73e411308938da79642391f6da0a3d4071c14166e09de6867e60661291a3fe05",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    },
+    {
+      "clip": "v_YoYo_g15_c03.avi",
+      "label": "YoYo",
+      "group": "g15",
+      "path": "data/source/ucf101_proxy_replication_v1/videos/UCF-101/YoYo/v_YoYo_g15_c03.avi",
+      "sha256": "94251c26a0323b82f030c9a32df22736f0cc6dec56d718a4fa67d7c5f180a189",
+      "official_role": "official_train",
+      "role": "train",
+      "study_role": "controller_train"
+    }
+  ]
+}

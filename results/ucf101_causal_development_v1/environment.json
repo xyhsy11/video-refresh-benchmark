@@ -1,0 +1,22 @@
+{
+  "at_utc": "2026-10-19T07:12:13.751190+00:00",
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "environment": ".venv_temporal",
+  "versions": {
+    "torch": "2.14.1+cu132",
+    "torchvision": "0.29.1+cu132",
+    "av": "19.0.1",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "pandas": "3.0.6",
+    "Pillow": "12.3.0",
+    "matplotlib": "3.11.2"
+  },
+  "free_disk_bytes": 112043421696,
+  "packages_installed_or_upgraded": [],
+  "dataset_network_bytes": 0,
+  "network_preflight_reserve_bytes": 8388608,
+  "threads": "Runner fixes OMP/MKL/OpenBLAS/NUMEXPR and torch CPU/interop to1; actual encoder numerics in encoder_identity.json",
+  "scope": "Actual local development environment; official-test outcomes not opened"
+}

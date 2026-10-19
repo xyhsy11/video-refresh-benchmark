@@ -1,0 +1,27 @@
+{
+  "history": {
+    "epoch": 20,
+    "threshold": 0.2,
+    "grid_order": 0,
+    "CE": 0.5167910248691003,
+    "accuracy": 0.8663366336633662,
+    "path": "results/ucf101_causal_development_v1/controllers/history_epoch20.json",
+    "sha256": "f4d4898d7d8f1644322c427f0bcc85d6a1abba59da2d80b826e19a23a46a8737"
+  },
+  "history_motion": {
+    "epoch": 80,
+    "threshold": 0.5,
+    "grid_order": 8,
+    "CE": 0.5167569849418373,
+    "accuracy": 0.8514851485148514,
+    "path": "results/ucf101_causal_development_v1/controllers/history_motion_epoch80.json",
+    "sha256": "af9d99a1c2d0ccd2179c3198a327ee7fbfa5bff9bcb5f37df9c8a2f7303f5419"
+  },
+  "motion": {
+    "quantile": 0.9,
+    "threshold": 0.08984834558823529,
+    "grid_order": 2,
+    "CE": 0.5533805149694504,
+    "accuracy": 0.8564356435643563
+  }
+}

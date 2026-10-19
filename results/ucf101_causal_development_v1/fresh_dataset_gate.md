@@ -1,0 +1,11 @@
+# Fresh held-out dataset gate
+
+This UCF study is DEVELOPMENT / EXPLORATORY. The recognition head already used development for selection; its training clips overlap controller training. Development execution does not supply independent confirmation, whatever its direction.
+
+A separate prospective protocol must establish authorized original RGB bytes and label access, retained hashes/version/terms, and user-reviewed agreements where required. No restricted dataset is acquired or agreement accepted automatically. A public dataset name is not evidence of locally available bytes.
+
+Before any evaluation model call, verify known subject/source/physical-take and synchronized-camera relationships, exact/perceptual duplicates and experimental role isolation. Preserve official boundaries, unknown parent IDs and pretraining/reupload limitations. Declare all target classes, per-role clips and independent group minima before outcomes; solve a global family assignment rather than dropping difficult classes. Screen complete real video with actual PTS and the intended temporal contract; never pad, loop or choose clips by recognition. Project full class/group compute and storage from real training-only smoke; confirm disk, memory, network and checkpoint/resume resources.
+
+For an independently separated study, fit head parameters/scalers using head_train only, train fixed H/H+M controllers on controller_train only, select on development only, and freeze code, all memberships, models, thresholds, candidate definitions and statistical rules before the new evaluation exposure. Execute actual causal B4 decisions before privileged dense diagnostics; measure complete real execution cost. Keep independent source groups together in paired inference and timing; do not count repeated trials or camera views as independent sources.
+
+Passing development execution tests means the engineering interface works. Fresh population access/independence, full-class eligibility, precision, training sufficiency and quality/cost must be established separately. HMDB19.1 remains NO_GO under its declared conservative rules; exposed UCF official-test outcomes are not a replacement fresh cohort. The next research decision must use the actual development utility and overhead, including adverse or inconclusive results, without another architecture search for significance.

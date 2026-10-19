@@ -1,0 +1,14 @@
+{
+  "base_examples": 19124,
+  "augmented_examples": 28499,
+  "sources": 404,
+  "source_groups": 202,
+  "files": {
+    "data/source/ucf101_causal_development_v1/base_examples.json.gz": "1f9283297f7477ec8d402d71c6377324b2ba86e5c6d2e7662d8cfe0b3fee18b4",
+    "data/source/ucf101_causal_development_v1/augmented_examples.json.gz": "8530c15933d1c17e1fa2ab79a461687157afef43885c521b3ae354ec8a7245cd"
+  },
+  "head_sha256": "42e9f9813ce13c1b7200c5753ce6af0e7a76016530808c868b433b70ac40a150",
+  "common_sources_and_optimization": true,
+  "architecture": "145 ->32 ReLU ->1 sigmoid; float64 Adam .003 decay .001 batch256;40+80 epochs",
+  "source": "Genuine archived training features and fresh original AVI thumbnails; privileged conditional Z_pool teacher only offline"
+}

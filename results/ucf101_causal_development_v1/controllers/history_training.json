@@ -1,0 +1,20 @@
+{
+  "log": [
+    {
+      "epoch": 20,
+      "weighted_training_BCE": 0.4055308640647157,
+      "examples": 28499
+    },
+    {
+      "epoch": 40,
+      "weighted_training_BCE": 0.39707131722290473,
+      "examples": 28499
+    },
+    {
+      "epoch": 80,
+      "weighted_training_BCE": 0.38818035546225277,
+      "examples": 28499
+    }
+  ],
+  "seconds": 17.219746299999315
+}

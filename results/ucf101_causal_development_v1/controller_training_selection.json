@@ -1,0 +1,163 @@
+{
+  "learned": [
+    {
+      "method": "history",
+      "candidates": [
+        {
+          "epoch": 20,
+          "threshold": 0.2,
+          "grid_order": 0,
+          "CE": 0.5167910248691003,
+          "accuracy": 0.8663366336633662
+        },
+        {
+          "epoch": 20,
+          "threshold": 0.35,
+          "grid_order": 1,
+          "CE": 0.5374571574324237,
+          "accuracy": 0.8564356435643563
+        },
+        {
+          "epoch": 20,
+          "threshold": 0.5,
+          "grid_order": 2,
+          "CE": 0.5306189988287217,
+          "accuracy": 0.8514851485148514
+        },
+        {
+          "epoch": 40,
+          "threshold": 0.2,
+          "grid_order": 3,
+          "CE": 0.5198313258771498,
+          "accuracy": 0.8564356435643563
+        },
+        {
+          "epoch": 40,
+          "threshold": 0.35,
+          "grid_order": 4,
+          "CE": 0.5403341145676166,
+          "accuracy": 0.8564356435643563
+        },
+        {
+          "epoch": 40,
+          "threshold": 0.5,
+          "grid_order": 5,
+          "CE": 0.5291977401990263,
+          "accuracy": 0.8564356435643563
+        },
+        {
+          "epoch": 80,
+          "threshold": 0.2,
+          "grid_order": 6,
+          "CE": 0.5441353789744219,
+          "accuracy": 0.8564356435643564
+        },
+        {
+          "epoch": 80,
+          "threshold": 0.35,
+          "grid_order": 7,
+          "CE": 0.5194992062490134,
+          "accuracy": 0.8564356435643563
+        },
+        {
+          "epoch": 80,
+          "threshold": 0.5,
+          "grid_order": 8,
+          "CE": 0.531222665138643,
+          "accuracy": 0.8564356435643563
+        }
+      ]
+    },
+    {
+      "method": "history_motion",
+      "candidates": [
+        {
+          "epoch": 20,
+          "threshold": 0.2,
+          "grid_order": 0,
+          "CE": 0.5270669323926327,
+          "accuracy": 0.8465346534653465
+        },
+        {
+          "epoch": 20,
+          "threshold": 0.35,
+          "grid_order": 1,
+          "CE": 0.547931487966565,
+          "accuracy": 0.8514851485148514
+        },
+        {
+          "epoch": 20,
+          "threshold": 0.5,
+          "grid_order": 2,
+          "CE": 0.5302082298422681,
+          "accuracy": 0.8465346534653464
+        },
+        {
+          "epoch": 40,
+          "threshold": 0.2,
+          "grid_order": 3,
+          "CE": 0.5341320472660392,
+          "accuracy": 0.8514851485148515
+        },
+        {
+          "epoch": 40,
+          "threshold": 0.35,
+          "grid_order": 4,
+          "CE": 0.5262462965376,
+          "accuracy": 0.8465346534653464
+        },
+        {
+          "epoch": 40,
+          "threshold": 0.5,
+          "grid_order": 5,
+          "CE": 0.5225348435935013,
+          "accuracy": 0.8415841584158414
+        },
+        {
+          "epoch": 80,
+          "threshold": 0.2,
+          "grid_order": 6,
+          "CE": 0.5235199831303825,
+          "accuracy": 0.8712871287128712
+        },
+        {
+          "epoch": 80,
+          "threshold": 0.35,
+          "grid_order": 7,
+          "CE": 0.5239791521643474,
+          "accuracy": 0.8514851485148514
+        },
+        {
+          "epoch": 80,
+          "threshold": 0.5,
+          "grid_order": 8,
+          "CE": 0.5167569849418373,
+          "accuracy": 0.8514851485148514
+        }
+      ]
+    }
+  ],
+  "motion": [
+    {
+      "quantile": 0.5,
+      "threshold": 0.026472503063725488,
+      "grid_order": 0,
+      "CE": 0.5868329545752285,
+      "accuracy": 0.8366336633663366
+    },
+    {
+      "quantile": 0.75,
+      "threshold": 0.05485313265931372,
+      "grid_order": 1,
+      "CE": 0.5625796902021399,
+      "accuracy": 0.8465346534653465
+    },
+    {
+      "quantile": 0.9,
+      "threshold": 0.08984834558823529,
+      "grid_order": 2,
+      "CE": 0.5533805149694504,
+      "accuracy": 0.8564356435643563
+    }
+  ]
+}

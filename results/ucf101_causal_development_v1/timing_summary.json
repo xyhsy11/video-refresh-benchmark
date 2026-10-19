@@ -1,0 +1,72 @@
+{
+  "scope": "REAL DEVELOPMENT timing; one median per video/group; repeated trials are not independent",
+  "methods": [
+    {
+      "method": "periodic",
+      "groups": 30,
+      "median_seconds": 0.405591849999837,
+      "median_paired_periodic_over_method": 1.0,
+      "min_paired_ratio": 1.0,
+      "max_paired_ratio": 1.0
+    },
+    {
+      "method": "RandomB4_seeded",
+      "groups": 30,
+      "median_seconds": 0.3994809499999974,
+      "median_paired_periodic_over_method": 1.009133976519804,
+      "min_paired_ratio": 0.8875011691040892,
+      "max_paired_ratio": 1.1909848959829925
+    },
+    {
+      "method": "motion",
+      "groups": 30,
+      "median_seconds": 0.5063039499982551,
+      "median_paired_periodic_over_method": 0.7915971099066643,
+      "min_paired_ratio": 0.6853085725640854,
+      "max_paired_ratio": 0.920633432072642
+    },
+    {
+      "method": "history",
+      "groups": 30,
+      "median_seconds": 0.4092168000006495,
+      "median_paired_periodic_over_method": 0.9938292687016395,
+      "min_paired_ratio": 0.7557542995320371,
+      "max_paired_ratio": 1.1220153965874606
+    },
+    {
+      "method": "history_motion",
+      "groups": 30,
+      "median_seconds": 0.5700277999985701,
+      "median_paired_periodic_over_method": 0.7295498843199664,
+      "min_paired_ratio": 0.6001717881969112,
+      "max_paired_ratio": 0.8601654321232882
+    },
+    {
+      "method": "periodic_unused_gate",
+      "groups": 30,
+      "median_seconds": 0.544742199997927,
+      "median_paired_periodic_over_method": 0.7289165671782417,
+      "min_paired_ratio": 0.6522065397192385,
+      "max_paired_ratio": 0.8510395646036063
+    },
+    {
+      "method": "dense16",
+      "groups": 30,
+      "median_seconds": 1.3858362000028137,
+      "median_paired_periodic_over_method": 0.28631686392427685,
+      "min_paired_ratio": 0.24062655712993422,
+      "max_paired_ratio": 0.3403089373730996
+    }
+  ],
+  "boundary": "encoded-memory -> fresh full decode/PTS -> all cheap observations/decisions -> selected RGB/transfers -> native X3D -> pooling/head/prediction -> CUDA-completed output",
+  "trials": 1470,
+  "measured_trials": 1050,
+  "warmups": 2,
+  "repetitions": 5,
+  "groups": 30,
+  "CPU_threads": 1,
+  "batch": 1,
+  "encoder_dtype": "FP32",
+  "encoder_event_logging": "in-memory real start/completion events, durable flush outside boundary",
+  "offline_Z_pool_latency_assigned": false
+}

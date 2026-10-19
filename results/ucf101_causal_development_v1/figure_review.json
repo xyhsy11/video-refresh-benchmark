@@ -1,0 +1,9 @@
+{
+  "at_utc": "2026-10-19T08:44:11.775497+00:00",
+  "actually_inspected": true,
+  "figures": {
+    "results/ucf101_causal_development_v1/figures/development_failure_analysis.png": "3a34063d14882c4a3be92ffb69024e3b9e65075ac3b6d8781d00b5a1f68ea257",
+    "results/ucf101_causal_development_v1/figures/development_quality_cost.png": "c5826d9638c397523565f065bde9c3a6e60461345a4d80028b59b307107f57e2"
+  },
+  "review": "Both actual rendered PNGs inspected: quality/cost and failure diagnostics readable; DEVELOPMENT scope and privileged oracle explicit; matching PDF exports retained"
+}

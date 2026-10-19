@@ -1,0 +1,5 @@
+{
+  "at_utc": "2026-10-19T07:15:03.425145+00:00",
+  "seal_sha256": "74602a9a7cc118dd5fe3ced304f33875adfb789f22f633ce9eef3b613bfc1125",
+  "scope": "First actual causal DEVELOPMENT rollout; data already used for historical recognition-head selection; no official-test access"
+}
