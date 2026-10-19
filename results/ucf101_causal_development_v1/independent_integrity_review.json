@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "scope": "REAL DEVELOPMENT input/provenance and independent scalar estimand review",
+  "original_approved_AVI_hashes_verified": 1006,
+  "head_data_lineage": {
+    "training_collection_matches": true,
+    "development_collection_matches": true,
+    "training_manifest_matches": true
+  },
+  "class_group_clip_CE": {
+    "periodic": 0.24742722945955997,
+    "RandomB4_seeded": 0.2561591375875432,
+    "motion": 0.27575320420602784,
+    "history": 0.2579509516813773,
+    "history_motion": 0.25539960246970395,
+    "dense16": 0.2443242951434409,
+    "Z_pool_OFFLINE_privileged": 0.24585077954402487
+  },
+  "primary_development_contrast": -0.007972373010143974,
+  "timing_trials": 1470,
+  "measured_timing_trials": 1050,
+  "encoder_starts": 22840,
+  "encoder_completions": 22840,
+  "phase_events": [
+    {
+      "phase": "dense_diagnostic",
+      "event": "complete",
+      "count": 6400
+    },
+    {
+      "phase": "dense_diagnostic",
+      "event": "start",
+      "count": 6400
+    },
+    {
+      "phase": "execution",
+      "event": "complete",
+      "count": 8000
+    },
+    {
+      "phase": "execution",
+      "event": "start",
+      "count": 8000
+    },
+    {
+      "phase": "timing",
+      "event": "complete",
+      "count": 8400
+    },
+    {
+      "phase": "timing",
+      "event": "start",
+      "count": 8400
+    },
+    {
+      "phase": "training_smoke",
+      "event": "complete",
+      "count": 40
+    },
+    {
+      "phase": "training_smoke",
+      "event": "start",
+      "count": 40
+    }
+  ],
+  "auxiliary_helpers_unchanged_from_reviewed_main": {
+    "refresh_pooling_utils.py": "81753ed2a9cdce70d68c7dd64c03e76676c25d4997d0af754c8fdb6b6adad1fd",
+    "temporal_refresh_timing.py": "c8f0ac084d413340304f5a3e4be91745c2c41869716c486c8332b6ffc5def840"
+  },
+  "supplementary_check_time": "2026-10-19T08:41:09.419545+00:00",
+  "source_code_sha256": "580e9f953f0dc0e7d8e66688278ec43f337b64e6fb572f970a6837a59537642a",
+  "attempt_UTC_note": "execution_attempts.at_utc identifies the attempt start on both start/complete rows; actual encoder clock_seconds and measured seconds record execution timing.",
+  "calls_or_metrics_from_official_test": 0,
+  "decodes": 0,
+  "model_calls": 0,
+  "CUDA_imported": false
+}

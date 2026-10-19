@@ -1,0 +1,89 @@
+{
+  "methods": [
+    {
+      "method": "periodic",
+      "clips_higher_CE_than_periodic": 0,
+      "discretionary_decisions": 4800,
+      "teacher_agreement": 0.7595833333333334,
+      "chosen_harmful": 589,
+      "missed_helpful": 1775,
+      "teacher_positive_task_harmful": 602,
+      "MAD_local_task_gain_spearman": null
+    },
+    {
+      "method": "RandomB4_seeded",
+      "clips_higher_CE_than_periodic": 218,
+      "discretionary_decisions": 4683,
+      "teacher_agreement": 0.6105060858424087,
+      "chosen_harmful": 543,
+      "missed_helpful": 1844,
+      "teacher_positive_task_harmful": 826,
+      "MAD_local_task_gain_spearman": null
+    },
+    {
+      "method": "motion",
+      "clips_higher_CE_than_periodic": 223,
+      "discretionary_decisions": 4478,
+      "teacher_agreement": 0.32916480571683787,
+      "chosen_harmful": 115,
+      "missed_helpful": 2187,
+      "teacher_positive_task_harmful": 1377,
+      "MAD_local_task_gain_spearman": -0.030507990273006543
+    },
+    {
+      "method": "history",
+      "clips_higher_CE_than_periodic": 198,
+      "discretionary_decisions": 4022,
+      "teacher_agreement": 0.7255096966683242,
+      "chosen_harmful": 605,
+      "missed_helpful": 1446,
+      "teacher_positive_task_harmful": 330,
+      "MAD_local_task_gain_spearman": null
+    },
+    {
+      "method": "history_motion",
+      "clips_higher_CE_than_periodic": 199,
+      "discretionary_decisions": 4740,
+      "teacher_agreement": 0.6993670886075949,
+      "chosen_harmful": 590,
+      "missed_helpful": 1783,
+      "teacher_positive_task_harmful": 735,
+      "MAD_local_task_gain_spearman": -0.009912613200823945
+    }
+  ],
+  "scope": "Retrospective real development diagnostics; local gains are not cumulative causal effects",
+  "imitation_probability": "Conditional proxy-teacher imitation score, NOT probability of beneficial task update",
+  "training": {
+    "base_examples": 19124,
+    "augmented_examples": 28499,
+    "sources": 404,
+    "source_groups": 202,
+    "files": {
+      "data/source/ucf101_causal_development_v1/base_examples.json.gz": "1f9283297f7477ec8d402d71c6377324b2ba86e5c6d2e7662d8cfe0b3fee18b4",
+      "data/source/ucf101_causal_development_v1/augmented_examples.json.gz": "8530c15933d1c17e1fa2ab79a461687157afef43885c521b3ae354ec8a7245cd"
+    },
+    "head_sha256": "42e9f9813ce13c1b7200c5753ce6af0e7a76016530808c868b433b70ac40a150",
+    "common_sources_and_optimization": true,
+    "architecture": "145 ->32 ReLU ->1 sigmoid; float64 Adam .003 decay .001 batch256;40+80 epochs",
+    "source": "Genuine archived training features and fresh original AVI thumbnails; privileged conditional Z_pool teacher only offline"
+  },
+  "state_shift": {
+    "base_training": {
+      "states": 19124,
+      "standardized_abs_mean": 0.36510104998202425,
+      "fraction_abs_gt3": 0.009852937994504107,
+      "age_budget_total_variation_to_actual_HplusM": 0.10395222121318828
+    },
+    "on_policy_training": {
+      "states": 9375,
+      "standardized_abs_mean": 0.36246157214886,
+      "fraction_abs_gt3": 0.00952128735632184,
+      "age_budget_total_variation_to_actual_HplusM": 0.05420185654008439
+    },
+    "actual_live_HplusM": {
+      "states": 4740,
+      "standardized_abs_mean": 0.38173516947284236,
+      "fraction_abs_gt3": 0.01331441873999709
+    }
+  }
+}

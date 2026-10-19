@@ -1,0 +1,32 @@
+{
+  "revision": "f3142bb05cdb56af0704ab6f0adfb0c7bbafe4a0",
+  "checkpoint": "data/source/temporal_refresh_generalization_v1/X3D_XS.pyth",
+  "checkpoint_sha256": "6dafc96144c88f800b190d2cb179ff69b8fd48c40afd4deca6c1e61f76fdfe86",
+  "upstream_zip_sha256": "aa41c258e23d981526b1e1f87b9e9f0398e3f883a01626d4e73952d1ea41b43a",
+  "upstream_python_files": 107,
+  "preprocessing": "unchanged factory; 4RGB /255 mean.45 std.225; bilinear shortside182 and crop182; 2048D preprojection mean",
+  "native_projection": "400-class projection/averaging executes; activation=None; included in every actual call",
+  "torch": "2.14.1+cu132",
+  "cuda": "13.2",
+  "gpu": "NVIDIA GeForce RTX 3080 Laptop GPU",
+  "numerics": {
+    "dtype": "float32",
+    "batch_size": 1,
+    "eval": true,
+    "inference_mode": true,
+    "autocast": false,
+    "compiled": false,
+    "deterministic_algorithms": true,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "cudnn_allow_tf32": false,
+    "matmul_allow_tf32": false,
+    "float32_matmul_precision": "highest",
+    "torch_cpu_threads": 1,
+    "torch_interop_threads": 1,
+    "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
+    "transfer_non_blocking": true,
+    "input_cpu_memory_pinned": false,
+    "note": "Pageable CPU transfers; non_blocking does not promise transfer/compute overlap."
+  }
+}

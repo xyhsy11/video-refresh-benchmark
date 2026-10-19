@@ -1,0 +1,13 @@
+{
+  "scope": "DESCRIPTIVE actual H+M conditional teacher states; different policies visit different state populations",
+  "decisions": 4740,
+  "teacher_refresh_fraction": 0.30464135021097044,
+  "always_hold_agreement": 0.6953586497890296,
+  "actual_agreement": 0.6993670886075949,
+  "confusion": {
+    "TP": 585,
+    "FP": 566,
+    "TN": 2730,
+    "FN": 859
+  }
+}

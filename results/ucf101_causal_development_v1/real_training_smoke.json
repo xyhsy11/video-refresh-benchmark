@@ -1,0 +1,65 @@
+{
+  "at_utc": "2026-10-19T07:08:45.874203+00:00",
+  "real_training_only_clips": [
+    "v_BasketballDunk_g20_c03.avi",
+    "v_WallPushups_g08_c01.avi"
+  ],
+  "records": [
+    {
+      "clip": "v_BasketballDunk_g20_c03.avi",
+      "method": "periodic",
+      "seconds": 0.9116059000007226,
+      "actual_calls": 4,
+      "maximum_feature_difference": 0.0,
+      "maximum_logit_difference": 0.0
+    },
+    {
+      "clip": "v_BasketballDunk_g20_c03.avi",
+      "method": "dense16",
+      "seconds": 1.4803671000008762,
+      "actual_calls": 16,
+      "maximum_feature_difference": 0.0,
+      "maximum_logit_difference": 0.0
+    },
+    {
+      "clip": "v_WallPushups_g08_c01.avi",
+      "method": "periodic",
+      "seconds": 0.5193029999991268,
+      "actual_calls": 4,
+      "maximum_feature_difference": 0.0,
+      "maximum_logit_difference": 0.0
+    },
+    {
+      "clip": "v_WallPushups_g08_c01.avi",
+      "method": "dense16",
+      "seconds": 1.168669200000295,
+      "actual_calls": 16,
+      "maximum_feature_difference": 0.0,
+      "maximum_logit_difference": 0.0
+    }
+  ],
+  "native_projection_check": {
+    "strict_loading": true,
+    "shape": [
+      1,
+      2048
+    ],
+    "projection_shape": [
+      1,
+      1,
+      2,
+      2,
+      2048
+    ],
+    "native_mean_max_difference": 0.0,
+    "affine_mean_max_difference": 1.9073486328125e-06,
+    "native_projection_executed": true
+  },
+  "planned_quality_calls": 14400,
+  "planned_timing_calls": 8400,
+  "projected_quality_seconds": 1960.7161600000836,
+  "projected_timing_seconds": 1179.621418500028,
+  "projected_local_bytes": 2147483648,
+  "free_disk_bytes": 112109940736,
+  "projection_limit": "Two real training sources only; controller/thumbnail costs and thermals uncertain; no coverage reduction based on projection"
+}

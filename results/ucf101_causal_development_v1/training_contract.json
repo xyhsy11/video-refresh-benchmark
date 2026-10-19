@@ -1,0 +1,21 @@
+{
+  "manifest_sha256": "d13821d967c07365073beed5f06a8084bdac6df094dda84a23894adcd43b116d",
+  "protocol_sha256": "3767c637126e06eff9f8f38e3491d035d5316ebd47bb01ca06e1120413e09a47",
+  "code_sha256": {
+    "ucf101_causal_development_common.py": "a5fdb467e339f80841528b30d0421c3871d90ec8836dbcebec8fdd9839ca9bc1",
+    "ucf101_causal_development.py": "00b4f4142e7bddab27e8b6c9aa654c28e43725de56591cb9ffe44e23805f4ede",
+    "run_ucf101_causal_development.py": "3a5f8438d31508643b3e2f09695c3f62850cdc80b54d9fc805fe41712a81282e",
+    "causal_observability_policy.py": "dda0908b98b042b4e5ac88a86cead957530582d4e1f4e7a186714450a0d212c6",
+    "causal_observability_learning.py": "b8c05965d3b2fe477bed9398201e21a6d4708d0f38e4b7d4be52d3a3330fd435",
+    "causal_observability_runtime.py": "ebbf6eaa9f949f5652c844f4d3a653145c41db1644e3a6cf7b3fd47572df0019",
+    "causal_observability_common.py": "8fae3697454857bcf3cb6d6a3bcdaec5b448776badbd5633e45b5d48b11f5414",
+    "ucf101_proxy_inference.py": "11fcf481c400f58fb46ebde602b83b830ae5d305b87ed055c89dc14a93f34b3a",
+    "ucf101_proxy_math.py": "098384c6e7c096825145f47a4e5ecee0948febaf4e792bf34c3163cc42c22f77",
+    "ucf101_proxy_common.py": "48250e1140beb1aaaa9f4db1e8f644f1e232449bcfa463f5bdd53f36749fb97b",
+    "temporal_refresh_common.py": "5e4f53da9110e43eaa1ff4624645bdb14ade891074f09e46540615d39f7d4cbb",
+    "ucf101_proxy_data.py": "39f097455198d9ac9ae0fa58946bb35fa44622f61fb186f9d0a3aea4d216a8b3",
+    "research_utils.py": "06b0bd9df2ebbbf314a5a21e086f00e7018d7dbd7a189adac3cf2d79f0352044",
+    "benchmark.py": "d9c2e63d0b888b953b0cb03d583d8176cd579dc6ecd54a04676a0ef4a0d308f1"
+  },
+  "head_sha256": "42e9f9813ce13c1b7200c5753ce6af0e7a76016530808c868b433b70ac40a150"
+}

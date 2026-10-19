@@ -1,0 +1,10 @@
+{
+  "actual_official_class_order_equals_lexical": false,
+  "official_block_and_canonical_mean_weights_identical": true,
+  "misaligned_group_rows": 0,
+  "scope": "Input-only actual group membership check; no predictions/outcomes read",
+  "single_group_classes": [
+    "BenchPress",
+    "JavelinThrow"
+  ]
+}
