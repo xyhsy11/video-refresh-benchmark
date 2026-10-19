@@ -1,0 +1,42 @@
+[
+  {
+    "role": "controller_train",
+    "population": "periodic",
+    "path": "results/task_utility_observability_v1/predictions_controller_train_periodic.npz",
+    "sha256": "3f934d0326150a2b6bf3338fbf58f3c9c5c047c3c71795d1d5b147659947c4ff",
+    "states_path": "results/task_utility_observability_v1/states_controller_train_periodic.json.gz",
+    "states_sha256": "edd3d1e29d76f86a166e71320899180626e3549b77640b56f6cf945cfa7f2eff"
+  },
+  {
+    "role": "selection",
+    "population": "periodic",
+    "path": "results/task_utility_observability_v1/predictions_selection_periodic.npz",
+    "sha256": "16d9aed3991fa5abd79b2c9a94a70073ae7af6fdd04504d3d2426c18f2c69be8",
+    "states_path": "results/task_utility_observability_v1/states_selection_periodic.json.gz",
+    "states_sha256": "92d149da207fa5c1089ac9f5256094c7c7a3413942490db5bdb24456ee38d130"
+  },
+  {
+    "role": "execution",
+    "population": "periodic",
+    "path": "results/task_utility_observability_v1/predictions_execution_periodic.npz",
+    "sha256": "1850acf58758cdb3d2c1a5767d5f4ffab466b1d0fb590d50f3e353a31431cfc0",
+    "states_path": "results/task_utility_observability_v1/states_execution_periodic.json.gz",
+    "states_sha256": "b78d8e195dd8e07f8903c455b2be49cc7ed8dcfc9f24972d7c15f4ba8bc00ba7"
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "path": "results/task_utility_observability_v1/predictions_execution_random.npz",
+    "sha256": "6b17a7d101df9c4aab5c01a34218beca433dee5f39a4f98c17b3a0441490678f",
+    "states_path": "results/task_utility_observability_v1/states_execution_random.json.gz",
+    "states_sha256": "0c7e4e38848bf36854de2923c21140028e84dbaf9e5590c4d296b5c447395be5"
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "path": "results/task_utility_observability_v1/predictions_execution_HM_executed.npz",
+    "sha256": "57e1f548bbfb6268ad37d7dbd738b13c1f1ebda9df796ff945c59cd604d675b8",
+    "states_path": "results/task_utility_observability_v1/states_execution_HM_executed.json.gz",
+    "states_sha256": "20751d77ddd69d79f9556ae88be14235bc20b7f2ba9b802b5074cb0b04b8cfcf"
+  }
+]

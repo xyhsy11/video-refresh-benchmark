@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "known_duplicate_edges": 2,
+  "complete_edge_graph_nodes": 1010,
+  "selected_clips": 1006,
+  "cross_role_components": [],
+  "transitive_bridges_through_nonselected_members_included": true,
+  "group_links_class_scoped": true,
+  "original_duplicate_audit_sha256": "22a33e465c66966330c7a15c3932679c4246b648084f10a7e87e04ab856d788d",
+  "unknown_parent_pretraining_mappings_unresolved": true,
+  "source_code_sha256": "760ebaa1e94d243bb6d8d98978ba0352a765fbe3d172299092aa80d1a877395c"
+}

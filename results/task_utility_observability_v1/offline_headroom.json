@@ -1,0 +1,39 @@
+{
+  "roles": [
+    {
+      "periodic_CE": 0.005320813639360703,
+      "task_oracle_CE": 0.0017242226544037851,
+      "Z_pool_CE": 0.0047112373522519395,
+      "dense_CE": 0.004527187451072509,
+      "role": "controller_train",
+      "clips": 404,
+      "groups": 202,
+      "perfect_hindsight_headroom": 0.003596590984956918,
+      "proxy_reduction": 0.0006095762871087635
+    },
+    {
+      "periodic_CE": 0.5161090266861162,
+      "task_oracle_CE": 0.337556885162351,
+      "Z_pool_CE": 0.5190386215647694,
+      "dense_CE": 0.515801961546029,
+      "role": "selection",
+      "clips": 202,
+      "groups": 101,
+      "perfect_hindsight_headroom": 0.17855214152376525,
+      "proxy_reduction": -0.0029295948786531856
+    },
+    {
+      "periodic_CE": 0.24742722945956003,
+      "task_oracle_CE": 0.13548268541350716,
+      "Z_pool_CE": 0.2458507795440249,
+      "dense_CE": 0.24432429514344095,
+      "role": "execution",
+      "clips": 400,
+      "groups": 200,
+      "perfect_hindsight_headroom": 0.11194454404605286,
+      "proxy_reduction": 0.0015764499155351275
+    }
+  ],
+  "all_schedules": 455,
+  "scope": "Full-information true-label task oracle; not achievable causal policy evidence"
+}

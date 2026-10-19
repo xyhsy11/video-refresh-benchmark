@@ -1,0 +1,1048 @@
+[
+  {
+    "role": "controller_train",
+    "population": "periodic",
+    "variable": "t",
+    "value": 1,
+    "states": 404,
+    "weight": 0.08333333333333334
+  },
+  {
+    "role": "controller_train",
+    "population": "periodic",
+    "variable": "t",
+    "value": 2,
+    "states": 404,
+    "weight": 0.08333333333333334
+  },
+  {
+    "role": "controller_train",
+    "population": "periodic",
+    "variable": "t",
+    "value": 3,
+    "states": 404,
+    "weight": 0.08333333333333334
+  },
+  {
+    "role": "controller_train",
+    "population": "periodic",
+    "variable": "t",
+    "value": 4,
+    "states": 404,
+    "weight": 0.08333333333333334
+  },
+  {
+    "role": "controller_train",
+    "population": "periodic",
+    "variable": "t",
+    "value": 5,
+    "states": 404,
+    "weight": 0.08333333333333334
+  },
+  {
+    "role": "controller_train",
+    "population": "periodic",
+    "variable": "t",
+    "value": 6,
+    "states": 404,
+    "weight": 0.08333333333333334
+  },
+  {
+    "role": "controller_train",
+    "population": "periodic",
+    "variable": "t",
+    "value": 7,
+    "states": 404,
+    "weight": 0.08333333333333334
+  },
+  {
+    "role": "controller_train",
+    "population": "periodic",
+    "variable": "t",
+    "value": 8,
+    "states": 404,
+    "weight": 0.08333333333333334
+  },
+  {
+    "role": "controller_train",
+    "population": "periodic",
+    "variable": "t",
+    "value": 9,
+    "states": 404,
+    "weight": 0.08333333333333334
+  },
+  {
+    "role": "controller_train",
+    "population": "periodic",
+    "variable": "t",
+    "value": 10,
+    "states": 404,
+    "weight": 0.08333333333333334
+  },
+  {
+    "role": "controller_train",
+    "population": "periodic",
+    "variable": "t",
+    "value": 11,
+    "states": 404,
+    "weight": 0.08333333333333334
+  },
+  {
+    "role": "controller_train",
+    "population": "periodic",
+    "variable": "t",
+    "value": 12,
+    "states": 404,
+    "weight": 0.08333333333333334
+  },
+  {
+    "role": "controller_train",
+    "population": "periodic",
+    "variable": "age",
+    "value": 1,
+    "states": 1212,
+    "weight": 0.25000000000000133
+  },
+  {
+    "role": "controller_train",
+    "population": "periodic",
+    "variable": "age",
+    "value": 2,
+    "states": 1212,
+    "weight": 0.25000000000000133
+  },
+  {
+    "role": "controller_train",
+    "population": "periodic",
+    "variable": "age",
+    "value": 3,
+    "states": 1212,
+    "weight": 0.25000000000000133
+  },
+  {
+    "role": "controller_train",
+    "population": "periodic",
+    "variable": "age",
+    "value": 4,
+    "states": 1212,
+    "weight": 0.25000000000000133
+  },
+  {
+    "role": "controller_train",
+    "population": "periodic",
+    "variable": "remaining",
+    "value": 1,
+    "states": 1616,
+    "weight": 0.33333333333333337
+  },
+  {
+    "role": "controller_train",
+    "population": "periodic",
+    "variable": "remaining",
+    "value": 2,
+    "states": 1616,
+    "weight": 0.33333333333333337
+  },
+  {
+    "role": "controller_train",
+    "population": "periodic",
+    "variable": "remaining",
+    "value": 3,
+    "states": 1616,
+    "weight": 0.33333333333333337
+  },
+  {
+    "role": "controller_train",
+    "population": "periodic",
+    "variable": "teacher_refresh",
+    "value": 0,
+    "states": 3572,
+    "weight": 0.7367986798679891
+  },
+  {
+    "role": "controller_train",
+    "population": "periodic",
+    "variable": "teacher_refresh",
+    "value": 1,
+    "states": 1276,
+    "weight": 0.2632013201320132
+  },
+  {
+    "role": "controller_train",
+    "population": "periodic",
+    "variable": "MAD_quantiles",
+    "value": {
+      "0.01": 0.001796109068627451,
+      "0.1": 0.004921109068627451,
+      "0.5": 0.026723345588235293,
+      "0.9": 0.08841528799019607,
+      "0.99": 0.15688189338235292
+    },
+    "states": 4848,
+    "weight": 1.0
+  },
+  {
+    "role": "selection",
+    "population": "periodic",
+    "variable": "t",
+    "value": 1,
+    "states": 202,
+    "weight": 0.0833333333333334
+  },
+  {
+    "role": "selection",
+    "population": "periodic",
+    "variable": "t",
+    "value": 2,
+    "states": 202,
+    "weight": 0.0833333333333334
+  },
+  {
+    "role": "selection",
+    "population": "periodic",
+    "variable": "t",
+    "value": 3,
+    "states": 202,
+    "weight": 0.0833333333333334
+  },
+  {
+    "role": "selection",
+    "population": "periodic",
+    "variable": "t",
+    "value": 4,
+    "states": 202,
+    "weight": 0.0833333333333334
+  },
+  {
+    "role": "selection",
+    "population": "periodic",
+    "variable": "t",
+    "value": 5,
+    "states": 202,
+    "weight": 0.0833333333333334
+  },
+  {
+    "role": "selection",
+    "population": "periodic",
+    "variable": "t",
+    "value": 6,
+    "states": 202,
+    "weight": 0.0833333333333334
+  },
+  {
+    "role": "selection",
+    "population": "periodic",
+    "variable": "t",
+    "value": 7,
+    "states": 202,
+    "weight": 0.0833333333333334
+  },
+  {
+    "role": "selection",
+    "population": "periodic",
+    "variable": "t",
+    "value": 8,
+    "states": 202,
+    "weight": 0.0833333333333334
+  },
+  {
+    "role": "selection",
+    "population": "periodic",
+    "variable": "t",
+    "value": 9,
+    "states": 202,
+    "weight": 0.0833333333333334
+  },
+  {
+    "role": "selection",
+    "population": "periodic",
+    "variable": "t",
+    "value": 10,
+    "states": 202,
+    "weight": 0.0833333333333334
+  },
+  {
+    "role": "selection",
+    "population": "periodic",
+    "variable": "t",
+    "value": 11,
+    "states": 202,
+    "weight": 0.0833333333333334
+  },
+  {
+    "role": "selection",
+    "population": "periodic",
+    "variable": "t",
+    "value": 12,
+    "states": 202,
+    "weight": 0.0833333333333334
+  },
+  {
+    "role": "selection",
+    "population": "periodic",
+    "variable": "age",
+    "value": 1,
+    "states": 606,
+    "weight": 0.2499999999999996
+  },
+  {
+    "role": "selection",
+    "population": "periodic",
+    "variable": "age",
+    "value": 2,
+    "states": 606,
+    "weight": 0.2499999999999996
+  },
+  {
+    "role": "selection",
+    "population": "periodic",
+    "variable": "age",
+    "value": 3,
+    "states": 606,
+    "weight": 0.2499999999999996
+  },
+  {
+    "role": "selection",
+    "population": "periodic",
+    "variable": "age",
+    "value": 4,
+    "states": 606,
+    "weight": 0.2499999999999996
+  },
+  {
+    "role": "selection",
+    "population": "periodic",
+    "variable": "remaining",
+    "value": 1,
+    "states": 808,
+    "weight": 0.33333333333333365
+  },
+  {
+    "role": "selection",
+    "population": "periodic",
+    "variable": "remaining",
+    "value": 2,
+    "states": 808,
+    "weight": 0.33333333333333365
+  },
+  {
+    "role": "selection",
+    "population": "periodic",
+    "variable": "remaining",
+    "value": 3,
+    "states": 808,
+    "weight": 0.3333333333333336
+  },
+  {
+    "role": "selection",
+    "population": "periodic",
+    "variable": "teacher_refresh",
+    "value": 0,
+    "states": 1766,
+    "weight": 0.728547854785478
+  },
+  {
+    "role": "selection",
+    "population": "periodic",
+    "variable": "teacher_refresh",
+    "value": 1,
+    "states": 658,
+    "weight": 0.2714521452145217
+  },
+  {
+    "role": "selection",
+    "population": "periodic",
+    "variable": "MAD_quantiles",
+    "value": {
+      "0.01": 0.0013480392156862745,
+      "0.1": 0.006112132352941176,
+      "0.5": 0.02348345588235294,
+      "0.9": 0.0933172487745098,
+      "0.99": 0.18201976102941175
+    },
+    "states": 2424,
+    "weight": 1.0
+  },
+  {
+    "role": "execution",
+    "population": "periodic",
+    "variable": "t",
+    "value": 1,
+    "states": 400,
+    "weight": 0.08333333333333334
+  },
+  {
+    "role": "execution",
+    "population": "periodic",
+    "variable": "t",
+    "value": 2,
+    "states": 400,
+    "weight": 0.08333333333333334
+  },
+  {
+    "role": "execution",
+    "population": "periodic",
+    "variable": "t",
+    "value": 3,
+    "states": 400,
+    "weight": 0.08333333333333334
+  },
+  {
+    "role": "execution",
+    "population": "periodic",
+    "variable": "t",
+    "value": 4,
+    "states": 400,
+    "weight": 0.08333333333333334
+  },
+  {
+    "role": "execution",
+    "population": "periodic",
+    "variable": "t",
+    "value": 5,
+    "states": 400,
+    "weight": 0.08333333333333334
+  },
+  {
+    "role": "execution",
+    "population": "periodic",
+    "variable": "t",
+    "value": 6,
+    "states": 400,
+    "weight": 0.08333333333333334
+  },
+  {
+    "role": "execution",
+    "population": "periodic",
+    "variable": "t",
+    "value": 7,
+    "states": 400,
+    "weight": 0.08333333333333334
+  },
+  {
+    "role": "execution",
+    "population": "periodic",
+    "variable": "t",
+    "value": 8,
+    "states": 400,
+    "weight": 0.08333333333333334
+  },
+  {
+    "role": "execution",
+    "population": "periodic",
+    "variable": "t",
+    "value": 9,
+    "states": 400,
+    "weight": 0.08333333333333334
+  },
+  {
+    "role": "execution",
+    "population": "periodic",
+    "variable": "t",
+    "value": 10,
+    "states": 400,
+    "weight": 0.08333333333333334
+  },
+  {
+    "role": "execution",
+    "population": "periodic",
+    "variable": "t",
+    "value": 11,
+    "states": 400,
+    "weight": 0.08333333333333334
+  },
+  {
+    "role": "execution",
+    "population": "periodic",
+    "variable": "t",
+    "value": 12,
+    "states": 400,
+    "weight": 0.08333333333333334
+  },
+  {
+    "role": "execution",
+    "population": "periodic",
+    "variable": "age",
+    "value": 1,
+    "states": 1200,
+    "weight": 0.25000000000000133
+  },
+  {
+    "role": "execution",
+    "population": "periodic",
+    "variable": "age",
+    "value": 2,
+    "states": 1200,
+    "weight": 0.25000000000000133
+  },
+  {
+    "role": "execution",
+    "population": "periodic",
+    "variable": "age",
+    "value": 3,
+    "states": 1200,
+    "weight": 0.25000000000000133
+  },
+  {
+    "role": "execution",
+    "population": "periodic",
+    "variable": "age",
+    "value": 4,
+    "states": 1200,
+    "weight": 0.25000000000000133
+  },
+  {
+    "role": "execution",
+    "population": "periodic",
+    "variable": "remaining",
+    "value": 1,
+    "states": 1600,
+    "weight": 0.33333333333333337
+  },
+  {
+    "role": "execution",
+    "population": "periodic",
+    "variable": "remaining",
+    "value": 2,
+    "states": 1600,
+    "weight": 0.33333333333333337
+  },
+  {
+    "role": "execution",
+    "population": "periodic",
+    "variable": "remaining",
+    "value": 3,
+    "states": 1600,
+    "weight": 0.33333333333333337
+  },
+  {
+    "role": "execution",
+    "population": "periodic",
+    "variable": "teacher_refresh",
+    "value": 0,
+    "states": 3558,
+    "weight": 0.7413366336633688
+  },
+  {
+    "role": "execution",
+    "population": "periodic",
+    "variable": "teacher_refresh",
+    "value": 1,
+    "states": 1242,
+    "weight": 0.25866336633663367
+  },
+  {
+    "role": "execution",
+    "population": "periodic",
+    "variable": "MAD_quantiles",
+    "value": {
+      "0.01": 0.0010991115196078434,
+      "0.1": 0.00525045955882353,
+      "0.5": 0.025080422794117645,
+      "0.9": 0.08963311887254902,
+      "0.99": 0.15561810661764705
+    },
+    "states": 4800,
+    "weight": 1.0
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "t",
+    "value": 1,
+    "states": 400,
+    "weight": 0.09143037243284768
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "t",
+    "value": 2,
+    "states": 400,
+    "weight": 0.09143037243284767
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "t",
+    "value": 3,
+    "states": 400,
+    "weight": 0.09143037243284767
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "t",
+    "value": 4,
+    "states": 399,
+    "weight": 0.09060528992459686
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "t",
+    "value": 5,
+    "states": 393,
+    "weight": 0.08689241863746815
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "t",
+    "value": 6,
+    "states": 390,
+    "weight": 0.08540727012261666
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "t",
+    "value": 7,
+    "states": 383,
+    "weight": 0.08251948134373878
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "t",
+    "value": 8,
+    "states": 373,
+    "weight": 0.07898341345123523
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "t",
+    "value": 9,
+    "states": 356,
+    "weight": 0.07372351246113622
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "t",
+    "value": 10,
+    "states": 326,
+    "weight": 0.06547268737862796
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "t",
+    "value": 11,
+    "states": 292,
+    "weight": 0.05680932104199431
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "t",
+    "value": 12,
+    "states": 251,
+    "weight": 0.04735837594748486
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "t",
+    "value": 13,
+    "states": 196,
+    "weight": 0.03601349145903601
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "t",
+    "value": 14,
+    "states": 124,
+    "weight": 0.021923620933521924
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "age",
+    "value": 1,
+    "states": 1186,
+    "weight": 0.2716254661180402
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "age",
+    "value": 2,
+    "states": 946,
+    "weight": 0.2070760441428758
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "age",
+    "value": 3,
+    "states": 717,
+    "weight": 0.15281605770467158
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "age",
+    "value": 4,
+    "states": 568,
+    "weight": 0.11866008029374368
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "age",
+    "value": 5,
+    "states": 430,
+    "weight": 0.08720857662689346
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "age",
+    "value": 6,
+    "states": 321,
+    "weight": 0.06424318256001424
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "age",
+    "value": 7,
+    "states": 224,
+    "weight": 0.04374308309951875
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "age",
+    "value": 8,
+    "states": 139,
+    "weight": 0.026705555170901705
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "age",
+    "value": 9,
+    "states": 83,
+    "weight": 0.015353046293640354
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "age",
+    "value": 10,
+    "states": 42,
+    "weight": 0.007659213723570159
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "age",
+    "value": 11,
+    "states": 22,
+    "weight": 0.003998476770753998
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "age",
+    "value": 12,
+    "states": 5,
+    "weight": 0.0009112174953759112
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "remaining",
+    "value": 1,
+    "states": 1560,
+    "weight": 0.33138508218953716
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "remaining",
+    "value": 2,
+    "states": 1523,
+    "weight": 0.3249784456467622
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "remaining",
+    "value": 3,
+    "states": 1600,
+    "weight": 0.3436364721636996
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "teacher_refresh",
+    "value": 0,
+    "states": 2983,
+    "weight": 0.6602599545668847
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "teacher_refresh",
+    "value": 1,
+    "states": 1700,
+    "weight": 0.3397400454331143
+  },
+  {
+    "role": "execution",
+    "population": "random",
+    "variable": "MAD_quantiles",
+    "value": {
+      "0.01": 0.001014859068627451,
+      "0.1": 0.005219822303921569,
+      "0.5": 0.02479702818627451,
+      "0.9": 0.09117264093137256,
+      "0.99": 0.15646063112745098
+    },
+    "states": 4683,
+    "weight": 1.0
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "t",
+    "value": 1,
+    "states": 400,
+    "weight": 0.08678019587673054
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "t",
+    "value": 2,
+    "states": 400,
+    "weight": 0.08678019587673054
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "t",
+    "value": 3,
+    "states": 400,
+    "weight": 0.08678019587673053
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "t",
+    "value": 4,
+    "states": 400,
+    "weight": 0.08678019587673053
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "t",
+    "value": 5,
+    "states": 400,
+    "weight": 0.08678019587673054
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "t",
+    "value": 6,
+    "states": 400,
+    "weight": 0.08678019587673054
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "t",
+    "value": 7,
+    "states": 400,
+    "weight": 0.08678019587673054
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "t",
+    "value": 8,
+    "states": 392,
+    "weight": 0.0839513415627277
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "t",
+    "value": 9,
+    "states": 375,
+    "weight": 0.0786914405726287
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "t",
+    "value": 10,
+    "states": 354,
+    "weight": 0.0729158630148729
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "t",
+    "value": 11,
+    "states": 311,
+    "weight": 0.06227229865843727
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "t",
+    "value": 12,
+    "states": 244,
+    "weight": 0.04697076850542197
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "t",
+    "value": 13,
+    "states": 171,
+    "weight": 0.0312942008486563
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "t",
+    "value": 14,
+    "states": 93,
+    "weight": 0.01644271570014144
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "age",
+    "value": 1,
+    "states": 1199,
+    "weight": 0.26015018397444145
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "age",
+    "value": 2,
+    "states": 1186,
+    "weight": 0.2565956046154066
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "age",
+    "value": 3,
+    "states": 1091,
+    "weight": 0.23211287474901346
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "age",
+    "value": 4,
+    "states": 766,
+    "weight": 0.155968069334406
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "age",
+    "value": 5,
+    "states": 354,
+    "weight": 0.06863895180726864
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "age",
+    "value": 6,
+    "states": 103,
+    "weight": 0.01914937372858165
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "age",
+    "value": 7,
+    "states": 28,
+    "weight": 0.005032096616255033
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "age",
+    "value": 8,
+    "states": 11,
+    "weight": 0.0019856381242519855
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "age",
+    "value": 9,
+    "states": 2,
+    "weight": 0.0003672070503753672
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "remaining",
+    "value": 1,
+    "states": 1532,
+    "weight": 0.3275420673935524
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "remaining",
+    "value": 2,
+    "states": 1569,
+    "weight": 0.3303208274124114
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "remaining",
+    "value": 3,
+    "states": 1639,
+    "weight": 0.3421371051940357
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "teacher_refresh",
+    "value": 0,
+    "states": 3296,
+    "weight": 0.7131922807665378
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "teacher_refresh",
+    "value": 1,
+    "states": 1444,
+    "weight": 0.28680771923346166
+  },
+  {
+    "role": "execution",
+    "population": "HM_executed",
+    "variable": "MAD_quantiles",
+    "value": {
+      "0.01": 0.0010493259803921568,
+      "0.1": 0.0052313112745098036,
+      "0.5": 0.024965533088235292,
+      "0.9": 0.0896484375,
+      "0.99": 0.15646063112745098
+    },
+    "states": 4740,
+    "weight": 1.0
+  }
+]

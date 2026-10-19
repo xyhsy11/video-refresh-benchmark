@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "clips": 1006,
+  "states": 27090,
+  "discretionary_states": 21495,
+  "enumerated_schedules_per_clip": 455,
+  "all_clip_independent_scalar_C_pooling_loss_max_error": 4.618527782440651e-14,
+  "all_state_independent_prefix_combinations_target_max_error": 4.973799150320701e-14,
+  "raw_feature_affine_replay": [
+    {
+      "clip": "v_Lunges_g08_c03.avi",
+      "schedules": 455,
+      "maximum_loss_error": 1.0658141036401503e-14,
+      "feature_sha256": "6b672cc52b7fb684aa3108e88003e65c15d6b2f1834ebea44840a7339a8b2f11"
+    },
+    {
+      "clip": "v_Basketball_g13_c02.avi",
+      "schedules": 455,
+      "maximum_loss_error": 1.5987211554602254e-14,
+      "feature_sha256": "92df83ed7b8a31e5d6d85105119685c720c91abbe4ad297ffd4dbe53074bd55c"
+    },
+    {
+      "clip": "v_CleanAndJerk_g11_c03.avi",
+      "schedules": 455,
+      "maximum_loss_error": 1.4210854715202004e-14,
+      "feature_sha256": "d806939c67d5041cb09087a511bdb5543810c24ede6c578aabb6dac83c45b3a2"
+    },
+    {
+      "clip": "v_YoYo_g25_c03.avi",
+      "schedules": 455,
+      "maximum_loss_error": 3.552713678800501e-15,
+      "feature_sha256": "b60ab81c83d9ae24a11a6eb28d1fd9c740fdfa2d60087611a0b0e250f3d51056"
+    },
+    {
+      "clip": "v_Shotput_g15_c04.avi",
+      "schedules": 455,
+      "maximum_loss_error": 8.881784197001252e-15,
+      "feature_sha256": "ee4b2d85fc2df4e2922bacd29f5de25f82baa6a2a620ebe2c2facb318a85da4b"
+    },
+    {
+      "clip": "v_YoYo_g19_c02.avi",
+      "schedules": 455,
+      "maximum_loss_error": 1.7763568394002505e-15,
+      "feature_sha256": "77cad29671f378e0a965c6271ebf8ead481c1d0a1addbf5336f546713945cf41"
+    },
+    {
+      "clip": "v_ApplyLipstick_g19_c01.avi",
+      "schedules": 455,
+      "maximum_loss_error": 1.7763568394002505e-14,
+      "feature_sha256": "344129e0e09efd2c6d70b90d03b65069d4b4447774e00095f828152d2a9fcc56"
+    },
+    {
+      "clip": "v_Drumming_g21_c06.avi",
+      "schedules": 455,
+      "maximum_loss_error": 3.907985046680551e-14,
+      "feature_sha256": "e6c00c3c9c2b6728eea215d5929b0442055a9d09e4235152c6882edf6ab9edf7"
+    },
+    {
+      "clip": "v_ApplyEyeMakeup_g11_c02.avi",
+      "schedules": 455,
+      "maximum_loss_error": 2.4868995751603507e-14,
+      "feature_sha256": "9b431ba41652ddcd0940255198e6b6b2cfc58f33bc819851c0a24ff57647ea7e"
+    },
+    {
+      "clip": "v_TableTennisShot_g25_c07.avi",
+      "schedules": 455,
+      "maximum_loss_error": 6.217248937900877e-15,
+      "feature_sha256": "481f78bc337adbb58c8f2a504d3e67381ce30a430e6c8dcabe93f97ddfb8e574"
+    },
+    {
+      "clip": "v_BodyWeightSquats_g25_c03.avi",
+      "schedules": 455,
+      "maximum_loss_error": 1.4210854715202004e-14,
+      "feature_sha256": "45dee499c3cdeda0433fb55db2a7c92becb38e690917b1cb953102f700bc6f90"
+    },
+    {
+      "clip": "v_WritingOnBoard_g19_c01.avi",
+      "schedules": 455,
+      "maximum_loss_error": 1.7763568394002505e-15,
+      "feature_sha256": "ce49b1e69186fd962a2b78d84e9bee4b0ce9370143c832ad939e52baa5032bf5"
+    }
+  ],
+  "local_sign": "CE(cache)-CE(current)",
+  "budget_sign": "min hold-completion CE minus min refresh-completion CE",
+  "forced_and_exhausted_states_retained_but_excluded_from_probes": true,
+  "near_zero_exclusion": false,
+  "new_X3D_calls": 0,
+  "new_video_decodes": 0,
+  "labels_used_only_for_retrospective_targets": true
+}

@@ -1,0 +1,14 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "CPU_threads": 1,
+  "CUDA_visible_devices": "",
+  "GPU_calls": 0,
+  "new_network_bytes": 0,
+  "package_installs": [],
+  "available_disk_bytes": 111718879232
+}

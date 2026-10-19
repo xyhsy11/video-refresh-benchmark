@@ -1,0 +1,261 @@
+{
+  "passed": true,
+  "models_bitwise_parameter_unchanged": [
+    "budget_baseline.json",
+    "budget_constant.json",
+    "budget_H.json",
+    "budget_HM.json",
+    "budget_M.json",
+    "local_baseline.json",
+    "local_constant.json",
+    "local_H.json",
+    "local_HM.json",
+    "local_M.json"
+  ],
+  "prediction_vectors_bitwise_unchanged": [
+    "predictions_controller_train_periodic.npz",
+    "predictions_execution_HM_executed.npz",
+    "predictions_execution_periodic.npz",
+    "predictions_execution_random.npz",
+    "predictions_selection_periodic.npz"
+  ],
+  "constant_correlation_only_corrected": true,
+  "H_HM_shared_standardization_agrees_within_1e_12": true,
+  "shared_normalization_maximum_absolute_difference": 1.63202784619898e-14,
+  "state_counts": [
+    {
+      "role": "controller_train",
+      "population": "periodic",
+      "discretionary": false,
+      "states": 1212
+    },
+    {
+      "role": "controller_train",
+      "population": "periodic",
+      "discretionary": true,
+      "states": 4848
+    },
+    {
+      "role": "execution",
+      "population": "HM_executed",
+      "discretionary": false,
+      "states": 1260
+    },
+    {
+      "role": "execution",
+      "population": "HM_executed",
+      "discretionary": true,
+      "states": 4740
+    },
+    {
+      "role": "execution",
+      "population": "periodic",
+      "discretionary": false,
+      "states": 1200
+    },
+    {
+      "role": "execution",
+      "population": "periodic",
+      "discretionary": true,
+      "states": 4800
+    },
+    {
+      "role": "execution",
+      "population": "random",
+      "discretionary": false,
+      "states": 1317
+    },
+    {
+      "role": "execution",
+      "population": "random",
+      "discretionary": true,
+      "states": 4683
+    },
+    {
+      "role": "selection",
+      "population": "periodic",
+      "discretionary": false,
+      "states": 606
+    },
+    {
+      "role": "selection",
+      "population": "periodic",
+      "discretionary": true,
+      "states": 2424
+    }
+  ],
+  "coverage": [
+    {
+      "population": "periodic",
+      "stratum": "all",
+      "states": 4800,
+      "groups": 200,
+      "classes": 101,
+      "sparse": false
+    },
+    {
+      "population": "periodic",
+      "stratum": "position_1_4",
+      "states": 1600,
+      "groups": 200,
+      "classes": 101,
+      "sparse": false
+    },
+    {
+      "population": "periodic",
+      "stratum": "position_5_8",
+      "states": 1600,
+      "groups": 200,
+      "classes": 101,
+      "sparse": false
+    },
+    {
+      "population": "periodic",
+      "stratum": "position_9_15",
+      "states": 1600,
+      "groups": 200,
+      "classes": 101,
+      "sparse": false
+    },
+    {
+      "population": "periodic",
+      "stratum": "remaining_1",
+      "states": 1600,
+      "groups": 200,
+      "classes": 101,
+      "sparse": false
+    },
+    {
+      "population": "periodic",
+      "stratum": "remaining_2",
+      "states": 1600,
+      "groups": 200,
+      "classes": 101,
+      "sparse": false
+    },
+    {
+      "population": "periodic",
+      "stratum": "remaining_3",
+      "states": 1600,
+      "groups": 200,
+      "classes": 101,
+      "sparse": false
+    },
+    {
+      "population": "random",
+      "stratum": "all",
+      "states": 4683,
+      "groups": 200,
+      "classes": 101,
+      "sparse": false
+    },
+    {
+      "population": "random",
+      "stratum": "position_1_4",
+      "states": 1599,
+      "groups": 200,
+      "classes": 101,
+      "sparse": false
+    },
+    {
+      "population": "random",
+      "stratum": "position_5_8",
+      "states": 1539,
+      "groups": 200,
+      "classes": 101,
+      "sparse": false
+    },
+    {
+      "population": "random",
+      "stratum": "position_9_15",
+      "states": 1545,
+      "groups": 195,
+      "classes": 101,
+      "sparse": false
+    },
+    {
+      "population": "random",
+      "stratum": "remaining_1",
+      "states": 1560,
+      "groups": 199,
+      "classes": 101,
+      "sparse": false
+    },
+    {
+      "population": "random",
+      "stratum": "remaining_2",
+      "states": 1523,
+      "groups": 200,
+      "classes": 101,
+      "sparse": false
+    },
+    {
+      "population": "random",
+      "stratum": "remaining_3",
+      "states": 1600,
+      "groups": 200,
+      "classes": 101,
+      "sparse": false
+    },
+    {
+      "population": "HM_executed",
+      "stratum": "all",
+      "states": 4740,
+      "groups": 200,
+      "classes": 101,
+      "sparse": false
+    },
+    {
+      "population": "HM_executed",
+      "stratum": "position_1_4",
+      "states": 1600,
+      "groups": 200,
+      "classes": 101,
+      "sparse": false
+    },
+    {
+      "population": "HM_executed",
+      "stratum": "position_5_8",
+      "states": 1592,
+      "groups": 200,
+      "classes": 101,
+      "sparse": false
+    },
+    {
+      "population": "HM_executed",
+      "stratum": "position_9_15",
+      "states": 1548,
+      "groups": 197,
+      "classes": 101,
+      "sparse": false
+    },
+    {
+      "population": "HM_executed",
+      "stratum": "remaining_1",
+      "states": 1532,
+      "groups": 200,
+      "classes": 101,
+      "sparse": false
+    },
+    {
+      "population": "HM_executed",
+      "stratum": "remaining_2",
+      "states": 1569,
+      "groups": 200,
+      "classes": 101,
+      "sparse": false
+    },
+    {
+      "population": "HM_executed",
+      "stratum": "remaining_3",
+      "states": 1639,
+      "groups": 200,
+      "classes": 101,
+      "sparse": false
+    }
+  ],
+  "new_GPU_calls": 0,
+  "new_decodes": 0,
+  "scope": "Descriptive supplemental review; no new model/target/threshold selection",
+  "source_code_sha256": "8336bf9d76b17f2d6e72d5aeb5e19bdb3048751d067750ca1ade4eb0668ec2c2"
+}

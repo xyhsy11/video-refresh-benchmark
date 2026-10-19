@@ -1,0 +1,15 @@
+{
+  "initial_exact_array_identity_failed": true,
+  "reason": "Different BLAS output widths yield floating reduction roundoff; same observations/weights and mathematical moments",
+  "observed_maximum_absolute_differences": {
+    "local_classifier_means": 1.63202784619898e-14,
+    "local_classifier_scales": 1.3877787807814457e-17,
+    "local_regression_means": 1.63202784619898e-14,
+    "local_regression_scales": 1.3877787807814457e-17,
+    "budget_classifier_means": 1.63202784619898e-14,
+    "budget_classifier_scales": 1.3877787807814457e-17,
+    "budget_regression_means": 1.63202784619898e-14,
+    "budget_regression_scales": 1.3877787807814457e-17
+  },
+  "revised_check": "absolute/relative tolerance1e-12, disclose actual discrepancy; no fitting or input changes"
+}

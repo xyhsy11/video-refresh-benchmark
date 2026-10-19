@@ -1,0 +1,5 @@
+{
+  "at_utc": "2026-10-19T09:29:45.018240+00:00",
+  "exception": "RuntimeError('Nonapproved source/official-test access prohibited: C:\\\\video-refresh-baseline\\\\data\\\\source\\\\ucf101_causal_development_v1\\\\executed_features\\\\ef552c11c95a9acfa9cd759617e5c3dc1960c8d8a62f38aa5d034d09e1448730.npz')",
+  "resume": "python -B run_task_utility_observability.py --resume"
+}

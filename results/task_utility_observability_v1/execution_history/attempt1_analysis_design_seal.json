@@ -1,0 +1,16 @@
+{
+  "sha256": {
+    "task_utility_observability.py": "40c047c0c780053a2b6aefa252ef5fff4d2408298d976628527ae88e161f93f9",
+    "task_utility_observability_study.py": "5c515a2b3f6d33a6af4d0a5c6b4e3439b0ea19e7ca8d5efed5907f48ca36370d",
+    "run_task_utility_observability.py": "6df798b6c260cdc3c6336a8a729079df7921f3845078eb30b76f05e384da0905",
+    "test_task_utility_observability.py": "df9a50fd8e42233f33abc5d51e4351cc63c0700e0dc8d2f1ee791d2c29f7d4df",
+    "causal_observability_policy.py": "dda0908b98b042b4e5ac88a86cead957530582d4e1f4e7a186714450a0d212c6",
+    "causal_observability_common.py": "8fae3697454857bcf3cb6d6a3bcdaec5b448776badbd5633e45b5d48b11f5414",
+    "results/task_utility_observability_v1/protocol.md": "b564840b38b04907471671f21d89c3eab10696373780cb4dba231b687d09e4cf",
+    "results/task_utility_observability_v1/task_target_definitions.md": "1a73ca8cf5a4679602604b3db299abe8086f16d02c4cd376d2dcda405a4091a2"
+  },
+  "at_utc": "2026-10-19T09:24:40.817821+00:00",
+  "scope": "Analysis specification before new targets/probes; prior development outcomes already exposed",
+  "seed": 20261022,
+  "bootstrap_repeats": 2000
+}

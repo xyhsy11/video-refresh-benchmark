@@ -1,0 +1,80 @@
+{
+  "target": "budget",
+  "view": "baseline",
+  "feature_indices": [
+    0,
+    1,
+    2,
+    113
+  ],
+  "classifier": {
+    "means": [
+      0.4333333333333337,
+      0.166666666666668,
+      0.5000000000000003,
+      0.9999999999999954
+    ],
+    "scales": [
+      0.23013683530231083,
+      0.07453559924999287,
+      0.20412414523193165,
+      1.0
+    ],
+    "coefficients": [
+      -0.13978033850873955,
+      0.21387252443853902,
+      0.22095800508141197,
+      -6.526110149570929e-17
+    ],
+    "intercept": -0.40388731839868425,
+    "alpha": 0.001,
+    "classification": true,
+    "fit": {
+      "iterations": 6,
+      "success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "objective": 0.6567216446179795,
+      "max_abs_gradient": 6.914360261374344e-10
+    }
+  },
+  "regression": {
+    "means": [
+      0.4333333333333337,
+      0.166666666666668,
+      0.5000000000000003,
+      0.9999999999999954
+    ],
+    "scales": [
+      0.23013683530231083,
+      0.07453559924999287,
+      0.20412414523193165,
+      1.0
+    ],
+    "coefficients": [
+      -0.00016842806032701488,
+      0.00020828921771224877,
+      0.0002493264992192864,
+      9.629649721936179e-33
+    ],
+    "intercept": -0.0006527021921604729,
+    "alpha": 1.0,
+    "classification": false,
+    "fit": {
+      "success": true,
+      "solver": "numpy.linalg.solve weighted ridge",
+      "max_abs_normal_residual": 1.0842021724855044e-19
+    }
+  },
+  "calibration": {
+    "slope": 1.047252208970754,
+    "intercept": 0.08502470858143163,
+    "success": true,
+    "iterations": 6,
+    "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+  },
+  "threshold": 0.25,
+  "identity": {
+    "design_sha256": "6bc5158f7304a2d01221d9800be0677421bc9ce04ee8f88ccc4f87a2e03d4429",
+    "observations_sha256": "fcac6d809f53135d602ea2a1575c515dc650a7c420db564e6ae5c56b37f58214"
+  }
+}
