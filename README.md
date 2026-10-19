@@ -1,5 +1,7 @@
 # video-refresh-benchmark
 
+Experiment 19.1, [input-only HMDB51 population redesign](results/causal_observability_population_v2/findings.md), completed with **NO_GO** under the declared conservative source rules. Fresh real decoding admits 6,765 of 6,766 clips (historical rule: 4,843), including all 30 catch test clips, but none of configurations A/B/C can support all 51 classes with isolated training roles. No new recognition model, GPU work or official-test encoder call was executed. See the [protocol and commands](results/causal_observability_population_v2/README.md) and [population figure](results/causal_observability_population_v2/figures/population_feasibility.png). Experiment 19 v1 remains unchanged.
+
 Experiment19, [Causal Observability Gap](results/causal_observability_v1/findings.md), has an isolated sequential-execution implementation and a preserved **population-blocked pretest attempt**. The original HMDB51 bytes/annotations, all6,766 input screenings, source-family conflicts, 17 synthetic tests and two-video native400 GPU checks are recorded. No trained HMDB51 controller or official test result is claimed. See the [protocol](results/causal_observability_v1/protocol.md) and [resume/audit commands](results/causal_observability_v1/README.md).
 
 The fixed all-class UCF101 split-1 second-dataset replication is implemented in

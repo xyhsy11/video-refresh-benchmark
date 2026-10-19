@@ -1,0 +1,369 @@
+{
+  "passed": true,
+  "scope": "REAL retained metadata; independent scalar all-pairs pHash and necessary-count review",
+  "original_clips": 6766,
+  "all_pairs_checked": 22885995,
+  "exact_near_edges": 111,
+  "missing_near_edges": 0,
+  "extra_near_edges": 0,
+  "eligible_test_unchanged": 1530,
+  "independent_infeasible_classes": {
+    "A": [
+      "drink",
+      "eat",
+      "fall_floor",
+      "kick",
+      "kiss",
+      "pick",
+      "punch",
+      "run",
+      "sit",
+      "stand",
+      "talk",
+      "throw",
+      "turn",
+      "walk",
+      "wave"
+    ],
+    "B": [
+      "drink",
+      "eat",
+      "fall_floor",
+      "kick",
+      "kiss",
+      "punch",
+      "run",
+      "sit",
+      "stand",
+      "talk",
+      "turn",
+      "walk",
+      "wave"
+    ],
+    "C": [
+      "drink",
+      "eat",
+      "fall_floor",
+      "kick",
+      "kiss",
+      "run",
+      "sit",
+      "stand",
+      "talk",
+      "turn",
+      "walk"
+    ]
+  },
+  "per_class_counts": {
+    "brush_hair": {
+      "train": 70,
+      "train_families": 26,
+      "test": 30,
+      "test_families": 10
+    },
+    "cartwheel": {
+      "train": 56,
+      "train_families": 26,
+      "test": 30,
+      "test_families": 15
+    },
+    "catch": {
+      "train": 67,
+      "train_families": 16,
+      "test": 30,
+      "test_families": 7
+    },
+    "chew": {
+      "train": 66,
+      "train_families": 24,
+      "test": 30,
+      "test_families": 12
+    },
+    "clap": {
+      "train": 63,
+      "train_families": 21,
+      "test": 30,
+      "test_families": 11
+    },
+    "climb": {
+      "train": 67,
+      "train_families": 25,
+      "test": 30,
+      "test_families": 12
+    },
+    "climb_stairs": {
+      "train": 58,
+      "train_families": 19,
+      "test": 30,
+      "test_families": 11
+    },
+    "dive": {
+      "train": 60,
+      "train_families": 27,
+      "test": 30,
+      "test_families": 15
+    },
+    "draw_sword": {
+      "train": 66,
+      "train_families": 26,
+      "test": 30,
+      "test_families": 12
+    },
+    "dribble": {
+      "train": 70,
+      "train_families": 20,
+      "test": 30,
+      "test_families": 8
+    },
+    "drink": {
+      "train": 13,
+      "train_families": 9,
+      "test": 30,
+      "test_families": 18
+    },
+    "eat": {
+      "train": 16,
+      "train_families": 12,
+      "test": 30,
+      "test_families": 15
+    },
+    "fall_floor": {
+      "train": 26,
+      "train_families": 4,
+      "test": 30,
+      "test_families": 11
+    },
+    "fencing": {
+      "train": 67,
+      "train_families": 21,
+      "test": 30,
+      "test_families": 9
+    },
+    "flic_flac": {
+      "train": 64,
+      "train_families": 29,
+      "test": 30,
+      "test_families": 14
+    },
+    "golf": {
+      "train": 70,
+      "train_families": 51,
+      "test": 30,
+      "test_families": 20
+    },
+    "handstand": {
+      "train": 57,
+      "train_families": 35,
+      "test": 30,
+      "test_families": 19
+    },
+    "hit": {
+      "train": 55,
+      "train_families": 19,
+      "test": 30,
+      "test_families": 12
+    },
+    "hug": {
+      "train": 63,
+      "train_families": 11,
+      "test": 30,
+      "test_families": 6
+    },
+    "jump": {
+      "train": 50,
+      "train_families": 14,
+      "test": 30,
+      "test_families": 7
+    },
+    "kick": {
+      "train": 48,
+      "train_families": 7,
+      "test": 30,
+      "test_families": 7
+    },
+    "kick_ball": {
+      "train": 63,
+      "train_families": 22,
+      "test": 30,
+      "test_families": 11
+    },
+    "kiss": {
+      "train": 66,
+      "train_families": 8,
+      "test": 30,
+      "test_families": 5
+    },
+    "laugh": {
+      "train": 65,
+      "train_families": 17,
+      "test": 30,
+      "test_families": 9
+    },
+    "pick": {
+      "train": 48,
+      "train_families": 26,
+      "test": 30,
+      "test_families": 15
+    },
+    "pour": {
+      "train": 70,
+      "train_families": 30,
+      "test": 30,
+      "test_families": 13
+    },
+    "pullup": {
+      "train": 70,
+      "train_families": 22,
+      "test": 30,
+      "test_families": 9
+    },
+    "punch": {
+      "train": 38,
+      "train_families": 9,
+      "test": 30,
+      "test_families": 10
+    },
+    "push": {
+      "train": 69,
+      "train_families": 21,
+      "test": 30,
+      "test_families": 9
+    },
+    "pushup": {
+      "train": 70,
+      "train_families": 21,
+      "test": 30,
+      "test_families": 8
+    },
+    "ride_bike": {
+      "train": 70,
+      "train_families": 16,
+      "test": 30,
+      "test_families": 6
+    },
+    "ride_horse": {
+      "train": 61,
+      "train_families": 14,
+      "test": 30,
+      "test_families": 8
+    },
+    "run": {
+      "train": 22,
+      "train_families": 10,
+      "test": 30,
+      "test_families": 16
+    },
+    "shake_hands": {
+      "train": 67,
+      "train_families": 33,
+      "test": 30,
+      "test_families": 17
+    },
+    "shoot_ball": {
+      "train": 50,
+      "train_families": 14,
+      "test": 30,
+      "test_families": 5
+    },
+    "shoot_bow": {
+      "train": 64,
+      "train_families": 22,
+      "test": 30,
+      "test_families": 9
+    },
+    "shoot_gun": {
+      "train": 51,
+      "train_families": 15,
+      "test": 30,
+      "test_families": 9
+    },
+    "sit": {
+      "train": 24,
+      "train_families": 15,
+      "test": 30,
+      "test_families": 14
+    },
+    "situp": {
+      "train": 70,
+      "train_families": 21,
+      "test": 30,
+      "test_families": 9
+    },
+    "smile": {
+      "train": 62,
+      "train_families": 16,
+      "test": 30,
+      "test_families": 11
+    },
+    "smoke": {
+      "train": 57,
+      "train_families": 26,
+      "test": 30,
+      "test_families": 12
+    },
+    "somersault": {
+      "train": 61,
+      "train_families": 32,
+      "test": 30,
+      "test_families": 17
+    },
+    "stand": {
+      "train": 24,
+      "train_families": 17,
+      "test": 30,
+      "test_families": 18
+    },
+    "swing_baseball": {
+      "train": 69,
+      "train_families": 15,
+      "test": 30,
+      "test_families": 5
+    },
+    "sword": {
+      "train": 58,
+      "train_families": 21,
+      "test": 30,
+      "test_families": 11
+    },
+    "sword_exercise": {
+      "train": 50,
+      "train_families": 19,
+      "test": 30,
+      "test_families": 9
+    },
+    "talk": {
+      "train": 22,
+      "train_families": 9,
+      "test": 30,
+      "test_families": 12
+    },
+    "throw": {
+      "train": 48,
+      "train_families": 16,
+      "test": 30,
+      "test_families": 10
+    },
+    "turn": {
+      "train": 29,
+      "train_families": 15,
+      "test": 30,
+      "test_families": 17
+    },
+    "walk": {
+      "train": 29,
+      "train_families": 20,
+      "test": 30,
+      "test_families": 18
+    },
+    "wave": {
+      "train": 35,
+      "train_families": 20,
+      "test": 30,
+      "test_families": 17
+    }
+  },
+  "source_code_sha256": "d6a9ffed3a7dcd4270dc723a5f312c056a59f90c08a1da21443a797479b4f60c",
+  "decodes": 0,
+  "model_calls": 0,
+  "file_writes": 0
+}

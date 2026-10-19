@@ -1,0 +1,9 @@
+{
+  "real_clips_checked": 4843,
+  "discrepancies": [],
+  "historical_new_eligibility_flags_identical": true,
+  "new_clips_fingerprinted": 6766,
+  "scope": "Original 4843 eligible fingerprint, byte SHA256 and decoded-frame comparisons; all6766 new fingerprints derived from original input-only decode",
+  "source": "screening_evidence.jsonl.gz and immutable v1 eligibility_attempts.jsonl.gz",
+  "no_model_calls": true
+}

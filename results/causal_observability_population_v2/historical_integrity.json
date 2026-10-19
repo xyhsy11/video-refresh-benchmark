@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "immutable_files_verified": 3527,
+  "baseline_sha256": "4e3dcde0a64f56c9123b4076dc41ac17ea37e46a2610773a8647667d5e29dcb5",
+  "original_clips": 6766,
+  "old_eligible": 4843,
+  "old_failures": 1923,
+  "classes_below_original_70": 48,
+  "old_catch_test": 0,
+  "old_test_encoder_events": 0,
+  "new_model_calls": 0,
+  "previous_training_only_native400_exposure_disclosed": true,
+  "new_head_or_controller_training": false,
+  "historical_recognition_and_final_latency_results": false,
+  "v1_failure_stage": "population_construction_before_hypothesis_testing"
+}

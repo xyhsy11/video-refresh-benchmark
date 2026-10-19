@@ -1,0 +1,63 @@
+{
+  "decision": "NO_GO",
+  "chosen_configuration": null,
+  "annotated_clips": 6766,
+  "classes": 51,
+  "old_eligible": 4843,
+  "new_eligible": 6765,
+  "new_technical_exclusions": 1,
+  "old_technical_exclusions": 1923,
+  "eligible_official_train": 3569,
+  "eligible_official_test": 1530,
+  "eligible_official_unused": 1666,
+  "isolated_training_available": 2754,
+  "excluded_conflicting_families": 138,
+  "excluded_eligible_training_clips": 815,
+  "catch": {
+    "class_name": "catch",
+    "annotated": 102,
+    "old_eligible": 3,
+    "new_eligible": 102,
+    "newly_eligible": 99,
+    "official_train": 70,
+    "old_train_eligible": 3,
+    "new_train_eligible": 70,
+    "new_train_temporal_excluded": 0,
+    "official_test": 30,
+    "old_test_eligible": 0,
+    "new_test_eligible": 30,
+    "new_test_temporal_excluded": 0,
+    "official_unused": 2,
+    "old_unused_eligible": 0,
+    "new_unused_eligible": 2,
+    "new_unused_temporal_excluded": 0,
+    "training_available": 67,
+    "training_families": 16,
+    "test_families": 7,
+    "training_source_excluded": 3,
+    "old_training_available_same_v2_graph": 2,
+    "old_test_available": 0
+  },
+  "configurations": {
+    "A": {
+      "status": "PROVEN_INFEASIBLE",
+      "failed_necessary_constraints": 17,
+      "affected_classes": 15
+    },
+    "B": {
+      "status": "PROVEN_INFEASIBLE",
+      "failed_necessary_constraints": 14,
+      "affected_classes": 13
+    },
+    "C": {
+      "status": "PROVEN_INFEASIBLE",
+      "failed_necessary_constraints": 12,
+      "affected_classes": 11
+    }
+  },
+  "no_model_execution": true,
+  "official_test_encoder_calls": 0,
+  "recognition_findings": null,
+  "feasibility_thresholds_are_not_power_guarantees": true,
+  "unresolved_searches": []
+}

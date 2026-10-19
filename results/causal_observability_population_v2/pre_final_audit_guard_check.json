@@ -1,0 +1,7 @@
+{
+  "command": "& .\\.venv_temporal\\Scripts\\python.exe -B .\\run_causal_observability_population_v2.py --audit-only",
+  "actual_returncode": 1,
+  "expected_rejection": "Final evidence inventory missing; run pending stages",
+  "interpretation": "Read-only audit correctly refuses premature completion; no data/results were changed",
+  "pending_at_that_time": "Rendered figure review and final checksum inventory"
+}

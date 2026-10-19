@@ -1,0 +1,64 @@
+{
+  "at_utc": "2026-10-19T05:57:35.329127+00:00",
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "executable_environment": ".venv_temporal",
+  "packages": {
+    "av": "19.0.1",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "Pillow": "12.3.0",
+    "matplotlib": "3.11.2"
+  },
+  "highs": "1.12.0",
+  "linked_FFmpeg": {
+    "libavutil": [
+      61,
+      1,
+      102
+    ],
+    "libavcodec": [
+      63,
+      1,
+      102
+    ],
+    "libavformat": [
+      63,
+      1,
+      102
+    ],
+    "libavdevice": [
+      63,
+      1,
+      102
+    ],
+    "libavfilter": [
+      12,
+      1,
+      102
+    ],
+    "libswscale": [
+      10,
+      1,
+      102
+    ],
+    "libswresample": [
+      7,
+      1,
+      102
+    ]
+  },
+  "decoder": {
+    "thread_count": 1,
+    "thread_type": "NONE",
+    "skip_frame": "NONE",
+    "hardware": false
+  },
+  "GPU_used": false,
+  "CUDA_visible_devices": "",
+  "model_imports_in_population_process": [],
+  "free_disk_bytes": 112124796928,
+  "new_dataset_network_bytes": 0,
+  "network_note": "No data requests implemented. One git fetch of main; 8MiB conservative metadata reserve, below20GiB.",
+  "installed_or_upgraded_packages": []
+}

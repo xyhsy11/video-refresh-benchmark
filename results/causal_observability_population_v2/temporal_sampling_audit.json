@@ -1,0 +1,29 @@
+{
+  "rule": "adaptive_history_index_uniform_v2",
+  "actual_decoded_clips": 6766,
+  "original_annotation_clips": 6766,
+  "old_eligible": 4843,
+  "new_eligible": 6765,
+  "newly_eligible": 1922,
+  "new_failures": {
+    "Fewer than 19 distinct actual presentation frames": 1
+  },
+  "old_comparison_differences": [],
+  "independent_scalar_actual_frame_replays": 6765,
+  "original_decode_ordinals_retained": true,
+  "candidate_count": 16,
+  "frames_per_snippet": 4,
+  "selected_candidate_windows": 108240,
+  "extended_windows": 0,
+  "history_span_quantiles_seconds": [
+    0.13333333333333333,
+    0.6333333333333333,
+    1.2666666666666666,
+    1.5333333333333337,
+    1.5666666666666669
+  ],
+  "clips_with_temporally_nonuniform_endpoints": 5801,
+  "nonuniform_warning": "Index-uniform endpoints may be temporally nonuniform, also through frame-index quantization at constant rate",
+  "genuine_full_PTS_evidence": "screening_evidence.jsonl.gz; integer PTS/time bases and decode ordinals for all valid decoded clips",
+  "historical_recipe_equivalence_claim": false
+}
