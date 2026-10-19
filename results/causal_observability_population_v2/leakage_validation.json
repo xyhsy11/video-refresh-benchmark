@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "original_annotated_clips": 6766,
+  "exact_duplicate_cross_role_violations": 0,
+  "family_cross_role_violations": 0,
+  "official_test_or_unused_in_training": 0,
+  "eligible_test_members_unchanged": true,
+  "full_class_inventory": 51,
+  "scalar_actual_frame_replays": 6765,
+  "chosen_training_configuration_verified": null,
+  "no_feasible_configuration_note": "Training-role minima do not pass; validation does not claim they do",
+  "recognition_outputs_used": false,
+  "official_test_encoder_calls": 0,
+  "input_only_implementation_imports": "No torch, model, inference, download or learning calls in v2 execution"
+}

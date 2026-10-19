@@ -1,0 +1,9 @@
+{
+  "stage": "population_gate",
+  "status": "verified",
+  "decision": "NO_GO",
+  "at_utc": "2026-10-19T06:03:01.781923+00:00",
+  "model_training": "not_authorized",
+  "official_test_inference": "not_authorized",
+  "GPU": "not_used"
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "decision": "NO_GO",
+  "genuine_clips_verified": 6766,
+  "local_original_AVI_hashes_verified": 6766,
+  "independent_scalar_frame_replays": 6765,
+  "historical_files_verified": 3527,
+  "read_only": true,
+  "downloads": 0,
+  "decodes": 0,
+  "solver_calls": 0,
+  "model_calls": 0,
+  "regenerated_outputs": 0
+}

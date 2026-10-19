@@ -1,0 +1,14 @@
+{
+  "at_utc": "2026-10-19T05:53:31.026592+00:00",
+  "scope": "input-only CPU resource projection from first100 actual screening records; not encoder timing",
+  "pilot_clips": 100,
+  "planned_original_clips": 6766,
+  "pilot_decode_screen_seconds": 9.289636500008783,
+  "projected_sum_screen_seconds": 628.5368055905942,
+  "projected_metadata_checkpoint_bytes": 212599357.52,
+  "enforced_free_disk_reserve_bytes": 3221225472,
+  "network_new_dataset_bytes": 0,
+  "packages_installed": 0,
+  "GPU_calls": 0,
+  "caveat": "Class/clip variation, filesystem and metadata processing uncertain; projection does not change coverage or quotas"
+}

@@ -1,0 +1,501 @@
+{
+  "A": {
+    "configuration": "A",
+    "minima": {
+      "head_train": 30,
+      "controller_train": 10,
+      "development": 10
+    },
+    "test_clips_minimum": 10,
+    "training_families_per_role_minimum": 3,
+    "test_families_minimum": 5,
+    "status": "PROVEN_INFEASIBLE",
+    "necessary_condition_failures": [
+      {
+        "class_name": "drink",
+        "constraint": "training_available",
+        "available": 13,
+        "required": 50,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "eat",
+        "constraint": "training_available",
+        "available": 16,
+        "required": 50,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "fall_floor",
+        "constraint": "training_available",
+        "available": 26,
+        "required": 50,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "fall_floor",
+        "constraint": "training_families",
+        "available": 4,
+        "required": 9,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "kick",
+        "constraint": "training_available",
+        "available": 48,
+        "required": 50,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "kick",
+        "constraint": "training_families",
+        "available": 7,
+        "required": 9,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "kiss",
+        "constraint": "training_families",
+        "available": 8,
+        "required": 9,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "pick",
+        "constraint": "training_available",
+        "available": 48,
+        "required": 50,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "punch",
+        "constraint": "training_available",
+        "available": 38,
+        "required": 50,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "run",
+        "constraint": "training_available",
+        "available": 22,
+        "required": 50,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "sit",
+        "constraint": "training_available",
+        "available": 24,
+        "required": 50,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "stand",
+        "constraint": "training_available",
+        "available": 24,
+        "required": 50,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "talk",
+        "constraint": "training_available",
+        "available": 22,
+        "required": 50,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "throw",
+        "constraint": "training_available",
+        "available": 48,
+        "required": 50,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "turn",
+        "constraint": "training_available",
+        "available": 29,
+        "required": 50,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "walk",
+        "constraint": "training_available",
+        "available": 29,
+        "required": 50,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "wave",
+        "constraint": "training_available",
+        "available": 35,
+        "required": 50,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      }
+    ],
+    "solver": {
+      "scipy": "1.18.1",
+      "highs": "1.12.0",
+      "options": {
+        "time_limit": 300.0,
+        "mip_rel_gap": 0.0,
+        "threads": 1,
+        "random_seed": 20261019,
+        "primal_feasibility_tolerance": 1e-07,
+        "mip_feasibility_tolerance": 1e-07
+      },
+      "seed": 20261019,
+      "variables": 2562,
+      "constraints": 1160,
+      "objective": "minimum seeded SHA256 role costs",
+      "matrix_digest": "baee496ba0be3d330ff77514242e6d433837c3dd363c59666bcfc3933700bb88",
+      "runs": [
+        {
+          "repetition": 0,
+          "status": 2,
+          "success": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+          "seconds": 0.01793329999964044,
+          "objective": null,
+          "mip_gap": null,
+          "mip_dual_bound": null,
+          "mip_node_count": null,
+          "warnings": [
+            "Unrecognized options detected: {'mip_feasibility_tolerance', 'threads', 'random_seed', 'primal_feasibility_tolerance'}. These will be passed to HiGHS verbatim."
+          ],
+          "assignment_digest": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+        },
+        {
+          "repetition": 1,
+          "status": 2,
+          "success": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+          "seconds": 0.015294800001356634,
+          "objective": null,
+          "mip_gap": null,
+          "mip_dual_bound": null,
+          "mip_node_count": null,
+          "warnings": [
+            "Unrecognized options detected: {'mip_feasibility_tolerance', 'threads', 'random_seed', 'primal_feasibility_tolerance'}. These will be passed to HiGHS verbatim."
+          ],
+          "assignment_digest": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+        }
+      ]
+    },
+    "deterministic_repeat_verified": true,
+    "assignments": null,
+    "independent_counts": null
+  },
+  "B": {
+    "configuration": "B",
+    "minima": {
+      "head_train": 25,
+      "controller_train": 10,
+      "development": 5
+    },
+    "test_clips_minimum": 10,
+    "training_families_per_role_minimum": 3,
+    "test_families_minimum": 5,
+    "status": "PROVEN_INFEASIBLE",
+    "necessary_condition_failures": [
+      {
+        "class_name": "drink",
+        "constraint": "training_available",
+        "available": 13,
+        "required": 40,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "eat",
+        "constraint": "training_available",
+        "available": 16,
+        "required": 40,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "fall_floor",
+        "constraint": "training_available",
+        "available": 26,
+        "required": 40,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "fall_floor",
+        "constraint": "training_families",
+        "available": 4,
+        "required": 9,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "kick",
+        "constraint": "training_families",
+        "available": 7,
+        "required": 9,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "kiss",
+        "constraint": "training_families",
+        "available": 8,
+        "required": 9,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "punch",
+        "constraint": "training_available",
+        "available": 38,
+        "required": 40,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "run",
+        "constraint": "training_available",
+        "available": 22,
+        "required": 40,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "sit",
+        "constraint": "training_available",
+        "available": 24,
+        "required": 40,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "stand",
+        "constraint": "training_available",
+        "available": 24,
+        "required": 40,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "talk",
+        "constraint": "training_available",
+        "available": 22,
+        "required": 40,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "turn",
+        "constraint": "training_available",
+        "available": 29,
+        "required": 40,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "walk",
+        "constraint": "training_available",
+        "available": 29,
+        "required": 40,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "wave",
+        "constraint": "training_available",
+        "available": 35,
+        "required": 40,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      }
+    ],
+    "solver": {
+      "scipy": "1.18.1",
+      "highs": "1.12.0",
+      "options": {
+        "time_limit": 300.0,
+        "mip_rel_gap": 0.0,
+        "threads": 1,
+        "random_seed": 20261019,
+        "primal_feasibility_tolerance": 1e-07,
+        "mip_feasibility_tolerance": 1e-07
+      },
+      "seed": 20261019,
+      "variables": 2562,
+      "constraints": 1160,
+      "objective": "minimum seeded SHA256 role costs",
+      "matrix_digest": "1ca1b00f71722f15eda2c9911f620ef7da3ba1c9c2b04ad3ab06b84544550f56",
+      "runs": [
+        {
+          "repetition": 0,
+          "status": 2,
+          "success": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+          "seconds": 0.02182829999946989,
+          "objective": null,
+          "mip_gap": null,
+          "mip_dual_bound": null,
+          "mip_node_count": null,
+          "warnings": [
+            "Unrecognized options detected: {'mip_feasibility_tolerance', 'threads', 'random_seed', 'primal_feasibility_tolerance'}. These will be passed to HiGHS verbatim."
+          ],
+          "assignment_digest": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+        },
+        {
+          "repetition": 1,
+          "status": 2,
+          "success": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+          "seconds": 0.013695000001462176,
+          "objective": null,
+          "mip_gap": null,
+          "mip_dual_bound": null,
+          "mip_node_count": null,
+          "warnings": [
+            "Unrecognized options detected: {'mip_feasibility_tolerance', 'threads', 'random_seed', 'primal_feasibility_tolerance'}. These will be passed to HiGHS verbatim."
+          ],
+          "assignment_digest": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+        }
+      ]
+    },
+    "deterministic_repeat_verified": true,
+    "assignments": null,
+    "independent_counts": null
+  },
+  "C": {
+    "configuration": "C",
+    "minima": {
+      "head_train": 20,
+      "controller_train": 8,
+      "development": 5
+    },
+    "test_clips_minimum": 10,
+    "training_families_per_role_minimum": 3,
+    "test_families_minimum": 5,
+    "status": "PROVEN_INFEASIBLE",
+    "necessary_condition_failures": [
+      {
+        "class_name": "drink",
+        "constraint": "training_available",
+        "available": 13,
+        "required": 33,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "eat",
+        "constraint": "training_available",
+        "available": 16,
+        "required": 33,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "fall_floor",
+        "constraint": "training_available",
+        "available": 26,
+        "required": 33,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "fall_floor",
+        "constraint": "training_families",
+        "available": 4,
+        "required": 9,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "kick",
+        "constraint": "training_families",
+        "available": 7,
+        "required": 9,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "kiss",
+        "constraint": "training_families",
+        "available": 8,
+        "required": 9,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "run",
+        "constraint": "training_available",
+        "available": 22,
+        "required": 33,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "sit",
+        "constraint": "training_available",
+        "available": 24,
+        "required": 33,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "stand",
+        "constraint": "training_available",
+        "available": 24,
+        "required": 33,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "talk",
+        "constraint": "training_available",
+        "available": 22,
+        "required": 33,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "turn",
+        "constraint": "training_available",
+        "available": 29,
+        "required": 33,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      },
+      {
+        "class_name": "walk",
+        "constraint": "training_available",
+        "available": 29,
+        "required": 33,
+        "proof": "Disjoint role minima cannot exceed total available clips/families; fixed test cannot be reassigned"
+      }
+    ],
+    "solver": {
+      "scipy": "1.18.1",
+      "highs": "1.12.0",
+      "options": {
+        "time_limit": 300.0,
+        "mip_rel_gap": 0.0,
+        "threads": 1,
+        "random_seed": 20261019,
+        "primal_feasibility_tolerance": 1e-07,
+        "mip_feasibility_tolerance": 1e-07
+      },
+      "seed": 20261019,
+      "variables": 2562,
+      "constraints": 1160,
+      "objective": "minimum seeded SHA256 role costs",
+      "matrix_digest": "dbea2ac30cacdce2ae5f9212e6be7a7d381c55083a05578881c73d68270f4b27",
+      "runs": [
+        {
+          "repetition": 0,
+          "status": 2,
+          "success": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+          "seconds": 0.014053299999432056,
+          "objective": null,
+          "mip_gap": null,
+          "mip_dual_bound": null,
+          "mip_node_count": null,
+          "warnings": [
+            "Unrecognized options detected: {'mip_feasibility_tolerance', 'threads', 'random_seed', 'primal_feasibility_tolerance'}. These will be passed to HiGHS verbatim."
+          ],
+          "assignment_digest": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+        },
+        {
+          "repetition": 1,
+          "status": 2,
+          "success": false,
+          "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+          "seconds": 0.013177999999243184,
+          "objective": null,
+          "mip_gap": null,
+          "mip_dual_bound": null,
+          "mip_node_count": null,
+          "warnings": [
+            "Unrecognized options detected: {'mip_feasibility_tolerance', 'threads', 'random_seed', 'primal_feasibility_tolerance'}. These will be passed to HiGHS verbatim."
+          ],
+          "assignment_digest": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+        }
+      ]
+    },
+    "deterministic_repeat_verified": true,
+    "assignments": null,
+    "independent_counts": null
+  }
+}

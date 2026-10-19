@@ -58,6 +58,9 @@ dist/
 
 # Keep curated public snapshots; retain other results locally.
 results/*
+!results/causal_observability_population_v2/
+!results/causal_observability_population_v2/**
+results/causal_observability_population_v2/run.lock
 !results/causal_observability_v1/
 !results/causal_observability_v1/**
 results/causal_observability_v1/run.lock

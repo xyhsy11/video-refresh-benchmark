@@ -1,0 +1,22 @@
+{
+  "identity": {
+    "rule": "adaptive_history_index_uniform_v2",
+    "protocol_sha256": "3d104ad5b93cfbac3941460704b23d223a6b67d0be99ff7c2f01e988566bf0bf",
+    "code_sha256": {
+      "causal_observability_population_v2.py": "d935a9758ca51f2b7f9a8bd18dee3ab066e9083830ffc03fd06d95f2fdeea97a",
+      "run_causal_observability_population_v2.py": "e14d780c83debf7042af5f6b4d8fe797b85ad78da93ee0015e5d94582142ea5e",
+      "research_utils.py": "06b0bd9df2ebbbf314a5a21e086f00e7018d7dbd7a189adac3cf2d79f0352044",
+      "temporal_refresh_common.py": "5e4f53da9110e43eaa1ff4624645bdb14ade891074f09e46540615d39f7d4cbb",
+      "ucf101_proxy_data.py": "39f097455198d9ac9ae0fa58946bb35fa44622f61fb186f9d0a3aea4d216a8b3",
+      "causal_observability_data.py": "94dcf62bfa30ccb09b3723f40c1d5b1248d8982c6f9fc9de0c4305494cbf9075",
+      "causal_observability_common.py": "8fae3697454857bcf3cb6d6a3bcdaec5b448776badbd5633e45b5d48b11f5414",
+      "ucf101_proxy_common.py": "48250e1140beb1aaaa9f4db1e8f644f1e232449bcfa463f5bdd53f36749fb97b"
+    },
+    "archive_inventory_sha256": "b43991567d8126c191f23e4c412f66480d695db2dc00687773525672b63128e0"
+  },
+  "clips": 6766,
+  "evidence_sha256": "06dce649fb030f293ea3c3679f916bd9a9c5f3f47757cbfb203e1cbd0712287c",
+  "local_checkpoint": "data/source/causal_observability_population_v2/screening.jsonl",
+  "local_checkpoint_sha256": "78f5bfe2abb9d149308202bb2013eca58d953dc8b5e76314777f8bf45eefc7a8",
+  "all_records_have_genuine_archive_hash": true
+}

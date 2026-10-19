@@ -1,0 +1,7 @@
+{
+  "at_utc": "2026-10-19T06:01:02.086087+00:00",
+  "actually_inspected": true,
+  "path": "figures/population_feasibility.png",
+  "sha256": "a127042a35b09ac124030e63d062b6833d0e188f614cb1ee4721e946cb644107",
+  "review": "Rendered PNG inspected: all51 class labels and train/test old/new comparisons readable; source/technical exclusions distinct; no recognition or GPU results"
+}
