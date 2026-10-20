@@ -1,0 +1,27 @@
+test_actual_forward_budget_is_verified (test_refresh_failure_evidence.SyntheticAuditContracts.test_actual_forward_budget_is_verified) ... ok
+test_bad_correlation_is_rejected (test_refresh_failure_evidence.SyntheticAuditContracts.test_bad_correlation_is_rejected) ... ok
+test_bootstrap_cannot_cross_classes (test_refresh_failure_evidence.SyntheticAuditContracts.test_bootstrap_cannot_cross_classes) ... ok
+test_cannot_drop_a_class_to_pass_quotas (test_refresh_failure_evidence.SyntheticAuditContracts.test_cannot_drop_a_class_to_pass_quotas) ... ok
+test_class_names_scope_group_ids (test_refresh_failure_evidence.SyntheticAuditContracts.test_class_names_scope_group_ids) ... ok
+test_constant_proxy_has_no_correlation (test_refresh_failure_evidence.SyntheticAuditContracts.test_constant_proxy_has_no_correlation) ... ok
+test_draw_block_order_can_differ_from_group_table (test_refresh_failure_evidence.SyntheticAuditContracts.test_draw_block_order_can_differ_from_group_table) ... ok
+test_each_missing_input_condition_blocks (test_refresh_failure_evidence.SyntheticAuditContracts.test_each_missing_input_condition_blocks) ... ok
+test_empty_population_is_blocked (test_refresh_failure_evidence.SyntheticAuditContracts.test_empty_population_is_blocked) ... ok
+test_global_duplicate_and_family_quarantine (test_refresh_failure_evidence.SyntheticAuditContracts.test_global_duplicate_and_family_quarantine) ... ok
+test_historical_writes_and_network_gpu_decoder_denied (test_refresh_failure_evidence.SyntheticAuditContracts.test_historical_writes_and_network_gpu_decoder_denied) ... ok
+test_incomplete_timing_population_is_rejected (test_refresh_failure_evidence.SyntheticAuditContracts.test_incomplete_timing_population_is_rejected) ... ok
+test_official_test_and_traversal_paths_denied (test_refresh_failure_evidence.SyntheticAuditContracts.test_official_test_and_traversal_paths_denied) ... ok
+test_positive_input_fixture_is_not_scientific_go (test_refresh_failure_evidence.SyntheticAuditContracts.test_positive_input_fixture_is_not_scientific_go) ... ok
+test_proxy_is_not_an_event_annotation (test_refresh_failure_evidence.SyntheticAuditContracts.test_proxy_is_not_an_event_annotation) ... ok
+test_quality_replays_logits_and_preserves_paired_draws (test_refresh_failure_evidence.SyntheticAuditContracts.test_quality_replays_logits_and_preserves_paired_draws) ... ok
+test_read_only_guard_prohibits_even_current_result_write (test_refresh_failure_evidence.SyntheticAuditContracts.test_read_only_guard_prohibits_even_current_result_write) ... ok
+test_saved_mean_cannot_replace_real_logits (test_refresh_failure_evidence.SyntheticAuditContracts.test_saved_mean_cannot_replace_real_logits) ... ok
+test_timing_uses_per_clip_medians_and_keeps_nested_fields_separate (test_refresh_failure_evidence.SyntheticAuditContracts.test_timing_uses_per_clip_medians_and_keeps_nested_fields_separate) ... ok
+test_unpaired_quality_rejected (test_refresh_failure_evidence.SyntheticAuditContracts.test_unpaired_quality_rejected) ... ok
+test_weighted_rank_ties_match_scipy_with_equal_weights (test_refresh_failure_evidence.SyntheticAuditContracts.test_weighted_rank_ties_match_scipy_with_equal_weights) ... ok
+test_weighting_does_not_count_repeated_states_as_independent_sources (test_refresh_failure_evidence.SyntheticAuditContracts.test_weighting_does_not_count_repeated_states_as_independent_sources) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.044s
+
+OK

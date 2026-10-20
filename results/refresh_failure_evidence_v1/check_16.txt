@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-20T03:47:34.255593+00:00",
+  "development_videos": 100,
+  "exploratory_videos": 40,
+  "development_examples": 900,
+  "exploratory_examples": 360,
+  "saved_predictions": 7560,
+  "dense_periodic_reproduced_rows": 280,
+  "clip_rows": 420,
+  "independent_explicit_counterfactual_replays": 1260,
+  "source_grouped_class_stratified_folds": true,
+  "training_only_scalers_and_independent_ridge_solution": true,
+  "input_isolation_mutations": 420,
+  "independent_video_MAE_and_paired_bootstrap": true,
+  "frozen_classifier_and_controller_unchanged": true,
+  "previous_tracked_files_preserved": 2569,
+  "fresh_confirmation_arrays_or_results_parsed": 0,
+  "actual_RGB_encoder_calls": 0,
+  "video_decodes": 0,
+  "downloads": 0,
+  "recognition_training_calls": 0
+}

@@ -1,0 +1,13 @@
+INCOMPLETE: AssertionError: Historical artifacts modified
+Traceback (most recent call last):
+  File "C:\video-refresh-baseline\analyze_task_signal_ablation.py", line 235, in <module>
+    run(args)
+  File "C:\video-refresh-baseline\analyze_task_signal_ablation.py", line 166, in run
+    p = freeze(recognition, diagnostic, output, args.seed)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\video-refresh-baseline\analyze_task_signal_ablation.py", line 74, in freeze
+    old.preserved(p)
+  File "C:\video-refresh-baseline\analyze_task_signals.py", line 86, in preserved
+    assert not changed.intersection(protocol["previous_tracked_blob_identities"]), "Historical artifacts modified"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Historical artifacts modified

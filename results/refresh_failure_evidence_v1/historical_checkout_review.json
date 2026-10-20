@@ -1,0 +1,24 @@
+{
+  "commit": "c3ec3e67081f4dba89356efac9549194cceebb13",
+  "path": "C:\\video-refresh-evidence-23a-historical",
+  "clean": true,
+  "current_tree_guard_blockers": {
+    "task_signal_diagnostic_v1": [
+      "THIRD_PARTY_NOTICES.md"
+    ],
+    "task_signal_ablation_v2": [
+      "THIRD_PARTY_NOTICES.md"
+    ],
+    "refresh_target_decomposition_v1": [
+      "THIRD_PARTY_NOTICES.md"
+    ],
+    "cached_history_signal_diagnostic_v1_rerun1": [
+      "THIRD_PARTY_NOTICES.md"
+    ],
+    "refresh_generalization_audit_v1_rerun1": [
+      "THIRD_PARTY_NOTICES.md"
+    ]
+  },
+  "scientific_result_differences": [],
+  "remedy": "Unmodified historical checkout, original guards and real arrays; no replacement of current files"
+}

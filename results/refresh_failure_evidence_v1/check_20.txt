@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "read_only": true,
+  "saved_metrics_denominators_and_bootstraps_reproduced": true,
+  "previous_artifacts_unchanged": true
+}

@@ -1,0 +1,133 @@
+{
+  "all_trials": 1470,
+  "measured_trials": 1050,
+  "methods": [
+    {
+      "method": "RandomB4_seeded",
+      "clips": 30,
+      "seconds": 0.3994809499999974,
+      "cheap_thumbnail_seconds": 0.0,
+      "cheap_statistics_seconds": 0.0,
+      "controller_decide_seconds": 4.0400002035312355e-05,
+      "observation_preparation_seconds": 0.005690200001481571
+    },
+    {
+      "method": "dense16",
+      "clips": 30,
+      "seconds": 1.3858362000028137,
+      "cheap_thumbnail_seconds": 0.0,
+      "cheap_statistics_seconds": 0.0,
+      "controller_decide_seconds": 0.0,
+      "observation_preparation_seconds": 0.0
+    },
+    {
+      "method": "history",
+      "clips": 30,
+      "seconds": 0.4092168000006495,
+      "cheap_thumbnail_seconds": 0.0,
+      "cheap_statistics_seconds": 0.0,
+      "controller_decide_seconds": 0.0156551500022033,
+      "observation_preparation_seconds": 0.006727349997163401
+    },
+    {
+      "method": "history_motion",
+      "clips": 30,
+      "seconds": 0.5700277999985701,
+      "cheap_thumbnail_seconds": 0.07469149999087676,
+      "cheap_statistics_seconds": 0.01293045000420534,
+      "controller_decide_seconds": 0.02027259999886155,
+      "observation_preparation_seconds": 0.09352950000175042
+    },
+    {
+      "method": "motion",
+      "clips": 30,
+      "seconds": 0.5063039499982551,
+      "cheap_thumbnail_seconds": 0.057359249993169215,
+      "cheap_statistics_seconds": 0.011562050000065938,
+      "controller_decide_seconds": 6.779999966965988e-05,
+      "observation_preparation_seconds": 0.07385710000016843
+    },
+    {
+      "method": "periodic",
+      "clips": 30,
+      "seconds": 0.405591849999837,
+      "cheap_thumbnail_seconds": 0.0,
+      "cheap_statistics_seconds": 0.0,
+      "controller_decide_seconds": 4.39000032201875e-05,
+      "observation_preparation_seconds": 0.005779500004791771
+    },
+    {
+      "method": "periodic_unused_gate",
+      "clips": 30,
+      "seconds": 0.544742199997927,
+      "cheap_thumbnail_seconds": 0.07757549999769253,
+      "cheap_statistics_seconds": 0.012774900003932999,
+      "controller_decide_seconds": 8.194999827537686e-05,
+      "observation_preparation_seconds": 0.09766400000262365
+    }
+  ],
+  "incremental": [
+    {
+      "method": "history_motion",
+      "reference": "periodic",
+      "paired_median_extra_seconds": 0.15216645000145945,
+      "groups_slower": 30,
+      "groups": 30
+    },
+    {
+      "method": "history_motion",
+      "reference": "history",
+      "paired_median_extra_seconds": 0.13765245000104187,
+      "groups_slower": 30,
+      "groups": 30
+    },
+    {
+      "method": "periodic_unused_gate",
+      "reference": "periodic",
+      "paired_median_extra_seconds": 0.13533374999860825,
+      "groups_slower": 30,
+      "groups": 30
+    },
+    {
+      "method": "history",
+      "reference": "periodic",
+      "paired_median_extra_seconds": 0.0025023500002134824,
+      "groups_slower": 16,
+      "groups": 30
+    }
+  ],
+  "new_timing_trials": 0,
+  "observation_preparation_includes_thumbnail_and_statistics": true,
+  "component_medians_are_not_additive": true,
+  "boundary": "Encoded memory through fresh full decode/PTS, observations, decisions, RGB/transfers, native X3D, pooling/head and completed GPU output",
+  "scope": "Historical real Experiment 21 timing; no GPU execution in Experiment 23A",
+  "older_cost_evidence": [
+    {
+      "study": "cached_history_signal_diagnostic_v1_rerun1",
+      "type": "CPU cached-component timing",
+      "history_us": 33.116,
+      "baseline_RF_ms": 83.25,
+      "augmented_RF_ms": 88.042,
+      "boundary": "Preloaded observations only; excludes acquisition/decode/encoder; not additive to E21"
+    },
+    {
+      "study": "refresh_generalization_audit_v1_rerun1",
+      "type": "CPU preloaded prediction timing",
+      "direct_RF_ms": 41.348,
+      "two_target_ms": 40.827,
+      "history_RF_ms": 40.981,
+      "threshold_us": 0.327,
+      "boundary": "Excludes history/observation construction; different run/models/boundary"
+    },
+    {
+      "study": "causal_observability_v1",
+      "type": "Native400 mechanical GPU smoke, historical only",
+      "note": "16 completed successful smoke forwards plus 4 preserved failed-verification-attempt events; no final HMDB51 cost comparison"
+    },
+    {
+      "study": "causal_observability_population_v2",
+      "type": "Input screening CPU work",
+      "note": "No policy latency measurement or model inference"
+    }
+  ]
+}

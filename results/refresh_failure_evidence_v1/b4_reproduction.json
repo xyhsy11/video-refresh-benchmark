@@ -1,0 +1,63 @@
+{
+  "methods": [
+    {
+      "method": "periodic",
+      "clips": 400,
+      "groups": 200,
+      "balanced_CE": 0.24742722945955997,
+      "balanced_top1": 0.9430693069306935,
+      "scope": "EXPLORATORY / DEVELOPMENT; reused selected head"
+    },
+    {
+      "method": "history",
+      "clips": 400,
+      "groups": 200,
+      "balanced_CE": 0.2579509516813774,
+      "balanced_top1": 0.9306930693069311,
+      "scope": "EXPLORATORY / DEVELOPMENT; reused selected head"
+    },
+    {
+      "method": "history_motion",
+      "clips": 400,
+      "groups": 200,
+      "balanced_CE": 0.25539960246970395,
+      "balanced_top1": 0.9282178217821786,
+      "scope": "EXPLORATORY / DEVELOPMENT; reused selected head"
+    }
+  ],
+  "contrasts": [
+    {
+      "contrast": "periodic_minus_history",
+      "mean": -0.010523722221817383,
+      "CI95": [
+        -0.020028688110300383,
+        -0.001046353668422601
+      ],
+      "repeats": 10000,
+      "orientation": "Positive favors second method",
+      "scope": "Conditional descriptive class-stratified group interval; reused head; not independent test"
+    },
+    {
+      "contrast": "periodic_minus_history_motion",
+      "mean": -0.007972373010143976,
+      "CI95": [
+        -0.01768075662920343,
+        0.0020845255532313863
+      ],
+      "repeats": 10000,
+      "orientation": "Positive favors second method",
+      "scope": "Conditional descriptive class-stratified group interval; reused head; not independent test"
+    },
+    {
+      "contrast": "history_minus_history_motion",
+      "mean": 0.0025513492116734067,
+      "CI95": [
+        -0.007809130019226094,
+        0.012922523957926261
+      ],
+      "repeats": 10000,
+      "orientation": "Positive favors second method",
+      "scope": "Conditional descriptive class-stratified group interval; reused head; not independent test"
+    }
+  ]
+}

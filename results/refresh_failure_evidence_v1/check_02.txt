@@ -1,0 +1,22 @@
+test_cached_population_cannot_bypass_fixed_design (test_causal_observability.Fixtures.test_cached_population_cannot_bypass_fixed_design) ... ok
+test_chronology_and_only_encountered_feature (test_causal_observability.Fixtures.test_chronology_and_only_encountered_feature) ... ok
+test_completed_checkpoint_reuse_and_tamper_rejection (test_causal_observability.Fixtures.test_completed_checkpoint_reuse_and_tamper_rejection) ... ok
+test_cross_class_grouped_bootstrap (test_causal_observability.Fixtures.test_cross_class_grouped_bootstrap) ... ok
+test_dense_diagnostics_require_prior_actual_rollouts (test_causal_observability.Fixtures.test_dense_diagnostics_require_prior_actual_rollouts) ... ok
+test_end_to_end_synthetic_paired_tables (test_causal_observability.Fixtures.test_end_to_end_synthetic_paired_tables) ... ok
+test_family_and_duplicate_safety (test_causal_observability.Fixtures.test_family_and_duplicate_safety) ... ok
+test_first_four_cache_pooling (test_causal_observability.Fixtures.test_first_four_cache_pooling) ... ok
+test_forced_feasibility_never_or_always (test_causal_observability.Fixtures.test_forced_feasibility_never_or_always) ... ok
+test_history_only_cheap_isolation (test_causal_observability.Fixtures.test_history_only_cheap_isolation) ... ok
+test_independent_video_state (test_causal_observability.Fixtures.test_independent_video_state) ... ok
+test_no_thumbnail_calls_for_history_or_periodic (test_causal_observability.Fixtures.test_no_thumbnail_calls_for_history_or_periodic) ... ok
+test_positive_family_exact_quota_assignment (test_causal_observability.Fixtures.test_positive_family_exact_quota_assignment) ... ok
+test_prohibited_current_future_label_access (test_causal_observability.Fixtures.test_prohibited_current_future_label_access) ... ok
+test_seal_missing_mutation_and_resume_integrity (test_causal_observability.Fixtures.test_seal_missing_mutation_and_resume_integrity) ... ok
+test_teacher_labels_never_enter_decide (test_causal_observability.Fixtures.test_teacher_labels_never_enter_decide) ... ok
+test_weighted_51class_head_and_equal_learner_shapes (test_causal_observability.Fixtures.test_weighted_51class_head_and_equal_learner_shapes) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 8.700s
+
+OK

@@ -1,0 +1,21 @@
+{
+  "status": "FAILED_BEFORE_SEAL",
+  "scientific_outputs_altered": false,
+  "issues": [
+    {
+      "issue": "The new class-order fixture changed the official class order without updating its tied-logit expected top1 labels.",
+      "remedy": "Correct only synthetic expected correctness labels; keep real logits, bootstrap draws and numerical tolerances unchanged."
+    },
+    {
+      "issue": "Combining older test modules in one Python process initializes a HiGHS scheduler with default threads before the population test requests threads=1; the latter returns status4/Not Set.",
+      "evidence": "combined_solver_diagnosis.txt; unchanged19.1 suite passes in a fresh process.",
+      "remedy": "Run every test module in a fresh CPU process, preserving all historical tests and solver settings."
+    },
+    {
+      "issue": "Five older read-only audit commands reject a later pre-existing THIRD_PARTY_NOTICES.md change before replay.",
+      "remedy": "Retain original nonzero return codes/logs. Use the unmodified c3ec3e6 historical checkout with original guards; verify its five scientific result directories are identical to the reviewed current base. Do not overwrite or weaken historical files."
+    }
+  ],
+  "passed_real_audits_retained": ["19", "19.1", "21", "22", "22 independent replay", "22 supplemental review"],
+  "protocol_or_empirical_target_changes": 0
+}

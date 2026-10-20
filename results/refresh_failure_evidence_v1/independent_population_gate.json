@@ -1,0 +1,89 @@
+{
+  "status": "BLOCKED_INPUT",
+  "final_decision": "NO_GO",
+  "scope": "Existing authorized local inputs and retained authenticated screening only; no dataset acquisition",
+  "roles": [
+    "head_train",
+    "controller_train",
+    "selection",
+    "evaluation"
+  ],
+  "prospective_role_assignments": [],
+  "eligible_new_populations": 0,
+  "local_source_folders": [
+    "cache_drift_v2",
+    "causal_observability_population_v2",
+    "causal_observability_v1",
+    "fresh_refresh_confirmation_v1",
+    "kinetics400_tiny",
+    "recognition_baseline_v2",
+    "refresh_objective_alignment_v1",
+    "task_utility_observability_v1",
+    "temporal_refresh_generalization_v1",
+    "torch_hub",
+    "ucf101_causal_development_v1",
+    "ucf101_proxy_replication_v1"
+  ],
+  "available_disk_bytes": 105279299584,
+  "candidates": [
+    {
+      "population": "HMDB51 existing authorized original inputs",
+      "labels": "Official 51-class split labels authenticated by historical read-only audit",
+      "timestamps": {
+        "original": 6766,
+        "verified_decoded": 6766,
+        "eligible": 6765,
+        "rule": "adaptive_history_index_uniform_v2"
+      },
+      "family_components": 1385,
+      "roles": "A/B/C allocation infeasible; no four-role assignment",
+      "quota_status": {
+        "A": "PROVEN_INFEASIBLE",
+        "B": "PROVEN_INFEASIBLE",
+        "C": "PROVEN_INFEASIBLE"
+      },
+      "duplicates": "Conservative exact/pHash/title connected families; unresolved parent IDs and reuploads",
+      "licensing": "Official Serre Lab page and distribution card state CC BY4.0; Kuehne et al., HMDB, ICCV2011; no account/click-through accepted; no video redistribution",
+      "storage": "Existing bytes retained; archive/video identities checked by historical audit",
+      "compute": "No trained full-class pipeline cost certificate; no new smoke authorized or run",
+      "status": "INELIGIBLE_POPULATION_DESIGN"
+    },
+    {
+      "population": "UCF101 archived train/development",
+      "labels": "101 classes; official-training membership only",
+      "timestamps": "Genuine retained candidate PTS; hash-verified in prior audits",
+      "groups": "Known class+gXX groups and duplicate isolation; unknown parent/pretraining overlap",
+      "duplicates": "Known byte/components isolated; not proof of universally independent sources",
+      "licensing": "Existing authorized local artifacts only; new-population rights not established by their presence",
+      "storage": "1006 retained genuine development clips; no new storage requirement measured",
+      "compute": "Historical actual E21 timing available; prospective full-role compute unknown",
+      "status": "INELIGIBLE_EXPOSED_AND_HEAD_OVERLAP"
+    },
+    {
+      "population": "Other cached Kinetics/cohort artifacts",
+      "status": "NOT_CERTIFIED_AS_FRESH_FOUR_ROLE_POPULATION",
+      "reason": "Previously used/reserved cohorts and incomplete parent identities; no authenticated prospective role certificate; protected outcomes not opened"
+    }
+  ],
+  "missing": [
+    "Authorized previously unexposed all-class RGB/labels with authenticated bytes and real PTS",
+    "Verified original source/subject/take/camera families and duplicate components isolated globally across four roles",
+    "Prospective full-class family counts, deterministic allocation certificate and group-based precision plan",
+    "Verified licensing/terms and projected full-role storage/compute on intended execution hardware",
+    "Task-relevant pre-decision observable with demonstrated incremental budget utility beyond cached history at acceptable acquisition cost"
+  ],
+  "future_minimum_independent_families_per_class": {
+    "head_train": 10,
+    "controller_train": 10,
+    "selection": 5,
+    "evaluation": 20
+  },
+  "minima_note": "Prospective engineering floors only, not power guarantees; no local candidate is declared feasible against these floors",
+  "actions": {
+    "downloaded_bytes": 0,
+    "agreements_accepted": 0,
+    "new_dataset_decodes": 0,
+    "new_model_calls": 0,
+    "future_training_or_policy_execution": false
+  }
+}

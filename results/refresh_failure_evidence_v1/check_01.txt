@@ -1,0 +1,20 @@
+test_H_HM_shared_history_and_M_isolation (test_task_utility_observability.SyntheticTests.test_H_HM_shared_history_and_M_isolation) ... ok
+test_affine_cache_pooling (test_task_utility_observability.SyntheticTests.test_affine_cache_pooling) ... ok
+test_all_455_exact_B4_schedules (test_task_utility_observability.SyntheticTests.test_all_455_exact_B4_schedules) ... ok
+test_class_group_clip_state_weights (test_task_utility_observability.SyntheticTests.test_class_group_clip_state_weights) ... ok
+test_forbidden_official_test_and_history_writes (test_task_utility_observability.SyntheticTests.test_forbidden_official_test_and_history_writes) ... ok
+test_future_feature_rejection_and_invariance (test_task_utility_observability.SyntheticTests.test_future_feature_rejection_and_invariance) ... ok
+test_group_bootstrap_pairing_and_determinism (test_task_utility_observability.SyntheticTests.test_group_bootstrap_pairing_and_determinism) ... ok
+test_identity_mutation_rejection (test_task_utility_observability.SyntheticTests.test_identity_mutation_rejection) ... ok
+test_independent_completions_and_forced_decisions (test_task_utility_observability.SyntheticTests.test_independent_completions_and_forced_decisions) ... ok
+test_labels_never_enter_observation (test_task_utility_observability.SyntheticTests.test_labels_never_enter_observation) ... ok
+test_metrics_ties_and_weighted_ranks (test_task_utility_observability.SyntheticTests.test_metrics_ties_and_weighted_ranks) ... ok
+test_probe_determinism_and_constant_base_rate (test_task_utility_observability.SyntheticTests.test_probe_determinism_and_constant_base_rate) ... ok
+test_resume_reauthenticates_historical_parent_trials (test_task_utility_observability.SyntheticTests.test_resume_reauthenticates_historical_parent_trials) ... ok
+test_sign_conventions (test_task_utility_observability.SyntheticTests.test_sign_conventions) ... ok
+test_split_and_exact_duplicate_safety (test_task_utility_observability.SyntheticTests.test_split_and_exact_duplicate_safety) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.307s
+
+OK

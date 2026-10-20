@@ -1,0 +1,13 @@
+INCOMPLETE: AssertionError: Historical artifacts modified
+Traceback (most recent call last):
+  File "C:\video-refresh-baseline\analyze_refresh_target_decomposition.py", line 236, in <module>
+    run(args)
+  File "C:\video-refresh-baseline\analyze_refresh_target_decomposition.py", line 172, in run
+    p = freeze(recognition, prior, output, args.seed, args.bootstrap)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\video-refresh-baseline\analyze_refresh_target_decomposition.py", line 77, in freeze
+    original.preserved(p)
+  File "C:\video-refresh-baseline\analyze_task_signals.py", line 86, in preserved
+    assert not changed.intersection(protocol["previous_tracked_blob_identities"]), "Historical artifacts modified"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Historical artifacts modified

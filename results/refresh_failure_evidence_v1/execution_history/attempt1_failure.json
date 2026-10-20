@@ -1,0 +1,11 @@
+{
+  "stage": "B4 bootstrap schema verification",
+  "result": "FAILED_BEFORE_SEAL",
+  "exception": "RuntimeError: Bootstrap crosses class boundaries",
+  "cause": "The new verifier assumed bootstrap columns followed lexicographic group-table class order. Recorded Experiment21 draw blocks follow official class-index order. Hammering/HammerThrow and similar pairs expose the ordering distinction.",
+  "correction": "Validate draw columns against official class order and use corresponding per-column weights. Preserve group-table weights for the point estimand. Add an explicit synthetic class-order regression test.",
+  "historical_changes": 0,
+  "new_fits_or_inference": 0,
+  "earlier_new_math_snapshot": "attempt1_math.py.txt",
+  "scientific_setting_changes": "None; retain original archived draws and all outcomes. No tolerance relaxed. Initial genuine proxy association rows are recomputed with identical arithmetic."
+}

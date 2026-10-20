@@ -1,0 +1,163 @@
+[
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "test_refresh_failure_evidence",
+      "test_task_utility_observability",
+      "test_causal_observability",
+      "test_causal_observability_population_v2",
+      "test_ucf101_causal_development",
+      "test_task_signals",
+      "test_task_signal_ablation",
+      "test_refresh_target_decomposition",
+      "test_cached_history_signals",
+      "test_refresh_generalization_audit",
+      "-v"
+    ],
+    "returncode": 1,
+    "log": "verification_00.txt",
+    "fixtures": "Unit-test synthetic fixtures only"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "run_causal_observability.py",
+      "--audit-only"
+    ],
+    "returncode": 0,
+    "log": "verification_01.txt",
+    "fixtures": "Real retained evidence audit"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "run_causal_observability_population_v2.py",
+      "--audit-only"
+    ],
+    "returncode": 0,
+    "log": "verification_02.txt",
+    "fixtures": "Real retained evidence audit"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "run_ucf101_causal_development.py",
+      "--audit-only"
+    ],
+    "returncode": 0,
+    "log": "verification_03.txt",
+    "fixtures": "Real retained evidence audit"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "run_task_utility_observability.py",
+      "--audit-only"
+    ],
+    "returncode": 0,
+    "log": "verification_04.txt",
+    "fixtures": "Real retained evidence audit"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "results/task_utility_observability_v1/independent_replay_review.py"
+    ],
+    "returncode": 0,
+    "log": "verification_05.txt",
+    "fixtures": "Real retained evidence audit"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "results/task_utility_observability_v1/supplemental_review.py"
+    ],
+    "returncode": 0,
+    "log": "verification_06.txt",
+    "fixtures": "Real retained evidence audit"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "analyze_task_signals.py",
+      "--output",
+      "results/task_signal_diagnostic_v1",
+      "--audit-only"
+    ],
+    "returncode": 1,
+    "log": "verification_07.txt",
+    "fixtures": "Real retained evidence audit"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "analyze_task_signal_ablation.py",
+      "--output",
+      "results/task_signal_ablation_v2",
+      "--audit-only"
+    ],
+    "returncode": 1,
+    "log": "verification_08.txt",
+    "fixtures": "Real retained evidence audit"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "analyze_refresh_target_decomposition.py",
+      "--output",
+      "results/refresh_target_decomposition_v1",
+      "--audit-only"
+    ],
+    "returncode": 1,
+    "log": "verification_09.txt",
+    "fixtures": "Real retained evidence audit"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "analyze_cached_history_signals.py",
+      "--predictability-input",
+      "results/two_target_refresh_predictability_v1",
+      "--output",
+      "results/cached_history_signal_diagnostic_v1_rerun1",
+      "--seed",
+      "20261021",
+      "--bootstrap",
+      "10000",
+      "--audit-only"
+    ],
+    "returncode": 1,
+    "log": "verification_10.txt",
+    "fixtures": "Real retained evidence audit"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "audit_refresh_generalization.py",
+      "--output",
+      "results/refresh_generalization_audit_v1_rerun1",
+      "--seed",
+      "20261022",
+      "--bootstrap",
+      "10000",
+      "--audit-only"
+    ],
+    "returncode": 1,
+    "log": "verification_11.txt",
+    "fixtures": "Real retained evidence audit"
+  }
+]

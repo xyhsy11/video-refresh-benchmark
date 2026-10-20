@@ -1,0 +1,118 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-20T03:48:26.353099+00:00",
+  "cohort_sources": {
+    "development": 100,
+    "exploratory": 40
+  },
+  "opportunities": {
+    "development": 900,
+    "exploratory": 360
+  },
+  "independent_history_feature_checks": 1260,
+  "max_independent_T_discrepancy": 2.7755575615628914e-16,
+  "input_isolation_mutations": 282,
+  "folds_targets_and_source_identities_unchanged": true,
+  "baseline_prediction_max_discrepancy": 0.0,
+  "baseline_models_reused_byte_for_byte": 6,
+  "new_augmented_RF_fits": 6,
+  "max_scaler_first56_discrepancy": 0.0,
+  "training_bootstrap_root_checks": 4800,
+  "model_accounting": [
+    {
+      "bundle": "fold_0",
+      "method": "C_RF400",
+      "trees": 400,
+      "nodes": 5796,
+      "serialized_bytes": 157120
+    },
+    {
+      "bundle": "fold_0",
+      "method": "C_plus_T_RF400",
+      "trees": 400,
+      "nodes": 4990,
+      "serialized_bytes": 134300
+    },
+    {
+      "bundle": "fold_1",
+      "method": "C_RF400",
+      "trees": 400,
+      "nodes": 5878,
+      "serialized_bytes": 158429
+    },
+    {
+      "bundle": "fold_1",
+      "method": "C_plus_T_RF400",
+      "trees": 400,
+      "nodes": 5386,
+      "serialized_bytes": 145325
+    },
+    {
+      "bundle": "fold_2",
+      "method": "C_RF400",
+      "trees": 400,
+      "nodes": 6170,
+      "serialized_bytes": 166997
+    },
+    {
+      "bundle": "fold_2",
+      "method": "C_plus_T_RF400",
+      "trees": 400,
+      "nodes": 5218,
+      "serialized_bytes": 141403
+    },
+    {
+      "bundle": "fold_3",
+      "method": "C_RF400",
+      "trees": 400,
+      "nodes": 6230,
+      "serialized_bytes": 169862
+    },
+    {
+      "bundle": "fold_3",
+      "method": "C_plus_T_RF400",
+      "trees": 400,
+      "nodes": 4986,
+      "serialized_bytes": 132919
+    },
+    {
+      "bundle": "fold_4",
+      "method": "C_RF400",
+      "trees": 400,
+      "nodes": 6110,
+      "serialized_bytes": 165792
+    },
+    {
+      "bundle": "fold_4",
+      "method": "C_plus_T_RF400",
+      "trees": 400,
+      "nodes": 4874,
+      "serialized_bytes": 131613
+    },
+    {
+      "bundle": "final_development",
+      "method": "C_RF400",
+      "trees": 400,
+      "nodes": 6244,
+      "serialized_bytes": 169418
+    },
+    {
+      "bundle": "final_development",
+      "method": "C_plus_T_RF400",
+      "trees": 400,
+      "nodes": 5264,
+      "serialized_bytes": 140611
+    }
+  ],
+  "saved_metrics_and_grouped_bootstraps_reproduced": true,
+  "information_audit_swap_fixture": true,
+  "CPU_timing_rows_verified": 15,
+  "CPU_timing_execution_order_reproduced": true,
+  "previous_tracked_files_preserved": 2927,
+  "classifier_and_prior_artifacts_unchanged": true,
+  "actual_RGB_encoder_executions": 0,
+  "video_decodes": 0,
+  "video_downloads": 0,
+  "recognition_training_calls": 0,
+  "fresh_confirmation_artifacts_accessed": 0
+}
