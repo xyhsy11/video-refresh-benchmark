@@ -1,0 +1,12 @@
+test_cached_and_current_interfaces_isolate_privileged_information (test_task_signal_ablation.AblationChecks.test_cached_and_current_interfaces_isolate_privileged_information) ... ok
+test_constant_training_columns_and_kernel (test_task_signal_ablation.AblationChecks.test_constant_training_columns_and_kernel) ... ok
+test_decision_utility_whole_video_grouping_and_outcome_reference (test_task_signal_ablation.AblationChecks.test_decision_utility_whole_video_grouping_and_outcome_reference) ... ok
+test_heldout_targets_cannot_change_actual_fold_models (test_task_signal_ablation.AblationChecks.test_heldout_targets_cannot_change_actual_fold_models) ... ok
+test_kernel_centering_independent_H_and_intercept_system (test_task_signal_ablation.AblationChecks.test_kernel_centering_independent_H_and_intercept_system) ... ok
+test_linear_reproduces_prior_D_recipe (test_task_signal_ablation.AblationChecks.test_linear_reproduces_prior_D_recipe) ... ok
+test_undefined_discrimination (test_task_signal_ablation.AblationChecks.test_undefined_discrimination) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 1.449s
+
+OK

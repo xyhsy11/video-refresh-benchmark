@@ -1,0 +1,28 @@
+﻿SYNTHETIC MILP returned 0 Optimization terminated successfully. (HiGHS Status 7: Optimal) threads option None
+SYNTHETIC MILP returned 4 (HiGHS Status 0: Not Set) threads option 1
+SYNTHETIC MILP returned 4 (HiGHS Status 0: Not Set) threads option 1
+Synthetic fixture diagnosis only; no historical output changed. Success: False
+.\.venv_temporal\Scripts\python.exe : ......................F.............
+所在位置 行:15 字符: 6
++ '@ | .\.venv_temporal\Scripts\python.exe -B - 2>&1 | Out-File -FilePa ...
++      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (......................F.............:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+======================================================================
+FAIL: test_global_MILP_minima_cross_class_and_repeat (test_causal_observability_population_v2.SyntheticPopulationTests.
+test_global_MILP_minima_cross_class_and_repeat)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\video-refresh-baseline\test_causal_observability_population_v2.py", line 122, in test_global_MILP_minima_cro
+ss_class_and_repeat
+    self.assertEqual(result['status'], 'FEASIBLE')
+AssertionError: 'UNRESOLVED_RESOURCE_LIMIT' != 'FEASIBLE'
+- UNRESOLVED_RESOURCE_LIMIT
++ FEASIBLE
+
+
+----------------------------------------------------------------------
+Ran 36 tests in 8.102s
+
+FAILED (failures=1)

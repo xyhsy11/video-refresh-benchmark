@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "experiment": "23A",
+  "categories": {
+    "task_headroom": {
+      "status": "PRESENT_PRIVILEGED_BOUND",
+      "finding": "True-label/future-informed B4 headroom is substantial; fidelity-teacher headroom is much smaller.",
+      "does_not_establish": "An observable or deployable causal opportunity."
+    },
+    "objective_mismatch": {
+      "status": "DIRECT_DESCRIPTIVE_SUPPORT",
+      "finding": "Fidelity teacher actions disagree with signed task gains; beneficial addition may be cancelled by removal at fixed budget.",
+      "does_not_establish": "A unique causal explanation of final learned-policy failure."
+    },
+    "signal_insufficiency": {
+      "status": "INCREMENTAL_INFORMATION_NOT_ESTABLISHED",
+      "finding": "The tested cheap grayscale statistics do not establish useful incremental budget-utility information beyond history.",
+      "does_not_establish": "Information-theoretic absence or failure of every possible causal signal."
+    },
+    "generalization_failure": {
+      "status": "SUPPORTED_FOR_TESTED_MODELS_WITH_INDEPENDENCE_LIMITS",
+      "finding": "Prior in-sample utility fails to transfer to OOF/exploratory sources; present head fitting/selection overlap and target-scale shift remain.",
+      "does_not_establish": "Untouched independent confirmation or an isolated cause such as distribution shift."
+    },
+    "measured_cost": {
+      "status": "DIRECT_HISTORICAL_EXECUTION_EVIDENCE",
+      "finding": "H+M costs more than periodic on all 30 timing groups; unused gating alone is costly.",
+      "does_not_establish": "An optimized fused path is fast, or overhead is the sole failure mechanism."
+    },
+    "population_infeasibility": {
+      "status": "BLOCKED_INPUT",
+      "finding": "HMDB51 source allocation fails; exposed UCF cohorts cannot supply a fresh separated four-role evaluation.",
+      "does_not_establish": "Learning failure in the unexecuted HMDB51 study."
+    }
+  },
+  "explanations_can_coexist": true,
+  "genuine_independent_test_in_this_audit": false,
+  "new_semantic_event_annotations": 0,
+  "final_decision": "NO_GO"
+}

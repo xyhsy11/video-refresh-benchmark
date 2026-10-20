@@ -1,0 +1,12 @@
+test_class_stratified_source_folds (test_task_signals.TaskSignalChecks.test_class_stratified_source_folds) ... ok
+test_exact_budget_histories_signed_independent_targets (test_task_signals.TaskSignalChecks.test_exact_budget_histories_signed_independent_targets) ... ok
+test_heldout_targets_do_not_change_fold_model_or_predictions (test_task_signals.TaskSignalChecks.test_heldout_targets_do_not_change_fold_model_or_predictions) ... ok
+test_missing_motion_and_confidence (test_task_signals.TaskSignalChecks.test_missing_motion_and_confidence) ... ok
+test_no_label_current_future_rgb_or_future_motion_inputs (test_task_signals.TaskSignalChecks.test_no_label_current_future_rgb_or_future_motion_inputs) ... ok
+test_ridge_sum_objective_constant_columns (test_task_signals.TaskSignalChecks.test_ridge_sum_objective_constant_columns) ... ok
+test_undefined_statistics_and_ties (test_task_signals.TaskSignalChecks.test_undefined_statistics_and_ties) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.799s
+
+OK

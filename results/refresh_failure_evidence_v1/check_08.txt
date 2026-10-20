@@ -1,0 +1,12 @@
+test_component_pass_includes_all_events_and_batch_one_calls (test_cached_history_signals.CachedHistoryChecks.test_component_pass_includes_all_events_and_batch_one_calls) ... ok
+test_equal_video_utility_and_shared_bootstrap (test_cached_history_signals.CachedHistoryChecks.test_equal_video_utility_and_shared_bootstrap) ... ok
+test_exact_formulas_missing_history_and_ties (test_cached_history_signals.CachedHistoryChecks.test_exact_formulas_missing_history_and_ties) ... ok
+test_observation_builder_ignores_privileged_and_outcome_columns (test_cached_history_signals.CachedHistoryChecks.test_observation_builder_ignores_privileged_and_outcome_columns) ... ok
+test_prefix_isolation_and_video_reset (test_cached_history_signals.CachedHistoryChecks.test_prefix_isolation_and_video_reset) ... ok
+test_saved_history_schema_preserves_float_masks (test_cached_history_signals.CachedHistoryChecks.test_saved_history_schema_preserves_float_masks) ... ok
+test_two_history_recovery_and_three_history_order_audit (test_cached_history_signals.CachedHistoryChecks.test_two_history_recovery_and_three_history_order_audit) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.334s
+
+OK

@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "scope": "EXPLORATORY / DEVELOPMENT: already exposed UCF101 official-training membership only",
+  "input_clips": 1006,
+  "metric_tables_reproduced": 50,
+  "history": {
+    "passed": true,
+    "historical_result_blobs": 3615,
+    "method": "Git blob identity only; official-test scientific contents not parsed"
+  },
+  "bootstrap_pairing_and_intervals_verified": true,
+  "independent_target_replay_receipt_verified": true,
+  "original_source_and_feature_hashes_verified": true,
+  "official_test_outcomes_opened": false,
+  "new_GPU_calls": 0,
+  "new_video_decodes": 0,
+  "network_bytes": 0,
+  "read_only": true,
+  "model_predictions": 0,
+  "training_calls": 0,
+  "results_regenerated": 0
+}

@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\video-refresh-baseline\audit_refresh_generalization.py", line 430, in <module>
+    run(args)
+  File "C:\video-refresh-baseline\audit_refresh_generalization.py", line 380, in run
+    print(json.dumps(audit_saved(output,protocol),indent=2));return
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\video-refresh-baseline\audit_refresh_generalization.py", line 358, in audit_saved
+    unchanged(protocol)
+  File "C:\video-refresh-baseline\audit_refresh_generalization.py", line 349, in unchanged
+    assert not changed,changed
+           ^^^^^^^^^^^
+AssertionError: ['THIRD_PARTY_NOTICES.md']

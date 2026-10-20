@@ -1,0 +1,27 @@
+# Decision: NO_GO; prospective population BLOCKED_INPUT
+
+Current evidence does **not** justify another predictive-refresh controller or tuning round. It supports documenting objective mismatch, conditional observability limits, generalization concerns and actual overhead. This is an evidence audit; no fresh independent scientific result is claimed.
+
+Task-scheduling headroom exists as a privileged bound: on400 exposed UCF development clips, Periodic CE0.247427 versus true-label B4 oracle0.135483 gives0.111945 nats. Z_pool reduces CE by only0.001576. These are different findings: limited fidelity-teacher benefit is not evidence of absent task headroom. Label/future-informed enumeration of455 schedules is not reachable causal performance.
+
+Real B4 execution remains adverse/inconclusive. Periodic-H is -0.010524 nats (conditional95% group interval[-0.020029,-0.001046]); Periodic-H+M is -0.007972[-0.017681,+0.002085]. Positive favors the learned method. H-H+M is +0.002551[-0.007809,+0.012923]. None establishes a useful H+M advantage over Periodic. These saved-logit and group-bootstrap results are reproduced in b4_reproduction.json, preserving exploratory labels, reused head selection and missing within-class variance in single-group classes.
+
+Experiment22's budget H+M-H AP difference is -0.001462[-0.005408,+0.002438]; the local difference is +0.000181[-0.001292,+0.001687]. History does carry modest immediate-sign information, but cheap grayscale statistics have not established incremental budget utility. This does not prove all causal signals are uninformative. All six already-recorded grayscale-change proxies are audited against both signed gains separately by role/population; marginal proxy correlation cannot answer the conditional incremental-information question. Semantic event labels remain missing rather than fabricated.
+
+On the4,800 primary periodic execution states, class/group/clip/state-weighted MAD Spearman is -0.013300 with local gain and -0.000774 with budget gain. Across all six audited change proxies, local correlations range from -0.021653 to -0.009156 and budget correlations from -0.009065 to +0.010841. These are complete descriptive ranges, without a selected favorable proxy or an independence claim. All60 rows, including training/selection and separate random/H+M-prefix populations, remain in grayscale_signed_gain_associations.csv.
+
+Prior task-signal/ablation and target-decomposition audits show that a useful-looking addition may lose its benefit when another refresh must be removed. The cached-history audit distinguishes deterministic features from new observations; the generalization audit shows positive in-sample utility failing to transfer to held-out reused sources. Head/controller training overlap, prior head selection and severe target-scale shift remain design concerns. None of those reused cohorts is an independent test.
+
+Actual historical median latency is405.592ms for Periodic,409.217ms for H and570.028ms for H+M. H+M adds a paired median152.166ms versus Periodic and is slower on all30 timing groups. Unused gating adds135.334ms. Observation preparation already contains thumbnail/statistics cost; summing nested fields would double-count. The audit reconciles1,470 total/1,050 measured trials without executing the GPU or assigning periodic latency to an oracle. Older cached-input CPU component costs have separate boundaries and cannot be added to these totals.
+
+The input-only gate finds no eligible fresh four-role population. HMDB19.1 recovers6,765/6,766 temporally eligible clips but conservative A/B/C role allocations remain infeasible; original parent identities are incomplete. UCF training/development data are exposed and the prior head is not independently separated. Other cached/reserved source folders do not provide an authenticated untouched full-class four-role certificate. No new dataset is downloaded, no agreement accepted, and protected official-test outcomes are not opened.
+
+The precise missing conditions are:
+
+1. A genuine **pre-decision task-relevant change signal**, conditional on cache/history/time/remaining budget, that adds independently replicated prediction of signed final exact-B4 utility. No particular unmeasured event detector is already justified.
+2. An authorized, authenticated, previously unexposed **all-class population** with real PTS/labels and globally isolated head_train/controller_train/selection/evaluation families, duplicate/reupload audit, known limitations and adequate independent-group precision.
+3. A measured **complete execution cost** meeting the prospective total-resource cap, including acquisition, decisions, native encoder/head and decoding. A cheaper fused path is presently hypothetical; equal forward counts do not satisfy this condition.
+
+The conditional Experiment23B protocol fixes one independent B4 comparison and its stop rules, but remains blocked and unexecuted. Passing the CPU/software audits authenticates the evidence; it does not change this NO_GO.
+
+Verification attempts and compatibility limits remain visible. Five older current-tree audits stop at their historical-index guard because a later attribution notice differs; their unmodified historical-checkout replays are recorded separately. A combined-process synthetic suite also exposed a HiGHS thread-state conflict; individual-module runs preserve its original solver settings. Neither issue changes a historical scientific result. The new bootstrap-order verifier/fixture corrections are documented before the final seal.

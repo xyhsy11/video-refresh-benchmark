@@ -1,0 +1,18 @@
+test_checkpoint_identity_payload_and_reuse (test_ucf101_causal_development.SyntheticDevelopmentTests.test_checkpoint_identity_payload_and_reuse) ... ok
+test_chronology_and_prohibited_decision_access (test_ucf101_causal_development.SyntheticDevelopmentTests.test_chronology_and_prohibited_decision_access) ... ok
+test_exact_four_first0_and_scalar_logit_replay (test_ucf101_causal_development.SyntheticDevelopmentTests.test_exact_four_first0_and_scalar_logit_replay) ... ok
+test_execution_arrays_unavailable_before_diagnostics (test_ucf101_causal_development.SyntheticDevelopmentTests.test_execution_arrays_unavailable_before_diagnostics) ... ok
+test_forced_budget_feasibility_always_and_never (test_ucf101_causal_development.SyntheticDevelopmentTests.test_forced_budget_feasibility_always_and_never) ... ok
+test_freeze_mutation_rejection (test_ucf101_causal_development.SyntheticDevelopmentTests.test_freeze_mutation_rejection) ... ok
+test_generic101_and_history_only_current_isolation (test_ucf101_causal_development.SyntheticDevelopmentTests.test_generic101_and_history_only_current_isolation) ... ok
+test_guard_rejects_official_test_outcomes_and_unapproved_arrays (test_ucf101_causal_development.SyntheticDevelopmentTests.test_guard_rejects_official_test_outcomes_and_unapproved_arrays) ... ok
+test_historical_write_guard (test_ucf101_causal_development.SyntheticDevelopmentTests.test_historical_write_guard) ... ok
+test_independent_video_cache_and_seeded_random (test_ucf101_causal_development.SyntheticDevelopmentTests.test_independent_video_cache_and_seeded_random) ... ok
+test_live_executor_matches_existing_policy_definition (test_ucf101_causal_development.SyntheticDevelopmentTests.test_live_executor_matches_existing_policy_definition) ... ok
+test_population_rejects_official_test_and_cross_roles (test_ucf101_causal_development.SyntheticDevelopmentTests.test_population_rejects_official_test_and_cross_roles) ... ok
+test_weighted_class_group_clip_metrics (test_ucf101_causal_development.SyntheticDevelopmentTests.test_weighted_class_group_clip_metrics) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 2.002s
+
+OK

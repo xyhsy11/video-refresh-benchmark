@@ -1,0 +1,319 @@
+[
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "test_refresh_failure_evidence",
+      "-v"
+    ],
+    "returncode": 0,
+    "log": "check_00.txt",
+    "cwd": "C:\\video-refresh-baseline",
+    "log_sha256": "30b4b22bffc1aa6feb2fb8e0e12d51412439a649fa5a798f5d5404c930974a6b",
+    "fixtures": "Unit-test synthetic fixtures only"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "test_task_utility_observability",
+      "-v"
+    ],
+    "returncode": 0,
+    "log": "check_01.txt",
+    "cwd": "C:\\video-refresh-baseline",
+    "log_sha256": "df7a142be7cc771e829a614692f562735d6a343763f76d4639e04c39b21c7eea",
+    "fixtures": "Unit-test synthetic fixtures only"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "test_causal_observability",
+      "-v"
+    ],
+    "returncode": 0,
+    "log": "check_02.txt",
+    "cwd": "C:\\video-refresh-baseline",
+    "log_sha256": "cef6cdab43bbb6d31e98dbb4ba0af5f7db714a3d1d9bd040e2887f0199b6769a",
+    "fixtures": "Unit-test synthetic fixtures only"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "test_causal_observability_population_v2",
+      "-v"
+    ],
+    "returncode": 0,
+    "log": "check_03.txt",
+    "cwd": "C:\\video-refresh-baseline",
+    "log_sha256": "77b10968bb1b4f39920a5b612c94624d4d3c9ae054c41fa00e315dc734fd4786",
+    "fixtures": "Unit-test synthetic fixtures only"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "test_ucf101_causal_development",
+      "-v"
+    ],
+    "returncode": 0,
+    "log": "check_04.txt",
+    "cwd": "C:\\video-refresh-baseline",
+    "log_sha256": "769b59892bd9c9209a6894a8b94dba4569db08654523ec3cfd32dd09af940a61",
+    "fixtures": "Unit-test synthetic fixtures only"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "test_task_signals",
+      "-v"
+    ],
+    "returncode": 0,
+    "log": "check_05.txt",
+    "cwd": "C:\\video-refresh-baseline",
+    "log_sha256": "be9996375d67ad9a2688d97ac6eb92d63b32a129b55e9c93d1744346cdbfdb39",
+    "fixtures": "Unit-test synthetic fixtures only"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "test_task_signal_ablation",
+      "-v"
+    ],
+    "returncode": 0,
+    "log": "check_06.txt",
+    "cwd": "C:\\video-refresh-baseline",
+    "log_sha256": "9b8c3a9f2cfec19e281f8dfc7645779b6d8fb448980fa673a7dd1ab0f8051ab9",
+    "fixtures": "Unit-test synthetic fixtures only"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "test_refresh_target_decomposition",
+      "-v"
+    ],
+    "returncode": 0,
+    "log": "check_07.txt",
+    "cwd": "C:\\video-refresh-baseline",
+    "log_sha256": "7ec84acf88e795af0cc409a20626076199fd906f531b930446502c411f861918",
+    "fixtures": "Unit-test synthetic fixtures only"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "test_cached_history_signals",
+      "-v"
+    ],
+    "returncode": 0,
+    "log": "check_08.txt",
+    "cwd": "C:\\video-refresh-baseline",
+    "log_sha256": "5c1f909648d716b1f6ce9a87c27f232c826d60aa84aadbf479d8edadec30e7f4",
+    "fixtures": "Unit-test synthetic fixtures only"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "test_refresh_generalization_audit",
+      "-v"
+    ],
+    "returncode": 0,
+    "log": "check_09.txt",
+    "cwd": "C:\\video-refresh-baseline",
+    "log_sha256": "efa638d57f7d84f67998a07b99e181dc964947e4e1791269e2054e2f0cabdd77",
+    "fixtures": "Unit-test synthetic fixtures only"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "run_causal_observability.py",
+      "--audit-only"
+    ],
+    "returncode": 0,
+    "log": "check_10.txt",
+    "cwd": "C:\\video-refresh-baseline",
+    "reused_successful_receipt": "verification_01.txt",
+    "log_sha256": "6e689eba9c3413b0955794277bc3478ec4f5c61b10e2ad235b50ff301b3af427",
+    "fixtures": "Retained real-evidence audit; disclosed arithmetic fixture checks are not empirical results"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "run_causal_observability_population_v2.py",
+      "--audit-only"
+    ],
+    "returncode": 0,
+    "log": "check_11.txt",
+    "cwd": "C:\\video-refresh-baseline",
+    "reused_successful_receipt": "verification_02.txt",
+    "log_sha256": "f6c3cc1485c8af5d4c5ee94a3065e21c1d32593e72d268396c977a443f0b0137",
+    "fixtures": "Retained real-evidence audit; disclosed arithmetic fixture checks are not empirical results"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "run_ucf101_causal_development.py",
+      "--audit-only"
+    ],
+    "returncode": 0,
+    "log": "check_12.txt",
+    "cwd": "C:\\video-refresh-baseline",
+    "reused_successful_receipt": "verification_03.txt",
+    "log_sha256": "3d24733b230805d10549e7fa25d112d89d45c868ed2f66ba75ec6f77afaee9f8",
+    "fixtures": "Retained real-evidence audit; disclosed arithmetic fixture checks are not empirical results"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "run_task_utility_observability.py",
+      "--audit-only"
+    ],
+    "returncode": 0,
+    "log": "check_13.txt",
+    "cwd": "C:\\video-refresh-baseline",
+    "reused_successful_receipt": "verification_04.txt",
+    "log_sha256": "eb253100dbbc164f28a6616baa56cc6dce26c4d93b17075e7e0c6511e3ab3cdd",
+    "fixtures": "Retained real-evidence audit; disclosed arithmetic fixture checks are not empirical results"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "results/task_utility_observability_v1/independent_replay_review.py"
+    ],
+    "returncode": 0,
+    "log": "check_14.txt",
+    "cwd": "C:\\video-refresh-baseline",
+    "reused_successful_receipt": "verification_05.txt",
+    "log_sha256": "99efad629970b4c000da2355731fda157244821d8bb0ae003232f112cd97cb28",
+    "fixtures": "Retained real-evidence audit; disclosed arithmetic fixture checks are not empirical results"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "results/task_utility_observability_v1/supplemental_review.py"
+    ],
+    "returncode": 0,
+    "log": "check_15.txt",
+    "cwd": "C:\\video-refresh-baseline",
+    "reused_successful_receipt": "verification_06.txt",
+    "log_sha256": "a89221058782598cc8f6b69d4338697a9b1242f5684437b2f66751d384641864",
+    "fixtures": "Retained real-evidence audit; disclosed arithmetic fixture checks are not empirical results"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "analyze_task_signals.py",
+      "--output",
+      "results/task_signal_diagnostic_v1",
+      "--audit-only"
+    ],
+    "returncode": 0,
+    "log": "check_16.txt",
+    "cwd": "C:\\video-refresh-evidence-23a-historical",
+    "log_sha256": "62cb07887120a60a2ec1b7cfd19005a923939244be53477bf808e5ce86a1d6b0",
+    "fixtures": "Real retained evidence audit; disclosed arithmetic fixture checks are not empirical results"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "analyze_task_signal_ablation.py",
+      "--output",
+      "results/task_signal_ablation_v2",
+      "--audit-only"
+    ],
+    "returncode": 0,
+    "log": "check_17.txt",
+    "cwd": "C:\\video-refresh-evidence-23a-historical",
+    "log_sha256": "a9ec9c86023768a5b6fcd60662d8294182f004f7d072efd6becfa72afe536d2f",
+    "fixtures": "Real retained evidence audit; disclosed arithmetic fixture checks are not empirical results"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "analyze_refresh_target_decomposition.py",
+      "--output",
+      "results/refresh_target_decomposition_v1",
+      "--audit-only"
+    ],
+    "returncode": 0,
+    "log": "check_18.txt",
+    "cwd": "C:\\video-refresh-evidence-23a-historical",
+    "log_sha256": "4c2988bdabb1ea51f19b84325eb40e163f1ad4f0c13a2172f99c6cf300a34388",
+    "fixtures": "Real retained evidence audit; disclosed arithmetic fixture checks are not empirical results"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "analyze_cached_history_signals.py",
+      "--predictability-input",
+      "results/two_target_refresh_predictability_v1",
+      "--output",
+      "results/cached_history_signal_diagnostic_v1_rerun1",
+      "--seed",
+      "20261021",
+      "--bootstrap",
+      "10000",
+      "--audit-only"
+    ],
+    "returncode": 0,
+    "log": "check_19.txt",
+    "cwd": "C:\\video-refresh-evidence-23a-historical",
+    "log_sha256": "d3ee17662be223372cb632f1a848230454123be8a5b503a2b04ae3e0dc29f02a",
+    "fixtures": "Real retained evidence audit; disclosed arithmetic fixture checks are not empirical results"
+  },
+  {
+    "command": [
+      "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+      "-B",
+      "audit_refresh_generalization.py",
+      "--output",
+      "results/refresh_generalization_audit_v1_rerun1",
+      "--seed",
+      "20261022",
+      "--bootstrap",
+      "10000",
+      "--audit-only"
+    ],
+    "returncode": 0,
+    "log": "check_20.txt",
+    "cwd": "C:\\video-refresh-evidence-23a-historical",
+    "log_sha256": "741b1a326a2eedd04869db7c6c1f4c1a165f8855550596119948d89602cf280f",
+    "fixtures": "Real retained evidence audit; disclosed arithmetic fixture checks are not empirical results"
+  }
+]

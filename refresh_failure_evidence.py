@@ -1,0 +1,209 @@
+"""Experiment 23A: CPU arithmetic only; never fit or execute a refresh policy.
+
+Empirical callers authenticate retained observations. Synthetic data are confined
+to test_refresh_failure_evidence.py. Associations are descriptive, not effects.
+"""
+from collections import Counter, defaultdict
+import numpy as np
+from scipy.special import logsumexp
+from scipy.stats import rankdata
+
+
+ROLES = ('head_train', 'controller_train', 'selection', 'evaluation')
+PROXIES = {'gray_MAD': 26, 'gray_RMS': 27, 'gray_max_change': 28,
+           'gray_fraction_gt_0_1': 29, 'gray_histogram_L1': 30,
+           'gray_MAD_gt_0_2_recorded_flag': 31}
+
+
+def require(value, message):
+    if not value:
+        raise RuntimeError(message)
+
+
+def weights(rows):
+    """Equal classes, families within class, clips/family, observations/clip."""
+    require(bool(rows), 'No genuine rows')
+    groups, clips, counts = defaultdict(set), defaultdict(set), Counter()
+    for r in rows:
+        groups[r['label']].add(r['group'])
+        clips[r['label'], r['group']].add(r['clip'])
+        counts[r['clip']] += 1
+    w = np.array([1/(len(groups)*len(groups[r['label']])*
+        len(clips[r['label'], r['group']])*counts[r['clip']]) for r in rows])
+    require(abs(w.sum()-1) < 1e-12, 'Weights do not sum to one')
+    return w
+
+
+def weighted_spearman(x, y, w):
+    """Weighted mid-distribution ranks, including tied observations."""
+    x, y, w = map(lambda z: np.asarray(z, dtype=float), (x, y, w))
+    require(x.shape == y.shape == w.shape and np.isfinite([x, y, w]).all(), 'Bad correlation rows')
+    if np.ptp(x) == 0 or np.ptp(y) == 0:
+        return None
+    def ranks(a):
+        order = np.argsort(a, kind='stable')
+        s, ww = a[order], w[order]
+        start = np.r_[0, np.flatnonzero(s[1:] != s[:-1])+1]
+        mass = np.add.reduceat(ww, start)
+        r = np.repeat(np.cumsum(mass)-mass/2, np.diff(np.r_[start, len(a)]))
+        result = np.empty(len(a)); result[order] = r
+        return result
+    a, b = ranks(x), ranks(y)
+    a -= w@a; b -= w@b
+    denom = np.sqrt((w@(a*a))*(w@(b*b)))
+    return float(w@(a*b)/denom) if denom > 0 else None
+
+
+def proxy_associations(rows, signals):
+    """No thresholds fitted, event labels inferred, or cohorts pooled."""
+    require(signals.shape == (len(rows), 32), 'Missing genuine 32-value observations')
+    w = weights(rows)
+    results = []
+    for proxy, col in PROXIES.items():
+        x = signals[:, col]
+        for target in ('gain_local', 'gain_budget'):
+            gain = np.array([r[target] for r in rows], float)
+            rho = weighted_spearman(x, gain, w)
+            results.append(dict(proxy=proxy, target=target, states=len(rows),
+                clips=len({r['clip'] for r in rows}),
+                groups=len({(r['label'], r['group']) for r in rows}),
+                classes=len({r['label'] for r in rows}),
+                weighted_spearman=rho,
+                undefined_reason='constant proxy or target' if rho is None else None,
+                weighted_positive_gain=float(w@(gain > 0)),
+                weighted_mean_gain=float(w@gain),
+                unweighted_spearman=None if np.ptp(x) == 0 or np.ptp(gain) == 0 else
+                    float(np.corrcoef(rankdata(x), rankdata(gain))[0, 1]),
+                uncertainty='No new inferential interval; correlated states; descriptive all-proxy audit'))
+    return results
+
+
+def reproduce_quality(rows, predictions, classes, groups, draws):
+    """Recompute CE from recorded actual logits and reuse the original group draws."""
+    require(draws.ndim == 2 and draws.shape[1] == len(groups) and
+            np.all((draws >= 0) & (draws < len(groups))), 'Invalid group draws')
+    require(len(groups) == len(set(groups)), 'Duplicate group identity')
+    column_classes = [c for c in classes for _ in range(sum(g[0] == c for g in groups))]
+    require(len(column_classes) == len(groups), 'Class/group inventory mismatch')
+    require(all(column_classes[i] == groups[j][0] for draw in draws for i, j in enumerate(draw)),
+            'Bootstrap crosses class boundaries')
+    lookup = {(p['clip'], p['method']): p['logits'] for p in predictions}
+    require(len(lookup) == len(predictions), 'Duplicate saved prediction')
+    methods = ('periodic', 'history', 'history_motion')
+    source_sets = [{r['clip'] for r in rows if r['method'] == m} for m in methods]
+    require(source_sets[0] == source_sets[1] == source_sets[2], 'Unpaired method population')
+    per_group, summary = {}, []
+    for method in methods:
+        rr = [r for r in rows if r['method'] == method]
+        require(len(rr) == len(source_sets[0]), 'Duplicate quality row')
+        ce, correct = [], []
+        for r in rr:
+            z = np.asarray(lookup[r['clip'], method], float)
+            require(z.shape == (len(classes),) and np.isfinite(z).all(), 'Invalid genuine logits')
+            value = float(logsumexp(z)-z[classes.index(r['label'])])
+            require(abs(value-float(r['CE'])) < 1e-10, 'Saved CE inconsistent with genuine logits')
+            require(int(r['encoder_starts']) == int(r['encoder_completions']) == 4,
+                    'Actual B4 forward accounting mismatch')
+            ce.append(value); correct.append(int(z.argmax() == classes.index(r['label'])))
+            require(correct[-1] == int(r['correct']), 'Recorded top1 mismatch')
+        w = weights(rr)
+        per_group[method] = np.array([np.mean([v for r, v in zip(rr, ce)
+            if (r['label'], r['group']) == g]) for g in groups])
+        require(np.isfinite(per_group[method]).all(), 'Missing group quality')
+        summary.append(dict(method=method, clips=len(rr), groups=len(groups),
+            balanced_CE=float(w@ce), balanced_top1=float(w@correct),
+            scope='EXPLORATORY / DEVELOPMENT; reused selected head'))
+    gw = np.array([1/(len(classes)*sum(c == g[0] for c, _ in groups)) for g in groups])
+    # Saved draw blocks follow official class order, which need not match the
+    # lexicographic group-table order (e.g. Hammering versus HammerThrow).
+    dw = np.array([1/(len(classes)*sum(c == g[0] for g in groups)) for c in column_classes])
+    contrasts = []
+    for a, b in [('periodic', 'history'), ('periodic', 'history_motion'), ('history', 'history_motion')]:
+        delta = per_group[a]-per_group[b]
+        bootstrap = delta[draws]@dw
+        contrasts.append(dict(contrast=a+'_minus_'+b, mean=float(gw@delta),
+            CI95=np.percentile(bootstrap, [2.5, 97.5]).tolist(),
+            repeats=len(draws), orientation='Positive favors second method',
+            scope='Conditional descriptive class-stratified group interval; reused head; not independent test'))
+    return dict(methods=summary, contrasts=contrasts)
+
+
+def reconcile_cost(trials):
+    """Collapse repeats within clip first; never sum overlapping timer fields."""
+    by = defaultdict(list)
+    for r in trials:
+        if str(r['warmup']).lower() == 'false':
+            by[r['method'], r['clip']].append(r)
+    methods = sorted({m for m, _ in by})
+    require(len(methods) == 7 and len(by) == 210, 'Incomplete real timing cohort')
+    fields = ('seconds', 'cheap_thumbnail_seconds', 'cheap_statistics_seconds',
+              'controller_decide_seconds', 'observation_preparation_seconds')
+    medians, results = {}, []
+    cohorts = []
+    for method in methods:
+        clips = sorted(c for m, c in by if m == method); cohorts.append(clips)
+        values = {}
+        for clip in clips:
+            rr = by[method, clip]
+            require(len(rr) == 5 and len({r['repetition'] for r in rr}) == 5, 'Incomplete measured repetitions')
+            expected = 16 if method == 'dense16' else 4
+            require(all(int(r['encoder_starts']) == int(r['encoder_completions']) == expected for r in rr),
+                    'Measured forward counts inconsistent')
+            values[clip] = {k:float(np.median([float(r[k]) for r in rr])) for k in fields}
+        medians[method] = values
+        results.append(dict(method=method, clips=len(clips),
+            **{k:float(np.median([values[c][k] for c in clips])) for k in fields}))
+    require(all(c == cohorts[0] for c in cohorts), 'Unpaired timing populations')
+    increments = []
+    for a, b in [('history_motion','periodic'), ('history_motion','history'),
+                 ('periodic_unused_gate','periodic'), ('history','periodic')]:
+        differences = [medians[a][c]['seconds']-medians[b][c]['seconds'] for c in cohorts[0]]
+        increments.append(dict(method=a, reference=b, paired_median_extra_seconds=float(np.median(differences)),
+                               groups_slower=sum(d > 0 for d in differences), groups=len(differences)))
+    return dict(all_trials=len(trials), measured_trials=sum(map(len, by.values())),
+        methods=results, incremental=increments, new_timing_trials=0,
+        observation_preparation_includes_thumbnail_and_statistics=True,
+        component_medians_are_not_additive=True,
+        boundary='Encoded memory through fresh full decode/PTS, observations, decisions, RGB/transfers, native X3D, pooling/head and completed GPU output',
+        scope='Historical real Experiment 21 timing; no GPU execution in Experiment 23A')
+
+
+def validate_population_records(records, classes, minima):
+    """Input-only certificate validator. No optimistic treatment of unknowns.
+
+    Prospective records are not supplied by this experiment. This contract is
+    exercised with explicitly synthetic fixtures only in the unit test module.
+    """
+    problems = set()
+    if not records or not classes or set(minima) != set(ROLES):
+        problems.add('missing_population_or_minima')
+    seen = defaultdict(set)
+    counts = defaultdict(set)
+    identities = set()
+    for r in records:
+        if r.get('label') not in classes or r.get('role') not in ROLES:
+            problems.add('invalid_class_or_role'); continue
+        if r.get('clip') in identities:
+            problems.add('duplicate_record')
+        identities.add(r.get('clip'))
+        for field in ('authorized', 'bytes_authenticated', 'labels_authenticated', 'pts_verified',
+                      'family_identity_verified', 'duplicates_screened', 'license_verified',
+                      'storage_verified', 'compute_verified', 'outcome_unexposed'):
+            if r.get(field) is not True:
+                problems.add('missing_'+field)
+        for key in ('family', 'duplicate_component', 'sha256'):
+            value = r.get(key)
+            if not value:
+                problems.add('missing_'+key)
+            else:
+                seen[key, value].add(r['role'])
+        counts[r['label'], r['role']].add(r.get('family'))
+    if any(len(roles) > 1 for roles in seen.values()):
+        problems.add('cross_role_identity')
+    for c in classes:
+        for role in ROLES:
+            if len(counts[c, role]-{None}) < minima.get(role, 1):
+                problems.add('insufficient_'+role)
+    return dict(status='BLOCKED_INPUT' if problems else 'PASS_INPUT_CERTIFICATE',
+                reasons=sorted(problems), records=len(records), classes=len(classes),
+                scientific_GO=False, note='A certificate is not authorization to train or evaluate')

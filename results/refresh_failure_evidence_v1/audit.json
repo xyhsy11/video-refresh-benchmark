@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "historical_integrity": {
+    "passed": true,
+    "base_commit": "4092d2a0fd8388347dbc69c486c73f35910933db",
+    "preserved_result_blobs": 3709,
+    "official_test_outcomes_deserialized": false,
+    "method": "Opaque Git blob identity only"
+  },
+  "genuine_observations": {
+    "clips": 1006,
+    "all_states": 27090,
+    "association_rows": 60,
+    "empirical_fixtures_used": false,
+    "semantic_event_annotations_invented": 0,
+    "timestamp_scope": "Previously recorded genuine PTS-aligned endpoint seconds and frame identities; no fresh decoding"
+  },
+  "baseline_authenticated_public_inputs": 46,
+  "verification_commands_passed": 21,
+  "no_semantic_events_invented": true,
+  "new_GPU_calls": 0,
+  "new_policy_or_probe_fits": 0,
+  "new_network_bytes": 0,
+  "new_video_decodes": 0,
+  "official_test_outcomes_opened": false,
+  "historical_test_outcome_blobs": "Opaque identity only; never parsed",
+  "scientific_decision": "NO_GO",
+  "independent_population": "BLOCKED_INPUT"
+}

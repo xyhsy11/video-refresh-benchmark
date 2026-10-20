@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "original_periodic_training_states_reproduced": 4848,
+  "old_base_examples_sha256": "1f9283297f7477ec8d402d71c6377324b2ba86e5c6d2e7662d8cfe0b3fee18b4",
+  "maximum_shared_input_difference": 0.0,
+  "original_HM_teacher_confusion_reproduced": {
+    "TP": 585,
+    "FP": 566,
+    "TN": 2730,
+    "FN": 859
+  },
+  "original_HM_discretionary_states": 4740,
+  "independently_nested_Brier": [
+    {
+      "target": "local",
+      "view": "constant",
+      "independent_nested_Brier": 0.25015163956656417
+    },
+    {
+      "target": "local",
+      "view": "baseline",
+      "independent_nested_Brier": 0.24946631100057035
+    },
+    {
+      "target": "local",
+      "view": "H",
+      "independent_nested_Brier": 0.24544431395628552
+    },
+    {
+      "target": "local",
+      "view": "M",
+      "independent_nested_Brier": 0.2501480851618819
+    },
+    {
+      "target": "local",
+      "view": "HM",
+      "independent_nested_Brier": 0.2454070935371557
+    },
+    {
+      "target": "budget",
+      "view": "constant",
+      "independent_nested_Brier": 0.2415372880404024
+    },
+    {
+      "target": "budget",
+      "view": "baseline",
+      "independent_nested_Brier": 0.23116998291560345
+    },
+    {
+      "target": "budget",
+      "view": "H",
+      "independent_nested_Brier": 0.23446222683823828
+    },
+    {
+      "target": "budget",
+      "view": "M",
+      "independent_nested_Brier": 0.2417180180580641
+    },
+    {
+      "target": "budget",
+      "view": "HM",
+      "independent_nested_Brier": 0.23453055590349858
+    }
+  ],
+  "new_GPU_calls": 0,
+  "new_decodes": 0,
+  "source_code_sha256": "02535287a38397812845b9eaff2856afc0c6229208dd1c22a35a46b5cdbd1f88"
+}

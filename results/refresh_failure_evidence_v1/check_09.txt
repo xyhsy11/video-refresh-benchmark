@@ -1,0 +1,13 @@
+test_cross_entropy_and_undefined_statistics (test_refresh_generalization_audit.AuditChecks.test_cross_entropy_and_undefined_statistics) ... ok
+test_expected_random_and_metric_denominators (test_refresh_generalization_audit.AuditChecks.test_expected_random_and_metric_denominators) ... ok
+test_motion_training_only_missing_and_ties (test_refresh_generalization_audit.AuditChecks.test_motion_training_only_missing_and_ties) ... ok
+test_no_outcomes_in_feature_whitelists (test_refresh_generalization_audit.AuditChecks.test_no_outcomes_in_feature_whitelists) ... ok
+test_nullable_CSV_schema_checks_masks_and_values (test_refresh_generalization_audit.AuditChecks.test_nullable_CSV_schema_checks_masks_and_values) ... ok
+test_schedule_boundaries_and_target_signs (test_refresh_generalization_audit.AuditChecks.test_schedule_boundaries_and_target_signs) ... ok
+test_tree_traversal_and_float32_boundary (test_refresh_generalization_audit.AuditChecks.test_tree_traversal_and_float32_boundary) ... ok
+test_whole_source_shared_bootstrap (test_refresh_generalization_audit.AuditChecks.test_whole_source_shared_bootstrap) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.212s
+
+OK

@@ -1,0 +1,147 @@
+test_actual_forward_budget_is_verified (test_refresh_failure_evidence.SyntheticAuditContracts.test_actual_forward_budget_is_verified) ... ok
+test_bad_correlation_is_rejected (test_refresh_failure_evidence.SyntheticAuditContracts.test_bad_correlation_is_rejected) ... ok
+test_bootstrap_cannot_cross_classes (test_refresh_failure_evidence.SyntheticAuditContracts.test_bootstrap_cannot_cross_classes) ... ok
+test_cannot_drop_a_class_to_pass_quotas (test_refresh_failure_evidence.SyntheticAuditContracts.test_cannot_drop_a_class_to_pass_quotas) ... ok
+test_class_names_scope_group_ids (test_refresh_failure_evidence.SyntheticAuditContracts.test_class_names_scope_group_ids) ... ok
+test_constant_proxy_has_no_correlation (test_refresh_failure_evidence.SyntheticAuditContracts.test_constant_proxy_has_no_correlation) ... ok
+test_draw_block_order_can_differ_from_group_table (test_refresh_failure_evidence.SyntheticAuditContracts.test_draw_block_order_can_differ_from_group_table) ... ERROR
+test_each_missing_input_condition_blocks (test_refresh_failure_evidence.SyntheticAuditContracts.test_each_missing_input_condition_blocks) ... ok
+test_empty_population_is_blocked (test_refresh_failure_evidence.SyntheticAuditContracts.test_empty_population_is_blocked) ... ok
+test_global_duplicate_and_family_quarantine (test_refresh_failure_evidence.SyntheticAuditContracts.test_global_duplicate_and_family_quarantine) ... ok
+test_historical_writes_and_network_gpu_decoder_denied (test_refresh_failure_evidence.SyntheticAuditContracts.test_historical_writes_and_network_gpu_decoder_denied) ... ok
+test_incomplete_timing_population_is_rejected (test_refresh_failure_evidence.SyntheticAuditContracts.test_incomplete_timing_population_is_rejected) ... ok
+test_official_test_and_traversal_paths_denied (test_refresh_failure_evidence.SyntheticAuditContracts.test_official_test_and_traversal_paths_denied) ... ok
+test_positive_input_fixture_is_not_scientific_go (test_refresh_failure_evidence.SyntheticAuditContracts.test_positive_input_fixture_is_not_scientific_go) ... ok
+test_proxy_is_not_an_event_annotation (test_refresh_failure_evidence.SyntheticAuditContracts.test_proxy_is_not_an_event_annotation) ... ok
+test_quality_replays_logits_and_preserves_paired_draws (test_refresh_failure_evidence.SyntheticAuditContracts.test_quality_replays_logits_and_preserves_paired_draws) ... ok
+test_read_only_guard_prohibits_even_current_result_write (test_refresh_failure_evidence.SyntheticAuditContracts.test_read_only_guard_prohibits_even_current_result_write) ... ok
+test_saved_mean_cannot_replace_real_logits (test_refresh_failure_evidence.SyntheticAuditContracts.test_saved_mean_cannot_replace_real_logits) ... ok
+test_unpaired_quality_rejected (test_refresh_failure_evidence.SyntheticAuditContracts.test_unpaired_quality_rejected) ... ok
+test_weighted_rank_ties_match_scipy_with_equal_weights (test_refresh_failure_evidence.SyntheticAuditContracts.test_weighted_rank_ties_match_scipy_with_equal_weights) ... ok
+test_weighting_does_not_count_repeated_states_as_independent_sources (test_refresh_failure_evidence.SyntheticAuditContracts.test_weighting_does_not_count_repeated_states_as_independent_sources) ... ok
+test_H_HM_shared_history_and_M_isolation (test_task_utility_observability.SyntheticTests.test_H_HM_shared_history_and_M_isolation) ... ok
+test_affine_cache_pooling (test_task_utility_observability.SyntheticTests.test_affine_cache_pooling) ... ok
+test_all_455_exact_B4_schedules (test_task_utility_observability.SyntheticTests.test_all_455_exact_B4_schedules) ... ok
+test_class_group_clip_state_weights (test_task_utility_observability.SyntheticTests.test_class_group_clip_state_weights) ... ok
+test_forbidden_official_test_and_history_writes (test_task_utility_observability.SyntheticTests.test_forbidden_official_test_and_history_writes) ... ok
+test_future_feature_rejection_and_invariance (test_task_utility_observability.SyntheticTests.test_future_feature_rejection_and_invariance) ... ok
+test_group_bootstrap_pairing_and_determinism (test_task_utility_observability.SyntheticTests.test_group_bootstrap_pairing_and_determinism) ... ok
+test_identity_mutation_rejection (test_task_utility_observability.SyntheticTests.test_identity_mutation_rejection) ... ok
+test_independent_completions_and_forced_decisions (test_task_utility_observability.SyntheticTests.test_independent_completions_and_forced_decisions) ... ok
+test_labels_never_enter_observation (test_task_utility_observability.SyntheticTests.test_labels_never_enter_observation) ... ok
+test_metrics_ties_and_weighted_ranks (test_task_utility_observability.SyntheticTests.test_metrics_ties_and_weighted_ranks) ... ok
+test_probe_determinism_and_constant_base_rate (test_task_utility_observability.SyntheticTests.test_probe_determinism_and_constant_base_rate) ... ok
+test_resume_reauthenticates_historical_parent_trials (test_task_utility_observability.SyntheticTests.test_resume_reauthenticates_historical_parent_trials) ... ok
+test_sign_conventions (test_task_utility_observability.SyntheticTests.test_sign_conventions) ... ok
+test_split_and_exact_duplicate_safety (test_task_utility_observability.SyntheticTests.test_split_and_exact_duplicate_safety) ... ok
+test_cached_population_cannot_bypass_fixed_design (test_causal_observability.Fixtures.test_cached_population_cannot_bypass_fixed_design) ... ok
+test_chronology_and_only_encountered_feature (test_causal_observability.Fixtures.test_chronology_and_only_encountered_feature) ... ok
+test_completed_checkpoint_reuse_and_tamper_rejection (test_causal_observability.Fixtures.test_completed_checkpoint_reuse_and_tamper_rejection) ... ok
+test_cross_class_grouped_bootstrap (test_causal_observability.Fixtures.test_cross_class_grouped_bootstrap) ... ok
+test_dense_diagnostics_require_prior_actual_rollouts (test_causal_observability.Fixtures.test_dense_diagnostics_require_prior_actual_rollouts) ... ok
+test_end_to_end_synthetic_paired_tables (test_causal_observability.Fixtures.test_end_to_end_synthetic_paired_tables) ... ok
+test_family_and_duplicate_safety (test_causal_observability.Fixtures.test_family_and_duplicate_safety) ... ok
+test_first_four_cache_pooling (test_causal_observability.Fixtures.test_first_four_cache_pooling) ... ok
+test_forced_feasibility_never_or_always (test_causal_observability.Fixtures.test_forced_feasibility_never_or_always) ... ok
+test_history_only_cheap_isolation (test_causal_observability.Fixtures.test_history_only_cheap_isolation) ... ok
+test_independent_video_state (test_causal_observability.Fixtures.test_independent_video_state) ... ok
+test_no_thumbnail_calls_for_history_or_periodic (test_causal_observability.Fixtures.test_no_thumbnail_calls_for_history_or_periodic) ... ok
+test_positive_family_exact_quota_assignment (test_causal_observability.Fixtures.test_positive_family_exact_quota_assignment) ... ok
+test_prohibited_current_future_label_access (test_causal_observability.Fixtures.test_prohibited_current_future_label_access) ... ok
+test_seal_missing_mutation_and_resume_integrity (test_causal_observability.Fixtures.test_seal_missing_mutation_and_resume_integrity) ... ok
+test_teacher_labels_never_enter_decide (test_causal_observability.Fixtures.test_teacher_labels_never_enter_decide) ... ok
+test_weighted_51class_head_and_equal_learner_shapes (test_causal_observability.Fixtures.test_weighted_51class_head_and_equal_learner_shapes) ... ok
+test_19_frames_exact_16_endpoints (test_causal_observability_population_v2.SyntheticPopulationTests.test_19_frames_exact_16_endpoints) ... ok
+test_audit_mutation_rejection_without_execution (test_causal_observability_population_v2.SyntheticPopulationTests.test_audit_mutation_rejection_without_execution) ... ok
+test_checkpoint_resume_corruption_and_tail_preservation (test_causal_observability_population_v2.SyntheticPopulationTests.test_checkpoint_resume_corruption_and_tail_preservation) ... ok
+test_exact_duplicates_and_families_cannot_cross_roles (test_causal_observability_population_v2.SyntheticPopulationTests.test_exact_duplicates_and_families_cannot_cross_roles) ... ok
+test_fixed_phash_threshold_and_all_matching_edges (test_causal_observability_population_v2.SyntheticPopulationTests.test_fixed_phash_threshold_and_all_matching_edges) ... ok
+test_global_MILP_minima_cross_class_and_repeat (test_causal_observability_population_v2.SyntheticPopulationTests.test_global_MILP_minima_cross_class_and_repeat) ... FAIL
+test_independent_assignment_rejects_missing_family_or_role (test_causal_observability_population_v2.SyntheticPopulationTests.test_independent_assignment_rejects_missing_family_or_role) ... ok
+test_manifest_corruption_and_foreign_archive_rejected (test_causal_observability_population_v2.SyntheticPopulationTests.test_manifest_corruption_and_foreign_archive_rejected) ... ok
+test_necessary_certificate_is_not_solver_timeout (test_causal_observability_population_v2.SyntheticPopulationTests.test_necessary_certificate_is_not_solver_timeout) ... ok
+test_official_test_never_becomes_training (test_causal_observability_population_v2.SyntheticPopulationTests.test_official_test_never_becomes_training) ... ok
+test_official_unused_cannot_enter_training (test_causal_observability_population_v2.SyntheticPopulationTests.test_official_unused_cannot_enter_training) ... ok
+test_population_code_has_no_model_or_outcome_interface (test_causal_observability_population_v2.SyntheticPopulationTests.test_population_code_has_no_model_or_outcome_interface) ... ok
+test_real_identity_contract_and_no_future (test_causal_observability_population_v2.SyntheticPopulationTests.test_real_identity_contract_and_no_future) ... ok
+test_reject_short_invalid_and_duplicate_PTS (test_causal_observability_population_v2.SyntheticPopulationTests.test_reject_short_invalid_and_duplicate_PTS) ... ok
+test_scalar_replay_rejects_corruption_and_future_frames (test_causal_observability_population_v2.SyntheticPopulationTests.test_scalar_replay_rejects_corruption_and_future_frames) ... ok
+test_source_links_and_global_connected_components (test_causal_observability_population_v2.SyntheticPopulationTests.test_source_links_and_global_connected_components) ... ok
+test_test_priority_including_ineligible_and_unused_bridge (test_causal_observability_population_v2.SyntheticPopulationTests.test_test_priority_including_ineligible_and_unused_bridge) ... ok
+test_variable_rate_and_original_decode_ordinals (test_causal_observability_population_v2.SyntheticPopulationTests.test_variable_rate_and_original_decode_ordinals) ... ok
+test_window_extension_only_when_needed (test_causal_observability_population_v2.SyntheticPopulationTests.test_window_extension_only_when_needed) ... ok
+test_checkpoint_identity_payload_and_reuse (test_ucf101_causal_development.SyntheticDevelopmentTests.test_checkpoint_identity_payload_and_reuse) ... ok
+test_chronology_and_prohibited_decision_access (test_ucf101_causal_development.SyntheticDevelopmentTests.test_chronology_and_prohibited_decision_access) ... ok
+test_exact_four_first0_and_scalar_logit_replay (test_ucf101_causal_development.SyntheticDevelopmentTests.test_exact_four_first0_and_scalar_logit_replay) ... ok
+test_execution_arrays_unavailable_before_diagnostics (test_ucf101_causal_development.SyntheticDevelopmentTests.test_execution_arrays_unavailable_before_diagnostics) ... ok
+test_forced_budget_feasibility_always_and_never (test_ucf101_causal_development.SyntheticDevelopmentTests.test_forced_budget_feasibility_always_and_never) ... ok
+test_freeze_mutation_rejection (test_ucf101_causal_development.SyntheticDevelopmentTests.test_freeze_mutation_rejection) ... ok
+test_generic101_and_history_only_current_isolation (test_ucf101_causal_development.SyntheticDevelopmentTests.test_generic101_and_history_only_current_isolation) ... ok
+test_guard_rejects_official_test_outcomes_and_unapproved_arrays (test_ucf101_causal_development.SyntheticDevelopmentTests.test_guard_rejects_official_test_outcomes_and_unapproved_arrays) ... ok
+test_historical_write_guard (test_ucf101_causal_development.SyntheticDevelopmentTests.test_historical_write_guard) ... ok
+test_independent_video_cache_and_seeded_random (test_ucf101_causal_development.SyntheticDevelopmentTests.test_independent_video_cache_and_seeded_random) ... ok
+test_live_executor_matches_existing_policy_definition (test_ucf101_causal_development.SyntheticDevelopmentTests.test_live_executor_matches_existing_policy_definition) ... ok
+test_population_rejects_official_test_and_cross_roles (test_ucf101_causal_development.SyntheticDevelopmentTests.test_population_rejects_official_test_and_cross_roles) ... ok
+test_weighted_class_group_clip_metrics (test_ucf101_causal_development.SyntheticDevelopmentTests.test_weighted_class_group_clip_metrics) ... ok
+test_class_stratified_source_folds (test_task_signals.TaskSignalChecks.test_class_stratified_source_folds) ... ok
+test_exact_budget_histories_signed_independent_targets (test_task_signals.TaskSignalChecks.test_exact_budget_histories_signed_independent_targets) ... ok
+test_heldout_targets_do_not_change_fold_model_or_predictions (test_task_signals.TaskSignalChecks.test_heldout_targets_do_not_change_fold_model_or_predictions) ... ok
+test_missing_motion_and_confidence (test_task_signals.TaskSignalChecks.test_missing_motion_and_confidence) ... ok
+test_no_label_current_future_rgb_or_future_motion_inputs (test_task_signals.TaskSignalChecks.test_no_label_current_future_rgb_or_future_motion_inputs) ... ok
+test_ridge_sum_objective_constant_columns (test_task_signals.TaskSignalChecks.test_ridge_sum_objective_constant_columns) ... ok
+test_undefined_statistics_and_ties (test_task_signals.TaskSignalChecks.test_undefined_statistics_and_ties) ... ok
+test_cached_and_current_interfaces_isolate_privileged_information (test_task_signal_ablation.AblationChecks.test_cached_and_current_interfaces_isolate_privileged_information) ... ok
+test_constant_training_columns_and_kernel (test_task_signal_ablation.AblationChecks.test_constant_training_columns_and_kernel) ... ok
+test_decision_utility_whole_video_grouping_and_outcome_reference (test_task_signal_ablation.AblationChecks.test_decision_utility_whole_video_grouping_and_outcome_reference) ... ok
+test_heldout_targets_cannot_change_actual_fold_models (test_task_signal_ablation.AblationChecks.test_heldout_targets_cannot_change_actual_fold_models) ... ok
+test_kernel_centering_independent_H_and_intercept_system (test_task_signal_ablation.AblationChecks.test_kernel_centering_independent_H_and_intercept_system) ... ok
+test_linear_reproduces_prior_D_recipe (test_task_signal_ablation.AblationChecks.test_linear_reproduces_prior_D_recipe) ... ok
+test_undefined_discrimination (test_task_signal_ablation.AblationChecks.test_undefined_discrimination) ... ok
+test_all_nine_schedules_cache_boundaries_and_loss (test_refresh_target_decomposition.DecompositionChecks.test_all_nine_schedules_cache_boundaries_and_loss) ... ok
+test_conditional_bootstrap_zero_denominators_and_whole_videos (test_refresh_target_decomposition.DecompositionChecks.test_conditional_bootstrap_zero_denominators_and_whole_videos) ... ok
+test_signed_order_sensitive_fixture_and_averaged_identity (test_refresh_target_decomposition.DecompositionChecks.test_signed_order_sensitive_fixture_and_averaged_identity) ... ok
+test_state_reset_and_ordinal_validation (test_refresh_target_decomposition.DecompositionChecks.test_state_reset_and_ordinal_validation) ... ok
+test_component_pass_includes_all_events_and_batch_one_calls (test_cached_history_signals.CachedHistoryChecks.test_component_pass_includes_all_events_and_batch_one_calls) ... ok
+test_equal_video_utility_and_shared_bootstrap (test_cached_history_signals.CachedHistoryChecks.test_equal_video_utility_and_shared_bootstrap) ... ok
+test_exact_formulas_missing_history_and_ties (test_cached_history_signals.CachedHistoryChecks.test_exact_formulas_missing_history_and_ties) ... ok
+test_observation_builder_ignores_privileged_and_outcome_columns (test_cached_history_signals.CachedHistoryChecks.test_observation_builder_ignores_privileged_and_outcome_columns) ... ok
+test_prefix_isolation_and_video_reset (test_cached_history_signals.CachedHistoryChecks.test_prefix_isolation_and_video_reset) ... ok
+test_saved_history_schema_preserves_float_masks (test_cached_history_signals.CachedHistoryChecks.test_saved_history_schema_preserves_float_masks) ... ok
+test_two_history_recovery_and_three_history_order_audit (test_cached_history_signals.CachedHistoryChecks.test_two_history_recovery_and_three_history_order_audit) ... ok
+test_cross_entropy_and_undefined_statistics (test_refresh_generalization_audit.AuditChecks.test_cross_entropy_and_undefined_statistics) ... ok
+test_expected_random_and_metric_denominators (test_refresh_generalization_audit.AuditChecks.test_expected_random_and_metric_denominators) ... ok
+test_motion_training_only_missing_and_ties (test_refresh_generalization_audit.AuditChecks.test_motion_training_only_missing_and_ties) ... ok
+test_no_outcomes_in_feature_whitelists (test_refresh_generalization_audit.AuditChecks.test_no_outcomes_in_feature_whitelists) ... ok
+test_nullable_CSV_schema_checks_masks_and_values (test_refresh_generalization_audit.AuditChecks.test_nullable_CSV_schema_checks_masks_and_values) ... ok
+test_schedule_boundaries_and_target_signs (test_refresh_generalization_audit.AuditChecks.test_schedule_boundaries_and_target_signs) ... ok
+test_tree_traversal_and_float32_boundary (test_refresh_generalization_audit.AuditChecks.test_tree_traversal_and_float32_boundary) ... ok
+test_whole_source_shared_bootstrap (test_refresh_generalization_audit.AuditChecks.test_whole_source_shared_bootstrap) ... ok
+
+======================================================================
+ERROR: test_draw_block_order_can_differ_from_group_table (test_refresh_failure_evidence.SyntheticAuditContracts.test_draw_block_order_can_differ_from_group_table)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\video-refresh-baseline\test_refresh_failure_evidence.py", line 66, in test_draw_block_order_can_differ_from_group_table
+    self.assertEqual(m.reproduce_quality(*args)['contrasts'][0]['CI95'],[0.,0.])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\video-refresh-baseline\refresh_failure_evidence.py", line 108, in reproduce_quality
+    require(correct[-1] == int(r['correct']), 'Recorded top1 mismatch')
+  File "C:\video-refresh-baseline\refresh_failure_evidence.py", line 20, in require
+    raise RuntimeError(message)
+RuntimeError: Recorded top1 mismatch
+
+======================================================================
+FAIL: test_global_MILP_minima_cross_class_and_repeat (test_causal_observability_population_v2.SyntheticPopulationTests.test_global_MILP_minima_cross_class_and_repeat)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\video-refresh-baseline\test_causal_observability_population_v2.py", line 122, in test_global_MILP_minima_cross_class_and_repeat
+    self.assertEqual(result['status'], 'FEASIBLE')
+AssertionError: 'UNRESOLVED_RESOURCE_LIMIT' != 'FEASIBLE'
+- UNRESOLVED_RESOURCE_LIMIT
++ FEASIBLE
+
+
+----------------------------------------------------------------------
+Ran 118 tests in 3.663s
+
+FAILED (failures=1, errors=1)

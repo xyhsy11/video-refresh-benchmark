@@ -103,6 +103,9 @@ results/causal_observability_v1/run.lock
 !results/refresh_generalization_audit_v1_rerun1/
 !results/refresh_generalization_audit_v1_rerun1/**
 
+!results/refresh_failure_evidence_v1/
+!results/refresh_failure_evidence_v1/**
+
 !results/refresh_pooling_control_v1/
 !results/refresh_pooling_control_v1/**
 
