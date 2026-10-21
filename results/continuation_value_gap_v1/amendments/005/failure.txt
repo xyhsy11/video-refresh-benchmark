@@ -1,0 +1,1 @@
+The added identity audit initially compared sorted annotation FILE paths to the frozen alphabetical CLASS LABEL order. Suffixes _test_split1 reorder climb/climb_stairs, kick/kick_ball, sword/sword_exercise. All4284 frozen label indices and the frozen head were already correct. The failed audit was an ordering assumption in verification, not a model/label change.

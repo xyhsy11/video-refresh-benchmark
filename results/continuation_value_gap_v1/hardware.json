@@ -1,0 +1,10 @@
+{
+  "captured_at_utc": "2026-10-21T06:48:30.2486650Z",
+  "cpu": {
+    "Name": "Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz",
+    "NumberOfCores": 8,
+    "NumberOfLogicalProcessors": 16
+  },
+  "physical_memory_bytes": 34110488576,
+  "gpu": "NVIDIA GeForce RTX 3080 Laptop GPU, 617.42, 16384 MiB"
+}

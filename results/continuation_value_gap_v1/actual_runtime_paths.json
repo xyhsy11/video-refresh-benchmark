@@ -1,0 +1,15 @@
+{
+  "executable": "C:\\video-refresh-baseline\\.venv_temporal\\Scripts\\python.exe",
+  "sys_prefix": "C:\\video-refresh-baseline\\.venv_temporal",
+  "base_prefix": "C:\\Users\\\u97e9\u601d\u5b87\\AppData\\Local\\Programs\\Python\\Python312",
+  "module_paths": {
+    "torch": "C:\\video-refresh-baseline\\.venv\\Lib\\site-packages\\torch\\__init__.py",
+    "torchvision": "C:\\video-refresh-baseline\\.venv\\Lib\\site-packages\\torchvision\\__init__.py",
+    "av": "C:\\video-refresh-baseline\\.venv\\Lib\\site-packages\\av\\__init__.py",
+    "pytorchvideo": "C:\\video-refresh-baseline\\data\\source\\temporal_refresh_generalization_v1\\pytorchvideo-f3142bb05cdb56af0704ab6f0adfb0c7bbafe4a0\\pytorchvideo\\__init__.py"
+  },
+  "torch": "2.14.1+cu132",
+  "torchvision": "0.29.1+cu132",
+  "cuda_build": "13.2",
+  "notes": "Existing temporal executable resolves Torch/torchvision from preexisting shared .venv site packages; preserved without environment modifications"
+}

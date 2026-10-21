@@ -1,0 +1,23 @@
+{
+  "at_utc": "2026-10-21T09:08:21.337174+00:00",
+  "status": "COMPLETE",
+  "scientific_outcome": "HMDB material benefit; UCF no inferential label because full-cohort uncertainty is unavailable",
+  "head_attempts": 1,
+  "head_at_iteration_cap": true,
+  "gradient_acceptance_passed": true,
+  "technical_blockers_remaining": [],
+  "historical_statuses_unchanged": [
+    "19",
+    "19.1",
+    "23A",
+    "23B"
+  ],
+  "preserved_unrelated": [
+    "presentation_outputs/",
+    "seminar_build/",
+    "seminar_output/"
+  ],
+  "additional_code_bytes": 88795,
+  "report_editorial_additions": "Capped-head acceptance details; precise next research gate; clarification that E22 overlap applies only to UCF. No scientific definition, estimate, uncertainty interval, threshold, population or trained model was changed.",
+  "commit_and_push": "Explicitly authorized by the direct user request, overriding attachment closing no-push instruction; no merge or article publication."
+}

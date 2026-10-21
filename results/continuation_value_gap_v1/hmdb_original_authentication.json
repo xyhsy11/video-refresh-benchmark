@@ -1,0 +1,12 @@
+{
+  "at_utc": "2026-10-21T05:55:29.316703+00:00",
+  "expected": 6766,
+  "missing": [],
+  "changed": [],
+  "verified": 6766,
+  "historical_smoke_clips": [
+    "draw_sword/Fight_Science_-_Shinkendo_draw_sword_f_cm_np3_fr_med_0.avi",
+    "pour/How_to_Build_a_Cocktail_pour_u_nm_np1_fr_med_2.avi"
+  ],
+  "historical_test_calls": 0
+}

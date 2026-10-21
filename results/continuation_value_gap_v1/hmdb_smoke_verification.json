@@ -1,0 +1,55 @@
+{
+  "smoke_clips": [
+    "jump/le_parkour_kl_jump_f_nm_np1_le_bad_3.avi",
+    "flic_flac/6_Flick_Flacks_flic_flac_f_cm_np1_ri_med_1.avi",
+    "somersault/me_turnen_somersault_f_cm_np1_fr_med_1.avi",
+    "chew/Tara_Bush_blowing_bubbles_5_chew_h_nm_np1_fr_goo_0.avi",
+    "smile/YouTube_smiles!_smile_h_nm_np1_fr_med_24.avi",
+    "draw_sword/IAIDO_-_Training_TV-Bericht_10_2008_draw_sword_f_cm_np4_le_med_3.avi",
+    "clap/Baby_Bob_kann_klatschen_!_clap_u_cm_np1_fr_med_2.avi",
+    "punch/PracticingBoxingonaDoubleEndBag-LeadRightwithaHook_punch_u_nm_np1_fr_med_10.avi"
+  ],
+  "shape": [
+    16,
+    2048
+  ],
+  "new_forwards": 128,
+  "extra_native_check_forwards": 0,
+  "peak_cuda_allocated_bytes": 68932096,
+  "peak_cuda_reserved_bytes": 90177536,
+  "native400_checks": [
+    {
+      "native_mean_max_difference": 0.0,
+      "affine_mean_max_difference": 1.430511474609375e-06
+    },
+    {
+      "native_mean_max_difference": 0.0,
+      "affine_mean_max_difference": 1.9073486328125e-06
+    },
+    {
+      "native_mean_max_difference": 0.0,
+      "affine_mean_max_difference": 9.5367431640625e-07
+    },
+    {
+      "native_mean_max_difference": 0.0,
+      "affine_mean_max_difference": 9.5367431640625e-07
+    },
+    {
+      "native_mean_max_difference": 0.0,
+      "affine_mean_max_difference": 9.5367431640625e-07
+    },
+    {
+      "native_mean_max_difference": 0.0,
+      "affine_mean_max_difference": 9.5367431640625e-07
+    },
+    {
+      "native_mean_max_difference": 0.0,
+      "affine_mean_max_difference": 4.76837158203125e-07
+    },
+    {
+      "native_mean_max_difference": 0.0,
+      "affine_mean_max_difference": 1.9073486328125e-06
+    }
+  ],
+  "retained_for_full_collection": true
+}

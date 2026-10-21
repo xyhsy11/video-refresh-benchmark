@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checks": [
+    "Mechanical amendment originals/current code and unchanged UCF table seal",
+    "Independent all-clip annotations, conservative BFS global graph and exact two-role reconstruction",
+    "Independent rational PTS/order and integer trailing-grid replay, all4284 clips",
+    "All genuine2048D feature hashes, complete membership, train-only scaler/objective/gradient, model seal, first test exposure and every forward counter"
+  ],
+  "HEAD_TRAIN": 2754,
+  "EVAL": 1530,
+  "head_objective": 0.16940566961863673,
+  "head_gradient_max_abs": 2.579139409035737e-07,
+  "encoder_starts": 68544,
+  "encoder_completions": 68544,
+  "collection_seconds": 4411.288931500015,
+  "cache_reuses": 9
+}

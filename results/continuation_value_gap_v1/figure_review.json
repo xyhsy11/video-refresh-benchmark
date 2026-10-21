@@ -1,0 +1,45 @@
+{
+  "at_utc": "2026-10-21T09:04:03.828984+00:00",
+  "reviewed": true,
+  "all_three_PNGs_visually_inspected": true,
+  "PDFs_generated_from_same_Matplotlib_canvases": true,
+  "findings": [
+    "All data and adverse tails shown; all reset states displayed",
+    "Fixed symmetric equal x/y scales within each dataset comparison",
+    "Both tail baselines explicit; no UCF error bars; singleton limitation explicit",
+    "HMDB CR2 error bars visible; no label overlap or clipping",
+    "No logits/intervention ensemble or model-runtime speedup claim"
+  ],
+  "files": [
+    {
+      "path": "figure_1_advantages.pdf",
+      "bytes": 103761,
+      "sha256": "6588b9dc68242365f46e6c11280f8d3cfed21e528b1eac31657a250574c1abc0"
+    },
+    {
+      "path": "figure_1_advantages.png",
+      "bytes": 289834,
+      "sha256": "bf8c139d131d23f5bd41f22a522c7f7bc806489d59c181efe6964284c1a0c039"
+    },
+    {
+      "path": "figure_2_endpoints.pdf",
+      "bytes": 21735,
+      "sha256": "a7faa518bc37cf23e6807492dc1b7dc85317514e719116a48837158f9e5edb3d"
+    },
+    {
+      "path": "figure_2_endpoints.png",
+      "bytes": 175136,
+      "sha256": "9e67aee12f03325d2a4f3a81f353894c6da68aed5c2d416bed31f9541ca0b848"
+    },
+    {
+      "path": "figure_3_distributions.pdf",
+      "bytes": 39340,
+      "sha256": "93aeefcfd0aefd53f5a13e73fee1c7c347bd4b59c24a4e10cdbf193b592a4d5a"
+    },
+    {
+      "path": "figure_3_distributions.png",
+      "bytes": 133564,
+      "sha256": "c2c9032743d82fd8c5f37493223ce8ba0d1f6f7f8a82466f53b84be6924c445c"
+    }
+  ]
+}

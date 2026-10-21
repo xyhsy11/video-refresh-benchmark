@@ -1,0 +1,21 @@
+{
+  "at_utc": "2026-10-21T05:56:36.964526+00:00",
+  "kind": "MECHANICAL_BUG_FIX",
+  "original_seal_sha256": "4d9b49cfa526446fe7e794319ffe111463ec9000a875e81ef9e9606cb7237db0",
+  "exposure": "UCF complete; one HMDB HEAD_TRAIN smoke clip extracted; no HMDB EVAL model calls",
+  "reason": "Event writer duplicated at_utc when an attempt/gate already carried its own timestamp. Retain detail_at_utc and write event timestamp separately. Seal readers explicitly validate preserved originals and amended hashes.",
+  "scientific_design_changes": false,
+  "changed_files": {
+    "continuation_value_gap.py": {
+      "original_sha256": "3116b81565cd809812c787bed3c3f14a56d08bacd7c4a58934edd42a71cf224d",
+      "preserved_original": "results/continuation_value_gap_v1/amendments/001/continuation_value_gap.py",
+      "amended_sha256": "1c22c3483b8a7a1565e819714bbddb03a6aa2cec34c0a14382b0959252788058"
+    },
+    "verify_continuation_value_gap.py": {
+      "original_sha256": "efc9032ec857fda6de9453ef0c0bccc86be3f2e1bbd2eda8a18779cdf3c9454d",
+      "preserved_original": "results/continuation_value_gap_v1/amendments/001/verify_continuation_value_gap.py",
+      "amended_sha256": "80b72b6e11aaa21df09af47f124b92a953a7557f75250d3a6be00a876512a2dc"
+    }
+  },
+  "unchanged_UCF_outcome_seal_sha256": "baa59a713dc113a0655874a0366437a8ab5bbd6a699ca0a5318154af9137d8a3"
+}

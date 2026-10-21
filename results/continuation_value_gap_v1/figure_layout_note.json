@@ -1,0 +1,7 @@
+{
+  "at_utc": "2026-10-21T06:00:17.638132+00:00",
+  "kind": "PRESENTATION_ONLY",
+  "scientific_design_changes": false,
+  "reason": "The initial figure2 annotation overlapped a bar. Separate dataset titles, tail baselines and labels; all estimates and intervals unchanged.",
+  "renderer_sha256": "7c488ca560419975fad0b7b5f27460b7df56a281227df6bc9ed0c1835e5304e4"
+}

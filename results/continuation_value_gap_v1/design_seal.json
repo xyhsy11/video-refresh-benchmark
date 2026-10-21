@@ -1,0 +1,14 @@
+{
+  "at_utc": "2026-10-21T05:53:18.762816+00:00",
+  "new_endpoints_computed": false,
+  "sha256": {
+    "continuation_value_gap.py": "3116b81565cd809812c787bed3c3f14a56d08bacd7c4a58934edd42a71cf224d",
+    "verify_continuation_value_gap.py": "efc9032ec857fda6de9453ef0c0bccc86be3f2e1bbd2eda8a18779cdf3c9454d",
+    "continuation_value_gap_hmdb.py": "56a59afa40a2374484ebda75817fe32d7cbe126bbc05a2607eb6b90c19a88b05",
+    "results/continuation_value_gap_v1/protocol.md": "6bf52e73f0664df88249b063260df10f8504b6289ce43ce5f91666a5fb892f92",
+    "results/continuation_value_gap_v1/frozen_config.json": "6b14cbb8d77a539a36add6f609ab5b9335e2e620560a58b3c84293dbb7a58060",
+    "results/continuation_value_gap_v1/input_manifest.json": "56b8598eddcc5d24624f86e2544f7bd2723f2508834d9555a81f3a36643bb6a7",
+    "results/continuation_value_gap_v1/ucf_manifest.json": "18d8f4f483b435cc2cc4a8e997447af0ea26884ecaec64f78e2a6114ef89173f",
+    "results/continuation_value_gap_v1/numerical_provenance.json": "497fbc1c12f46035c6a470fa3fb9ddcbbe4b1b2033bd1981b3b499ba9604232e"
+  }
+}

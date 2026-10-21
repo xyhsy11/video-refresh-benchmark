@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "kind": "SYNTHETIC_ONLY",
+  "checks": [
+    "455 schedules",
+    "entire prefix including holds",
+    "both actions legal at t1..12",
+    "repair examples/direct-sequential/baseline",
+    "uniform exact rational recursion",
+    "branch minima/means",
+    "state reset",
+    "gap/regret identities",
+    "CR2 full projection and shared-family fixture",
+    "one-class sample SE/df",
+    "label permutation",
+    "hierarchical estimate"
+  ]
+}

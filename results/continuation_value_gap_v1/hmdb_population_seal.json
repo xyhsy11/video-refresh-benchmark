@@ -1,0 +1,10 @@
+{
+  "at_utc": "2026-10-21T05:55:36.977563+00:00",
+  "before_training": true,
+  "sha256": {
+    "results/continuation_value_gap_v1/hmdb_population.json": "5725196105ed7580543a2523759f4422ceae14eeffbf9d6f3a37aeef55798b8e",
+    "results/continuation_value_gap_v1/hmdb_input_manifest.json": "1c991565679278dd3c5518418e8200ea05ae5b68470f94fcf6d067eebb80ef68",
+    "results/continuation_value_gap_v1/hmdb_population_diagnostics.json": "b99bc399b1f3b2e571f34946da4fff7163351c8e628f24f8f18265a1c321427b",
+    "results/continuation_value_gap_v1/exploratory_precision_projection.json": "b6da9b802449beca5d3bfa5f46271adf6bf7410bae2f0fe299626d4deaa319c1"
+  }
+}

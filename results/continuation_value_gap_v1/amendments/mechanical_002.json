@@ -1,0 +1,33 @@
+{
+  "at_utc": "2026-10-21T06:09:53.722581+00:00",
+  "kind": "MECHANICAL_VERIFIER_COMPATIBILITY",
+  "original_seal_sha256": "4d9b49cfa526446fe7e794319ffe111463ec9000a875e81ef9e9606cb7237db0",
+  "exposure": "UCF complete; HMDB training feature collection in progress; no EVAL model calls",
+  "scientific_design_changes": false,
+  "reason": "Use explicit pandas clip column indexing instead of DataFrame.clip method. Extend immutable seal validation to an ordered amendment chain. Endpoint arithmetic, populations, tolerances and outcomes unchanged.",
+  "changed_files": {
+    "continuation_value_gap.py": {
+      "original_sha256": "1c22c3483b8a7a1565e819714bbddb03a6aa2cec34c0a14382b0959252788058",
+      "preserved_original": "results/continuation_value_gap_v1/amendments/002/continuation_value_gap.py",
+      "amended_sha256": "ed0a10d1cd3c00f363b193e5853a0a4cfdc9897162b6e16e8052d909369abd74"
+    },
+    "verify_continuation_value_gap.py": {
+      "original_sha256": "80b72b6e11aaa21df09af47f124b92a953a7557f75250d3a6be00a876512a2dc",
+      "preserved_original": "results/continuation_value_gap_v1/amendments/002/verify_continuation_value_gap.py",
+      "amended_sha256": "658553404ce96019c8afc24f8aabcc96bc9d85714d26fd7d6a7a47349378ba38"
+    }
+  },
+  "additional_verification_changes": {
+    "verify_continuation_value_gap_inputs.py": {
+      "original_sha256": "d320d0fdc45267a2ebf1386732e41f13621374fb019a037b60e14b7d8cfd594d",
+      "preserved_original": "results/continuation_value_gap_v1/amendments/002/verify_continuation_value_gap_inputs.py",
+      "amended_sha256": "f6760320a3f5222670fda960323b13b9b1d40e7117ede1b0a4e1802f9e161679"
+    },
+    "results/continuation_value_gap_v1/independent_audit.py": {
+      "original_sha256": "3b41d2dc0f64546cd5fceb6e7b3e0d2bb42f75762630743d1cb42607bb35e0e1",
+      "preserved_original": "results/continuation_value_gap_v1/amendments/002/independent_audit.py",
+      "amended_sha256": "4fea74d31d626ba1627b0da0284003aa79f9e15e84d92dd74aed081144335ee1"
+    }
+  },
+  "unchanged_UCF_outcome_seal_sha256": "baa59a713dc113a0655874a0366437a8ab5bbd6a699ca0a5318154af9137d8a3"
+}

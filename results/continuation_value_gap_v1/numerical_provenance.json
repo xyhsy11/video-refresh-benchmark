@@ -1,0 +1,17 @@
+{
+  "original_array_dtypes": {
+    "float64": 400
+  },
+  "provenance": "Experiment24 stable float64 CE of C pooled float64 affine logits; stored delta from Dense CE",
+  "reconstruction": "float64 delta + authenticated full-precision per-clip Dense CE; no precision-restoring claim",
+  "tie_tolerance": 1e-10,
+  "verification_atol": 1e-10,
+  "available_genuine_feature_clips": 400,
+  "sensitivity_tolerances": [
+    0,
+    1e-12,
+    1e-10,
+    1e-08
+  ],
+  "full_ucf_interval": "unidentifiable: BenchPress and JavelinThrow singleton classes"
+}

@@ -1,0 +1,15 @@
+{
+  "at_utc": "2026-10-21T06:10:39.556459+00:00",
+  "before_HMDB_head_fit": true,
+  "before_HMDB_EVAL_model_calls": true,
+  "sha256": {
+    "continuation_value_gap.py": "ed0a10d1cd3c00f363b193e5853a0a4cfdc9897162b6e16e8052d909369abd74",
+    "continuation_value_gap_hmdb.py": "56a59afa40a2374484ebda75817fe32d7cbe126bbc05a2607eb6b90c19a88b05",
+    "verify_continuation_value_gap.py": "658553404ce96019c8afc24f8aabcc96bc9d85714d26fd7d6a7a47349378ba38",
+    "verify_continuation_value_gap_inputs.py": "f6760320a3f5222670fda960323b13b9b1d40e7117ede1b0a4e1802f9e161679",
+    "results/continuation_value_gap_v1/amendments/mechanical_001.json": "5e05338f8db024d7042031258aec7435546624ca54949e7e8ca1ac068f41bf19",
+    "results/continuation_value_gap_v1/amendments/mechanical_002.json": "d235ea8b71c1209538eaff08e02420e87ae4baecb544bd76980fe58a06957db7"
+  },
+  "running_adapter": "Unchanged continuation_value_gap_hmdb.py; process began after amendment001 and imported the main module preserved under amendments/002/continuation_value_gap.py. Amendment002 changes only verifier column access and seal-chain bookkeeping; endpoint functions are unchanged.",
+  "running_imported_main_sha256": "1c22c3483b8a7a1565e819714bbddb03a6aa2cec34c0a14382b0959252788058"
+}

@@ -1,0 +1,2402 @@
+[
+  {
+    "clip": "v_ApplyEyeMakeup_g19_c02.avi",
+    "label": "ApplyEyeMakeup",
+    "family": "ApplyEyeMakeup/g19",
+    "y": 0
+  },
+  {
+    "clip": "v_ApplyEyeMakeup_g19_c03.avi",
+    "label": "ApplyEyeMakeup",
+    "family": "ApplyEyeMakeup/g19",
+    "y": 0
+  },
+  {
+    "clip": "v_ApplyEyeMakeup_g20_c01.avi",
+    "label": "ApplyEyeMakeup",
+    "family": "ApplyEyeMakeup/g20",
+    "y": 0
+  },
+  {
+    "clip": "v_ApplyEyeMakeup_g20_c05.avi",
+    "label": "ApplyEyeMakeup",
+    "family": "ApplyEyeMakeup/g20",
+    "y": 0
+  },
+  {
+    "clip": "v_ApplyLipstick_g20_c01.avi",
+    "label": "ApplyLipstick",
+    "family": "ApplyLipstick/g20",
+    "y": 1
+  },
+  {
+    "clip": "v_ApplyLipstick_g20_c03.avi",
+    "label": "ApplyLipstick",
+    "family": "ApplyLipstick/g20",
+    "y": 1
+  },
+  {
+    "clip": "v_ApplyLipstick_g23_c01.avi",
+    "label": "ApplyLipstick",
+    "family": "ApplyLipstick/g23",
+    "y": 1
+  },
+  {
+    "clip": "v_ApplyLipstick_g23_c04.avi",
+    "label": "ApplyLipstick",
+    "family": "ApplyLipstick/g23",
+    "y": 1
+  },
+  {
+    "clip": "v_Archery_g13_c04.avi",
+    "label": "Archery",
+    "family": "Archery/g13",
+    "y": 2
+  },
+  {
+    "clip": "v_Archery_g13_c06.avi",
+    "label": "Archery",
+    "family": "Archery/g13",
+    "y": 2
+  },
+  {
+    "clip": "v_Archery_g20_c01.avi",
+    "label": "Archery",
+    "family": "Archery/g20",
+    "y": 2
+  },
+  {
+    "clip": "v_Archery_g20_c07.avi",
+    "label": "Archery",
+    "family": "Archery/g20",
+    "y": 2
+  },
+  {
+    "clip": "v_BabyCrawling_g17_c03.avi",
+    "label": "BabyCrawling",
+    "family": "BabyCrawling/g17",
+    "y": 3
+  },
+  {
+    "clip": "v_BabyCrawling_g17_c04.avi",
+    "label": "BabyCrawling",
+    "family": "BabyCrawling/g17",
+    "y": 3
+  },
+  {
+    "clip": "v_BabyCrawling_g19_c04.avi",
+    "label": "BabyCrawling",
+    "family": "BabyCrawling/g19",
+    "y": 3
+  },
+  {
+    "clip": "v_BabyCrawling_g19_c05.avi",
+    "label": "BabyCrawling",
+    "family": "BabyCrawling/g19",
+    "y": 3
+  },
+  {
+    "clip": "v_BalanceBeam_g16_c01.avi",
+    "label": "BalanceBeam",
+    "family": "BalanceBeam/g16",
+    "y": 4
+  },
+  {
+    "clip": "v_BalanceBeam_g16_c03.avi",
+    "label": "BalanceBeam",
+    "family": "BalanceBeam/g16",
+    "y": 4
+  },
+  {
+    "clip": "v_BalanceBeam_g22_c02.avi",
+    "label": "BalanceBeam",
+    "family": "BalanceBeam/g22",
+    "y": 4
+  },
+  {
+    "clip": "v_BalanceBeam_g22_c04.avi",
+    "label": "BalanceBeam",
+    "family": "BalanceBeam/g22",
+    "y": 4
+  },
+  {
+    "clip": "v_BandMarching_g14_c04.avi",
+    "label": "BandMarching",
+    "family": "BandMarching/g14",
+    "y": 5
+  },
+  {
+    "clip": "v_BandMarching_g14_c05.avi",
+    "label": "BandMarching",
+    "family": "BandMarching/g14",
+    "y": 5
+  },
+  {
+    "clip": "v_BandMarching_g15_c01.avi",
+    "label": "BandMarching",
+    "family": "BandMarching/g15",
+    "y": 5
+  },
+  {
+    "clip": "v_BandMarching_g15_c03.avi",
+    "label": "BandMarching",
+    "family": "BandMarching/g15",
+    "y": 5
+  },
+  {
+    "clip": "v_BaseballPitch_g09_c01.avi",
+    "label": "BaseballPitch",
+    "family": "BaseballPitch/g09",
+    "y": 6
+  },
+  {
+    "clip": "v_BaseballPitch_g09_c07.avi",
+    "label": "BaseballPitch",
+    "family": "BaseballPitch/g09",
+    "y": 6
+  },
+  {
+    "clip": "v_BaseballPitch_g17_c05.avi",
+    "label": "BaseballPitch",
+    "family": "BaseballPitch/g17",
+    "y": 6
+  },
+  {
+    "clip": "v_BaseballPitch_g17_c07.avi",
+    "label": "BaseballPitch",
+    "family": "BaseballPitch/g17",
+    "y": 6
+  },
+  {
+    "clip": "v_BasketballDunk_g14_c01.avi",
+    "label": "BasketballDunk",
+    "family": "BasketballDunk/g14",
+    "y": 8
+  },
+  {
+    "clip": "v_BasketballDunk_g14_c06.avi",
+    "label": "BasketballDunk",
+    "family": "BasketballDunk/g14",
+    "y": 8
+  },
+  {
+    "clip": "v_BasketballDunk_g19_c01.avi",
+    "label": "BasketballDunk",
+    "family": "BasketballDunk/g19",
+    "y": 8
+  },
+  {
+    "clip": "v_BasketballDunk_g19_c03.avi",
+    "label": "BasketballDunk",
+    "family": "BasketballDunk/g19",
+    "y": 8
+  },
+  {
+    "clip": "v_Basketball_g12_c01.avi",
+    "label": "Basketball",
+    "family": "Basketball/g12",
+    "y": 7
+  },
+  {
+    "clip": "v_Basketball_g12_c05.avi",
+    "label": "Basketball",
+    "family": "Basketball/g12",
+    "y": 7
+  },
+  {
+    "clip": "v_Basketball_g21_c01.avi",
+    "label": "Basketball",
+    "family": "Basketball/g21",
+    "y": 7
+  },
+  {
+    "clip": "v_Basketball_g21_c02.avi",
+    "label": "Basketball",
+    "family": "Basketball/g21",
+    "y": 7
+  },
+  {
+    "clip": "v_BenchPress_g11_c02.avi",
+    "label": "BenchPress",
+    "family": "BenchPress/g11",
+    "y": 9
+  },
+  {
+    "clip": "v_BenchPress_g11_c05.avi",
+    "label": "BenchPress",
+    "family": "BenchPress/g11",
+    "y": 9
+  },
+  {
+    "clip": "v_Biking_g21_c01.avi",
+    "label": "Biking",
+    "family": "Biking/g21",
+    "y": 10
+  },
+  {
+    "clip": "v_Biking_g21_c03.avi",
+    "label": "Biking",
+    "family": "Biking/g21",
+    "y": 10
+  },
+  {
+    "clip": "v_Biking_g23_c02.avi",
+    "label": "Biking",
+    "family": "Biking/g23",
+    "y": 10
+  },
+  {
+    "clip": "v_Biking_g23_c04.avi",
+    "label": "Biking",
+    "family": "Biking/g23",
+    "y": 10
+  },
+  {
+    "clip": "v_Billiards_g13_c03.avi",
+    "label": "Billiards",
+    "family": "Billiards/g13",
+    "y": 11
+  },
+  {
+    "clip": "v_Billiards_g13_c06.avi",
+    "label": "Billiards",
+    "family": "Billiards/g13",
+    "y": 11
+  },
+  {
+    "clip": "v_Billiards_g23_c01.avi",
+    "label": "Billiards",
+    "family": "Billiards/g23",
+    "y": 11
+  },
+  {
+    "clip": "v_Billiards_g23_c04.avi",
+    "label": "Billiards",
+    "family": "Billiards/g23",
+    "y": 11
+  },
+  {
+    "clip": "v_BlowDryHair_g08_c03.avi",
+    "label": "BlowDryHair",
+    "family": "BlowDryHair/g08",
+    "y": 12
+  },
+  {
+    "clip": "v_BlowDryHair_g08_c04.avi",
+    "label": "BlowDryHair",
+    "family": "BlowDryHair/g08",
+    "y": 12
+  },
+  {
+    "clip": "v_BlowDryHair_g22_c01.avi",
+    "label": "BlowDryHair",
+    "family": "BlowDryHair/g22",
+    "y": 12
+  },
+  {
+    "clip": "v_BlowDryHair_g22_c04.avi",
+    "label": "BlowDryHair",
+    "family": "BlowDryHair/g22",
+    "y": 12
+  },
+  {
+    "clip": "v_BlowingCandles_g08_c01.avi",
+    "label": "BlowingCandles",
+    "family": "BlowingCandles/g08",
+    "y": 13
+  },
+  {
+    "clip": "v_BlowingCandles_g08_c02.avi",
+    "label": "BlowingCandles",
+    "family": "BlowingCandles/g08",
+    "y": 13
+  },
+  {
+    "clip": "v_BlowingCandles_g18_c02.avi",
+    "label": "BlowingCandles",
+    "family": "BlowingCandles/g18",
+    "y": 13
+  },
+  {
+    "clip": "v_BlowingCandles_g18_c03.avi",
+    "label": "BlowingCandles",
+    "family": "BlowingCandles/g18",
+    "y": 13
+  },
+  {
+    "clip": "v_BodyWeightSquats_g13_c01.avi",
+    "label": "BodyWeightSquats",
+    "family": "BodyWeightSquats/g13",
+    "y": 14
+  },
+  {
+    "clip": "v_BodyWeightSquats_g13_c04.avi",
+    "label": "BodyWeightSquats",
+    "family": "BodyWeightSquats/g13",
+    "y": 14
+  },
+  {
+    "clip": "v_BodyWeightSquats_g25_c03.avi",
+    "label": "BodyWeightSquats",
+    "family": "BodyWeightSquats/g25",
+    "y": 14
+  },
+  {
+    "clip": "v_BodyWeightSquats_g25_c04.avi",
+    "label": "BodyWeightSquats",
+    "family": "BodyWeightSquats/g25",
+    "y": 14
+  },
+  {
+    "clip": "v_Bowling_g10_c03.avi",
+    "label": "Bowling",
+    "family": "Bowling/g10",
+    "y": 15
+  },
+  {
+    "clip": "v_Bowling_g10_c05.avi",
+    "label": "Bowling",
+    "family": "Bowling/g10",
+    "y": 15
+  },
+  {
+    "clip": "v_Bowling_g15_c01.avi",
+    "label": "Bowling",
+    "family": "Bowling/g15",
+    "y": 15
+  },
+  {
+    "clip": "v_Bowling_g15_c07.avi",
+    "label": "Bowling",
+    "family": "Bowling/g15",
+    "y": 15
+  },
+  {
+    "clip": "v_BoxingPunchingBag_g08_c04.avi",
+    "label": "BoxingPunchingBag",
+    "family": "BoxingPunchingBag/g08",
+    "y": 16
+  },
+  {
+    "clip": "v_BoxingPunchingBag_g08_c05.avi",
+    "label": "BoxingPunchingBag",
+    "family": "BoxingPunchingBag/g08",
+    "y": 16
+  },
+  {
+    "clip": "v_BoxingPunchingBag_g16_c01.avi",
+    "label": "BoxingPunchingBag",
+    "family": "BoxingPunchingBag/g16",
+    "y": 16
+  },
+  {
+    "clip": "v_BoxingPunchingBag_g16_c04.avi",
+    "label": "BoxingPunchingBag",
+    "family": "BoxingPunchingBag/g16",
+    "y": 16
+  },
+  {
+    "clip": "v_BoxingSpeedBag_g15_c01.avi",
+    "label": "BoxingSpeedBag",
+    "family": "BoxingSpeedBag/g15",
+    "y": 17
+  },
+  {
+    "clip": "v_BoxingSpeedBag_g15_c04.avi",
+    "label": "BoxingSpeedBag",
+    "family": "BoxingSpeedBag/g15",
+    "y": 17
+  },
+  {
+    "clip": "v_BoxingSpeedBag_g19_c02.avi",
+    "label": "BoxingSpeedBag",
+    "family": "BoxingSpeedBag/g19",
+    "y": 17
+  },
+  {
+    "clip": "v_BoxingSpeedBag_g19_c03.avi",
+    "label": "BoxingSpeedBag",
+    "family": "BoxingSpeedBag/g19",
+    "y": 17
+  },
+  {
+    "clip": "v_BreastStroke_g11_c01.avi",
+    "label": "BreastStroke",
+    "family": "BreastStroke/g11",
+    "y": 18
+  },
+  {
+    "clip": "v_BreastStroke_g11_c03.avi",
+    "label": "BreastStroke",
+    "family": "BreastStroke/g11",
+    "y": 18
+  },
+  {
+    "clip": "v_BreastStroke_g17_c02.avi",
+    "label": "BreastStroke",
+    "family": "BreastStroke/g17",
+    "y": 18
+  },
+  {
+    "clip": "v_BreastStroke_g17_c04.avi",
+    "label": "BreastStroke",
+    "family": "BreastStroke/g17",
+    "y": 18
+  },
+  {
+    "clip": "v_BrushingTeeth_g23_c01.avi",
+    "label": "BrushingTeeth",
+    "family": "BrushingTeeth/g23",
+    "y": 19
+  },
+  {
+    "clip": "v_BrushingTeeth_g23_c05.avi",
+    "label": "BrushingTeeth",
+    "family": "BrushingTeeth/g23",
+    "y": 19
+  },
+  {
+    "clip": "v_BrushingTeeth_g25_c01.avi",
+    "label": "BrushingTeeth",
+    "family": "BrushingTeeth/g25",
+    "y": 19
+  },
+  {
+    "clip": "v_BrushingTeeth_g25_c06.avi",
+    "label": "BrushingTeeth",
+    "family": "BrushingTeeth/g25",
+    "y": 19
+  },
+  {
+    "clip": "v_CleanAndJerk_g11_c01.avi",
+    "label": "CleanAndJerk",
+    "family": "CleanAndJerk/g11",
+    "y": 20
+  },
+  {
+    "clip": "v_CleanAndJerk_g11_c03.avi",
+    "label": "CleanAndJerk",
+    "family": "CleanAndJerk/g11",
+    "y": 20
+  },
+  {
+    "clip": "v_CleanAndJerk_g17_c01.avi",
+    "label": "CleanAndJerk",
+    "family": "CleanAndJerk/g17",
+    "y": 20
+  },
+  {
+    "clip": "v_CleanAndJerk_g17_c02.avi",
+    "label": "CleanAndJerk",
+    "family": "CleanAndJerk/g17",
+    "y": 20
+  },
+  {
+    "clip": "v_CliffDiving_g10_c03.avi",
+    "label": "CliffDiving",
+    "family": "CliffDiving/g10",
+    "y": 21
+  },
+  {
+    "clip": "v_CliffDiving_g10_c06.avi",
+    "label": "CliffDiving",
+    "family": "CliffDiving/g10",
+    "y": 21
+  },
+  {
+    "clip": "v_CliffDiving_g12_c01.avi",
+    "label": "CliffDiving",
+    "family": "CliffDiving/g12",
+    "y": 21
+  },
+  {
+    "clip": "v_CliffDiving_g12_c02.avi",
+    "label": "CliffDiving",
+    "family": "CliffDiving/g12",
+    "y": 21
+  },
+  {
+    "clip": "v_CricketBowling_g22_c06.avi",
+    "label": "CricketBowling",
+    "family": "CricketBowling/g22",
+    "y": 22
+  },
+  {
+    "clip": "v_CricketBowling_g22_c07.avi",
+    "label": "CricketBowling",
+    "family": "CricketBowling/g22",
+    "y": 22
+  },
+  {
+    "clip": "v_CricketBowling_g23_c01.avi",
+    "label": "CricketBowling",
+    "family": "CricketBowling/g23",
+    "y": 22
+  },
+  {
+    "clip": "v_CricketBowling_g23_c04.avi",
+    "label": "CricketBowling",
+    "family": "CricketBowling/g23",
+    "y": 22
+  },
+  {
+    "clip": "v_CricketShot_g17_c01.avi",
+    "label": "CricketShot",
+    "family": "CricketShot/g17",
+    "y": 23
+  },
+  {
+    "clip": "v_CricketShot_g17_c03.avi",
+    "label": "CricketShot",
+    "family": "CricketShot/g17",
+    "y": 23
+  },
+  {
+    "clip": "v_CricketShot_g21_c04.avi",
+    "label": "CricketShot",
+    "family": "CricketShot/g21",
+    "y": 23
+  },
+  {
+    "clip": "v_CricketShot_g21_c06.avi",
+    "label": "CricketShot",
+    "family": "CricketShot/g21",
+    "y": 23
+  },
+  {
+    "clip": "v_CuttingInKitchen_g13_c01.avi",
+    "label": "CuttingInKitchen",
+    "family": "CuttingInKitchen/g13",
+    "y": 24
+  },
+  {
+    "clip": "v_CuttingInKitchen_g13_c02.avi",
+    "label": "CuttingInKitchen",
+    "family": "CuttingInKitchen/g13",
+    "y": 24
+  },
+  {
+    "clip": "v_CuttingInKitchen_g17_c01.avi",
+    "label": "CuttingInKitchen",
+    "family": "CuttingInKitchen/g17",
+    "y": 24
+  },
+  {
+    "clip": "v_CuttingInKitchen_g17_c03.avi",
+    "label": "CuttingInKitchen",
+    "family": "CuttingInKitchen/g17",
+    "y": 24
+  },
+  {
+    "clip": "v_Diving_g15_c01.avi",
+    "label": "Diving",
+    "family": "Diving/g15",
+    "y": 25
+  },
+  {
+    "clip": "v_Diving_g15_c04.avi",
+    "label": "Diving",
+    "family": "Diving/g15",
+    "y": 25
+  },
+  {
+    "clip": "v_Diving_g24_c02.avi",
+    "label": "Diving",
+    "family": "Diving/g24",
+    "y": 25
+  },
+  {
+    "clip": "v_Diving_g24_c04.avi",
+    "label": "Diving",
+    "family": "Diving/g24",
+    "y": 25
+  },
+  {
+    "clip": "v_Drumming_g13_c02.avi",
+    "label": "Drumming",
+    "family": "Drumming/g13",
+    "y": 26
+  },
+  {
+    "clip": "v_Drumming_g13_c03.avi",
+    "label": "Drumming",
+    "family": "Drumming/g13",
+    "y": 26
+  },
+  {
+    "clip": "v_Drumming_g14_c03.avi",
+    "label": "Drumming",
+    "family": "Drumming/g14",
+    "y": 26
+  },
+  {
+    "clip": "v_Drumming_g14_c06.avi",
+    "label": "Drumming",
+    "family": "Drumming/g14",
+    "y": 26
+  },
+  {
+    "clip": "v_Fencing_g11_c01.avi",
+    "label": "Fencing",
+    "family": "Fencing/g11",
+    "y": 27
+  },
+  {
+    "clip": "v_Fencing_g11_c02.avi",
+    "label": "Fencing",
+    "family": "Fencing/g11",
+    "y": 27
+  },
+  {
+    "clip": "v_Fencing_g20_c02.avi",
+    "label": "Fencing",
+    "family": "Fencing/g20",
+    "y": 27
+  },
+  {
+    "clip": "v_Fencing_g20_c03.avi",
+    "label": "Fencing",
+    "family": "Fencing/g20",
+    "y": 27
+  },
+  {
+    "clip": "v_FieldHockeyPenalty_g17_c01.avi",
+    "label": "FieldHockeyPenalty",
+    "family": "FieldHockeyPenalty/g17",
+    "y": 28
+  },
+  {
+    "clip": "v_FieldHockeyPenalty_g17_c04.avi",
+    "label": "FieldHockeyPenalty",
+    "family": "FieldHockeyPenalty/g17",
+    "y": 28
+  },
+  {
+    "clip": "v_FieldHockeyPenalty_g22_c02.avi",
+    "label": "FieldHockeyPenalty",
+    "family": "FieldHockeyPenalty/g22",
+    "y": 28
+  },
+  {
+    "clip": "v_FieldHockeyPenalty_g22_c03.avi",
+    "label": "FieldHockeyPenalty",
+    "family": "FieldHockeyPenalty/g22",
+    "y": 28
+  },
+  {
+    "clip": "v_FloorGymnastics_g09_c05.avi",
+    "label": "FloorGymnastics",
+    "family": "FloorGymnastics/g09",
+    "y": 29
+  },
+  {
+    "clip": "v_FloorGymnastics_g09_c06.avi",
+    "label": "FloorGymnastics",
+    "family": "FloorGymnastics/g09",
+    "y": 29
+  },
+  {
+    "clip": "v_FloorGymnastics_g11_c02.avi",
+    "label": "FloorGymnastics",
+    "family": "FloorGymnastics/g11",
+    "y": 29
+  },
+  {
+    "clip": "v_FloorGymnastics_g11_c04.avi",
+    "label": "FloorGymnastics",
+    "family": "FloorGymnastics/g11",
+    "y": 29
+  },
+  {
+    "clip": "v_FrisbeeCatch_g13_c01.avi",
+    "label": "FrisbeeCatch",
+    "family": "FrisbeeCatch/g13",
+    "y": 30
+  },
+  {
+    "clip": "v_FrisbeeCatch_g13_c04.avi",
+    "label": "FrisbeeCatch",
+    "family": "FrisbeeCatch/g13",
+    "y": 30
+  },
+  {
+    "clip": "v_FrisbeeCatch_g25_c01.avi",
+    "label": "FrisbeeCatch",
+    "family": "FrisbeeCatch/g25",
+    "y": 30
+  },
+  {
+    "clip": "v_FrisbeeCatch_g25_c04.avi",
+    "label": "FrisbeeCatch",
+    "family": "FrisbeeCatch/g25",
+    "y": 30
+  },
+  {
+    "clip": "v_FrontCrawl_g16_c02.avi",
+    "label": "FrontCrawl",
+    "family": "FrontCrawl/g16",
+    "y": 31
+  },
+  {
+    "clip": "v_FrontCrawl_g16_c04.avi",
+    "label": "FrontCrawl",
+    "family": "FrontCrawl/g16",
+    "y": 31
+  },
+  {
+    "clip": "v_FrontCrawl_g19_c03.avi",
+    "label": "FrontCrawl",
+    "family": "FrontCrawl/g19",
+    "y": 31
+  },
+  {
+    "clip": "v_FrontCrawl_g19_c04.avi",
+    "label": "FrontCrawl",
+    "family": "FrontCrawl/g19",
+    "y": 31
+  },
+  {
+    "clip": "v_GolfSwing_g10_c02.avi",
+    "label": "GolfSwing",
+    "family": "GolfSwing/g10",
+    "y": 32
+  },
+  {
+    "clip": "v_GolfSwing_g10_c03.avi",
+    "label": "GolfSwing",
+    "family": "GolfSwing/g10",
+    "y": 32
+  },
+  {
+    "clip": "v_GolfSwing_g25_c01.avi",
+    "label": "GolfSwing",
+    "family": "GolfSwing/g25",
+    "y": 32
+  },
+  {
+    "clip": "v_GolfSwing_g25_c05.avi",
+    "label": "GolfSwing",
+    "family": "GolfSwing/g25",
+    "y": 32
+  },
+  {
+    "clip": "v_Haircut_g11_c03.avi",
+    "label": "Haircut",
+    "family": "Haircut/g11",
+    "y": 33
+  },
+  {
+    "clip": "v_Haircut_g11_c04.avi",
+    "label": "Haircut",
+    "family": "Haircut/g11",
+    "y": 33
+  },
+  {
+    "clip": "v_Haircut_g17_c03.avi",
+    "label": "Haircut",
+    "family": "Haircut/g17",
+    "y": 33
+  },
+  {
+    "clip": "v_Haircut_g17_c04.avi",
+    "label": "Haircut",
+    "family": "Haircut/g17",
+    "y": 33
+  },
+  {
+    "clip": "v_HammerThrow_g13_c01.avi",
+    "label": "HammerThrow",
+    "family": "HammerThrow/g13",
+    "y": 35
+  },
+  {
+    "clip": "v_HammerThrow_g13_c07.avi",
+    "label": "HammerThrow",
+    "family": "HammerThrow/g13",
+    "y": 35
+  },
+  {
+    "clip": "v_HammerThrow_g21_c01.avi",
+    "label": "HammerThrow",
+    "family": "HammerThrow/g21",
+    "y": 35
+  },
+  {
+    "clip": "v_HammerThrow_g21_c04.avi",
+    "label": "HammerThrow",
+    "family": "HammerThrow/g21",
+    "y": 35
+  },
+  {
+    "clip": "v_Hammering_g13_c04.avi",
+    "label": "Hammering",
+    "family": "Hammering/g13",
+    "y": 34
+  },
+  {
+    "clip": "v_Hammering_g13_c06.avi",
+    "label": "Hammering",
+    "family": "Hammering/g13",
+    "y": 34
+  },
+  {
+    "clip": "v_Hammering_g15_c02.avi",
+    "label": "Hammering",
+    "family": "Hammering/g15",
+    "y": 34
+  },
+  {
+    "clip": "v_Hammering_g15_c03.avi",
+    "label": "Hammering",
+    "family": "Hammering/g15",
+    "y": 34
+  },
+  {
+    "clip": "v_HandStandPushups_g09_c01.avi",
+    "label": "HandstandPushups",
+    "family": "HandstandPushups/g09",
+    "y": 36
+  },
+  {
+    "clip": "v_HandStandPushups_g09_c03.avi",
+    "label": "HandstandPushups",
+    "family": "HandstandPushups/g09",
+    "y": 36
+  },
+  {
+    "clip": "v_HandStandPushups_g14_c02.avi",
+    "label": "HandstandPushups",
+    "family": "HandstandPushups/g14",
+    "y": 36
+  },
+  {
+    "clip": "v_HandStandPushups_g14_c04.avi",
+    "label": "HandstandPushups",
+    "family": "HandstandPushups/g14",
+    "y": 36
+  },
+  {
+    "clip": "v_HandstandWalking_g13_c03.avi",
+    "label": "HandstandWalking",
+    "family": "HandstandWalking/g13",
+    "y": 37
+  },
+  {
+    "clip": "v_HandstandWalking_g13_c04.avi",
+    "label": "HandstandWalking",
+    "family": "HandstandWalking/g13",
+    "y": 37
+  },
+  {
+    "clip": "v_HandstandWalking_g19_c03.avi",
+    "label": "HandstandWalking",
+    "family": "HandstandWalking/g19",
+    "y": 37
+  },
+  {
+    "clip": "v_HandstandWalking_g19_c04.avi",
+    "label": "HandstandWalking",
+    "family": "HandstandWalking/g19",
+    "y": 37
+  },
+  {
+    "clip": "v_HeadMassage_g10_c01.avi",
+    "label": "HeadMassage",
+    "family": "HeadMassage/g10",
+    "y": 38
+  },
+  {
+    "clip": "v_HeadMassage_g10_c02.avi",
+    "label": "HeadMassage",
+    "family": "HeadMassage/g10",
+    "y": 38
+  },
+  {
+    "clip": "v_HeadMassage_g22_c01.avi",
+    "label": "HeadMassage",
+    "family": "HeadMassage/g22",
+    "y": 38
+  },
+  {
+    "clip": "v_HeadMassage_g22_c07.avi",
+    "label": "HeadMassage",
+    "family": "HeadMassage/g22",
+    "y": 38
+  },
+  {
+    "clip": "v_HighJump_g12_c01.avi",
+    "label": "HighJump",
+    "family": "HighJump/g12",
+    "y": 39
+  },
+  {
+    "clip": "v_HighJump_g12_c04.avi",
+    "label": "HighJump",
+    "family": "HighJump/g12",
+    "y": 39
+  },
+  {
+    "clip": "v_HighJump_g14_c01.avi",
+    "label": "HighJump",
+    "family": "HighJump/g14",
+    "y": 39
+  },
+  {
+    "clip": "v_HighJump_g14_c04.avi",
+    "label": "HighJump",
+    "family": "HighJump/g14",
+    "y": 39
+  },
+  {
+    "clip": "v_HorseRace_g17_c01.avi",
+    "label": "HorseRace",
+    "family": "HorseRace/g17",
+    "y": 40
+  },
+  {
+    "clip": "v_HorseRace_g17_c03.avi",
+    "label": "HorseRace",
+    "family": "HorseRace/g17",
+    "y": 40
+  },
+  {
+    "clip": "v_HorseRace_g19_c05.avi",
+    "label": "HorseRace",
+    "family": "HorseRace/g19",
+    "y": 40
+  },
+  {
+    "clip": "v_HorseRace_g19_c06.avi",
+    "label": "HorseRace",
+    "family": "HorseRace/g19",
+    "y": 40
+  },
+  {
+    "clip": "v_HorseRiding_g20_c03.avi",
+    "label": "HorseRiding",
+    "family": "HorseRiding/g20",
+    "y": 41
+  },
+  {
+    "clip": "v_HorseRiding_g20_c04.avi",
+    "label": "HorseRiding",
+    "family": "HorseRiding/g20",
+    "y": 41
+  },
+  {
+    "clip": "v_HorseRiding_g22_c04.avi",
+    "label": "HorseRiding",
+    "family": "HorseRiding/g22",
+    "y": 41
+  },
+  {
+    "clip": "v_HorseRiding_g22_c06.avi",
+    "label": "HorseRiding",
+    "family": "HorseRiding/g22",
+    "y": 41
+  },
+  {
+    "clip": "v_HulaHoop_g14_c03.avi",
+    "label": "HulaHoop",
+    "family": "HulaHoop/g14",
+    "y": 42
+  },
+  {
+    "clip": "v_HulaHoop_g14_c05.avi",
+    "label": "HulaHoop",
+    "family": "HulaHoop/g14",
+    "y": 42
+  },
+  {
+    "clip": "v_HulaHoop_g23_c01.avi",
+    "label": "HulaHoop",
+    "family": "HulaHoop/g23",
+    "y": 42
+  },
+  {
+    "clip": "v_HulaHoop_g23_c02.avi",
+    "label": "HulaHoop",
+    "family": "HulaHoop/g23",
+    "y": 42
+  },
+  {
+    "clip": "v_IceDancing_g09_c01.avi",
+    "label": "IceDancing",
+    "family": "IceDancing/g09",
+    "y": 43
+  },
+  {
+    "clip": "v_IceDancing_g09_c02.avi",
+    "label": "IceDancing",
+    "family": "IceDancing/g09",
+    "y": 43
+  },
+  {
+    "clip": "v_IceDancing_g11_c01.avi",
+    "label": "IceDancing",
+    "family": "IceDancing/g11",
+    "y": 43
+  },
+  {
+    "clip": "v_IceDancing_g11_c04.avi",
+    "label": "IceDancing",
+    "family": "IceDancing/g11",
+    "y": 43
+  },
+  {
+    "clip": "v_JavelinThrow_g25_c02.avi",
+    "label": "JavelinThrow",
+    "family": "JavelinThrow/g25",
+    "y": 44
+  },
+  {
+    "clip": "v_JavelinThrow_g25_c05.avi",
+    "label": "JavelinThrow",
+    "family": "JavelinThrow/g25",
+    "y": 44
+  },
+  {
+    "clip": "v_JugglingBalls_g09_c01.avi",
+    "label": "JugglingBalls",
+    "family": "JugglingBalls/g09",
+    "y": 45
+  },
+  {
+    "clip": "v_JugglingBalls_g09_c04.avi",
+    "label": "JugglingBalls",
+    "family": "JugglingBalls/g09",
+    "y": 45
+  },
+  {
+    "clip": "v_JugglingBalls_g20_c01.avi",
+    "label": "JugglingBalls",
+    "family": "JugglingBalls/g20",
+    "y": 45
+  },
+  {
+    "clip": "v_JugglingBalls_g20_c03.avi",
+    "label": "JugglingBalls",
+    "family": "JugglingBalls/g20",
+    "y": 45
+  },
+  {
+    "clip": "v_JumpRope_g10_c01.avi",
+    "label": "JumpRope",
+    "family": "JumpRope/g10",
+    "y": 47
+  },
+  {
+    "clip": "v_JumpRope_g10_c03.avi",
+    "label": "JumpRope",
+    "family": "JumpRope/g10",
+    "y": 47
+  },
+  {
+    "clip": "v_JumpRope_g22_c01.avi",
+    "label": "JumpRope",
+    "family": "JumpRope/g22",
+    "y": 47
+  },
+  {
+    "clip": "v_JumpRope_g22_c03.avi",
+    "label": "JumpRope",
+    "family": "JumpRope/g22",
+    "y": 47
+  },
+  {
+    "clip": "v_JumpingJack_g15_c02.avi",
+    "label": "JumpingJack",
+    "family": "JumpingJack/g15",
+    "y": 46
+  },
+  {
+    "clip": "v_JumpingJack_g15_c03.avi",
+    "label": "JumpingJack",
+    "family": "JumpingJack/g15",
+    "y": 46
+  },
+  {
+    "clip": "v_JumpingJack_g22_c01.avi",
+    "label": "JumpingJack",
+    "family": "JumpingJack/g22",
+    "y": 46
+  },
+  {
+    "clip": "v_JumpingJack_g22_c03.avi",
+    "label": "JumpingJack",
+    "family": "JumpingJack/g22",
+    "y": 46
+  },
+  {
+    "clip": "v_Kayaking_g17_c03.avi",
+    "label": "Kayaking",
+    "family": "Kayaking/g17",
+    "y": 48
+  },
+  {
+    "clip": "v_Kayaking_g17_c05.avi",
+    "label": "Kayaking",
+    "family": "Kayaking/g17",
+    "y": 48
+  },
+  {
+    "clip": "v_Kayaking_g21_c05.avi",
+    "label": "Kayaking",
+    "family": "Kayaking/g21",
+    "y": 48
+  },
+  {
+    "clip": "v_Kayaking_g21_c06.avi",
+    "label": "Kayaking",
+    "family": "Kayaking/g21",
+    "y": 48
+  },
+  {
+    "clip": "v_Knitting_g09_c02.avi",
+    "label": "Knitting",
+    "family": "Knitting/g09",
+    "y": 49
+  },
+  {
+    "clip": "v_Knitting_g09_c04.avi",
+    "label": "Knitting",
+    "family": "Knitting/g09",
+    "y": 49
+  },
+  {
+    "clip": "v_Knitting_g14_c04.avi",
+    "label": "Knitting",
+    "family": "Knitting/g14",
+    "y": 49
+  },
+  {
+    "clip": "v_Knitting_g14_c05.avi",
+    "label": "Knitting",
+    "family": "Knitting/g14",
+    "y": 49
+  },
+  {
+    "clip": "v_LongJump_g12_c03.avi",
+    "label": "LongJump",
+    "family": "LongJump/g12",
+    "y": 50
+  },
+  {
+    "clip": "v_LongJump_g12_c05.avi",
+    "label": "LongJump",
+    "family": "LongJump/g12",
+    "y": 50
+  },
+  {
+    "clip": "v_LongJump_g24_c01.avi",
+    "label": "LongJump",
+    "family": "LongJump/g24",
+    "y": 50
+  },
+  {
+    "clip": "v_LongJump_g24_c02.avi",
+    "label": "LongJump",
+    "family": "LongJump/g24",
+    "y": 50
+  },
+  {
+    "clip": "v_Lunges_g18_c02.avi",
+    "label": "Lunges",
+    "family": "Lunges/g18",
+    "y": 51
+  },
+  {
+    "clip": "v_Lunges_g18_c05.avi",
+    "label": "Lunges",
+    "family": "Lunges/g18",
+    "y": 51
+  },
+  {
+    "clip": "v_Lunges_g21_c02.avi",
+    "label": "Lunges",
+    "family": "Lunges/g21",
+    "y": 51
+  },
+  {
+    "clip": "v_Lunges_g21_c05.avi",
+    "label": "Lunges",
+    "family": "Lunges/g21",
+    "y": 51
+  },
+  {
+    "clip": "v_MilitaryParade_g17_c03.avi",
+    "label": "MilitaryParade",
+    "family": "MilitaryParade/g17",
+    "y": 52
+  },
+  {
+    "clip": "v_MilitaryParade_g17_c05.avi",
+    "label": "MilitaryParade",
+    "family": "MilitaryParade/g17",
+    "y": 52
+  },
+  {
+    "clip": "v_MilitaryParade_g20_c01.avi",
+    "label": "MilitaryParade",
+    "family": "MilitaryParade/g20",
+    "y": 52
+  },
+  {
+    "clip": "v_MilitaryParade_g20_c03.avi",
+    "label": "MilitaryParade",
+    "family": "MilitaryParade/g20",
+    "y": 52
+  },
+  {
+    "clip": "v_Mixing_g15_c02.avi",
+    "label": "Mixing",
+    "family": "Mixing/g15",
+    "y": 53
+  },
+  {
+    "clip": "v_Mixing_g15_c03.avi",
+    "label": "Mixing",
+    "family": "Mixing/g15",
+    "y": 53
+  },
+  {
+    "clip": "v_Mixing_g18_c02.avi",
+    "label": "Mixing",
+    "family": "Mixing/g18",
+    "y": 53
+  },
+  {
+    "clip": "v_Mixing_g18_c03.avi",
+    "label": "Mixing",
+    "family": "Mixing/g18",
+    "y": 53
+  },
+  {
+    "clip": "v_MoppingFloor_g12_c02.avi",
+    "label": "MoppingFloor",
+    "family": "MoppingFloor/g12",
+    "y": 54
+  },
+  {
+    "clip": "v_MoppingFloor_g12_c03.avi",
+    "label": "MoppingFloor",
+    "family": "MoppingFloor/g12",
+    "y": 54
+  },
+  {
+    "clip": "v_MoppingFloor_g20_c02.avi",
+    "label": "MoppingFloor",
+    "family": "MoppingFloor/g20",
+    "y": 54
+  },
+  {
+    "clip": "v_MoppingFloor_g20_c04.avi",
+    "label": "MoppingFloor",
+    "family": "MoppingFloor/g20",
+    "y": 54
+  },
+  {
+    "clip": "v_Nunchucks_g18_c02.avi",
+    "label": "Nunchucks",
+    "family": "Nunchucks/g18",
+    "y": 55
+  },
+  {
+    "clip": "v_Nunchucks_g18_c05.avi",
+    "label": "Nunchucks",
+    "family": "Nunchucks/g18",
+    "y": 55
+  },
+  {
+    "clip": "v_Nunchucks_g21_c04.avi",
+    "label": "Nunchucks",
+    "family": "Nunchucks/g21",
+    "y": 55
+  },
+  {
+    "clip": "v_Nunchucks_g21_c05.avi",
+    "label": "Nunchucks",
+    "family": "Nunchucks/g21",
+    "y": 55
+  },
+  {
+    "clip": "v_ParallelBars_g13_c01.avi",
+    "label": "ParallelBars",
+    "family": "ParallelBars/g13",
+    "y": 56
+  },
+  {
+    "clip": "v_ParallelBars_g13_c04.avi",
+    "label": "ParallelBars",
+    "family": "ParallelBars/g13",
+    "y": 56
+  },
+  {
+    "clip": "v_ParallelBars_g23_c02.avi",
+    "label": "ParallelBars",
+    "family": "ParallelBars/g23",
+    "y": 56
+  },
+  {
+    "clip": "v_ParallelBars_g23_c03.avi",
+    "label": "ParallelBars",
+    "family": "ParallelBars/g23",
+    "y": 56
+  },
+  {
+    "clip": "v_PizzaTossing_g16_c01.avi",
+    "label": "PizzaTossing",
+    "family": "PizzaTossing/g16",
+    "y": 57
+  },
+  {
+    "clip": "v_PizzaTossing_g16_c02.avi",
+    "label": "PizzaTossing",
+    "family": "PizzaTossing/g16",
+    "y": 57
+  },
+  {
+    "clip": "v_PizzaTossing_g21_c01.avi",
+    "label": "PizzaTossing",
+    "family": "PizzaTossing/g21",
+    "y": 57
+  },
+  {
+    "clip": "v_PizzaTossing_g21_c03.avi",
+    "label": "PizzaTossing",
+    "family": "PizzaTossing/g21",
+    "y": 57
+  },
+  {
+    "clip": "v_PlayingCello_g10_c01.avi",
+    "label": "PlayingCello",
+    "family": "PlayingCello/g10",
+    "y": 58
+  },
+  {
+    "clip": "v_PlayingCello_g10_c05.avi",
+    "label": "PlayingCello",
+    "family": "PlayingCello/g10",
+    "y": 58
+  },
+  {
+    "clip": "v_PlayingCello_g14_c03.avi",
+    "label": "PlayingCello",
+    "family": "PlayingCello/g14",
+    "y": 58
+  },
+  {
+    "clip": "v_PlayingCello_g14_c04.avi",
+    "label": "PlayingCello",
+    "family": "PlayingCello/g14",
+    "y": 58
+  },
+  {
+    "clip": "v_PlayingDaf_g23_c02.avi",
+    "label": "PlayingDaf",
+    "family": "PlayingDaf/g23",
+    "y": 59
+  },
+  {
+    "clip": "v_PlayingDaf_g23_c06.avi",
+    "label": "PlayingDaf",
+    "family": "PlayingDaf/g23",
+    "y": 59
+  },
+  {
+    "clip": "v_PlayingDaf_g25_c01.avi",
+    "label": "PlayingDaf",
+    "family": "PlayingDaf/g25",
+    "y": 59
+  },
+  {
+    "clip": "v_PlayingDaf_g25_c07.avi",
+    "label": "PlayingDaf",
+    "family": "PlayingDaf/g25",
+    "y": 59
+  },
+  {
+    "clip": "v_PlayingDhol_g15_c01.avi",
+    "label": "PlayingDhol",
+    "family": "PlayingDhol/g15",
+    "y": 60
+  },
+  {
+    "clip": "v_PlayingDhol_g15_c03.avi",
+    "label": "PlayingDhol",
+    "family": "PlayingDhol/g15",
+    "y": 60
+  },
+  {
+    "clip": "v_PlayingDhol_g22_c04.avi",
+    "label": "PlayingDhol",
+    "family": "PlayingDhol/g22",
+    "y": 60
+  },
+  {
+    "clip": "v_PlayingDhol_g22_c06.avi",
+    "label": "PlayingDhol",
+    "family": "PlayingDhol/g22",
+    "y": 60
+  },
+  {
+    "clip": "v_PlayingFlute_g13_c01.avi",
+    "label": "PlayingFlute",
+    "family": "PlayingFlute/g13",
+    "y": 61
+  },
+  {
+    "clip": "v_PlayingFlute_g13_c03.avi",
+    "label": "PlayingFlute",
+    "family": "PlayingFlute/g13",
+    "y": 61
+  },
+  {
+    "clip": "v_PlayingFlute_g15_c01.avi",
+    "label": "PlayingFlute",
+    "family": "PlayingFlute/g15",
+    "y": 61
+  },
+  {
+    "clip": "v_PlayingFlute_g15_c05.avi",
+    "label": "PlayingFlute",
+    "family": "PlayingFlute/g15",
+    "y": 61
+  },
+  {
+    "clip": "v_PlayingGuitar_g17_c02.avi",
+    "label": "PlayingGuitar",
+    "family": "PlayingGuitar/g17",
+    "y": 62
+  },
+  {
+    "clip": "v_PlayingGuitar_g17_c04.avi",
+    "label": "PlayingGuitar",
+    "family": "PlayingGuitar/g17",
+    "y": 62
+  },
+  {
+    "clip": "v_PlayingGuitar_g25_c02.avi",
+    "label": "PlayingGuitar",
+    "family": "PlayingGuitar/g25",
+    "y": 62
+  },
+  {
+    "clip": "v_PlayingGuitar_g25_c07.avi",
+    "label": "PlayingGuitar",
+    "family": "PlayingGuitar/g25",
+    "y": 62
+  },
+  {
+    "clip": "v_PlayingPiano_g09_c02.avi",
+    "label": "PlayingPiano",
+    "family": "PlayingPiano/g09",
+    "y": 63
+  },
+  {
+    "clip": "v_PlayingPiano_g09_c04.avi",
+    "label": "PlayingPiano",
+    "family": "PlayingPiano/g09",
+    "y": 63
+  },
+  {
+    "clip": "v_PlayingPiano_g14_c02.avi",
+    "label": "PlayingPiano",
+    "family": "PlayingPiano/g14",
+    "y": 63
+  },
+  {
+    "clip": "v_PlayingPiano_g14_c03.avi",
+    "label": "PlayingPiano",
+    "family": "PlayingPiano/g14",
+    "y": 63
+  },
+  {
+    "clip": "v_PlayingSitar_g12_c03.avi",
+    "label": "PlayingSitar",
+    "family": "PlayingSitar/g12",
+    "y": 64
+  },
+  {
+    "clip": "v_PlayingSitar_g12_c04.avi",
+    "label": "PlayingSitar",
+    "family": "PlayingSitar/g12",
+    "y": 64
+  },
+  {
+    "clip": "v_PlayingSitar_g20_c03.avi",
+    "label": "PlayingSitar",
+    "family": "PlayingSitar/g20",
+    "y": 64
+  },
+  {
+    "clip": "v_PlayingSitar_g20_c04.avi",
+    "label": "PlayingSitar",
+    "family": "PlayingSitar/g20",
+    "y": 64
+  },
+  {
+    "clip": "v_PlayingTabla_g11_c03.avi",
+    "label": "PlayingTabla",
+    "family": "PlayingTabla/g11",
+    "y": 65
+  },
+  {
+    "clip": "v_PlayingTabla_g11_c04.avi",
+    "label": "PlayingTabla",
+    "family": "PlayingTabla/g11",
+    "y": 65
+  },
+  {
+    "clip": "v_PlayingTabla_g23_c01.avi",
+    "label": "PlayingTabla",
+    "family": "PlayingTabla/g23",
+    "y": 65
+  },
+  {
+    "clip": "v_PlayingTabla_g23_c03.avi",
+    "label": "PlayingTabla",
+    "family": "PlayingTabla/g23",
+    "y": 65
+  },
+  {
+    "clip": "v_PlayingViolin_g17_c01.avi",
+    "label": "PlayingViolin",
+    "family": "PlayingViolin/g17",
+    "y": 66
+  },
+  {
+    "clip": "v_PlayingViolin_g17_c04.avi",
+    "label": "PlayingViolin",
+    "family": "PlayingViolin/g17",
+    "y": 66
+  },
+  {
+    "clip": "v_PlayingViolin_g23_c01.avi",
+    "label": "PlayingViolin",
+    "family": "PlayingViolin/g23",
+    "y": 66
+  },
+  {
+    "clip": "v_PlayingViolin_g23_c02.avi",
+    "label": "PlayingViolin",
+    "family": "PlayingViolin/g23",
+    "y": 66
+  },
+  {
+    "clip": "v_PoleVault_g08_c02.avi",
+    "label": "PoleVault",
+    "family": "PoleVault/g08",
+    "y": 67
+  },
+  {
+    "clip": "v_PoleVault_g08_c04.avi",
+    "label": "PoleVault",
+    "family": "PoleVault/g08",
+    "y": 67
+  },
+  {
+    "clip": "v_PoleVault_g09_c03.avi",
+    "label": "PoleVault",
+    "family": "PoleVault/g09",
+    "y": 67
+  },
+  {
+    "clip": "v_PoleVault_g09_c04.avi",
+    "label": "PoleVault",
+    "family": "PoleVault/g09",
+    "y": 67
+  },
+  {
+    "clip": "v_PommelHorse_g12_c02.avi",
+    "label": "PommelHorse",
+    "family": "PommelHorse/g12",
+    "y": 68
+  },
+  {
+    "clip": "v_PommelHorse_g12_c06.avi",
+    "label": "PommelHorse",
+    "family": "PommelHorse/g12",
+    "y": 68
+  },
+  {
+    "clip": "v_PommelHorse_g14_c03.avi",
+    "label": "PommelHorse",
+    "family": "PommelHorse/g14",
+    "y": 68
+  },
+  {
+    "clip": "v_PommelHorse_g14_c04.avi",
+    "label": "PommelHorse",
+    "family": "PommelHorse/g14",
+    "y": 68
+  },
+  {
+    "clip": "v_PullUps_g11_c01.avi",
+    "label": "PullUps",
+    "family": "PullUps/g11",
+    "y": 69
+  },
+  {
+    "clip": "v_PullUps_g11_c04.avi",
+    "label": "PullUps",
+    "family": "PullUps/g11",
+    "y": 69
+  },
+  {
+    "clip": "v_PullUps_g23_c02.avi",
+    "label": "PullUps",
+    "family": "PullUps/g23",
+    "y": 69
+  },
+  {
+    "clip": "v_PullUps_g23_c03.avi",
+    "label": "PullUps",
+    "family": "PullUps/g23",
+    "y": 69
+  },
+  {
+    "clip": "v_Punch_g10_c05.avi",
+    "label": "Punch",
+    "family": "Punch/g10",
+    "y": 70
+  },
+  {
+    "clip": "v_Punch_g10_c06.avi",
+    "label": "Punch",
+    "family": "Punch/g10",
+    "y": 70
+  },
+  {
+    "clip": "v_Punch_g23_c01.avi",
+    "label": "Punch",
+    "family": "Punch/g23",
+    "y": 70
+  },
+  {
+    "clip": "v_Punch_g23_c05.avi",
+    "label": "Punch",
+    "family": "Punch/g23",
+    "y": 70
+  },
+  {
+    "clip": "v_PushUps_g10_c01.avi",
+    "label": "PushUps",
+    "family": "PushUps/g10",
+    "y": 71
+  },
+  {
+    "clip": "v_PushUps_g10_c04.avi",
+    "label": "PushUps",
+    "family": "PushUps/g10",
+    "y": 71
+  },
+  {
+    "clip": "v_PushUps_g12_c02.avi",
+    "label": "PushUps",
+    "family": "PushUps/g12",
+    "y": 71
+  },
+  {
+    "clip": "v_PushUps_g12_c04.avi",
+    "label": "PushUps",
+    "family": "PushUps/g12",
+    "y": 71
+  },
+  {
+    "clip": "v_Rafting_g13_c03.avi",
+    "label": "Rafting",
+    "family": "Rafting/g13",
+    "y": 72
+  },
+  {
+    "clip": "v_Rafting_g13_c05.avi",
+    "label": "Rafting",
+    "family": "Rafting/g13",
+    "y": 72
+  },
+  {
+    "clip": "v_Rafting_g18_c01.avi",
+    "label": "Rafting",
+    "family": "Rafting/g18",
+    "y": 72
+  },
+  {
+    "clip": "v_Rafting_g18_c02.avi",
+    "label": "Rafting",
+    "family": "Rafting/g18",
+    "y": 72
+  },
+  {
+    "clip": "v_RockClimbingIndoor_g10_c01.avi",
+    "label": "RockClimbingIndoor",
+    "family": "RockClimbingIndoor/g10",
+    "y": 73
+  },
+  {
+    "clip": "v_RockClimbingIndoor_g10_c06.avi",
+    "label": "RockClimbingIndoor",
+    "family": "RockClimbingIndoor/g10",
+    "y": 73
+  },
+  {
+    "clip": "v_RockClimbingIndoor_g11_c03.avi",
+    "label": "RockClimbingIndoor",
+    "family": "RockClimbingIndoor/g11",
+    "y": 73
+  },
+  {
+    "clip": "v_RockClimbingIndoor_g11_c04.avi",
+    "label": "RockClimbingIndoor",
+    "family": "RockClimbingIndoor/g11",
+    "y": 73
+  },
+  {
+    "clip": "v_RopeClimbing_g18_c02.avi",
+    "label": "RopeClimbing",
+    "family": "RopeClimbing/g18",
+    "y": 74
+  },
+  {
+    "clip": "v_RopeClimbing_g18_c03.avi",
+    "label": "RopeClimbing",
+    "family": "RopeClimbing/g18",
+    "y": 74
+  },
+  {
+    "clip": "v_RopeClimbing_g24_c01.avi",
+    "label": "RopeClimbing",
+    "family": "RopeClimbing/g24",
+    "y": 74
+  },
+  {
+    "clip": "v_RopeClimbing_g24_c03.avi",
+    "label": "RopeClimbing",
+    "family": "RopeClimbing/g24",
+    "y": 74
+  },
+  {
+    "clip": "v_Rowing_g14_c01.avi",
+    "label": "Rowing",
+    "family": "Rowing/g14",
+    "y": 75
+  },
+  {
+    "clip": "v_Rowing_g14_c07.avi",
+    "label": "Rowing",
+    "family": "Rowing/g14",
+    "y": 75
+  },
+  {
+    "clip": "v_Rowing_g25_c01.avi",
+    "label": "Rowing",
+    "family": "Rowing/g25",
+    "y": 75
+  },
+  {
+    "clip": "v_Rowing_g25_c02.avi",
+    "label": "Rowing",
+    "family": "Rowing/g25",
+    "y": 75
+  },
+  {
+    "clip": "v_SalsaSpin_g10_c01.avi",
+    "label": "SalsaSpin",
+    "family": "SalsaSpin/g10",
+    "y": 76
+  },
+  {
+    "clip": "v_SalsaSpin_g10_c05.avi",
+    "label": "SalsaSpin",
+    "family": "SalsaSpin/g10",
+    "y": 76
+  },
+  {
+    "clip": "v_SalsaSpin_g12_c01.avi",
+    "label": "SalsaSpin",
+    "family": "SalsaSpin/g12",
+    "y": 76
+  },
+  {
+    "clip": "v_SalsaSpin_g12_c05.avi",
+    "label": "SalsaSpin",
+    "family": "SalsaSpin/g12",
+    "y": 76
+  },
+  {
+    "clip": "v_ShavingBeard_g13_c01.avi",
+    "label": "ShavingBeard",
+    "family": "ShavingBeard/g13",
+    "y": 77
+  },
+  {
+    "clip": "v_ShavingBeard_g13_c06.avi",
+    "label": "ShavingBeard",
+    "family": "ShavingBeard/g13",
+    "y": 77
+  },
+  {
+    "clip": "v_ShavingBeard_g24_c06.avi",
+    "label": "ShavingBeard",
+    "family": "ShavingBeard/g24",
+    "y": 77
+  },
+  {
+    "clip": "v_ShavingBeard_g24_c07.avi",
+    "label": "ShavingBeard",
+    "family": "ShavingBeard/g24",
+    "y": 77
+  },
+  {
+    "clip": "v_Shotput_g13_c01.avi",
+    "label": "Shotput",
+    "family": "Shotput/g13",
+    "y": 78
+  },
+  {
+    "clip": "v_Shotput_g13_c04.avi",
+    "label": "Shotput",
+    "family": "Shotput/g13",
+    "y": 78
+  },
+  {
+    "clip": "v_Shotput_g19_c02.avi",
+    "label": "Shotput",
+    "family": "Shotput/g19",
+    "y": 78
+  },
+  {
+    "clip": "v_Shotput_g19_c03.avi",
+    "label": "Shotput",
+    "family": "Shotput/g19",
+    "y": 78
+  },
+  {
+    "clip": "v_SkateBoarding_g08_c01.avi",
+    "label": "SkateBoarding",
+    "family": "SkateBoarding/g08",
+    "y": 79
+  },
+  {
+    "clip": "v_SkateBoarding_g08_c05.avi",
+    "label": "SkateBoarding",
+    "family": "SkateBoarding/g08",
+    "y": 79
+  },
+  {
+    "clip": "v_SkateBoarding_g23_c01.avi",
+    "label": "SkateBoarding",
+    "family": "SkateBoarding/g23",
+    "y": 79
+  },
+  {
+    "clip": "v_SkateBoarding_g23_c02.avi",
+    "label": "SkateBoarding",
+    "family": "SkateBoarding/g23",
+    "y": 79
+  },
+  {
+    "clip": "v_Skiing_g13_c03.avi",
+    "label": "Skiing",
+    "family": "Skiing/g13",
+    "y": 80
+  },
+  {
+    "clip": "v_Skiing_g13_c07.avi",
+    "label": "Skiing",
+    "family": "Skiing/g13",
+    "y": 80
+  },
+  {
+    "clip": "v_Skiing_g20_c01.avi",
+    "label": "Skiing",
+    "family": "Skiing/g20",
+    "y": 80
+  },
+  {
+    "clip": "v_Skiing_g20_c07.avi",
+    "label": "Skiing",
+    "family": "Skiing/g20",
+    "y": 80
+  },
+  {
+    "clip": "v_Skijet_g08_c02.avi",
+    "label": "Skijet",
+    "family": "Skijet/g08",
+    "y": 81
+  },
+  {
+    "clip": "v_Skijet_g08_c03.avi",
+    "label": "Skijet",
+    "family": "Skijet/g08",
+    "y": 81
+  },
+  {
+    "clip": "v_Skijet_g20_c01.avi",
+    "label": "Skijet",
+    "family": "Skijet/g20",
+    "y": 81
+  },
+  {
+    "clip": "v_Skijet_g20_c02.avi",
+    "label": "Skijet",
+    "family": "Skijet/g20",
+    "y": 81
+  },
+  {
+    "clip": "v_SkyDiving_g15_c02.avi",
+    "label": "SkyDiving",
+    "family": "SkyDiving/g15",
+    "y": 82
+  },
+  {
+    "clip": "v_SkyDiving_g15_c03.avi",
+    "label": "SkyDiving",
+    "family": "SkyDiving/g15",
+    "y": 82
+  },
+  {
+    "clip": "v_SkyDiving_g22_c02.avi",
+    "label": "SkyDiving",
+    "family": "SkyDiving/g22",
+    "y": 82
+  },
+  {
+    "clip": "v_SkyDiving_g22_c04.avi",
+    "label": "SkyDiving",
+    "family": "SkyDiving/g22",
+    "y": 82
+  },
+  {
+    "clip": "v_SoccerJuggling_g16_c02.avi",
+    "label": "SoccerJuggling",
+    "family": "SoccerJuggling/g16",
+    "y": 83
+  },
+  {
+    "clip": "v_SoccerJuggling_g16_c05.avi",
+    "label": "SoccerJuggling",
+    "family": "SoccerJuggling/g16",
+    "y": 83
+  },
+  {
+    "clip": "v_SoccerJuggling_g21_c02.avi",
+    "label": "SoccerJuggling",
+    "family": "SoccerJuggling/g21",
+    "y": 83
+  },
+  {
+    "clip": "v_SoccerJuggling_g21_c04.avi",
+    "label": "SoccerJuggling",
+    "family": "SoccerJuggling/g21",
+    "y": 83
+  },
+  {
+    "clip": "v_SoccerPenalty_g12_c02.avi",
+    "label": "SoccerPenalty",
+    "family": "SoccerPenalty/g12",
+    "y": 84
+  },
+  {
+    "clip": "v_SoccerPenalty_g12_c04.avi",
+    "label": "SoccerPenalty",
+    "family": "SoccerPenalty/g12",
+    "y": 84
+  },
+  {
+    "clip": "v_SoccerPenalty_g18_c01.avi",
+    "label": "SoccerPenalty",
+    "family": "SoccerPenalty/g18",
+    "y": 84
+  },
+  {
+    "clip": "v_SoccerPenalty_g18_c05.avi",
+    "label": "SoccerPenalty",
+    "family": "SoccerPenalty/g18",
+    "y": 84
+  },
+  {
+    "clip": "v_StillRings_g13_c01.avi",
+    "label": "StillRings",
+    "family": "StillRings/g13",
+    "y": 85
+  },
+  {
+    "clip": "v_StillRings_g13_c03.avi",
+    "label": "StillRings",
+    "family": "StillRings/g13",
+    "y": 85
+  },
+  {
+    "clip": "v_StillRings_g25_c03.avi",
+    "label": "StillRings",
+    "family": "StillRings/g25",
+    "y": 85
+  },
+  {
+    "clip": "v_StillRings_g25_c06.avi",
+    "label": "StillRings",
+    "family": "StillRings/g25",
+    "y": 85
+  },
+  {
+    "clip": "v_SumoWrestling_g24_c01.avi",
+    "label": "SumoWrestling",
+    "family": "SumoWrestling/g24",
+    "y": 86
+  },
+  {
+    "clip": "v_SumoWrestling_g24_c04.avi",
+    "label": "SumoWrestling",
+    "family": "SumoWrestling/g24",
+    "y": 86
+  },
+  {
+    "clip": "v_SumoWrestling_g25_c03.avi",
+    "label": "SumoWrestling",
+    "family": "SumoWrestling/g25",
+    "y": 86
+  },
+  {
+    "clip": "v_SumoWrestling_g25_c04.avi",
+    "label": "SumoWrestling",
+    "family": "SumoWrestling/g25",
+    "y": 86
+  },
+  {
+    "clip": "v_Surfing_g19_c01.avi",
+    "label": "Surfing",
+    "family": "Surfing/g19",
+    "y": 87
+  },
+  {
+    "clip": "v_Surfing_g19_c02.avi",
+    "label": "Surfing",
+    "family": "Surfing/g19",
+    "y": 87
+  },
+  {
+    "clip": "v_Surfing_g25_c02.avi",
+    "label": "Surfing",
+    "family": "Surfing/g25",
+    "y": 87
+  },
+  {
+    "clip": "v_Surfing_g25_c03.avi",
+    "label": "Surfing",
+    "family": "Surfing/g25",
+    "y": 87
+  },
+  {
+    "clip": "v_Swing_g08_c04.avi",
+    "label": "Swing",
+    "family": "Swing/g08",
+    "y": 88
+  },
+  {
+    "clip": "v_Swing_g08_c05.avi",
+    "label": "Swing",
+    "family": "Swing/g08",
+    "y": 88
+  },
+  {
+    "clip": "v_Swing_g24_c03.avi",
+    "label": "Swing",
+    "family": "Swing/g24",
+    "y": 88
+  },
+  {
+    "clip": "v_Swing_g24_c05.avi",
+    "label": "Swing",
+    "family": "Swing/g24",
+    "y": 88
+  },
+  {
+    "clip": "v_TableTennisShot_g13_c03.avi",
+    "label": "TableTennisShot",
+    "family": "TableTennisShot/g13",
+    "y": 89
+  },
+  {
+    "clip": "v_TableTennisShot_g13_c04.avi",
+    "label": "TableTennisShot",
+    "family": "TableTennisShot/g13",
+    "y": 89
+  },
+  {
+    "clip": "v_TableTennisShot_g25_c01.avi",
+    "label": "TableTennisShot",
+    "family": "TableTennisShot/g25",
+    "y": 89
+  },
+  {
+    "clip": "v_TableTennisShot_g25_c07.avi",
+    "label": "TableTennisShot",
+    "family": "TableTennisShot/g25",
+    "y": 89
+  },
+  {
+    "clip": "v_TaiChi_g20_c02.avi",
+    "label": "TaiChi",
+    "family": "TaiChi/g20",
+    "y": 90
+  },
+  {
+    "clip": "v_TaiChi_g20_c04.avi",
+    "label": "TaiChi",
+    "family": "TaiChi/g20",
+    "y": 90
+  },
+  {
+    "clip": "v_TaiChi_g21_c01.avi",
+    "label": "TaiChi",
+    "family": "TaiChi/g21",
+    "y": 90
+  },
+  {
+    "clip": "v_TaiChi_g21_c04.avi",
+    "label": "TaiChi",
+    "family": "TaiChi/g21",
+    "y": 90
+  },
+  {
+    "clip": "v_TennisSwing_g19_c03.avi",
+    "label": "TennisSwing",
+    "family": "TennisSwing/g19",
+    "y": 91
+  },
+  {
+    "clip": "v_TennisSwing_g19_c05.avi",
+    "label": "TennisSwing",
+    "family": "TennisSwing/g19",
+    "y": 91
+  },
+  {
+    "clip": "v_TennisSwing_g24_c02.avi",
+    "label": "TennisSwing",
+    "family": "TennisSwing/g24",
+    "y": 91
+  },
+  {
+    "clip": "v_TennisSwing_g24_c03.avi",
+    "label": "TennisSwing",
+    "family": "TennisSwing/g24",
+    "y": 91
+  },
+  {
+    "clip": "v_ThrowDiscus_g09_c01.avi",
+    "label": "ThrowDiscus",
+    "family": "ThrowDiscus/g09",
+    "y": 92
+  },
+  {
+    "clip": "v_ThrowDiscus_g09_c06.avi",
+    "label": "ThrowDiscus",
+    "family": "ThrowDiscus/g09",
+    "y": 92
+  },
+  {
+    "clip": "v_ThrowDiscus_g23_c01.avi",
+    "label": "ThrowDiscus",
+    "family": "ThrowDiscus/g23",
+    "y": 92
+  },
+  {
+    "clip": "v_ThrowDiscus_g23_c05.avi",
+    "label": "ThrowDiscus",
+    "family": "ThrowDiscus/g23",
+    "y": 92
+  },
+  {
+    "clip": "v_TrampolineJumping_g10_c01.avi",
+    "label": "TrampolineJumping",
+    "family": "TrampolineJumping/g10",
+    "y": 93
+  },
+  {
+    "clip": "v_TrampolineJumping_g10_c02.avi",
+    "label": "TrampolineJumping",
+    "family": "TrampolineJumping/g10",
+    "y": 93
+  },
+  {
+    "clip": "v_TrampolineJumping_g15_c03.avi",
+    "label": "TrampolineJumping",
+    "family": "TrampolineJumping/g15",
+    "y": 93
+  },
+  {
+    "clip": "v_TrampolineJumping_g15_c04.avi",
+    "label": "TrampolineJumping",
+    "family": "TrampolineJumping/g15",
+    "y": 93
+  },
+  {
+    "clip": "v_Typing_g17_c01.avi",
+    "label": "Typing",
+    "family": "Typing/g17",
+    "y": 94
+  },
+  {
+    "clip": "v_Typing_g17_c02.avi",
+    "label": "Typing",
+    "family": "Typing/g17",
+    "y": 94
+  },
+  {
+    "clip": "v_Typing_g19_c01.avi",
+    "label": "Typing",
+    "family": "Typing/g19",
+    "y": 94
+  },
+  {
+    "clip": "v_Typing_g19_c02.avi",
+    "label": "Typing",
+    "family": "Typing/g19",
+    "y": 94
+  },
+  {
+    "clip": "v_UnevenBars_g20_c03.avi",
+    "label": "UnevenBars",
+    "family": "UnevenBars/g20",
+    "y": 95
+  },
+  {
+    "clip": "v_UnevenBars_g20_c04.avi",
+    "label": "UnevenBars",
+    "family": "UnevenBars/g20",
+    "y": 95
+  },
+  {
+    "clip": "v_UnevenBars_g25_c02.avi",
+    "label": "UnevenBars",
+    "family": "UnevenBars/g25",
+    "y": 95
+  },
+  {
+    "clip": "v_UnevenBars_g25_c03.avi",
+    "label": "UnevenBars",
+    "family": "UnevenBars/g25",
+    "y": 95
+  },
+  {
+    "clip": "v_VolleyballSpiking_g12_c01.avi",
+    "label": "VolleyballSpiking",
+    "family": "VolleyballSpiking/g12",
+    "y": 96
+  },
+  {
+    "clip": "v_VolleyballSpiking_g12_c03.avi",
+    "label": "VolleyballSpiking",
+    "family": "VolleyballSpiking/g12",
+    "y": 96
+  },
+  {
+    "clip": "v_VolleyballSpiking_g20_c01.avi",
+    "label": "VolleyballSpiking",
+    "family": "VolleyballSpiking/g20",
+    "y": 96
+  },
+  {
+    "clip": "v_VolleyballSpiking_g20_c03.avi",
+    "label": "VolleyballSpiking",
+    "family": "VolleyballSpiking/g20",
+    "y": 96
+  },
+  {
+    "clip": "v_WalkingWithDog_g09_c02.avi",
+    "label": "WalkingWithDog",
+    "family": "WalkingWithDog/g09",
+    "y": 97
+  },
+  {
+    "clip": "v_WalkingWithDog_g09_c03.avi",
+    "label": "WalkingWithDog",
+    "family": "WalkingWithDog/g09",
+    "y": 97
+  },
+  {
+    "clip": "v_WalkingWithDog_g15_c02.avi",
+    "label": "WalkingWithDog",
+    "family": "WalkingWithDog/g15",
+    "y": 97
+  },
+  {
+    "clip": "v_WalkingWithDog_g15_c03.avi",
+    "label": "WalkingWithDog",
+    "family": "WalkingWithDog/g15",
+    "y": 97
+  },
+  {
+    "clip": "v_WallPushups_g15_c03.avi",
+    "label": "WallPushups",
+    "family": "WallPushups/g15",
+    "y": 98
+  },
+  {
+    "clip": "v_WallPushups_g15_c05.avi",
+    "label": "WallPushups",
+    "family": "WallPushups/g15",
+    "y": 98
+  },
+  {
+    "clip": "v_WallPushups_g17_c03.avi",
+    "label": "WallPushups",
+    "family": "WallPushups/g17",
+    "y": 98
+  },
+  {
+    "clip": "v_WallPushups_g17_c05.avi",
+    "label": "WallPushups",
+    "family": "WallPushups/g17",
+    "y": 98
+  },
+  {
+    "clip": "v_WritingOnBoard_g18_c05.avi",
+    "label": "WritingOnBoard",
+    "family": "WritingOnBoard/g18",
+    "y": 99
+  },
+  {
+    "clip": "v_WritingOnBoard_g18_c07.avi",
+    "label": "WritingOnBoard",
+    "family": "WritingOnBoard/g18",
+    "y": 99
+  },
+  {
+    "clip": "v_WritingOnBoard_g19_c01.avi",
+    "label": "WritingOnBoard",
+    "family": "WritingOnBoard/g19",
+    "y": 99
+  },
+  {
+    "clip": "v_WritingOnBoard_g19_c04.avi",
+    "label": "WritingOnBoard",
+    "family": "WritingOnBoard/g19",
+    "y": 99
+  },
+  {
+    "clip": "v_YoYo_g19_c02.avi",
+    "label": "YoYo",
+    "family": "YoYo/g19",
+    "y": 100
+  },
+  {
+    "clip": "v_YoYo_g19_c06.avi",
+    "label": "YoYo",
+    "family": "YoYo/g19",
+    "y": 100
+  },
+  {
+    "clip": "v_YoYo_g20_c03.avi",
+    "label": "YoYo",
+    "family": "YoYo/g20",
+    "y": 100
+  },
+  {
+    "clip": "v_YoYo_g20_c04.avi",
+    "label": "YoYo",
+    "family": "YoYo/g20",
+    "y": 100
+  }
+]

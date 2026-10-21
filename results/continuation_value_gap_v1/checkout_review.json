@@ -1,0 +1,12 @@
+{
+  "start_head": "bfc32e020e1b0775c5f0b07409a414bf90c8f039",
+  "reference": "aa147a1f98b1f82ca1bc3866bbceacf4633553af",
+  "tree_diff": "",
+  "newer_commits": "",
+  "explanation": "Reference fetched; merge commit content tree identical; no reset. New isolated branch.",
+  "initial_unrelated": [
+    "presentation_outputs/",
+    "seminar_build/",
+    "seminar_output/"
+  ]
+}

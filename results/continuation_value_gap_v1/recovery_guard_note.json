@@ -1,0 +1,9 @@
+{
+  "at_utc": "2026-10-21T07:16:00.857398+00:00",
+  "kind": "RECOVERY_SAFETY_ONLY",
+  "before_HMDB_head_fit": true,
+  "before_HMDB_EVAL_calls": true,
+  "reason": "Guarded entry point refuses any repeat of an interrupted or rejected single head optimization attempt. Current adapter and all scientific computations remain unchanged.",
+  "path": "resume_continuation_value_gap.py",
+  "sha256": "5785887791e807feb6d16a11d7915806dd527977c5f2d9b7a3559e64c9dee1fc"
+}

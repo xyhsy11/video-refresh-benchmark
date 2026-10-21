@@ -1,0 +1,319 @@
+{
+  "dataset": "hmdb",
+  "clips": 1530,
+  "states": 18360,
+  "classes": 51,
+  "families": 478,
+  "execution": "COMPLETE",
+  "primary": {
+    "mean": 0.03924980271158275,
+    "variance": 3.709185662731636e-06,
+    "df": 238.11144054355847,
+    "interval": [
+      0.03545577584700567,
+      0.043043829576159834
+    ],
+    "zero_variance": false,
+    "outcome": "material benefit",
+    "status": "APPROXIMATE_CR2_SATTERTHWAITE"
+  },
+  "weights": "class -> within-class global-family -> clip -> 12 states",
+  "Z_pool": "AVAILABLE",
+  "estimates": {
+    "G_star": {
+      "mean": 0.03924980271158275,
+      "interval": [
+        0.03545577584700567,
+        0.043043829576159834
+      ]
+    },
+    "G_matched": {
+      "mean": 0.05914647908583846,
+      "interval": [
+        0.05412748222715443,
+        0.06416547594452246
+      ]
+    },
+    "R_star": {
+      "mean": 0.019896676374255715,
+      "interval": [
+        0.017974657623203546,
+        0.021818695125307885
+      ]
+    },
+    "G_star_U": {
+      "mean": 0.0594406465326759,
+      "interval": [
+        0.055460493164295015,
+        0.06342079990105678
+      ]
+    },
+    "G_matched_U": {
+      "mean": 0.06937210183036034,
+      "interval": [
+        0.06482240367772735,
+        0.07392179998299336
+      ]
+    },
+    "R_star_U": {
+      "mean": 0.009931455297684452,
+      "interval": [
+        0.008864936951993694,
+        0.010997973643375207
+      ]
+    },
+    "Periodic_CE": {
+      "mean": 1.5982434212043402,
+      "interval": [
+        1.4488787123734421,
+        1.7476081300352382
+      ]
+    },
+    "Dense_CE": {
+      "mean": 1.5142440280089988,
+      "interval": [
+        1.3674371761763526,
+        1.6610508798416446
+      ]
+    },
+    "Task_oracle_CE": {
+      "mean": 1.1807795864855506,
+      "interval": [
+        1.0516505391314939,
+        1.3099086338396064
+      ]
+    },
+    "Periodic_accuracy": {
+      "mean": 0.5735407351932399,
+      "interval": [
+        0.5393793550773636,
+        0.6077021153091162
+      ]
+    },
+    "Dense_accuracy": {
+      "mean": 0.5762811100150033,
+      "interval": [
+        0.54198663445381,
+        0.6105755855761965
+      ]
+    },
+    "Task_oracle_accuracy": {
+      "mean": 0.681199162493612,
+      "interval": [
+        0.6500657153640871,
+        0.7123326096231365
+      ]
+    },
+    "accuracy_star": {
+      "mean": 0.5828969910244594,
+      "interval": [
+        0.5494894728734496,
+        0.6163045091754689
+      ]
+    },
+    "accuracy_matched": {
+      "mean": 0.5856746513480621,
+      "interval": [
+        0.5523921076971099,
+        0.6189571949990142
+      ]
+    },
+    "correct_to_wrong": {
+      "mean": 0.0019455090684250796,
+      "interval": [
+        0.0009461223559704844,
+        0.0029448957808796755
+      ]
+    },
+    "wrong_to_correct": {
+      "mean": 0.011301764899644557,
+      "interval": [
+        0.007847496288119364,
+        0.014756033511169744
+      ]
+    },
+    "numerical_tie": {
+      "mean": 0.0,
+      "interval": [
+        0.0,
+        0.0
+      ]
+    },
+    "tie_gain_low": {
+      "mean": 0.03924980271158275,
+      "interval": [
+        0.03545577584700567,
+        0.043043829576159834
+      ]
+    },
+    "tie_gain_high": {
+      "mean": 0.03924980271158275,
+      "interval": [
+        0.03545577584700567,
+        0.043043829576159834
+      ]
+    },
+    "G_Z_pool": {
+      "mean": 0.0038993159331623664,
+      "interval": [
+        0.0014531519511321233,
+        0.00634547991519261
+      ]
+    }
+  },
+  "disagreement_P_all": {
+    "states": 18360,
+    "denominator_weight": 1.0,
+    "disagree_states": 4250,
+    "fraction": 0.23116077446118194,
+    "paired_regret_conditional": 0.08607289199749975,
+    "paired_regret_whole": 0.01989667637425572
+  },
+  "disagreement_P_material": {
+    "states": 13048,
+    "denominator_weight": 0.7289636494314802,
+    "disagree_states": 2750,
+    "fraction": 0.21483174983022302,
+    "paired_regret_conditional": 0.12585378866918784,
+    "paired_regret_whole": 0.019709274224944878
+  },
+  "disagreement_U_all": {
+    "states": 18360,
+    "denominator_weight": 1.0,
+    "disagree_states": 3028,
+    "fraction": 0.1686688228615881,
+    "paired_regret_conditional": 0.05888139330784527,
+    "paired_regret_whole": 0.009931455297684452
+  },
+  "disagreement_U_material": {
+    "states": 13371,
+    "denominator_weight": 0.7453920652124854,
+    "disagree_states": 1881,
+    "fraction": 0.14868071740647626,
+    "paired_regret_conditional": 0.08840029681303448,
+    "paired_regret_whole": 0.00979700064166332
+  },
+  "clip_distributions": {
+    "G_star": {
+      "quantile_probabilities": [
+        0,
+        0.01,
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95,
+        0.99,
+        1
+      ],
+      "weighted_quantiles": [
+        -0.14777240513669318,
+        -0.04229193749094066,
+        -0.004332750059184838,
+        0.0006540605410288632,
+        0.016748020954886773,
+        0.05768393585487256,
+        0.162704958332707,
+        0.24554717321285013,
+        0.5702270175133073
+      ],
+      "benefit_ge_001_mass": 0.5682583751158894,
+      "harm_le_minus001_mass": 0.035977948431660564,
+      "benefit_clips": 814,
+      "harm_clips": 52,
+      "denominator": 1530
+    },
+    "R_star": {
+      "quantile_probabilities": [
+        0,
+        0.01,
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95,
+        0.99,
+        1
+      ],
+      "weighted_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0006238549285423703,
+        0.007637334438853134,
+        0.028857860556505004,
+        0.07646984366669048,
+        0.13151837220477006,
+        0.26133322794558317
+      ],
+      "benefit_ge_001_mass": 0.45322309553125,
+      "harm_le_minus001_mass": 0.0,
+      "benefit_clips": 660,
+      "harm_clips": 0,
+      "denominator": 1530
+    },
+    "G_star_U": {
+      "quantile_probabilities": [
+        0,
+        0.01,
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95,
+        0.99,
+        1
+      ],
+      "weighted_quantiles": [
+        -0.0017107572020924982,
+        8.393674334762492e-07,
+        0.00010456768514588732,
+        0.008412824688075388,
+        0.04436899661795531,
+        0.0911195699880984,
+        0.16982849703501315,
+        0.2604134206252519,
+        0.588712411435164
+      ],
+      "benefit_ge_001_mass": 0.7400531637005882,
+      "harm_le_minus001_mass": 0.0,
+      "benefit_clips": 1092,
+      "harm_clips": 0,
+      "denominator": 1530
+    },
+    "R_star_U": {
+      "quantile_probabilities": [
+        0,
+        0.01,
+        0.05,
+        0.25,
+        0.5,
+        0.75,
+        0.95,
+        0.99,
+        1
+      ],
+      "weighted_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0001883887149764027,
+        0.003759635368064266,
+        0.013915762641650101,
+        0.039196456487715116,
+        0.06864913780923021,
+        0.14148252366088335
+      ],
+      "benefit_ge_001_mass": 0.32895962405919216,
+      "harm_le_minus001_mass": 0.0,
+      "benefit_clips": 443,
+      "harm_clips": 0,
+      "denominator": 1530
+    }
+  },
+  "family_concentration": {
+    "maximum_weight": 0.01191048314750737,
+    "sum_squared_weights": 0.0027886209288848374,
+    "effective_components": 358.600191815923
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "at_utc": "2026-10-21T07:54:30.737269+00:00",
+  "kind": "ADDITIVE_IDENTITY_VERIFICATION_ONLY",
+  "original_seal_sha256": "4d9b49cfa526446fe7e794319ffe111463ec9000a875e81ef9e9606cb7237db0",
+  "scientific_design_changes": false,
+  "exposure": "HMDB EVAL feature collection in progress; no interim recognition CE or primary endpoint inspected.",
+  "reason": "Independent canonical HMDB annotation class-order, true-label index, head/scaler dimensions and finite-value, prediction range and complete table/cohort identity checks. No scientific definitions, models, thresholds or outcomes are changed.",
+  "path": "results/continuation_value_gap_v1/class_order_audit.py",
+  "sha256": "0e629331ced85e1e3583d44f67fd642fbcf5a7dd68b7f6eabd2d9ddcb6979dcf"
+}

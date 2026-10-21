@@ -1,0 +1,10 @@
+{
+  "at_utc": "2026-10-21T06:11:15.792785+00:00",
+  "passed": true,
+  "changed_main_functions": [
+    "event",
+    "seal_check"
+  ],
+  "all_scientific_endpoint_functions_AST_identical": true,
+  "scope": "Compare original pre-UCF sealed source to current amended source; timestamp/seal bookkeeping only"
+}

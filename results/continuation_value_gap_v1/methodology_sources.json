@@ -1,0 +1,30 @@
+{
+  "checked_at_utc": "2026-10-21T06:21:07.327466+00:00",
+  "sources": [
+    {
+      "title": "Ross and Bagnell, AggreVaTe section2.5",
+      "url": "https://arxiv.org/html/1406.5979v1",
+      "relevant": "Optimistic expert cost-to-go can be misleading when the learner cannot execute the same recovery."
+    },
+    {
+      "title": "Pustejovsky and Tipton CR2 methodology",
+      "url": "https://doi.org/10.1080/07350015.2016.1247004"
+    },
+    {
+      "title": "CR2 corrigendum",
+      "url": "https://doi.org/10.1080/07350015.2023.2174123",
+      "relevant": "The originally stated fixed-effects shortcut for generalized least squares was incorrect; corrected theorem is limited to OLS. This study uses explicit unweighted class-indicator OLS and validates the full projection."
+    },
+    {
+      "title": "Official clubSandwich vcovCR",
+      "url": "https://jepusto.github.io/clubSandwich/reference/vcovCR.html",
+      "observed_documentation_version": "0.7.0.9000"
+    },
+    {
+      "title": "Official clubSandwich linear_contrast",
+      "url": "https://jepusto.github.io/clubSandwich/reference/linear_contrast.html",
+      "relevant": "Default contrast small-sample correction is Satterthwaite."
+    }
+  ],
+  "coverage_claim": "Approximate small-sample interval conditional on head/classes/components; no exact finite-sample coverage claim"
+}
