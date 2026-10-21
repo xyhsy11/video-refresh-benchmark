@@ -1,0 +1,17 @@
+{
+  "cap_seconds": 28800,
+  "cap_bytes": 21474836480,
+  "cumulative_seconds": 1.6028460999996241,
+  "attempts": [
+    {
+      "clip": "jump/le_parkour_kl_jump_f_nm_np1_le_bad_3.avi",
+      "role": "HEAD_TRAIN",
+      "at_utc": "2026-10-21T05:56:04.219805+00:00",
+      "status": "complete",
+      "seconds": 1.6028460999996241,
+      "starts": 16,
+      "completions": 16
+    }
+  ],
+  "reuse": 0
+}

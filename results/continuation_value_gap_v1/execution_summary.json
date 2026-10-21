@@ -1,0 +1,11 @@
+{
+  "UCF": {
+    "execution": "COMPLETE",
+    "scientific_outcome": "NO_INFERENTIAL_LABEL_UNCERTAINTY_UNAVAILABLE",
+    "point_estimate": 0.011475860952519814
+  },
+  "HMDB": {
+    "execution": "COMPLETE",
+    "scientific_outcome": "material benefit"
+  }
+}

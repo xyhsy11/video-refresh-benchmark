@@ -1,0 +1,23 @@
+{
+  "UCF_analysis_seconds": 19.81818039999962,
+  "HMDB_collection_seconds": 4411.288931500015,
+  "HMDB_forward_starts": 68544,
+  "HMDB_forward_completions": 68544,
+  "failed_or_incomplete_forwards": 0,
+  "feature_cache_reuses": 9,
+  "additional_disk_bytes": 371714430,
+  "new_data_or_checkpoint_downloads": 0,
+  "environment_modifications": 0,
+  "new_UCF_encoder_calls": 0,
+  "collection_wall_cap_seconds": 28800,
+  "additional_disk_cap_bytes": 21474836480,
+  "scope": "Diagnostic collection/analysis resource use, not adaptive inference latency",
+  "conservative_collection_envelope_seconds": 11053.437262773514,
+  "envelope_scope": "All wall time from first collection attempt start to last completion; includes restarts, provenance waits and head fitting, hence conservatively bounds collection and its bookkeeping overhead.",
+  "observed_adapter_peak_working_set_bytes": 1939603456,
+  "peak_memory_scope": "OS high-water mark sampled during live HMDB adapter; includes provenance/collection/head. Not an isolated CPU-analysis peak.",
+  "smoke_peak_cuda_allocated_bytes": 68932096,
+  "smoke_peak_cuda_reserved_bytes": 90177536,
+  "disk_scope": "New study results and ignored feature-cache directories, excluding existing datasets/environments and Git/source-code overhead; measured before commit.",
+  "disk_measured_at_utc": "2026-10-21T09:08:16.766493+00:00"
+}

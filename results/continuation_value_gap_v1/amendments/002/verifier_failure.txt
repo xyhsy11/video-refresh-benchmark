@@ -1,0 +1,1 @@
+Independent empirical verifier reached artifact arithmetic after historical working-file hash checks; TypeError: 'method' object is not iterable at list(clip.clip). DataFrame.clip is a pandas method, not the column. No verified result was written.

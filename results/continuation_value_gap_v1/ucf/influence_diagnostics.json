@@ -1,0 +1,25 @@
+{
+  "worst_clip": {
+    "clip": "v_Archery_g20_c01.avi",
+    "label": "Archery",
+    "family": "Archery/g20",
+    "G_star": -0.0355796576879207,
+    "R_star": 0.0444826212895657
+  },
+  "best_clip": {
+    "clip": "v_HighJump_g14_c01.avi",
+    "label": "HighJump",
+    "family": "HighJump/g14",
+    "G_star": 0.2007923397273604,
+    "R_star": 0.1283397103916683
+  },
+  "leave_one_family_out_range": [
+    0.0107477607432876,
+    0.0122039611617519
+  ],
+  "undefined_leave_one_family_out": 2,
+  "numerical_tie_states": 0,
+  "state_count": 4800,
+  "mean_regret_fraction_of_matched_opportunity": 0.3654362375163154,
+  "oracle_selected_gain_fraction_of_matched_opportunity": 0.6345637624836845
+}

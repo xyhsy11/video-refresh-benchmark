@@ -1,0 +1,17 @@
+{
+  "accepted": true,
+  "seed": 20261026,
+  "alpha": 0.01,
+  "attempts": 1,
+  "iterations": 2000,
+  "closure_calls": 3756,
+  "objective": 0.1694056696186368,
+  "gradient_max_abs": 2.5791394090398475e-07,
+  "independent_objective": 0.16940566961863673,
+  "independent_gradient_max_abs": 2.579139409035737e-07,
+  "at_iteration_cap": true,
+  "seconds": 194.2499889999999,
+  "constant_columns": 0,
+  "dtype": "float64",
+  "solver": "torch LBFGS lr1 max_iter2000 max_eval4000 grad1e-9 change1e-12 history50 strong_wolfe"
+}

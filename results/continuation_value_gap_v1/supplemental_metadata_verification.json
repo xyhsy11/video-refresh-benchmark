@@ -1,0 +1,224 @@
+{
+  "at_utc": "2026-10-21T05:55:59.672400+00:00",
+  "passed": true,
+  "historical_public_seals_verified": [
+    "results/causal_observability_population_v2/screening_evidence.jsonl.gz",
+    "results/causal_observability_population_v2/source_family_audit.json",
+    "results/causal_observability_population_v2/archive_member_inventory.json",
+    "results/causal_observability_population_v2/screening_identity.json",
+    "results/causal_observability_population_v2/allocation_manifest.json"
+  ],
+  "annotation_files": [
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/brush_hair_test_split1.txt",
+      "sha256": "5bde1a59cd00739706af7df5a13d4e9ee849e33e9da30b9db0a0048744e83492"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/cartwheel_test_split1.txt",
+      "sha256": "28acb3e43a7fbfa7a1d48911a53a6332889a31a034e30f32fc7ce421a3d31b9f"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/catch_test_split1.txt",
+      "sha256": "687c9ddb1510d5bd04365b31fae7ed1b50fc61ea13b82b7168530f7849bf23f2"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/chew_test_split1.txt",
+      "sha256": "3735d9f2d0c586e14b711d0be3154adc0febece49908483660814a33a87b97d3"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/clap_test_split1.txt",
+      "sha256": "c12e0118fe9dc94ebb589806f5385be76f546932f3f6bfd9e79d88f16ce44ed7"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/climb_stairs_test_split1.txt",
+      "sha256": "7b256442a11075001d9b352c772fe31f66cb9f7b5559f77bf6be8a98ef819718"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/climb_test_split1.txt",
+      "sha256": "7aa500ec9571f1d35a98135d3d8a49273a58063cf7bd21880cf7438eeb6b9ec8"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/dive_test_split1.txt",
+      "sha256": "8433c9d8885c66c3d561a53a85c75c16a8886acc171cabab49aa75bb7b3a2a71"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/draw_sword_test_split1.txt",
+      "sha256": "8d8f7dba6a2ec68b298efd2e835bb1eb47ede11b04d48c65c0f934f011ea7331"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/dribble_test_split1.txt",
+      "sha256": "71c17ca4b734e24d34b8c7901d26ab63d74cf67dc93c324912dcf6c9f5f78867"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/drink_test_split1.txt",
+      "sha256": "189231883a92e75d3e6d75496f40c22e97c03605174fee21bccd3731e22e4986"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/eat_test_split1.txt",
+      "sha256": "0adf67641663bf80208f2c5fb49a9172065d7727011cd26376e70df119028d4d"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/fall_floor_test_split1.txt",
+      "sha256": "630a90eacf41376d5664e263b791231e52168df2ad1f8f8d01f3d795d6adccc1"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/fencing_test_split1.txt",
+      "sha256": "cd561c81372624b73c31bb94a5586a099ba6cdd01c74d72620d9f17f8d34a390"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/flic_flac_test_split1.txt",
+      "sha256": "0d715aee680a1bbf56efc34e76088e3f72fb25f2c7636e932bf199523f70c956"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/golf_test_split1.txt",
+      "sha256": "0231eb2b3772dbe4b5c65af5e2c47135c7ff0034295524829906663b9e9e960b"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/handstand_test_split1.txt",
+      "sha256": "3f946709a674da61ad7c4dc567b5bf322661182f6d6c91b049155f3a527bb190"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/hit_test_split1.txt",
+      "sha256": "ce9f4e5165bd658769fdd25c229c8603fc6a21e20ea03a9948a7717831e2cba0"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/hug_test_split1.txt",
+      "sha256": "c83de7b9f8ae2bb6735d95671723bbce0834e1594c6549e54b858711ea4fc90e"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/jump_test_split1.txt",
+      "sha256": "ef870320bd293e6988c9fe0d1f6f7b9dfcc7cff2e6bb10698d2377d02b0917de"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/kick_ball_test_split1.txt",
+      "sha256": "eb34fe949ff11068f0b6054d394559ca8216991e593127a5ba0b2f514f8c9093"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/kick_test_split1.txt",
+      "sha256": "252a35bb258867315170f78969512f0b71ba8725b33fde7a9c825b2c752b4288"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/kiss_test_split1.txt",
+      "sha256": "7f25fca6d974a8b39fac574d97f3e9bae287dbe70da062e10927f2968235b5c5"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/laugh_test_split1.txt",
+      "sha256": "3df6d0660fced454deed2c63d68f8ae3b4815782db3a998105497103ed25c475"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/pick_test_split1.txt",
+      "sha256": "3b3c9b4303cc6883f1e7a96f7954bb268c6d70e753c3d60d0a8d26fcfba89412"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/pour_test_split1.txt",
+      "sha256": "ef20866015991780832f6cd778a994ed4c0ffe2e0cc64dea407cb9d191af55dd"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/pullup_test_split1.txt",
+      "sha256": "f6b0ce8abb2c37c66127134988ad04bb197a03688627a4784bc7af46f98f0413"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/punch_test_split1.txt",
+      "sha256": "2ae81b733a420cd040781d05adee5b6559a5002a41c420b19a558a0d99b0ff3b"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/push_test_split1.txt",
+      "sha256": "f5388a9bfcae0051d3851ff5c31af8f95a670815f097c9165aa6d1ca7ba4be04"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/pushup_test_split1.txt",
+      "sha256": "b51efc049f2f37c401ffdde2a1e7585a01b6559d3cce7eac73e2690f48640677"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/ride_bike_test_split1.txt",
+      "sha256": "cb0149e36a3be8f54915c891d131e6e48d2ceb8433a8d7f4a6dd3a6e2910bc6a"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/ride_horse_test_split1.txt",
+      "sha256": "59c19b7eb235c1e67898cfede8e7ff41cb650afdfdf94274ed4718b23a70b150"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/run_test_split1.txt",
+      "sha256": "67eeff6321c3bf76761cf374017e460fd5d5293e38f42bb76858e168f70236b2"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/shake_hands_test_split1.txt",
+      "sha256": "78516bf5a1d99a333722aa58d9634673db6d901fecdb733d242dafc4ce504ee9"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/shoot_ball_test_split1.txt",
+      "sha256": "615e7a47723f32aca472eed2c1efc230450ab6f7346d7ad70ea0719cd7dcc18a"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/shoot_bow_test_split1.txt",
+      "sha256": "94e140ee155ba8beded579c162755a2c125c549ee424ff05f236e3abc7e1b848"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/shoot_gun_test_split1.txt",
+      "sha256": "765e462faa7916b028d5d28a1dfa4df355a1dc97b9a36258ed9ace6606e44031"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/sit_test_split1.txt",
+      "sha256": "610c21d6cc8b003239cdc0eb3262332688edec17828bbc4e616f69c8dd51206b"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/situp_test_split1.txt",
+      "sha256": "f34e556a34ce3c32bdecb7273535f1b0eba9c933bb4c27d8678d12acbc89a6e0"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/smile_test_split1.txt",
+      "sha256": "c4f1913b5b29499bf56bda819ff02757ade45e2999b9fa159f629c7a3c619c63"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/smoke_test_split1.txt",
+      "sha256": "64f166fcd44d95bb760acf4c314b87384a7cb42138840f28792c2eb9490e8e41"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/somersault_test_split1.txt",
+      "sha256": "53f4607d043447204a666130b176c008c1b4c29e5dbf4af5ca5e505bf7c47d1c"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/stand_test_split1.txt",
+      "sha256": "f2e284617a5a6b22e2eb7518123cb192c995588fcf59a332b35527b8b0d094ab"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/swing_baseball_test_split1.txt",
+      "sha256": "d37b8eff741ebee61440ad8f09382eb07f9ecad7656ba80f898edbd0366b5f68"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/sword_exercise_test_split1.txt",
+      "sha256": "d6b112f9813fd3a77a4037282383ad3b18392502f7ee124fd4da4abd5176c44d"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/sword_test_split1.txt",
+      "sha256": "5c916557b3fd5ba4ea93ef880b41a2064082922f1d36718f0c4a76447f434e74"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/talk_test_split1.txt",
+      "sha256": "3a4f5a5f96cb6efb4eebc89eb6ddb54ae4472c2ba897cf6ae7f8e503c4b0021a"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/throw_test_split1.txt",
+      "sha256": "0499a1a288edd7315893ac5dd0094c6eee3ee5376f5a2091a441e2fe1366cce1"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/turn_test_split1.txt",
+      "sha256": "a9d8e022196727a93a94203a54a767ad4b81094b95c8d07b22b926817853ffe6"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/walk_test_split1.txt",
+      "sha256": "898b72983f314fc9a8de14067d59e7bce23c31a23d43765571e95496e6e9b1f8"
+    },
+    {
+      "path": "data/source/causal_observability_v1/splits/testTrainMulti_7030_splits/wave_test_split1.txt",
+      "sha256": "6a0be76c9130ca9624796404fda34791025c5b60871e7aaf8d5769c8a5b6faed"
+    }
+  ],
+  "annotation_clips": 6766,
+  "original_archives": {
+    "data/source/causal_observability_v1/hmdb51_org.rar": "9e714a0d8b76104d76e932764a7ca636f929fff66279cda3f2e326fa912a328e",
+    "data/source/causal_observability_v1/test_train_splits.rar": "229c94f845720d01eb3946d39f39292ea962d50a18136484aa47c1eba251d2b7"
+  },
+  "new_model_calls": 0,
+  "scope": "Additional read-only provenance check; scientific definitions and sealed implementation unchanged"
+}

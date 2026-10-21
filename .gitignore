@@ -151,3 +151,8 @@ client_secret*.json
 *.part
 *.download
 *.log
+
+# Experiment 25 curated evidence; large feature caches remain under ignored data/source.
+!results/continuation_value_gap_v1/
+!results/continuation_value_gap_v1/**
+results/continuation_value_gap_v1/*.writing

@@ -1,0 +1,14 @@
+{
+  "at_utc": "2026-10-21T07:32:12.120511+00:00",
+  "prior_EVAL_calls": 0,
+  "sha256": {
+    "results/continuation_value_gap_v1/design_seal.json": "4d9b49cfa526446fe7e794319ffe111463ec9000a875e81ef9e9606cb7237db0",
+    "results/continuation_value_gap_v1/hmdb_population_seal.json": "fef54aaf96bcdd7f5280f15b759180177fd9a5b884b4bd7efe8672ad758970c5",
+    "results/continuation_value_gap_v1/hmdb_population.json": "5725196105ed7580543a2523759f4422ceae14eeffbf9d6f3a37aeef55798b8e",
+    "results/continuation_value_gap_v1/hmdb_input_manifest.json": "1c991565679278dd3c5518418e8200ea05ae5b68470f94fcf6d067eebb80ef68",
+    "results/continuation_value_gap_v1/hmdb_encoder.json": "765f37bf19553f3e7d15ef6032a0b5af5a3df3c6f622a05a23739fd71924c8a7",
+    "results/continuation_value_gap_v1/hmdb_head.json": "c4fe962197807089c687e8e972051fc550242d261befe2b74ab7d60b2e07f046",
+    "results/continuation_value_gap_v1/hmdb_head_fit.json": "053052583e9b1d054b48664d109bd27d79c8c261f2c0052effa67444bee23cf3",
+    "results/continuation_value_gap_v1/hmdb_train_collection.json": "afda45315330c436ddd94460b0f3681526129f898bc631cdf7dff8572e676789"
+  }
+}

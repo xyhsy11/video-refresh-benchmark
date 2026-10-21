@@ -1,0 +1,14 @@
+{
+  "ucf_classes": 99,
+  "excluded_singleton_classes": [
+    "BenchPress",
+    "JavelinThrow"
+  ],
+  "transfer_cell_variance": 0.0006075050664941784,
+  "projected_SE": 0.001083337118523193,
+  "projected_halfwidth": 0.0021341490091864794,
+  "design_df": 238.11144054355847,
+  "assumptions": "Exploratory independent-cell variance transfer from UCF 99 two-group classes; not a full-cohort UCF variance, power guarantee, or stopping rule; cross-class outcome covariance unknown",
+  "full_frozen_HMDB_population_always_used": true,
+  "at_utc": "2026-10-21T05:55:36.975570+00:00"
+}

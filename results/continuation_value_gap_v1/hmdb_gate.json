@@ -1,0 +1,27 @@
+{
+  "status": "COMPLETE",
+  "smoke_clips": 8,
+  "smoke_seconds": [
+    1.6028460999996241,
+    1.3716300999994928,
+    0.9084473000002617,
+    1.1084215000000768,
+    1.0502803999997923,
+    1.021884200000386,
+    1.01197030000003,
+    1.095534499999303
+  ],
+  "conservative_seconds_per_clip": 2.404269149999436,
+  "projected_total_collection_seconds": 10289.825899797588,
+  "wall_cap_seconds": 28800,
+  "projected_additional_bytes": 654996034,
+  "disk_cap_bytes": 21474836480,
+  "available_disk_bytes": 96335282176,
+  "expected_new_snippet_forwards": 68544,
+  "smoke_forwards_reused": 128,
+  "measured_cumulative_seconds": 9.171014399998967,
+  "at_utc": "2026-10-21T05:56:59.840956+00:00",
+  "actual_collection_seconds": 4411.288931500015,
+  "additional_bytes": 371433444,
+  "completed_at_utc": "2026-10-21T09:01:24.882293+00:00"
+}

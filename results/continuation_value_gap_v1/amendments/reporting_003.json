@@ -1,0 +1,18 @@
+{
+  "at_utc": "2026-10-21T07:38:04.945099+00:00",
+  "kind": "MECHANICAL_ADDITIVE_REPORTING_AND_RECOVERY",
+  "original_seal_sha256": "4d9b49cfa526446fe7e794319ffe111463ec9000a875e81ef9e9606cb7237db0",
+  "scientific_design_changes": false,
+  "exposure": "UCF endpoints complete and independently verified; HMDB fixed head accepted and EVAL feature collection underway. First EVAL exposure is retained. No interim HMDB recognition CE/primary result has been calculated or inspected.",
+  "changed_files": {},
+  "added_or_supplemental_files": {
+    "resume_continuation_value_gap.py": "5785887791e807feb6d16a11d7915806dd527977c5f2d9b7a3559e64c9dee1fc",
+    "render_continuation_value_gap.py": "7c488ca560419975fad0b7b5f27460b7df56a281227df6bc9ed0c1835e5304e4",
+    "results/continuation_value_gap_v1/finalize_report.py": "8618fabbac37b61ce4c9f5a0fd1bda6d8ebf167dc37b1b12b95cc00482a7f3e0",
+    "results/continuation_value_gap_v1/independent_audit.py": "4fea74d31d626ba1627b0da0284003aa79f9e15e84d92dd74aed081144335ee1",
+    "results/continuation_value_gap_v1/temporal_support.py": "15e47efdbc19ff5b90d10de33aa8dc69be60ac5291499d205e1b24873184274d",
+    "verify_continuation_value_gap_inputs.py": "f6760320a3f5222670fda960323b13b9b1d40e7117ede1b0a4e1802f9e161679"
+  },
+  "unchanged_UCF_outcome_seal_sha256": "baa59a713dc113a0655874a0366437a8ab5bbd6a699ca0a5318154af9137d8a3",
+  "reason": "Seal additive independent batch/provenance audit, input-only temporal descriptions, guarded recovery, figure layout and report/resource appendices. Tie sensitivities and decision rules were prospectively fixed in the original configuration; derivative reporting does not add or choose endpoints. The original primary statistical/endpoint functions remain AST-identical. This records implementation additions after the original seal, not an untouched original package."
+}

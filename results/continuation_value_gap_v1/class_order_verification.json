@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "datasets": {
+    "ucf": {
+      "classes": 101,
+      "clips": 400,
+      "tables_checked": true
+    },
+    "hmdb": {
+      "classes": 51,
+      "clips": 1530,
+      "tables_checked": true
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "study": "continuation_value_gap_v1",
+  "seed": 20261026,
+  "encoder_numerics_seed": 20261026,
+  "N": 16,
+  "K": 4,
+  "pooling": "C",
+  "periodic": [
+    0,
+    4,
+    8,
+    12
+  ],
+  "states": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "tie_nats": 1e-10,
+  "verification_atol": 1e-10,
+  "material_margin_nats": 0.01,
+  "tie_sensitivities": [
+    0,
+    1e-12,
+    1e-10,
+    1e-08
+  ],
+  "primary": "HMDB signed hierarchical G_star under periodic-repair continuation",
+  "aggregation": "class/family/clip/12 reset states",
+  "uniform_baseline": "V_U=(1-q)Q_U(HOLD)+qQ_U(REFRESH)",
+  "head": {
+    "seed": 20261026,
+    "alpha": 0.01,
+    "lr": 1,
+    "max_iter": 2000,
+    "max_eval": 4000,
+    "tolerance_grad": 1e-09,
+    "tolerance_change": 1e-12,
+    "history_size": 50,
+    "line_search_fn": "strong_wolfe",
+    "max_gradient_accept": 1e-06,
+    "attempts": 1
+  },
+  "caps": {
+    "collection_wall_seconds": 28800,
+    "additional_disk_bytes": 21474836480
+  },
+  "decisions": {
+    "material_harm": "upper95 < -.01",
+    "material_benefit": "lower95 > .01",
+    "bounded_small_mean": "entire95 within [-.01,.01]",
+    "otherwise": "unresolved",
+    "invalid_uncertainty": "unresolved; no inferential label",
+    "not_evaluated": "NOT_EVALUATED"
+  }
+}

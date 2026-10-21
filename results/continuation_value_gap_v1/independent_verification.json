@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "historical_result_files_unchanged": 4652,
+  "historical_hashing": "git hash-object --stdin-paths; same per-path filters",
+  "ucf": {
+    "passed": true,
+    "clips": 400,
+    "states": 4800,
+    "scalar_state_max_error": 2.6645352591003757e-15,
+    "E22_D_star_max_error": 3.907985046680551e-14,
+    "raw_feature_clips": 3,
+    "raw_feature_all455_CE_max_error": 1.4210854715202004e-14,
+    "teacher_action_errors": 0,
+    "primary_interval": {
+      "mean": 0.011475860952519814,
+      "interval": null,
+      "df": null,
+      "status": "UNIDENTIFIABLE_SINGLETON_CLASSES",
+      "singleton_classes": [
+        "BenchPress",
+        "JavelinThrow"
+      ]
+    },
+    "independent_branch_enumerator": "itertools.combinations",
+    "independent_aggregation": "explicit class/family/clip arithmetic",
+    "independent_CR2": "full dummy projection"
+  },
+  "hmdb": {
+    "passed": true,
+    "clips": 1530,
+    "states": 18360,
+    "scalar_state_max_error": 3.552713678800501e-15,
+    "E22_D_star_max_error": 0.0,
+    "raw_feature_clips": 3,
+    "raw_feature_all455_CE_max_error": 7.993605777301127e-15,
+    "teacher_action_errors": 0,
+    "primary_interval": {
+      "mean": 0.03924980271158275,
+      "variance": 3.709185662731636e-06,
+      "df": 238.11144054355847,
+      "interval": [
+        0.03545577584700567,
+        0.043043829576159834
+      ],
+      "zero_variance": false,
+      "outcome": "material benefit",
+      "status": "APPROXIMATE_CR2_SATTERTHWAITE"
+    },
+    "independent_branch_enumerator": "itertools.combinations",
+    "independent_aggregation": "explicit class/family/clip arithmetic",
+    "independent_CR2": "full dummy projection"
+  },
+  "seconds": 139.43276199999673
+}

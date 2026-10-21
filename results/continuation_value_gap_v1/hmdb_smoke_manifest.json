@@ -1,0 +1,13 @@
+{
+  "clips": [
+    "jump/le_parkour_kl_jump_f_nm_np1_le_bad_3.avi",
+    "flic_flac/6_Flick_Flacks_flic_flac_f_cm_np1_ri_med_1.avi",
+    "somersault/me_turnen_somersault_f_cm_np1_fr_med_1.avi",
+    "chew/Tara_Bush_blowing_bubbles_5_chew_h_nm_np1_fr_goo_0.avi",
+    "smile/YouTube_smiles!_smile_h_nm_np1_fr_med_24.avi",
+    "draw_sword/IAIDO_-_Training_TV-Bericht_10_2008_draw_sword_f_cm_np4_le_med_3.avi",
+    "clap/Baby_Bob_kann_klatschen_!_clap_u_cm_np1_fr_med_2.avi",
+    "punch/PracticingBoxingonaDoubleEndBag-LeadRightwithaHook_punch_u_nm_np1_fr_med_10.avi"
+  ],
+  "selection": "SHA256(20261026|input_sha256|clip) among clean HEAD_TRAIN; excludes old technical smoke clips"
+}

@@ -1,0 +1,7 @@
+{
+  "at_utc": "2026-10-21T06:02:58.537097+00:00",
+  "kind": "VERIFICATION_EXECUTION_ONLY",
+  "reason": "Batch historical git hash-object checks with --stdin-paths instead of launching one Git process per artifact. Calls unchanged independent empirical verifier; no scientific implementation/outcomes changed.",
+  "sha256": "3b41d2dc0f64546cd5fceb6e7b3e0d2bb42f75762630743d1cb42607bb35e0e1",
+  "path": "results/continuation_value_gap_v1/independent_audit.py"
+}

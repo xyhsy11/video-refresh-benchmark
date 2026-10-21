@@ -1,0 +1,15 @@
+{
+  "at_utc": "2026-10-21T07:55:14.218704+00:00",
+  "kind": "MECHANICAL_IDENTITY_VERIFIER_FIX",
+  "scientific_design_changes": false,
+  "reason": "Sort stripped official class labels, matching the alphabetic label order frozen before training, instead of sorting file paths including the annotation suffix. No head, scaler, label index, membership, endpoint or tolerance change.",
+  "original_seal_sha256": "4d9b49cfa526446fe7e794319ffe111463ec9000a875e81ef9e9606cb7237db0",
+  "parent_identity_audit_sha256": "cf8cb35638fd25a7d8673e50fdfbbb3f633c6ef70224f6077e5bcbe86ac48dcf",
+  "preserved_original": "results/continuation_value_gap_v1/amendments/005/class_order_audit.py",
+  "original_sha256": "0e629331ced85e1e3583d44f67fd642fbcf5a7dd68b7f6eabd2d9ddcb6979dcf",
+  "path": "results/continuation_value_gap_v1/class_order_audit.py",
+  "amended_sha256": "2a6c7d4abe5cd2c0905e5d02264830d2ed3cbaec1334a39f1fa7eceb7e17f46a",
+  "unchanged_head_sha256": "c4fe962197807089c687e8e972051fc550242d261befe2b74ab7d60b2e07f046",
+  "unchanged_population_sha256": "5725196105ed7580543a2523759f4422ceae14eeffbf9d6f3a37aeef55798b8e",
+  "exposure": "EVAL feature collection underway; no interim recognition endpoints inspected"
+}

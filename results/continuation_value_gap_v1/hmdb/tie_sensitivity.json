@@ -1,0 +1,22 @@
+[
+  {
+    "tolerance": 0,
+    "tie_states": 0,
+    "G_star": 0.03924980271158274
+  },
+  {
+    "tolerance": 1e-12,
+    "tie_states": 0,
+    "G_star": 0.03924980271158274
+  },
+  {
+    "tolerance": 1e-10,
+    "tie_states": 0,
+    "G_star": 0.03924980271158274
+  },
+  {
+    "tolerance": 1e-08,
+    "tie_states": 7,
+    "G_star": 0.039249802740960155
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "status": "BLOCKED_INPUT",
+  "stage": "training_only_smoke",
+  "blocker": "TypeError(\"dict() got multiple values for keyword argument 'at_utc'\")",
+  "at_utc": "2026-10-21T05:56:05.833578+00:00",
+  "resume_command": "& .\\.venv_temporal\\Scripts\\python.exe .\\continuation_value_gap_hmdb.py --resume"
+}

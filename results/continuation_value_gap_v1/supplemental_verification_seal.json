@@ -1,0 +1,10 @@
+{
+  "at_utc": "2026-10-21T05:58:25.313075+00:00",
+  "kind": "ADDITIONAL_VERIFICATION_ONLY",
+  "scientific_design_changes": false,
+  "reason": "Independent metadata/graph/grid/full feature/hash and train-objective verification complements sealed endpoint verifier; no endpoint or model change",
+  "sha256": {
+    "verify_continuation_value_gap_inputs.py": "d320d0fdc45267a2ebf1386732e41f13621374fb019a037b60e14b7d8cfd594d",
+    "results/continuation_value_gap_v1/supplemental_metadata_verification.json": "2e2eed29a82d9cb3827cf394c32668ad0f787aec9208528effb6c8cd109a3d22"
+  }
+}
