@@ -1,0 +1,265 @@
+K,pool,epsilon,stratum,metric,clips,groups,interpretation,estimate,weighted_mass,CI95_lower,CI95_upper,valid_bootstrap_draws
+4,C,0.0,all,p_correct,20,20,task / CE diagnostic,1.0,1.0000000000000002,N/A,N/A,0
+4,C,0.0,all,p_CE_nondegrade,20,20,task / CE diagnostic,0.4527472527472527,1.0000000000000002,N/A,N/A,0
+4,C,0.0,all,p_correct_and_CE,20,20,task / CE diagnostic,0.4527472527472527,1.0000000000000002,N/A,N/A,0
+4,C,0.0,all,p_dense_agreement,20,20,fidelity only,1.0,1.0000000000000002,N/A,N/A,0
+4,C,0.0,all,RandomExact_CE,20,20,task / CE diagnostic,0.015389192681038904,1.0000000000000002,N/A,N/A,0
+4,C,0.0,all,delta_mean,20,20,task / CE diagnostic,-0.0005527126816739201,1.0000000000000002,N/A,N/A,0
+4,C,0.0,all,improve_periodic_001_fraction,20,20,task / CE diagnostic,0.13197802197802197,1.0000000000000002,N/A,N/A,0
+4,C,0.0,Dense_correct,p_correct,20,20,task / CE diagnostic,1.0,1.0000000000000002,N/A,N/A,0
+4,C,0.0,Dense_correct,p_CE_nondegrade,20,20,task / CE diagnostic,0.4527472527472527,1.0000000000000002,N/A,N/A,0
+4,C,0.0,Dense_correct,p_correct_and_CE,20,20,conditional P_safe,0.4527472527472527,1.0000000000000002,N/A,N/A,0
+4,C,0.0,Dense_correct,p_dense_agreement,20,20,fidelity only,1.0,1.0000000000000002,N/A,N/A,0
+4,C,0.0,Dense_correct,RandomExact_CE,20,20,task / CE diagnostic,0.015389192681038904,1.0000000000000002,N/A,N/A,0
+4,C,0.0,Dense_correct,delta_mean,20,20,task / CE diagnostic,-0.0005527126816739201,1.0000000000000002,N/A,N/A,0
+4,C,0.0,Dense_correct,improve_periodic_001_fraction,20,20,task / CE diagnostic,0.13197802197802197,1.0000000000000002,N/A,N/A,0
+4,C,0.0,Dense_correct,P_safe,20,20,conditional P_safe,0.4527472527472527,1.0000000000000002,N/A,N/A,0
+4,C,0.0,Dense_wrong,p_correct,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,C,0.0,Dense_wrong,p_CE_nondegrade,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,C,0.0,Dense_wrong,p_correct_and_CE,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,C,0.0,Dense_wrong,p_dense_agreement,0,0,fidelity only,N/A,0.0,N/A,N/A,0
+4,C,0.0,Dense_wrong,RandomExact_CE,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,C,0.0,Dense_wrong,delta_mean,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,C,0.0,Dense_wrong,improve_periodic_001_fraction,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,C,0.01,all,p_correct,20,20,task / CE diagnostic,1.0,1.0000000000000002,N/A,N/A,0
+4,C,0.01,all,p_CE_nondegrade,20,20,task / CE diagnostic,0.9282417582417584,1.0000000000000002,N/A,N/A,0
+4,C,0.01,all,p_correct_and_CE,20,20,task / CE diagnostic,0.9282417582417584,1.0000000000000002,N/A,N/A,0
+4,C,0.01,all,p_dense_agreement,20,20,fidelity only,1.0,1.0000000000000002,N/A,N/A,0
+4,C,0.01,all,RandomExact_CE,20,20,task / CE diagnostic,0.015389192681038904,1.0000000000000002,N/A,N/A,0
+4,C,0.01,all,delta_mean,20,20,task / CE diagnostic,-0.0005527126816739201,1.0000000000000002,N/A,N/A,0
+4,C,0.01,all,improve_periodic_001_fraction,20,20,task / CE diagnostic,0.13197802197802197,1.0000000000000002,N/A,N/A,0
+4,C,0.01,Dense_correct,p_correct,20,20,task / CE diagnostic,1.0,1.0000000000000002,N/A,N/A,0
+4,C,0.01,Dense_correct,p_CE_nondegrade,20,20,task / CE diagnostic,0.9282417582417584,1.0000000000000002,N/A,N/A,0
+4,C,0.01,Dense_correct,p_correct_and_CE,20,20,conditional P_safe,0.9282417582417584,1.0000000000000002,N/A,N/A,0
+4,C,0.01,Dense_correct,p_dense_agreement,20,20,fidelity only,1.0,1.0000000000000002,N/A,N/A,0
+4,C,0.01,Dense_correct,RandomExact_CE,20,20,task / CE diagnostic,0.015389192681038904,1.0000000000000002,N/A,N/A,0
+4,C,0.01,Dense_correct,delta_mean,20,20,task / CE diagnostic,-0.0005527126816739201,1.0000000000000002,N/A,N/A,0
+4,C,0.01,Dense_correct,improve_periodic_001_fraction,20,20,task / CE diagnostic,0.13197802197802197,1.0000000000000002,N/A,N/A,0
+4,C,0.01,Dense_correct,P_safe,20,20,conditional P_safe,0.9282417582417584,1.0000000000000002,N/A,N/A,0
+4,C,0.01,Dense_wrong,p_correct,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,C,0.01,Dense_wrong,p_CE_nondegrade,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,C,0.01,Dense_wrong,p_correct_and_CE,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,C,0.01,Dense_wrong,p_dense_agreement,0,0,fidelity only,N/A,0.0,N/A,N/A,0
+4,C,0.01,Dense_wrong,RandomExact_CE,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,C,0.01,Dense_wrong,delta_mean,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,C,0.01,Dense_wrong,improve_periodic_001_fraction,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,C,0.05,all,p_correct,20,20,task / CE diagnostic,1.0,1.0000000000000002,N/A,N/A,0
+4,C,0.05,all,p_CE_nondegrade,20,20,task / CE diagnostic,0.9892307692307692,1.0000000000000002,N/A,N/A,0
+4,C,0.05,all,p_correct_and_CE,20,20,task / CE diagnostic,0.9892307692307692,1.0000000000000002,N/A,N/A,0
+4,C,0.05,all,p_dense_agreement,20,20,fidelity only,1.0,1.0000000000000002,N/A,N/A,0
+4,C,0.05,all,RandomExact_CE,20,20,task / CE diagnostic,0.015389192681038904,1.0000000000000002,N/A,N/A,0
+4,C,0.05,all,delta_mean,20,20,task / CE diagnostic,-0.0005527126816739201,1.0000000000000002,N/A,N/A,0
+4,C,0.05,all,improve_periodic_001_fraction,20,20,task / CE diagnostic,0.13197802197802197,1.0000000000000002,N/A,N/A,0
+4,C,0.05,Dense_correct,p_correct,20,20,task / CE diagnostic,1.0,1.0000000000000002,N/A,N/A,0
+4,C,0.05,Dense_correct,p_CE_nondegrade,20,20,task / CE diagnostic,0.9892307692307692,1.0000000000000002,N/A,N/A,0
+4,C,0.05,Dense_correct,p_correct_and_CE,20,20,conditional P_safe,0.9892307692307692,1.0000000000000002,N/A,N/A,0
+4,C,0.05,Dense_correct,p_dense_agreement,20,20,fidelity only,1.0,1.0000000000000002,N/A,N/A,0
+4,C,0.05,Dense_correct,RandomExact_CE,20,20,task / CE diagnostic,0.015389192681038904,1.0000000000000002,N/A,N/A,0
+4,C,0.05,Dense_correct,delta_mean,20,20,task / CE diagnostic,-0.0005527126816739201,1.0000000000000002,N/A,N/A,0
+4,C,0.05,Dense_correct,improve_periodic_001_fraction,20,20,task / CE diagnostic,0.13197802197802197,1.0000000000000002,N/A,N/A,0
+4,C,0.05,Dense_correct,P_safe,20,20,conditional P_safe,0.9892307692307692,1.0000000000000002,N/A,N/A,0
+4,C,0.05,Dense_wrong,p_correct,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,C,0.05,Dense_wrong,p_CE_nondegrade,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,C,0.05,Dense_wrong,p_correct_and_CE,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,C,0.05,Dense_wrong,p_dense_agreement,0,0,fidelity only,N/A,0.0,N/A,N/A,0
+4,C,0.05,Dense_wrong,RandomExact_CE,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,C,0.05,Dense_wrong,delta_mean,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,C,0.05,Dense_wrong,improve_periodic_001_fraction,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,U,0.0,all,p_correct,20,20,task / CE diagnostic,1.0,1.0000000000000002,N/A,N/A,0
+4,U,0.0,all,p_CE_nondegrade,20,20,task / CE diagnostic,0.4782417582417582,1.0000000000000002,N/A,N/A,0
+4,U,0.0,all,p_correct_and_CE,20,20,task / CE diagnostic,0.4782417582417582,1.0000000000000002,N/A,N/A,0
+4,U,0.0,all,p_dense_agreement,20,20,fidelity only,1.0,1.0000000000000002,N/A,N/A,0
+4,U,0.0,all,RandomExact_CE,20,20,task / CE diagnostic,0.015183136831890758,1.0000000000000002,N/A,N/A,0
+4,U,0.0,all,delta_mean,20,20,task / CE diagnostic,-0.0007587685308220681,1.0000000000000002,N/A,N/A,0
+4,U,0.0,all,improve_periodic_001_fraction,20,20,task / CE diagnostic,0.13648351648351645,1.0000000000000002,N/A,N/A,0
+4,U,0.0,Dense_correct,p_correct,20,20,task / CE diagnostic,1.0,1.0000000000000002,N/A,N/A,0
+4,U,0.0,Dense_correct,p_CE_nondegrade,20,20,task / CE diagnostic,0.4782417582417582,1.0000000000000002,N/A,N/A,0
+4,U,0.0,Dense_correct,p_correct_and_CE,20,20,conditional P_safe,0.4782417582417582,1.0000000000000002,N/A,N/A,0
+4,U,0.0,Dense_correct,p_dense_agreement,20,20,fidelity only,1.0,1.0000000000000002,N/A,N/A,0
+4,U,0.0,Dense_correct,RandomExact_CE,20,20,task / CE diagnostic,0.015183136831890758,1.0000000000000002,N/A,N/A,0
+4,U,0.0,Dense_correct,delta_mean,20,20,task / CE diagnostic,-0.0007587685308220681,1.0000000000000002,N/A,N/A,0
+4,U,0.0,Dense_correct,improve_periodic_001_fraction,20,20,task / CE diagnostic,0.13648351648351645,1.0000000000000002,N/A,N/A,0
+4,U,0.0,Dense_correct,P_safe,20,20,conditional P_safe,0.4782417582417582,1.0000000000000002,N/A,N/A,0
+4,U,0.0,Dense_wrong,p_correct,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,U,0.0,Dense_wrong,p_CE_nondegrade,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,U,0.0,Dense_wrong,p_correct_and_CE,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,U,0.0,Dense_wrong,p_dense_agreement,0,0,fidelity only,N/A,0.0,N/A,N/A,0
+4,U,0.0,Dense_wrong,RandomExact_CE,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,U,0.0,Dense_wrong,delta_mean,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,U,0.0,Dense_wrong,improve_periodic_001_fraction,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,U,0.01,all,p_correct,20,20,task / CE diagnostic,1.0,1.0000000000000002,N/A,N/A,0
+4,U,0.01,all,p_CE_nondegrade,20,20,task / CE diagnostic,0.9442857142857143,1.0000000000000002,N/A,N/A,0
+4,U,0.01,all,p_correct_and_CE,20,20,task / CE diagnostic,0.9442857142857143,1.0000000000000002,N/A,N/A,0
+4,U,0.01,all,p_dense_agreement,20,20,fidelity only,1.0,1.0000000000000002,N/A,N/A,0
+4,U,0.01,all,RandomExact_CE,20,20,task / CE diagnostic,0.015183136831890758,1.0000000000000002,N/A,N/A,0
+4,U,0.01,all,delta_mean,20,20,task / CE diagnostic,-0.0007587685308220681,1.0000000000000002,N/A,N/A,0
+4,U,0.01,all,improve_periodic_001_fraction,20,20,task / CE diagnostic,0.13648351648351645,1.0000000000000002,N/A,N/A,0
+4,U,0.01,Dense_correct,p_correct,20,20,task / CE diagnostic,1.0,1.0000000000000002,N/A,N/A,0
+4,U,0.01,Dense_correct,p_CE_nondegrade,20,20,task / CE diagnostic,0.9442857142857143,1.0000000000000002,N/A,N/A,0
+4,U,0.01,Dense_correct,p_correct_and_CE,20,20,conditional P_safe,0.9442857142857143,1.0000000000000002,N/A,N/A,0
+4,U,0.01,Dense_correct,p_dense_agreement,20,20,fidelity only,1.0,1.0000000000000002,N/A,N/A,0
+4,U,0.01,Dense_correct,RandomExact_CE,20,20,task / CE diagnostic,0.015183136831890758,1.0000000000000002,N/A,N/A,0
+4,U,0.01,Dense_correct,delta_mean,20,20,task / CE diagnostic,-0.0007587685308220681,1.0000000000000002,N/A,N/A,0
+4,U,0.01,Dense_correct,improve_periodic_001_fraction,20,20,task / CE diagnostic,0.13648351648351645,1.0000000000000002,N/A,N/A,0
+4,U,0.01,Dense_correct,P_safe,20,20,conditional P_safe,0.9442857142857143,1.0000000000000002,N/A,N/A,0
+4,U,0.01,Dense_wrong,p_correct,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,U,0.01,Dense_wrong,p_CE_nondegrade,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,U,0.01,Dense_wrong,p_correct_and_CE,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,U,0.01,Dense_wrong,p_dense_agreement,0,0,fidelity only,N/A,0.0,N/A,N/A,0
+4,U,0.01,Dense_wrong,RandomExact_CE,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,U,0.01,Dense_wrong,delta_mean,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,U,0.01,Dense_wrong,improve_periodic_001_fraction,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,U,0.05,all,p_correct,20,20,task / CE diagnostic,1.0,1.0000000000000002,N/A,N/A,0
+4,U,0.05,all,p_CE_nondegrade,20,20,task / CE diagnostic,0.9916483516483516,1.0000000000000002,N/A,N/A,0
+4,U,0.05,all,p_correct_and_CE,20,20,task / CE diagnostic,0.9916483516483516,1.0000000000000002,N/A,N/A,0
+4,U,0.05,all,p_dense_agreement,20,20,fidelity only,1.0,1.0000000000000002,N/A,N/A,0
+4,U,0.05,all,RandomExact_CE,20,20,task / CE diagnostic,0.015183136831890758,1.0000000000000002,N/A,N/A,0
+4,U,0.05,all,delta_mean,20,20,task / CE diagnostic,-0.0007587685308220681,1.0000000000000002,N/A,N/A,0
+4,U,0.05,all,improve_periodic_001_fraction,20,20,task / CE diagnostic,0.13648351648351645,1.0000000000000002,N/A,N/A,0
+4,U,0.05,Dense_correct,p_correct,20,20,task / CE diagnostic,1.0,1.0000000000000002,N/A,N/A,0
+4,U,0.05,Dense_correct,p_CE_nondegrade,20,20,task / CE diagnostic,0.9916483516483516,1.0000000000000002,N/A,N/A,0
+4,U,0.05,Dense_correct,p_correct_and_CE,20,20,conditional P_safe,0.9916483516483516,1.0000000000000002,N/A,N/A,0
+4,U,0.05,Dense_correct,p_dense_agreement,20,20,fidelity only,1.0,1.0000000000000002,N/A,N/A,0
+4,U,0.05,Dense_correct,RandomExact_CE,20,20,task / CE diagnostic,0.015183136831890758,1.0000000000000002,N/A,N/A,0
+4,U,0.05,Dense_correct,delta_mean,20,20,task / CE diagnostic,-0.0007587685308220681,1.0000000000000002,N/A,N/A,0
+4,U,0.05,Dense_correct,improve_periodic_001_fraction,20,20,task / CE diagnostic,0.13648351648351645,1.0000000000000002,N/A,N/A,0
+4,U,0.05,Dense_correct,P_safe,20,20,conditional P_safe,0.9916483516483516,1.0000000000000002,N/A,N/A,0
+4,U,0.05,Dense_wrong,p_correct,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,U,0.05,Dense_wrong,p_CE_nondegrade,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,U,0.05,Dense_wrong,p_correct_and_CE,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,U,0.05,Dense_wrong,p_dense_agreement,0,0,fidelity only,N/A,0.0,N/A,N/A,0
+4,U,0.05,Dense_wrong,RandomExact_CE,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,U,0.05,Dense_wrong,delta_mean,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+4,U,0.05,Dense_wrong,improve_periodic_001_fraction,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,C,0.0,all,p_correct,20,20,task / CE diagnostic,1.0,1.0000000000000002,N/A,N/A,0
+8,C,0.0,all,p_CE_nondegrade,20,20,task / CE diagnostic,0.47018648018648,1.0000000000000002,N/A,N/A,0
+8,C,0.0,all,p_correct_and_CE,20,20,task / CE diagnostic,0.47018648018648,1.0000000000000002,N/A,N/A,0
+8,C,0.0,all,p_dense_agreement,20,20,fidelity only,1.0,1.0000000000000002,N/A,N/A,0
+8,C,0.0,all,RandomExact_CE,20,20,task / CE diagnostic,0.01567316115661434,1.0000000000000002,N/A,N/A,0
+8,C,0.0,all,delta_mean,20,20,task / CE diagnostic,-0.0002687442060984883,1.0000000000000002,N/A,N/A,0
+8,C,0.0,all,improve_periodic_001_fraction,20,20,task / CE diagnostic,0.06561771561771561,1.0000000000000002,N/A,N/A,0
+8,C,0.0,Dense_correct,p_correct,20,20,task / CE diagnostic,1.0,1.0000000000000002,N/A,N/A,0
+8,C,0.0,Dense_correct,p_CE_nondegrade,20,20,task / CE diagnostic,0.47018648018648,1.0000000000000002,N/A,N/A,0
+8,C,0.0,Dense_correct,p_correct_and_CE,20,20,conditional P_safe,0.47018648018648,1.0000000000000002,N/A,N/A,0
+8,C,0.0,Dense_correct,p_dense_agreement,20,20,fidelity only,1.0,1.0000000000000002,N/A,N/A,0
+8,C,0.0,Dense_correct,RandomExact_CE,20,20,task / CE diagnostic,0.01567316115661434,1.0000000000000002,N/A,N/A,0
+8,C,0.0,Dense_correct,delta_mean,20,20,task / CE diagnostic,-0.0002687442060984883,1.0000000000000002,N/A,N/A,0
+8,C,0.0,Dense_correct,improve_periodic_001_fraction,20,20,task / CE diagnostic,0.06561771561771561,1.0000000000000002,N/A,N/A,0
+8,C,0.0,Dense_correct,P_safe,20,20,conditional P_safe,0.47018648018648,1.0000000000000002,N/A,N/A,0
+8,C,0.0,Dense_wrong,p_correct,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,C,0.0,Dense_wrong,p_CE_nondegrade,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,C,0.0,Dense_wrong,p_correct_and_CE,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,C,0.0,Dense_wrong,p_dense_agreement,0,0,fidelity only,N/A,0.0,N/A,N/A,0
+8,C,0.0,Dense_wrong,RandomExact_CE,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,C,0.0,Dense_wrong,delta_mean,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,C,0.0,Dense_wrong,improve_periodic_001_fraction,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,C,0.01,all,p_correct,20,20,task / CE diagnostic,1.0,1.0000000000000002,N/A,N/A,0
+8,C,0.01,all,p_CE_nondegrade,20,20,task / CE diagnostic,0.9589898989898991,1.0000000000000002,N/A,N/A,0
+8,C,0.01,all,p_correct_and_CE,20,20,task / CE diagnostic,0.9589898989898991,1.0000000000000002,N/A,N/A,0
+8,C,0.01,all,p_dense_agreement,20,20,fidelity only,1.0,1.0000000000000002,N/A,N/A,0
+8,C,0.01,all,RandomExact_CE,20,20,task / CE diagnostic,0.01567316115661434,1.0000000000000002,N/A,N/A,0
+8,C,0.01,all,delta_mean,20,20,task / CE diagnostic,-0.0002687442060984883,1.0000000000000002,N/A,N/A,0
+8,C,0.01,all,improve_periodic_001_fraction,20,20,task / CE diagnostic,0.06561771561771561,1.0000000000000002,N/A,N/A,0
+8,C,0.01,Dense_correct,p_correct,20,20,task / CE diagnostic,1.0,1.0000000000000002,N/A,N/A,0
+8,C,0.01,Dense_correct,p_CE_nondegrade,20,20,task / CE diagnostic,0.9589898989898991,1.0000000000000002,N/A,N/A,0
+8,C,0.01,Dense_correct,p_correct_and_CE,20,20,conditional P_safe,0.9589898989898991,1.0000000000000002,N/A,N/A,0
+8,C,0.01,Dense_correct,p_dense_agreement,20,20,fidelity only,1.0,1.0000000000000002,N/A,N/A,0
+8,C,0.01,Dense_correct,RandomExact_CE,20,20,task / CE diagnostic,0.01567316115661434,1.0000000000000002,N/A,N/A,0
+8,C,0.01,Dense_correct,delta_mean,20,20,task / CE diagnostic,-0.0002687442060984883,1.0000000000000002,N/A,N/A,0
+8,C,0.01,Dense_correct,improve_periodic_001_fraction,20,20,task / CE diagnostic,0.06561771561771561,1.0000000000000002,N/A,N/A,0
+8,C,0.01,Dense_correct,P_safe,20,20,conditional P_safe,0.9589898989898991,1.0000000000000002,N/A,N/A,0
+8,C,0.01,Dense_wrong,p_correct,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,C,0.01,Dense_wrong,p_CE_nondegrade,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,C,0.01,Dense_wrong,p_correct_and_CE,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,C,0.01,Dense_wrong,p_dense_agreement,0,0,fidelity only,N/A,0.0,N/A,N/A,0
+8,C,0.01,Dense_wrong,RandomExact_CE,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,C,0.01,Dense_wrong,delta_mean,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,C,0.01,Dense_wrong,improve_periodic_001_fraction,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,C,0.05,all,p_correct,20,20,task / CE diagnostic,1.0,1.0000000000000002,N/A,N/A,0
+8,C,0.05,all,p_CE_nondegrade,20,20,task / CE diagnostic,0.9917249417249417,1.0000000000000002,N/A,N/A,0
+8,C,0.05,all,p_correct_and_CE,20,20,task / CE diagnostic,0.9917249417249417,1.0000000000000002,N/A,N/A,0
+8,C,0.05,all,p_dense_agreement,20,20,fidelity only,1.0,1.0000000000000002,N/A,N/A,0
+8,C,0.05,all,RandomExact_CE,20,20,task / CE diagnostic,0.01567316115661434,1.0000000000000002,N/A,N/A,0
+8,C,0.05,all,delta_mean,20,20,task / CE diagnostic,-0.0002687442060984883,1.0000000000000002,N/A,N/A,0
+8,C,0.05,all,improve_periodic_001_fraction,20,20,task / CE diagnostic,0.06561771561771561,1.0000000000000002,N/A,N/A,0
+8,C,0.05,Dense_correct,p_correct,20,20,task / CE diagnostic,1.0,1.0000000000000002,N/A,N/A,0
+8,C,0.05,Dense_correct,p_CE_nondegrade,20,20,task / CE diagnostic,0.9917249417249417,1.0000000000000002,N/A,N/A,0
+8,C,0.05,Dense_correct,p_correct_and_CE,20,20,conditional P_safe,0.9917249417249417,1.0000000000000002,N/A,N/A,0
+8,C,0.05,Dense_correct,p_dense_agreement,20,20,fidelity only,1.0,1.0000000000000002,N/A,N/A,0
+8,C,0.05,Dense_correct,RandomExact_CE,20,20,task / CE diagnostic,0.01567316115661434,1.0000000000000002,N/A,N/A,0
+8,C,0.05,Dense_correct,delta_mean,20,20,task / CE diagnostic,-0.0002687442060984883,1.0000000000000002,N/A,N/A,0
+8,C,0.05,Dense_correct,improve_periodic_001_fraction,20,20,task / CE diagnostic,0.06561771561771561,1.0000000000000002,N/A,N/A,0
+8,C,0.05,Dense_correct,P_safe,20,20,conditional P_safe,0.9917249417249417,1.0000000000000002,N/A,N/A,0
+8,C,0.05,Dense_wrong,p_correct,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,C,0.05,Dense_wrong,p_CE_nondegrade,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,C,0.05,Dense_wrong,p_correct_and_CE,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,C,0.05,Dense_wrong,p_dense_agreement,0,0,fidelity only,N/A,0.0,N/A,N/A,0
+8,C,0.05,Dense_wrong,RandomExact_CE,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,C,0.05,Dense_wrong,delta_mean,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,C,0.05,Dense_wrong,improve_periodic_001_fraction,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,U,0.0,all,p_correct,20,20,task / CE diagnostic,1.0,1.0000000000000002,N/A,N/A,0
+8,U,0.0,all,p_CE_nondegrade,20,20,task / CE diagnostic,0.492206682206682,1.0000000000000002,N/A,N/A,0
+8,U,0.0,all,p_correct_and_CE,20,20,task / CE diagnostic,0.492206682206682,1.0000000000000002,N/A,N/A,0
+8,U,0.0,all,p_dense_agreement,20,20,fidelity only,1.0,1.0000000000000002,N/A,N/A,0
+8,U,0.0,all,RandomExact_CE,20,20,task / CE diagnostic,0.015730371366489002,1.0000000000000002,N/A,N/A,0
+8,U,0.0,all,delta_mean,20,20,task / CE diagnostic,-0.0002115339962238197,1.0000000000000002,N/A,N/A,0
+8,U,0.0,all,improve_periodic_001_fraction,20,20,task / CE diagnostic,0.060046620046620036,1.0000000000000002,N/A,N/A,0
+8,U,0.0,Dense_correct,p_correct,20,20,task / CE diagnostic,1.0,1.0000000000000002,N/A,N/A,0
+8,U,0.0,Dense_correct,p_CE_nondegrade,20,20,task / CE diagnostic,0.492206682206682,1.0000000000000002,N/A,N/A,0
+8,U,0.0,Dense_correct,p_correct_and_CE,20,20,conditional P_safe,0.492206682206682,1.0000000000000002,N/A,N/A,0
+8,U,0.0,Dense_correct,p_dense_agreement,20,20,fidelity only,1.0,1.0000000000000002,N/A,N/A,0
+8,U,0.0,Dense_correct,RandomExact_CE,20,20,task / CE diagnostic,0.015730371366489002,1.0000000000000002,N/A,N/A,0
+8,U,0.0,Dense_correct,delta_mean,20,20,task / CE diagnostic,-0.0002115339962238197,1.0000000000000002,N/A,N/A,0
+8,U,0.0,Dense_correct,improve_periodic_001_fraction,20,20,task / CE diagnostic,0.060046620046620036,1.0000000000000002,N/A,N/A,0
+8,U,0.0,Dense_correct,P_safe,20,20,conditional P_safe,0.492206682206682,1.0000000000000002,N/A,N/A,0
+8,U,0.0,Dense_wrong,p_correct,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,U,0.0,Dense_wrong,p_CE_nondegrade,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,U,0.0,Dense_wrong,p_correct_and_CE,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,U,0.0,Dense_wrong,p_dense_agreement,0,0,fidelity only,N/A,0.0,N/A,N/A,0
+8,U,0.0,Dense_wrong,RandomExact_CE,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,U,0.0,Dense_wrong,delta_mean,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,U,0.0,Dense_wrong,improve_periodic_001_fraction,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,U,0.01,all,p_correct,20,20,task / CE diagnostic,1.0,1.0000000000000002,N/A,N/A,0
+8,U,0.01,all,p_CE_nondegrade,20,20,task / CE diagnostic,0.9671406371406372,1.0000000000000002,N/A,N/A,0
+8,U,0.01,all,p_correct_and_CE,20,20,task / CE diagnostic,0.9671406371406372,1.0000000000000002,N/A,N/A,0
+8,U,0.01,all,p_dense_agreement,20,20,fidelity only,1.0,1.0000000000000002,N/A,N/A,0
+8,U,0.01,all,RandomExact_CE,20,20,task / CE diagnostic,0.015730371366489002,1.0000000000000002,N/A,N/A,0
+8,U,0.01,all,delta_mean,20,20,task / CE diagnostic,-0.0002115339962238197,1.0000000000000002,N/A,N/A,0
+8,U,0.01,all,improve_periodic_001_fraction,20,20,task / CE diagnostic,0.060046620046620036,1.0000000000000002,N/A,N/A,0
+8,U,0.01,Dense_correct,p_correct,20,20,task / CE diagnostic,1.0,1.0000000000000002,N/A,N/A,0
+8,U,0.01,Dense_correct,p_CE_nondegrade,20,20,task / CE diagnostic,0.9671406371406372,1.0000000000000002,N/A,N/A,0
+8,U,0.01,Dense_correct,p_correct_and_CE,20,20,conditional P_safe,0.9671406371406372,1.0000000000000002,N/A,N/A,0
+8,U,0.01,Dense_correct,p_dense_agreement,20,20,fidelity only,1.0,1.0000000000000002,N/A,N/A,0
+8,U,0.01,Dense_correct,RandomExact_CE,20,20,task / CE diagnostic,0.015730371366489002,1.0000000000000002,N/A,N/A,0
+8,U,0.01,Dense_correct,delta_mean,20,20,task / CE diagnostic,-0.0002115339962238197,1.0000000000000002,N/A,N/A,0
+8,U,0.01,Dense_correct,improve_periodic_001_fraction,20,20,task / CE diagnostic,0.060046620046620036,1.0000000000000002,N/A,N/A,0
+8,U,0.01,Dense_correct,P_safe,20,20,conditional P_safe,0.9671406371406372,1.0000000000000002,N/A,N/A,0
+8,U,0.01,Dense_wrong,p_correct,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,U,0.01,Dense_wrong,p_CE_nondegrade,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,U,0.01,Dense_wrong,p_correct_and_CE,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,U,0.01,Dense_wrong,p_dense_agreement,0,0,fidelity only,N/A,0.0,N/A,N/A,0
+8,U,0.01,Dense_wrong,RandomExact_CE,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,U,0.01,Dense_wrong,delta_mean,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,U,0.01,Dense_wrong,improve_periodic_001_fraction,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,U,0.05,all,p_correct,20,20,task / CE diagnostic,1.0,1.0000000000000002,N/A,N/A,0
+8,U,0.05,all,p_CE_nondegrade,20,20,task / CE diagnostic,0.9940637140637141,1.0000000000000002,N/A,N/A,0
+8,U,0.05,all,p_correct_and_CE,20,20,task / CE diagnostic,0.9940637140637141,1.0000000000000002,N/A,N/A,0
+8,U,0.05,all,p_dense_agreement,20,20,fidelity only,1.0,1.0000000000000002,N/A,N/A,0
+8,U,0.05,all,RandomExact_CE,20,20,task / CE diagnostic,0.015730371366489002,1.0000000000000002,N/A,N/A,0
+8,U,0.05,all,delta_mean,20,20,task / CE diagnostic,-0.0002115339962238197,1.0000000000000002,N/A,N/A,0
+8,U,0.05,all,improve_periodic_001_fraction,20,20,task / CE diagnostic,0.060046620046620036,1.0000000000000002,N/A,N/A,0
+8,U,0.05,Dense_correct,p_correct,20,20,task / CE diagnostic,1.0,1.0000000000000002,N/A,N/A,0
+8,U,0.05,Dense_correct,p_CE_nondegrade,20,20,task / CE diagnostic,0.9940637140637141,1.0000000000000002,N/A,N/A,0
+8,U,0.05,Dense_correct,p_correct_and_CE,20,20,conditional P_safe,0.9940637140637141,1.0000000000000002,N/A,N/A,0
+8,U,0.05,Dense_correct,p_dense_agreement,20,20,fidelity only,1.0,1.0000000000000002,N/A,N/A,0
+8,U,0.05,Dense_correct,RandomExact_CE,20,20,task / CE diagnostic,0.015730371366489002,1.0000000000000002,N/A,N/A,0
+8,U,0.05,Dense_correct,delta_mean,20,20,task / CE diagnostic,-0.0002115339962238197,1.0000000000000002,N/A,N/A,0
+8,U,0.05,Dense_correct,improve_periodic_001_fraction,20,20,task / CE diagnostic,0.060046620046620036,1.0000000000000002,N/A,N/A,0
+8,U,0.05,Dense_correct,P_safe,20,20,conditional P_safe,0.9940637140637141,1.0000000000000002,N/A,N/A,0
+8,U,0.05,Dense_wrong,p_correct,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,U,0.05,Dense_wrong,p_CE_nondegrade,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,U,0.05,Dense_wrong,p_correct_and_CE,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,U,0.05,Dense_wrong,p_dense_agreement,0,0,fidelity only,N/A,0.0,N/A,N/A,0
+8,U,0.05,Dense_wrong,RandomExact_CE,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,U,0.05,Dense_wrong,delta_mean,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0
+8,U,0.05,Dense_wrong,improve_periodic_001_fraction,0,0,correction / preservation; P_safe N/A,N/A,0.0,N/A,N/A,0

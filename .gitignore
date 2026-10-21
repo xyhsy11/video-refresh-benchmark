@@ -58,6 +58,8 @@ dist/
 
 # Keep curated public snapshots; retain other results locally.
 results/*
+!results/safe_schedule_density_v1/
+!results/safe_schedule_density_v1/**
 !results/task_utility_observability_v1/
 !results/task_utility_observability_v1/**
 results/task_utility_observability_v1/run.lock

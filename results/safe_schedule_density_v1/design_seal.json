@@ -1,0 +1,24 @@
+{
+  "at_utc": "2026-10-21T04:51:28.551834+00:00",
+  "sha256": {
+    "analyze_safe_schedule_density.py": "302c92d267b8521bb7a69663082cb48f70e7405b03187869c28f3931450c6518",
+    "refresh_pooling_utils.py": "81753ed2a9cdce70d68c7dd64c03e76676c25d4997d0af754c8fdb6b6adad1fd",
+    "test_safe_schedule_density.py": "4680802df7cf9331f5fc33852edaa8bc07c71a287bc3d2f1997974a7531c989d",
+    "results/safe_schedule_density_v1/protocol.md": "7c25cba664d787dd0bb62ca720702adf17889250e867e97c231957c2900ef408",
+    "results/safe_schedule_density_v1/cohort_manifest.json": "4cf05ed8af52ffd5277e9cf2a8c083065728efcc3fb904512d03bb5debdaefc0",
+    "results/safe_schedule_density_v1/pilot_manifest.json": "368658ff9f6779be1e80d26ab3f38c7ee7d4d653dbd79f7fab3814701acaaa47",
+    "results/safe_schedule_density_v1/input_inventory.json": "e9370c8433f378b63facad95eecb5c98c9a31677c9a4d000b97af69036c147eb",
+    "results/safe_schedule_density_v1/head_inspection.json": "1ce825226129892934ad9729867e479816567ccdc1a13971fe582db953c93c5e",
+    "results/safe_schedule_density_v1/preflight.json": "cb358c6a81805cb2eedbef8ec9d30d1d3aa27215079d90022ab586e6f2577819"
+  },
+  "seed": 20261021,
+  "epsilon": [
+    0.0,
+    0.01,
+    0.05
+  ],
+  "numerical_tolerance": 1e-10,
+  "bootstrap_draws": 2000,
+  "primary": "full-population p_correct_and_CE, C K4 epsilon0",
+  "outcomes_computed": false
+}

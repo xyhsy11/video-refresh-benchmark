@@ -1,0 +1,481 @@
+clip,label,group,K,pool,epsilon,method,positions,CE,correct,dense_correct,CE_nondegrade,joint,any_joint,missed_safe,dense_agreement_fidelity_only,interpretation
+v_ApplyLipstick_g23_c01.avi,ApplyLipstick,g23,4,C,0.0,periodic,"[0, 4, 8, 12]",0.0029829187978194227,True,True,False,False,True,True,True,archived executed B4+C replay
+v_ApplyLipstick_g23_c01.avi,ApplyLipstick,g23,4,C,0.0,history,"[0, 3, 6, 10]",0.004258691400783832,True,True,False,False,True,True,True,archived executed B4+C replay
+v_ApplyLipstick_g23_c01.avi,ApplyLipstick,g23,4,C,0.0,history_motion,"[0, 5, 9, 12]",0.0037529886289391357,True,True,False,False,True,True,True,archived executed B4+C replay
+v_ApplyLipstick_g23_c01.avi,ApplyLipstick,g23,4,C,0.01,periodic,"[0, 4, 8, 12]",0.0029829187978194227,True,True,True,True,True,False,True,archived executed B4+C replay
+v_ApplyLipstick_g23_c01.avi,ApplyLipstick,g23,4,C,0.01,history,"[0, 3, 6, 10]",0.004258691400783832,True,True,True,True,True,False,True,archived executed B4+C replay
+v_ApplyLipstick_g23_c01.avi,ApplyLipstick,g23,4,C,0.01,history_motion,"[0, 5, 9, 12]",0.0037529886289391357,True,True,True,True,True,False,True,archived executed B4+C replay
+v_ApplyLipstick_g23_c01.avi,ApplyLipstick,g23,4,C,0.05,periodic,"[0, 4, 8, 12]",0.0029829187978194227,True,True,True,True,True,False,True,archived executed B4+C replay
+v_ApplyLipstick_g23_c01.avi,ApplyLipstick,g23,4,C,0.05,history,"[0, 3, 6, 10]",0.004258691400783832,True,True,True,True,True,False,True,archived executed B4+C replay
+v_ApplyLipstick_g23_c01.avi,ApplyLipstick,g23,4,C,0.05,history_motion,"[0, 5, 9, 12]",0.0037529886289391357,True,True,True,True,True,False,True,archived executed B4+C replay
+v_ApplyLipstick_g23_c01.avi,ApplyLipstick,g23,4,U,0.0,periodic,"[0, 4, 8, 12]",0.0029829187978194227,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_ApplyLipstick_g23_c01.avi,ApplyLipstick,g23,4,U,0.0,history,"[0, 3, 6, 10]",0.004108978129924168,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_ApplyLipstick_g23_c01.avi,ApplyLipstick,g23,4,U,0.0,history_motion,"[0, 5, 9, 12]",0.004005605073107432,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_ApplyLipstick_g23_c01.avi,ApplyLipstick,g23,4,U,0.01,periodic,"[0, 4, 8, 12]",0.0029829187978194227,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_ApplyLipstick_g23_c01.avi,ApplyLipstick,g23,4,U,0.01,history,"[0, 3, 6, 10]",0.004108978129924168,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_ApplyLipstick_g23_c01.avi,ApplyLipstick,g23,4,U,0.01,history_motion,"[0, 5, 9, 12]",0.004005605073107432,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_ApplyLipstick_g23_c01.avi,ApplyLipstick,g23,4,U,0.05,periodic,"[0, 4, 8, 12]",0.0029829187978194227,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_ApplyLipstick_g23_c01.avi,ApplyLipstick,g23,4,U,0.05,history,"[0, 3, 6, 10]",0.004108978129924168,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_ApplyLipstick_g23_c01.avi,ApplyLipstick,g23,4,U,0.05,history_motion,"[0, 5, 9, 12]",0.004005605073107432,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_ApplyLipstick_g23_c01.avi,ApplyLipstick,g23,8,C,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0028783451231291224,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_ApplyLipstick_g23_c01.avi,ApplyLipstick,g23,8,C,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0028783451231291224,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_ApplyLipstick_g23_c01.avi,ApplyLipstick,g23,8,C,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0028783451231291224,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_ApplyLipstick_g23_c01.avi,ApplyLipstick,g23,8,U,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0028783451231291224,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_ApplyLipstick_g23_c01.avi,ApplyLipstick,g23,8,U,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0028783451231291224,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_ApplyLipstick_g23_c01.avi,ApplyLipstick,g23,8,U,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0028783451231291224,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BandMarching_g14_c05.avi,BandMarching,g14,4,C,0.0,periodic,"[0, 4, 8, 12]",6.0494015020395864e-05,True,True,True,True,True,False,True,archived executed B4+C replay
+v_BandMarching_g14_c05.avi,BandMarching,g14,4,C,0.0,history,"[0, 3, 6, 10]",7.18773126706651e-05,True,True,False,False,True,True,True,archived executed B4+C replay
+v_BandMarching_g14_c05.avi,BandMarching,g14,4,C,0.0,history_motion,"[0, 4, 8, 12]",6.0494015020395864e-05,True,True,True,True,True,False,True,archived executed B4+C replay
+v_BandMarching_g14_c05.avi,BandMarching,g14,4,C,0.01,periodic,"[0, 4, 8, 12]",6.0494015020395864e-05,True,True,True,True,True,False,True,archived executed B4+C replay
+v_BandMarching_g14_c05.avi,BandMarching,g14,4,C,0.01,history,"[0, 3, 6, 10]",7.18773126706651e-05,True,True,True,True,True,False,True,archived executed B4+C replay
+v_BandMarching_g14_c05.avi,BandMarching,g14,4,C,0.01,history_motion,"[0, 4, 8, 12]",6.0494015020395864e-05,True,True,True,True,True,False,True,archived executed B4+C replay
+v_BandMarching_g14_c05.avi,BandMarching,g14,4,C,0.05,periodic,"[0, 4, 8, 12]",6.0494015020395864e-05,True,True,True,True,True,False,True,archived executed B4+C replay
+v_BandMarching_g14_c05.avi,BandMarching,g14,4,C,0.05,history,"[0, 3, 6, 10]",7.18773126706651e-05,True,True,True,True,True,False,True,archived executed B4+C replay
+v_BandMarching_g14_c05.avi,BandMarching,g14,4,C,0.05,history_motion,"[0, 4, 8, 12]",6.0494015020395864e-05,True,True,True,True,True,False,True,archived executed B4+C replay
+v_BandMarching_g14_c05.avi,BandMarching,g14,4,U,0.0,periodic,"[0, 4, 8, 12]",6.0494015020395864e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BandMarching_g14_c05.avi,BandMarching,g14,4,U,0.0,history,"[0, 3, 6, 10]",6.88851355725717e-05,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_BandMarching_g14_c05.avi,BandMarching,g14,4,U,0.0,history_motion,"[0, 4, 8, 12]",6.0494015020395864e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BandMarching_g14_c05.avi,BandMarching,g14,4,U,0.01,periodic,"[0, 4, 8, 12]",6.0494015020395864e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BandMarching_g14_c05.avi,BandMarching,g14,4,U,0.01,history,"[0, 3, 6, 10]",6.88851355725717e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BandMarching_g14_c05.avi,BandMarching,g14,4,U,0.01,history_motion,"[0, 4, 8, 12]",6.0494015020395864e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BandMarching_g14_c05.avi,BandMarching,g14,4,U,0.05,periodic,"[0, 4, 8, 12]",6.0494015020395864e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BandMarching_g14_c05.avi,BandMarching,g14,4,U,0.05,history,"[0, 3, 6, 10]",6.88851355725717e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BandMarching_g14_c05.avi,BandMarching,g14,4,U,0.05,history_motion,"[0, 4, 8, 12]",6.0494015020395864e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BandMarching_g14_c05.avi,BandMarching,g14,8,C,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",5.7426795883941395e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BandMarching_g14_c05.avi,BandMarching,g14,8,C,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",5.7426795883941395e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BandMarching_g14_c05.avi,BandMarching,g14,8,C,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",5.7426795883941395e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BandMarching_g14_c05.avi,BandMarching,g14,8,U,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",5.7426795883941395e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BandMarching_g14_c05.avi,BandMarching,g14,8,U,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",5.7426795883941395e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BandMarching_g14_c05.avi,BandMarching,g14,8,U,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",5.7426795883941395e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BenchPress_g11_c05.avi,BenchPress,g11,4,C,0.0,periodic,"[0, 4, 8, 12]",0.011240854686384694,True,True,False,False,True,True,True,archived executed B4+C replay
+v_BenchPress_g11_c05.avi,BenchPress,g11,4,C,0.0,history,"[0, 5, 8, 11]",0.0143275398751328,True,True,False,False,True,True,True,archived executed B4+C replay
+v_BenchPress_g11_c05.avi,BenchPress,g11,4,C,0.0,history_motion,"[0, 5, 9, 12]",0.011831774253979077,True,True,False,False,True,True,True,archived executed B4+C replay
+v_BenchPress_g11_c05.avi,BenchPress,g11,4,C,0.01,periodic,"[0, 4, 8, 12]",0.011240854686384694,True,True,True,True,True,False,True,archived executed B4+C replay
+v_BenchPress_g11_c05.avi,BenchPress,g11,4,C,0.01,history,"[0, 5, 8, 11]",0.0143275398751328,True,True,True,True,True,False,True,archived executed B4+C replay
+v_BenchPress_g11_c05.avi,BenchPress,g11,4,C,0.01,history_motion,"[0, 5, 9, 12]",0.011831774253979077,True,True,True,True,True,False,True,archived executed B4+C replay
+v_BenchPress_g11_c05.avi,BenchPress,g11,4,C,0.05,periodic,"[0, 4, 8, 12]",0.011240854686384694,True,True,True,True,True,False,True,archived executed B4+C replay
+v_BenchPress_g11_c05.avi,BenchPress,g11,4,C,0.05,history,"[0, 5, 8, 11]",0.0143275398751328,True,True,True,True,True,False,True,archived executed B4+C replay
+v_BenchPress_g11_c05.avi,BenchPress,g11,4,C,0.05,history_motion,"[0, 5, 9, 12]",0.011831774253979077,True,True,True,True,True,False,True,archived executed B4+C replay
+v_BenchPress_g11_c05.avi,BenchPress,g11,4,U,0.0,periodic,"[0, 4, 8, 12]",0.011240854686384694,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_BenchPress_g11_c05.avi,BenchPress,g11,4,U,0.0,history,"[0, 5, 8, 11]",0.01452719957642401,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_BenchPress_g11_c05.avi,BenchPress,g11,4,U,0.0,history_motion,"[0, 5, 9, 12]",0.0116504581250787,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_BenchPress_g11_c05.avi,BenchPress,g11,4,U,0.01,periodic,"[0, 4, 8, 12]",0.011240854686384694,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BenchPress_g11_c05.avi,BenchPress,g11,4,U,0.01,history,"[0, 5, 8, 11]",0.01452719957642401,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BenchPress_g11_c05.avi,BenchPress,g11,4,U,0.01,history_motion,"[0, 5, 9, 12]",0.0116504581250787,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BenchPress_g11_c05.avi,BenchPress,g11,4,U,0.05,periodic,"[0, 4, 8, 12]",0.011240854686384694,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BenchPress_g11_c05.avi,BenchPress,g11,4,U,0.05,history,"[0, 5, 8, 11]",0.01452719957642401,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BenchPress_g11_c05.avi,BenchPress,g11,4,U,0.05,history_motion,"[0, 5, 9, 12]",0.0116504581250787,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BenchPress_g11_c05.avi,BenchPress,g11,8,C,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.007221157332663708,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BenchPress_g11_c05.avi,BenchPress,g11,8,C,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.007221157332663708,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BenchPress_g11_c05.avi,BenchPress,g11,8,C,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.007221157332663708,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BenchPress_g11_c05.avi,BenchPress,g11,8,U,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.007221157332663708,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BenchPress_g11_c05.avi,BenchPress,g11,8,U,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.007221157332663708,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BenchPress_g11_c05.avi,BenchPress,g11,8,U,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.007221157332663708,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BreastStroke_g17_c02.avi,BreastStroke,g17,4,C,0.0,periodic,"[0, 4, 8, 12]",0.07262650194479114,True,True,False,False,True,True,True,archived executed B4+C replay
+v_BreastStroke_g17_c02.avi,BreastStroke,g17,4,C,0.0,history,"[0, 2, 5, 10]",0.008824917365105378,True,True,True,True,True,False,True,archived executed B4+C replay
+v_BreastStroke_g17_c02.avi,BreastStroke,g17,4,C,0.0,history_motion,"[0, 5, 8, 10]",0.01261474656245909,True,True,True,True,True,False,True,archived executed B4+C replay
+v_BreastStroke_g17_c02.avi,BreastStroke,g17,4,C,0.01,periodic,"[0, 4, 8, 12]",0.07262650194479114,True,True,False,False,True,True,True,archived executed B4+C replay
+v_BreastStroke_g17_c02.avi,BreastStroke,g17,4,C,0.01,history,"[0, 2, 5, 10]",0.008824917365105378,True,True,True,True,True,False,True,archived executed B4+C replay
+v_BreastStroke_g17_c02.avi,BreastStroke,g17,4,C,0.01,history_motion,"[0, 5, 8, 10]",0.01261474656245909,True,True,True,True,True,False,True,archived executed B4+C replay
+v_BreastStroke_g17_c02.avi,BreastStroke,g17,4,C,0.05,periodic,"[0, 4, 8, 12]",0.07262650194479114,True,True,True,True,True,False,True,archived executed B4+C replay
+v_BreastStroke_g17_c02.avi,BreastStroke,g17,4,C,0.05,history,"[0, 2, 5, 10]",0.008824917365105378,True,True,True,True,True,False,True,archived executed B4+C replay
+v_BreastStroke_g17_c02.avi,BreastStroke,g17,4,C,0.05,history_motion,"[0, 5, 8, 10]",0.01261474656245909,True,True,True,True,True,False,True,archived executed B4+C replay
+v_BreastStroke_g17_c02.avi,BreastStroke,g17,4,U,0.0,periodic,"[0, 4, 8, 12]",0.07262650194479114,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_BreastStroke_g17_c02.avi,BreastStroke,g17,4,U,0.0,history,"[0, 2, 5, 10]",0.006839154997045682,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BreastStroke_g17_c02.avi,BreastStroke,g17,4,U,0.0,history_motion,"[0, 5, 8, 10]",0.01685384734216555,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BreastStroke_g17_c02.avi,BreastStroke,g17,4,U,0.01,periodic,"[0, 4, 8, 12]",0.07262650194479114,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_BreastStroke_g17_c02.avi,BreastStroke,g17,4,U,0.01,history,"[0, 2, 5, 10]",0.006839154997045682,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BreastStroke_g17_c02.avi,BreastStroke,g17,4,U,0.01,history_motion,"[0, 5, 8, 10]",0.01685384734216555,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BreastStroke_g17_c02.avi,BreastStroke,g17,4,U,0.05,periodic,"[0, 4, 8, 12]",0.07262650194479114,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BreastStroke_g17_c02.avi,BreastStroke,g17,4,U,0.05,history,"[0, 2, 5, 10]",0.006839154997045682,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BreastStroke_g17_c02.avi,BreastStroke,g17,4,U,0.05,history_motion,"[0, 5, 8, 10]",0.01685384734216555,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BreastStroke_g17_c02.avi,BreastStroke,g17,8,C,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.05332552383160305,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_BreastStroke_g17_c02.avi,BreastStroke,g17,8,C,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.05332552383160305,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_BreastStroke_g17_c02.avi,BreastStroke,g17,8,C,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.05332552383160305,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_BreastStroke_g17_c02.avi,BreastStroke,g17,8,U,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.05332552383160305,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_BreastStroke_g17_c02.avi,BreastStroke,g17,8,U,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.05332552383160305,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_BreastStroke_g17_c02.avi,BreastStroke,g17,8,U,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.05332552383160305,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CleanAndJerk_g11_c03.avi,CleanAndJerk,g11,4,C,0.0,periodic,"[0, 4, 8, 12]",0.002022523787575281,True,True,False,False,True,True,True,archived executed B4+C replay
+v_CleanAndJerk_g11_c03.avi,CleanAndJerk,g11,4,C,0.0,history,"[0, 4, 8, 10]",0.0013889313636230582,True,True,False,False,True,True,True,archived executed B4+C replay
+v_CleanAndJerk_g11_c03.avi,CleanAndJerk,g11,4,C,0.0,history_motion,"[0, 7, 10, 13]",0.002069248559415371,True,True,False,False,True,True,True,archived executed B4+C replay
+v_CleanAndJerk_g11_c03.avi,CleanAndJerk,g11,4,C,0.01,periodic,"[0, 4, 8, 12]",0.002022523787575281,True,True,True,True,True,False,True,archived executed B4+C replay
+v_CleanAndJerk_g11_c03.avi,CleanAndJerk,g11,4,C,0.01,history,"[0, 4, 8, 10]",0.0013889313636230582,True,True,True,True,True,False,True,archived executed B4+C replay
+v_CleanAndJerk_g11_c03.avi,CleanAndJerk,g11,4,C,0.01,history_motion,"[0, 7, 10, 13]",0.002069248559415371,True,True,True,True,True,False,True,archived executed B4+C replay
+v_CleanAndJerk_g11_c03.avi,CleanAndJerk,g11,4,C,0.05,periodic,"[0, 4, 8, 12]",0.002022523787575281,True,True,True,True,True,False,True,archived executed B4+C replay
+v_CleanAndJerk_g11_c03.avi,CleanAndJerk,g11,4,C,0.05,history,"[0, 4, 8, 10]",0.0013889313636230582,True,True,True,True,True,False,True,archived executed B4+C replay
+v_CleanAndJerk_g11_c03.avi,CleanAndJerk,g11,4,C,0.05,history_motion,"[0, 7, 10, 13]",0.002069248559415371,True,True,True,True,True,False,True,archived executed B4+C replay
+v_CleanAndJerk_g11_c03.avi,CleanAndJerk,g11,4,U,0.0,periodic,"[0, 4, 8, 12]",0.002022523787575281,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_CleanAndJerk_g11_c03.avi,CleanAndJerk,g11,4,U,0.0,history,"[0, 4, 8, 10]",0.0012453059420032275,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_CleanAndJerk_g11_c03.avi,CleanAndJerk,g11,4,U,0.0,history_motion,"[0, 7, 10, 13]",0.0013601285836646326,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_CleanAndJerk_g11_c03.avi,CleanAndJerk,g11,4,U,0.01,periodic,"[0, 4, 8, 12]",0.002022523787575281,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CleanAndJerk_g11_c03.avi,CleanAndJerk,g11,4,U,0.01,history,"[0, 4, 8, 10]",0.0012453059420032275,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CleanAndJerk_g11_c03.avi,CleanAndJerk,g11,4,U,0.01,history_motion,"[0, 7, 10, 13]",0.0013601285836646326,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CleanAndJerk_g11_c03.avi,CleanAndJerk,g11,4,U,0.05,periodic,"[0, 4, 8, 12]",0.002022523787575281,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CleanAndJerk_g11_c03.avi,CleanAndJerk,g11,4,U,0.05,history,"[0, 4, 8, 10]",0.0012453059420032275,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CleanAndJerk_g11_c03.avi,CleanAndJerk,g11,4,U,0.05,history_motion,"[0, 7, 10, 13]",0.0013601285836646326,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CleanAndJerk_g11_c03.avi,CleanAndJerk,g11,8,C,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0009004837225763396,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CleanAndJerk_g11_c03.avi,CleanAndJerk,g11,8,C,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0009004837225763396,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CleanAndJerk_g11_c03.avi,CleanAndJerk,g11,8,C,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0009004837225763396,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CleanAndJerk_g11_c03.avi,CleanAndJerk,g11,8,U,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0009004837225763396,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CleanAndJerk_g11_c03.avi,CleanAndJerk,g11,8,U,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0009004837225763396,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CleanAndJerk_g11_c03.avi,CleanAndJerk,g11,8,U,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0009004837225763396,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CliffDiving_g10_c03.avi,CliffDiving,g10,4,C,0.0,periodic,"[0, 4, 8, 12]",0.00011625033507023375,True,True,False,False,True,True,True,archived executed B4+C replay
+v_CliffDiving_g10_c03.avi,CliffDiving,g10,4,C,0.0,history,"[0, 4, 8, 12]",0.00011625033507023375,True,True,False,False,True,True,True,archived executed B4+C replay
+v_CliffDiving_g10_c03.avi,CliffDiving,g10,4,C,0.0,history_motion,"[0, 4, 8, 13]",0.0001141782458393692,True,True,False,False,True,True,True,archived executed B4+C replay
+v_CliffDiving_g10_c03.avi,CliffDiving,g10,4,C,0.01,periodic,"[0, 4, 8, 12]",0.00011625033507023375,True,True,True,True,True,False,True,archived executed B4+C replay
+v_CliffDiving_g10_c03.avi,CliffDiving,g10,4,C,0.01,history,"[0, 4, 8, 12]",0.00011625033507023375,True,True,True,True,True,False,True,archived executed B4+C replay
+v_CliffDiving_g10_c03.avi,CliffDiving,g10,4,C,0.01,history_motion,"[0, 4, 8, 13]",0.0001141782458393692,True,True,True,True,True,False,True,archived executed B4+C replay
+v_CliffDiving_g10_c03.avi,CliffDiving,g10,4,C,0.05,periodic,"[0, 4, 8, 12]",0.00011625033507023375,True,True,True,True,True,False,True,archived executed B4+C replay
+v_CliffDiving_g10_c03.avi,CliffDiving,g10,4,C,0.05,history,"[0, 4, 8, 12]",0.00011625033507023375,True,True,True,True,True,False,True,archived executed B4+C replay
+v_CliffDiving_g10_c03.avi,CliffDiving,g10,4,C,0.05,history_motion,"[0, 4, 8, 13]",0.0001141782458393692,True,True,True,True,True,False,True,archived executed B4+C replay
+v_CliffDiving_g10_c03.avi,CliffDiving,g10,4,U,0.0,periodic,"[0, 4, 8, 12]",0.00011625033507023375,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_CliffDiving_g10_c03.avi,CliffDiving,g10,4,U,0.0,history,"[0, 4, 8, 12]",0.00011625033507023375,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_CliffDiving_g10_c03.avi,CliffDiving,g10,4,U,0.0,history_motion,"[0, 4, 8, 13]",9.955871805367167e-05,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_CliffDiving_g10_c03.avi,CliffDiving,g10,4,U,0.01,periodic,"[0, 4, 8, 12]",0.00011625033507023375,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CliffDiving_g10_c03.avi,CliffDiving,g10,4,U,0.01,history,"[0, 4, 8, 12]",0.00011625033507023375,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CliffDiving_g10_c03.avi,CliffDiving,g10,4,U,0.01,history_motion,"[0, 4, 8, 13]",9.955871805367167e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CliffDiving_g10_c03.avi,CliffDiving,g10,4,U,0.05,periodic,"[0, 4, 8, 12]",0.00011625033507023375,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CliffDiving_g10_c03.avi,CliffDiving,g10,4,U,0.05,history,"[0, 4, 8, 12]",0.00011625033507023375,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CliffDiving_g10_c03.avi,CliffDiving,g10,4,U,0.05,history_motion,"[0, 4, 8, 13]",9.955871805367167e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CliffDiving_g10_c03.avi,CliffDiving,g10,8,C,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",7.896822523179026e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CliffDiving_g10_c03.avi,CliffDiving,g10,8,C,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",7.896822523179026e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CliffDiving_g10_c03.avi,CliffDiving,g10,8,C,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",7.896822523179026e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CliffDiving_g10_c03.avi,CliffDiving,g10,8,U,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",7.896822523179026e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CliffDiving_g10_c03.avi,CliffDiving,g10,8,U,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",7.896822523179026e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CliffDiving_g10_c03.avi,CliffDiving,g10,8,U,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",7.896822523179026e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CuttingInKitchen_g17_c03.avi,CuttingInKitchen,g17,4,C,0.0,periodic,"[0, 4, 8, 12]",0.05369928749921549,True,True,False,False,True,True,True,archived executed B4+C replay
+v_CuttingInKitchen_g17_c03.avi,CuttingInKitchen,g17,4,C,0.0,history,"[0, 2, 5, 9]",0.03278899844737815,True,True,True,True,True,False,True,archived executed B4+C replay
+v_CuttingInKitchen_g17_c03.avi,CuttingInKitchen,g17,4,C,0.0,history_motion,"[0, 4, 8, 11]",0.04861003414636755,True,True,False,False,True,True,True,archived executed B4+C replay
+v_CuttingInKitchen_g17_c03.avi,CuttingInKitchen,g17,4,C,0.01,periodic,"[0, 4, 8, 12]",0.05369928749921549,True,True,False,False,True,True,True,archived executed B4+C replay
+v_CuttingInKitchen_g17_c03.avi,CuttingInKitchen,g17,4,C,0.01,history,"[0, 2, 5, 9]",0.03278899844737815,True,True,True,True,True,False,True,archived executed B4+C replay
+v_CuttingInKitchen_g17_c03.avi,CuttingInKitchen,g17,4,C,0.01,history_motion,"[0, 4, 8, 11]",0.04861003414636755,True,True,False,False,True,True,True,archived executed B4+C replay
+v_CuttingInKitchen_g17_c03.avi,CuttingInKitchen,g17,4,C,0.05,periodic,"[0, 4, 8, 12]",0.05369928749921549,True,True,True,True,True,False,True,archived executed B4+C replay
+v_CuttingInKitchen_g17_c03.avi,CuttingInKitchen,g17,4,C,0.05,history,"[0, 2, 5, 9]",0.03278899844737815,True,True,True,True,True,False,True,archived executed B4+C replay
+v_CuttingInKitchen_g17_c03.avi,CuttingInKitchen,g17,4,C,0.05,history_motion,"[0, 4, 8, 11]",0.04861003414636755,True,True,True,True,True,False,True,archived executed B4+C replay
+v_CuttingInKitchen_g17_c03.avi,CuttingInKitchen,g17,4,U,0.0,periodic,"[0, 4, 8, 12]",0.05369928749921549,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_CuttingInKitchen_g17_c03.avi,CuttingInKitchen,g17,4,U,0.0,history,"[0, 2, 5, 9]",0.0352326829844376,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_CuttingInKitchen_g17_c03.avi,CuttingInKitchen,g17,4,U,0.0,history_motion,"[0, 4, 8, 11]",0.05341087004296696,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_CuttingInKitchen_g17_c03.avi,CuttingInKitchen,g17,4,U,0.01,periodic,"[0, 4, 8, 12]",0.05369928749921549,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_CuttingInKitchen_g17_c03.avi,CuttingInKitchen,g17,4,U,0.01,history,"[0, 2, 5, 9]",0.0352326829844376,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CuttingInKitchen_g17_c03.avi,CuttingInKitchen,g17,4,U,0.01,history_motion,"[0, 4, 8, 11]",0.05341087004296696,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_CuttingInKitchen_g17_c03.avi,CuttingInKitchen,g17,4,U,0.05,periodic,"[0, 4, 8, 12]",0.05369928749921549,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CuttingInKitchen_g17_c03.avi,CuttingInKitchen,g17,4,U,0.05,history,"[0, 2, 5, 9]",0.0352326829844376,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CuttingInKitchen_g17_c03.avi,CuttingInKitchen,g17,4,U,0.05,history_motion,"[0, 4, 8, 11]",0.05341087004296696,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CuttingInKitchen_g17_c03.avi,CuttingInKitchen,g17,8,C,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.03971191263406837,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_CuttingInKitchen_g17_c03.avi,CuttingInKitchen,g17,8,C,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.03971191263406837,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CuttingInKitchen_g17_c03.avi,CuttingInKitchen,g17,8,C,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.03971191263406837,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CuttingInKitchen_g17_c03.avi,CuttingInKitchen,g17,8,U,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.03971191263406837,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_CuttingInKitchen_g17_c03.avi,CuttingInKitchen,g17,8,U,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.03971191263406837,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_CuttingInKitchen_g17_c03.avi,CuttingInKitchen,g17,8,U,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.03971191263406837,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Hammering_g13_c04.avi,Hammering,g13,4,C,0.0,periodic,"[0, 4, 8, 12]",0.1436050029693572,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Hammering_g13_c04.avi,Hammering,g13,4,C,0.0,history,"[0, 3, 6, 10]",0.111903532203252,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Hammering_g13_c04.avi,Hammering,g13,4,C,0.0,history_motion,"[0, 4, 7, 10]",0.12690883580469325,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Hammering_g13_c04.avi,Hammering,g13,4,C,0.01,periodic,"[0, 4, 8, 12]",0.1436050029693572,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Hammering_g13_c04.avi,Hammering,g13,4,C,0.01,history,"[0, 3, 6, 10]",0.111903532203252,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Hammering_g13_c04.avi,Hammering,g13,4,C,0.01,history_motion,"[0, 4, 7, 10]",0.12690883580469325,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Hammering_g13_c04.avi,Hammering,g13,4,C,0.05,periodic,"[0, 4, 8, 12]",0.1436050029693572,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Hammering_g13_c04.avi,Hammering,g13,4,C,0.05,history,"[0, 3, 6, 10]",0.111903532203252,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Hammering_g13_c04.avi,Hammering,g13,4,C,0.05,history_motion,"[0, 4, 7, 10]",0.12690883580469325,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Hammering_g13_c04.avi,Hammering,g13,4,U,0.0,periodic,"[0, 4, 8, 12]",0.1436050029693572,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Hammering_g13_c04.avi,Hammering,g13,4,U,0.0,history,"[0, 3, 6, 10]",0.1061453744185652,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Hammering_g13_c04.avi,Hammering,g13,4,U,0.0,history_motion,"[0, 4, 7, 10]",0.11911604660561537,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Hammering_g13_c04.avi,Hammering,g13,4,U,0.01,periodic,"[0, 4, 8, 12]",0.1436050029693572,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Hammering_g13_c04.avi,Hammering,g13,4,U,0.01,history,"[0, 3, 6, 10]",0.1061453744185652,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Hammering_g13_c04.avi,Hammering,g13,4,U,0.01,history_motion,"[0, 4, 7, 10]",0.11911604660561537,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Hammering_g13_c04.avi,Hammering,g13,4,U,0.05,periodic,"[0, 4, 8, 12]",0.1436050029693572,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Hammering_g13_c04.avi,Hammering,g13,4,U,0.05,history,"[0, 3, 6, 10]",0.1061453744185652,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Hammering_g13_c04.avi,Hammering,g13,4,U,0.05,history_motion,"[0, 4, 7, 10]",0.11911604660561537,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Hammering_g13_c04.avi,Hammering,g13,8,C,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.15607588870031996,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Hammering_g13_c04.avi,Hammering,g13,8,C,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.15607588870031996,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Hammering_g13_c04.avi,Hammering,g13,8,C,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.15607588870031996,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Hammering_g13_c04.avi,Hammering,g13,8,U,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.15607588870031996,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Hammering_g13_c04.avi,Hammering,g13,8,U,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.15607588870031996,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Hammering_g13_c04.avi,Hammering,g13,8,U,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.15607588870031996,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_HorseRace_g17_c01.avi,HorseRace,g17,4,C,0.0,periodic,"[0, 4, 8, 12]",0.00017807831061666946,True,True,True,True,True,False,True,archived executed B4+C replay
+v_HorseRace_g17_c01.avi,HorseRace,g17,4,C,0.0,history,"[0, 2, 5, 9]",0.00022868112146845476,True,True,False,False,True,True,True,archived executed B4+C replay
+v_HorseRace_g17_c01.avi,HorseRace,g17,4,C,0.0,history_motion,"[0, 3, 7, 13]",0.0001392049742392487,True,True,True,True,True,False,True,archived executed B4+C replay
+v_HorseRace_g17_c01.avi,HorseRace,g17,4,C,0.01,periodic,"[0, 4, 8, 12]",0.00017807831061666946,True,True,True,True,True,False,True,archived executed B4+C replay
+v_HorseRace_g17_c01.avi,HorseRace,g17,4,C,0.01,history,"[0, 2, 5, 9]",0.00022868112146845476,True,True,True,True,True,False,True,archived executed B4+C replay
+v_HorseRace_g17_c01.avi,HorseRace,g17,4,C,0.01,history_motion,"[0, 3, 7, 13]",0.0001392049742392487,True,True,True,True,True,False,True,archived executed B4+C replay
+v_HorseRace_g17_c01.avi,HorseRace,g17,4,C,0.05,periodic,"[0, 4, 8, 12]",0.00017807831061666946,True,True,True,True,True,False,True,archived executed B4+C replay
+v_HorseRace_g17_c01.avi,HorseRace,g17,4,C,0.05,history,"[0, 2, 5, 9]",0.00022868112146845476,True,True,True,True,True,False,True,archived executed B4+C replay
+v_HorseRace_g17_c01.avi,HorseRace,g17,4,C,0.05,history_motion,"[0, 3, 7, 13]",0.0001392049742392487,True,True,True,True,True,False,True,archived executed B4+C replay
+v_HorseRace_g17_c01.avi,HorseRace,g17,4,U,0.0,periodic,"[0, 4, 8, 12]",0.00017807831061666946,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_HorseRace_g17_c01.avi,HorseRace,g17,4,U,0.0,history,"[0, 2, 5, 9]",0.00030315114124590536,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_HorseRace_g17_c01.avi,HorseRace,g17,4,U,0.0,history_motion,"[0, 3, 7, 13]",0.00019678562789948728,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_HorseRace_g17_c01.avi,HorseRace,g17,4,U,0.01,periodic,"[0, 4, 8, 12]",0.00017807831061666946,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_HorseRace_g17_c01.avi,HorseRace,g17,4,U,0.01,history,"[0, 2, 5, 9]",0.00030315114124590536,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_HorseRace_g17_c01.avi,HorseRace,g17,4,U,0.01,history_motion,"[0, 3, 7, 13]",0.00019678562789948728,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_HorseRace_g17_c01.avi,HorseRace,g17,4,U,0.05,periodic,"[0, 4, 8, 12]",0.00017807831061666946,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_HorseRace_g17_c01.avi,HorseRace,g17,4,U,0.05,history,"[0, 2, 5, 9]",0.00030315114124590536,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_HorseRace_g17_c01.avi,HorseRace,g17,4,U,0.05,history_motion,"[0, 3, 7, 13]",0.00019678562789948728,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_HorseRace_g17_c01.avi,HorseRace,g17,8,C,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0002177982143241053,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_HorseRace_g17_c01.avi,HorseRace,g17,8,C,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0002177982143241053,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_HorseRace_g17_c01.avi,HorseRace,g17,8,C,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0002177982143241053,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_HorseRace_g17_c01.avi,HorseRace,g17,8,U,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0002177982143241053,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_HorseRace_g17_c01.avi,HorseRace,g17,8,U,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0002177982143241053,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_HorseRace_g17_c01.avi,HorseRace,g17,8,U,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0002177982143241053,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_MoppingFloor_g12_c03.avi,MoppingFloor,g12,4,C,0.0,periodic,"[0, 4, 8, 12]",0.0009934333952887897,True,True,True,True,True,False,True,archived executed B4+C replay
+v_MoppingFloor_g12_c03.avi,MoppingFloor,g12,4,C,0.0,history,"[0, 3, 7, 11]",0.002773072076539762,True,True,True,True,True,False,True,archived executed B4+C replay
+v_MoppingFloor_g12_c03.avi,MoppingFloor,g12,4,C,0.0,history_motion,"[0, 6, 11, 14]",0.0017366575856510025,True,True,True,True,True,False,True,archived executed B4+C replay
+v_MoppingFloor_g12_c03.avi,MoppingFloor,g12,4,C,0.01,periodic,"[0, 4, 8, 12]",0.0009934333952887897,True,True,True,True,True,False,True,archived executed B4+C replay
+v_MoppingFloor_g12_c03.avi,MoppingFloor,g12,4,C,0.01,history,"[0, 3, 7, 11]",0.002773072076539762,True,True,True,True,True,False,True,archived executed B4+C replay
+v_MoppingFloor_g12_c03.avi,MoppingFloor,g12,4,C,0.01,history_motion,"[0, 6, 11, 14]",0.0017366575856510025,True,True,True,True,True,False,True,archived executed B4+C replay
+v_MoppingFloor_g12_c03.avi,MoppingFloor,g12,4,C,0.05,periodic,"[0, 4, 8, 12]",0.0009934333952887897,True,True,True,True,True,False,True,archived executed B4+C replay
+v_MoppingFloor_g12_c03.avi,MoppingFloor,g12,4,C,0.05,history,"[0, 3, 7, 11]",0.002773072076539762,True,True,True,True,True,False,True,archived executed B4+C replay
+v_MoppingFloor_g12_c03.avi,MoppingFloor,g12,4,C,0.05,history_motion,"[0, 6, 11, 14]",0.0017366575856510025,True,True,True,True,True,False,True,archived executed B4+C replay
+v_MoppingFloor_g12_c03.avi,MoppingFloor,g12,4,U,0.0,periodic,"[0, 4, 8, 12]",0.0009934333952887897,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_MoppingFloor_g12_c03.avi,MoppingFloor,g12,4,U,0.0,history,"[0, 3, 7, 11]",0.00211918723673854,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_MoppingFloor_g12_c03.avi,MoppingFloor,g12,4,U,0.0,history_motion,"[0, 6, 11, 14]",0.0034999059957687706,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_MoppingFloor_g12_c03.avi,MoppingFloor,g12,4,U,0.01,periodic,"[0, 4, 8, 12]",0.0009934333952887897,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_MoppingFloor_g12_c03.avi,MoppingFloor,g12,4,U,0.01,history,"[0, 3, 7, 11]",0.00211918723673854,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_MoppingFloor_g12_c03.avi,MoppingFloor,g12,4,U,0.01,history_motion,"[0, 6, 11, 14]",0.0034999059957687706,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_MoppingFloor_g12_c03.avi,MoppingFloor,g12,4,U,0.05,periodic,"[0, 4, 8, 12]",0.0009934333952887897,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_MoppingFloor_g12_c03.avi,MoppingFloor,g12,4,U,0.05,history,"[0, 3, 7, 11]",0.00211918723673854,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_MoppingFloor_g12_c03.avi,MoppingFloor,g12,4,U,0.05,history_motion,"[0, 6, 11, 14]",0.0034999059957687706,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_MoppingFloor_g12_c03.avi,MoppingFloor,g12,8,C,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0017421586817398804,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_MoppingFloor_g12_c03.avi,MoppingFloor,g12,8,C,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0017421586817398804,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_MoppingFloor_g12_c03.avi,MoppingFloor,g12,8,C,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0017421586817398804,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_MoppingFloor_g12_c03.avi,MoppingFloor,g12,8,U,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0017421586817398804,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_MoppingFloor_g12_c03.avi,MoppingFloor,g12,8,U,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0017421586817398804,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_MoppingFloor_g12_c03.avi,MoppingFloor,g12,8,U,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0017421586817398804,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_ParallelBars_g13_c01.avi,ParallelBars,g13,4,C,0.0,periodic,"[0, 4, 8, 12]",0.00018459227278455614,True,True,True,True,True,False,True,archived executed B4+C replay
+v_ParallelBars_g13_c01.avi,ParallelBars,g13,4,C,0.0,history,"[0, 1, 4, 9]",0.0024417343359210975,True,True,False,False,True,True,True,archived executed B4+C replay
+v_ParallelBars_g13_c01.avi,ParallelBars,g13,4,C,0.0,history_motion,"[0, 2, 5, 11]",0.0005375498166806381,True,True,False,False,True,True,True,archived executed B4+C replay
+v_ParallelBars_g13_c01.avi,ParallelBars,g13,4,C,0.01,periodic,"[0, 4, 8, 12]",0.00018459227278455614,True,True,True,True,True,False,True,archived executed B4+C replay
+v_ParallelBars_g13_c01.avi,ParallelBars,g13,4,C,0.01,history,"[0, 1, 4, 9]",0.0024417343359210975,True,True,True,True,True,False,True,archived executed B4+C replay
+v_ParallelBars_g13_c01.avi,ParallelBars,g13,4,C,0.01,history_motion,"[0, 2, 5, 11]",0.0005375498166806381,True,True,True,True,True,False,True,archived executed B4+C replay
+v_ParallelBars_g13_c01.avi,ParallelBars,g13,4,C,0.05,periodic,"[0, 4, 8, 12]",0.00018459227278455614,True,True,True,True,True,False,True,archived executed B4+C replay
+v_ParallelBars_g13_c01.avi,ParallelBars,g13,4,C,0.05,history,"[0, 1, 4, 9]",0.0024417343359210975,True,True,True,True,True,False,True,archived executed B4+C replay
+v_ParallelBars_g13_c01.avi,ParallelBars,g13,4,C,0.05,history_motion,"[0, 2, 5, 11]",0.0005375498166806381,True,True,True,True,True,False,True,archived executed B4+C replay
+v_ParallelBars_g13_c01.avi,ParallelBars,g13,4,U,0.0,periodic,"[0, 4, 8, 12]",0.00018459227278455614,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_ParallelBars_g13_c01.avi,ParallelBars,g13,4,U,0.0,history,"[0, 1, 4, 9]",0.0020236307308909574,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_ParallelBars_g13_c01.avi,ParallelBars,g13,4,U,0.0,history_motion,"[0, 2, 5, 11]",0.0007096492391980291,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_ParallelBars_g13_c01.avi,ParallelBars,g13,4,U,0.01,periodic,"[0, 4, 8, 12]",0.00018459227278455614,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_ParallelBars_g13_c01.avi,ParallelBars,g13,4,U,0.01,history,"[0, 1, 4, 9]",0.0020236307308909574,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_ParallelBars_g13_c01.avi,ParallelBars,g13,4,U,0.01,history_motion,"[0, 2, 5, 11]",0.0007096492391980291,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_ParallelBars_g13_c01.avi,ParallelBars,g13,4,U,0.05,periodic,"[0, 4, 8, 12]",0.00018459227278455614,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_ParallelBars_g13_c01.avi,ParallelBars,g13,4,U,0.05,history,"[0, 1, 4, 9]",0.0020236307308909574,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_ParallelBars_g13_c01.avi,ParallelBars,g13,4,U,0.05,history_motion,"[0, 2, 5, 11]",0.0007096492391980291,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_ParallelBars_g13_c01.avi,ParallelBars,g13,8,C,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.00021093500425450884,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_ParallelBars_g13_c01.avi,ParallelBars,g13,8,C,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.00021093500425450884,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_ParallelBars_g13_c01.avi,ParallelBars,g13,8,C,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.00021093500425450884,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_ParallelBars_g13_c01.avi,ParallelBars,g13,8,U,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.00021093500425450884,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_ParallelBars_g13_c01.avi,ParallelBars,g13,8,U,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.00021093500425450884,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_ParallelBars_g13_c01.avi,ParallelBars,g13,8,U,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.00021093500425450884,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingDhol_g15_c01.avi,PlayingDhol,g15,4,C,0.0,periodic,"[0, 4, 8, 12]",0.0007913083048762815,True,True,True,True,True,False,True,archived executed B4+C replay
+v_PlayingDhol_g15_c01.avi,PlayingDhol,g15,4,C,0.0,history,"[0, 3, 6, 10]",0.0011135264475115036,True,True,False,False,True,True,True,archived executed B4+C replay
+v_PlayingDhol_g15_c01.avi,PlayingDhol,g15,4,C,0.0,history_motion,"[0, 5, 9, 13]",0.0008169487766842565,True,True,True,True,True,False,True,archived executed B4+C replay
+v_PlayingDhol_g15_c01.avi,PlayingDhol,g15,4,C,0.01,periodic,"[0, 4, 8, 12]",0.0007913083048762815,True,True,True,True,True,False,True,archived executed B4+C replay
+v_PlayingDhol_g15_c01.avi,PlayingDhol,g15,4,C,0.01,history,"[0, 3, 6, 10]",0.0011135264475115036,True,True,True,True,True,False,True,archived executed B4+C replay
+v_PlayingDhol_g15_c01.avi,PlayingDhol,g15,4,C,0.01,history_motion,"[0, 5, 9, 13]",0.0008169487766842565,True,True,True,True,True,False,True,archived executed B4+C replay
+v_PlayingDhol_g15_c01.avi,PlayingDhol,g15,4,C,0.05,periodic,"[0, 4, 8, 12]",0.0007913083048762815,True,True,True,True,True,False,True,archived executed B4+C replay
+v_PlayingDhol_g15_c01.avi,PlayingDhol,g15,4,C,0.05,history,"[0, 3, 6, 10]",0.0011135264475115036,True,True,True,True,True,False,True,archived executed B4+C replay
+v_PlayingDhol_g15_c01.avi,PlayingDhol,g15,4,C,0.05,history_motion,"[0, 5, 9, 13]",0.0008169487766842565,True,True,True,True,True,False,True,archived executed B4+C replay
+v_PlayingDhol_g15_c01.avi,PlayingDhol,g15,4,U,0.0,periodic,"[0, 4, 8, 12]",0.0007913083048762815,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingDhol_g15_c01.avi,PlayingDhol,g15,4,U,0.0,history,"[0, 3, 6, 10]",0.0011380699367897762,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_PlayingDhol_g15_c01.avi,PlayingDhol,g15,4,U,0.0,history_motion,"[0, 5, 9, 13]",0.0008292203796038677,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingDhol_g15_c01.avi,PlayingDhol,g15,4,U,0.01,periodic,"[0, 4, 8, 12]",0.0007913083048762815,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingDhol_g15_c01.avi,PlayingDhol,g15,4,U,0.01,history,"[0, 3, 6, 10]",0.0011380699367897762,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingDhol_g15_c01.avi,PlayingDhol,g15,4,U,0.01,history_motion,"[0, 5, 9, 13]",0.0008292203796038677,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingDhol_g15_c01.avi,PlayingDhol,g15,4,U,0.05,periodic,"[0, 4, 8, 12]",0.0007913083048762815,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingDhol_g15_c01.avi,PlayingDhol,g15,4,U,0.05,history,"[0, 3, 6, 10]",0.0011380699367897762,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingDhol_g15_c01.avi,PlayingDhol,g15,4,U,0.05,history_motion,"[0, 5, 9, 13]",0.0008292203796038677,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingDhol_g15_c01.avi,PlayingDhol,g15,8,C,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0010502753088683647,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_PlayingDhol_g15_c01.avi,PlayingDhol,g15,8,C,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0010502753088683647,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingDhol_g15_c01.avi,PlayingDhol,g15,8,C,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0010502753088683647,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingDhol_g15_c01.avi,PlayingDhol,g15,8,U,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0010502753088683647,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_PlayingDhol_g15_c01.avi,PlayingDhol,g15,8,U,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0010502753088683647,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingDhol_g15_c01.avi,PlayingDhol,g15,8,U,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0010502753088683647,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingFlute_g15_c01.avi,PlayingFlute,g15,4,C,0.0,periodic,"[0, 4, 8, 12]",0.022539399205777855,True,True,False,False,True,True,True,archived executed B4+C replay
+v_PlayingFlute_g15_c01.avi,PlayingFlute,g15,4,C,0.0,history,"[0, 3, 6, 10]",0.0073153294721954865,True,True,True,True,True,False,True,archived executed B4+C replay
+v_PlayingFlute_g15_c01.avi,PlayingFlute,g15,4,C,0.0,history_motion,"[0, 4, 7, 10]",0.008201106386856338,True,True,True,True,True,False,True,archived executed B4+C replay
+v_PlayingFlute_g15_c01.avi,PlayingFlute,g15,4,C,0.01,periodic,"[0, 4, 8, 12]",0.022539399205777855,True,True,True,True,True,False,True,archived executed B4+C replay
+v_PlayingFlute_g15_c01.avi,PlayingFlute,g15,4,C,0.01,history,"[0, 3, 6, 10]",0.0073153294721954865,True,True,True,True,True,False,True,archived executed B4+C replay
+v_PlayingFlute_g15_c01.avi,PlayingFlute,g15,4,C,0.01,history_motion,"[0, 4, 7, 10]",0.008201106386856338,True,True,True,True,True,False,True,archived executed B4+C replay
+v_PlayingFlute_g15_c01.avi,PlayingFlute,g15,4,C,0.05,periodic,"[0, 4, 8, 12]",0.022539399205777855,True,True,True,True,True,False,True,archived executed B4+C replay
+v_PlayingFlute_g15_c01.avi,PlayingFlute,g15,4,C,0.05,history,"[0, 3, 6, 10]",0.0073153294721954865,True,True,True,True,True,False,True,archived executed B4+C replay
+v_PlayingFlute_g15_c01.avi,PlayingFlute,g15,4,C,0.05,history_motion,"[0, 4, 7, 10]",0.008201106386856338,True,True,True,True,True,False,True,archived executed B4+C replay
+v_PlayingFlute_g15_c01.avi,PlayingFlute,g15,4,U,0.0,periodic,"[0, 4, 8, 12]",0.022539399205777855,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_PlayingFlute_g15_c01.avi,PlayingFlute,g15,4,U,0.0,history,"[0, 3, 6, 10]",0.008970212338745398,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingFlute_g15_c01.avi,PlayingFlute,g15,4,U,0.0,history_motion,"[0, 4, 7, 10]",0.008928520277862617,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingFlute_g15_c01.avi,PlayingFlute,g15,4,U,0.01,periodic,"[0, 4, 8, 12]",0.022539399205777855,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingFlute_g15_c01.avi,PlayingFlute,g15,4,U,0.01,history,"[0, 3, 6, 10]",0.008970212338745398,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingFlute_g15_c01.avi,PlayingFlute,g15,4,U,0.01,history_motion,"[0, 4, 7, 10]",0.008928520277862617,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingFlute_g15_c01.avi,PlayingFlute,g15,4,U,0.05,periodic,"[0, 4, 8, 12]",0.022539399205777855,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingFlute_g15_c01.avi,PlayingFlute,g15,4,U,0.05,history,"[0, 3, 6, 10]",0.008970212338745398,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingFlute_g15_c01.avi,PlayingFlute,g15,4,U,0.05,history_motion,"[0, 4, 7, 10]",0.008928520277862617,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingFlute_g15_c01.avi,PlayingFlute,g15,8,C,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.014383355150540567,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_PlayingFlute_g15_c01.avi,PlayingFlute,g15,8,C,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.014383355150540567,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingFlute_g15_c01.avi,PlayingFlute,g15,8,C,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.014383355150540567,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingFlute_g15_c01.avi,PlayingFlute,g15,8,U,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.014383355150540567,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_PlayingFlute_g15_c01.avi,PlayingFlute,g15,8,U,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.014383355150540567,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingFlute_g15_c01.avi,PlayingFlute,g15,8,U,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.014383355150540567,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingPiano_g09_c04.avi,PlayingPiano,g09,4,C,0.0,periodic,"[0, 4, 8, 12]",0.03857865849321662,True,True,False,False,True,True,True,archived executed B4+C replay
+v_PlayingPiano_g09_c04.avi,PlayingPiano,g09,4,C,0.0,history,"[0, 3, 6, 10]",0.045430836141422404,True,True,False,False,True,True,True,archived executed B4+C replay
+v_PlayingPiano_g09_c04.avi,PlayingPiano,g09,4,C,0.0,history_motion,"[0, 4, 7, 11]",0.03690413714818774,True,True,True,True,True,False,True,archived executed B4+C replay
+v_PlayingPiano_g09_c04.avi,PlayingPiano,g09,4,C,0.01,periodic,"[0, 4, 8, 12]",0.03857865849321662,True,True,True,True,True,False,True,archived executed B4+C replay
+v_PlayingPiano_g09_c04.avi,PlayingPiano,g09,4,C,0.01,history,"[0, 3, 6, 10]",0.045430836141422404,True,True,True,True,True,False,True,archived executed B4+C replay
+v_PlayingPiano_g09_c04.avi,PlayingPiano,g09,4,C,0.01,history_motion,"[0, 4, 7, 11]",0.03690413714818774,True,True,True,True,True,False,True,archived executed B4+C replay
+v_PlayingPiano_g09_c04.avi,PlayingPiano,g09,4,C,0.05,periodic,"[0, 4, 8, 12]",0.03857865849321662,True,True,True,True,True,False,True,archived executed B4+C replay
+v_PlayingPiano_g09_c04.avi,PlayingPiano,g09,4,C,0.05,history,"[0, 3, 6, 10]",0.045430836141422404,True,True,True,True,True,False,True,archived executed B4+C replay
+v_PlayingPiano_g09_c04.avi,PlayingPiano,g09,4,C,0.05,history_motion,"[0, 4, 7, 11]",0.03690413714818774,True,True,True,True,True,False,True,archived executed B4+C replay
+v_PlayingPiano_g09_c04.avi,PlayingPiano,g09,4,U,0.0,periodic,"[0, 4, 8, 12]",0.03857865849321662,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_PlayingPiano_g09_c04.avi,PlayingPiano,g09,4,U,0.0,history,"[0, 3, 6, 10]",0.04574403948742578,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_PlayingPiano_g09_c04.avi,PlayingPiano,g09,4,U,0.0,history_motion,"[0, 4, 7, 11]",0.038334973549707385,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_PlayingPiano_g09_c04.avi,PlayingPiano,g09,4,U,0.01,periodic,"[0, 4, 8, 12]",0.03857865849321662,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingPiano_g09_c04.avi,PlayingPiano,g09,4,U,0.01,history,"[0, 3, 6, 10]",0.04574403948742578,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingPiano_g09_c04.avi,PlayingPiano,g09,4,U,0.01,history_motion,"[0, 4, 7, 11]",0.038334973549707385,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingPiano_g09_c04.avi,PlayingPiano,g09,4,U,0.05,periodic,"[0, 4, 8, 12]",0.03857865849321662,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingPiano_g09_c04.avi,PlayingPiano,g09,4,U,0.05,history,"[0, 3, 6, 10]",0.04574403948742578,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingPiano_g09_c04.avi,PlayingPiano,g09,4,U,0.05,history_motion,"[0, 4, 7, 11]",0.038334973549707385,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingPiano_g09_c04.avi,PlayingPiano,g09,8,C,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0363932514051708,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingPiano_g09_c04.avi,PlayingPiano,g09,8,C,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0363932514051708,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingPiano_g09_c04.avi,PlayingPiano,g09,8,C,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0363932514051708,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingPiano_g09_c04.avi,PlayingPiano,g09,8,U,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0363932514051708,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingPiano_g09_c04.avi,PlayingPiano,g09,8,U,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0363932514051708,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_PlayingPiano_g09_c04.avi,PlayingPiano,g09,8,U,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0363932514051708,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_RopeClimbing_g24_c03.avi,RopeClimbing,g24,4,C,0.0,periodic,"[0, 4, 8, 12]",7.854590720057786e-07,True,True,True,True,True,False,True,archived executed B4+C replay
+v_RopeClimbing_g24_c03.avi,RopeClimbing,g24,4,C,0.0,history,"[0, 5, 9, 12]",6.549952260570535e-07,True,True,True,True,True,False,True,archived executed B4+C replay
+v_RopeClimbing_g24_c03.avi,RopeClimbing,g24,4,C,0.0,history_motion,"[0, 9, 14, 15]",7.434030209196862e-07,True,True,True,True,True,False,True,archived executed B4+C replay
+v_RopeClimbing_g24_c03.avi,RopeClimbing,g24,4,C,0.01,periodic,"[0, 4, 8, 12]",7.854590720057786e-07,True,True,True,True,True,False,True,archived executed B4+C replay
+v_RopeClimbing_g24_c03.avi,RopeClimbing,g24,4,C,0.01,history,"[0, 5, 9, 12]",6.549952260570535e-07,True,True,True,True,True,False,True,archived executed B4+C replay
+v_RopeClimbing_g24_c03.avi,RopeClimbing,g24,4,C,0.01,history_motion,"[0, 9, 14, 15]",7.434030209196862e-07,True,True,True,True,True,False,True,archived executed B4+C replay
+v_RopeClimbing_g24_c03.avi,RopeClimbing,g24,4,C,0.05,periodic,"[0, 4, 8, 12]",7.854590720057786e-07,True,True,True,True,True,False,True,archived executed B4+C replay
+v_RopeClimbing_g24_c03.avi,RopeClimbing,g24,4,C,0.05,history,"[0, 5, 9, 12]",6.549952260570535e-07,True,True,True,True,True,False,True,archived executed B4+C replay
+v_RopeClimbing_g24_c03.avi,RopeClimbing,g24,4,C,0.05,history_motion,"[0, 9, 14, 15]",7.434030209196862e-07,True,True,True,True,True,False,True,archived executed B4+C replay
+v_RopeClimbing_g24_c03.avi,RopeClimbing,g24,4,U,0.0,periodic,"[0, 4, 8, 12]",7.854590720057786e-07,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_RopeClimbing_g24_c03.avi,RopeClimbing,g24,4,U,0.0,history,"[0, 5, 9, 12]",7.078145820571535e-07,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_RopeClimbing_g24_c03.avi,RopeClimbing,g24,4,U,0.0,history_motion,"[0, 9, 14, 15]",6.851618188363773e-07,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_RopeClimbing_g24_c03.avi,RopeClimbing,g24,4,U,0.01,periodic,"[0, 4, 8, 12]",7.854590720057786e-07,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_RopeClimbing_g24_c03.avi,RopeClimbing,g24,4,U,0.01,history,"[0, 5, 9, 12]",7.078145820571535e-07,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_RopeClimbing_g24_c03.avi,RopeClimbing,g24,4,U,0.01,history_motion,"[0, 9, 14, 15]",6.851618188363773e-07,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_RopeClimbing_g24_c03.avi,RopeClimbing,g24,4,U,0.05,periodic,"[0, 4, 8, 12]",7.854590720057786e-07,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_RopeClimbing_g24_c03.avi,RopeClimbing,g24,4,U,0.05,history,"[0, 5, 9, 12]",7.078145820571535e-07,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_RopeClimbing_g24_c03.avi,RopeClimbing,g24,4,U,0.05,history_motion,"[0, 9, 14, 15]",6.851618188363773e-07,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_RopeClimbing_g24_c03.avi,RopeClimbing,g24,8,C,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",9.908321665363928e-07,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_RopeClimbing_g24_c03.avi,RopeClimbing,g24,8,C,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",9.908321665363928e-07,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_RopeClimbing_g24_c03.avi,RopeClimbing,g24,8,C,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",9.908321665363928e-07,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_RopeClimbing_g24_c03.avi,RopeClimbing,g24,8,U,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",9.908321665363928e-07,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_RopeClimbing_g24_c03.avi,RopeClimbing,g24,8,U,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",9.908321665363928e-07,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_RopeClimbing_g24_c03.avi,RopeClimbing,g24,8,U,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",9.908321665363928e-07,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Shotput_g13_c04.avi,Shotput,g13,4,C,0.0,periodic,"[0, 4, 8, 12]",0.0005901118557751772,True,True,False,False,True,True,True,archived executed B4+C replay
+v_Shotput_g13_c04.avi,Shotput,g13,4,C,0.0,history,"[0, 4, 8, 12]",0.0005901118557751772,True,True,False,False,True,True,True,archived executed B4+C replay
+v_Shotput_g13_c04.avi,Shotput,g13,4,C,0.0,history_motion,"[0, 5, 10, 15]",0.0007226359401784066,True,True,False,False,True,True,True,archived executed B4+C replay
+v_Shotput_g13_c04.avi,Shotput,g13,4,C,0.01,periodic,"[0, 4, 8, 12]",0.0005901118557751772,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Shotput_g13_c04.avi,Shotput,g13,4,C,0.01,history,"[0, 4, 8, 12]",0.0005901118557751772,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Shotput_g13_c04.avi,Shotput,g13,4,C,0.01,history_motion,"[0, 5, 10, 15]",0.0007226359401784066,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Shotput_g13_c04.avi,Shotput,g13,4,C,0.05,periodic,"[0, 4, 8, 12]",0.0005901118557751772,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Shotput_g13_c04.avi,Shotput,g13,4,C,0.05,history,"[0, 4, 8, 12]",0.0005901118557751772,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Shotput_g13_c04.avi,Shotput,g13,4,C,0.05,history_motion,"[0, 5, 10, 15]",0.0007226359401784066,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Shotput_g13_c04.avi,Shotput,g13,4,U,0.0,periodic,"[0, 4, 8, 12]",0.0005901118557751772,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_Shotput_g13_c04.avi,Shotput,g13,4,U,0.0,history,"[0, 4, 8, 12]",0.0005901118557751772,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_Shotput_g13_c04.avi,Shotput,g13,4,U,0.0,history_motion,"[0, 5, 10, 15]",0.0006201657535704896,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_Shotput_g13_c04.avi,Shotput,g13,4,U,0.01,periodic,"[0, 4, 8, 12]",0.0005901118557751772,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Shotput_g13_c04.avi,Shotput,g13,4,U,0.01,history,"[0, 4, 8, 12]",0.0005901118557751772,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Shotput_g13_c04.avi,Shotput,g13,4,U,0.01,history_motion,"[0, 5, 10, 15]",0.0006201657535704896,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Shotput_g13_c04.avi,Shotput,g13,4,U,0.05,periodic,"[0, 4, 8, 12]",0.0005901118557751772,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Shotput_g13_c04.avi,Shotput,g13,4,U,0.05,history,"[0, 4, 8, 12]",0.0005901118557751772,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Shotput_g13_c04.avi,Shotput,g13,4,U,0.05,history_motion,"[0, 5, 10, 15]",0.0006201657535704896,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Shotput_g13_c04.avi,Shotput,g13,8,C,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0005037885082828097,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Shotput_g13_c04.avi,Shotput,g13,8,C,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0005037885082828097,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Shotput_g13_c04.avi,Shotput,g13,8,C,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0005037885082828097,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Shotput_g13_c04.avi,Shotput,g13,8,U,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0005037885082828097,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Shotput_g13_c04.avi,Shotput,g13,8,U,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0005037885082828097,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Shotput_g13_c04.avi,Shotput,g13,8,U,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0005037885082828097,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Skiing_g20_c07.avi,Skiing,g20,4,C,0.0,periodic,"[0, 4, 8, 12]",0.0002037541668897802,True,True,False,False,True,True,True,archived executed B4+C replay
+v_Skiing_g20_c07.avi,Skiing,g20,4,C,0.0,history,"[0, 2, 6, 11]",0.00014773781056121038,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Skiing_g20_c07.avi,Skiing,g20,4,C,0.0,history_motion,"[0, 3, 7, 13]",0.00013592487086810934,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Skiing_g20_c07.avi,Skiing,g20,4,C,0.01,periodic,"[0, 4, 8, 12]",0.0002037541668897802,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Skiing_g20_c07.avi,Skiing,g20,4,C,0.01,history,"[0, 2, 6, 11]",0.00014773781056121038,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Skiing_g20_c07.avi,Skiing,g20,4,C,0.01,history_motion,"[0, 3, 7, 13]",0.00013592487086810934,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Skiing_g20_c07.avi,Skiing,g20,4,C,0.05,periodic,"[0, 4, 8, 12]",0.0002037541668897802,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Skiing_g20_c07.avi,Skiing,g20,4,C,0.05,history,"[0, 2, 6, 11]",0.00014773781056121038,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Skiing_g20_c07.avi,Skiing,g20,4,C,0.05,history_motion,"[0, 3, 7, 13]",0.00013592487086810934,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Skiing_g20_c07.avi,Skiing,g20,4,U,0.0,periodic,"[0, 4, 8, 12]",0.0002037541668897802,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_Skiing_g20_c07.avi,Skiing,g20,4,U,0.0,history,"[0, 2, 6, 11]",0.00014080036138963692,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Skiing_g20_c07.avi,Skiing,g20,4,U,0.0,history_motion,"[0, 3, 7, 13]",0.00014980298617217613,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Skiing_g20_c07.avi,Skiing,g20,4,U,0.01,periodic,"[0, 4, 8, 12]",0.0002037541668897802,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Skiing_g20_c07.avi,Skiing,g20,4,U,0.01,history,"[0, 2, 6, 11]",0.00014080036138963692,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Skiing_g20_c07.avi,Skiing,g20,4,U,0.01,history_motion,"[0, 3, 7, 13]",0.00014980298617217613,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Skiing_g20_c07.avi,Skiing,g20,4,U,0.05,periodic,"[0, 4, 8, 12]",0.0002037541668897802,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Skiing_g20_c07.avi,Skiing,g20,4,U,0.05,history,"[0, 2, 6, 11]",0.00014080036138963692,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Skiing_g20_c07.avi,Skiing,g20,4,U,0.05,history_motion,"[0, 3, 7, 13]",0.00014980298617217613,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Skiing_g20_c07.avi,Skiing,g20,8,C,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0001440487031096893,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Skiing_g20_c07.avi,Skiing,g20,8,C,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0001440487031096893,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Skiing_g20_c07.avi,Skiing,g20,8,C,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0001440487031096893,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Skiing_g20_c07.avi,Skiing,g20,8,U,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0001440487031096893,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Skiing_g20_c07.avi,Skiing,g20,8,U,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0001440487031096893,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Skiing_g20_c07.avi,Skiing,g20,8,U,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0001440487031096893,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_StillRings_g25_c06.avi,StillRings,g25,4,C,0.0,periodic,"[0, 4, 8, 12]",0.0005583004227851518,True,True,False,False,True,True,True,archived executed B4+C replay
+v_StillRings_g25_c06.avi,StillRings,g25,4,C,0.0,history,"[0, 3, 7, 12]",0.0006754804105089107,True,True,False,False,True,True,True,archived executed B4+C replay
+v_StillRings_g25_c06.avi,StillRings,g25,4,C,0.0,history_motion,"[0, 3, 6, 12]",0.00032955453561100967,True,True,True,True,True,False,True,archived executed B4+C replay
+v_StillRings_g25_c06.avi,StillRings,g25,4,C,0.01,periodic,"[0, 4, 8, 12]",0.0005583004227851518,True,True,True,True,True,False,True,archived executed B4+C replay
+v_StillRings_g25_c06.avi,StillRings,g25,4,C,0.01,history,"[0, 3, 7, 12]",0.0006754804105089107,True,True,True,True,True,False,True,archived executed B4+C replay
+v_StillRings_g25_c06.avi,StillRings,g25,4,C,0.01,history_motion,"[0, 3, 6, 12]",0.00032955453561100967,True,True,True,True,True,False,True,archived executed B4+C replay
+v_StillRings_g25_c06.avi,StillRings,g25,4,C,0.05,periodic,"[0, 4, 8, 12]",0.0005583004227851518,True,True,True,True,True,False,True,archived executed B4+C replay
+v_StillRings_g25_c06.avi,StillRings,g25,4,C,0.05,history,"[0, 3, 7, 12]",0.0006754804105089107,True,True,True,True,True,False,True,archived executed B4+C replay
+v_StillRings_g25_c06.avi,StillRings,g25,4,C,0.05,history_motion,"[0, 3, 6, 12]",0.00032955453561100967,True,True,True,True,True,False,True,archived executed B4+C replay
+v_StillRings_g25_c06.avi,StillRings,g25,4,U,0.0,periodic,"[0, 4, 8, 12]",0.0005583004227851518,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_StillRings_g25_c06.avi,StillRings,g25,4,U,0.0,history,"[0, 3, 7, 12]",0.0007925735551541635,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_StillRings_g25_c06.avi,StillRings,g25,4,U,0.0,history_motion,"[0, 3, 6, 12]",0.0005342101686949263,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_StillRings_g25_c06.avi,StillRings,g25,4,U,0.01,periodic,"[0, 4, 8, 12]",0.0005583004227851518,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_StillRings_g25_c06.avi,StillRings,g25,4,U,0.01,history,"[0, 3, 7, 12]",0.0007925735551541635,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_StillRings_g25_c06.avi,StillRings,g25,4,U,0.01,history_motion,"[0, 3, 6, 12]",0.0005342101686949263,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_StillRings_g25_c06.avi,StillRings,g25,4,U,0.05,periodic,"[0, 4, 8, 12]",0.0005583004227851518,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_StillRings_g25_c06.avi,StillRings,g25,4,U,0.05,history,"[0, 3, 7, 12]",0.0007925735551541635,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_StillRings_g25_c06.avi,StillRings,g25,4,U,0.05,history_motion,"[0, 3, 6, 12]",0.0005342101686949263,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_StillRings_g25_c06.avi,StillRings,g25,8,C,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.00038708884352622874,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_StillRings_g25_c06.avi,StillRings,g25,8,C,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.00038708884352622874,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_StillRings_g25_c06.avi,StillRings,g25,8,C,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.00038708884352622874,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_StillRings_g25_c06.avi,StillRings,g25,8,U,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.00038708884352622874,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_StillRings_g25_c06.avi,StillRings,g25,8,U,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.00038708884352622874,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_StillRings_g25_c06.avi,StillRings,g25,8,U,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.00038708884352622874,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Swing_g08_c05.avi,Swing,g08,4,C,0.0,periodic,"[0, 4, 8, 12]",2.7487793069269628e-05,True,True,False,False,True,True,True,archived executed B4+C replay
+v_Swing_g08_c05.avi,Swing,g08,4,C,0.0,history,"[0, 5, 8, 11]",2.0087013979264157e-05,True,True,False,False,True,True,True,archived executed B4+C replay
+v_Swing_g08_c05.avi,Swing,g08,4,C,0.0,history_motion,"[0, 8, 12, 15]",9.029751932843055e-06,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Swing_g08_c05.avi,Swing,g08,4,C,0.01,periodic,"[0, 4, 8, 12]",2.7487793069269628e-05,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Swing_g08_c05.avi,Swing,g08,4,C,0.01,history,"[0, 5, 8, 11]",2.0087013979264157e-05,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Swing_g08_c05.avi,Swing,g08,4,C,0.01,history_motion,"[0, 8, 12, 15]",9.029751932843055e-06,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Swing_g08_c05.avi,Swing,g08,4,C,0.05,periodic,"[0, 4, 8, 12]",2.7487793069269628e-05,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Swing_g08_c05.avi,Swing,g08,4,C,0.05,history,"[0, 5, 8, 11]",2.0087013979264157e-05,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Swing_g08_c05.avi,Swing,g08,4,C,0.05,history_motion,"[0, 8, 12, 15]",9.029751932843055e-06,True,True,True,True,True,False,True,archived executed B4+C replay
+v_Swing_g08_c05.avi,Swing,g08,4,U,0.0,periodic,"[0, 4, 8, 12]",2.7487793069269628e-05,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_Swing_g08_c05.avi,Swing,g08,4,U,0.0,history,"[0, 5, 8, 11]",2.4209820100651314e-05,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_Swing_g08_c05.avi,Swing,g08,4,U,0.0,history_motion,"[0, 8, 12, 15]",7.23313781492152e-06,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Swing_g08_c05.avi,Swing,g08,4,U,0.01,periodic,"[0, 4, 8, 12]",2.7487793069269628e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Swing_g08_c05.avi,Swing,g08,4,U,0.01,history,"[0, 5, 8, 11]",2.4209820100651314e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Swing_g08_c05.avi,Swing,g08,4,U,0.01,history_motion,"[0, 8, 12, 15]",7.23313781492152e-06,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Swing_g08_c05.avi,Swing,g08,4,U,0.05,periodic,"[0, 4, 8, 12]",2.7487793069269628e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Swing_g08_c05.avi,Swing,g08,4,U,0.05,history,"[0, 5, 8, 11]",2.4209820100651314e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Swing_g08_c05.avi,Swing,g08,4,U,0.05,history_motion,"[0, 8, 12, 15]",7.23313781492152e-06,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Swing_g08_c05.avi,Swing,g08,8,C,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",2.4364857132752604e-05,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_Swing_g08_c05.avi,Swing,g08,8,C,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",2.4364857132752604e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Swing_g08_c05.avi,Swing,g08,8,C,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",2.4364857132752604e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Swing_g08_c05.avi,Swing,g08,8,U,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",2.4364857132752604e-05,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_Swing_g08_c05.avi,Swing,g08,8,U,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",2.4364857132752604e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_Swing_g08_c05.avi,Swing,g08,8,U,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",2.4364857132752604e-05,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_TaiChi_g21_c01.avi,TaiChi,g21,4,C,0.0,periodic,"[0, 4, 8, 12]",0.00044817054573620396,True,True,True,True,True,False,True,archived executed B4+C replay
+v_TaiChi_g21_c01.avi,TaiChi,g21,4,C,0.0,history,"[0, 3, 6, 10]",0.0007714135273548806,True,True,True,True,True,False,True,archived executed B4+C replay
+v_TaiChi_g21_c01.avi,TaiChi,g21,4,C,0.0,history_motion,"[0, 4, 8, 12]",0.00044817054573620396,True,True,True,True,True,False,True,archived executed B4+C replay
+v_TaiChi_g21_c01.avi,TaiChi,g21,4,C,0.01,periodic,"[0, 4, 8, 12]",0.00044817054573620396,True,True,True,True,True,False,True,archived executed B4+C replay
+v_TaiChi_g21_c01.avi,TaiChi,g21,4,C,0.01,history,"[0, 3, 6, 10]",0.0007714135273548806,True,True,True,True,True,False,True,archived executed B4+C replay
+v_TaiChi_g21_c01.avi,TaiChi,g21,4,C,0.01,history_motion,"[0, 4, 8, 12]",0.00044817054573620396,True,True,True,True,True,False,True,archived executed B4+C replay
+v_TaiChi_g21_c01.avi,TaiChi,g21,4,C,0.05,periodic,"[0, 4, 8, 12]",0.00044817054573620396,True,True,True,True,True,False,True,archived executed B4+C replay
+v_TaiChi_g21_c01.avi,TaiChi,g21,4,C,0.05,history,"[0, 3, 6, 10]",0.0007714135273548806,True,True,True,True,True,False,True,archived executed B4+C replay
+v_TaiChi_g21_c01.avi,TaiChi,g21,4,C,0.05,history_motion,"[0, 4, 8, 12]",0.00044817054573620396,True,True,True,True,True,False,True,archived executed B4+C replay
+v_TaiChi_g21_c01.avi,TaiChi,g21,4,U,0.0,periodic,"[0, 4, 8, 12]",0.00044817054573620396,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_TaiChi_g21_c01.avi,TaiChi,g21,4,U,0.0,history,"[0, 3, 6, 10]",0.0006418847545752726,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_TaiChi_g21_c01.avi,TaiChi,g21,4,U,0.0,history_motion,"[0, 4, 8, 12]",0.00044817054573620396,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_TaiChi_g21_c01.avi,TaiChi,g21,4,U,0.01,periodic,"[0, 4, 8, 12]",0.00044817054573620396,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_TaiChi_g21_c01.avi,TaiChi,g21,4,U,0.01,history,"[0, 3, 6, 10]",0.0006418847545752726,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_TaiChi_g21_c01.avi,TaiChi,g21,4,U,0.01,history_motion,"[0, 4, 8, 12]",0.00044817054573620396,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_TaiChi_g21_c01.avi,TaiChi,g21,4,U,0.05,periodic,"[0, 4, 8, 12]",0.00044817054573620396,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_TaiChi_g21_c01.avi,TaiChi,g21,4,U,0.05,history,"[0, 3, 6, 10]",0.0006418847545752726,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_TaiChi_g21_c01.avi,TaiChi,g21,4,U,0.05,history_motion,"[0, 4, 8, 12]",0.00044817054573620396,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_TaiChi_g21_c01.avi,TaiChi,g21,8,C,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0009270182005796102,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_TaiChi_g21_c01.avi,TaiChi,g21,8,C,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0009270182005796102,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_TaiChi_g21_c01.avi,TaiChi,g21,8,C,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0009270182005796102,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_TaiChi_g21_c01.avi,TaiChi,g21,8,U,0.0,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0009270182005796102,True,True,False,False,True,True,True,offline re-pooling/enumeration
+v_TaiChi_g21_c01.avi,TaiChi,g21,8,U,0.01,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0009270182005796102,True,True,True,True,True,False,True,offline re-pooling/enumeration
+v_TaiChi_g21_c01.avi,TaiChi,g21,8,U,0.05,periodic,"[0, 2, 4, 6, 8, 10, 12, 14]",0.0009270182005796102,True,True,True,True,True,False,True,offline re-pooling/enumeration
