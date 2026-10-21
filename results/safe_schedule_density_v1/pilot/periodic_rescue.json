@@ -1,0 +1,679 @@
+{
+  "rows": [
+    {
+      "K": 4,
+      "pool": "C",
+      "epsilon": 0.0,
+      "clips": 12,
+      "groups": 12,
+      "weighted_mass": 0.6000000000000001,
+      "safe_alternative_clips": 12,
+      "no_safe_clips": 0,
+      "safe_schedule_success_total": 2147,
+      "schedule_total": 5460,
+      "distribution": {
+        "min": 0.026373626373626374,
+        "q05": 0.026373626373626374,
+        "q25": 0.1978021978021978,
+        "median": 0.4153846153846154,
+        "q75": 0.5472527472527473,
+        "q95": 0.843956043956044,
+        "max": 0.843956043956044
+      },
+      "any_safe_fraction": {
+        "estimate": 1.0,
+        "weighted_mass": 0.6000000000000001,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "no_safe_fraction": {
+        "estimate": 0.0,
+        "weighted_mass": 0.6000000000000001,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "safe_density": {
+        "estimate": 0.39322344322344316,
+        "weighted_mass": 0.6000000000000001,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "whole_cohort_rescuable_mass": {
+        "estimate": 0.6,
+        "weighted_mass": 1.0000000000000002,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "periodic_failure_mass": {
+        "estimate": 0.6,
+        "weighted_mass": 1.0000000000000002,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      }
+    },
+    {
+      "K": 4,
+      "pool": "C",
+      "epsilon": 0.01,
+      "clips": 2,
+      "groups": 2,
+      "weighted_mass": 0.1,
+      "safe_alternative_clips": 2,
+      "no_safe_clips": 0,
+      "safe_schedule_success_total": 662,
+      "schedule_total": 910,
+      "distribution": {
+        "min": 0.5406593406593406,
+        "q05": 0.5406593406593406,
+        "q25": 0.5406593406593406,
+        "median": 0.5406593406593406,
+        "q75": 0.9142857142857143,
+        "q95": 0.9142857142857143,
+        "max": 0.9142857142857143
+      },
+      "any_safe_fraction": {
+        "estimate": 1.0,
+        "weighted_mass": 0.1,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "no_safe_fraction": {
+        "estimate": 0.0,
+        "weighted_mass": 0.1,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "safe_density": {
+        "estimate": 0.7274725274725274,
+        "weighted_mass": 0.1,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "whole_cohort_rescuable_mass": {
+        "estimate": 0.09999999999999998,
+        "weighted_mass": 1.0000000000000002,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "periodic_failure_mass": {
+        "estimate": 0.09999999999999998,
+        "weighted_mass": 1.0000000000000002,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      }
+    },
+    {
+      "K": 4,
+      "pool": "C",
+      "epsilon": 0.05,
+      "clips": 0,
+      "groups": 0,
+      "weighted_mass": 0.0,
+      "safe_alternative_clips": 0,
+      "no_safe_clips": 0,
+      "safe_schedule_success_total": 0,
+      "schedule_total": 0,
+      "distribution": {
+        "min": null,
+        "q05": null,
+        "q25": null,
+        "median": null,
+        "q75": null,
+        "q95": null,
+        "max": null
+      },
+      "any_safe_fraction": {
+        "estimate": null,
+        "weighted_mass": 0.0,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "no_safe_fraction": {
+        "estimate": null,
+        "weighted_mass": 0.0,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "safe_density": {
+        "estimate": null,
+        "weighted_mass": 0.0,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "whole_cohort_rescuable_mass": {
+        "estimate": 0.0,
+        "weighted_mass": 1.0000000000000002,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "periodic_failure_mass": {
+        "estimate": 0.0,
+        "weighted_mass": 1.0000000000000002,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      }
+    },
+    {
+      "K": 4,
+      "pool": "U",
+      "epsilon": 0.0,
+      "clips": 12,
+      "groups": 12,
+      "weighted_mass": 0.6000000000000001,
+      "safe_alternative_clips": 12,
+      "no_safe_clips": 0,
+      "safe_schedule_success_total": 2373,
+      "schedule_total": 5460,
+      "distribution": {
+        "min": 0.17582417582417584,
+        "q05": 0.17582417582417584,
+        "q25": 0.2857142857142857,
+        "median": 0.41098901098901097,
+        "q75": 0.6153846153846154,
+        "q95": 0.778021978021978,
+        "max": 0.778021978021978
+      },
+      "any_safe_fraction": {
+        "estimate": 1.0,
+        "weighted_mass": 0.6000000000000001,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "no_safe_fraction": {
+        "estimate": 0.0,
+        "weighted_mass": 0.6000000000000001,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "safe_density": {
+        "estimate": 0.4346153846153846,
+        "weighted_mass": 0.6000000000000001,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "whole_cohort_rescuable_mass": {
+        "estimate": 0.6,
+        "weighted_mass": 1.0000000000000002,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "periodic_failure_mass": {
+        "estimate": 0.6,
+        "weighted_mass": 1.0000000000000002,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      }
+    },
+    {
+      "K": 4,
+      "pool": "U",
+      "epsilon": 0.01,
+      "clips": 2,
+      "groups": 2,
+      "weighted_mass": 0.1,
+      "safe_alternative_clips": 2,
+      "no_safe_clips": 0,
+      "safe_schedule_success_total": 686,
+      "schedule_total": 910,
+      "distribution": {
+        "min": 0.654945054945055,
+        "q05": 0.654945054945055,
+        "q25": 0.654945054945055,
+        "median": 0.654945054945055,
+        "q75": 0.8527472527472527,
+        "q95": 0.8527472527472527,
+        "max": 0.8527472527472527
+      },
+      "any_safe_fraction": {
+        "estimate": 1.0,
+        "weighted_mass": 0.1,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "no_safe_fraction": {
+        "estimate": 0.0,
+        "weighted_mass": 0.1,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "safe_density": {
+        "estimate": 0.7538461538461538,
+        "weighted_mass": 0.1,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "whole_cohort_rescuable_mass": {
+        "estimate": 0.09999999999999998,
+        "weighted_mass": 1.0000000000000002,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "periodic_failure_mass": {
+        "estimate": 0.09999999999999998,
+        "weighted_mass": 1.0000000000000002,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      }
+    },
+    {
+      "K": 4,
+      "pool": "U",
+      "epsilon": 0.05,
+      "clips": 0,
+      "groups": 0,
+      "weighted_mass": 0.0,
+      "safe_alternative_clips": 0,
+      "no_safe_clips": 0,
+      "safe_schedule_success_total": 0,
+      "schedule_total": 0,
+      "distribution": {
+        "min": null,
+        "q05": null,
+        "q25": null,
+        "median": null,
+        "q75": null,
+        "q95": null,
+        "max": null
+      },
+      "any_safe_fraction": {
+        "estimate": null,
+        "weighted_mass": 0.0,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "no_safe_fraction": {
+        "estimate": null,
+        "weighted_mass": 0.0,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "safe_density": {
+        "estimate": null,
+        "weighted_mass": 0.0,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "whole_cohort_rescuable_mass": {
+        "estimate": 0.0,
+        "weighted_mass": 1.0000000000000002,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "periodic_failure_mass": {
+        "estimate": 0.0,
+        "weighted_mass": 1.0000000000000002,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      }
+    },
+    {
+      "K": 8,
+      "pool": "C",
+      "epsilon": 0.0,
+      "clips": 9,
+      "groups": 9,
+      "weighted_mass": 0.44999999999999996,
+      "safe_alternative_clips": 9,
+      "no_safe_clips": 0,
+      "safe_schedule_success_total": 26413,
+      "schedule_total": 57915,
+      "distribution": {
+        "min": 0.22486402486402488,
+        "q05": 0.22486402486402488,
+        "q25": 0.28888888888888886,
+        "median": 0.4489510489510489,
+        "q75": 0.6511266511266511,
+        "q95": 0.7036519036519037,
+        "max": 0.7036519036519037
+      },
+      "any_safe_fraction": {
+        "estimate": 1.0,
+        "weighted_mass": 0.44999999999999996,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "no_safe_fraction": {
+        "estimate": 0.0,
+        "weighted_mass": 0.44999999999999996,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "safe_density": {
+        "estimate": 0.4560649227315895,
+        "weighted_mass": 0.44999999999999996,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "whole_cohort_rescuable_mass": {
+        "estimate": 0.44999999999999984,
+        "weighted_mass": 1.0000000000000002,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "periodic_failure_mass": {
+        "estimate": 0.44999999999999984,
+        "weighted_mass": 1.0000000000000002,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      }
+    },
+    {
+      "K": 8,
+      "pool": "C",
+      "epsilon": 0.01,
+      "clips": 1,
+      "groups": 1,
+      "weighted_mass": 0.05,
+      "safe_alternative_clips": 1,
+      "no_safe_clips": 0,
+      "safe_schedule_success_total": 5490,
+      "schedule_total": 6435,
+      "distribution": {
+        "min": 0.8531468531468531,
+        "q05": 0.8531468531468531,
+        "q25": 0.8531468531468531,
+        "median": 0.8531468531468531,
+        "q75": 0.8531468531468531,
+        "q95": 0.8531468531468531,
+        "max": 0.8531468531468531
+      },
+      "any_safe_fraction": {
+        "estimate": 1.0,
+        "weighted_mass": 0.05,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "no_safe_fraction": {
+        "estimate": 0.0,
+        "weighted_mass": 0.05,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "safe_density": {
+        "estimate": 0.8531468531468531,
+        "weighted_mass": 0.05,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "whole_cohort_rescuable_mass": {
+        "estimate": 0.04999999999999999,
+        "weighted_mass": 1.0000000000000002,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "periodic_failure_mass": {
+        "estimate": 0.04999999999999999,
+        "weighted_mass": 1.0000000000000002,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      }
+    },
+    {
+      "K": 8,
+      "pool": "C",
+      "epsilon": 0.05,
+      "clips": 0,
+      "groups": 0,
+      "weighted_mass": 0.0,
+      "safe_alternative_clips": 0,
+      "no_safe_clips": 0,
+      "safe_schedule_success_total": 0,
+      "schedule_total": 0,
+      "distribution": {
+        "min": null,
+        "q05": null,
+        "q25": null,
+        "median": null,
+        "q75": null,
+        "q95": null,
+        "max": null
+      },
+      "any_safe_fraction": {
+        "estimate": null,
+        "weighted_mass": 0.0,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "no_safe_fraction": {
+        "estimate": null,
+        "weighted_mass": 0.0,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "safe_density": {
+        "estimate": null,
+        "weighted_mass": 0.0,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "whole_cohort_rescuable_mass": {
+        "estimate": 0.0,
+        "weighted_mass": 1.0000000000000002,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "periodic_failure_mass": {
+        "estimate": 0.0,
+        "weighted_mass": 1.0000000000000002,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      }
+    },
+    {
+      "K": 8,
+      "pool": "U",
+      "epsilon": 0.0,
+      "clips": 9,
+      "groups": 9,
+      "weighted_mass": 0.44999999999999996,
+      "safe_alternative_clips": 9,
+      "no_safe_clips": 0,
+      "safe_schedule_success_total": 28830,
+      "schedule_total": 57915,
+      "distribution": {
+        "min": 0.32836052836052837,
+        "q05": 0.32836052836052837,
+        "q25": 0.4267288267288267,
+        "median": 0.496037296037296,
+        "q75": 0.5815073815073815,
+        "q95": 0.6556332556332556,
+        "max": 0.6556332556332556
+      },
+      "any_safe_fraction": {
+        "estimate": 1.0,
+        "weighted_mass": 0.44999999999999996,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "no_safe_fraction": {
+        "estimate": 0.0,
+        "weighted_mass": 0.44999999999999996,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "safe_density": {
+        "estimate": 0.49779849779849783,
+        "weighted_mass": 0.44999999999999996,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "whole_cohort_rescuable_mass": {
+        "estimate": 0.44999999999999984,
+        "weighted_mass": 1.0000000000000002,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "periodic_failure_mass": {
+        "estimate": 0.44999999999999984,
+        "weighted_mass": 1.0000000000000002,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      }
+    },
+    {
+      "K": 8,
+      "pool": "U",
+      "epsilon": 0.01,
+      "clips": 1,
+      "groups": 1,
+      "weighted_mass": 0.05,
+      "safe_alternative_clips": 1,
+      "no_safe_clips": 0,
+      "safe_schedule_success_total": 5331,
+      "schedule_total": 6435,
+      "distribution": {
+        "min": 0.8284382284382285,
+        "q05": 0.8284382284382285,
+        "q25": 0.8284382284382285,
+        "median": 0.8284382284382285,
+        "q75": 0.8284382284382285,
+        "q95": 0.8284382284382285,
+        "max": 0.8284382284382285
+      },
+      "any_safe_fraction": {
+        "estimate": 1.0,
+        "weighted_mass": 0.05,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "no_safe_fraction": {
+        "estimate": 0.0,
+        "weighted_mass": 0.05,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "safe_density": {
+        "estimate": 0.8284382284382286,
+        "weighted_mass": 0.05,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "whole_cohort_rescuable_mass": {
+        "estimate": 0.04999999999999999,
+        "weighted_mass": 1.0000000000000002,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "periodic_failure_mass": {
+        "estimate": 0.04999999999999999,
+        "weighted_mass": 1.0000000000000002,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      }
+    },
+    {
+      "K": 8,
+      "pool": "U",
+      "epsilon": 0.05,
+      "clips": 0,
+      "groups": 0,
+      "weighted_mass": 0.0,
+      "safe_alternative_clips": 0,
+      "no_safe_clips": 0,
+      "safe_schedule_success_total": 0,
+      "schedule_total": 0,
+      "distribution": {
+        "min": null,
+        "q05": null,
+        "q25": null,
+        "median": null,
+        "q75": null,
+        "q95": null,
+        "max": null
+      },
+      "any_safe_fraction": {
+        "estimate": null,
+        "weighted_mass": 0.0,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "no_safe_fraction": {
+        "estimate": null,
+        "weighted_mass": 0.0,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "safe_density": {
+        "estimate": null,
+        "weighted_mass": 0.0,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "whole_cohort_rescuable_mass": {
+        "estimate": 0.0,
+        "weighted_mass": 1.0000000000000002,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      },
+      "periodic_failure_mass": {
+        "estimate": 0.0,
+        "weighted_mass": 1.0000000000000002,
+        "CI95_lower": null,
+        "CI95_upper": null,
+        "valid_bootstrap_draws": 0
+      }
+    }
+  ],
+  "conditioning": "Dense correct AND Periodic fails joint",
+  "density_distribution": "inverse weighted CDF across qualifying clips; includes zero-density clips",
+  "empty": "null / N/A; not zero"
+}

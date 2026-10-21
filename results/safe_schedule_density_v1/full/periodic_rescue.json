@@ -1,0 +1,679 @@
+{
+  "rows": [
+    {
+      "K": 4,
+      "pool": "C",
+      "epsilon": 0.0,
+      "clips": 188,
+      "groups": 139,
+      "weighted_mass": 0.47277227722772275,
+      "safe_alternative_clips": 185,
+      "no_safe_clips": 3,
+      "safe_schedule_success_total": 29813,
+      "schedule_total": 85540,
+      "distribution": {
+        "min": 0.0,
+        "q05": 0.024175824175824177,
+        "q25": 0.1824175824175824,
+        "median": 0.33406593406593404,
+        "q75": 0.4879120879120879,
+        "q95": 0.6813186813186813,
+        "max": 0.843956043956044
+      },
+      "any_safe_fraction": {
+        "estimate": 0.9842931937172775,
+        "weighted_mass": 0.47277227722772275,
+        "CI95_lower": 0.978021978021978,
+        "CI95_upper": 0.9900497512437811,
+        "valid_bootstrap_draws": 2000
+      },
+      "no_safe_fraction": {
+        "estimate": 0.015706806282722512,
+        "weighted_mass": 0.47277227722772275,
+        "CI95_lower": 0.009950248756218898,
+        "CI95_upper": 0.021978021978021966,
+        "valid_bootstrap_draws": 2000
+      },
+      "safe_density": {
+        "estimate": 0.34612507910937235,
+        "weighted_mass": 0.47277227722772275,
+        "CI95_lower": 0.32818061425753703,
+        "CI95_upper": 0.36487497203094305,
+        "valid_bootstrap_draws": 2000
+      },
+      "whole_cohort_rescuable_mass": {
+        "estimate": 0.4653465346534651,
+        "weighted_mass": 1.0000000000000004,
+        "CI95_lower": 0.4306930693069307,
+        "CI95_upper": 0.5,
+        "valid_bootstrap_draws": 2000
+      },
+      "periodic_failure_mass": {
+        "estimate": 0.4727722772277225,
+        "weighted_mass": 1.0000000000000004,
+        "CI95_lower": 0.4381188118811881,
+        "CI95_upper": 0.5074257425742574,
+        "valid_bootstrap_draws": 2000
+      }
+    },
+    {
+      "K": 4,
+      "pool": "C",
+      "epsilon": 0.01,
+      "clips": 70,
+      "groups": 61,
+      "weighted_mass": 0.17821782178217824,
+      "safe_alternative_clips": 70,
+      "no_safe_clips": 0,
+      "safe_schedule_success_total": 14619,
+      "schedule_total": 31850,
+      "distribution": {
+        "min": 0.008791208791208791,
+        "q05": 0.05274725274725275,
+        "q25": 0.2857142857142857,
+        "median": 0.42857142857142855,
+        "q75": 0.6483516483516484,
+        "q95": 0.8417582417582418,
+        "max": 0.9758241758241758
+      },
+      "any_safe_fraction": {
+        "estimate": 1.0,
+        "weighted_mass": 0.17821782178217824,
+        "CI95_lower": 1.0,
+        "CI95_upper": 1.0,
+        "valid_bootstrap_draws": 2000
+      },
+      "no_safe_fraction": {
+        "estimate": 0.0,
+        "weighted_mass": 0.17821782178217824,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0,
+        "valid_bootstrap_draws": 2000
+      },
+      "safe_density": {
+        "estimate": 0.45598290598290586,
+        "weighted_mass": 0.17821782178217824,
+        "CI95_lower": 0.41978021978021957,
+        "CI95_upper": 0.4934395873734108,
+        "valid_bootstrap_draws": 2000
+      },
+      "whole_cohort_rescuable_mass": {
+        "estimate": 0.17821782178217815,
+        "weighted_mass": 1.0000000000000004,
+        "CI95_lower": 0.1534653465346534,
+        "CI95_upper": 0.2054455445544554,
+        "valid_bootstrap_draws": 2000
+      },
+      "periodic_failure_mass": {
+        "estimate": 0.17821782178217815,
+        "weighted_mass": 1.0000000000000004,
+        "CI95_lower": 0.1534653465346534,
+        "CI95_upper": 0.2054455445544554,
+        "valid_bootstrap_draws": 2000
+      }
+    },
+    {
+      "K": 4,
+      "pool": "C",
+      "epsilon": 0.05,
+      "clips": 27,
+      "groups": 26,
+      "weighted_mass": 0.06683168316831684,
+      "safe_alternative_clips": 27,
+      "no_safe_clips": 0,
+      "safe_schedule_success_total": 5515,
+      "schedule_total": 12285,
+      "distribution": {
+        "min": 0.07472527472527472,
+        "q05": 0.07692307692307693,
+        "q25": 0.2813186813186813,
+        "median": 0.45054945054945056,
+        "q75": 0.6197802197802198,
+        "q95": 0.7824175824175824,
+        "max": 0.8307692307692308
+      },
+      "any_safe_fraction": {
+        "estimate": 1.0,
+        "weighted_mass": 0.06683168316831684,
+        "CI95_lower": 1.0,
+        "CI95_upper": 1.0,
+        "valid_bootstrap_draws": 2000
+      },
+      "no_safe_fraction": {
+        "estimate": 0.0,
+        "weighted_mass": 0.06683168316831684,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0,
+        "valid_bootstrap_draws": 2000
+      },
+      "safe_density": {
+        "estimate": 0.448921448921449,
+        "weighted_mass": 0.06683168316831684,
+        "CI95_lower": 0.39823710904480136,
+        "CI95_upper": 0.5032370566853325,
+        "valid_bootstrap_draws": 2000
+      },
+      "whole_cohort_rescuable_mass": {
+        "estimate": 0.06683168316831681,
+        "weighted_mass": 1.0000000000000004,
+        "CI95_lower": 0.04950495049504947,
+        "CI95_upper": 0.08415841584158412,
+        "valid_bootstrap_draws": 2000
+      },
+      "periodic_failure_mass": {
+        "estimate": 0.06683168316831681,
+        "weighted_mass": 1.0000000000000004,
+        "CI95_lower": 0.04950495049504947,
+        "CI95_upper": 0.08415841584158412,
+        "valid_bootstrap_draws": 2000
+      }
+    },
+    {
+      "K": 4,
+      "pool": "U",
+      "epsilon": 0.0,
+      "clips": 188,
+      "groups": 139,
+      "weighted_mass": 0.47277227722772275,
+      "safe_alternative_clips": 187,
+      "no_safe_clips": 1,
+      "safe_schedule_success_total": 32322,
+      "schedule_total": 85540,
+      "distribution": {
+        "min": 0.0,
+        "q05": 0.11428571428571428,
+        "q25": 0.23956043956043957,
+        "median": 0.36923076923076925,
+        "q75": 0.4989010989010989,
+        "q95": 0.6813186813186813,
+        "max": 0.9076923076923077
+      },
+      "any_safe_fraction": {
+        "estimate": 0.9947643979057592,
+        "weighted_mass": 0.47277227722772275,
+        "CI95_lower": 0.989010989010989,
+        "CI95_upper": 1.0,
+        "valid_bootstrap_draws": 2000
+      },
+      "no_safe_fraction": {
+        "estimate": 0.005235602094240838,
+        "weighted_mass": 0.47277227722772275,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.010989010989010983,
+        "valid_bootstrap_draws": 2000
+      },
+      "safe_density": {
+        "estimate": 0.37604280536217716,
+        "weighted_mass": 0.47277227722772275,
+        "CI95_lower": 0.35872880933499474,
+        "CI95_upper": 0.3931953083881721,
+        "valid_bootstrap_draws": 2000
+      },
+      "whole_cohort_rescuable_mass": {
+        "estimate": 0.47029702970297005,
+        "weighted_mass": 1.0000000000000004,
+        "CI95_lower": 0.43564356435643564,
+        "CI95_upper": 0.504950495049505,
+        "valid_bootstrap_draws": 2000
+      },
+      "periodic_failure_mass": {
+        "estimate": 0.4727722772277225,
+        "weighted_mass": 1.0000000000000004,
+        "CI95_lower": 0.4381188118811881,
+        "CI95_upper": 0.5074257425742574,
+        "valid_bootstrap_draws": 2000
+      }
+    },
+    {
+      "K": 4,
+      "pool": "U",
+      "epsilon": 0.01,
+      "clips": 70,
+      "groups": 61,
+      "weighted_mass": 0.17821782178217824,
+      "safe_alternative_clips": 70,
+      "no_safe_clips": 0,
+      "safe_schedule_success_total": 16280,
+      "schedule_total": 31850,
+      "distribution": {
+        "min": 0.015384615384615385,
+        "q05": 0.14945054945054945,
+        "q25": 0.3076923076923077,
+        "median": 0.4879120879120879,
+        "q75": 0.6791208791208792,
+        "q95": 0.8527472527472527,
+        "max": 0.9560439560439561
+      },
+      "any_safe_fraction": {
+        "estimate": 1.0,
+        "weighted_mass": 0.17821782178217824,
+        "CI95_lower": 1.0,
+        "CI95_upper": 1.0,
+        "valid_bootstrap_draws": 2000
+      },
+      "no_safe_fraction": {
+        "estimate": 0.0,
+        "weighted_mass": 0.17821782178217824,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0,
+        "valid_bootstrap_draws": 2000
+      },
+      "safe_density": {
+        "estimate": 0.5105616605616604,
+        "weighted_mass": 0.17821782178217824,
+        "CI95_lower": 0.4764052170921053,
+        "CI95_upper": 0.545194057499663,
+        "valid_bootstrap_draws": 2000
+      },
+      "whole_cohort_rescuable_mass": {
+        "estimate": 0.17821782178217815,
+        "weighted_mass": 1.0000000000000004,
+        "CI95_lower": 0.1534653465346534,
+        "CI95_upper": 0.2054455445544554,
+        "valid_bootstrap_draws": 2000
+      },
+      "periodic_failure_mass": {
+        "estimate": 0.17821782178217815,
+        "weighted_mass": 1.0000000000000004,
+        "CI95_lower": 0.1534653465346534,
+        "CI95_upper": 0.2054455445544554,
+        "valid_bootstrap_draws": 2000
+      }
+    },
+    {
+      "K": 4,
+      "pool": "U",
+      "epsilon": 0.05,
+      "clips": 27,
+      "groups": 26,
+      "weighted_mass": 0.06683168316831684,
+      "safe_alternative_clips": 27,
+      "no_safe_clips": 0,
+      "safe_schedule_success_total": 6254,
+      "schedule_total": 12285,
+      "distribution": {
+        "min": 0.06593406593406594,
+        "q05": 0.11208791208791209,
+        "q25": 0.34945054945054943,
+        "median": 0.5186813186813187,
+        "q75": 0.7054945054945055,
+        "q95": 0.8813186813186813,
+        "max": 0.8835164835164835
+      },
+      "any_safe_fraction": {
+        "estimate": 1.0,
+        "weighted_mass": 0.06683168316831684,
+        "CI95_lower": 1.0,
+        "CI95_upper": 1.0,
+        "valid_bootstrap_draws": 2000
+      },
+      "no_safe_fraction": {
+        "estimate": 0.0,
+        "weighted_mass": 0.06683168316831684,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0,
+        "valid_bootstrap_draws": 2000
+      },
+      "safe_density": {
+        "estimate": 0.509076109076109,
+        "weighted_mass": 0.06683168316831684,
+        "CI95_lower": 0.45360091932055935,
+        "CI95_upper": 0.567240959040959,
+        "valid_bootstrap_draws": 2000
+      },
+      "whole_cohort_rescuable_mass": {
+        "estimate": 0.06683168316831681,
+        "weighted_mass": 1.0000000000000004,
+        "CI95_lower": 0.04950495049504947,
+        "CI95_upper": 0.08415841584158412,
+        "valid_bootstrap_draws": 2000
+      },
+      "periodic_failure_mass": {
+        "estimate": 0.06683168316831681,
+        "weighted_mass": 1.0000000000000004,
+        "CI95_lower": 0.04950495049504947,
+        "CI95_upper": 0.08415841584158412,
+        "valid_bootstrap_draws": 2000
+      }
+    },
+    {
+      "K": 8,
+      "pool": "C",
+      "epsilon": 0.0,
+      "clips": 188,
+      "groups": 137,
+      "weighted_mass": 0.4678217821782178,
+      "safe_alternative_clips": 188,
+      "no_safe_clips": 0,
+      "safe_schedule_success_total": 525248,
+      "schedule_total": 1209780,
+      "distribution": {
+        "min": 0.000777000777000777,
+        "q05": 0.12463092463092464,
+        "q25": 0.3300699300699301,
+        "median": 0.4489510489510489,
+        "q75": 0.5445221445221445,
+        "q95": 0.6868686868686869,
+        "max": 0.839005439005439
+      },
+      "any_safe_fraction": {
+        "estimate": 1.0,
+        "weighted_mass": 0.4678217821782178,
+        "CI95_lower": 1.0,
+        "CI95_upper": 1.0,
+        "valid_bootstrap_draws": 2000
+      },
+      "no_safe_fraction": {
+        "estimate": 0.0,
+        "weighted_mass": 0.4678217821782178,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0,
+        "valid_bootstrap_draws": 2000
+      },
+      "safe_density": {
+        "estimate": 0.4325065880621437,
+        "weighted_mass": 0.4678217821782178,
+        "CI95_lower": 0.41747419066111113,
+        "CI95_upper": 0.44635627323684707,
+        "valid_bootstrap_draws": 2000
+      },
+      "whole_cohort_rescuable_mass": {
+        "estimate": 0.46782178217821757,
+        "weighted_mass": 1.0000000000000004,
+        "CI95_lower": 0.43564356435643564,
+        "CI95_upper": 0.5024752475247525,
+        "valid_bootstrap_draws": 2000
+      },
+      "periodic_failure_mass": {
+        "estimate": 0.46782178217821757,
+        "weighted_mass": 1.0000000000000004,
+        "CI95_lower": 0.43564356435643564,
+        "CI95_upper": 0.5024752475247525,
+        "valid_bootstrap_draws": 2000
+      }
+    },
+    {
+      "K": 8,
+      "pool": "C",
+      "epsilon": 0.01,
+      "clips": 38,
+      "groups": 36,
+      "weighted_mass": 0.09653465346534654,
+      "safe_alternative_clips": 38,
+      "no_safe_clips": 0,
+      "safe_schedule_success_total": 133040,
+      "schedule_total": 244530,
+      "distribution": {
+        "min": 0.18275058275058276,
+        "q05": 0.22937062937062938,
+        "q25": 0.45827505827505827,
+        "median": 0.5387723387723388,
+        "q75": 0.6037296037296037,
+        "q95": 0.8422688422688422,
+        "max": 0.8531468531468531
+      },
+      "any_safe_fraction": {
+        "estimate": 1.0,
+        "weighted_mass": 0.09653465346534654,
+        "CI95_lower": 1.0,
+        "CI95_upper": 1.0,
+        "valid_bootstrap_draws": 2000
+      },
+      "no_safe_fraction": {
+        "estimate": 0.0,
+        "weighted_mass": 0.09653465346534654,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0,
+        "valid_bootstrap_draws": 2000
+      },
+      "safe_density": {
+        "estimate": 0.5419719881258342,
+        "weighted_mass": 0.09653465346534654,
+        "CI95_lower": 0.508211208146692,
+        "CI95_upper": 0.5727867132867133,
+        "valid_bootstrap_draws": 2000
+      },
+      "whole_cohort_rescuable_mass": {
+        "estimate": 0.0965346534653465,
+        "weighted_mass": 1.0000000000000004,
+        "CI95_lower": 0.07920792079207915,
+        "CI95_upper": 0.11386138613861384,
+        "valid_bootstrap_draws": 2000
+      },
+      "periodic_failure_mass": {
+        "estimate": 0.0965346534653465,
+        "weighted_mass": 1.0000000000000004,
+        "CI95_lower": 0.07920792079207915,
+        "CI95_upper": 0.11386138613861384,
+        "valid_bootstrap_draws": 2000
+      }
+    },
+    {
+      "K": 8,
+      "pool": "C",
+      "epsilon": 0.05,
+      "clips": 13,
+      "groups": 13,
+      "weighted_mass": 0.03217821782178218,
+      "safe_alternative_clips": 13,
+      "no_safe_clips": 0,
+      "safe_schedule_success_total": 54405,
+      "schedule_total": 83655,
+      "distribution": {
+        "min": 0.40295260295260293,
+        "q05": 0.40295260295260293,
+        "q25": 0.6458430458430459,
+        "median": 0.6750582750582751,
+        "q75": 0.7111111111111111,
+        "q95": 0.7782439782439783,
+        "max": 0.7782439782439783
+      },
+      "any_safe_fraction": {
+        "estimate": 1.0,
+        "weighted_mass": 0.03217821782178218,
+        "CI95_lower": 1.0,
+        "CI95_upper": 1.0,
+        "valid_bootstrap_draws": 2000
+      },
+      "no_safe_fraction": {
+        "estimate": 0.0,
+        "weighted_mass": 0.03217821782178218,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0,
+        "valid_bootstrap_draws": 2000
+      },
+      "safe_density": {
+        "estimate": 0.6503496503496503,
+        "weighted_mass": 0.03217821782178218,
+        "CI95_lower": 0.6018181519335366,
+        "CI95_upper": 0.6920922800490109,
+        "valid_bootstrap_draws": 2000
+      },
+      "whole_cohort_rescuable_mass": {
+        "estimate": 0.032178217821782165,
+        "weighted_mass": 1.0000000000000004,
+        "CI95_lower": 0.022277227722772262,
+        "CI95_upper": 0.04207920792079205,
+        "valid_bootstrap_draws": 2000
+      },
+      "periodic_failure_mass": {
+        "estimate": 0.032178217821782165,
+        "weighted_mass": 1.0000000000000004,
+        "CI95_lower": 0.022277227722772262,
+        "CI95_upper": 0.04207920792079205,
+        "valid_bootstrap_draws": 2000
+      }
+    },
+    {
+      "K": 8,
+      "pool": "U",
+      "epsilon": 0.0,
+      "clips": 188,
+      "groups": 137,
+      "weighted_mass": 0.4678217821782178,
+      "safe_alternative_clips": 188,
+      "no_safe_clips": 0,
+      "safe_schedule_success_total": 557332,
+      "schedule_total": 1209780,
+      "distribution": {
+        "min": 0.14374514374514374,
+        "q05": 0.2891996891996892,
+        "q25": 0.37902097902097903,
+        "median": 0.45703185703185706,
+        "q75": 0.5446775446775447,
+        "q95": 0.6503496503496503,
+        "max": 0.7664335664335664
+      },
+      "any_safe_fraction": {
+        "estimate": 1.0,
+        "weighted_mass": 0.4678217821782178,
+        "CI95_lower": 1.0,
+        "CI95_upper": 1.0,
+        "valid_bootstrap_draws": 2000
+      },
+      "no_safe_fraction": {
+        "estimate": 0.0,
+        "weighted_mass": 0.4678217821782178,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0,
+        "valid_bootstrap_draws": 2000
+      },
+      "safe_density": {
+        "estimate": 0.4598545487434377,
+        "weighted_mass": 0.4678217821782178,
+        "CI95_lower": 0.4481867263785754,
+        "CI95_upper": 0.4707662773307932,
+        "valid_bootstrap_draws": 2000
+      },
+      "whole_cohort_rescuable_mass": {
+        "estimate": 0.46782178217821757,
+        "weighted_mass": 1.0000000000000004,
+        "CI95_lower": 0.43564356435643564,
+        "CI95_upper": 0.5024752475247525,
+        "valid_bootstrap_draws": 2000
+      },
+      "periodic_failure_mass": {
+        "estimate": 0.46782178217821757,
+        "weighted_mass": 1.0000000000000004,
+        "CI95_lower": 0.43564356435643564,
+        "CI95_upper": 0.5024752475247525,
+        "valid_bootstrap_draws": 2000
+      }
+    },
+    {
+      "K": 8,
+      "pool": "U",
+      "epsilon": 0.01,
+      "clips": 38,
+      "groups": 36,
+      "weighted_mass": 0.09653465346534654,
+      "safe_alternative_clips": 38,
+      "no_safe_clips": 0,
+      "safe_schedule_success_total": 141053,
+      "schedule_total": 244530,
+      "distribution": {
+        "min": 0.3395493395493395,
+        "q05": 0.41056721056721057,
+        "q25": 0.46045066045066047,
+        "median": 0.5655011655011655,
+        "q75": 0.6773892773892773,
+        "q95": 0.8327894327894327,
+        "max": 0.8475524475524475
+      },
+      "any_safe_fraction": {
+        "estimate": 1.0,
+        "weighted_mass": 0.09653465346534654,
+        "CI95_lower": 1.0,
+        "CI95_upper": 1.0,
+        "valid_bootstrap_draws": 2000
+      },
+      "no_safe_fraction": {
+        "estimate": 0.0,
+        "weighted_mass": 0.09653465346534654,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0,
+        "valid_bootstrap_draws": 2000
+      },
+      "safe_density": {
+        "estimate": 0.5763353455661147,
+        "weighted_mass": 0.09653465346534654,
+        "CI95_lower": 0.5475492522083429,
+        "CI95_upper": 0.6021108437989052,
+        "valid_bootstrap_draws": 2000
+      },
+      "whole_cohort_rescuable_mass": {
+        "estimate": 0.0965346534653465,
+        "weighted_mass": 1.0000000000000004,
+        "CI95_lower": 0.07920792079207915,
+        "CI95_upper": 0.11386138613861384,
+        "valid_bootstrap_draws": 2000
+      },
+      "periodic_failure_mass": {
+        "estimate": 0.0965346534653465,
+        "weighted_mass": 1.0000000000000004,
+        "CI95_lower": 0.07920792079207915,
+        "CI95_upper": 0.11386138613861384,
+        "valid_bootstrap_draws": 2000
+      }
+    },
+    {
+      "K": 8,
+      "pool": "U",
+      "epsilon": 0.05,
+      "clips": 13,
+      "groups": 13,
+      "weighted_mass": 0.03217821782178218,
+      "safe_alternative_clips": 13,
+      "no_safe_clips": 0,
+      "safe_schedule_success_total": 60072,
+      "schedule_total": 83655,
+      "distribution": {
+        "min": 0.49044289044289047,
+        "q05": 0.49044289044289047,
+        "q25": 0.6952602952602953,
+        "median": 0.7351981351981351,
+        "q75": 0.8017094017094017,
+        "q95": 0.9064491064491065,
+        "max": 0.9064491064491065
+      },
+      "any_safe_fraction": {
+        "estimate": 1.0,
+        "weighted_mass": 0.03217821782178218,
+        "CI95_lower": 1.0,
+        "CI95_upper": 1.0,
+        "valid_bootstrap_draws": 2000
+      },
+      "no_safe_fraction": {
+        "estimate": 0.0,
+        "weighted_mass": 0.03217821782178218,
+        "CI95_lower": 0.0,
+        "CI95_upper": 0.0,
+        "valid_bootstrap_draws": 2000
+      },
+      "safe_density": {
+        "estimate": 0.7180921642460105,
+        "weighted_mass": 0.03217821782178218,
+        "CI95_lower": 0.6606658896658896,
+        "CI95_upper": 0.771854287903239,
+        "valid_bootstrap_draws": 2000
+      },
+      "whole_cohort_rescuable_mass": {
+        "estimate": 0.032178217821782165,
+        "weighted_mass": 1.0000000000000004,
+        "CI95_lower": 0.022277227722772262,
+        "CI95_upper": 0.04207920792079205,
+        "valid_bootstrap_draws": 2000
+      },
+      "periodic_failure_mass": {
+        "estimate": 0.032178217821782165,
+        "weighted_mass": 1.0000000000000004,
+        "CI95_lower": 0.022277227722772262,
+        "CI95_upper": 0.04207920792079205,
+        "valid_bootstrap_draws": 2000
+      }
+    }
+  ],
+  "conditioning": "Dense correct AND Periodic fails joint",
+  "density_distribution": "inverse weighted CDF across qualifying clips; includes zero-density clips",
+  "empty": "null / N/A; not zero"
+}

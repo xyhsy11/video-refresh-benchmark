@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "clips": 20,
+  "enumerated_schedules": {
+    "4": 455,
+    "8": 6435
+  },
+  "maximum_errors": {
+    "archive_logits": 1.4210854715202004e-14,
+    "archive_CE": 1.4210854715202004e-14,
+    "scalar_logits": 1.0658141036401503e-14,
+    "scalar_CE": 1.7763568394002505e-15,
+    "K16": 7.105427357601002e-15
+  },
+  "raw_scalar_clips": [
+    "v_CuttingInKitchen_g17_c03.avi",
+    "v_Shotput_g13_c04.avi",
+    "v_Swing_g08_c05.avi"
+  ],
+  "checks": [
+    "mandatory0/exact budgets/no duplicates",
+    "K16 reconstructs Dense16",
+    "Periodic C=U",
+    "archived full-precision per-clip Dense16/Periodic/B4 oracle",
+    "saved B4 H/H+M logits/predictions/features",
+    "independent scalar raw-feature last-cache and U pooling",
+    "joint <= correctness and CE densities",
+    "epsilon monotonicity; no K8>=K4 assumption"
+  ],
+  "archived_aggregates": [],
+  "historical_files": {
+    "passed": true,
+    "tracked_result_files": 3765,
+    "method": "Git blob hashes; protected scientific contents not parsed"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PARTIAL_PILOT",
+  "clips": 20,
+  "groups": 20,
+  "classes": 20,
+  "new_encoder_calls": 0,
+  "fits": 0,
+  "decodes": 0,
+  "downloads": 0,
+  "GPU_initializations": 0,
+  "CPU_analysis_seconds_this_invocation": 13.318926999999803,
+  "timing_boundary": "CPU enumeration/reporting this invocation; excludes input preflight; NOT inference latency",
+  "bootstrap_draws": 0,
+  "synthetic_rows_in_empirical_tables": 0,
+  "gates": "23A NO_GO/BLOCKED_INPUT preserved; 23B frozen/unexecuted"
+}

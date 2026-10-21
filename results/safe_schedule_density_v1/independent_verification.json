@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "command": ".venv/Scripts/python.exe verify_safe_schedule_density.py",
+  "per_video_rows_recomputed": 4800,
+  "conditional_and_paired_estimates_and_intervals_checked": 900,
+  "exact_schedule_distributions_checked": 1600,
+  "bootstrap_indices_identical": true,
+  "oracle_CE_reconstructed_from_actual_schedule_minima": 0.13548268541350722,
+  "archived_oracle_CE": 0.13548268541350716,
+  "verification_only_no_new_estimands": true,
+  "new_encoder_calls": 0,
+  "fits": 0,
+  "decodes": 0,
+  "downloads": 0
+}

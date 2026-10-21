@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "unit_tests": 7,
+  "synthetic_tests_enter_empirical_tables": false,
+  "guard_checks": [
+    {
+      "path": "results\\safe_schedule_density_v1\\full\\per_video.csv",
+      "readonly": false,
+      "writing": true,
+      "blocked": true
+    },
+    {
+      "path": "results\\refresh_failure_evidence_v1\\summary.md",
+      "readonly": false,
+      "writing": true,
+      "blocked": true
+    },
+    {
+      "path": "results\\safe_schedule_density_v1\\new_audit_write.json",
+      "readonly": true,
+      "writing": true,
+      "blocked": true
+    },
+    {
+      "path": "data\\source\\forbidden_confirmation.npz",
+      "readonly": false,
+      "writing": false,
+      "blocked": true
+    }
+  ],
+  "audit_command": ".venv/Scripts/python.exe analyze_safe_schedule_density.py --audit-only",
+  "read_only_audit": "PASSED: pilot 20/20 and full 400/400; exact arrays, bootstrap primary interval, sealed hashes, 3765 historical result blobs unchanged",
+  "figure_visual_inspection": "Both full-cohort PNGs inspected; labels and plots readable",
+  "verifier_implementation_corrections": "Pandas clip column/method collision and copy-on-write boolean view corrected in the independent verifier before its successful run; analyzer and sealed outputs unchanged",
+  "new_encoder_calls": 0,
+  "fits": 0,
+  "decodes": 0,
+  "downloads": 0
+}
