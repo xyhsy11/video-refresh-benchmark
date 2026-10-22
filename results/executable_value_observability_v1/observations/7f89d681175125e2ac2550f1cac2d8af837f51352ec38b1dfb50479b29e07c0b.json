@@ -1,0 +1,12 @@
+{
+  "clip": "flic_flac/boden__bung_gaurunde_flic_flac_f_cm_np1_ri_med_1.avi",
+  "sha256": "f36647f067356364de51fec637e9a3005f875b907535f78c0e5e72bddbff34cc",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "762c9a189a9871175f7551208ef3daf256bb4154648c0de3e2a07eaf882b29d4",
+  "grid_sha256": "9085134ea15cd5048c6399769ceb85726652a3c058aa28fbd1e38f9bbe34f632",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

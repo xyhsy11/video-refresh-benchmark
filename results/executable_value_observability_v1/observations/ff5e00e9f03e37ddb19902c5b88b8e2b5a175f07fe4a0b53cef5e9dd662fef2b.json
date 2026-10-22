@@ -1,0 +1,12 @@
+{
+  "clip": "stand/SchoolRulesHowTheyHelpUs_stand_u_nm_np1_fr_med_1.avi",
+  "sha256": "089b3cc4e4c5dc757b6f435c118978fc65a9ce2b3964e89788b6878ee80303ff",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "41dae8f69b6ca1b87163c380709d455e3e780b561868faa5035531e38ecc453c",
+  "grid_sha256": "4dd65f78eff6ea8a48e7567ce7829b63dde51549e662dd46f662dc8b93a1a770",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

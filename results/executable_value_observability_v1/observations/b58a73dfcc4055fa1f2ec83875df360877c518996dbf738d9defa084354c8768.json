@@ -1,0 +1,12 @@
+{
+  "clip": "wave/IamLegend_wave_u_nm_np1_ba_med_6.avi",
+  "sha256": "9fe86d16ff6a7f1145e503335027b5e45bbdf9111409d055d79cddc7484ba18d",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "08a157ebc39e473c63f1ef11b270008b14f35d92511b793002364603deae2e94",
+  "grid_sha256": "c9827b04c8a251b18a4892e55c1de5aa803734b3910f78967e9cf306303083e3",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

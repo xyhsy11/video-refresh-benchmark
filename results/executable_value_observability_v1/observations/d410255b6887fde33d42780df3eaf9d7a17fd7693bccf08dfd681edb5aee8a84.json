@@ -1,0 +1,12 @@
+{
+  "clip": "sit/AMADEUS_sit_u_nm_np1_fr_med_4.avi",
+  "sha256": "d92fa4d2b6f0b33a251996b2ff19ddf4f405f832b13a8dc284302eea010ed60a",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "adb12b7c8b07c8604b69159c7f3e8d11b91f8e3503495489adf58da1b041610a",
+  "grid_sha256": "701d69ef67b48af7464270a8d94629bcd8027f07bd4dfb1b5d59a98e2733a9fb",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

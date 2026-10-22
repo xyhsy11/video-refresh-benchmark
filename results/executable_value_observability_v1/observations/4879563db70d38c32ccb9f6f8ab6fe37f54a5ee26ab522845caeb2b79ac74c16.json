@@ -1,0 +1,12 @@
+{
+  "clip": "draw_sword/Eishin-Ryu_Iaido_draw_sword_f_cm_np1_fr_med_12.avi",
+  "sha256": "c079ae117807be011722679fd565a211d88d1234eba15bf766c5b024ec3c5bf6",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "2e85ea8d117141942aa137c7880075128c71a17262edc7505d5dd75e1177daba",
+  "grid_sha256": "99cc5c0c6b2f5277d77629816f172c1e29987c633e38d0f1c685b451e034191d",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

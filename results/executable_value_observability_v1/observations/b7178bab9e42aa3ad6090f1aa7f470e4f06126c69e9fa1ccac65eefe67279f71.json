@@ -1,0 +1,12 @@
+{
+  "clip": "golf/Angry_Female_Golfer_golf_f_cm_np1_fr_bad_0.avi",
+  "sha256": "2b112b50d3864484b8cb729b9c8e98b55b312010586d02147494070b09f896e8",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "d46aa57f8027317843924ac387fe3e3916e033c708f0ef942f5c7ce18a55081e",
+  "grid_sha256": "6591f92c185197f1ff129bf889354d8281b5c17853c2d65bfc4d2ee47ee332bc",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

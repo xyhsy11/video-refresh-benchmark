@@ -1,0 +1,12 @@
+{
+  "clip": "hit/Schnaaper_Crew__Eisbaden_(2007)_hit_f_cm_np1_le_bad_3.avi",
+  "sha256": "af212f9aed04e12e21e6ff30c744c45b11ff47f1ed776a7a58b0a00db13405cc",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "c816b2183bf31227a7c2e33c867aa1eb50d2ccfdbf5eda22ecb29bff945e337e",
+  "grid_sha256": "67f3b0b43f8906097a473f973bcc57d8a52cfd4997728cc1509a56a0757d836f",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

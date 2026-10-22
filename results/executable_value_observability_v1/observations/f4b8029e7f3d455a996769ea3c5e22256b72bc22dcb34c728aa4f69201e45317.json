@@ -1,0 +1,12 @@
+{
+  "clip": "draw_sword/Muso_Jikiden_Eishinryu_in_Guldental_draw_sword_f_cm_np1_ri_med_1.avi",
+  "sha256": "c31025cd7e939d6fa2448c57e6d630c1f2b2776307c43030b4537e9ee368a678",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "eba98059a32493c990593484b9ff74dc530db20585a6b317e9ac128588110e7b",
+  "grid_sha256": "81fac1bc549ffc3365312dce434599a256f216ac66ff1b6259708deba3f58a4e",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "cartwheel/turnles!!_cartwheel_f_cm_np1_ri_med_3.avi",
+  "sha256": "32d0bacb6115936a1b2afa772b24a336384288855279dd3c58466e8d430ad474",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "2269fdb08b8c80f8129199e7a175f00199629543bb6890fca7310b36caa703d3",
+  "grid_sha256": "e8d4166d070f6f16803fdca359951092642b0173c4823d236a81f1057f6575e3",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "flic_flac/17flaks_flic_flac_f_cm_np1_fr_med_1.avi",
+  "sha256": "7665f9cf108f78e4e7dd8ffe12d4a26cb3cc0c76610866c544675631fa88430b",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "220d0c427a84a3fa82e8616dd696b08d39c0c3b04efd13c50a5a96ac46ce6c4b",
+  "grid_sha256": "99768d10a166746496fdb40672540489f332eae5c7b580f1770220405ae77610",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

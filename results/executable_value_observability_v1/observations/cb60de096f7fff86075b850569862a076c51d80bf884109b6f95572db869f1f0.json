@@ -1,0 +1,12 @@
+{
+  "clip": "laugh/Glory_laugh_h_cm_np1_fr_med_3.avi",
+  "sha256": "ebbb9150bfb77e4191eff41720d4c43995506d9205e08babe922535521182da9",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "6b0e1694b96176366ee8cd4ef20f2c2a2faaee1f7d47b1e162ecb512f5453920",
+  "grid_sha256": "b7809eb6e0525de9e5fa88918c9ff44ef8340dc51c29957f5899ad51b61dc6f1",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

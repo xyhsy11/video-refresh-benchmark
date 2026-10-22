@@ -1,0 +1,12 @@
+{
+  "clip": "stand/AmericanGangster_stand_f_nm_np1_le_med_33.avi",
+  "sha256": "9f4b20f503be0bbe5927ba282b72d14ccf940ec756d1466ed4f0bd43fa7e9b06",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "e8aa4fd878f81aa96750f29e7dffd822f3540e8010d95d5ab29244c20555a027",
+  "grid_sha256": "3d619b3cab1447c53a02acd25198f87a56887fd4be7a6cf3410673b360e3792a",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "ride_bike/Learn_How_To_Ride_A_Bike_at_Any_Age_ride_bike_f_cm_np1_le_med_8.avi",
+  "sha256": "3b087a09a546d6506c8907bc2b55383ee069872d4a9acd36b76857e02a31460c",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "25beb2920bdc75c0dc71887bb10ecc168650132a1686c3ff572b06a5bd549081",
+  "grid_sha256": "f0bfe192e739ab627f711c5fd7a1bb8ad4d8fd49f33872005a2096b7504ba636",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

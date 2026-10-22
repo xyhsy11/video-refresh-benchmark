@@ -1,0 +1,12 @@
+{
+  "clip": "drink/MeettheFockers_drink_u_cm_np1_fr_goo_4.avi",
+  "sha256": "58eb48a6f2d3f9bd1f042d22845b290caf64155467328c401d325ba3e9e9a85c",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "3e41d305993d95a36562d6ae4223a6c5c52cdc5bd3acb8f5f951b6571cc93a20",
+  "grid_sha256": "ee7ba502408630d76d3f893ddb6630a643e022bb2501f1fa78c37fc7ef884808",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

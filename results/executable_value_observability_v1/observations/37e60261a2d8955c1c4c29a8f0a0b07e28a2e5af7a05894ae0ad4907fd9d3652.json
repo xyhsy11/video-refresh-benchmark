@@ -1,0 +1,12 @@
+{
+  "clip": "cartwheel/cartwheel_challange_cartwheel_f_cm_np2_le_med_1.avi",
+  "sha256": "762e927fc366d961859f5ba146d871e4323181c20a2b89be67c1fc11a81775d0",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "c29cbffb12b9043acd393a47736ace4662dc9ee74088e525f81b8900d1ac1e3b",
+  "grid_sha256": "fe4581c02275966cb0dabebc6081eefbf32f27152783ace06f48de00d386b79f",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

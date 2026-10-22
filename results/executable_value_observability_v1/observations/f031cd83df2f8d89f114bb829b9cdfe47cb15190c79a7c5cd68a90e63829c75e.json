@@ -1,0 +1,12 @@
+{
+  "clip": "punch/A_Beautiful_Mind_4_punch_h_nm_np1_ba_med_11.avi",
+  "sha256": "22cbb94aca4a9793829a54a1a98d36201465ebda97c85aafe3eba5f191c5fb46",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "3aca9c32e9e02ffae220e48c60cec65cddcc608fe2a771b5eccdebe2a5c2befc",
+  "grid_sha256": "f173c37ab52370d050ff22d913b0f0f0f519883e92f0e4d5cd163bfa111e7d43",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

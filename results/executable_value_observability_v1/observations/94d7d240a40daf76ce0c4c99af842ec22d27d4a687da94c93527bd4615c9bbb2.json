@@ -1,0 +1,12 @@
+{
+  "clip": "smoke/girl_smoking_a_cigarette_smoke_h_nm_np1_fr_med_2.avi",
+  "sha256": "cd598ae505323eb62c595fd47267b291b87a570909a6512fa3888b5375d2ee14",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "97d099705a0266856ef2761c603490fb1b658cab6cc60eb781a76a84631cdcc2",
+  "grid_sha256": "5b336ec062105976b8c33a4bcb863ab434278efd8b5549193cb38b4137840dce",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

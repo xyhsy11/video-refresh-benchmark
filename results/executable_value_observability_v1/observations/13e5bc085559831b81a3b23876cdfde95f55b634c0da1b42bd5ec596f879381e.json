@@ -1,0 +1,12 @@
+{
+  "clip": "sit/TheBoondockSaints_sit_f_cm_np1_ri_med_42.avi",
+  "sha256": "13662c52b9f5e85180320c4df736affcf2e5c6ef5c67ee29c5fe62f71fb85af5",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "db547c11904e6d3b94e14ce13f81209fe1383c0e66d61af33cd2b4bcdbd8d5a4",
+  "grid_sha256": "c358e1b1b7667da92b139bb4260ccb5fabf1437e7e046840e32445705c192b82",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

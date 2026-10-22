@@ -1,0 +1,12 @@
+{
+  "clip": "kick_ball/LittleChildren_kick_ball_l_cm_np1_ri_bad_4.avi",
+  "sha256": "c336f96cf2b3c331900bb56866a235d3756246f09f68a7f90c3be088862f3e91",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "80b5014f33de43b7c7e28275b06987291c8c5e360feda6f898ee9df3a87f6ef7",
+  "grid_sha256": "ec9e56448f23df7770f8d8391228114ebbfc3b0b4c52502b81a36a57c8389a81",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

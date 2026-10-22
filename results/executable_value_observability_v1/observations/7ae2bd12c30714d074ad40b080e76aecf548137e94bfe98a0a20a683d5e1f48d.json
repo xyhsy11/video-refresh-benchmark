@@ -1,0 +1,12 @@
+{
+  "clip": "handstand/Projekt_SPOHO_2008_-_27_02_08_-_Training-_Bodenk_r_4_handstand_f_cm_np1_le_med_1.avi",
+  "sha256": "fc6615d22f181f24ab42ac8ae37d4a8d4bc8ae026bd49655dbe1207fe69cc61a",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "282bac72c69bf499031c9fe3f6e82cdef9b8cc51427516dcdbab0b3bb495ec64",
+  "grid_sha256": "be4b8a2446ccc47c09ae75b36c529935f8e3f2333478d2f4b7fa9871c4a1b5f8",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "drink/Return_of_the_King_13_drink_u_nm_np4_le_med_0.avi",
+  "sha256": "4889004562d81af3273bd9bc330c41e2cec37337c2cbbb658e3543141374f928",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "b0eb3ee6c68fef8c1260f7709aab9f15a9c285976fd26b3f9e19ad4c664546d3",
+  "grid_sha256": "f1c6f07ae266f83bc054f4593e428bcfd20e7de3c07920b476926c6056167f0d",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

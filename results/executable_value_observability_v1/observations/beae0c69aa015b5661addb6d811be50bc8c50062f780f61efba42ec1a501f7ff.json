@@ -1,0 +1,12 @@
+{
+  "clip": "talk/American_History_X_talk_h_nm_np1_fr_goo_20.avi",
+  "sha256": "561327aa133606c34abc23c4ae3b0b5839f4ae7b18cf542618662bdb5ff3f90c",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "07f6e3fc6ad868006a14ecbcef87c556d9fd38c989d076b33777491726789677",
+  "grid_sha256": "fdc6b65b84b94a39b18116a67d29e22eee07fd64beb1eca223a525667260042c",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

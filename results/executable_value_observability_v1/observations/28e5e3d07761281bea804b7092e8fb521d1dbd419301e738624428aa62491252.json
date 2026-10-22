@@ -1,0 +1,12 @@
+{
+  "clip": "sword_exercise/MAF_Tenshin_Ryu_sword_exercise_f_nm_np1_ri_bad_2.avi",
+  "sha256": "5df6eab58e1a82f69a512cea5a0b4924297e318bada5ed4b6d46ff39e6b7b987",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "c6ac5fa7dca05cb637ce1dfe077cf5672af2b4add36d1189c0041ae6f403ad96",
+  "grid_sha256": "eb61def769c472f61197dc6bf457340783890eb5422561ca5815124060b7e32c",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "draw_sword/Yet_another_point_about_drawing_swords_draw_sword_u_nm_np1_fr_med_1.avi",
+  "sha256": "3f44535db388928f5749cd4612d20c863d56cea4ffcba0ffb1c9949b89e7c8aa",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "7ad598b35eb75325e39ddf0bd78ecc66f94530c47f7047d104bad88d84373f97",
+  "grid_sha256": "4915b0cb0c41687d077d7d79f53ef406e9686c098f845beeb0074b643e6227c0",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

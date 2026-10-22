@@ -1,0 +1,12 @@
+{
+  "clip": "run/Fellowship_2_run_f_cm_np2_fr_med_5.avi",
+  "sha256": "3b5b964b8845ab617fc3526522f8ab777a7398598a5d527f19157c9c3fd98ffc",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "3ea4ba308def688f9e9f31300c656906bc0525a2d1a5bdb649679f71088b1013",
+  "grid_sha256": "5c8c583b02ac4a8ad5658b281579b3c5ac5816e070347e2c88f69254020ce357",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

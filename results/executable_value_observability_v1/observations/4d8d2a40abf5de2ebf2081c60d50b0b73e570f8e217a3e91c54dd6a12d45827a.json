@@ -1,0 +1,12 @@
+{
+  "clip": "stand/RATRACE_stand_f_cm_np1_fr_med_36.avi",
+  "sha256": "61826e614010d3bb6f7d375092ff2ef608a12415814aa16ad418fc48e4aa48e7",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "f3263a480258e70b31903b19f620740fe5cdff45774b8478efc26a2b6019d9d5",
+  "grid_sha256": "33c3344c03f968834e90178e3569cca43a83243be3aea4b266d8e76e8ab64071",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

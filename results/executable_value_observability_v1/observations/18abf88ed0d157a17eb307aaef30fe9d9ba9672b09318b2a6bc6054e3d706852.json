@@ -1,0 +1,12 @@
+{
+  "clip": "turn/TheLastManOnearth_turn_u_nm_np1_le_med_11.avi",
+  "sha256": "956137f37a6137d85ceeec7a93da7a50402380f8fdea170e6cda090d59836da5",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "0648901bd7504d2182c5f69df4a3b7c60aa4c5b8f920fa481bfed8e2760b0f84",
+  "grid_sha256": "9bf19eadb0c802f52371ab80bc4c3b9ba3e1bc45225d9d335c21f63b545e5fef",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

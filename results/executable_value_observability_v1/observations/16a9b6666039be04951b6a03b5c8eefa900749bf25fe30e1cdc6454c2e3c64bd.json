@@ -1,0 +1,12 @@
+{
+  "clip": "walk/AmericanGangster_walk_f_cm_np1_le_bad_8.avi",
+  "sha256": "dd62c469e2ce58a1ab7093fd2c0ecfef5fc8a677687b29206307ddafb67d9933",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "f261ba5c33828ad6039f8a569699d67c32733533f24e893a2da8738245d8089a",
+  "grid_sha256": "d5fb8318303bfe18f5d674569d44569fbdc7df04b2839753a396fa7b52aab9b7",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

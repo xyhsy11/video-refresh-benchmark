@@ -1,0 +1,12 @@
+{
+  "clip": "shoot_gun/GLOCK17_shoot_gun_u_nm_np1_ri_goo_7.avi",
+  "sha256": "bec8f06e6efdc59f8b0bfef7f4def9560b2b0735dcf83dfbf12627bd06c74cc4",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "89bf0774061b150e097566130f40d3549eeb830738b40663bb75cb3b8ebce7fe",
+  "grid_sha256": "02ba1cb10de4bce4557667225519dd3008817a0161f1553d945422a66002b971",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

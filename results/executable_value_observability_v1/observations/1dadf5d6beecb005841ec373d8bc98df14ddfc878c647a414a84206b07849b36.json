@@ -1,0 +1,12 @@
+{
+  "clip": "somersault/hechtsprung_xx_somersault_f_cm_np2_fr_bad_0.avi",
+  "sha256": "becbcff06a38ec76535ed8967d1841a7a6a032097ddc306ffc2fb55ccc0ae46d",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "7b16f57319621e4a1dfa51ec0199300c27b48e3c7db8327d1432483847423dbb",
+  "grid_sha256": "a0329e04a1369d041f8e1bba982ae257e335aebc1bb082418957cfb4f4d3e786",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

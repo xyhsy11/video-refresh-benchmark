@@ -1,0 +1,12 @@
+{
+  "clip": "hit/SweeneyTodd_hit_u_nm_np1_fr_bad_2.avi",
+  "sha256": "1ca32a411db5b498e886e8ee37952339f7eb3f5d0ae3449dafbcbf2c6642df8c",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "2265f07f00efdbd96297985e2f254a1621ed3640c7ab0c4dbaa7ea7c8be416f9",
+  "grid_sha256": "017267a51d8e95f3f48aeca8d81c99e8c94726b93616886ed1b88e0fbc3ae198",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

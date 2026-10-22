@@ -1,0 +1,12 @@
+{
+  "clip": "draw_sword/Ukigumo_Kata_from_Hasegawa_Eishin_Ryu_draw_sword_f_nm_np1_le_med_3.avi",
+  "sha256": "b201bb5ddbb8b5127aa99dcccb37536b7f278401fe03689541c6a6cf8809b99b",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "cdb198e86f4b35cc23177562bfbff7778574472eaffe927d8069851d253f2a89",
+  "grid_sha256": "c9dd4031008e7ff4e2d0bfc77474789905deea83f6723f8e046fb5306c6dd4b5",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

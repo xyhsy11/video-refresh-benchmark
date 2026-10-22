@@ -1,0 +1,12 @@
+{
+  "clip": "smoke/How_to_smoke_smoke_h_nm_np1_fr_goo_1.avi",
+  "sha256": "1a78d0ccfc99065c8df8e5e9adabe1febdc8b5be0b10d6c6f8fe06e45a0a99c2",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "94989f0df5cf3dedbe11016876cec45ef584761562e64580bb2291608872d55f",
+  "grid_sha256": "1d4ce1f7f14bb7ed24b0deff8098a53653405b2282e70f245dd4503b51148b96",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

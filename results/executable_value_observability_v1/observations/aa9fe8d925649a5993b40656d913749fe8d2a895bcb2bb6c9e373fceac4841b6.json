@@ -1,0 +1,12 @@
+{
+  "clip": "sword/Takeda_Ryu_Iaido_sword_f_nm_np1_le_med_5.avi",
+  "sha256": "b421ada972d8d70a54386919b8a10dcd6ac4e6cf330a041fac7dcea8bc0926a8",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "16eb16dc7d6a73246220c81e0d7b9d7bc54b11fec091ecadeba43d2adf3a893a",
+  "grid_sha256": "0932743ad266a263d202c6492dabb86399810ee28b656f10506e1d0b36677574",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

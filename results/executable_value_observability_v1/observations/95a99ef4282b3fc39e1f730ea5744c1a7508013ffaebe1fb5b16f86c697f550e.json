@@ -1,0 +1,12 @@
+{
+  "clip": "climb/Rock_Climbing_-_Joshua_Tree_climb_f_nm_np1_ba_med_2.avi",
+  "sha256": "fdf389d6a8fb582ca190bf24c35a87d8b1f283e68bf60d2d3656d1dec0e45e84",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "3833a8b76e1346d6d73f00c384eb00e16f7ff1baa2447d5049d905e871353ad0",
+  "grid_sha256": "a5daa01bd5ba289daa7e2971491310b81b877de1460e7b09d67d7b176d4ad91d",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

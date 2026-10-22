@@ -1,0 +1,12 @@
+{
+  "clip": "drink/GardenWiseA256kb_drink_u_cm_np1_fr_goo_0.avi",
+  "sha256": "50c6b738825ec82d4a2b8c6a72aff8a7d62af6293783d516bf0401daa63950a6",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "93b2078bc352c00e0b2fd36abac9e8db052222a1488e927ea17ae5b39fef55dd",
+  "grid_sha256": "efb469b332664053409394f43fbf36982e8e83e4193fecb73516b9edb7d3ed25",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

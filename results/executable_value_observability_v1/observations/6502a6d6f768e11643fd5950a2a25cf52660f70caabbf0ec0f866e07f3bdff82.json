@@ -1,0 +1,12 @@
+{
+  "clip": "pullup/Random_Pull_Up_Exercises_pullup_f_nm_np1_fr_med_3.avi",
+  "sha256": "9da8c1e6ad66de3bc9b79073c922cb873649b5f0fed2da5dd87f51c091177fd4",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "bdc51b259326d79f38b27068a52c1c6a62804970191a037e80130a8fb37c1cee",
+  "grid_sha256": "9d45cafd64035e2157fe2420bad9d24d6fd41382c34477e07af8910e95136666",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "turn/The_Departed_-_Part_1_turn_h_cm_np1_ri_goo_11.avi",
+  "sha256": "67b405d98965a796520ea732646d4376f2dea6cb45aa99204af859485753d4fe",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "62bbd349c9d279e9fe454c5c78d06a81c1264bbd03089421588e59113336ec8c",
+  "grid_sha256": "5cdd3396b37564217f829c2a91893e845f15bec7c80d43789f5896a068171783",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "golf/Casie_Cathrea_golf_f_nm_np1_fr_med_0.avi",
+  "sha256": "2da47ef7e36fced4dcfdd38cc768b4c2b99292f16c27f307eda0402a31ef36e7",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "567266901c6043106c7f143ca47fa71fb6347354c3c9eefb3be587ee9e9614c1",
+  "grid_sha256": "7aa317929ab379e167b0f017d40640976d4252a580c688da0e4a0d50fc91eadf",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

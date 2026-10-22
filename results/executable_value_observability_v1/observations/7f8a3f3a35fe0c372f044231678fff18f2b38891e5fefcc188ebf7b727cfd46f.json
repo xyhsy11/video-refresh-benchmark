@@ -1,0 +1,12 @@
+{
+  "clip": "pullup/35_pull_ups_pullup_f_nm_np1_fr_goo_0.avi",
+  "sha256": "764ae6be9072f1ae725ae4e09c8ff20907bc62ce477d2501b11ae84a8571e206",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "871ff536b83a68e4fbd35ff2d04bd78818af1e995d402aad73849401ac092121",
+  "grid_sha256": "7baa1790a0b374158fc33a27b8fc2bc4df8e53e9e50fc5838b3e1b7de56b0f1d",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

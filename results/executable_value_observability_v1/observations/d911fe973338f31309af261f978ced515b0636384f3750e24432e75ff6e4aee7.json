@@ -1,0 +1,12 @@
+{
+  "clip": "walk/Prelinger_LetYours1940_walk_f_nm_np1_ba_med_5.avi",
+  "sha256": "bc1f59febb3b7c0ff8c15001c33d9a4c11d5a44ca588d3a103f0bd33cb5b3e7b",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "30ae06545c5777a3a605e34c257b0acaf75db6e295cfd68f80052310d4f30b3e",
+  "grid_sha256": "bf4c1bb9768a1f6f2d73191797d1988f7e059a1e201c3bf3744bd988fccebe4b",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

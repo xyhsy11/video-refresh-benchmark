@@ -1,0 +1,12 @@
+{
+  "clip": "kick/kick__Bruce_Lee_sidekick_kick_f_cm_np1_ri_med_1.avi",
+  "sha256": "83683993d8d6c049adf4b0505ebb5409ebc2ae8f4579a9c530e9229887f52ba7",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "f5fe6a32f0df1b18fdfd63c732f105238f990050b3d0ece8d52949f11e6fee99",
+  "grid_sha256": "e7fdf29f17696c030aa5ac7b22b68e56ef42855da833708bf23fa464131d1f05",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

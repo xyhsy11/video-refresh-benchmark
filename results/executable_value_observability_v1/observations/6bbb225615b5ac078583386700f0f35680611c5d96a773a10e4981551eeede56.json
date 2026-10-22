@@ -1,0 +1,12 @@
+{
+  "clip": "jump/OldSchool_jump_f_nm_np1_fr_bad_26.avi",
+  "sha256": "89b4f08af2e22be9c9205c3237bf8ae487f91fc302b096c328b2bc6003298071",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "d785f95cbf2ce4b65b2cbe2dd20820bb9c9feafa6c1b90f5bdadf04f96451dda",
+  "grid_sha256": "bb6f7100f976ab0aa01b6b1ba9b4983645c90b0e92348366551da3a4ae30912b",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

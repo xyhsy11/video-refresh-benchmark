@@ -1,0 +1,12 @@
+{
+  "clip": "punch/Glory_punch_u_cm_np1_fr_bad_37.avi",
+  "sha256": "2a2119a915409d878c0b030a4d833309c57ef8542965bb1b7ebcc3ce14e0d3b2",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "95784291a7d3ba7118dd2eb06c921f48ba2cf7d796d771fae2bcf66165f8916e",
+  "grid_sha256": "f698598281b3b34a0b7c5de5e439b3be6caf923319d6cd8ef671c33a8450657f",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

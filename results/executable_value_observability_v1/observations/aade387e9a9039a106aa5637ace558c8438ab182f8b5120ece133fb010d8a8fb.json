@@ -1,0 +1,12 @@
+{
+  "clip": "stand/AllThePresidentMen_stand_u_nm_np1_le_med_1.avi",
+  "sha256": "6d9e985ab1bf78e10f135472496f339d7c187367e5d1cc60759a3872e375085f",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "ca85910b93ba60a0efaf1e285d7f3178f721daac80b606d29fd1f846e3badc6e",
+  "grid_sha256": "8c7250c66ee90c13ce4f1e24f1a0d1c7b00f41455aa70b8ee6f17a5a411944d0",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

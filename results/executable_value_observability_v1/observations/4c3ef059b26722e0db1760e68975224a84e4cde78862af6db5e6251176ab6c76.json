@@ -1,0 +1,12 @@
+{
+  "clip": "climb_stairs/TheBoondockSaints_climb_stairs_f_cm_np3_ba_med_125.avi",
+  "sha256": "25456ee7242ba6e10ec5c964343105d54d36afbf451b5ddcddf5e8f7b7a503f7",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "b205f07fd5f90ce71e267303f5bce09830050a8c4fa901ca48aeb2b4b9c47e2e",
+  "grid_sha256": "3ef08ec89a4c6f566d040992f4d1330159161dddd0dc325e821ac652ab8f102d",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "pour/Basic_Vodka_Recipes_-_How_to_Make_a_Shirley_Temple_pour_u_cm_np1_fr_med_0.avi",
+  "sha256": "f50ea1d8430c1bf957419ac372f8b23add0cb8e4eb5e8b0dbb0f6d8f5e3a0de6",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "deb9a3ea42a3bb48efbf70304d9b7c5531c291111790ca5ef7868017ee8edf77",
+  "grid_sha256": "cd1fbc59931ae788bda750fd3e53611e2641b0e6329c4d8fc2b2cba4b2235b4b",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

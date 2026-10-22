@@ -1,0 +1,12 @@
+{
+  "clip": "climb/Pole_Climbing_Challenging_gravity_climb_f_cm_np1_ba_med_2.avi",
+  "sha256": "458c7e2b3046c4b6c8b0940d89d05d5143855e13dcf2f4d7e58c08506b337d37",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "3bb5faf4c3ddf2a36aebc8fc5877e59b50c9f2415fe9623fde78660a8cbb4615",
+  "grid_sha256": "21bb1e034ef3c5f4fe7a2d04379ec837e3d54bd67a5d164b5dca086b6110a121",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

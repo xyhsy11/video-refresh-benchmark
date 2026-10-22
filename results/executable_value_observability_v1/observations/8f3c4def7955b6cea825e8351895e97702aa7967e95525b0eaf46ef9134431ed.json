@@ -1,0 +1,12 @@
+{
+  "clip": "push/Pushing_Music_Table_push_f_cm_np1_fr_bad_8.avi",
+  "sha256": "b539a1718a8b5fd1484610c43e63f9d8ca00554ff4c179f54b313a5d8b90b7cf",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "a7a74351055bbe47d10b743b1b64798e42aca527176b603da713d926b34c0cf0",
+  "grid_sha256": "e6b01449fff7d9c9a84f4dcc982a76c70d25a610ab81079252b138efe7f75abe",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "flic_flac/Flikflak_ala_Mustafa_flic_flac_f_cm_np1_le_med_0.avi",
+  "sha256": "acd27dda7db11f72e0190d9095dde9fe1fa6a53e9cfd2373229eb774d1046bde",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "94abe2b09f29efd12cdac58bcf21a9b398d0a645bb81f0a0cf648b6b663657ce",
+  "grid_sha256": "69849edea0e5b14620becd5f0b6f3097f61dc34002576f7db566e71a078313c1",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "throw/IndianaJonesandTheTempleofDoom_throw_u_nm_np1_fr_med_4.avi",
+  "sha256": "cc96b4d193c1497415f8c11dc0856930d094ba224ae5b7a43c135ba7a0f20464",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "af96e5a961cedb669eef3ab1dd3d977de7db7d78caf50f930984f3ec73c7f6e4",
+  "grid_sha256": "8b398feafbbcc36acf1606ef7502e57bb9f5bf4512008def1bbcb5d5ad4f0674",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "stand/GardenWiseA256kb_stand_f_cm_np1_fr_med_1.avi",
+  "sha256": "3d594253804100fcde41f4911f0480bd9ff94592d0b4a5b9590ad7096fb7c4cd",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "182f0141a84a518b1638f25c55785f613b33721e0e6826c39a21b02a4690ba0b",
+  "grid_sha256": "d52bca687112cbb1e4b0e4361cd346fd46b30999058da1b6211df21612f22675",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "ride_bike/Fahrrad_fahren_mit_Albert_ride_bike_f_cm_np1_ba_med_1.avi",
+  "sha256": "4239cd7e1fc23bc7cbca05747d312f8143eba789b57e67e970c9b5924c6916c4",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "44e66b36deced533ab593c15d5fba9fc1f5dcfb923213d0c86040bb703bfeefc",
+  "grid_sha256": "38d4887ccc1745fbb2bd3e59a53f91cdf37f3e39448972d2cea3de8b47d4d4d5",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

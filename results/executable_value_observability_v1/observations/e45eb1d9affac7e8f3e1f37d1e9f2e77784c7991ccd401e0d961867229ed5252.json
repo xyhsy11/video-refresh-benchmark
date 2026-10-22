@@ -1,0 +1,12 @@
+{
+  "clip": "drink/gangboy256kb_drink_h_nm_np1_ri_goo_0.avi",
+  "sha256": "ad78a83fa146f6700f63897197814fed49d593efdb9a2e169ee1b921ad2e15f1",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "2988d9db3dc330ed816c95151c9bd3cbb76b180fde5458c12bdca2a7c072d158",
+  "grid_sha256": "c13d9042b6b23cce4113dc77fb133e2f021bd443c74e53597216ae0a4a5debbc",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

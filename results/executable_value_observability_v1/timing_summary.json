@@ -1,0 +1,41 @@
+{
+  "A_median_ms": {
+    "median": 17.121399999723508,
+    "p95": 49.66601499997978
+  },
+  "B_median_ms": {
+    "median": 21.29519999994045,
+    "p95": 43.68513000008528
+  },
+  "C_median_ms": {
+    "median": 29.76324999985991,
+    "p95": 64.41204499997181
+  },
+  "D_median_ms": {
+    "median": 35.967049999953815,
+    "p95": 76.3648900000362
+  },
+  "D_minus_A_median_ms": {
+    "median": 18.178849999912927,
+    "p95": 38.831774999835034
+  },
+  "D_minus_C_median_ms": {
+    "median": 5.328250000275148,
+    "p95": 13.66450000007262
+  },
+  "C_minus_B_median_ms": {
+    "median": 8.846799999901123,
+    "p95": 18.98218999974688
+  },
+  "B_minus_A_median_ms": {
+    "median": 4.532000000381231,
+    "p95": 8.494265000172154
+  },
+  "clips": 60,
+  "components": 60,
+  "class_coverage": 31,
+  "measured_trials": 1200,
+  "warmup_trials": 480,
+  "boundaries": "Fresh encoded byte read/hash, decode and grid included; models/saved expensive anchor history preloaded, expensive encoder absent; ledger I/O included in outer timer; no decoded-frame reuse; warm OS file cache possible",
+  "interpretation": "Observation-path CPU wall costs only. Within-clip median of paired repetition differences then cohort median/p95; repeats are not sources. Component timers nested in totals; never sum nested medians."
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "throw/KnifeThrowingJackDaggerDemoReel_throw_f_nm_np1_fr_med_1.avi",
+  "sha256": "506fc4686e27a3dc650a390c0665ff82ab45c29f47e7c1d3aba01440824b0c80",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "bb6ffa24f1e4719893751b2f7cd306c2ce716f971c9d5f2bcb072c3f5c717751",
+  "grid_sha256": "e512b3257c099ba8074fd8eb8aff9cbb5305a34ffc039cb467a739a9c6407be7",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

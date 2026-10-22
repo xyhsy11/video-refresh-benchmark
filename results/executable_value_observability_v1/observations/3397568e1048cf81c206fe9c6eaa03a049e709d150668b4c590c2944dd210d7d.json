@@ -1,0 +1,12 @@
+{
+  "clip": "somersault/Philli_beim_Bodenturnen_somersault_f_cm_np1_ri_bad_5.avi",
+  "sha256": "8f51ab9fb596347eb6c0cdc1164c09346be303129a436e9a8c1c8a0df47a228c",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "fca2670a537080922bf989d16820d63b27dd0db5bce0d50c0efc6b969cfb0622",
+  "grid_sha256": "f88b908f7c527263e425caae0146e0568e265747ebecd53f2ab37624ebbe1208",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

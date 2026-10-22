@@ -1,0 +1,12 @@
+{
+  "clip": "walk/Prelinger_HabitPat1954_walk_f_nm_np6_fr_med_20.avi",
+  "sha256": "57604950a186407920034481901963a9e4ab86996e6231ab1c005d0d55ec3a70",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "13e7289bc9ceae11cdce227fe261150d14ebde2d45324be1a9ac9218d595ac89",
+  "grid_sha256": "cebc32efca6e1f54b4235eb20d695cb07f3c44858f1645e8da18c1c442c39c21",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

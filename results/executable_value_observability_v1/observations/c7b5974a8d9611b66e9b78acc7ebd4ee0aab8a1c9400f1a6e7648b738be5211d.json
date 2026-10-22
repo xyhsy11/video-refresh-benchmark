@@ -1,0 +1,12 @@
+{
+  "clip": "punch/Italian_Job_4_punch_u_cm_np1_fr_med_1.avi",
+  "sha256": "cf2f9a2a46b26d70b579416d6e7eb9f6a1ec892b7dad9404266e038d1fceb67a",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "37e7db1d3c5900d8a06db03a803baedb935e3566dfdea77b3b44788214f26673",
+  "grid_sha256": "faf8a3a23a122271d2b9f69c9a21c0fa922c2a9d1979f7185759b444ecd34833",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

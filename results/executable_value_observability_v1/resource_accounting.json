@@ -1,0 +1,27 @@
+{
+  "at_utc": "2026-10-22T03:04:48.181965+00:00",
+  "expensive_encoder_forwards": 0,
+  "gpu_model_execution": 0,
+  "recognition_head_fits": 0,
+  "controller_fits": 0,
+  "downloads": 0,
+  "decode_starts": 3210,
+  "decode_completions": 3210,
+  "decode_failures": 0,
+  "decoded_frames": 292799,
+  "decode_seconds": 61.403313399981926,
+  "probe_fit_starts": 80,
+  "probe_fit_completions": 80,
+  "probe_fit_seconds": 12.113288399998964,
+  "elapsed_seconds": 1861.183456,
+  "retained_bytes": 42710276,
+  "cpu_only_import_check": true,
+  "ledger_entries": 6582,
+  "preflight_seconds": 102.47479999999996,
+  "preflight_plus_execution_seconds": 1963.658256,
+  "fit_breakdown": {
+    "ridge": 40,
+    "tree": 40
+  },
+  "runtime_scope": "Preflight and study execution reported separately. Study execution includes checkpoint/cap bookkeeping, decoding, probes, timing, independent verification and rendering; not deployed adaptive latency. Final figure/manual reporting review and Git transfer are outside this compute timer."
+}

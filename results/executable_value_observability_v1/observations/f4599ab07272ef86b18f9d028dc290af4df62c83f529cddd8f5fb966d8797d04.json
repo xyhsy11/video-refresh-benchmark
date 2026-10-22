@@ -1,0 +1,12 @@
+{
+  "clip": "flic_flac/JOAKIN_(air_tricks_extreme)_flic_flac_f_cm_np1_ba_med_6.avi",
+  "sha256": "ab529ee885490128784f2b187eb6e9825453e54c50ffcef0ac61c1f63fc59065",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "8c1c5dd4cae7d484b6eb6c8ad2158c2ede052cf1fa77a3f4e1cb08901063db25",
+  "grid_sha256": "004b9345e1686908985c2d8ad79b5e1c978878ac67c9aef826a03206b7f95114",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

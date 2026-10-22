@@ -1,0 +1,12 @@
+{
+  "clip": "turn/The_Fugitive_6_turn_h_cm_np1_fr_goo_1.avi",
+  "sha256": "8fba5fe3eb2a5eb2a3d4cc8a8ac0026bdab0f242c8e029bc611f2a326ebf186b",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "83b6441a5c5b81b8bdbe47377b387b0ff2af01369cc4a2161b38c5a338a2a5de",
+  "grid_sha256": "ee31f0103f6c93928a9329b76659c65eeaf961daeb748eff6335802839ef4df8",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

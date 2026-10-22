@@ -1,0 +1,12 @@
+{
+  "clip": "sit/Man_Who_Cheated_Himself_512kb_sit_u_cm_np1_ri_med_6.avi",
+  "sha256": "62f1fe06e962caaa103454c8db2a89f28cd328b82a4f6522763b86f77ff8c4c2",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "b458b3d1907e80ba56ac7dac7cdc76b62ac3c70ecf4adb66055c4ad54073ac13",
+  "grid_sha256": "ee2094d904b2db3e57a0462b9898c450599c217d126647c84c4da93c6c646e63",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

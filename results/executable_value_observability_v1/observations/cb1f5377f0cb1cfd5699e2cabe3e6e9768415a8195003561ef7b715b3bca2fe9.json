@@ -1,0 +1,12 @@
+{
+  "clip": "dive/BungyjumpingAJHackettNewZealand_dive_f_cm_np1_ba_bad_3.avi",
+  "sha256": "769b98dd76bbdc00ac18bd0ae13c2a59006654ea66d88665372f849dd926b237",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "565cd90ac4ccace9fea05c9eb6f99a9ad5967098527f48cf8e575ecdeec1dd35",
+  "grid_sha256": "1f944e3b5758c0be25b0388b55dc473d1cdfb08ec0f045898117b78cd44fc003",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

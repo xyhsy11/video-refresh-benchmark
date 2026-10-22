@@ -1,0 +1,12 @@
+{
+  "clip": "somersault/Turnk_r_Pippi_Michel_somersault_f_cm_np1_fr_med_1.avi",
+  "sha256": "d1ef02a8dcfe92fff5e5a1a048d14eb7d32c01343a5563fef22694da9f43a22b",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "c8855d1f08e40ac79a9b8ac64fc6c8e4126ee8c1745423e29ee35ed4a3d724bb",
+  "grid_sha256": "5dbd694baa74f26894d1610bb4b2ec028a61884519c25db50443a4ea32b12294",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

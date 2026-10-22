@@ -1,0 +1,12 @@
+{
+  "clip": "jump/Faith_Rewarded_jump_f_nm_np1_ri_med_89.avi",
+  "sha256": "daf5e5364025fa30e5196fd9254db7d47602283d38de6f489653d85ec5d2c527",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "156d86865214ef25432fa19cc479e20c078627b57bab384013c5638ef5edd4fa",
+  "grid_sha256": "d801e136966ade29f22b0da86c5792524e4d48a3ea58ad1c02f503884093da13",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

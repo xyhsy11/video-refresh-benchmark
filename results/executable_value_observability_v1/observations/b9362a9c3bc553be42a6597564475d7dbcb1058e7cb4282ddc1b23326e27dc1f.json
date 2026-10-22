@@ -1,0 +1,12 @@
+{
+  "clip": "run/Age13_1_run_f_nm_np1_fr_med_2.avi",
+  "sha256": "4ad30adc7302b8461025efeff15e03a7ea4588ac4bae2d3e598254fac9dcd93d",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "564d8576359ce100d58e6d875e26083470a010e7f6ffde4ba631bc2b0118618c",
+  "grid_sha256": "cb9cfd509ca25392d80a8df844b4df4f5d9a7f13ac0ccd2958655f13cdcf8e9f",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

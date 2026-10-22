@@ -1,0 +1,12 @@
+{
+  "clip": "climb_stairs/GuardiansOfO256kb_climb_stairs_f_cm_np1_ba_med_0.avi",
+  "sha256": "9390adf371ff06f15dcc272f2afdcdb40d460ffe32d9970d764e80fa0f86e565",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "743c3edef3f7c402ae90c321c9e8db5f7deb4c06b1bcf3e145a36b82516c3a1d",
+  "grid_sha256": "a382e1f495d22fe2a2c04d2a17d58f184b3ce21fe7379d604db044ef157bf025",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

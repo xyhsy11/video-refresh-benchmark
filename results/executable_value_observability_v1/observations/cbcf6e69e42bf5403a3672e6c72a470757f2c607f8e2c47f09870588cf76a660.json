@@ -1,0 +1,12 @@
+{
+  "clip": "clap/Standing_clap_f_cm_np1_fr_med_1.avi",
+  "sha256": "0829ba2af085bcfeeb8717b60622ea64ddd4d05050ffc3471a40cec514ec1d0c",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "0330b6eafc05f7faaa9a04a6f168137d3cee2223999b0a5e558a48c48e9aeec4",
+  "grid_sha256": "32e8fbcecbc645da7cbe4b4ae81e786fc73994f78aed5693e7cdbc4851a84e19",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

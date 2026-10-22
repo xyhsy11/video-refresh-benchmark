@@ -1,0 +1,12 @@
+{
+  "clip": "stand/AmericanGangster_stand_u_cm_np1_fr_bad_0.avi",
+  "sha256": "8c2eb94134644e82dc9d858377d0daf199a72f4d0de98f5244ff003071d0ad9c",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "9161ab10aad9a28fa15174c2cb222b771ab6ec395efdead6253bf56978b14934",
+  "grid_sha256": "16661c4b3b0e1fc47c87b8674cd23c142fed6a58dd21f816378ce84a64a67198",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

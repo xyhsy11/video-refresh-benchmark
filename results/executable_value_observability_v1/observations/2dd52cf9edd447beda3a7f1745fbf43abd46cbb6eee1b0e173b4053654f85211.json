@@ -1,0 +1,12 @@
+{
+  "clip": "pushup/PUSH_UP_pushup_f_cm_np1_fr_med_1.avi",
+  "sha256": "cb8a2ac55c49ff6a0cc456705e73aa7f579b653d8fd44d14307bfa98fcee850f",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "021b89685b8e0d4a9a284c269372bdbc8ac28f17c7d001e2f8d400845099369c",
+  "grid_sha256": "a46db87bae82621df4b4d6b1d261a111556901336d7e95aee0c56cc5385c3e7d",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

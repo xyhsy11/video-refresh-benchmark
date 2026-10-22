@@ -1,0 +1,12 @@
+{
+  "clip": "turn/Veoh_Alpha_Dog_2_turn_u_nm_np1_le_med_1.avi",
+  "sha256": "64db6496c00272100bd9f45477bd1239b9813cf834ee8eb42432e3455b8c8f62",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "3aa077a0769eaf9d8d31fc9e9867b64d3de3d4d794ce16dace4eea38f78ce87e",
+  "grid_sha256": "183f04b15e270bd91118412fa63b70e1ea1c6a347fd197861f5179812a62e9fd",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

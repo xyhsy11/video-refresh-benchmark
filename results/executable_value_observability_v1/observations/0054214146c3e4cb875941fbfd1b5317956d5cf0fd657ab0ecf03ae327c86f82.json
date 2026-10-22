@@ -1,0 +1,12 @@
+{
+  "clip": "shoot_gun/deserteagle_shoot_gun_u_cm_np1_ri_goo_0.avi",
+  "sha256": "af4c0530b00b86b06cfd059ce57688c2cec48e011e88e4d11eb5f98b2cbf0df6",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "ee006e82e7965de93092946e7934002e57002060035ee58139b16d749df8cb58",
+  "grid_sha256": "dc8ce99acf43aa2485c4d2ab24e087ecdab70e30ff4b694e0e88ee4dfc02c7d6",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

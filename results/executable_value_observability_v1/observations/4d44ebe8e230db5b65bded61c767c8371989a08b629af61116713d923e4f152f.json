@@ -1,0 +1,12 @@
+{
+  "clip": "fall_floor/50_FIRST_DATES_fall_floor_f_cm_np1_fr_med_14.avi",
+  "sha256": "770098ecbbea5addd4cf08aa477487ccded6fa3ef3d01bf4031194f8456d5ee3",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "a16bfa82850be5e25a729735fb21ea922e08dd080d842beeff5b9307770cc5f3",
+  "grid_sha256": "87a3f48b5e9d64a5d673b6a9a5e9281dfb65c0eeb1f199a4ad0be5466bb385e6",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

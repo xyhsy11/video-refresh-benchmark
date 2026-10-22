@@ -1,0 +1,12 @@
+{
+  "clip": "stand/RETURN_OF_THE_KING_stand_f_nm_np1_ri_bad_23.avi",
+  "sha256": "bff2eb26a359c06d3c4c1536871ec0fff56e7c1e6e7969acf8f5b3d06844b806",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "d48fd30c85ba99c74206d7397cc278f1c2d5fe2caeec47e5a18237b8bb303cd3",
+  "grid_sha256": "6e7e1bdb0cdda13f8fd9f78ea39bec2e9697ce94b47141434a07bc8a326ad9f9",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

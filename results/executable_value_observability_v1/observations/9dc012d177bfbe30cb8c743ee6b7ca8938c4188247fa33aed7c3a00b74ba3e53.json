@@ -1,0 +1,12 @@
+{
+  "clip": "sword_exercise/Ghost_Dog_Sword_Swinging_Scene_sword_exercise_u_cm_np1_le_med_1.avi",
+  "sha256": "8507e79259bbc8e8aa0767eebb4ec31b7089b525e55d583d55d8c4b56b481cab",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "d8380b3fd2d13ded25f117c93fb6c5244169264e6b61ae859cbbbc5d09f92f7b",
+  "grid_sha256": "ed154973cac5a7db8deaba763c70026f2ba070e47a7d4575a44ed14f8429118c",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

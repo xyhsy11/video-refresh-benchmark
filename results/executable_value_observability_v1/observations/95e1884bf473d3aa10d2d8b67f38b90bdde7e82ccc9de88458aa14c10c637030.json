@@ -1,0 +1,12 @@
+{
+  "clip": "golf/Mike_Weir_golf_f_cm_np1_le_med_0.avi",
+  "sha256": "9fbeee1d0b880136917afc70e4528488dfa8dbd2d4dcb8ed50c2542c50a60434",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "b7cfb3fda94523921ff4b105ac293d507302b03d9ffdc152202b9d6b5a417af8",
+  "grid_sha256": "7beec9b51831e5374746b6928aec1afc699fc6f80bc85c2c4be08a5715a934d8",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "dribble/SarahPlayingBasketBall_dribble_f_cm_np1_le_med_1.avi",
+  "sha256": "006a95615000f99990703e2460158e3762be50cbd6e8f2b32879571452e73d7c",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "67b8935d7fa85fe2461b1f2094f0bfd044738b7aea48c67955d0629db17db611",
+  "grid_sha256": "b0dcadf545f0f37fd2de8dc8d99889be7af2078e064f632010bf32724ad1eb28",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

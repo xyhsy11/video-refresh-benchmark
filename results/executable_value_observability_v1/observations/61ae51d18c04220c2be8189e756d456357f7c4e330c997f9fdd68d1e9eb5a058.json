@@ -1,0 +1,12 @@
+{
+  "clip": "sword/HIGHLANDER___TRAINING___WEEPING_OF_THE_SPIRITS_sword_u_cm_np2_fr_med_1.avi",
+  "sha256": "4735be6ece0228d7f0e991e91512cce45bf8874a20b7fa1d79566bcb57875560",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "869eaa1ffbc4b76569f33cc17b169716c3832ec24c2abb9e04332a2392f53c87",
+  "grid_sha256": "5922ee642de2067295eb260fe4dda5ab180d74f98e4860997d7f8cebbbe81724",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

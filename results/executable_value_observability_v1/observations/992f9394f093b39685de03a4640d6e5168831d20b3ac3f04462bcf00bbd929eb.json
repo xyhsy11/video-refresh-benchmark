@@ -1,0 +1,12 @@
+{
+  "clip": "sit/RomeEpisode1_sit_u_cm_np1_fr_goo_1.avi",
+  "sha256": "809ea1a28fca85e8277b7c7d336849824e85ae9609b4e6905816e9861814ba1a",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "f2498368386f17bb6c2f699941a0f0e93f3ee1ab24e206ee74f0105fb8aea66c",
+  "grid_sha256": "2f66f00ed07c6e55adbd1ed7b4f81b7b5426e06c963866f72503e39b0504e761",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

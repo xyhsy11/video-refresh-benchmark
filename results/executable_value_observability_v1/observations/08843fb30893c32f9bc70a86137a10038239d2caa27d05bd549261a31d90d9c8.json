@@ -1,0 +1,12 @@
+{
+  "clip": "pour/Riedel_-_How_to_Pour_a_Glass_of_Wine_pour_u_nm_np1_fr_goo_0.avi",
+  "sha256": "f4c7e82003e685f25bbe07c93682685b71cdf379bfaa748e342f65a7ba923775",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "052f6284f9a428c924870367e8f5f36abd54360519cecefbb2e75c2326ce2d6f",
+  "grid_sha256": "c7fe3a8539d8584e62641e1358315abafe39b497ab90d9e3d910a86b11474562",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "clap/LetThePeopleClap_clap_u_cm_np1_fr_med_2.avi",
+  "sha256": "c31dd315e024bfdad203cef0dce47b31aa61701a5aff742f0d6bd8f7fecf576f",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "320506b2da76daa39cbab1693935310496b188c1d2127c35bce16d9c9631489a",
+  "grid_sha256": "c2828e434a8e3cfb61dce03a39cde197ccfbdc4379fc4a7cf544e3bf41050b20",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

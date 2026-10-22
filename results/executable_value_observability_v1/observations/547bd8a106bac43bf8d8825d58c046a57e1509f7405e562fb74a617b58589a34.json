@@ -1,0 +1,12 @@
+{
+  "clip": "climb/Chiara_Kletterwand_climb_f_cm_np1_ba_bad_0.avi",
+  "sha256": "5098d32dcec3145f02387fba74a0c7c69baf54092410b64144e2edca6f1aa47b",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "48972a995441b0875b04fa1e36c250522e77712c1131d2995d446704932091a6",
+  "grid_sha256": "0bde27e82fed74679931ff0de0d7788c5573d1fa9b00b0adb7573daeed1c0c93",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

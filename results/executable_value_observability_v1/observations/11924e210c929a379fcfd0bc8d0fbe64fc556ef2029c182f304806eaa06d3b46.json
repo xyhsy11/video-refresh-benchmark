@@ -1,0 +1,12 @@
+{
+  "clip": "sword/RETURN_OF_THE_KING_sword_u_nm_np1_fr_bad_42.avi",
+  "sha256": "5ec7a9ae7704d679ffc9741622a7dc8cee317d2be326844a3de7beb1b24f4864",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "0906e0bccc1b128c735dddec7e2694084196ff7c175fda3c91035f29b9936345",
+  "grid_sha256": "47e580f6bddb09c6f6e34743418d4538d3f5d3ccbff56f07b56fe18a52d3c147",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

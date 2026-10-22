@@ -1,0 +1,12 @@
+{
+  "clip": "kiss/5GreatHollywoodKisses_kiss_u_nm_np2_ri_goo_2.avi",
+  "sha256": "c056cb168578ff4c218baeb2d2f336bb7d01cf0b0c26d1b9041ddd4073bf7eae",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "7d1e0ced6505ce0cb9e6729550b5f823d047f729182dcf610f0808a7513cd0c2",
+  "grid_sha256": "a516dd9e2561d2184e32c1c91665b12d984d0a3e41ed60de2ad88a2f62475fa8",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

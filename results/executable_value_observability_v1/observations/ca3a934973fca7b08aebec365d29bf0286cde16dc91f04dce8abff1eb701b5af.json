@@ -1,0 +1,12 @@
+{
+  "clip": "talk/Prelinger_FamilyLi1949_talk_h_nm_np1_fr_goo_19.avi",
+  "sha256": "dac1807d960749a5f4e66ca789658a9ba8b6ec2f6110773cb7c590e7fcf6209d",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "8cef2c97bef1810e675da2037fa02d6a840d77fa2d3f0cf7ec7b270b9038a171",
+  "grid_sha256": "d974c54ab06b2a55fd1c116b57b6bb4a3307eb0516d49fdc833a78c6e8b7db46",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

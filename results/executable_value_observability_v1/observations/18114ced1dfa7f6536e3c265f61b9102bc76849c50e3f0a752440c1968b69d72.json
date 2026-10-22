@@ -1,0 +1,12 @@
+{
+  "clip": "shoot_bow/ArcheryFastShooting_shoot_bow_u_nm_np1_fr_med_15.avi",
+  "sha256": "5f509a2a164d0706ea4036cadbf26edd9b42a551e730006e414f7fc8d6bc25f8",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "b64c77c8945cc224ac9448edc6ca3e4680c0cf2929e1aa2911221a701d61e823",
+  "grid_sha256": "504d60cc49a64acb213cd4ede19dcbc0d83a511c076b2940b1c220660fd4f37c",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

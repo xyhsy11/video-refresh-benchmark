@@ -1,0 +1,12 @@
+{
+  "clip": "shoot_ball/ReggieMillerTakesonThreeAverageGuysinaShootout_shoot_ball_f_cm_np1_fr_med_15.avi",
+  "sha256": "349d920b71394980944fa143a916350e9b776ae1047d7706cb9b2e9ebcb1e90a",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "7a79592a7d0e4641186857cda7b9f3054f93efa88e25758e8606bf728f48e61f",
+  "grid_sha256": "c4f81682d796bcd245561227419b92be45f25dba6ba6214bb498f99c49f3290f",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

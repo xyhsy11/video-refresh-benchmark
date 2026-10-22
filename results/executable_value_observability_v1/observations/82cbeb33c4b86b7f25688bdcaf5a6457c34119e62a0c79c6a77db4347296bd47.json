@@ -1,0 +1,12 @@
+{
+  "clip": "fall_floor/Fellowship_3_fall_floor_f_nm_np1_fr_med_3.avi",
+  "sha256": "d496eee19d4da6d1e8d0526eb4beab4d53d23cdae14e53b894576ea513f92700",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "04c858bd56ed3ffb41e7c35bf72a6e49087c61183b63ac50256313f91cd82f5e",
+  "grid_sha256": "2bb5551d3aed28ad0a4f629ae3bc42356233bbbb3bdc30aad09b750dd87ce49f",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

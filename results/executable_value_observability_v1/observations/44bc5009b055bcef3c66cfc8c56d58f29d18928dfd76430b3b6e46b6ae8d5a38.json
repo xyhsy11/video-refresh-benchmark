@@ -1,0 +1,12 @@
+{
+  "clip": "kick/FOOT_2009_(REMI_GAILLARD)_kick_f_cm_np1_ba_med_5.avi",
+  "sha256": "8d5d4fce9f8903d985840f6b42893c441f252afb34f3c8e6c52704b89bd16a1a",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "2904f092367ca9e237cf490e9c32b3a22f245d299452381858071598115eedf2",
+  "grid_sha256": "80f185023bd935919ae74e9525b58adc0dd56fcf191907ceed286ef82272cdb2",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

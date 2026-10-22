@@ -1,0 +1,12 @@
+{
+  "clip": "dribble/American_History_X_dribble_f_cm_np1_le_bad_15.avi",
+  "sha256": "a18d54952a208d180e4a7804409992ebab1578188e38c1220bed2e3c0505b584",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "acd008c354995a95639f8b4e1215a8e5189d2acade20107264e3241026d57fb3",
+  "grid_sha256": "6380601193550c9392ef4da3a5756e869dd461c6bdc605d28714f0217851cb94",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

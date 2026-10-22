@@ -1,0 +1,12 @@
+{
+  "clip": "ride_bike/Fahrrad_fahren_mit_Albert_ride_bike_f_cm_np1_le_med_2.avi",
+  "sha256": "2365798a2b434a4db3f88764b438347d8ae036762ab74422b29c424079b2171c",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "ae18fe7766dc9714f875f2690d5f31021b9eb841e84db768931883864533d27a",
+  "grid_sha256": "7574d1b79a6204d7c9848f8509874c4c50ba4703d0339a9e958c60a8eaf9ef59",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "ride_horse/Glory_ride_horse_f_cm_np1_le_med_53.avi",
+  "sha256": "2d4fd5b97a1837d936a4f45923255a682a812244fffe8e0eca33c1411e23fcf9",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "1bb30fcc2b180faa0ee170759fc0f12887caca9ea429b0c90762a246f855886c",
+  "grid_sha256": "8d212129b46947ba41d8e0655f9b71fb804a147065d672efb782b74b0d27fc53",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "run/veoh_harold_and_kumar_run_f_nm_np2_fr_bad_10.avi",
+  "sha256": "d2749661e99171e4a727d18cf15fd3c80cd1d947ed3d668aaa2f6609d8d58260",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "2d29c36b67249b86c1887302d226407d6fb1486bb0939d3cc0c7798a65a3c1b7",
+  "grid_sha256": "ca09806938af5befcf03abaeb1762d709a2bcff27bc7678df1f1a8a31ba79d18",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "flic_flac/Round-Off_Flick_Flack!!_flic_flac_f_cm_np1_le_med_1.avi",
+  "sha256": "dcd687b77c1452b9237ddd66dce93a2055ea31301c9211b48980b410503c093f",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "f9a87071163d1c8579d807a50f14dcce8394cfaca48382521237f937522863ad",
+  "grid_sha256": "8f2980bf30f1b73c6fc911533545e48f0820ca9b0405d80455eebb2edd965faa",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

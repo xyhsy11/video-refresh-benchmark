@@ -1,0 +1,12 @@
+{
+  "clip": "chew/blondeandbubbles_chew_h_nm_np1_fr_goo_1.avi",
+  "sha256": "2be1fb0f7558b17b28e65dc398c841196aa8533cd809352160bf90ea9a6d068b",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "7cdb68b15a5b70043382e1f7fbdb8aa02b7f5cbb4cab67a68ffb77337c2b3e4c",
+  "grid_sha256": "0dcc7436de456a3e2a8da62f8d8c0a9770ac102456e6b7f7ab0bfb81eaa707d6",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

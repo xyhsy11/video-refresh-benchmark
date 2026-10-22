@@ -1,0 +1,12 @@
+{
+  "clip": "walk/EverythingisIlluminated_walk_f_nm_np1_le_med_0.avi",
+  "sha256": "858a5714dda7ededd0a5c6a3d764d22b25218b1fc5130630eada92c4e8c18be6",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "868179e84064e4391eeb7a271c9939cea310f9ee0c75df93092b09b3c4ed794d",
+  "grid_sha256": "6dca74feefcf74b012d66564715be5a1e315d2e9e7fc0d8fdcaf576402e043c4",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

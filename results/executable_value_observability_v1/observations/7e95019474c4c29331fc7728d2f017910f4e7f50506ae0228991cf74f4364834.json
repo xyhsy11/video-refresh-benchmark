@@ -1,0 +1,12 @@
+{
+  "clip": "sword/AHF_longsword_against_Rapier_and_Dagger_Fight_sword_f_cm_np2_ri_bad_0.avi",
+  "sha256": "90894108e9d52f3b82123213a2cf8b06cbbee696ac13309cb5d9a733f2712652",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "c424431b22749d0d61a26d14278633f603aa2e4c605375a434d5531248b4a043",
+  "grid_sha256": "1b5a32217d7170d93c270de83193e1cfa5b925983a8cb5144f30cb1aec47e96a",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

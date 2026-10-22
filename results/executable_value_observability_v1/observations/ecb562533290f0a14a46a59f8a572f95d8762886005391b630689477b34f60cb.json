@@ -1,0 +1,12 @@
+{
+  "clip": "shake_hands/Prize_Giving_Ceremony_1_shake_hands_f_cm_np2_ba_med_2.avi",
+  "sha256": "bebe04c99aa89b6988d091dddd0cf431347958bd20fa52f916dc789e6a584fdf",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "94554e7904ddc56e0d44673e7702bce99d792ce23a808008073745d2fe3eee8b",
+  "grid_sha256": "b7e9f4eb12c22819f6d0dd556b9d5bc0135aa2796763ad5479b52e6814ccba5a",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

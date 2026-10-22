@@ -1,0 +1,12 @@
+{
+  "clip": "smile/Me_smiling_smile_h_nm_np1_fr_goo_0.avi",
+  "sha256": "90db641f4195e21df62c251773eef2fb8ff2572703d463946f2e5840793dda6d",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "aba0f62366a3f71a94b8d36f80d6a5a65125424c6d046c8f86875b5b802066d2",
+  "grid_sha256": "09d4e85b2caef7cba75dd538326421b4716c845adfdcccee43f75866e8619490",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

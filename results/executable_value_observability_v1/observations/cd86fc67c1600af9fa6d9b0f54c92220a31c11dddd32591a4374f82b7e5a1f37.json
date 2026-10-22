@@ -1,0 +1,12 @@
+{
+  "clip": "turn/Oceans13_turn_h_cm_np1_fr_goo_10.avi",
+  "sha256": "fc18d42670ddaa1f85db9c2fb785eedf6dfdc3641169ca95207547f729d163a5",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "6876e91c8e155b66ff9ba74c3a009a727d4686e19e6d31fae1a52d06d741c09c",
+  "grid_sha256": "a5bf2700a8c4c79ac2dc80955cabf0511e3c927909d31b7de49ce80c29c2d24e",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

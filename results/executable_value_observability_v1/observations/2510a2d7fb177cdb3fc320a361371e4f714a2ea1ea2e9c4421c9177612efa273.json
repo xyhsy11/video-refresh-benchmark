@@ -1,0 +1,12 @@
+{
+  "clip": "dive/RATRACE_dive_f_cm_np1_le_bad_25.avi",
+  "sha256": "d8aa229d554fe10a720ba0379a7c3c7fda12b40dbf2323db4a3b5037ba812eb4",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "3f2088abaff80aff32dc4de98496341a5d64bd304c4308382632c3d7e632d7b2",
+  "grid_sha256": "0a0028a7d8baeda5019cd8fffd361c127f5b1201a7187ce4e03439988bb3b3ad",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

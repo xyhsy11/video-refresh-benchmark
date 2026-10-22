@@ -1,0 +1,12 @@
+{
+  "clip": "handstand/Handstand_competition_aha!_handstand_f_cm_np2_fr_bad_0.avi",
+  "sha256": "bd0e7b24f34bd1397c596ccc9add3d23ce8d41fba4af53562103f2ed3c955b70",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "9983514fe28fa1dfa7370a6c352fb5ac6e2c0b0e16802d5f412b12b88e78aae6",
+  "grid_sha256": "a12d27b9aaf1d09fdd8ac675b5ad9ebba907389447986d15e8c04b12b8552146",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "smoke/Rich_smoking_experience_smoke_h_nm_np1_fr_med_0.avi",
+  "sha256": "07c62e79f183c4e81c1ab4fc2d1f18844e902971aea4f4d346fba256083faf56",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "13aaff1cec03c87e8fcc20f36ebceb418d58880ecda946dfb632b994d16f747d",
+  "grid_sha256": "d16dd03d6586232fea5c71879c543a1e30260cd50c85a7c93b16065c0559ba07",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

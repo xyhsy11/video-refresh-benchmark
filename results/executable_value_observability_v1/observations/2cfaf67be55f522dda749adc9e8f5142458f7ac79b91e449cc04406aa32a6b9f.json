@@ -1,0 +1,12 @@
+{
+  "clip": "climb/rope_climb_Olivia_Age_4_climb_f_cm_np1_fr_med_2.avi",
+  "sha256": "94d8fcd3656cf2b5e23059febe412debe208d96f0e7d403d7a0bfb7c206a8ce3",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "4f8c9d3cc87e353b580f6751adede5a964cee91ec049db59c1271c01ef677bf7",
+  "grid_sha256": "23dfc672ea76159a658c7aa92ef75808c7cf61a4b4f2790af7b4475a5ce0bf19",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

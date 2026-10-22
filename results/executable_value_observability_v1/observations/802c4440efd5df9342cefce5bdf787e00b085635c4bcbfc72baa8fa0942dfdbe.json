@@ -1,0 +1,12 @@
+{
+  "clip": "cartwheel/CarTwHeeL_PerFecT_cartwheel_f_cm_np1_le_med_0.avi",
+  "sha256": "c5f486c79667688118c5d727905bd6387fd1282043b2c1108d5b7f7fcd0e2b56",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "bb0e4bfec48ee6becd2139a637419cbdb2522a713f5574a295ebefd098d83fb1",
+  "grid_sha256": "9e67d7c3df395631b94e2ee2e91365ae6af43f4d2d7419295744f3f02411a076",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

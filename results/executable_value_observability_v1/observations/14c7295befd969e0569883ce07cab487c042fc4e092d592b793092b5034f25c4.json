@@ -1,0 +1,12 @@
+{
+  "clip": "talk/The_Matrix_2_talk_h_nm_np1_fr_goo_2.avi",
+  "sha256": "3ef4b3d5b6cbc5b0160d177732d0e6f24434d738028bde175389dfa89a9be561",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "3ea82acf4e69dd9e825d829aed0104b009ebc9a4a7e6d6909415a6d59d1659f9",
+  "grid_sha256": "63dc8ff327ce719e9591630ca8791b6c7be9d80da63bc84c210d1f5b8726ed98",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

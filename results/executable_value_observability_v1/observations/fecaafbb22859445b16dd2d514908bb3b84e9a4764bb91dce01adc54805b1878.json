@@ -1,0 +1,12 @@
+{
+  "clip": "wave/Hitch_Part_1_wave_u_nm_np1_fr_goo_1.avi",
+  "sha256": "238cbdcff04800a607b7d37eaf0adf429e384881013f7c7674b171feccd84106",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "089672ad79fc37fcd17a295b55edd3aecfad51bc21cd0aebb4ca271f85a869eb",
+  "grid_sha256": "05b3f90fd0393edfe47d708cb80adaa887e232cb071d8014f7d373d9920ac0c3",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

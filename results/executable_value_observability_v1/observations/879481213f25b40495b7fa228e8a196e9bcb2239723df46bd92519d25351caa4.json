@@ -1,0 +1,12 @@
+{
+  "clip": "walk/prideandprejudice1_walk_u_nm_np1_fr_med_8.avi",
+  "sha256": "b1febdc9da4fcf08e4189d7d7675a6ad7ead6afb7cec6598b1192dff19a478d4",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "ab40386feeba83e2bbab7baf7350f7abf6f1246f6c324263ef27b3239135a2f4",
+  "grid_sha256": "a0fecc9d651c221f79be4603e334eac91b0aa000d1877a1305c23e5189599f19",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

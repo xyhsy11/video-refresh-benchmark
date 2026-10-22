@@ -1,0 +1,12 @@
+{
+  "clip": "dribble/Clay_sBasketballSkillz_dribble_f_nm_np1_fr_med_18.avi",
+  "sha256": "71657919cc66b0b500caea63290ad0315e9247aad7e56df10835a8d8e0124eaf",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "ee1d6f3c734475719c02d88db3ce43f92a3e63f7d953cb162c55187082881640",
+  "grid_sha256": "cbe383f45505fb1f8943c5d2c3080aefdbeafeecc1a3e4b00fedea9f23412e81",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

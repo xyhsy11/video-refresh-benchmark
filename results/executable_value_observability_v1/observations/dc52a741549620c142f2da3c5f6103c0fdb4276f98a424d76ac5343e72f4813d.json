@@ -1,0 +1,12 @@
+{
+  "clip": "throw/Fellowship_5_throw_u_cm_np1_fr_med_9.avi",
+  "sha256": "24efb7ed7c79175a1c3eb06ccef7532d3a96df716bc11b3beadb5b5e79e914b7",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "06f0ec3116b362a60136ed2d1efea4c43daee73108d27ead5e526a1626120e2a",
+  "grid_sha256": "913fb31bb5cb210fa3b3b5fe710d5cd900ce052b37a95e485d85dcebec595697",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

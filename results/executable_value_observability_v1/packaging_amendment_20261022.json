@@ -1,0 +1,14 @@
+{
+  "at_utc": "2026-10-22T03:07:52.413782+00:00",
+  "kind": "Mechanical Git artifact packaging only",
+  "reason": "Git treated native Windows CRLF as trailing whitespace; exact scientific bytes and original seals are preserved.",
+  "change": "New experiment-local .gitattributes disables text conversion and recognizes CR at end of line.",
+  "scientific_design_code_models_targets_predictions_or_timings_changed": false,
+  "original_design_seal_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_release_manifest_sha256": "386c5ccd6b3e3ed2083105b2758fc623a4d45245ea20266e2f4d20f16acaa2ec",
+  "new_files_sha256": {
+    "results/executable_value_observability_v1/.gitattributes": "09d49b6d7395e4e08c07a60b6dc939df7f9ef40523437ea390bccb36c298abae",
+    "results/executable_value_observability_v1/git_artifact_byte_integrity.json": "32afac277963f8392a44d91b2458eda050fe44d47817d59ffe48bcc341af7c8b"
+  },
+  "whitespace_check": "git diff --cached --check: exit 0 after scoped CRLF attribute; no global configuration change"
+}

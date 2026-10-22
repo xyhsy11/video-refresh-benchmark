@@ -1,0 +1,12 @@
+{
+  "clip": "clap/Finding_Forrester_3_clap_u_nm_np1_ri_med_0.avi",
+  "sha256": "3bf6bcc428324c8c3ec8f19d1488cf0c8eda0c97d0f4206f29c78f4c887694b8",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "4e1dccc746f43fa08244e68bafe2757add6d40133ae7e24461f3944f64e91eee",
+  "grid_sha256": "ff514642fbcf8b994ec166e6739598264a86da9fa5b680c7ba19328d8b023d9e",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

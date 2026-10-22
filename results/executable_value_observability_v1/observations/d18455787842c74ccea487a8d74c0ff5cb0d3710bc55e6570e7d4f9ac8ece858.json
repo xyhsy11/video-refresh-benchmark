@@ -1,0 +1,12 @@
+{
+  "clip": "smoke/Glory_smoke_h_nm_np1_fr_goo_41.avi",
+  "sha256": "a1faa82b923a5aacb4fc141e3348b1e4ab96105f4e32279cdc581ac6dc0f6408",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "7a5fcd1448590db469623d2cc9816c096ee67e69f3557939549939593fe7f80a",
+  "grid_sha256": "dd681e95af4e0a06f4f575841dbae5478e2db823db1866f784a731dc4ed5946a",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

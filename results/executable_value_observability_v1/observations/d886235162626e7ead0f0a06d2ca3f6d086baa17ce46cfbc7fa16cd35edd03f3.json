@@ -1,0 +1,12 @@
+{
+  "clip": "cartwheel/Aerial_Cartwheel_Tutorial_By_Jujimufu_cartwheel_f_nm_np1_ri_med_0.avi",
+  "sha256": "73c08133247f055abc02fb88a7fc6ab71cad74bc46071ee0146d851e55ec4bda",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "a22c1bbed4a28a9d86537345f8f3d2067c97f47a2e1bde3a89767bf075db90dc",
+  "grid_sha256": "17dfb2bf8940f9c1a2172dcd696d4f9ca2cf3b0ec2d61f8d4385093cda9d522e",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

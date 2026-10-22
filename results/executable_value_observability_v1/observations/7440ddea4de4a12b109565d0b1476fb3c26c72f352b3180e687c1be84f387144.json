@@ -1,0 +1,12 @@
+{
+  "clip": "dribble/PlayingBasketball_dribble_f_nm_np1_fr_med_8.avi",
+  "sha256": "c466bedf17252fc2455df5dbf88969d5fab05460ee1d80fed623cada91a3ddde",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "53c7b5b3bd635fd9a23210be1fe3074ff71cbae41ccb3d58fd42364744df3972",
+  "grid_sha256": "f3100d36eddec25a23942ec6d3bc39d50da7580cfbc5b37bcb56177a42c74ed7",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "pullup/30_(dead-hang)_pull-ups_pullup_u_cm_np1_ba_med_0.avi",
+  "sha256": "6a5bffbf57d79c1927cc74ecf0a4b595d9e683928c40c5f9e81005e4e32f304f",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "98861d172b596029e0dea235b4a92e4da47004389ba3367ffdedfc574c06cc1c",
+  "grid_sha256": "cf1de39215a67fa90d05a347d565fbce4e4692e3faacd16c840f6a49b28c9f8a",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "pour/Tea_in_Wudang_pour_u_nm_np1_fr_med_1.avi",
+  "sha256": "4ac96aa0ab3225fbe1026e4da7c61cd5eb3cc4580855b03001aece6e65642eb1",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "afe873686be61256d959813986cffa512b4465ac7bfe63ee29bbf62431330a11",
+  "grid_sha256": "2a6fb06b3f64ac7f2fc4ddff8a975d14a488d795a180f5a9952d1b405a33fc34",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

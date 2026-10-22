@@ -1,0 +1,12 @@
+{
+  "clip": "pick/nameunknown256kb_pick_u_nm_np1_le_med_2.avi",
+  "sha256": "83242fb23fdd9396de9a718fe04f5624c85afe83a0726f565b9376ff904ca27e",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "099d2c08d54b735cdd94d2fa6bb1fb5aab5c14915cbc2ddb7beaab04b5d3a15a",
+  "grid_sha256": "d3400b2f016c868dd5b96c40df6a5793b5365bd1009760e7cb282717568e3956",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

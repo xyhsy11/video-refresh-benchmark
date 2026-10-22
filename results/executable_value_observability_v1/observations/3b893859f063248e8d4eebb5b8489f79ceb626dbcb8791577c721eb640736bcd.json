@@ -1,0 +1,12 @@
+{
+  "clip": "sit/BATMAN_BEGINS_sit_u_cm_np1_ba_med_10.avi",
+  "sha256": "355903e19559d1958b2cd0878ed5088bb5957bcc20c2157bebcc7e6d1cc444fd",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "c1e3db00288ee3656c930e5977a2f445881cb17fc37ce5bfe2592247adfa82cc",
+  "grid_sha256": "49d2373d85a361937475d43dbd21fe2ad47f6eb41e931ee72cd148a880b10885",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

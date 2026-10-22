@@ -1,0 +1,12 @@
+{
+  "clip": "smoke/girl_smoking_smoke_h_cm_np1_ri_goo_2.avi",
+  "sha256": "f38505873acc09d0e4be11ec27cfc550a719cb11b276ced655c007b3d377e009",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "a236596d16872b44906905fb424f815503ffc0d0a3cebe8d19634093fbc4d1c9",
+  "grid_sha256": "008d659854425100a05beb9fe6022f82055ab25bd1c69bca40ecdf7b3ca81a21",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

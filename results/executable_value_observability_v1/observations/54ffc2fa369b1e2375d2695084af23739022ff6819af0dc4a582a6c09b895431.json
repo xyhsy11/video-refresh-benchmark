@@ -1,0 +1,12 @@
+{
+  "clip": "dive/K_pfer_von_10-Meter-Brett_dive_f_cm_np1_ri_bad_0.avi",
+  "sha256": "bdd3a6104a20d5727b97b708d928d534316bca04af37e8307132aa15db503e5e",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "20009e667bc5231ba9ea86d8cd2648a57bc96763ec8bf358cddb75595fb07a91",
+  "grid_sha256": "b144a17a1dadd2f1b1851507b07005fd19bfb7fd5809f8ef58fedfd47cdac33d",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "run/Catch_Me_If_You_Can_run_u_cm_np1_fr_med_9.avi",
+  "sha256": "525190a2b1fa574230d893e5a10504b3a3de8cc953ca9ae6c817d3b26bd7ce0c",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "d3ea0a2b259f93575dd246f868161a4e727bb700e3c5ed700171392462fbcedf",
+  "grid_sha256": "a705789229256b4b5b9ef00c7386d82e8b8652de720c5ffd7c35ef23ed70a99c",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "draw_sword/VERGIL_(DEVIL_MAY_CRY)_swinging_his_sword_draw_sword_f_cm_np1_fr_med_0.avi",
+  "sha256": "758ae1a4f82c510b22cb98f006b93de22cfd6b0cefd5dc039a277042723878c7",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "abb85fc9c0622db5b79fb759a68f4521f879dc6a720b7615174f75dd185b5f39",
+  "grid_sha256": "b4bf88ec8a5b97635519eef028a466c45c2557ea807199b36b1be48529017d1f",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "smoke/Raucher_TRICK_xD_smoke_u_cm_np1_fr_med_1.avi",
+  "sha256": "2aaf011339fc03e8c532228c7fce961a6ae08d4f9692fd6b73207c7a22c3109e",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "9c8843fe84dd35321702db87761ed8aac390b88a9e863b82b8d20e304acd4a6e",
+  "grid_sha256": "996b3b31bbd50b4ff9b5c5315be70304f77caabfc8cc2acbc1ba90630b88fed1",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

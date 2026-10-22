@@ -1,0 +1,12 @@
+{
+  "clip": "ride_horse/CrossCountry_ride_horse_f_cm_np1_le_med_10.avi",
+  "sha256": "22b6aac372548b6d06125c217c95aaadd476a51e58fc84c7ba804c162a632843",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "f9bb3eed66b062dfdef3591f485fa9d2eb9453c9780db24c1d9a17f504733a82",
+  "grid_sha256": "8dd3733553bf7cc80e340b9719156be0e7f3d18c93ffeb07446fb74da4f4dcc2",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

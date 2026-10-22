@@ -1,0 +1,12 @@
+{
+  "clip": "shoot_bow/erikafrontcompound6feb09_shoot_bow_f_nm_np1_fr_med_0.avi",
+  "sha256": "e3596d301408ae1b99469cc92af1a6e0976c816f60ebaa9b2d1cc686b1667beb",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "8dbbae0d005ac71c769dd5814530413cb9db942761d8d2968a9d3a502015c037",
+  "grid_sha256": "d0f9969a62b48907d3d554bb91d5ce1c8a629a526023e9621acd14ee1a8cec22",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

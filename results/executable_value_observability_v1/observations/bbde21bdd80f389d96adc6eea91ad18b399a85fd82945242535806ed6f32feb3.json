@@ -1,0 +1,12 @@
+{
+  "clip": "stand/BIG_FISH_stand_u_nm_np1_fr_med_27.avi",
+  "sha256": "5fdae4070d4c1b419a6bdfe4b318194505f3f60be461f6e9689218cc3f203267",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "bd10f9dc3c247dafc051447c8ecbfeb3adcc4b48cd355ce3195042a3ce115e4f",
+  "grid_sha256": "13580c43f5157b8272dbe434fd55b07b3e068c8c8a35b2bd0097ae724d0b7994",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

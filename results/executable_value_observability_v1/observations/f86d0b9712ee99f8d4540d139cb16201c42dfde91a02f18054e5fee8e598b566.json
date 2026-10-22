@@ -1,0 +1,12 @@
+{
+  "clip": "drink/KUNG_FU_HUSTLE_drink_h_cm_np1_fr_goo_5.avi",
+  "sha256": "3a7ed9e771056a7603db35868d013427779f0d3d05e6303a4273b7e0609d63f8",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "651dfa2e0c552f5be9ed102f1c3e5248c45ea1d011681490ab97cbf71b9ccc02",
+  "grid_sha256": "5b41cc0625adbc6d79305f3ea1870b52f3a43dffd8f0d84a402cf5b9365c02d0",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

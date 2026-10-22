@@ -1,0 +1,12 @@
+{
+  "clip": "run/Juno_run_f_cm_np1_ba_med_5.avi",
+  "sha256": "bdf5503b48a1b0d4f67b39cc89e1054514ca989a2268ea7092000632ebbf571d",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "f930699a3a9b52b5fd5c0fd0dba1035ac5bfa1e6c92e5ee8e17ace206f0ace2c",
+  "grid_sha256": "1c79a7fdebcbd0aec7805204a278e1212621cba8a968a2ec03ed6cfacadd75e0",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

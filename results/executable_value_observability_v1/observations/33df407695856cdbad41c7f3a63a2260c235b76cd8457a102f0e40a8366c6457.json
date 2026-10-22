@@ -1,0 +1,12 @@
+{
+  "clip": "swing_baseball/Tannerafterwecorrected_swing_baseball_f_cm_np1_fr_bad_2.avi",
+  "sha256": "c10d02e52dfcb2d9606e1347354f800d186cd70290e6fd23c9ce0e651562f139",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "0b67353414e5b80d531c4e985b66af1e60d0113b3447d1fbbf23be21658ebffe",
+  "grid_sha256": "7b27d9b57e71b3f02838331a34c90deaf1b7e4af48519259349594ddffada402",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "climb/TANA_TEACHES_EVERONE_HOW_TO_CLIMB_A_FENCE_climb_f_cm_np1_ba_med_0.avi",
+  "sha256": "da0e37ce481c6d88537d009c41d21f89f21c894244b84e7e05506496924e4b62",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "3bc60ea863f31a8f9fbe708722d3f1e794d23912e93079e11a6f8e085e50517f",
+  "grid_sha256": "72be015d96b5577cbdb4b04420b5f1961d0a7fe87f625529279e3c12b1932f80",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

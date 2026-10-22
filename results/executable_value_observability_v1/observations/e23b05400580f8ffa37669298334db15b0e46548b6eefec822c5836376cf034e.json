@@ -1,0 +1,12 @@
+{
+  "clip": "smoke/A_Beautiful_Mind_1_smoke_h_nm_np1_fr_goo_8.avi",
+  "sha256": "4ef73f0f2d5201e8257eb82ac759228652ff20fb509c19effc975b188093ce3a",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "9f4a488bbc3fec0e27d48f06f93e952778d21109cc7e715b2e86a2933155e019",
+  "grid_sha256": "8bf44dd07ea3d9d1f20798947935c916f606e6691bdec5071f0fb413f1d3d49d",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

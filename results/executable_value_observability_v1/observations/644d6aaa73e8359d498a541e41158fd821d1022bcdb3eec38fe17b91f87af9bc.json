@@ -1,0 +1,12 @@
+{
+  "clip": "kick_ball/FC_Venus_-_Ausschnitt_Teil_2_kick_ball_f_cm_np1_fr_med_0.avi",
+  "sha256": "6d89216807dc3bf72f5f60ed0cfb81b28bb3127f592c0db1e9aa122b59658594",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "9db207352c2990abbb3c83aa241b5fb9e486dd0b4aa303cc3fe0a7bbd7c093e1",
+  "grid_sha256": "c327ab269bc45d01452c9c3d3cb0ae13011595ca71da514435f32b4efe694f44",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

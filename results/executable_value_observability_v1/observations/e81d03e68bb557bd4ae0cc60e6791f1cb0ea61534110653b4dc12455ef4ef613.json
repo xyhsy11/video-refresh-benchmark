@@ -1,0 +1,12 @@
+{
+  "clip": "shoot_bow/TURKISHRECURVEBOW_shoot_bow_u_cm_np1_ba_med_1.avi",
+  "sha256": "46d471c34a58947b5f396e290d441fdd48658e8e058f0c90d6f738aa6f1152d3",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "5325d562ecc37e6d62c3121d5ae3d17f2b7594749f8acf1356da5b33da3ed3c5",
+  "grid_sha256": "b28eac218f0ecd7d8609834f08168a084c07c009425d0022bbe598f3e4ecf76d",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

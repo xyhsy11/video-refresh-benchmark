@@ -1,0 +1,12 @@
+{
+  "clip": "fencing/Die_Another_Day_-_Fencing_Scene_Part_1_[HD]_fencing_f_cm_np2_le_goo_0.avi",
+  "sha256": "36d690b9e3be1ba1662f7f862c50136671c29fa96d69eabe9b14bb916727832e",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "796a15dbfa40ca37a8ad969817ab883e36acce7ff9a8c7621d71e2f9e2401777",
+  "grid_sha256": "ba7721d981eefa9787ad85c325fedee275252a8cc972b5565b26cc2a4a9bb240",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "shoot_gun/DefensivePistolShootingTechniques_shoot_gun_f_nm_np1_fr_med_0.avi",
+  "sha256": "9be822f555791595ccb929127e07ba76e45ea6ea7ab10a3b8fcc27d89757ea3b",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "1f68e9f1bbba3cdc71216d62c19ee8f55c022c4cba73386152d2a7cf0e65f50d",
+  "grid_sha256": "fd5639c135ab3bd7cfb36312557f8484fcabd9769e5098888aa9cb0a48c55a5e",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "fencing/Advanced_Rapier_fencing_f_cm_np2_le_bad_3.avi",
+  "sha256": "148e9239f6442c3e53f06d5fde4f252c813bf4b9633e84af249a67241f9af635",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "d515c0caa8c971066ac1cddb8aaa3cf517ef46df96e3695ffeacdde9b237b9a9",
+  "grid_sha256": "8c4d83cb3c528dd8b6dff3754699fffcd9b2e023dbc934a986351494c7189653",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

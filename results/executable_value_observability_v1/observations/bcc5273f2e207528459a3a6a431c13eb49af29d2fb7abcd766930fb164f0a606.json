@@ -1,0 +1,12 @@
+{
+  "clip": "kick_ball/Nike_Soccer_Freestyle_kick_ball_f_cm_np1_fr_med_0.avi",
+  "sha256": "cc5c618ad4e7088fc5416f4af6ed411e8b511c3a857b1c6db4bff531517fa983",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "6ef9bf5a129bfa3dc9fdacec5dad69df2b15aa3b0c7ecb50d02c5e83ba6cb2c2",
+  "grid_sha256": "a829591de83db92e5f34aaebf490c4665eb4e8f6dc402a4aa028b4ac139ffa12",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

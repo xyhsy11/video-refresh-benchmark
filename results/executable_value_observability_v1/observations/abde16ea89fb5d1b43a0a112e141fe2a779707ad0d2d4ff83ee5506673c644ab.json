@@ -1,0 +1,12 @@
+{
+  "clip": "flic_flac/Kristina_Goryunova_-_Floor_Exercise_-_2009_Tyson_American_Cu_flic_flac_f_cm_np1_ba_med_0.avi",
+  "sha256": "f00a41b3d361e251682eda6cf5172b453cea5dd0f7d15afbb10b2827def6299f",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "df1b4dab9a7966c4ddbd74654a402a44dc09b3327bbd53787923ea53bf6a6f2d",
+  "grid_sha256": "9a77f8f7602e34808902443009406a169d461b679719c70f9b643378ed47e188",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

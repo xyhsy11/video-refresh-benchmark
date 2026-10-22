@@ -1,0 +1,12 @@
+{
+  "clip": "draw_sword/Tenshin_Ryu_Aikido_draw_sword_f_nm_np1_ri_med_0.avi",
+  "sha256": "07bdd0e19e2d92f89aa63ea1dfdd4e8f907e831d82ac8a8bb91e78728f3b980a",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "065384bd812e431871058d1e1825f4f493fa3f5a8189b5ea22e42c14a7d71c09",
+  "grid_sha256": "c98eb024483034ccec2f79fc91a2c9a3022b0c42483991b8fdc282bc64884ef9",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

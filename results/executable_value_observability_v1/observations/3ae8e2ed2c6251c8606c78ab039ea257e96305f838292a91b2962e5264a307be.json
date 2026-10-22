@@ -1,0 +1,12 @@
+{
+  "clip": "talk/Hamlet_(1996)_Fencing_Scenes_talk_u_cm_np1_fr_med_0.avi",
+  "sha256": "887857f045a11248d7bb75d55730e3e41a89d6cacf9557190a2c5703b38bc7a5",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "d8ec91f0e95f2ff23c23ca074423606d9b5d887906d291f230a44a1b7c107ab0",
+  "grid_sha256": "8ff92b0f7ed29dfa1147214edcd89a73415a8397ac35ad0db00248b780861615",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

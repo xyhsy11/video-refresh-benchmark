@@ -1,0 +1,12 @@
+{
+  "clip": "talk/Fellowship_3_talk_h_nm_np1_fr_goo_1.avi",
+  "sha256": "dc45154f7e7d660061af5abcffeba89d71a95bd87f5414eb1acba618cab7a19a",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "ffcdba0c2e9ed0bb4790a14fad094e2fa3f1cc16b13c27f2cd41660e5d3d0577",
+  "grid_sha256": "3db61db37cafe2b26dcaad571662e58fd4873195b10a93b468d33e388b77047c",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "eat/Two_Towers_3_eat_h_nm_np1_fr_goo_10.avi",
+  "sha256": "8e02cc04595f2df06aef90e39425c09ad59fef64a91740e389fe902ae428e804",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "aa08bbe707b342bd9efa35cd383573dd54759f576eedd6ab8fd30eedd5d6ba04",
+  "grid_sha256": "50d9da2b741b660b634d5588c57bbd98bc695aee6598f6bc06b349b2ae108726",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

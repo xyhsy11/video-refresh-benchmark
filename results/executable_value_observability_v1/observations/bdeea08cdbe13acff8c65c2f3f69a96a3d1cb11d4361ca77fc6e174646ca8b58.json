@@ -1,0 +1,12 @@
+{
+  "clip": "hug/Free_Hugs_-_Medellin_hug_f_cm_np4_le_med_5.avi",
+  "sha256": "bdf2281e88d3ef19ed0500cb5c3787a3b3a9510cab819325690670cd4a449e26",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "d9df691761d555a3a9140c55b1509f53b24f169f7a2be540c9a617bfed7b3995",
+  "grid_sha256": "9b5f3f69ed8e06135c7041201abc121138d68904d7e29245c34629e28eb835b4",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

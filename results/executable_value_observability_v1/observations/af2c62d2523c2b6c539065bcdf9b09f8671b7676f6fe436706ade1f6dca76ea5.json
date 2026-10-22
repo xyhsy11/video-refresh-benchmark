@@ -1,0 +1,12 @@
+{
+  "clip": "stand/CastAway1_stand_f_nm_np1_le_med_24.avi",
+  "sha256": "6dc80883a22a55fe7696fc9bf223460bf2fcdb25ee61eb05eaec831b2d185c52",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "e7d54b697c46f496a03dbd84a6948728313e4283aa3b49bce0fafc94e707dbbf",
+  "grid_sha256": "38b595551a520ea4c42d70c3b306b029fd2b5d7a1bd4a7539956f940ae0c3305",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

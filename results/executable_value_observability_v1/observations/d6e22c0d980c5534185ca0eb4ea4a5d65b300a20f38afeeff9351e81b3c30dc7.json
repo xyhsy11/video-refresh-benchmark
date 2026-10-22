@@ -1,0 +1,12 @@
+{
+  "clip": "throw/Return_of_the_King_12_throw_f_nm_np1_fr_med_0.avi",
+  "sha256": "ebd756b0b66c8af834ce963b9de2273cc607e52cfdff70265322c720946270ab",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "28a33e214e4b4aeaa7142adde189f4c9fb7d07d449500ee5452aaa35a4ca6c7c",
+  "grid_sha256": "7cc38f9f09f09d36b54bcc7d908a1efcadd526666fe4deb483200b5012f537da",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

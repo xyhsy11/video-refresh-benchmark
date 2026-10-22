@@ -1,0 +1,12 @@
+{
+  "clip": "clap/Aishwarya_Rai_Burns_David_Letterman_in_his_own_show_clap_u_cm_np1_fr_bad_1.avi",
+  "sha256": "ab486acb0a2a811941ed3480e9984e3744f845ddaad7d8159d426a95bebf4560",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "e7aedecb00041383728ccf95af5f131cf3bedf93960b304606d3f1c4a7112602",
+  "grid_sha256": "e6ca4b3fdb03e2ec4c5d6de3d21f9e073eab3e20b107e2bb0ca0fc7ee40712f7",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

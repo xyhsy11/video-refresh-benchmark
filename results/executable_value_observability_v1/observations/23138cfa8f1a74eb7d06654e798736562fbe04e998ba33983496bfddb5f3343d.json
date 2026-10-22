@@ -1,0 +1,12 @@
+{
+  "clip": "sit/AgentCodyBanks_sit_u_cm_np1_fr_goo_4.avi",
+  "sha256": "b4b66bc293a3981311c8e7aead2b0ae827c59aacd6b5aa6bfde792f14b499d5d",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "8b98babe8e137d08bdc1e4689067620b84916e03f609a55cb674cb9179f62594",
+  "grid_sha256": "bdc3c4a306122014759faf9e1b78c3eb0fc90bc252bc4740d78131cf79a137cc",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

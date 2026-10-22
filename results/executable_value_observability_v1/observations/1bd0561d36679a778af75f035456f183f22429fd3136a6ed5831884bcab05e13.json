@@ -1,0 +1,12 @@
+{
+  "clip": "throw/KnifeThrowing_throw_f_nm_np1_le_med_4.avi",
+  "sha256": "03f4e91f585d0912899a7e46619b35aff95d48bedd7d19d0f6087557e2e5c186",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "d544cc28d89393c35c8e3b04c5ced921c48cae232413e6337322dc3caea281a2",
+  "grid_sha256": "10012645ef2eab082a2ebdb4dbd6bc868662cdfc82a12db3de86b93fb4ce1284",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

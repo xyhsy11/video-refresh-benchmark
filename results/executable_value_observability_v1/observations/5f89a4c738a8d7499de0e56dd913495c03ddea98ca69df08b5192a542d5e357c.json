@@ -1,0 +1,12 @@
+{
+  "clip": "wave/BATMAN_BEGINS_wave_u_cm_np1_fr_med_19.avi",
+  "sha256": "cb65bebbb85082e710dd6a6f9aadc2d3ee59efde168a934286e76a7a075c9503",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "78a8bea2e38f55a6ae8a7874f84fd68c0af466b15d930ae14a20357d807e68f7",
+  "grid_sha256": "90675a0b322d65f1966fd8c3c965b08202cc808d1ab60c22dd2b0464b09d725c",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

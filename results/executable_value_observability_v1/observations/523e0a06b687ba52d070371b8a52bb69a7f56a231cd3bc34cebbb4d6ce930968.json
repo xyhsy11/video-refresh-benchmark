@@ -1,0 +1,12 @@
+{
+  "clip": "cartwheel/cartwheel_competition_43_year_old_vs__15_year_old_cartwheel_f_cm_np2_ri_med_0.avi",
+  "sha256": "b7a202a45172664aeadcc5bb2b7d38bb6c66205e70aaaf6e5af7cf00c0f23230",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "668387f9ef014142757dda6469dee77db26b9d6395f39acf40673555b188b4a1",
+  "grid_sha256": "536ebde80158e3c9dcf19f40bd8b444fbc39a5486054935087add5de3792395d",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "handstand/Scorpion_handstand_handstand_f_nm_np1_ri_med_0.avi",
+  "sha256": "480495c83f60cbb6c0c96bdf248572103e35f81fc70cfc22dd16daa23bd635e8",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "da620125865e98021a3b4abba7a56328b1d3d83e740898c69d43aa812cde0c8b",
+  "grid_sha256": "02018c7425a5f0496897f69bf3f5e729910de3a098fcfd5240844a0c77742817",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

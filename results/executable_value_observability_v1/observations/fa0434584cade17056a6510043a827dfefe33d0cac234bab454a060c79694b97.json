@@ -1,0 +1,12 @@
+{
+  "clip": "pullup/FREESTYLIN_ON_THE_PULL-BAR_pullup_u_cm_np1_fr_med_0.avi",
+  "sha256": "9e111202a94444c7aa638f13945fa897c6ede02e7ac076819f83d9e4d77d17ae",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "7738e3c65364aefac4cdc30a31f9c15480bb556916fcc5d57b8eb64e90defad6",
+  "grid_sha256": "32e8fbcecbc645da7cbe4b4ae81e786fc73994f78aed5693e7cdbc4851a84e19",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

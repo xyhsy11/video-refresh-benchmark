@@ -1,0 +1,12 @@
+{
+  "clip": "dive/Parkour_Dive_dive_f_cm_np1_le_bad_1.avi",
+  "sha256": "454c4b5d76e112ee37a618136b818e3f3f6eb53e04cf464f4d03c3d798fba43f",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "9ba204918f3e2cb78b910da4ca3e6e783ba023d7ec8981eadb95d4b91c6f8194",
+  "grid_sha256": "28a38b47e324dd8304f42f93fe9d632ef868f51147b444d3bb74783053ec875b",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

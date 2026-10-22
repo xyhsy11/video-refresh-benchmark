@@ -1,0 +1,12 @@
+{
+  "clip": "climb_stairs/szenephoto_-_stevemachine_beim_treppensteigen_-_feuer_bung_climb_stairs_f_cm_np1_ba_bad_0.avi",
+  "sha256": "ec62d555fe5bd30271450cec7cbd80a4a8f787070dabfa9257b430904c842c73",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "ce1a170ec5e0fa4dda7a79e3ef5e3756d11219b80bd26777758abedfa94793a3",
+  "grid_sha256": "31cdf09d565628fd349c2ca2a8c101364cb2cef53584f97ff6e3b719340c4ac9",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

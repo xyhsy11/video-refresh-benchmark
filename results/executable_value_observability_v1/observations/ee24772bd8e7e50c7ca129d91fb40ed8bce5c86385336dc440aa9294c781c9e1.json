@@ -1,0 +1,12 @@
+{
+  "clip": "throw/Fellowship_5_throw_u_cm_np1_ri_med_2.avi",
+  "sha256": "1c6a9d7289464dbf34e9efa4c865bdddde1cdd8147e0dc11700703f91c1042fa",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "8e726c5b9db0891fca4e98c7627896815a682d9d5af2ec8499f52f8a274f742c",
+  "grid_sha256": "03fb74a25493b6d25c59c75b00cf5780181cf593b85786e040a6a99010ae2b4b",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

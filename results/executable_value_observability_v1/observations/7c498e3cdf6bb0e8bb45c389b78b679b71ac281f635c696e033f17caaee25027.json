@@ -1,0 +1,12 @@
+{
+  "clip": "pick/AMADEUS_pick_u_nm_np1_fr_med_8.avi",
+  "sha256": "d14ed0692707daa4bc4e874b16431049259f3f8c3369aeea2a07b5724711e56a",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "097e247dfc2c1a702fa2574ca715a42a67d285c868df67286181c5a5952b06e4",
+  "grid_sha256": "6ceb6bf503bc8f8803c1b3d3da72e4c3960031412a8b6684dc29c870718a0f76",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "handstand/Turnk_r_handstand_f_cm_np4_ba_med_3.avi",
+  "sha256": "c13421d95cdcda55d42daedc4cd0f232ac9d9cdd66192252a2bdac0f4454ba0f",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "32dfdf49eaa1046467246c8ededa302a9a10ec33b7c601db89ea62cfe8175f5b",
+  "grid_sha256": "167f29dcd30f94a412fbea3d42892511447a4e021d335e65b1b4f791d3a51018",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "dribble/PlayingBasketball_dribble_f_nm_np1_le_med_4.avi",
+  "sha256": "caa8112a420b1769b2646afde30b1de4b4d01326b6c26cff5788abac64ff027d",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "5f2ec44724b4fccfee83faba84cc3ad2143d051534a50c115d1dacad8181891a",
+  "grid_sha256": "8ffc876bb7f5950790a58fbc259450817bff4ee97790965f69ef520ce2219c12",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

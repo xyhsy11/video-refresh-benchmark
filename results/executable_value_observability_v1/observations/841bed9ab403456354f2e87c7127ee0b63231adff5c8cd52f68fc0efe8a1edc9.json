@@ -1,0 +1,12 @@
+{
+  "clip": "ride_horse/FullyAlive(Request)_ride_horse_f_cm_np1_ri_med_0.avi",
+  "sha256": "2688826fbefa5dc359a6224206213d2495baaf966d88883dee9004c9d10f1a99",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "b1b22c1aec8b3cd411c87b1557cffcee03068e7ba540336601e2be75796ff069",
+  "grid_sha256": "cdd64e1268ddc5bd3c1104503b9589e3139331bd652005dcfe20ea64fdc00254",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "walk/MeettheFockers_walk_u_cm_np1_fr_goo_7.avi",
+  "sha256": "b5e9cee22c27f1958a378a3c0f7228d318d5e7f3118af7320ad126701e714046",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "6e1b9bc71f5e59e864b29ac3c77193da8bbcb07feb7ceb1f7bd70aa5bf56db27",
+  "grid_sha256": "426ae2d739a0e4088b0e6801449eebd0ea3158249d30b341930e88412e586a6a",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

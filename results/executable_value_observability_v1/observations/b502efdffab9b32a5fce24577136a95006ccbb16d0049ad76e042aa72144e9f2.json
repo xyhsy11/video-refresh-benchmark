@@ -1,0 +1,12 @@
+{
+  "clip": "somersault/Projekt_SPOHO_2008_-_27_02_08_-_Training-_Bodenk_r_4_somersault_f_cm_np1_ri_med_0.avi",
+  "sha256": "67fc73086f8cdb27ad16ca9e3973013ea6740efe9701395832ee76ad9e556d34",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "e6eab12d772440d1e51a7bb03baecb60f0bfac92fa1ecaca51405fcc13c608a1",
+  "grid_sha256": "3f565365483464b6666a3cd8f580bf25f2af6a945ac15c84769789ff86a0e6cb",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

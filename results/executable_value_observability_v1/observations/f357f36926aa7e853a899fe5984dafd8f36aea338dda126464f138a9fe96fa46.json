@@ -1,0 +1,12 @@
+{
+  "clip": "walk/HP_PRISONER_OF_AZKABAN_walk_f_cm_np1_ba_med_23.avi",
+  "sha256": "abe440fc8876bd938d46693b6efdad929d8c1fd59856a84a9ab54ca2d9106cc9",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "93cb46335442c9f60c56385c07f7097d74a69c0be5f807ea947ad6e85519927e",
+  "grid_sha256": "f5b3f35cbbab03d3347c70182ce04081608462d683e8a324439b1d46ce8d3215",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

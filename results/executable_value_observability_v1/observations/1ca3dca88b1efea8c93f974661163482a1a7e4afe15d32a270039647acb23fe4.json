@@ -1,0 +1,12 @@
+{
+  "clip": "somersault/Pirates_7_somersault_f_cm_np1_ri_bad_1.avi",
+  "sha256": "688cf583b78ea5dfaf899f9cc33ba7b94857528f2685969315cec3324cdf0316",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "27da4d3e9626192e32513ebb75935651d7718ac1e394eaf49e9494a5e500496d",
+  "grid_sha256": "da56bbea1d2ebcefd3bb0c9bdb001e9bbdb570d5bb67d76da3d922c78375848d",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

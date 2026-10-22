@@ -1,0 +1,12 @@
+{
+  "clip": "run/BIG_FISH_run_f_cm_np1_fr_med_33.avi",
+  "sha256": "a3dd653b6ad987780fee8dc29c3bf388b32502ef490a9036e56dbedbee1fecdc",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "c3d5ef2c1947b88da508eeb3c764acb1f2ef7ea5016c80d2de89fd5b730b205e",
+  "grid_sha256": "38d30806ee8199ce33b7efe0ae889c24692fed8bf67ece8cd9a78827c3f1012b",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

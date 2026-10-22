@@ -1,0 +1,12 @@
+{
+  "clip": "dribble/10YearOldYouthBasketballStarBaller_dribble_f_cm_np1_fr_med_8.avi",
+  "sha256": "9ac7742fa5ccc369e5edc8197656d86dd75f72fd083ab14361eea596149551c9",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "0dda620c53e9948b888d03fc50e0454390bef9db0f2f18973ec8285339eefb7a",
+  "grid_sha256": "009158f72fce5735f8cb4b26a1a3c4e1539444416ecdec9439b192161a1037b5",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

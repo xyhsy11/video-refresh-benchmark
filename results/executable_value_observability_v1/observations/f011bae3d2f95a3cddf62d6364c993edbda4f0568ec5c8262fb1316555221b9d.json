@@ -1,0 +1,12 @@
+{
+  "clip": "chew/Bubble_Gum_Club_2_chew_h_nm_np2_fr_med_1.avi",
+  "sha256": "370b3f3d5964994af7ebb21aab43f32c199c486ff52581015ff73bfeab23dd20",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "a5bdb2f28a3e8af8a3b090951d91e41614506e53bdf99eecab6074f4bf5b2e68",
+  "grid_sha256": "f6e2684360bd86cf4bc2ca2f7dd9857db8824314084ef03cd18505597e24c57d",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

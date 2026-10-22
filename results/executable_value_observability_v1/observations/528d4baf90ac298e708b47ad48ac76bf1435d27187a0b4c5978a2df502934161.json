@@ -1,0 +1,12 @@
+{
+  "clip": "chew/Loud_Chewing_chew_u_cm_np1_fr_med_1.avi",
+  "sha256": "320904a41a4a64b92e4121c3813cbeba262b697d7e138dde8e3fe18db51e653b",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "ff1f40ede5888456fdb681fc68d5b10938ad34b84c14a5fcfc0d077096618a79",
+  "grid_sha256": "719002a9877ad40780bfc088860fb26788c59fbadf2a63a3cd1c8eb3ee5c6d43",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

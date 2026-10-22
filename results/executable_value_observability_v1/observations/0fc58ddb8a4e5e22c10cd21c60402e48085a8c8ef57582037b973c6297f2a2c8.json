@@ -1,0 +1,12 @@
+{
+  "clip": "golf/Jim_Furyk_Impression_golf_f_cm_np1_ri_med_0.avi",
+  "sha256": "fbe33b7de918e970bb6cfd00ea19b542220e81cf08802445e0aae6570923505a",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "17566146e9d9dad9863e605542271e83e3b420c16be562fbd1a67ed590b9ff84",
+  "grid_sha256": "d5465dead88c19be96ccecbc6dea654bb86ae529b64c3a4fc72c4392c67856a3",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

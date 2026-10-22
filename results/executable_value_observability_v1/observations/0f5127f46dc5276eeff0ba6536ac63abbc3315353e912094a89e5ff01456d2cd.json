@@ -1,0 +1,12 @@
+{
+  "clip": "drink/CastAway1_drink_h_cm_np1_le_goo_17.avi",
+  "sha256": "7ec7efadb59b2e2156a2f97b8ee33bedc8c38ac3b662702acf622b29551edd24",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "9c4c0d23e73ad17788d095d62cb016ace7e74608f9556c8213cd6bc23b5073e6",
+  "grid_sha256": "f31710a3f161fc846b23e26792ec67f5a6ed8ff5e3eaa9f4b2f53151c2663483",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

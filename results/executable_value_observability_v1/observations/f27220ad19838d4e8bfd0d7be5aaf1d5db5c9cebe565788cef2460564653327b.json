@@ -1,0 +1,12 @@
+{
+  "clip": "stand/20060723sfjffjewgotmail_stand_u_cm_np1_ri_med_0.avi",
+  "sha256": "664443e2fdefd8b93df881cf42c8aac09a91e1319857e6a90fc0b0f1d52c9fa2",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "d5b094f71032d0b08eec3b7b69dd9559d172ca98004cadc988c1df42682cc700",
+  "grid_sha256": "2ef8c95d8b2cb8976f57017786d8a80d80bb2832a7faa9a3d77a013723681237",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

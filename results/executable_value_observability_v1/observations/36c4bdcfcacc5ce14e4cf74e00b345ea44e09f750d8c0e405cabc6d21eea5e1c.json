@@ -1,0 +1,12 @@
+{
+  "clip": "climb/India_Monkey_King_scales_new_heights_climb_f_cm_np1_ba_med_4.avi",
+  "sha256": "231993da100f7e4c3267c95d354a65bab757b1bbe6867efa36c5543de11911f0",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "9bd69d11cf838a7af4a45588030b58ffd936f037332d079c3c704c4ea347fb62",
+  "grid_sha256": "667e77261fed83e624f25262ac90728bada487acf602af62c41513fd091f4b10",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

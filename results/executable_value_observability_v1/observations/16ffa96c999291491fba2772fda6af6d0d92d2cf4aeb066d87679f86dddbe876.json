@@ -1,0 +1,12 @@
+{
+  "clip": "flic_flac/Bodenturnen_im_sportunterricht_flic_flac_f_cm_np1_le_med_3.avi",
+  "sha256": "4d3126fe05ec50b3d4026800f1e02dcd578065e81174f8393558f9ca6b6e58c8",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "79590a76dd6f39b5f0955dac9532f89a3f662a7ff9096151c0d46fb23f48f135",
+  "grid_sha256": "0a18cc77307562cdddfbbf008c3a76667706ad9ccba5cc84972ad270008cac07",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

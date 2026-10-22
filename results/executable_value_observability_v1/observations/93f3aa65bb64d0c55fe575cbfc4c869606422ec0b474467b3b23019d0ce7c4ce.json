@@ -1,0 +1,12 @@
+{
+  "clip": "sword/Medieval_Times_Knights_Battle_Sword_Fight_sword_f_cm_np2_ba_med_7.avi",
+  "sha256": "86b40803abaff6be890cdaf4959b62a6a8e1a1f8b3b6a98e3cb06dbdca8ce9ad",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "057ddfd657394ebb62deb5b1c23c72709527122fffb1281e1cbd61eb61b65b26",
+  "grid_sha256": "864674629f6964e8bd7fa62b262802493e9d4f9a29cacdb6fcade1efebb3ceae",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

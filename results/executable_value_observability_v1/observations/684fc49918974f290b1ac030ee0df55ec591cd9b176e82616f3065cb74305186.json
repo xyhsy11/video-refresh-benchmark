@@ -1,0 +1,12 @@
+{
+  "clip": "eat/The_Departed_-_Part_1_eat_h_nm_np1_fr_goo_4.avi",
+  "sha256": "3b375a41c296f29aed75566343ae4c909585e81e3643612a3614baecea68af2e",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "ba641ecae2d91ae40a9204a761d74446bc22286624d0701477c69267fdecf796",
+  "grid_sha256": "5cdd3396b37564217f829c2a91893e845f15bec7c80d43789f5896a068171783",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

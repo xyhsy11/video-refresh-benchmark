@@ -1,0 +1,12 @@
+{
+  "clip": "somersault/Paul_Hamm_on_Floor_Exercise_at_2008_Pacific_Rim_somersault_f_cm_np1_fr_med_0.avi",
+  "sha256": "022d98abadce31b4f9ab5de1ead71658a1f242006e4dca05bc7292aecf30ce55",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "8a55e8572bca10c87838534219adcffaf17b2ea5cb132fd6b5d7a0edcbdc5d5b",
+  "grid_sha256": "9a181cdfeb6c7af3285fbee4882b4c4f2bf97204c34dd007579488e252f495f0",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

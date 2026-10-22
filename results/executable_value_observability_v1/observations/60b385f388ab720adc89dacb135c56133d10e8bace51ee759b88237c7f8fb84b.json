@@ -1,0 +1,12 @@
+{
+  "clip": "fall_floor/LONGESTYARD_fall_floor_f_cm_np1_le_med_31.avi",
+  "sha256": "4ea49a889a951b7b80987ca4d1ff00f236bb6f269b4fecb6fbf727dbe256e93a",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "953c5609e1004b424f22fb5ddddf58ff8ecbb8e03110dddb58e05249282bbfe3",
+  "grid_sha256": "6d06db849aba662195d69ac93bd3e0b7cd90efb3bbbe9f29d6c478b274a9aec2",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

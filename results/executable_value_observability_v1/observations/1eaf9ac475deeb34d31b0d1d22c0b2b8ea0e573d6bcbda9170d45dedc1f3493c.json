@@ -1,0 +1,12 @@
+{
+  "clip": "ride_horse/Return_of_the_King_2_ride_horse_f_cm_np6_ba_bad_0.avi",
+  "sha256": "99d571e70b0ea873e81e1cea7d2a417ad556304323dde3c17ed50b615ce14118",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "8ec546c3d097b9a3be587badbdc3492a67c3417f79099bc4f3df2cb7939b9e4c",
+  "grid_sha256": "3e48f17f4164259f5dfbe4b5593ab93edc3c17d55e8cf78710f5f39610f4ca3c",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

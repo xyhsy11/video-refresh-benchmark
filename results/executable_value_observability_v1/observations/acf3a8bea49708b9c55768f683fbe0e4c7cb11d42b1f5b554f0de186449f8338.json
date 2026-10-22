@@ -1,0 +1,12 @@
+{
+  "clip": "golf/Lorena_Ochoa_golf_f_cm_np1_ri_med_0.avi",
+  "sha256": "771951c646c02cd2cf571f9183c437ac91c6d8fb23632775b197d135d531c4d3",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "bd649704b470ce852012bcbc846ff0fc3ef7bc8868e9b52ecc160e9def25b735",
+  "grid_sha256": "8087a01783accdc8274cc2445116e2a67cd59838bd431b867a7b9e8fefc3de87",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

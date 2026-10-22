@@ -1,0 +1,12 @@
+{
+  "clip": "walk/Eurotrip_walk_f_nm_np1_fr_med_8.avi",
+  "sha256": "546e1cf377ed01edd87d241cf234e889415d807c50b42bbcbba12a7463d66a2d",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "0bd835feb8d070ff27ade8cacc953546b876c0b0bb61bddeff00c1584ad4a50c",
+  "grid_sha256": "5e1e7603a0e41a9b108fe25e00169f0f6a278c32d978fb236af8e6a2cdaad7a1",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "eat/SweeneyTodd_eat_u_cm_np1_le_med_39.avi",
+  "sha256": "80add354793c77e02107fdb0063f916fa19f1f90274985ca2aee13f683b7138c",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "6a6d21937cca98d3e3bf3e7c35c27a0ebb81e2086f9f698e9d5cb893d7f4831e",
+  "grid_sha256": "194aa4dfc6ab86302b76a147f823c0c158cf0786754f63679fa50bb6d890c691",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

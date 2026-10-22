@@ -1,0 +1,12 @@
+{
+  "clip": "drink/DONNIE_DARKO_drink_u_nm_np1_fr_goo_4.avi",
+  "sha256": "5f554417f3059e3d1bc49b3f05f7b7ba00f4319293760a998ffc103169cc59c3",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "dfac5a562b3957b690fd997870ba5f288921bef20cf015b232ebbc929252e6cd",
+  "grid_sha256": "22c3f0397f9fd0f69472dc657cc3fd666ffe2d9388cbbedee95e929241f77e81",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

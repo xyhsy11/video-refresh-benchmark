@@ -1,0 +1,12 @@
+{
+  "clip": "talk/Two_Towers_5_talk_h_nm_np1_fr_goo_2.avi",
+  "sha256": "74eaf1c48b5ae16eb690baeb8ed29a3e8329fea5e2c217962bff50aff98efda8",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "b5eff13e21b54b8f7c15d84ef2f442231da4dffab148a7ddc221a60cbcce87f5",
+  "grid_sha256": "2eeca3789cc1d821fc546d19f79fdfed22e2b440ca107f1bdcecb1f0b74f0f32",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "kick/The_Matrix_3_kick_f_nm_np1_le_med_1.avi",
+  "sha256": "ce70852cb79518bc0b5d29e008b81febaa5bcf3f44844ff9ae0118a7f31812d6",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "69f13c5c0c71dadbc2958f0291bd948874b0870d1c6fe9ce485ec9fd092fec19",
+  "grid_sha256": "6e788bd39e493d798fd6b49e25b4b601846f75e324f8842965bc2393b7defd92",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

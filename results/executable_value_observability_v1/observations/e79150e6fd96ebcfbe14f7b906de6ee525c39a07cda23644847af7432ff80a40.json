@@ -1,0 +1,12 @@
+{
+  "clip": "stand/LONGESTYARD_stand_u_cm_np1_le_med_18.avi",
+  "sha256": "796b01d84f52069fec8e277f3a54f466c8797c860ad738dc861818e55b7d6901",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "2351f1aefc3e870e2b87a6a08cc9c300644ea129e955feec6dc6ce2e1dda290c",
+  "grid_sha256": "fe0b4cd71d6631bd73096bb2aa523b040aa1894799dad232c2a4034c0496c9f6",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

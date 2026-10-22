@@ -1,0 +1,12 @@
+{
+  "clip": "eat/Superbad_eat_u_nm_np1_fr_goo_1.avi",
+  "sha256": "b1f14abbf28de67e54cc9dfc2ece63686ddc16888cc8fc0965ebdeae1a4cfe3f",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "6357aa98f12291d6423efc9ecdf2cadaa357c947b9f4ab29a6fb269a7c5b631f",
+  "grid_sha256": "00b5f4c22e8879427aab9ec80ca1cd5f4079c821e3441ec22618433308ae6e92",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

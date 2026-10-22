@@ -1,0 +1,12 @@
+{
+  "clip": "shoot_gun/TheBoondockSaints_shoot_gun_u_cm_np1_ri_med_109.avi",
+  "sha256": "fb4f45cf89c5b3bb4cb555d7276e231820190cf3f8d14ecc3a21b99315586f91",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "f9a9f3838bb6212eeefe272e2d54270882e4c2dbafc1b64c39d75c3b3280bd23",
+  "grid_sha256": "f0778e8b7d6f6b43b9440b3713e3cfce3a88400f714cc32d95d8fe1ecd6cdc05",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "pick/ThreeStories_pick_u_cm_np1_ri_goo_2.avi",
+  "sha256": "949377c71a27e20c12bbea26a006511573171a23f58ec0a2ed5b7d14fbc54820",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "f0f9c362b84b145094537196398d72f680733fb2782181aa483af9a85c0ea4fa",
+  "grid_sha256": "6b958ecf58f638db20b577dba1d9a83950546bfc5f8d9d093e373436db898397",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "dribble/Basketball_Dribbling_Tips__2_dribble_f_cm_np1_le_med_3.avi",
+  "sha256": "ddbbaa133342e53e4752cc2b168af624e4753b305eed47806e0f3bbe57dbcd90",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "75def824ff15a53cd18fe6fdee8c7736b8cb2969f475d696afbd7c312ac90402",
+  "grid_sha256": "03773852def230f2d133df17bdcd3ee734a82abe334cffb3c824b793fb69695f",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

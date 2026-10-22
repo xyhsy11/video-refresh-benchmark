@@ -1,0 +1,12 @@
+{
+  "clip": "talk/TheBoondockSaints_talk_h_cm_np1_fr_med_12.avi",
+  "sha256": "1d29c20e87164f3c3938fc9d4a44bcc0110997703d2a77af7303f55fe31ecf9d",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "2fc694a23533ac7022b006206fa2538ca6c68511b993a426f7449cf371907447",
+  "grid_sha256": "ccd7208a18d329ca6377d6fe662d016d0e38c62f4c9348a7b7de1d6585ecf134",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

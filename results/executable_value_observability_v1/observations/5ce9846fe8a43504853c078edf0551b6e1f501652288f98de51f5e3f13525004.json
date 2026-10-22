@@ -1,0 +1,12 @@
+{
+  "clip": "walk/IamLegend_walk_f_nm_np1_fr_med_17.avi",
+  "sha256": "df2b0e2cadceaa8eb4719a87d7576e5325a5578f404f80fd03c794b8cac95a1e",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "3bbb27e85977bbef7cf98073d40599dd953c65a54f09db6a0d468ec27b2ed57d",
+  "grid_sha256": "946b9765f3977ba42102e12816bb35f274178dad2125ad11fff921b472c88722",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

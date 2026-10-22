@@ -1,0 +1,12 @@
+{
+  "clip": "draw_sword/Iaido_13_katas_draw_sword_f_nm_np1_fr_med_7.avi",
+  "sha256": "7dce6885090d0eb8c74fa6623a26bd27b7031ce7d4e6edf95a80362f0d12d82a",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "6e1af23eabddfa0dbc174c7a8301ad50da8648f4c4b836a204a3ad7806f3a671",
+  "grid_sha256": "c3e3c2990e55a219c1e91a447bc7b380f27c742dc3dfeaafff5bbd16ac04dd01",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

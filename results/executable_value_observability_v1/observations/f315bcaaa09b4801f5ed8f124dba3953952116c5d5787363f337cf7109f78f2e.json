@@ -1,0 +1,12 @@
+{
+  "clip": "shoot_bow/TurkishBowAdnan_shoot_bow_u_cm_np1_fr_goo_0.avi",
+  "sha256": "206c23a8b2007a7aa62f5fef6c5c28598b3881cf3dc1980465a43e304ba04407",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "6012c0074bd6020c9102f7d657b42c2aca0608e17b42fed126a1ae003a35128c",
+  "grid_sha256": "e4d5e74b29fd105ebda445ea5c5f4e3d4e1c7a3681adf878d93c7c91c8491d78",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

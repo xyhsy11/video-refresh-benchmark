@@ -1,0 +1,12 @@
+{
+  "clip": "walk/BIG_FISH_walk_f_nm_np1_fr_med_2.avi",
+  "sha256": "75f558fec00373f8c2f28a5e127701501406af6366f36d9f8154d3215cffd3bc",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "d10e2ea296d718f630518ffb56cbcc0340ac722d9d9451988d18aa75ae05a382",
+  "grid_sha256": "394b2e74784a0b3d20028ca754e5d3928d8cb30a1638575a89943bdb919598a4",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

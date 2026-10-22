@@ -1,0 +1,12 @@
+{
+  "clip": "kick_ball/funny_soccer_commercial_kick_ball_f_cm_np1_fr_med_0.avi",
+  "sha256": "ed8c08a0060ee47568fb5c9003de3c6315d296a7d368b1f77c3a7b3f668b0bdd",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "7bf4724c844b01f05e0459d478089d29f98eeade3d2e010deb4203c931afd385",
+  "grid_sha256": "cd23d684d724a18cbdb93edf0ed9a562331f5fd7e50ded1bf4d022bc49a4ec17",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

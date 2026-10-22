@@ -1,0 +1,12 @@
+{
+  "clip": "run/GOAL_2_living_the_dream_movie_part_2_run_f_cm_np4_fr_med_1.avi",
+  "sha256": "0bab70f5cb720dcfff8ff65e876023b2cfff87e4dc4f04f5c28d9ce8dd46992e",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "b888f3f355a19f9a60c44647bc82f4820a0e40f55c6bd049491db5570c187f5f",
+  "grid_sha256": "58a71d3573c629c90d09c0c376e085bbc782d62a6b3ff78a685b4f0c1908cc6c",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

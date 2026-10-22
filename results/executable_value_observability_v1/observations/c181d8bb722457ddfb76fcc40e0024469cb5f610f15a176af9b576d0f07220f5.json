@@ -1,0 +1,12 @@
+{
+  "clip": "handstand/Parada_de_mao___wall_spin_handstand_f_cm_np2_le_med_0.avi",
+  "sha256": "72ca3cf281624b4b0e63d4d9ed169b86ea26455c860e5993c66736c1935dcdea",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "8a1f1ccea749ddf54a4496fdcab9bdff69eed1422d6b0b9e104a66fbe74221df",
+  "grid_sha256": "329a72c31c9c7f1d9607e4121bbceed2f89f280d8f4771f02d4a847dc3e4bf7c",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

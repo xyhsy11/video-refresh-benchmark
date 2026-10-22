@@ -1,0 +1,12 @@
+{
+  "clip": "shoot_ball/PlayingBasketball_shoot_ball_f_nm_np1_ri_med_1.avi",
+  "sha256": "517acbf8e7a5337aa9e9db306e71cfcef5768aba9ddee6a56102cfd0c721d70a",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "741550b810fc7a256e07af3827c145a3f96db700dfecf46dcb61c31b276d55e0",
+  "grid_sha256": "32e8fbcecbc645da7cbe4b4ae81e786fc73994f78aed5693e7cdbc4851a84e19",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "kick_ball/Das_Wunder_von_Bern_(Deutschland_2002_2003)_kick_ball_f_cm_np3_fr_med_0.avi",
+  "sha256": "11fc214a601f05d8876ab22b2a87c9c343317a2d996429c1de8effde2eec3a05",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "a498b29dc2c2a1c6896d5b9c32d5d507b362bc7bd955b0e3af185286192ffadb",
+  "grid_sha256": "8c43c9b50338cc8e850e532798029714a29a9c56caabce427f009bba644def51",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

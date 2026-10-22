@@ -1,0 +1,12 @@
+{
+  "clip": "climb/Kletter-WM_2005-_Bouldern_Finale_Herren__Serik_Kazbekov_climb_f_cm_np1_ba_med_1.avi",
+  "sha256": "17ae9dbbcd0f945c70648a9c209aba63089ff92087d151398c051d731f2e3465",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "d04516ebca525c34a16aacb2ee4b36288a9a7812db91ea985c06bd1eace0278e",
+  "grid_sha256": "ffcea38db94de897b601be6ce6ee80a60dbe2ea8244926ec082e6d47e7e17bec",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

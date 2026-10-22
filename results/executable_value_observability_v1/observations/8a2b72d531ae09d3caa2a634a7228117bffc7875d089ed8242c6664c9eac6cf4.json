@@ -1,0 +1,12 @@
+{
+  "clip": "smoke/Veoh_Alpha_Dog_2_smoke_h_nm_np1_ri_goo_12.avi",
+  "sha256": "82c7280aa8123659d9874ff2f72829e19ac2d3fbeb4a0080873f3f797e965d92",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "96d654a9b255a4cd3f48afea5b4aeb410b72b278a5b586ca9e0a2ec8ad2554ec",
+  "grid_sha256": "46ff2fcb625bc06b124e3dea05c086788b447efa798b6fd64037352e127b35a4",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

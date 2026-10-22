@@ -1,0 +1,12 @@
+{
+  "clip": "somersault/Monikas_Staatsexamen__Turnen_somersault_f_cm_np1_le_med_5.avi",
+  "sha256": "f7395cf380340340c9a897be627e60596d822e898d4f3682a6c36c9ff1b92417",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "69ba527bdada324df2484163da52d2945c71ab10771220f612f7088bf72a9c0e",
+  "grid_sha256": "a8efbbb795216cc7fcf3738dd0bf6d47757a1c5c12ac562200ec26cbf5095af7",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

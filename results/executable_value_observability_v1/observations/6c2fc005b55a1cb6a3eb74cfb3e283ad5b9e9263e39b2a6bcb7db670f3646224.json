@@ -1,0 +1,12 @@
+{
+  "clip": "walk/SafeInPort_walk_f_nm_np1_ba_med_2.avi",
+  "sha256": "7f951a99e39d593eae760318ba52941ce9f31f200880e87c6e753ac731a62b95",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "89cff94dcd5c2bef0d7a142375c3dde3c8c6b4bf7781845e78d3cf6ea9b7cb0a",
+  "grid_sha256": "5a300f8e4adf440a36184d45b523237aae42610d3b221959a519a7e12bd914b5",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

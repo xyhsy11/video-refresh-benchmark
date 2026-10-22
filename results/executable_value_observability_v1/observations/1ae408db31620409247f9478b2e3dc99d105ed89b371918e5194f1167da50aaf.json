@@ -1,0 +1,12 @@
+{
+  "clip": "sit/RETURN_OF_THE_KING_sit_u_cm_np1_le_med_7.avi",
+  "sha256": "60390458cf37d5f7287f476d548812a30af9d2838d1b674fd96b7e877bfa8f2c",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "1eb6dad8ffbf5f857bb8100bf8ed2bb0b8a0a582f4ce6ccaa0de1e9536632285",
+  "grid_sha256": "4964aede2c2f4f30ab6fa1f50330db15d3c88267ac4123a134368ca470c36689",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "chew/Me_chewing_hubba_bubba_bubble_gum_chew_h_nm_np1_fr_bad_1.avi",
+  "sha256": "73921180b28411eedd5ab89a9a57d92b68f1fcf531514aae93a087acd3eb2a67",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "b5b455a3912b9d563259cbfc200fe027f35945e769b4f96f0cf3479c1da894d0",
+  "grid_sha256": "1dacccca2d65591162afaab7511d3bec92a1ef9d4a7a4fb1eaaa88afad9e0190",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

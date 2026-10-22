@@ -1,0 +1,12 @@
+{
+  "clip": "clap/Alex_applauding_himself_clap_u_nm_np1_fr_med_0.avi",
+  "sha256": "bd9fdd9afb2649bb00dd309ef4f1f0d7d801d2a5306a9a399b152438008fefa5",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "4a29acce3563bf7c74f873d1c7421db3f2ff0780ac267e92e109ac94a7497715",
+  "grid_sha256": "a0e850c39af7cc01c048449f4a82d99275a19900463049dded77f510ff203513",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

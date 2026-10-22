@@ -1,0 +1,12 @@
+{
+  "clip": "smoke/Glory_smoke_u_nm_np1_le_goo_34.avi",
+  "sha256": "61f74022bedfd56c5d4dbc51b646030669a0662250ee89d05e72118c69b1ba01",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "64f38250691f676e54a0cf245e62120d063f812c4e694c3055905c59f598ff5f",
+  "grid_sha256": "bcbe448dd20f16dcb9e030450d6d896c12c5f8b294314205b7f26b639bba67cf",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

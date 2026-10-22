@@ -1,0 +1,12 @@
+{
+  "clip": "kick_ball/Britney_Spears_-_Comercial_Pepsi_soccer_kick_ball_f_nm_np1_ba_med_0.avi",
+  "sha256": "b04c88736223228eec7e742ecec6a3887fda46731962f59de20465adce71a1da",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "1ef06b3a74fd5f20c5074cb1a2bd2549fe6aecc3e72717367bf85ebb2bf3094d",
+  "grid_sha256": "ce48fcff945edf8fef5a7790dd7ed333c01dfd4feb5bade5324a8d9277a5934a",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "handstand/Handstandk_nig_handstand_f_cm_np1_ri_med_3.avi",
+  "sha256": "636450c24794b958813cdada3728cb62f60baa547e015c98bc05140e83e6f762",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "26a3f982cff1c20b6c73c5edc369934f5e9ba3984104c199f10d51cf6330200e",
+  "grid_sha256": "cacbfca722695e3fdc9f27ea30c3a04601f136be22ec037220928f2628d5d998",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

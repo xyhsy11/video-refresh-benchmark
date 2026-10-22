@@ -1,0 +1,12 @@
+{
+  "clip": "push/Ashleigh_Staley_Truck_Push_push_f_cm_np1_ba_med_4.avi",
+  "sha256": "a64c91ac25256332b6f6143c167181f88cdc8ba2b524d87354ed4e7fee485554",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "6cf404bcb6f7ab870caf741546a85c24a80085d0474f4e185cdf386c79de67c0",
+  "grid_sha256": "84c2e0dcd549c58f21c676424fa72447c5dd8018b7a5a7ef2f1db4bdfaa9c350",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

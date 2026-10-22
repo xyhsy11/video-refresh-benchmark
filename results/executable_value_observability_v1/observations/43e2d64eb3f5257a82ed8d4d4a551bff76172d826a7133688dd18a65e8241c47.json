@@ -1,0 +1,12 @@
+{
+  "clip": "fencing/Rapier_at_Clinton_2007_fencing_f_cm_np2_ri_bad_2.avi",
+  "sha256": "fb37c7a264109c4b07cb8643bb9895b687dd91f3651b495e8c0051e8a5a4896e",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "7c0ffe5832ae76cb1fd7f518ad6cf5f598f2415482f3ac75796fcd4f4bea4169",
+  "grid_sha256": "65cb6eb48d63c38c2d53ae16858ed013035c19d2de402ad5d233628bc45836ed",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

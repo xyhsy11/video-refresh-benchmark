@@ -1,0 +1,12 @@
+{
+  "clip": "punch/Two_Towers_3_punch_u_cm_np1_fr_bad_3.avi",
+  "sha256": "48bbe585ad4167def311b1a067d683fece9f31ddbc7bd68320fcb2fb40da45ca",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "6d99d0d2a83edb3fb2e23f9bad7a9d6cda22a722e2b5a5879d19416ee8743053",
+  "grid_sha256": "883c0bb8fb52e20f57739e483fa3a8114f1fd4cbeeda072876544c4d117a78cd",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

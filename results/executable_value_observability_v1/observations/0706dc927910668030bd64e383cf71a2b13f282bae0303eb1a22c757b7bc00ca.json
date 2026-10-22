@@ -1,0 +1,12 @@
+{
+  "clip": "turn/likebeckam_turn_f_cm_np1_ba_med_41.avi",
+  "sha256": "247637497a54ae71eda9872c9421e957bba7ddab0adde0dee3bb6dad14279c84",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "b7defcb1d320c513ff3ab6f7217fdb4e079cd09095ac4d9ec3774c7a30c1aa88",
+  "grid_sha256": "5ccfc75cc894fd339d2bd6442ed059ff5c80220a1a0f19786b2f82618d25281c",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

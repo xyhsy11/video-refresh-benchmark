@@ -1,0 +1,12 @@
+{
+  "clip": "wave/HP_PRISONER_OF_AZKABAN_wave_u_nm_np1_ri_med_39.avi",
+  "sha256": "7059e8a680ca07076616c4f9f212f4a41de8f8192a8f7690118cd305f2a6e996",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "a130b289bfed63c604bcc474567859ad7b68bb138b396a7a61d78106c3f12233",
+  "grid_sha256": "956fc594d41b2022c25aeec85ac5bde695d1c24351a47762c50cd18e78d902c4",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

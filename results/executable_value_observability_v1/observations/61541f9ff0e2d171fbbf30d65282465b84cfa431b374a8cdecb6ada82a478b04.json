@@ -1,0 +1,12 @@
+{
+  "clip": "flic_flac/Rush_Hour_4_Turnk_r_flic_flac_f_cm_np1_ri_med_4.avi",
+  "sha256": "eea98f3a65051aa7f9dd98d1c279f45e88078e851d3f2e3d406669a2f5fe9c25",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "0a604f47c5d817636a19b53a11406bb47487f962f4c9c93c2c1447ae52cf889d",
+  "grid_sha256": "93eeae4cb05dd4c953768a6b7c3948439366a1f92e0e4f804b182b11b54d8ba1",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

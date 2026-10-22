@@ -1,0 +1,12 @@
+{
+  "clip": "stand/BLACK_HAWK_DOWN_stand_u_nm_np1_le_med_11.avi",
+  "sha256": "f905be0ff08eba49080046c8bdd35653cf1a80c0d707d5e1e3e4fdaedbd5dcf6",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "16970cf02e6f818e495b38bd9e31b9e0771461bc661839332abef5d5da2ebb18",
+  "grid_sha256": "abe9d5b75954bcc52ad6dcaea11b3f50e77620f1cabed28b97a9482d64d278d9",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

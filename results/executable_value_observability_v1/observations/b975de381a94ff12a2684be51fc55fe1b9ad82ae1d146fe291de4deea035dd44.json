@@ -1,0 +1,12 @@
+{
+  "clip": "fall_floor/RATRACE_fall_floor_f_cm_np1_fr_med_2.avi",
+  "sha256": "1736853cdf1bb058837ccd744d70540f36717d87090d86f99274cba2723bf3a6",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "e75f1acdb78d84eba846d2d4a7d631c1de2288e6c974aa50b42fe7e120bb5369",
+  "grid_sha256": "d94c4f0fc91496a9b9dc462523ad84939269bb5475f10814e3691fc964baad80",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}
