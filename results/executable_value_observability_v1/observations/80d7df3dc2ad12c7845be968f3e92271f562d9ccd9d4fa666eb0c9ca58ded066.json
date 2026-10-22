@@ -1,0 +1,12 @@
+{
+  "clip": "climb/Kletter-WM_2005-_Bouldern_Finale_Damen__Vera_Kotasova_(CZE)_climb_f_cm_np1_ba_med_0.avi",
+  "sha256": "79f071e604af0dd576ee66b46c9fa0929720b40b3ec46cce727b8c75965ce737",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "b9191d3dd2b62a6472877bafc6cae32a7717e97366b0d573596ed9e127dfdeb4",
+  "grid_sha256": "c4739c061a5e0f227a0da4788c5b3a7f8bef7840c12e4bd1927d3a6279a2a442",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

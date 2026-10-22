@@ -1,0 +1,12 @@
+{
+  "clip": "push/Kommandant__muss_Auto_schieben_push_f_cm_np1_le_bad_5.avi",
+  "sha256": "84b4619ff2afcbddfaf864d850d160d24c0200f36a05009209564204bb5be6a9",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "0a309760d25126de8f4abd98cbc5e5e05381dc237a85b0974a9ec5462724fbb9",
+  "grid_sha256": "e3d7b0728df13f468f373f560ec40a54401ff0fd0fa4e561ae4ec460572711cf",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

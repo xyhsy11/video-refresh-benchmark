@@ -1,0 +1,12 @@
+{
+  "clip": "somersault/lk_sport_revolution_somersault_f_cm_np1_ba_med_1.avi",
+  "sha256": "d9a97e527a5eea47b77449c6d7f36bb18c5db14945a3c6d32361e0127bb55a95",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "4d7abfc86517e4c7c04fa3c047d127946bd7f279b42c84a9adab4580e66187c1",
+  "grid_sha256": "3ed2eaa0037346949cd6a3c52d30e47d1b0d391eb708f776e071dcb7bbefa987",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,21 @@
+{
+  "at_utc": "2026-10-22T03:04:48.150091+00:00",
+  "execution": "COMPLETE",
+  "decision": "DEPRIORITIZE_THIS_CONFIGURATION",
+  "primary": {
+    "family": "ridge",
+    "contrast": "HGH_minus_HG",
+    "value_difference": -0.00033530558108601236,
+    "fold_effects": [
+      0.0020069383525475235,
+      -0.0015155292310896425,
+      0.00100694943614279,
+      -0.0004935256013233206,
+      -0.0026159416574133587
+    ],
+    "favorable_folds": 2
+  },
+  "value_HGH": -0.0018286024026968899,
+  "cost_D_minus_A_ms": 18.178849999912927,
+  "confirmation": "BLOCKED_INPUT_FOR_CONFIRMATION"
+}

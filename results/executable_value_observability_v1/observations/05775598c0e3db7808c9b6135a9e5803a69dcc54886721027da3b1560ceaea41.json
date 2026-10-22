@@ -1,0 +1,12 @@
+{
+  "clip": "handstand/handstands_1_handstand_f_cm_np1_le_med_3.avi",
+  "sha256": "65b37f7016c312a7756ffcb36b649cae5c1239cc84ab8a9da17165d7739d1c84",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "13c11635c5fde09578a65cc9e11f1d31422b6b1fd3b39c4ed9e0a41e2e8edbc3",
+  "grid_sha256": "32e8fbcecbc645da7cbe4b4ae81e786fc73994f78aed5693e7cdbc4851a84e19",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

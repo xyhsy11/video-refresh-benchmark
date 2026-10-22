@@ -1,0 +1,12 @@
+{
+  "clip": "drink/Return_of_the_King_13_drink_h_nm_np1_fr_goo_1.avi",
+  "sha256": "c7b05ff345d9ff299f6d45dbe61a5d4b1c0c633b75d44ac05a9c8a8894002404",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "d92e5324dfe611162e539dae71d3a78070c5d7a73ca2207d9621718de987d9f0",
+  "grid_sha256": "96e4b62ab672301259604bd88682ca2fbc09eee56815de5ebf23b0323aceadcd",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

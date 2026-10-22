@@ -1,0 +1,12 @@
+{
+  "clip": "pick/Wallet_Trick_pick_f_cm_np4_ri_med_0.avi",
+  "sha256": "593de8e6a62c5656601fc4096952725616ba39a258c41b5a46c0a56286583296",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "9ddc14723fc6ebf50b7a2ca1e64c2ff7ac6a804d2d71ce60cb0a278457675c6e",
+  "grid_sha256": "99a0b12d01e8b78fbb0acdd691f12087fd26cb024b73407653eb1b0485aecca8",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

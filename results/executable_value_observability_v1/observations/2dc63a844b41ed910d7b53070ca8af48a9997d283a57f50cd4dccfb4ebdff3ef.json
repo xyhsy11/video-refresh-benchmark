@@ -1,0 +1,12 @@
+{
+  "clip": "draw_sword/The_Three_Musketeers_(1993)_Final_Battle_1_3_draw_sword_u_cm_np1_fr_med_1.avi",
+  "sha256": "047409d472a72d1c63a5f5f22f894ef1d8e45bd7fe195e73c5c77173c1c7567c",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "0016dc52d28f9127d682b079802695ce2c835d01642e998a903f2719dbdb0ef1",
+  "grid_sha256": "62ef991c77353145269b7bf45c06343ac139821b4a9b382aafa106bdbbebfd21",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

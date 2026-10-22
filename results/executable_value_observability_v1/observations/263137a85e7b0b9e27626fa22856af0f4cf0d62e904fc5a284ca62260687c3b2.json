@@ -1,0 +1,12 @@
+{
+  "clip": "chew/cotton_candy_bubble_gum_chew_h_nm_np1_fr_med_1.avi",
+  "sha256": "a0507a1eecc6ce2becbaf6625fb8e53dcebe3aecd0cf72d87b72e7f2dc05f502",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "39a1f9f934e55fa378c6686318732f0fb62cc80e85439c0d847854cdfb7230e3",
+  "grid_sha256": "213c5d8e39b992d0ad281d543e422be6772d840146e9f0b547d4bfb6b7e346dc",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

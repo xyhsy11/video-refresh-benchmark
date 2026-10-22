@@ -1,0 +1,12 @@
+{
+  "clip": "shake_hands/Vor_dem_Treffen_Merkel_shake_hands_f_cm_np2_le_med_2.avi",
+  "sha256": "d942d2102740b952959bad6aef7c7abdc5f2b4d44f80ac2106dd9d014248486e",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "c9bc7cc012725a8bc0503cb8251cf5998c2a8c67a8979720edf8e11aba7900be",
+  "grid_sha256": "8bbf8b47232d2bdff644ac8d68d23fb1a17362c18c5b1eba555000b51d386b4b",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

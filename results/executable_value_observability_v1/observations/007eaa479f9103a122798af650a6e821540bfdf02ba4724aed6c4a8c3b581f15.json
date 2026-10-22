@@ -1,0 +1,12 @@
+{
+  "clip": "dive/base_jumping_compilation_3_FMJ_dive_f_cm_np1_ri_bad_2.avi",
+  "sha256": "25b08b4ce9c57fac31ace1693a98d37ee83e4fa74a4426a8a3bd548166c89c0d",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "048189252193ce0445dad705cbf437f8b839c71b14efcb167ac37c170d4091e3",
+  "grid_sha256": "8dfd0160cef4f624e75c7fdb3c573a277d21ccf6f522f3d2df03adc72fd54d2c",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

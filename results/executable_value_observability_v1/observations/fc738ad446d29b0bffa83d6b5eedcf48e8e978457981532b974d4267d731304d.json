@@ -1,0 +1,12 @@
+{
+  "clip": "somersault/Kristina_Goryunova_-_Floor_Exercise_-_2009_Tyson_American_Cu_somersault_f_cm_np1_le_med_1.avi",
+  "sha256": "4593343ecbe56a8bd8c78a2ce4a1b4b8cc3479d468c6f696efa4957f6f677022",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "b836033b25b432a2f5d8933897ff5fd5135ec82bb0250bd70f15345c1ad73d3f",
+  "grid_sha256": "104191c078cee398f3adc3dff5843f446cdb95c53d58fbdaf78ec55051e843a8",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "walk/Veoh_Alpha_Dog_2_walk_f_nm_np4_fr_med_17.avi",
+  "sha256": "be22cd1bfea53eb4fd5065c27946a80b1ab248814d4ab6b0121b82c68dc49563",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "ee140d7c7ba2ceff4763b5ee06c3a081cd896b84b6d48eca5d84a35b74223970",
+  "grid_sha256": "9aacc6c0489c81017562e85623acaed945a3a4f30f8001f7c64d6f685c4c475e",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

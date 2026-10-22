@@ -1,0 +1,12 @@
+{
+  "clip": "shoot_bow/trainingat70m_shoot_bow_u_cm_np1_fr_med_0.avi",
+  "sha256": "7949d85733739e213be34d25af8dfbc86eb93aaa1156972fe868bf55856086a6",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "b046ad72788d4c0b750e19b6fbac91a15584f83ea712de56ae953d4d76278c33",
+  "grid_sha256": "0f7473b2447f418f536f4b33987093fa113ba9b0c02fdda4691f9731915c0170",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

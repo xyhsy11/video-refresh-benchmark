@@ -1,0 +1,12 @@
+{
+  "clip": "throw/Pirates_4_throw_u_nm_np1_ba_med_4.avi",
+  "sha256": "323482bb872a010dd30fd970244129d796cbd99a7a40640d91132ea5ef539af8",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "d49df992580695389b46afd7caf38b14a0caacdbe4379e7eabf70643f33eb978",
+  "grid_sha256": "7de3a7c9a5c45218986f3713ca56a8bb3c434ac68ff7b855690f64a3c545d051",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

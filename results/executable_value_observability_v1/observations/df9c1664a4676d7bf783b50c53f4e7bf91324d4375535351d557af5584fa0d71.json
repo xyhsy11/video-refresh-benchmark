@@ -1,0 +1,12 @@
+{
+  "clip": "run/American_History_X_run_f_cm_np1_le_med_17.avi",
+  "sha256": "34aa7375abb8beceb4a08c6a533a034b30c9578262e98b8bf3bfdb44907ffb7f",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "851a91005229268aa83e7d75e6772ae2709f258da2a4b183a9e46a17948cb88b",
+  "grid_sha256": "410431c8ea9a641a16799d7f3e8052f88dab6a34266bb1d464654f84f2d49e0b",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

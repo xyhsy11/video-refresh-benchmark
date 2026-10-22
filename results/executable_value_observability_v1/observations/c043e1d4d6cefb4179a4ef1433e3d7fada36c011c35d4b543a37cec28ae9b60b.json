@@ -1,0 +1,12 @@
+{
+  "clip": "walk/RATRACE_walk_f_cm_np1_ba_med_17.avi",
+  "sha256": "d51099f4abf2be9397bae272456c286d9217d457f9b3891fa0239186ffeddd76",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "7b441edabf71281660ef97bf1a0e55f71a960c4071d0a444686c3b45d3aa0e6d",
+  "grid_sha256": "a7ffd968aaa6dbd2f317e8b00df5a4a574db7f40131a13d5b651c9349eae9f7f",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

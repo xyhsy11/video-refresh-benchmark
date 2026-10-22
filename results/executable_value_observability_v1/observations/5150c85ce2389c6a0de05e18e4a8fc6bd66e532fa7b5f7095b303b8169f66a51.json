@@ -1,0 +1,12 @@
+{
+  "clip": "smoke/A_Beginners_Guide_to_Smoking_smoke_u_cm_np1_ri_bad_0.avi",
+  "sha256": "42d47faf511fa1c9ff86ecec843223d59ee92751b8a0a0a69933883587b9a773",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "8982c0e940154870a4dd473c636f2a30ecaaa20361c3583961955c7873bfe230",
+  "grid_sha256": "bbdd617c4d59d65fa608dc9865cd7548423e86c3369a4d36bc774e7127a71d00",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

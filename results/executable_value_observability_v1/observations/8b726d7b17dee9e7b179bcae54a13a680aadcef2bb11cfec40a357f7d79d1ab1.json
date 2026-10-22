@@ -1,0 +1,12 @@
+{
+  "clip": "kick_ball/GOAL_2_living_the_dream_movie_part_9_kick_ball_f_cm_np1_fr_med_0.avi",
+  "sha256": "b80a5bc3fd041e364f60938072628edc42af25016ef98d31bee099280c36be11",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "bb3ebee6ac4d1e68bb81a19e7518b2811783e47edcbac73cc7302331b481bc4a",
+  "grid_sha256": "39c177552b6a7aa3f22fc072b07aeb1a767b82bc539e93507dbc3c11ef17b967",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

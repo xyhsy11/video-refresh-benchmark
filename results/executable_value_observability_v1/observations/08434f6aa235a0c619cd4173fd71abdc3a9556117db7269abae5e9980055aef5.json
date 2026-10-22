@@ -1,0 +1,12 @@
+{
+  "clip": "fencing/The_Three_Musketeers_(1993)_Final_Battle_1_3_fencing_u_cm_np2_fr_bad_3.avi",
+  "sha256": "327384340cb92babb3f76119909ce46fce598b70f716ee40db1877614a7c782e",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "7544e16f79f34c6e0656a79ae1fdca87f1d46b4bb1335f254a078265ab48d991",
+  "grid_sha256": "1952fd74e71cbc1246cf560d25c24bc930ba489abd09a1286e177e83264e859a",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

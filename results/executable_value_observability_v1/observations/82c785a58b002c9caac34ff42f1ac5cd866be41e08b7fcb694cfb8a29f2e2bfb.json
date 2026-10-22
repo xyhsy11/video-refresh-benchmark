@@ -1,0 +1,12 @@
+{
+  "clip": "shake_hands/BSS_2008_-_Wentworth_Miller_erh_lt_gol__Otto_Shootingstar_shake_hands_u_cm_np2_le_med_1.avi",
+  "sha256": "b9d34b78c7ff9a93bf937dec56c66f68e49e1a942ab9fa6db283960d37498fe3",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "97db59e21b02b248600a791e0bf819c0cc456a7c1b4f499d64f5c179bab57265",
+  "grid_sha256": "ad3dd611232782a4af2f64463291d2eff562cf806a20c49d65dcd3c303589943",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

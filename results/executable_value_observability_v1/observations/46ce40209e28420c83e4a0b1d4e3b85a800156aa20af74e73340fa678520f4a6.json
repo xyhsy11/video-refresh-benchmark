@@ -1,0 +1,12 @@
+{
+  "clip": "shake_hands/Veoh_Alpha_Dog_1_shake_hands_u_cm_np2_ri_med_0.avi",
+  "sha256": "c2db184f5f1b1344cb3a24d358c8eb92aedf59ff51007a74a656e6c1c159e0c3",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "e5a07a0e271b3131b15fde7b0cd4e557bea4d4a0655667d69d7cc1e7fcf1a587",
+  "grid_sha256": "0ac4b7ce89010d1e1074ec09cf7f37bc3687eb7cec7f31104848b711fad651ee",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

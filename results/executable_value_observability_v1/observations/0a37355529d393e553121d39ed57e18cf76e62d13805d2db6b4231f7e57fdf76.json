@@ -1,0 +1,12 @@
+{
+  "clip": "chew/random_gum_chewing_chew_h_cm_np1_fr_med_0.avi",
+  "sha256": "4061edb2bc80c5f4191b6ea7f1fbb6a8a39f249115e49187cb8f551d28e9ddc7",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "b0d81b4282f858c816d03047d6c12cff0c14562e7345a47dd05835f2445e011e",
+  "grid_sha256": "9b5f3f69ed8e06135c7041201abc121138d68904d7e29245c34629e28eb835b4",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

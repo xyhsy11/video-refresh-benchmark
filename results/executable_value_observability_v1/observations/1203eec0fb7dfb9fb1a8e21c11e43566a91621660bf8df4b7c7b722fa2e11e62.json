@@ -1,0 +1,12 @@
+{
+  "clip": "pick/SafeInPort_pick_f_nm_np1_fr_med_1.avi",
+  "sha256": "4cb3411688a13a0835ce4cb8a0b0e541dae881caa46fd64a23f69a783e47fc3c",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "443dee381947885e4ac548f5faceb52d90d2a6545a29d61f2519b213827b5f8d",
+  "grid_sha256": "ea84078b8d9585cd3b410a8f8d7852d7e8a9f40d1112e882ef28ee52bf5a6f3d",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

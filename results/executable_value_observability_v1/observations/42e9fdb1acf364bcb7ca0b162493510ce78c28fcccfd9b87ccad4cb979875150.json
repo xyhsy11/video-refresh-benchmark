@@ -1,0 +1,12 @@
+{
+  "clip": "shoot_bow/ArcheryMaster_shoot_bow_u_cm_np1_ri_med_1.avi",
+  "sha256": "2944cb0d393f6b90dfce54f54d1599bfe4094894d8e643e683c798babf80abb6",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "74d5ad4eece6f41dcb451e67f8a138820bb6152f4f34510ec28fd19cc98856a0",
+  "grid_sha256": "001b3694c4f34cf25fd36328d44f877dc6856c9fb8f9b005ab6040cc80235e63",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

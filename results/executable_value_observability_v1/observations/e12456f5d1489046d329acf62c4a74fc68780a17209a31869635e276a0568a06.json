@@ -1,0 +1,12 @@
+{
+  "clip": "push/Box_Pull_Push_push_f_cm_np1_ba_bad_3.avi",
+  "sha256": "b01e1477fd44797ec1a8e738bf029763ec3b37a77fd2decd577ea05ff366a717",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "dc43529ef3a950e181af96da669374d017736ad82cd4761db1ef9701f66839c9",
+  "grid_sha256": "edf1f48dbd710d3501c613d6f06503be8ba3c72af2d3f2f031941e9743bec0e6",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

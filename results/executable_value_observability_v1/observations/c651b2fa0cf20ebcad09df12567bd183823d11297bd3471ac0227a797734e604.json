@@ -1,0 +1,12 @@
+{
+  "clip": "cartwheel/how_to_do_a_cartwheel_cartwheel_f_cm_np1_ri_med_0.avi",
+  "sha256": "9ba3bb2a0b0b7b0ff10e6ae4d4792dc0565422c21368ba84f2dc154762083817",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "44eda5d315212fb9d665ff510ddc827baea8ea2a6ddf4bd6d8d8aa895a6f0c80",
+  "grid_sha256": "377344dbe91765173af44b3b151533506a3534dfb3893eb5f6df07e92f5a9240",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

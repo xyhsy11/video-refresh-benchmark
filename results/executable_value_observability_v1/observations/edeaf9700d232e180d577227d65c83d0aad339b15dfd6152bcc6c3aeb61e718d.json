@@ -1,0 +1,12 @@
+{
+  "clip": "fencing/Epee_Fencing_Attacks_-_Remises_fencing_f_nm_np2_le_bad_2.avi",
+  "sha256": "217c34de58be25c83d51492242f7ab07efb635383d5ea13fe63ef53e426c5a4d",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "5cad68fe2f844748456f69df2ba63fde3e63896dc621ebc3423efbf6a209cbf7",
+  "grid_sha256": "2e803a99ae2cbb7efa225ad8e8419f1c1017f52d96982c4cfbfc7e23e8e0bbc2",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

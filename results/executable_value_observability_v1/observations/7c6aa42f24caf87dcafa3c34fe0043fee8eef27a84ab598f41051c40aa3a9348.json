@@ -1,0 +1,12 @@
+{
+  "clip": "dive/bungee_jumping_compilation_dive_f_cm_np1_ri_bad_3.avi",
+  "sha256": "d26d697545b434865d38974e56335f832c708ec6d70e0833c7cd7f60bd42ffeb",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "245b018fd77c81260b7ec322813c80a8d90ded432054c10c828fefbb5f4d9a8c",
+  "grid_sha256": "f7bed6557301f1e2474d0e635d11242b1e25c7cd725c1d5e00fce5994f1a4484",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

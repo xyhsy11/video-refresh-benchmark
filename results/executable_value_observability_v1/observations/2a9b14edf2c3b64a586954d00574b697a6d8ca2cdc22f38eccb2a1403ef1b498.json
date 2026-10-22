@@ -1,0 +1,12 @@
+{
+  "clip": "turn/NoCountryForOldMen_turn_u_nm_np1_le_med_3.avi",
+  "sha256": "dcd40d84e8856ade1703dc3d82dd3da4202aa252891c12e545b9e15ecdb3445c",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "2d88eb63599171aaec761798df3b68c85ccb5dd2bbe00b58db19f0ed3a1b5a68",
+  "grid_sha256": "0fb4903f47cd18adcf25d9be4be346f0f98362995226ab8b27a491fb8a9528a7",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

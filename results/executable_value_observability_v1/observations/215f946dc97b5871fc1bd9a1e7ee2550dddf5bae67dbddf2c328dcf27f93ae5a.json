@@ -1,0 +1,12 @@
+{
+  "clip": "shake_hands/Bush_Shake_Hands_CNN_mov_shake_hands_u_cm_np2_ba_med_0.avi",
+  "sha256": "27b42aa0f96944a4ddcd9acb22783e4579cab5768793333205a32774e2360a63",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "574684beef936b4bef550e4cd2f253b269181c095021dd802b9b34ad017238d1",
+  "grid_sha256": "0d2a3513ac81c8e85661145684bf1b919f5c5a59dc5fc782b3a3503d23081434",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

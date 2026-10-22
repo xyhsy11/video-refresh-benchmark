@@ -1,0 +1,12 @@
+{
+  "clip": "stand/SoundAndTheStory_stand_f_cm_np1_ri_med_0.avi",
+  "sha256": "cc5dee8f870d70f601cc17bde71551c2588bdd96a32f179cea96c141b743a784",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "70912cd768ee92c0cd6e6061a72eed1957b774b2ed44c629eb8fae14622757f5",
+  "grid_sha256": "bee992b89dc37963ffdebf3104787307940102e3355f89e206852e2aad729071",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

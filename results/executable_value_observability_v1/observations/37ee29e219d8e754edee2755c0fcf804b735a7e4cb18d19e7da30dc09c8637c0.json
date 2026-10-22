@@ -1,0 +1,12 @@
+{
+  "clip": "smile/SMILES_FROM_OFF_THE_ROAD_2_-TREASURING_THE_GIRLCHILD_smile_h_nm_np1_fr_med_3.avi",
+  "sha256": "60d51d2e32af3e570714636d031946b63a45c8161cad302595070c699a2b3bf9",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "85cc62d56be9c512b6982eac7822e77a92055a968db82bb54ba3cdab95e57e0e",
+  "grid_sha256": "6e785729c8c9d27632cc3f08ce3c026237413715a14ca504cad3c701da105000",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

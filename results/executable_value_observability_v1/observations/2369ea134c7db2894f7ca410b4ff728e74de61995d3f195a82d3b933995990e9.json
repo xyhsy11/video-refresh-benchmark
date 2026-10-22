@@ -1,0 +1,12 @@
+{
+  "clip": "drink/Gattaca_drink_h_nm_np1_fr_goo_3.avi",
+  "sha256": "9179b21ffd2165bcdb9b2c38b863fa6e84d5d2400340cabc70fb199e600abe95",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "8ff11d000627102aaad221c1af7a575567054179c84b36c03fda02574677b2e3",
+  "grid_sha256": "4a9a5f8b8cd7f1d61a59b83087e8f379991d6c17518ecd237c1998e0c5015fb4",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "stand/ChildrenOfMen_stand_u_nm_np1_ba_med_1.avi",
+  "sha256": "2aee81347fbebf6ae8f52b4ade42f756dc9e8fd49b864d82bba8b570029dd764",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "44491413b594f344549cee42ee85002a482b20b7f8a40e5cad54c4c5812e949f",
+  "grid_sha256": "b1b35d58b4546ac3b62d42412404c29e6a5f4b01cfe1cef947f4c60f8fc9711b",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

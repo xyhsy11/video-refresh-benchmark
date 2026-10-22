@@ -1,0 +1,12 @@
+{
+  "clip": "kiss/kiss_mix_kiss_f_cm_np2_le_med_1.avi",
+  "sha256": "ed1cbf801650b24cb9f22af8a42ebfc80b16bf0226ac44a1fea271f29cb697ff",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "319a17d71ea5d534ba88b4364d8457aeae4562b42c7748321b46f65e237dcdd9",
+  "grid_sha256": "99c91c5f3985fcdf8400150fdee792ec8322c2c2d7f259fe3ddd3d9196cda444",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

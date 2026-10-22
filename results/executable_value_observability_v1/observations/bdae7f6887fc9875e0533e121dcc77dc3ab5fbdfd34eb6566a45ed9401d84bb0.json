@@ -1,0 +1,12 @@
+{
+  "clip": "hit/Baseball_Bat_V_S__Computer_Monitor_hit_f_cm_np1_ri_bad_2.avi",
+  "sha256": "90e696066d0ed1250aea7af2e8444dee9c4ce9053b82ac0b97f649c988ca9bcd",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "e6f372376dc4b1419b3a2b65b2932a43f3a6432cb15b409eee87a625b45bf5d5",
+  "grid_sha256": "860bd6838826aad8ec847623a2eaea52d2f334c6fd6e3a863ee08381175c80d1",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

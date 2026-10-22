@@ -1,0 +1,12 @@
+{
+  "clip": "hit/chris_troy_getting_hit_in_the_back_with_a_stick_hit_f_cm_np1_ri_bad_0.avi",
+  "sha256": "f607d871195dd4e215833e76a47aefa8399085247a3dd567dbf69cd177115fe4",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "54a2da3a4e423c4b72d34e3bd1a7b336cf9651982518373212e36b4f3f002ddf",
+  "grid_sha256": "7d4cb40145e413373e833c292f5f0247bb8034738cc1ada19a8ab57d37610787",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

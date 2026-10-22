@@ -1,0 +1,12 @@
+{
+  "clip": "pick/Oceans13_pick_u_nm_np1_ba_goo_5.avi",
+  "sha256": "1389e9f42ee55db1516d6eb5a8a69d2e2139ba080e00f96afa5ed26c18c590cb",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "e092e922cf2dd6c1c16e66053a89c59428cad423a048659f90785a7907294787",
+  "grid_sha256": "6318a537b3974c45c41487848681943051e21deaeda6b61980c8df8338ca0f41",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

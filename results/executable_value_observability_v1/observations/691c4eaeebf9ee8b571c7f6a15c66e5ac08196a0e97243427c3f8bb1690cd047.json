@@ -1,0 +1,12 @@
+{
+  "clip": "situp/crazy_105_sit-ups_situp_f_cm_np2_le_med_1.avi",
+  "sha256": "85a863a6b04b7276ef4f2bf8bc24bb7caf5d7731ce9b7bce54a4a8da6a3eadce",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "48aed1d3fdb9e7dd5f5b29699a83503ec7aea00bf364401ca8979116c46e4f36",
+  "grid_sha256": "3727848aa67f9a730bafa8de35652cdaf877f2c02e87f752762c0b94ef823e65",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

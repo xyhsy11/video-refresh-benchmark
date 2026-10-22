@@ -1,0 +1,12 @@
+{
+  "clip": "climb_stairs/treppensteigen_1_climb_stairs_f_cm_np2_fr_med_1.avi",
+  "sha256": "6796ead673acc85fd6eefa6f96a6d3bd9fc96c1abb9824bdb7ba443ef44317e1",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "08ab6da70a2a6f07484924d8c6d623600a30f1e0768128a84cca9b75206d65a5",
+  "grid_sha256": "94e996b75e7e3a12616da4c1b4fd82d0ca8d19a55e6810cbc7434c4ae07dd909",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

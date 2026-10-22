@@ -1,0 +1,12 @@
+{
+  "clip": "run/likebeckam_run_f_cm_np1_fr_med_5.avi",
+  "sha256": "2e5c9652d31954ddcfb23f5adbd3e2dc616e1ef630fc05e71e13988be876042e",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "0f917d423a10ffbe41fa2d44c75d154d2acc6c0953542eb6e6ef377d3870d0be",
+  "grid_sha256": "fa324af53a09ca5a05e8efb53d47642822ddae29705443e8c9cecd3ad72e87b7",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

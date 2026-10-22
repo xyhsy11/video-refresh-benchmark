@@ -1,0 +1,12 @@
+{
+  "clip": "hit/TV_Recycling_hit_f_cm_np1_le_bad_1.avi",
+  "sha256": "aa42b6caa921165e551cb1039b1658aaf8ddf30ad5c4bcf5ebb6041867a44b14",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "b8b6c8a5e5bc09c7fcf76a6ffc1d866bf55d78a381a5631947d53e72a6977a3a",
+  "grid_sha256": "095d4d12a352f6849f6169fe22566ce4f6499317af2c3af1e91bc945c11f7f91",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

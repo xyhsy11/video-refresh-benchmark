@@ -1,0 +1,12 @@
+{
+  "clip": "wave/Eurotrip_wave_u_nm_np1_fr_goo_4.avi",
+  "sha256": "4c227be192a7d92e775c3ea80c14d8a0b71de5fee6f1e33a5cba4b50635c8c64",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "df600732c41586310226f975db7b431adb463ff724a17a079a701424963b8e03",
+  "grid_sha256": "a33fe06f80dd096d761cb04074559a1c895063dc289d47929460e3a71551c9d9",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

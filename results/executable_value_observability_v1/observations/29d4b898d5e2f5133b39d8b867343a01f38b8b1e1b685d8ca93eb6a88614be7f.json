@@ -1,0 +1,12 @@
+{
+  "clip": "sit/Juno_sit_u_cm_np1_fr_goo_7.avi",
+  "sha256": "2f65905487ecd0fee9ee7af3bc7b46ba05f49481b7d8e0deddaed21c8e59408c",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "1021b7f554778447b97da663fe5781d6b7fb818b7b67c89271d9bd1b0afd1073",
+  "grid_sha256": "5cb0a86238e9cd453951d74fd402e6d20059182fb284abc133ae3cd6480194d9",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

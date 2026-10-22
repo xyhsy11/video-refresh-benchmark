@@ -1,0 +1,12 @@
+{
+  "clip": "eat/OldSchool_eat_h_nm_np1_fr_goo_20.avi",
+  "sha256": "dbaea7916ad445d95ddb57481e616f987d3082aef494274de737e1724be12287",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "da9e2f18c0969c954afddc41d3e31724400ccc44b9f993fa31ee76b3c7576bf7",
+  "grid_sha256": "16fc36ea7596c594b59fc461c57b6df3b8628edb9314fea031dea08e246b104b",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

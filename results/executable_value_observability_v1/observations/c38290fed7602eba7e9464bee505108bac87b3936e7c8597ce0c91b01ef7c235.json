@@ -1,0 +1,12 @@
+{
+  "clip": "dive/K_pfer_vom_Tim_dive_f_cm_np1_ri_bad_0.avi",
+  "sha256": "069d375f8900e6160de5ee9d52579852525cdd1a38b89e603202e343eeddb6f5",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "8977df25a9775609c941599862618190e80d32f072af79f6777d43b15a00f03f",
+  "grid_sha256": "a29566f259dd190f3f157e13a6c29793ba46d9024ee7bff59e75c44569985e69",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,2 @@
+# Preserve exact sealed artifact bytes, including native Windows CRLF text.
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

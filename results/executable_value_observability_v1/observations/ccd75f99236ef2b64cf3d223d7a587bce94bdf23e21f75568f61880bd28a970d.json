@@ -1,0 +1,12 @@
+{
+  "clip": "swing_baseball/Faith_Rewarded_swing_baseball_u_nm_np1_le_bad_12.avi",
+  "sha256": "3e668f23c6d423b128678f0e805a0a0d9696e87124d24d56bbaf84e26ef28981",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "17bd7d9d2b843197c03c087443526c9c8f17dfbc2f279ca34d8dd0111b1f937e",
+  "grid_sha256": "1b89fbd567cdb2ea1aeb5cf3e279b44980b6f4f3de8c2bc63d6dc4e341f357db",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

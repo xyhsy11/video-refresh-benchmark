@@ -1,0 +1,12 @@
+{
+  "clip": "pick/Stevie_And_Lindsay_Picking_Up_Garbage_pick_f_cm_np1_ba_med_0.avi",
+  "sha256": "223f41eb4e7c29e06a934c57b77603b7fab7f65aa0da04f78db1f362cc272b62",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "59ee447dba748d470ec27c1b4fb9aded0bd60ce8e845bcc0f79e739e8da45f7c",
+  "grid_sha256": "56c17597c3e4b0ccf3c267629edc4b3e1cb5a85596d53731f5dcb3cb313daa3d",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "drink/Oceans13_drink_u_nm_np1_ri_goo_4.avi",
+  "sha256": "072f256e5d75ace2d9b3893b9f0e78e2a14f72d03f23c29766b2bc3a05a9dc52",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "3858239f7beeb08f6f174990b965f7dbfb81c24d8f36234a88e0e3f44ea42512",
+  "grid_sha256": "551e89ce85c2f411adc9bf6af355d7d9df00e3c9d46158adb8ec8efa667f5f20",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

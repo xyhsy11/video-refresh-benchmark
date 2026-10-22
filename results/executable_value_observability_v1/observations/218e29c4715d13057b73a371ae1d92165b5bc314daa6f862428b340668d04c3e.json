@@ -1,0 +1,12 @@
+{
+  "clip": "chew/TheBoondockSaints_chew_h_nm_np1_fr_goo_48.avi",
+  "sha256": "b24bf38e9b37112766e5cea8bb79d9289f5ad4c5a1342b850efd0e7c3268bccf",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "6c46884df1e68db5e7c8d08532a2a1f81b61a2b9c8c055fb002650e838efdc2e",
+  "grid_sha256": "87975daefaa8a2c85cc0cb519de7c8491f01dcdfb7588ffcb2e767a6f880a69c",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

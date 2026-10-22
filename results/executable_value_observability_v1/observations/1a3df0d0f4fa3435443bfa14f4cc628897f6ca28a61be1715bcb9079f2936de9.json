@@ -1,0 +1,12 @@
+{
+  "clip": "turn/Italian_Job_2_turn_h_nm_np1_ri_med_7.avi",
+  "sha256": "95d75784cbe4c1fd3b898f03a0e5c9445fc983bb326bce820856f1122b7bfba6",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "4165e1f23b5eeb41c1e501428dc5559e8f3677cdf16f2849444e09b6b4826151",
+  "grid_sha256": "b6653f09bbff33833cc735a27211489cbe60c487581fb3b0737f90cd4349c945",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

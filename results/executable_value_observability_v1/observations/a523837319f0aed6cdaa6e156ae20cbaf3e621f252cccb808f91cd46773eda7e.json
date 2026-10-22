@@ -1,0 +1,12 @@
+{
+  "clip": "flic_flac/Gentleman_Flick_Flack_Salto_flic_flac_f_cm_np1_le_med_2.avi",
+  "sha256": "d6075bc0cbc93143b3cea240e1698fc6e8807b0ec0f3dd3d1ccb2bafcc754e7b",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "9a77bd09c0c1e1400cd2d38430cf6777e1f728759738fb4b01718808a9106403",
+  "grid_sha256": "356195480709914de3c9fe69f9475b45b20a4d469091d81dbf3b8947c2b2f6eb",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

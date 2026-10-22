@@ -1,0 +1,12 @@
+{
+  "clip": "eat/TrumanShow_eat_u_cm_np1_ri_med_27.avi",
+  "sha256": "4be8b9a0a2e7085ae7b81cb0adb6015a8fccbde44a53de0f1354a6f507086e7b",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "d9e26e109f7a99882982f00b0972ab30020d36ed6c5e01081f4dbfa2104ed1fb",
+  "grid_sha256": "ceac7a85bae369f5030eb6526bcfaf66f652a6a14db6b0768b6725d98261df2e",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

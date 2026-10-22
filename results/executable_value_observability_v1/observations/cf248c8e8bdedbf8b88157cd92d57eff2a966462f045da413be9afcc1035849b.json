@@ -1,0 +1,12 @@
+{
+  "clip": "wave/Pirates_5_wave_h_nm_np1_fr_med_8.avi",
+  "sha256": "574871cfc9e28f6a5001b3fbb0abc1fe570f69942718ced66dfbc7344dea5496",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "dbb64ae3655ede027971f25c6a468b4d5b9861753240d6890911fa47cd39cfab",
+  "grid_sha256": "ec731cb3e4457616d70b59f2279c1d32814065970f7c2c1c32d80e45d5b31367",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

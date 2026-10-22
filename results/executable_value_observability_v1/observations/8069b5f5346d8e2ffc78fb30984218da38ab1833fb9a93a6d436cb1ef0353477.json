@@ -1,0 +1,12 @@
+{
+  "clip": "flic_flac/Flick-flack_van_Yanniek_flic_flac_f_cm_np1_ri_med_0.avi",
+  "sha256": "cf926cc190a01a8714e81d082cd076518f19f9be8edd4e48a7f1c3aee87d6962",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "9323786ef6cb5b9074ce399e936e2c4623a467e34abcab866646ba83f35b46da",
+  "grid_sha256": "0978b15636b790cf45e06c397a0fd60572ce02f62550df88c463798f14a5ee57",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

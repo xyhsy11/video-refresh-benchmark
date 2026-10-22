@@ -1,0 +1,12 @@
+{
+  "clip": "sword_exercise/Epee_Fencing_Attacks_-_Remises_sword_exercise_u_nm_np1_fr_bad_1.avi",
+  "sha256": "db9dbcabd35e17ab4266c2e1ba1c9eb14a5ce67a41cc883356d1523c85c7d561",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "006ddde785d37c06e5d46146c0530cfe2d3c089677a5498e8162490e3368bc16",
+  "grid_sha256": "bc4f86c8e4488ad0091c4ae3ac8008678acf81ed56bc483ed3087aa58c65235a",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

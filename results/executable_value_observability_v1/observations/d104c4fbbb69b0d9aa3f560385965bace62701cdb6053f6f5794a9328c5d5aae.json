@@ -1,0 +1,12 @@
+{
+  "clip": "laugh/Chipmunk_Laugh_laugh_u_cm_np1_fr_med_1.avi",
+  "sha256": "87e325493e7d98b3417c0b71eec63ee7c0c098ecb923bf4e9c0e19a3a339d42b",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "ba79ab775ecae34260aa5ffce7546160279f3682c27d4eeae2711351b9ae0e19",
+  "grid_sha256": "e70d4f76f97e2e8a3f4bf7f7715c6e0f8e855e6d0ddf8014038b62dbaa35e43a",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

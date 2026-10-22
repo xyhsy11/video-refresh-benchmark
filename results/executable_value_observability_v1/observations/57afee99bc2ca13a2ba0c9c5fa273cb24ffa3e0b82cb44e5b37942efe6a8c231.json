@@ -1,0 +1,12 @@
+{
+  "clip": "kick_ball/FOOT_2009_(REMI_GAILLARD)_kick_ball_f_cm_np1_ba_bad_1.avi",
+  "sha256": "73a882b41d2928d4150ab21ff44a8ff9b8dd76e34ccc296d6bfe3000cd49fa88",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "f3b52ff60739f7228b6a2873452acd3a61146303901f6c4acc93b93955d31205",
+  "grid_sha256": "58bdb56a9caefae27944a372edd6db4a3001d4fb81c2e9ef71ba42394cb957a0",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

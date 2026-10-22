@@ -1,0 +1,12 @@
+{
+  "clip": "hug/2007-05-26__Anni_hug_u_cm_np2_le_med_0.avi",
+  "sha256": "6c2d0448c57b16b48deff6962db5b563101cfff2fff610473611c67c35420143",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "3b5dc71746589a1ee8dd374ee0146244b080f42dfdc068cba1c772a134b7d740",
+  "grid_sha256": "a3bd9f529149e4764ec75f1a53a163bcf708b5a3f76315747c3b057a1244c113",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

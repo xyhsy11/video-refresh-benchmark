@@ -1,0 +1,12 @@
+{
+  "clip": "turn/Juno_turn_u_cm_np1_ba_med_3.avi",
+  "sha256": "b9c47e445080841bb7a1d2f71313f8fb1b69cf574e5b3c371fc7ee0407ddab34",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "886f8b726ee61ca19028fb83f9ad018e8f6c2e2c55331d6d6c874786de073d09",
+  "grid_sha256": "b97d6daf971b186d4a93fa73df1e5b468c3c33472e0499b8bfa0795eb92f437b",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

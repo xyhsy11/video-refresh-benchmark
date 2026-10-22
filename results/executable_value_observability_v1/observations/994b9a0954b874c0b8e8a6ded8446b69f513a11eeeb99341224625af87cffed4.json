@@ -1,0 +1,12 @@
+{
+  "clip": "punch/The_Departed_-_Part_1_punch_h_cm_np1_fr_bad_3.avi",
+  "sha256": "72ea23238ea44a9199c34ef5a073c5ae16e7a198d8160bfc041feff5bab0a841",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "fb90b7d5dc456f1fcaee7fd926716c9fe0a5d5077386df4cdab35e91ef2b5b4d",
+  "grid_sha256": "f49bb1ae73797a47bfc2a03b7861443907097ea85406ad61949cd8c83e8257dc",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

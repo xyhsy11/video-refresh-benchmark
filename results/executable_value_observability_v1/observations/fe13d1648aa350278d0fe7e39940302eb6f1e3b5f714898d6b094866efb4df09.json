@@ -1,0 +1,12 @@
+{
+  "clip": "drink/The_Matrix_3_drink_h_nm_np1_ri_goo_9.avi",
+  "sha256": "aa6f36a1ed2ae94c6db930162d7cdfaa4fb814529cbb03cc9bcfbb9a80ce0b49",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "d1b7122e84dc92c5f2adf5088d095af8dcc2d8f027325ee92d2ba1f983c96c3a",
+  "grid_sha256": "84bfc5a03ec128ae5ad18ccca500fddbe37c62513f9218fc1d630a66d7ee34aa",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "sword/Pirates_2_sword_f_cm_np2_le_med_4.avi",
+  "sha256": "2c5fe63bca546650be525fac180e80d99a3821a6fea480297174e16f64e4fbc2",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "e5200c4b1bab5f897a06dbc6539b7d2499d5cfe4454a96e446870d9a5240a127",
+  "grid_sha256": "162da43558dc70891d0f56951ce665477381bae95b0604323c27a68bf48ff5e3",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

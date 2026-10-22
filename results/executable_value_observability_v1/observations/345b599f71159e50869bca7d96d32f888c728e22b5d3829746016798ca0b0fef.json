@@ -1,0 +1,12 @@
+{
+  "clip": "handstand/Handstand_Competition_1_handstand_f_cm_np2_ba_med_1.avi",
+  "sha256": "6463f0b74d584b779bbea7f9a34aeec92a052d7bfc2dea15c5e367825b36a0cb",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "cad3149421c9c78777ac70ac58d81770a0fdb4412a18ecb22b9b18883bbc70f2",
+  "grid_sha256": "1c346e9a0138ff8fefedd206d5b6bbac921f1869dd602aa45534846b61d837e1",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

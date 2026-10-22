@@ -1,0 +1,12 @@
+{
+  "clip": "jump/Huge_Dive-Roll_jump_f_cm_np1_ri_bad_0.avi",
+  "sha256": "131b20b8b4ba2e2d5743eb0621f6344aa9aefb1eae75a7e80fd9606c1bdaee79",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "54f0533cddb6edf4b7f2353cdb4b8cbbff38561b7ebd00659ed9dba8c2dc696b",
+  "grid_sha256": "0e1faa76c964cf0c99c7c928af59e37e29b17e419f3df991661b6ad69a419106",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "fall_floor/TheBoondockSaints_fall_floor_u_cm_np1_fr_med_63.avi",
+  "sha256": "31d7b0ea8efefb346442dc77eefecfa12de55c76dc229d27c33aaa27d50fcce7",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "79300ae148a36722bc5acc442b5f91f06fd431ac42daa3d907eb694dd4cf82e3",
+  "grid_sha256": "90b00b44ccd5ca35c123148fd1d60c44a45024dc6b1e28541662aa9ee7e7e735",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

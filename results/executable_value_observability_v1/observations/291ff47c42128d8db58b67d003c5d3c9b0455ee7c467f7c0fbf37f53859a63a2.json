@@ -1,0 +1,12 @@
+{
+  "clip": "somersault/Turnen_Uni_Osnabr_ck_Boden_(Einf_hrung)_somersault_f_cm_np1_ba_med_1.avi",
+  "sha256": "9974f855816df09e61dc766ddce8b570c7325e78d12c572ce2214e8927084f5a",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "681d46b8b6a3492fcf5a803323719d3ab4f9e6aaee78077bb01a34465f8ade07",
+  "grid_sha256": "d9ebf4e2b8fed02ccb390d07f91c97aafbd3d5057922bf1543aece35980cc393",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

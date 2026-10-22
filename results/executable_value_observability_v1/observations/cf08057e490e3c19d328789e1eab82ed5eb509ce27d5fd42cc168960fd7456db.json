@@ -1,0 +1,12 @@
+{
+  "clip": "talk/Pirates_7_talk_h_nm_np1_fr_goo_3.avi",
+  "sha256": "8ea08724337cfe554eaf2f094f9d63f8c27e0fe491fc241c24a602934da9b8f2",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "3f923a887833e48fec236f4927988391cb898f37f4041fb565c3a28f78403183",
+  "grid_sha256": "7abeb450ce6873ce9b8273b583600c980bd9a839e62cc2ad74a8a9d6d1ad61e1",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

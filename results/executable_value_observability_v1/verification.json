@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "historical_files_unchanged": 4887,
+  "population_clips": 1530,
+  "states": 18360,
+  "components": 478,
+  "classes": 51,
+  "training_components_disjoint": true,
+  "component_folds_separate": true,
+  "min_training_components_per_class": 4,
+  "all_state_replay_max_error": 0.0,
+  "real_raw_all455_replay_max_error": 1.4210854715202004e-14,
+  "real_replay_clips": [
+    "climb_stairs/Piano_stairs__-_TheFunTheory_com_-_Rolighetsteorin_se_climb_stairs_f_nm_np2_ba_med_6.avi",
+    "handstand/Handstand_competition_aha!_handstand_f_cm_np2_fr_bad_0.avi",
+    "kick/The_Matrix_3_kick_f_nm_np1_fr_med_0.avi"
+  ],
+  "scalar_HOG_reference_max_error": 3.434752482434078e-16,
+  "future_pixels_and_features_invariance_error": 0.0,
+  "independent_metric_max_error": 1.3877787807814457e-16,
+  "ridge_saved_model_prediction_max_error": 0.0,
+  "independent_ridge_training_gradient_max_error": 4.380176776841438e-16,
+  "verified_action_models": 9,
+  "decode_starts": 3210,
+  "decode_completions": 3210,
+  "probe_fits": 80,
+  "timing_trials": 1680,
+  "exact_K4_original_prefixes_checked": true,
+  "original_seals_unchanged": true,
+  "synthetic_fixtures": "Separate test_executable_value_observability.py; not empirical evidence",
+  "no_encoder_execution": "No encoder/model runtime imported; CPU affine head arithmetic only; module import and ledger accounting recorded"
+}

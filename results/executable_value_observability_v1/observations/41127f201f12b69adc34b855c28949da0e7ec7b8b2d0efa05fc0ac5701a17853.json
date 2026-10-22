@@ -1,0 +1,12 @@
+{
+  "clip": "shoot_gun/2xFullautoGlocks_shoot_gun_u_cm_np1_le_med_0.avi",
+  "sha256": "bbf2fb4f6e68e8b2b42c8ac7d0b1261a503f581e237e2a64d10429a54e40cb9a",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "453f265172b584f4a76ad525cc82ce0f3d95fc7e9c0dbeccedb61f071a3c60e0",
+  "grid_sha256": "ea592ac27cd065de44ea6ca7e0cdb0e09205f19e519eb885aa7680b07ea070fb",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

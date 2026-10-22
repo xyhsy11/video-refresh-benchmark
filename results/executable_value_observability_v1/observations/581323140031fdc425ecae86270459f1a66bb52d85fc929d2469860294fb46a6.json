@@ -1,0 +1,12 @@
+{
+  "clip": "swing_baseball/MattBolden(hittinginslowmotion)_swing_baseball_f_nm_np1_fr_bad_0.avi",
+  "sha256": "ec2abdb203c6ee81935eff19b7b130d41192010ed6a68dd095f8d7c30efe9792",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "3349f0c9fc95b79d14ce927f6d689f5b8409401698a8e50e5c61fb1b10d0ce50",
+  "grid_sha256": "71529469e93ea620f42d8a66cefdc8a8883cb214653bdabfa1120fa00b388255",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

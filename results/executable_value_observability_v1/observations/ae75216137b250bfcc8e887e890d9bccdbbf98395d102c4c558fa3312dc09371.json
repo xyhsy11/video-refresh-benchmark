@@ -1,0 +1,12 @@
+{
+  "clip": "fencing/Rapier_fencing_f_cm_np1_ri_med_0.avi",
+  "sha256": "126d6a1efaa4bcfc9e3156b703c9db19ed929da19f06db0ea7e762a3b508e697",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "aba95c734d57056b7357f6e1fbf1b38efa62400f2158bf234f8cf7622f8205fd",
+  "grid_sha256": "32e8fbcecbc645da7cbe4b4ae81e786fc73994f78aed5693e7cdbc4851a84e19",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "wave/20060723sfjffbartsinger_wave_f_cm_np1_ba_med_0.avi",
+  "sha256": "5f6f9d87a756c8ad261e51edf4affb00ce39de90acd71351fd669ad945d0f51e",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "13ed1b359f8485fe5bc67ed91ff5597fc39211b9e5a19d4a6052caec9403ffff",
+  "grid_sha256": "ea89c4775f6fc5133f812df550b23187c93934e4766d63fc9432b8555d1e1eb0",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "turn/The_Matrix_5_turn_h_nm_np1_ba_goo_7.avi",
+  "sha256": "1405b4f07f056a15f76259a70f4747ca7f0493fa74739bb63578dc0284cf520f",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "a74cbd21d0f2470291d642fc561e348e9aa216376202fa05e69fc3dc6dca146d",
+  "grid_sha256": "1bf29ccb3a910ba191544f1453891cbe92d185354ec330ef2aa920ea9d287cc3",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

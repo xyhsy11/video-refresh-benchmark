@@ -1,0 +1,12 @@
+{
+  "clip": "wave/OldSchool_wave_f_cm_np1_fr_med_13.avi",
+  "sha256": "dba27f0a1af9156427be62e3036879dadbb8c7dba764ccdca782476d21ce1f69",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "3548966528fbf2ffb294b4537919cf619b963c5efab9a8040965ff9164663aa4",
+  "grid_sha256": "014e8987452c3275dc3172d5b79456bcd0b179cd21324d60b0d91ee4c193ed8d",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

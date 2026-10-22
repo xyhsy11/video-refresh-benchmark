@@ -1,0 +1,12 @@
+{
+  "clip": "ride_bike/Schuodde_kann_kein_Fahrrad_fahren_ride_bike_l_cm_np1_le_med_0.avi",
+  "sha256": "4c3e2e0509b1108134817963f1e044a1e4a0e7b653b19bb1c5dc90859f09dae1",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "202061c223948b801edfb03417a52ae57e1d1170090ecd1387e141f3b8934e2d",
+  "grid_sha256": "562eaf603bef5480091210d28fe4f14d5b8243acfe036365b4ab07897afb8f8e",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

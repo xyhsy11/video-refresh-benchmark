@@ -1,0 +1,12 @@
+{
+  "clip": "talk/Pirates_4_talk_h_nm_np1_fr_med_2.avi",
+  "sha256": "c0063d6d56f7d7396a8484fa157d40f2f4c7cdd40bd64361f97c7e98d802aef6",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "46054706f67d9802de5ecfae156b7579d3fb947f4f6c06246bf28220fbf011b2",
+  "grid_sha256": "1a171440e4d9731bfc22bdbe2cc556dab51d39b5a30cf1ba2abbdc0450ef1493",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

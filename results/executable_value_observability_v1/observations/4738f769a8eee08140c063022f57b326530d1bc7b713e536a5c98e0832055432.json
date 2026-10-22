@@ -1,0 +1,12 @@
+{
+  "clip": "flic_flac/My_Gymnastics_Outside_flic_flac_f_cm_np1_le_med_0.avi",
+  "sha256": "b3ce9110929c0918015a93811041eb005bf86ba4791e8045a0dda576e93a3716",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "a747000be6e2e460d91f07576f05468ed9b49d9964647f26712104a59e539607",
+  "grid_sha256": "3cbc7214e5f92a04f8de27c2e073e5a121291ed1acc3eacf082d2cb3997b7baf",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

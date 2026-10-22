@@ -1,0 +1,12 @@
+{
+  "clip": "drink/Finding_Forrester_3_drink_h_nm_np1_fr_med_16.avi",
+  "sha256": "f4f2dab915eecdbdc4828cdcc9773b2ddea8eb57feec944ab62a4b39c4d024ad",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "0c0f4890a637e45e95c93c6e82b4c024f4252519f239e0693c1e3427d5d048ed",
+  "grid_sha256": "36cce87030efdea23c27267f1ac42eeb832d1d25ef75da4436a529a41951c8d2",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

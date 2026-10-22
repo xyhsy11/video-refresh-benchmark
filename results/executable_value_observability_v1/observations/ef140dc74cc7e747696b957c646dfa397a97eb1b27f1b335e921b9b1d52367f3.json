@@ -1,0 +1,12 @@
+{
+  "clip": "wave/Miro_Klose_winkt_wave_f_cm_np1_le_med_0.avi",
+  "sha256": "aca6f36086454ef055d606953f09285fc1b1ae5b5e7678e162d28e19c0c6a052",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "13e0327c776633b23ebabcb547af2869c8deb78cbd2bf5ec5dd2dc8a77f8dd18",
+  "grid_sha256": "feea7cd326421e363f467abb306075cd136a6fc5d09c6a4315a58881171036b5",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

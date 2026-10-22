@@ -1,0 +1,12 @@
+{
+  "clip": "somersault/Parkour_Napoli_-_Dive_Roll_somersault_f_cm_np1_le_bad_0.avi",
+  "sha256": "3f3d54a4e6b16275d40b1c71ea412358ed16c35d4e4bb5710167e76551e7d928",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "074af27946bb665eff5a1038c39d5528a0ae3559397ec026deefbd67e6cf0e5c",
+  "grid_sha256": "6f0cdbd8a9b9212a1635212c13306fb80072ecea351705ab3780e2b2b03c2eb1",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

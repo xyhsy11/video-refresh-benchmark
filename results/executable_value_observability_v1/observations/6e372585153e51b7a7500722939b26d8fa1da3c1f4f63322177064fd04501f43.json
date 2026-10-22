@@ -1,0 +1,12 @@
+{
+  "clip": "drink/BIG_FISH_drink_u_nm_np1_fr_goo_5.avi",
+  "sha256": "8701b3e4f54d4b412f3968e71d5230f719b14c50a2138fc281b35bf626a7037f",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "3396b8e34b8a104a0147d5c5446f6855e797fb387a90b8780a071387ce2763d2",
+  "grid_sha256": "5170e0d03896834ce0b6790c99b2207c6d72bbfc71e6e9eb546eec7551cea32d",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

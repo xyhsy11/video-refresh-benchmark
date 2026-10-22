@@ -1,0 +1,12 @@
+{
+  "clip": "run/IamLegend_run_f_nm_np1_le_med_3.avi",
+  "sha256": "17600ae0fe08cd0a904124217fb37f888f539b6efe91622dfbce0d622a4adec9",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "9d1868f616382ebe408ff8e29aa8873f9fb0f8a66c3ac600fc673fba084e31a8",
+  "grid_sha256": "62ad41ec5ef3b9d919f73a24c7452c883bf935408e005574d080ba47928d8bf1",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

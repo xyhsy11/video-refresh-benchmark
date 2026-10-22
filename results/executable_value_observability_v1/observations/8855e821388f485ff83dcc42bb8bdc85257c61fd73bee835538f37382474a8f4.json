@@ -1,0 +1,12 @@
+{
+  "clip": "ride_bike/Yorki_Kassy_beim_Fahrrad_fahren_ride_bike_f_cm_np1_le_med_0.avi",
+  "sha256": "44e033f5ad47c051e543301b14ea506c288be4c7f89f05b31bc7c78a800f530a",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "3cd118d43205db42d255a0eaa8aa2f60026bc52c617428bd0681e6776a187d77",
+  "grid_sha256": "13f3958ab0f93aacf39ad1a5736d7fb6dbd75f353b2106aab2e35292af4eba47",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

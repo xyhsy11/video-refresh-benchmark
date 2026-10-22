@@ -1,0 +1,12 @@
+{
+  "clip": "jump/Fellowship_2_jump_f_nm_np1_ri_bad_8.avi",
+  "sha256": "aef282a8a011c42a344475fa9a481bab7fd86422554b76e7ff148dec7a73a166",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "f2bc5664ba35995cd277144bbda95ce0b5fd5df3455daf6ff39c781c8cc20d6d",
+  "grid_sha256": "bd4db8186417be30ab24bffe0c92dfc6e6c20b66efe4fa5a12921d7828499659",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

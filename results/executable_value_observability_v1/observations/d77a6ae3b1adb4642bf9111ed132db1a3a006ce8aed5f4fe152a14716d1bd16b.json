@@ -1,0 +1,12 @@
+{
+  "clip": "eat/Return_of_the_King_5_eat_u_nm_np1_le_med_4.avi",
+  "sha256": "131e9beb2a7d2513c6cf12b62f430190d2ddd0bca3d69c7e4817be845ae93b62",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "8a77dacfde58d7573c78938ebe1eb89490b4035a7853802c139d3ac26342b96a",
+  "grid_sha256": "14bd25b8cff366031530a263e6ac65c46af75fe10694672ee62b25ec01c99d34",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "chew/Bubble_blowing_3!_chew_h_nm_np1_le_bad_2.avi",
+  "sha256": "5203bcce25af95042b7abe6d350a288ccd60421d138d923cf04f5d105bee476d",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "3d7baa5d23d557ca69e87271bfef748ff5342faa480905690ba650947cac9d5e",
+  "grid_sha256": "ced7f1231546c53338321390783f7a83672f6ed4de3ee713e2efd1fa1a7dd894",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

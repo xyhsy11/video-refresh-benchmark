@@ -1,0 +1,12 @@
+{
+  "clip": "stand/RushHour2_stand_u_cm_np1_fr_med_11.avi",
+  "sha256": "a2a6f625ac34526660fbb0160c6e66ec1ed822cf023e917b4bc9198faafc7f19",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "0119c609ee625e7d9e4d384528fcde1c3d584a62e4b5ef7bee961fead9b4cb0a",
+  "grid_sha256": "55e9d26cd96cf98d923edfe2b76fb93d0528207f643d6b59bc4a8e650ff4b32f",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

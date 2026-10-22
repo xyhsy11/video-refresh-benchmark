@@ -1,0 +1,12 @@
+{
+  "clip": "dive/Butcho_dive_f_cm_np1_fr_bad_1.avi",
+  "sha256": "9a88911edf0cd26ced281299409a7d059a487d408b51945409bd203b23a29113",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "6a07e1da834856ae6d3939c2b0a550d45ca3faae86b920b2cb90998aaebc0daa",
+  "grid_sha256": "ad3b468b0d26916e1e3d1c0aa0c348fc3214a8ef8a7e392f9a91a1e34dbbf72f",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

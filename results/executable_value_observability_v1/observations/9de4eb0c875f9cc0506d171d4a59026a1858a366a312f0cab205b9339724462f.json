@@ -1,0 +1,12 @@
+{
+  "clip": "eat/IamLegendII_eat_u_nm_np1_fr_med_6.avi",
+  "sha256": "eaeb8b00e28ed73231b35f1402196a5b9de633f8b4e54097516115779fca2693",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "ef9a4c3cef9b09e07b5f59d91d5845cabe6935a1be1f39caa643a05ffebf81ba",
+  "grid_sha256": "cef10eeab997a4fc8610ef842d9cd6f47e681358a02e063f59cbcc558f85e45d",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

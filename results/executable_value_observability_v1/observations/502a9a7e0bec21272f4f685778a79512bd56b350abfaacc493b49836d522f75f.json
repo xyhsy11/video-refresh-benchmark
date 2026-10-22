@@ -1,0 +1,12 @@
+{
+  "clip": "pour/Flaming_B52_Shot_Drink_pour_u_nm_np1_fr_med_2.avi",
+  "sha256": "cead7950cb544ea5aa4b90f8156b42d336f6c182316294ed1bf36f1f2b8c7d30",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "7214a985c27cfeeb9c93a2acb035ff15f25dfe98092a9d107f9cf44d88339f23",
+  "grid_sha256": "d8dd55ff696f1de28e2ad2b2a7a017b2efd275f5fef06e9e653f7ddbee53bd5a",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

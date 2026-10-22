@@ -1,0 +1,12 @@
+{
+  "clip": "smile/SMILES_FROM_OFF_THE_ROAD_3_-TRAVELS_WITH_A_HAT_smile_h_nm_np1_fr_med_1.avi",
+  "sha256": "8c1b4a6b80499940da654b58708a1ad829f66170973c89b5679a77abe65346f4",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "0426742f9769dc4af3d1b51b35f24ff41441e851c3fbbbe4921327349b40e53e",
+  "grid_sha256": "ec638f4e52fe14134eb7d16f4168833a5b8fad0160f6611413542e554b7d0319",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

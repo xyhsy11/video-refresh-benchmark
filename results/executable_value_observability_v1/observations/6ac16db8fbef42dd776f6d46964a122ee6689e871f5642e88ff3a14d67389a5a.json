@@ -1,0 +1,12 @@
+{
+  "clip": "push/Dodge_Truck_Push_80_ft__23_seconds!_push_f_cm_np1_le_bad_1.avi",
+  "sha256": "3a9284cee03fe1b78db57b6d78b8c1b571bc0d8dd55dc9739cb5cdbc37330c74",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "be4a6e72eece411bc0f75cf925e7680e952e8cd8716a660dd8dba94b84afa353",
+  "grid_sha256": "f009b18c80284a9b4db7de5b8f2d40fae8ed6388fe1ed13ddb06674018d30f8e",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

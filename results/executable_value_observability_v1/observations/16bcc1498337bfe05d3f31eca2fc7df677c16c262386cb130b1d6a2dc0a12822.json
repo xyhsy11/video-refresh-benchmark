@@ -1,0 +1,12 @@
+{
+  "clip": "turn/The_Fugitive_5_turn_u_nm_np1_ba_med_9.avi",
+  "sha256": "bc1963c511098479e3c058878b127e9b5412aa1ae498aff95c620368bf8c3698",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "4226d1479580851ec82739931e4ec6a194c781eb22f2026e6fe957fc09497774",
+  "grid_sha256": "26970debafa00b7cfa1da4c311e7b7a8f1d778be45898baf9070881a9cf10889",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "wave/American_History_X_wave_u_nm_np1_fr_med_16.avi",
+  "sha256": "1c238956693ca5ae12972a6a616573a60ec0af5fd25d8b60306e27643944efe4",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "52120aa26a12104aeb71723109a18e56a411ed1ae594bedfd2620d368e8c9cd2",
+  "grid_sha256": "2f984dd93496017a3918d0506d36c1483e3eaf4cde1b57aea84067aef6bf4f8c",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

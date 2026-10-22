@@ -1,0 +1,12 @@
+{
+  "clip": "hit/Destruction_of_a_TV_hit_f_cm_np1_ba_bad_1.avi",
+  "sha256": "0f2ca47003e6e56e531dc7e8226041af8d2258319019f183011836ab971a32a4",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "c372685c835534b8591d393b77a2743790a37fca60617e347c4a12379bdba430",
+  "grid_sha256": "51342134d5bac03aa86878960c026c1fa916c11bea19d905e3ceaab02cd79f94",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

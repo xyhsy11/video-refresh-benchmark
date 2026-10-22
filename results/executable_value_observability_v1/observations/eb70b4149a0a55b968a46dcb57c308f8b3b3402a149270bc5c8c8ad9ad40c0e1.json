@@ -1,0 +1,12 @@
+{
+  "clip": "shoot_bow/Return_of_the_King_9_shoot_bow_u_cm_np2_fr_med_9.avi",
+  "sha256": "33bec9a88c9031c7c8f3ff1ab30e1f8eb4cd183d917c795bd65cc8db0a1a35ee",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "142de350a352ce0b4e4a1a917f15aba7a3f4ccb7c93d406d460d6673cfde1260",
+  "grid_sha256": "838926441a1fbd02b78a7a1799487ead780a7a65ae2a50316c6621f3806196a4",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

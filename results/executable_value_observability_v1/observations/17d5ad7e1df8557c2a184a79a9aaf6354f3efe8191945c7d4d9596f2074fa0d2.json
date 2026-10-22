@@ -1,0 +1,12 @@
+{
+  "clip": "draw_sword/MAF_Tenshin_Ryu_draw_sword_f_cm_np1_fr_med_3.avi",
+  "sha256": "3635e539e99cfc837965ae300ec8d0756f9fc1624a677cb193e92424bcd45cfb",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "0bb75c8cd327bb995f0fddc8868df2a9fda6adff8b9a9838d5bf80153c2bb4bd",
+  "grid_sha256": "8d0e7a2679a54e6f508f1955c5852cc84f23fae14abd853c9d974ae59c409e03",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

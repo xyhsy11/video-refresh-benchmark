@@ -1,0 +1,12 @@
+{
+  "clip": "golf/Eric_Axley_golf_f_cm_np1_le_goo_0.avi",
+  "sha256": "43b30ae24b52f85bcd7b10234bc1b8706dad2a73293bb7d68b5c5afd67d844aa",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "df3e5df8f24d5b83517415e29e496b89cbf3c60d6ec9da52b4502987d5382627",
+  "grid_sha256": "1eea13446f7210329e2429bc442dfc3353c09b25663c105a28cdf851502cbfd3",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

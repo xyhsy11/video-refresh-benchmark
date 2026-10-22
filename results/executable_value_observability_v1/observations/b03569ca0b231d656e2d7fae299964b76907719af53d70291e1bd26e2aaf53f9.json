@@ -1,0 +1,12 @@
+{
+  "clip": "handstand/How_to_do_a_Handstand_handstand_f_nm_np1_ri_bad_1.avi",
+  "sha256": "5ec5674290c40ebf483275a7ba4b28daf13b8efd70affd1dff3cf76f2ab1dd70",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "5b7c5792f199fc64d5ea2981b76ad4ab4e63ecf40a4c8c7c9f5c269f5bfb3006",
+  "grid_sha256": "5de61b437f1214a37e74b083ebdfbd7e181091fa9f0a6f32788884ade370e21a",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

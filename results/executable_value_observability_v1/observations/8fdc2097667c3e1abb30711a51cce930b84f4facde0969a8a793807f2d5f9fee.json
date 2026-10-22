@@ -1,0 +1,12 @@
+{
+  "clip": "wave/TrumanShow_wave_u_nm_np1_fr_med_25.avi",
+  "sha256": "fa563875a521d936531980f8b3c2ea3ba41fba97eee9821b29e5f13a7205a1ee",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "f4e79680b4fa3fdc31d6ae65fe3cda487ac31e9b5fdcc0c2bf2d1dcf1175777c",
+  "grid_sha256": "de76f64f175fde5b18aeb3a726347b0ad2cefdc07d5798e353b9e8e7cb732739",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

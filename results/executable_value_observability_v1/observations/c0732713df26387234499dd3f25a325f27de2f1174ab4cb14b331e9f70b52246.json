@@ -1,0 +1,12 @@
+{
+  "clip": "chew/TheBoondockSaints_chew_u_cm_np1_le_med_35.avi",
+  "sha256": "34fa98d05ec6547f632b497aac64ca38372c0007d677d4c85d14ee18dcbe4742",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "e30ff00949f9532fd147dd9c76f9f203084ab308d5b480f448b1b3a662c2ee90",
+  "grid_sha256": "c357e3aaef6d1828b669f9f5563182704e9e63ab399554b3d17a1b72a9ea6eeb",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

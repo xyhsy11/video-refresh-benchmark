@@ -1,0 +1,12 @@
+{
+  "clip": "situp/6_Minute_Abs_Routine_situp_f_nm_np1_ri_bad_4.avi",
+  "sha256": "c5e84b17411290bcb40e8fe5cfb118415f7ce60f5e58fc79199e18609074c3bd",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "ec427134a25379fd0a69de7a540c2551dbe46b91b4d62f003ddbc76abdda81ff",
+  "grid_sha256": "8fa736672e54718209179c82afa6dddcb6c6ab98ac064ed42562209fbe2794cf",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

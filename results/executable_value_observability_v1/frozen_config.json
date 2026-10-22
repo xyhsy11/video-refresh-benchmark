@@ -1,0 +1,136 @@
+{
+  "study": "executable_value_observability_v1",
+  "seed": 20261022,
+  "N": 16,
+  "K": 4,
+  "periodic": [
+    0,
+    4,
+    8,
+    12
+  ],
+  "states": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "pooling": "C",
+  "target": "D_P=Q_P(HOLD)-Q_P(REFRESH)",
+  "continuation": "Exact Experiment 25 periodic repair at ORIGINAL reset prefixes; alternative single interventions",
+  "ridge": {
+    "alpha": 1.0,
+    "intercept": "unpenalized",
+    "objective": "(1/(2*n))*sum(mean-one weights*(y-intercept-z*beta)^2)+(alpha/2)*sum(beta^2)",
+    "scaling": "training-only weighted mean/population SD; SD<=1e-12 -> 1; mean-one weights",
+    "final_refit": false
+  },
+  "tree": {
+    "max_depth": 3,
+    "min_samples_leaf": 120,
+    "random_state": 20261022,
+    "criterion": "squared_error"
+  },
+  "decision": "prediction>1e-12 REFRESH; prediction<-1e-12 HOLD; otherwise original Periodic action",
+  "views": {
+    "S": 19,
+    "H": 83,
+    "HG": 115,
+    "HGH": 147
+  },
+  "hog": {
+    "shape": [
+      32,
+      32
+    ],
+    "scale": "uint8/255",
+    "gradient": "central differences /2; replicate edge pixels",
+    "cells": [
+      4,
+      4
+    ],
+    "cell_size": [
+      8,
+      8
+    ],
+    "bins": 9,
+    "orientation": "unsigned [0,pi); linear circular bin interpolation; no spatial interpolation",
+    "normalization": "per-cell h/sqrt(sum(h*h)+epsilon^2), epsilon=1e-6",
+    "initialization": "zero gradient -> zero descriptor; candidate zero initializes both references; refresh reference updated after anchor decision",
+    "transitions": "row-major 16 L2 from last actually refreshed thumbnail, then row-major 16 from previous candidate"
+  },
+  "grayscale": "Exact unmodified causal_observability_policy.cheap_signal on PyAV reformat(width=32,height=32,format=gray)",
+  "evaluation_weights": "class -> class-family -> clip -> mean of 12 reset-state consequences; fold subsets restrict and renormalize full weights",
+  "training_weights": "same hierarchy recomputed using only training partition; rescale to mean one",
+  "timing": {
+    "arms": {
+      "A": "Fresh encoded-file read + CPU full decode + authenticated presentation/grid path",
+      "B": "A + earlier refreshed history construction + held-out ridge H scoring",
+      "C": "A + history + all16 grayscale conversion/statistics + held-out ridge HG scoring",
+      "D": "A + history + all16 grayscale/HOG acquisition + held-out ridge HGH scoring"
+    },
+    "threads": 1,
+    "common_file_read_included": true,
+    "saved_expensive_history_and_models_loaded_before_timer": true,
+    "disk_cache": "OS cache not flushed; fresh byte read and fresh decode each trial; no decoded-frame reuse",
+    "expensive_encoder_absent": true,
+    "score_states": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "thumbnails": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "repetitions_collapsed": "Within-clip median of paired repetition differences; summarize median and p95 across 60 clips"
+  },
+  "decision_rules": {
+    "practical_nats": 0.01,
+    "median_total_added_ms": 10.0,
+    "promising": "ridge delta_HOG>=.01 AND V(HGH)>0 AND >=4 favorable folds AND paired median D-A<=10ms",
+    "deprioritize": "V(HGH)<=0 OR ridge delta_HOG<0 OR paired median D-A>10ms",
+    "otherwise": "SMALL_OR_UNSTABLE_SIGNAL"
+  },
+  "caps": {
+    "elapsed_seconds": 14400,
+    "additional_retained_bytes": 2147483648,
+    "expensive_encoder_forwards": 0,
+    "gpu_execution": 0,
+    "recognition_head_fits": 0,
+    "controller_fits": 0,
+    "downloads": 0
+  },
+  "uncertainty": "Finite cohort and fold stability; no bootstrap CI, no confirmatory inference; no equivalence or impossibility claims"
+}

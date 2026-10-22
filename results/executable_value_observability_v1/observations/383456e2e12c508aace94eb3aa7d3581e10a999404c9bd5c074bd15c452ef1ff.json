@@ -1,0 +1,12 @@
+{
+  "clip": "kiss/Moviekissmontage_kiss_u_cm_np2_fr_goo_5.avi",
+  "sha256": "7345390f974959a522af923c70052e9cbdd17dd8df5271e5e0b4e44897196a38",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "77643c8226bceba6e518b27e241c522372d3f2ecf36db4ebd93219a4aafbdf2a",
+  "grid_sha256": "cf8f17c4d28958a407285098373828ca3e4432005edc59484a79b3f4b557a6eb",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

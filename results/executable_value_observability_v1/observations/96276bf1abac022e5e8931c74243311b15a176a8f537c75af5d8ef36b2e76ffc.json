@@ -1,0 +1,12 @@
+{
+  "clip": "run/20060723sfjffbumblebeesuitman_run_f_cm_np2_ri_med_1.avi",
+  "sha256": "04db7616f2bd708dfe9a00ce56853d620a61ea50b3bba1a4fbc6bad309a4cde2",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "0a0e7b473439a90eeb60900eccfe9edd017591279283d152e9a42c3ce16364b8",
+  "grid_sha256": "4e69799337edd3dce297f99638236d0eaee98fa639f8f1b683e8b2cee05e2937",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "run/BLACK_HAWK_DOWN_run_f_nm_np1_ba_med_31.avi",
+  "sha256": "0abbe965facb8ad8d8688f6f1c368aa32ff721851d7950015a0f683cd2747d2f",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "372358929bfa851234102b99dab03b32ad477a0ee0d6259c1e210e06a11ec5d1",
+  "grid_sha256": "4d38466b09df833cb2ad0fbed3e96705134f99a2ec7fc4108eba1e02a13d8dc1",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

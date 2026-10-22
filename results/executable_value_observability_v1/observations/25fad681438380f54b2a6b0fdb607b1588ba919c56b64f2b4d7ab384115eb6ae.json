@@ -1,0 +1,12 @@
+{
+  "clip": "pick/David_Letterman_picks_up_trash_on_Broadway_pick_f_cm_np3_ri_med_1.avi",
+  "sha256": "f064dfb3c97f88f1889737691c6bc14d982fb610b0929af48c61ad6afa1038fa",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "9c41dfd33f6453c243da28b44b793fb5ef89f4fc74bd78fe14b9b59057641027",
+  "grid_sha256": "38a390cfbca62e1f131436462ed677f6f9f5fd3fd69131b78aa0044d72510772",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

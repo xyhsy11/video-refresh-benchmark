@@ -1,0 +1,12 @@
+{
+  "clip": "smoke/zigarette_rauchen_smoke_h_nm_np1_fr_med_1.avi",
+  "sha256": "cac5585ecfe5dcdc5a6680f801ce805860b0598ae7f8df3062dadf323e5229bc",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "3ed95d10dac1f7229111b458bf57b5bb568a1581a6b1a0537fb1f1d55575cb56",
+  "grid_sha256": "b2b619cb70053a13fe486e14bc921f0a8bb539a85417b6823c2555b98361d1df",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

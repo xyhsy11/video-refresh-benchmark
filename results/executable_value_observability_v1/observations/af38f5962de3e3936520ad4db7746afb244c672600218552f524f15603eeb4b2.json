@@ -1,0 +1,12 @@
+{
+  "clip": "climb/Amazing_Wall_Climber_(Must_be_Seen_to_Be_Believed!)_climb_f_cm_np1_ba_bad_2.avi",
+  "sha256": "5df42d9740947dbd3b2e72ce1ce1c4b46756e77101071c7a570e36e67ef47c0e",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "bfde9eef252353bef0ce03882f2a859020897a371fc0cbfa0b9117bff0031b1b",
+  "grid_sha256": "bee4dde327960e53a0e1e6e5995b986b73386f8d3389ea76807759b118036a2c",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

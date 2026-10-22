@@ -1,0 +1,12 @@
+{
+  "clip": "smile/SE7EN_SMILES_x3_smile_h_nm_np1_fr_bad_7.avi",
+  "sha256": "6f5ef4780a4893ebcd6a2ddefecaee369c013446317643201a3e4ac77935e888",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "649eaf48efdec1adf94621238f98ddfea1089976de8fc29dcbd299e3343481c5",
+  "grid_sha256": "0e3233e6d226c644224d5f281af910a2d8c53e4e87c06a2d55b012cfcd10644d",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

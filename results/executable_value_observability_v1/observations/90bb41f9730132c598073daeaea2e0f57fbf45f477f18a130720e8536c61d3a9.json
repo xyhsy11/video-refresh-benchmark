@@ -1,0 +1,12 @@
+{
+  "clip": "shoot_ball/10YearOldYouthBasketballStarBaller_shoot_ball_f_cm_np1_ba_med_3.avi",
+  "sha256": "67dd21366dafe7ec4d22ce921c0e96d81d3da5aeac2b73af218bafe15f7c9e22",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "f570c990f337362d6536d6d11171281cee5d64e9cbfa834944f5a7e149462605",
+  "grid_sha256": "cce2a1f04731d1b48e7bfefec39b98136c4c0190bc9aa6b8cc630694d39d8573",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

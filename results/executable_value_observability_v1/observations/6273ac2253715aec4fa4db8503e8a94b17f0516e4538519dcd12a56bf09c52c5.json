@@ -1,0 +1,12 @@
+{
+  "clip": "eat/IamLegendII_eat_h_nm_np1_le_goo_8.avi",
+  "sha256": "515aced372373e9fd5f1a8ae5c86d9ab4a393a2023ada53ef25d82e7367c4724",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "6a25316c8306cd96dd82acb91469208ea6c92073a9cfbdb9b5d2aa8c0011491d",
+  "grid_sha256": "00c4b72856d34e65f3ac7f8b52cb598195741ab2f0c65529f96b726633eb5e68",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

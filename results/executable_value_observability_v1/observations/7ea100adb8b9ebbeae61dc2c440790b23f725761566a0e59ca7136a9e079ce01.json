@@ -1,0 +1,12 @@
+{
+  "clip": "sit/RETURN_OF_THE_KING_sit_f_nm_np1_le_bad_8.avi",
+  "sha256": "3449ec97d544e9376da829cb74e27bd1b744eb64b88ee846a76eb04d89afc0de",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "585597b21a8ad3e221dc4a1e26094c3936d65fb84b545f6829d8c64cc50337eb",
+  "grid_sha256": "cb5eeffe09649249601649d681f8d1740e4f69a8dd11968892565e60773a81bb",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

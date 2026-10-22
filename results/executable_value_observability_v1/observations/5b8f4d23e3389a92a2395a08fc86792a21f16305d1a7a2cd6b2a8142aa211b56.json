@@ -1,0 +1,12 @@
+{
+  "clip": "catch/Torwartraining_TuS_Koblenz_11_08_09_catch_f_cm_np1_ri_bad_0.avi",
+  "sha256": "11b817ba21a149bc466f62f02fbf963b2412648f540c0c6af6bc67be0b679f00",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "ffa27dd665087f1c0deff4cab7fc5bdc307ca6e0636374695618afdcb93a4e5a",
+  "grid_sha256": "19d810c36004647995b1daa9182b29303d729c9c843ef0545ab99f7b9741b1f1",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "throw/AboutABoy_throw_f_nm_np1_ba_med_2.avi",
+  "sha256": "5e0409a298f4d5c0b20a4c76ea0f55dc30694c794d1a7b01afd1e1c702534caa",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "b9bd43d6cfa70a3d2332e68bba3018ad1c8718e9cf5b6f803b175816eebe743f",
+  "grid_sha256": "7deedb8f7aae854d230802526823aa7e3425d3a5ffce3710a8555ec674c35581",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

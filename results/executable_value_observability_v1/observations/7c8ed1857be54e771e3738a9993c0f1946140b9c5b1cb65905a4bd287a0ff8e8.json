@@ -1,0 +1,12 @@
+{
+  "clip": "clap/that70_sshowslowclap_clap_u_nm_np1_fr_med_0.avi",
+  "sha256": "c2b2de77483a5628d66011d4596a2984d6123c8c2878ad022a454693b2dd05fb",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "ca38941eb2868594df8d9d5a23ad626332e7665a21e164afad465539f810e1a1",
+  "grid_sha256": "3d8827ed284d31534fcf6b95f6db210da611b7268fd4c983321ca1c65a00bf64",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

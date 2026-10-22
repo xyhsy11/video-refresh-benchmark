@@ -1,0 +1,12 @@
+{
+  "clip": "talk/Fellowship_3_talk_u_nm_np1_fr_med_5.avi",
+  "sha256": "7161d108902a98337c3039af438ad70846185d4347bdcf870e8cc1cccba20f29",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "c2abd5c810d6b01e49b05af34fe7ed146b2d21cf83f085e35f8cba79d3bd1b61",
+  "grid_sha256": "a6bc69be6ef3273643d41c870f28a0661bcbc08b61bcc8dfb32ee420d0a690d0",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

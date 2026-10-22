@@ -1,0 +1,12 @@
+{
+  "clip": "fall_floor/RETURN_OF_THE_KING_fall_floor_f_cm_np1_ba_bad_36.avi",
+  "sha256": "647b6c8e808fc1b7acb68ba0737b5f09215240581128df59faca617b388d15b0",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "ab1e371d0fd41b4b4bb90d5a551185cff881351e76f3a2d2f9bdfb62426d3c90",
+  "grid_sha256": "7c8abda83cf2adc8fe91ee120bad66e647faee667e900cb16a4d42d3605668b9",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

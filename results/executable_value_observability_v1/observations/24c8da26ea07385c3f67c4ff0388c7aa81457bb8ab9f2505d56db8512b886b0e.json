@@ -1,0 +1,12 @@
+{
+  "clip": "sword_exercise/samurai_training_sword_exercise_f_cm_np1_fr_med_6.avi",
+  "sha256": "fa30199d8ec34718a7dd31df49bb86f9591124778af7444b13ec5e60bb3768e4",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "2f5f5312f4404b988b2cf11986c51b0582bfa88b900bf2ebcf4746aacdc931f0",
+  "grid_sha256": "33a8f9838c5a272d3497e4396c2c84b7ce3026bd83bd96651be49b069d05dec6",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

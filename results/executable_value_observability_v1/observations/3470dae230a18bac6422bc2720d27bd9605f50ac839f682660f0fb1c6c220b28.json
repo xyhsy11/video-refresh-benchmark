@@ -1,0 +1,12 @@
+{
+  "clip": "sit/IamLegendII_sit_f_cm_np1_fr_med_7.avi",
+  "sha256": "0d4bad3e2b3f8c33a0141e26c8c49b83a27276e1023339fb7ee85c42d38bdb10",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "6a19d4a73c3e211346fea77f1903dd15a375c8b1a73edb3e6e772895cdc27c60",
+  "grid_sha256": "e8ffed2dad9731e25697922322ba87e9c608296649bd7eab6b91737bafcc2c58",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

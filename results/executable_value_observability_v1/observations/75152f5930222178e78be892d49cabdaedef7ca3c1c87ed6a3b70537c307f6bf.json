@@ -1,0 +1,12 @@
+{
+  "clip": "sword/Samurai_Fight_Scene_sword_u_cm_np1_ba_goo_1.avi",
+  "sha256": "da6ab69c257eba629574f8be807efc7a3e7ef46ca18148bed2b7e204b09839d6",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "10c7b3712925110da9091e9e85fe374d6bd6c6081f042fcb5ed456ba157b35f3",
+  "grid_sha256": "1e0316e99da663fd47064032c5eae974d0fda6b90d433408f0ebb280d9b2488d",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

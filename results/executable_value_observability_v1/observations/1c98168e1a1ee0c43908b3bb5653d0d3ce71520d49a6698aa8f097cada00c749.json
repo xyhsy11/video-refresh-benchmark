@@ -1,0 +1,12 @@
+{
+  "clip": "pour/Chinese_tea_ceremony_pour_u_cm_np1_fr_goo_1.avi",
+  "sha256": "87c6210ea0c314514b1d653bf59a1725c34b21211bd659d5ffa05785377f08df",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "bffda46331c1fd0dd0a4b7023a6b5994bd52b4e2d5927368a2e99e2d1c6c52e9",
+  "grid_sha256": "5e4c44332ecd34dda267f117a28ea06c666e47e67f63fc5316555c3508b88878",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

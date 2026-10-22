@@ -1,0 +1,12 @@
+{
+  "clip": "turn/A_Beautiful_Mind_1_turn_h_nm_np1_ri_goo_10.avi",
+  "sha256": "31e050022862d3a5df5571ea2cef4a25ad224b7957302aecff7e3bd2ebdc43e3",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "652262ee469e9b9b4ba95df35e40b4e9bd4d7ce87ecde2b5761caaa94c2da29e",
+  "grid_sha256": "f065efdaaadc3982d514cf78b19f623262fad053de037059b0a933f976e73fce",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

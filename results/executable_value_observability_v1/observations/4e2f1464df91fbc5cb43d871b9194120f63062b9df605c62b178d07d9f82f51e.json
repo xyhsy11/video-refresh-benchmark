@@ -1,0 +1,12 @@
+{
+  "clip": "cartwheel/boden__bung_gaurunde_cartwheel_f_cm_np1_le_med_2.avi",
+  "sha256": "18f2baf87aaca70c64102e5d6bc314aaf2b3cb431b3b55308f63011852761230",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "42be97dbdbebb6d3b3fdcb013071208622c46ff8458549c46136f96b79896e6f",
+  "grid_sha256": "e4c1f9893ce285006ce4bdaa0662826bf370b865dcae09030086b7a109d4ac1f",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

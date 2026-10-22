@@ -1,0 +1,12 @@
+{
+  "clip": "eat/APOCALYPTO_eat_u_nm_np1_fr_goo_6.avi",
+  "sha256": "ab70e29fe2cb0b0e4193b612f3588325b8a2d7afdb11a2e627f7e5104c6b8aff",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "e0eccec9c9bea6f88cd880e791839a9bb5123331b83d84b73d9e695ec2759e57",
+  "grid_sha256": "f2d2fd13e6ddfdbb0ab6d9681ac04d2350027f3702e11e11f1c05f50dbbbe11c",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

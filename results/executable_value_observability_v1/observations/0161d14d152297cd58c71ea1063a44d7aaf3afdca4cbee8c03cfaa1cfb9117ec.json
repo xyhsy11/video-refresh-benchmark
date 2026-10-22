@@ -1,0 +1,12 @@
+{
+  "clip": "ride_bike/lady_on_bike_ride_bike_f_cm_np1_ri_med_0.avi",
+  "sha256": "e3a971dfb395a775eb6260e6b29b54b1821538e21ff6b92dee7f9b92dc53af0b",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "264e7cb72851f8d8b3e07adb2ead1a6a99bda37c5fff694aff372a0cd1621de6",
+  "grid_sha256": "3e0a3bfb99449a6469beb418b290821601d7b96a5a4857c074fc6291bdaa6509",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

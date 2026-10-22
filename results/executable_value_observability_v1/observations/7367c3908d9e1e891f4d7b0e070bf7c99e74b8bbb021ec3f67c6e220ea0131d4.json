@@ -1,0 +1,12 @@
+{
+  "clip": "sit/TheRoyalTenenbaums_sit_u_nm_np1_fr_med_4.avi",
+  "sha256": "046e3a50877c0041bb8fb9316230c60a671ba6b7b606e1332c056ceeae29a21b",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "9466cb05f292ffda475f0ccd8ff8cf18d95da5054d7651d62cd70187d1ec6862",
+  "grid_sha256": "2f492ca170820722573255dd7bd33f0a60c3ad833b1f6f1ee1601d5758d64ba6",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

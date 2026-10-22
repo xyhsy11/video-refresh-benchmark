@@ -1,0 +1,12 @@
+{
+  "clip": "shoot_gun/American_History_X_shoot_gun_u_cm_np1_fr_med_2.avi",
+  "sha256": "c6e451077b800374df045769f85e181893a64e369037beabb99dbf70c47472a1",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "ca8608ebf0fa8d4ff5584f412081cf96de943eac62a7949e8f0e8613acf483d8",
+  "grid_sha256": "1d70a96c8f05d7223d08d0428b9c8a0f1cfb5f952b22b70ba11168213b20f8ff",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "pushup/push_ups_pushup_f_nm_np1_ri_goo_2.avi",
+  "sha256": "10c24008012364ce3bb8e96d709879ee43cdc8ba33dfe4ee1e0a473ab680fc9e",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "86aeecef5dbc5df96ee2c686b0901be51a76be84b42a78fbc6852fa40fa643cd",
+  "grid_sha256": "c5a36900b5eb6500b81fb8e470c2b4abdc3464a14f628c48acdfe2a40bef71cb",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

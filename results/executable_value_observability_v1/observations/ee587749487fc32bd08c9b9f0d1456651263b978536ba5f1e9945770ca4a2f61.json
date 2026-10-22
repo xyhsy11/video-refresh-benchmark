@@ -1,0 +1,12 @@
+{
+  "clip": "catch/Fangen_und_Werfen_catch_u_nm_np1_fr_bad_0.avi",
+  "sha256": "1e59e969b475388aff92d87a712288a262023968900c9b70b657e0d155cb6fd2",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "74b3db1e9ce88ffc394c11d7ecb60464ef42380fe80115c8ef9d82b968e1d846",
+  "grid_sha256": "d15dd193e2d06943de3b673d1fa918ea5e0c3bacd495cc972dd78eb2cd92835d",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "shoot_bow/11_4_08ErikaRecurveBack_shoot_bow_u_nm_np1_ba_med_0.avi",
+  "sha256": "c4214d65f1d0bddc380cece9a0b918144fa77512aa3dc710944c2252ae3ce460",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "c723fc675c1145ecbc869116906c5cb800f63f8cc4f26834345b214caeab7595",
+  "grid_sha256": "acf02155c5272bc4219ad1ae8ed5f5bfe148877ab5cdfc7c29376422dd1277b6",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

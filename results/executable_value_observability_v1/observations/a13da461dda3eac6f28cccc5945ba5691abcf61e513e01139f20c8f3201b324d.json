@@ -1,0 +1,12 @@
+{
+  "clip": "stand/Finding_Forrester_3_stand_u_cm_np1_fr_bad_10.avi",
+  "sha256": "3bd6e9909624b64f74f5fcc49260aee3f06d2a3b8d649d1bd4e74caf1ed7d225",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "4cc0681244fc0ecd0e3a66f07820c2227e3c13d89f701a5fdc7c8eef49af2517",
+  "grid_sha256": "b8c81ec75810a23ec012e75190d87832bfcc5fbe8a04bd9cc808106449f2f292",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

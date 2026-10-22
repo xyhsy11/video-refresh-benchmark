@@ -1,0 +1,12 @@
+{
+  "clip": "sit/SweeneyTodd_sit_u_cm_np1_fr_med_14.avi",
+  "sha256": "b49f523217da156f3305641811a68338af81a778abbf8b7606e9e436464b0bdd",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "e28b1fdfcb585b3de89531bc09431d0ab0a114353388f675ef64afb29ea6f094",
+  "grid_sha256": "885ee55936b603a32b0ef6876907d9eb1838b283c64a7fd5635cdada246409d4",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

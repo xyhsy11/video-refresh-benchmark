@@ -1,0 +1,12 @@
+{
+  "clip": "cartwheel/Jessica_and_Gregs_Cartwheel_Competition_cartwheel_f_cm_np1_ri_med_7.avi",
+  "sha256": "31e1f3c1156521de317fe4e0cf43c9e0645b4db1c1a753738c160b90c7c03fd8",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "2b088b51f814e125d7a89e414337676db67bbbecb21568f3f992ebfb15365b31",
+  "grid_sha256": "96837de2cbe03e5cf8a292feff5a63c8df8cbf2ed271b6283b9a84c1478f0154",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

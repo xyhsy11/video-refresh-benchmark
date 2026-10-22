@@ -1,0 +1,12 @@
+{
+  "clip": "brush_hair/red_head_brush_hair_u_cm_np1_fr_goo_1.avi",
+  "sha256": "9ebaa788c174480272bca267389e89ef14bf7c37ee7d68e1fe59c22f56b38595",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "69ed27d2892aaff56864184c594d1010f9aa9dc716814b202673118ae57e15db",
+  "grid_sha256": "715c3dcbc84e83c8ad8f7a01aa00a029889cf5c3bd3eb0885dfd82ff3d1e7ccf",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

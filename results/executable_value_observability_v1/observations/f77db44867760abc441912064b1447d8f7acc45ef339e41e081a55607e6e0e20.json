@@ -1,0 +1,12 @@
+{
+  "clip": "hit/Collins_getting_hit_with_a_stick_on_the_head_hit_f_cm_np1_le_bad_4.avi",
+  "sha256": "c40b39f92e2a1a648c8d79df6b788ac3054303ac7620fd59520e15b1a86a3689",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "5ffc67618a8e714fa95c7b0ecca8121ca65481a77dbc44143a07f60ba3637d04",
+  "grid_sha256": "69afd04d3ad3292b2108be6b80830a3fbe7e63d42dfd69e40e0ea1f267492b36",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

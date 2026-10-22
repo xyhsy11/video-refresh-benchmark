@@ -1,0 +1,12 @@
+{
+  "clip": "shake_hands/IPL_Awards_Ceremony_shake_hands_u_cm_np2_ba_med_5.avi",
+  "sha256": "57cf7d8d7bcc3e467ad71fffc000e61793a71272ba44e72f902c033717598462",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "17d5e4be08823af452afda602110e622336433aebbc53956f9e6373ccbdae070",
+  "grid_sha256": "7106b51f21b8b25e03402811d422d360a4cf90e1b671f69d2499957d19b9c4f1",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "dive/Return_of_the_King_1_dive_f_cm_np1_fr_bad_10.avi",
+  "sha256": "20cb92e7c36566951f7f05b94b94f737e5613bf6c16ab5da3defe7516da33a5b",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "a04727ccc45ae78a2f030c9190671bdc2325583775b5ccfa5f9bc45ba094f8ed",
+  "grid_sha256": "8cbeb7eada80203ca6a9099c08f003d5339c03dea8298e268bc78202ca480de0",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

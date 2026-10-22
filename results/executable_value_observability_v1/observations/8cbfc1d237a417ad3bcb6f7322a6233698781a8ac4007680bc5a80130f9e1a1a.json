@@ -1,0 +1,12 @@
+{
+  "clip": "push/cmd_pushing_box_2_push_f_cm_np1_ba_bad_0.avi",
+  "sha256": "01495d15a69c4f45552945bfa5cc023d583bdc7a6a28d5874550d78046639e3d",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "594b49cf327e111a91b4a8a9b8936997dd6ca94428547e831604c05e94e2525b",
+  "grid_sha256": "32e8fbcecbc645da7cbe4b4ae81e786fc73994f78aed5693e7cdbc4851a84e19",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

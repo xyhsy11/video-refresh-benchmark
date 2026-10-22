@@ -1,0 +1,12 @@
+{
+  "clip": "turn/Two_Towers_5_turn_u_nm_np1_ba_med_4.avi",
+  "sha256": "abcfc3324a624434c21cc1124e88a30c81f25f0a89d50b095b94563f018d1af0",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "645103eb210c0ae6f4fe3db39cbed0a680a2b12761062f13e339e2d218c20f12",
+  "grid_sha256": "bb100317fbf24ad22e5a45488387e5cf7f29a5f47964701ab523200d17c99f05",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

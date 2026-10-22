@@ -1,0 +1,12 @@
+{
+  "clip": "talk/prelinger_TowardEm1954_talk_u_nm_np1_fr_med_1.avi",
+  "sha256": "ae70fb58a0b3fe7c79928e885c807e50171a0c7fc23b754066fc897f6760337e",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "91e5aafbab1940d45ddc268eef2a88002fbb447cd5db5d4857f55c9f6e61e155",
+  "grid_sha256": "1654dedc975a7d188fa1920fb2afca2e9d28028815c89cca5caf1926e4b48687",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

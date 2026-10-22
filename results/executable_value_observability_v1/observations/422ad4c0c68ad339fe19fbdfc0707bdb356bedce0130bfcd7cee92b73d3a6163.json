@@ -1,0 +1,12 @@
+{
+  "clip": "wave/WeddingCrashers_wave_u_nm_np1_fr_goo_0.avi",
+  "sha256": "6783427442d88313da81bda4ed6753f2a823468177e60193ea9d9ec5343ccafa",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "2907744bf36e50cf74e552e5853a3f1010834ba9b8ff5cb3acdd6f26011b5517",
+  "grid_sha256": "4e86f2be07c3f3d5430edf63fafcfb76e7dccadc9ff3673b76425bf47edbbca8",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

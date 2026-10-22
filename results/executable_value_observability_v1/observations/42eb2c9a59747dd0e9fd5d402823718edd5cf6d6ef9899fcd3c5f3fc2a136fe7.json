@@ -1,0 +1,12 @@
+{
+  "clip": "dive/OldSchool_dive_f_cm_np2_ri_bad_15.avi",
+  "sha256": "88fee2ab91134343267f0177b27b5df7300210b9c35bc639e362796e91f9fdd1",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "205f624909a64678b55ca5e178d02e952924e7ee97d7d419c8e5f834c89ec45c",
+  "grid_sha256": "505e312aec22575a14764dfd46063f7f6aac4f012242873c73ad00ea0da584fc",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

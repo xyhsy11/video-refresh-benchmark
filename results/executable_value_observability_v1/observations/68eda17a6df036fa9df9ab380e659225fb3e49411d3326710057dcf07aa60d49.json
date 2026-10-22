@@ -1,0 +1,12 @@
+{
+  "clip": "climb/Speed_Climbing_Contest_Sport_Schuster_M_nchen_climb_f_cm_np1_ba_med_0.avi",
+  "sha256": "3482e14a17df9d56c47c20b291dcbd85bba90ad4e4ccb6e26a6836fcae4fbed3",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "3e068f9003f86a44235d9211f8664d845dd9c2b871c3b73b0b6d83d4ebf7589e",
+  "grid_sha256": "9dfa8f11d42a0d077e93d95b309f5104f831c56d450b8db33d6f069a775f9d07",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

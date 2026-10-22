@@ -1,0 +1,12 @@
+{
+  "clip": "drink/EVOLUTION_drink_u_cm_np1_fr_goo_11.avi",
+  "sha256": "02d311f8100fff4303e157d824829d3aabe2d47201f28873956f9b2149c59756",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "b79b1d9a8a36c13e0a807546993c6333a3400ce7a4d2dff5c41a213ee9161021",
+  "grid_sha256": "58a54ad7d4729b9de89fbfdbf19d106b0f83a8f6019dad61f6e071f70d2711f4",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

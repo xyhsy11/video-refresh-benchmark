@@ -1,0 +1,12 @@
+{
+  "clip": "dive/Jeff_Bungee_Jumping_dive_f_cm_np1_fr_bad_1.avi",
+  "sha256": "a5d33249c53f0a5007d5fa432615b6e7ac04cfca7eebc5d86122c23cc090a626",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "4879eabb39f899607413c7a0eef6e6e416e48304df4f3a70b2481ee2804a9789",
+  "grid_sha256": "b6c7151238fa51460ef0b4dad5521b25948d496be08b8c52be6ccdbd293393c4",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

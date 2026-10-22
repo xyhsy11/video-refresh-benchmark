@@ -1,0 +1,12 @@
+{
+  "clip": "kiss/Moviekissmontage_kiss_u_cm_np2_le_med_7.avi",
+  "sha256": "c628334645dd77d1b9a62ca4650644b7aecfa2b5f0632a438f6c1158c77a259a",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "1ef90168c8cbe363dc29582ac79927f3c920798ebf0714f62b15f56b59c198b8",
+  "grid_sha256": "32d024b31ed339dd02ee324c9cbe2a63fe94ef8bf5a938a46e365e6036d71db7",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

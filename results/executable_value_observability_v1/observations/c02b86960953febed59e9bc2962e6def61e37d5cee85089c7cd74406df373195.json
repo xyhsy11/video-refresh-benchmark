@@ -1,0 +1,12 @@
+{
+  "clip": "eat/LONGESTYARD_eat_h_cm_np1_ri_goo_23.avi",
+  "sha256": "01d7c7a55f0b622ddf8c1c2ce303db32a08a4253b44c4db09153c791e1de02f2",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "b0cbf3b59bf51c0fd3e28c95f92c9a3694dac9f1ebf535deabd08c091c4ad82a",
+  "grid_sha256": "cc659a0d20c176b5080412e08ad7d4d7c5d7a93c4c317c482ef21348c6f0c4a0",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

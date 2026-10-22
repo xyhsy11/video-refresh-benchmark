@@ -1,0 +1,9 @@
+family,contrast,value_difference,favorable_folds
+ridge,H_minus_S,-0.0001289255672380312,2
+ridge,HG_minus_H,-0.00024771078403816366,1
+ridge,HGH_minus_HG,-0.00033530558108601236,2
+ridge,HGH_minus_H,-0.0005830163651241759,2
+tree,H_minus_S,-0.0023732556344495297,2
+tree,HG_minus_H,-0.00022011031227962328,0
+tree,HGH_minus_HG,-0.00046682996996349764,1
+tree,HGH_minus_H,-0.0006869402822431208,1

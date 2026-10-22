@@ -1,0 +1,12 @@
+{
+  "clip": "sword/Medieval_knight_fight_sword_f_cm_np1_ri_med_1.avi",
+  "sha256": "28e647eab672e4457a1eeb44980f64315522590bbd4c9d37f382e3ade3971222",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "46fc49af2e8b7e9142fd1b7b2babb6927a5b97cdd57dd114865d7bb8c9ab644d",
+  "grid_sha256": "feea7cd326421e363f467abb306075cd136a6fc5d09c6a4315a58881171036b5",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

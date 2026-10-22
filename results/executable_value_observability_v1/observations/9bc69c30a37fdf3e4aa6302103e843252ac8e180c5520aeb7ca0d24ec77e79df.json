@@ -1,0 +1,12 @@
+{
+  "clip": "sit/SweeneyTodd_sit_f_cm_np1_fr_bad_16.avi",
+  "sha256": "3ab34dcbdc3ab594c2a84d9d27c447557e156b1c0c4c2f65677f99ed8493bac3",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "0e8666471ab75d1c1641ec82e227334d2c66bf0122827fc7b1796e2912e098fb",
+  "grid_sha256": "540f3a590cf236e45312bb1d99a93841337c990df23af975efb5282849734bfc",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

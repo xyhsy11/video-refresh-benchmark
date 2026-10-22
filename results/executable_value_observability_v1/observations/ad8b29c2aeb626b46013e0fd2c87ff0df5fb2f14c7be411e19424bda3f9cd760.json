@@ -1,0 +1,12 @@
+{
+  "clip": "eat/SweeneyTodd_eat_h_nm_np1_fr_goo_15.avi",
+  "sha256": "263c97aee6fe40ee37a1a296a940a14021e9637ff70d30144fa4a8f61345531f",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "f64e9519d8167d92f40238441f5e51e4860cd65de24ef5818c6e67ece0ac92b6",
+  "grid_sha256": "2c403f22bcfaa7caae5a40617cdfa17a6e61fc5461ff163fd2ffb5168799dd6d",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "talk/The_Fugitive_5_talk_u_nm_np1_fr_goo_11.avi",
+  "sha256": "2310addc1ba8da6f59bc044ad470e6bca3559f11838813356331459d26cc70d1",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "fd4220b427b207cc24dcbe8481d7a3bb00b2882468bcdb543c50767fb4e1d2fb",
+  "grid_sha256": "90d6a51ea487c5c4ae85304dc24a99e0fe8bf848ff359b645e6a308c0c469187",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

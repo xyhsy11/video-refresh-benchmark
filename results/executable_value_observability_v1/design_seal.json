@@ -1,0 +1,32 @@
+{
+  "at_utc": "2026-10-22T02:33:31.412615+00:00",
+  "before_probe_fitting": true,
+  "before_new_decoding": true,
+  "sha256": {
+    "results/executable_value_observability_v1/checkout_audit.json": "5183d252092f2fada9eb0c10cc25c2d0aa0d2baa66f353cce14697b0ec669d43",
+    "results/executable_value_observability_v1/historical_fingerprint.json": "66ae32ecc631817ea0a90a313ca05b7444c8921a2474db2d02dd0f5ce8dbeb3f",
+    "results/executable_value_observability_v1/environment.json": "37322dff5677cc809faf905145ea996d7f95e495d6897f568e34fe148ab1b74f",
+    "results/executable_value_observability_v1/input_inventory.json": "86d0beb57725e96531a70ce740c2b72b0a973a90497c6d5426dfeda51b2bfb0f",
+    "results/executable_value_observability_v1/source_head_audit.json": "e50bf0d96b47c3061f50506f0dab9937a5a87cec310cdb579d43cb9d4e9406bd",
+    "results/executable_value_observability_v1/fold_manifest.json": "e807e12c3f5b82d7ff389f9d898eb771cdeb5853dc8b9f0702d42fda41e9af85",
+    "results/executable_value_observability_v1/timing_manifest.json": "aa15a9391b6278273537e3fb5605fddc763c7700a20800b8956f6828acaa98a0",
+    "results/executable_value_observability_v1/shuffled_hog_manifest.json": "ff93b991c46090b94067db4f4ea00360f7cc01bdd83873fc7815838f94f444d2",
+    "results/executable_value_observability_v1/exposure_manifest.json": "8f448c5721060295dbfcf2dd3f6469e383664a63d644200af25ae68bf4fb8a77",
+    "results/executable_value_observability_v1/frozen_config.json": "6ce87c4e3c45063ad52b231812f9d1497840cc9e3b7809e571e5097d947f9ede",
+    "results/executable_value_observability_v1/feature_dictionary.json": "3330f51e717542a6fb47724e7f5fce85c73f1fe4de5a2dbbb39d2da4cc86deed",
+    "results/executable_value_observability_v1/protocol.md": "1c598f9c28c2de972d8fe1ab34f8fdccb3b4858e812354b922b5daf195d7e758",
+    "results/executable_value_observability_v1/fresh_confirmation_feasibility.json": "4e7650efbe1975dadb3f9c50a6b008729330a8efd30c71e1eccb94b63ce95a77",
+    "results/executable_value_observability_v1/fresh_confirmation_feasibility.md": "7944bed3ee4f62569ec5fa1f8502b7400dfadf2a2309c5ecc60766e4e5625c0e",
+    "results/executable_value_observability_v1/prospective_experiment_26B_protocol.md": "aacb065d31124fb82c129a37f41b7e45e708873fe2658dab8c27459a16e0216c",
+    "executable_value_observability.py": "65baf4f7e0b056617a77e3dfaf8ac0f1f82d87cfb225cbe9ab04d19dbea2d5e5",
+    "run_executable_value_observability.py": "b97eb244cb95199e35fbea034bdd341a44867694287e0d5cd2248b6d6314482a",
+    "verify_executable_value_observability.py": "c99ffb5d8e41025cf2702d99224f73468b8c9200b1e8a7b2f65fdae22622f832",
+    "render_executable_value_observability.py": "a3bb6096e5e4221f1d678efbc5ccd909fc514f68780c305e765fcd145e44726f",
+    "test_executable_value_observability.py": "b3b4333a8ff74efb4da5414d84473c6ab6fb09b976b6555d49bad319b04249a0",
+    "causal_observability_policy.py": "dda0908b98b042b4e5ac88a86cead957530582d4e1f4e7a186714450a0d212c6",
+    "causal_observability_common.py": "8fae3697454857bcf3cb6d6a3bcdaec5b448776badbd5633e45b5d48b11f5414",
+    "causal_observability_population_v2.py": "d935a9758ca51f2b7f9a8bd18dee3ab066e9083830ffc03fd06d95f2fdeea97a",
+    "task_utility_observability.py": "64d29bd3cdf46225524358457b6fc20a26214e104db91fd95d4e307f523b83c1",
+    "research_utils.py": "06b0bd9df2ebbbf314a5a21e086f00e7018d7dbd7a189adac3cf2d79f0352044"
+  }
+}

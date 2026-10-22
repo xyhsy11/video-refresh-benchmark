@@ -1,0 +1,12 @@
+{
+  "clip": "sword/Fellowship_4_sword_u_cm_np1_fr_med_4.avi",
+  "sha256": "df8057b8de2ac317e79aa04b7ecfdf4cb23b0b298ca59780013f440859fe3bf4",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "7d4828ea128a9bdf2d4479242524af269f8eba6c899de8b88b9a541dea97ea23",
+  "grid_sha256": "de077ee5049069180ec94ebdd8b28ee700a64fff51e26755334b662781511d62",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

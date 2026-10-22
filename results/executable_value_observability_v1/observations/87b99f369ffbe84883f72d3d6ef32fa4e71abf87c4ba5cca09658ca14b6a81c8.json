@@ -1,0 +1,12 @@
+{
+  "clip": "fall_floor/Veoh_Alpha_Dog_1_fall_floor_u_cm_np1_fr_med_46.avi",
+  "sha256": "3773b40d90a1ca0ad287197db2b66b9a49133e3ead5dc90db1a41947262cc221",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "a3c6b2ecc5f032a01fa5a6d1d597a21fbb66759e2e10a7d192c3b109e3cc7c11",
+  "grid_sha256": "1936dc4fcf306a88a65b0df0941f95dd50f5066b23e8c0d30fc5d232df243b09",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

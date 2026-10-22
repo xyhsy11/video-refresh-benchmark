@@ -1,0 +1,12 @@
+{
+  "clip": "dive/HP_PRISONER_OF_AZKABAN_dive_f_cm_np1_fr_bad_28.avi",
+  "sha256": "97fee60f107d5020f369996d300f3da3b1ada06fc70b73c5d80cd74cd9ba2f58",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "51fabf54006aa1c5a23e4c158eb9b8615f7c15c7e807040a06500b8d420bff26",
+  "grid_sha256": "9721081b714c7749cd2598ccceb368feaca307b2831eccc81212f88fbb4c6f5e",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

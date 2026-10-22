@@ -1,0 +1,12 @@
+{
+  "clip": "fall_floor/Glory_fall_floor_f_cm_np1_fr_med_39.avi",
+  "sha256": "40ea9208abb0ce769bac68f1e892364595ef721916446e456778f483c159ab1d",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "6ffb038c03c79dd8e0fd921055a7a81748afc7e9737e2497ac225fd276669ade",
+  "grid_sha256": "b670641c66b0748ab084c87e5916743b06822b8a9202b6e4f5fe7adc36b77bb1",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

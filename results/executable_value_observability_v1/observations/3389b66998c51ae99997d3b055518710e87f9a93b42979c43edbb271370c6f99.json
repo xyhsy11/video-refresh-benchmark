@@ -1,0 +1,12 @@
+{
+  "clip": "run/The_Matrix_3_run_f_cm_np1_ba_med_8.avi",
+  "sha256": "4a2d6076ec471808fb81c012c9809e10776247aeaf5afd3818a6ee17fc3fcc91",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "f4abd2031fd308b37eccd50847bfa5faf37756ca75b915831ced738182e7ff31",
+  "grid_sha256": "aa3c5f5a69db6fe9a910ccb2707c149abed39cf73dfeb03f899977f4a680aa5e",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

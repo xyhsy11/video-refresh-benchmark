@@ -1,0 +1,12 @@
+{
+  "clip": "handstand/Turnk_r_Pippi_Michel_handstand_f_cm_np2_le_med_5.avi",
+  "sha256": "c20023ababc630d7d01d8787a4d0150bd16c40b418b45a517638b6415a891a0e",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "c72163c131be0b00ee730b4f16201a4652a4a12372a173cf1c5742d8c92a9e7a",
+  "grid_sha256": "feea7cd326421e363f467abb306075cd136a6fc5d09c6a4315a58881171036b5",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

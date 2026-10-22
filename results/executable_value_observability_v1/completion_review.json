@@ -1,0 +1,26 @@
+{
+  "all_4284_class_indices_match_frozen_order": true,
+  "dense_wrong_clips_retained": 596,
+  "dense_wrong_weight": 0.4237188899849968,
+  "observation_signature": "(t, past_features, head, gray=None, hog_transition=None)",
+  "scoring_signature": "(model, x)",
+  "predictor_inference_has_no_label_source_filename_current_or_future_embedding_parameters": true,
+  "synthetic_fixture_tests": 5,
+  "synthetic_fixture_tests_passed": 5,
+  "synthetic_command": ".\\.venv_temporal\\Scripts\\python.exe -m unittest test_executable_value_observability -v",
+  "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+  "processor_identifier": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+  "pre_existing_untracked_directories_preserved": [
+    "presentation_outputs/",
+    "seminar_build/",
+    "seminar_output/"
+  ],
+  "initial_working_tree_before_new_work": "?? presentation_outputs/\n?? seminar_build/\n?? seminar_output/",
+  "figure_layout_review": {
+    "figure_1_task_value.png": "PASS: title, axes, bars, zero/reference lines and regret legend readable; adverse values included",
+    "figure_2_drift_task.png": "PASS: drift/task series and separate value panel readable; no overlap or clipping",
+    "figure_3_acquisition_cost.png": "PASS: arms, paired median/p95, engineering reference and encoder-absent title readable"
+  },
+  "design_changes_after_seal": false,
+  "mechanical_amendments_required": false
+}

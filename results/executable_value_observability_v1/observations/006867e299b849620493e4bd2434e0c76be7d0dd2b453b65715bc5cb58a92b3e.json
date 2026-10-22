@@ -1,0 +1,12 @@
+{
+  "clip": "hit/TrumanShow_hit_u_cm_np1_ba_bad_35.avi",
+  "sha256": "8b06509e78a54e57f83072584f9dbb810672f4f79a566f3c61eed37d474881ee",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "d326132f2f7d2ef87c072261c64694d81973efa5886398ee8612f9b7c2c22fbc",
+  "grid_sha256": "079123e30c0e53a9718cfc9a8d8083d39d7f7850f886b6c1e12c93d8477c0c18",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "somersault/Uni-Koblenz_Normfreies_Turnen__WS_05_06__Pr_fung_somersault_f_cm_np2_ri_bad_0.avi",
+  "sha256": "917b54bbd38670807f3b7c9fda78c7ed69b69bf22f9ffcea1a90677986adf397",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "e81763d53ebab86c3cf5718744db15d40bc6a9d007349b88ba3a74cda0fa558b",
+  "grid_sha256": "3532f2286fcc17b7a7a7efad4715f28c9908d61efc0c5526b3108f9f0dc71159",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

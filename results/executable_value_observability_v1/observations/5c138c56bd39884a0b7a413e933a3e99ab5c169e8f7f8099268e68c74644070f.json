@@ -1,0 +1,12 @@
+{
+  "clip": "climb/Seamus_OD_arms_exploding-_rope_climb_climb_f_cm_np1_ba_med_0.avi",
+  "sha256": "574a52becb47d6b9a1793421604e4148a6dd964829bf2842ba8ae72802bc9ae7",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "e7434afda2939a697548775073a1ecedc2b3ead09b4b870d364cb4a856cc6028",
+  "grid_sha256": "285669c108f5a663b4017674a63d376e25498920c18d11ee8290e6bdf89640c9",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

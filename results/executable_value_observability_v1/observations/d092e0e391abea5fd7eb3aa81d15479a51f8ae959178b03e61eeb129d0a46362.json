@@ -1,0 +1,12 @@
+{
+  "clip": "shoot_ball/BrandonWebmanplayingbasketball_shoot_ball_f_nm_np1_le_med_0.avi",
+  "sha256": "726d6fa55d61deca17898a11ff6d36fff9d41c1a094dc0eeed753a9f74ddb36b",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "37d4d50acce1d7958ca3c7400b45d9d589fec66eb4ec73e963d312ba772542b0",
+  "grid_sha256": "feea7cd326421e363f467abb306075cd136a6fc5d09c6a4315a58881171036b5",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

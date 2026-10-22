@@ -1,0 +1,12 @@
+{
+  "clip": "ride_bike/Tour_de_France_2009_ETAPA_16_ESPN_ESP__Kilometros_finales_ride_bike_f_cm_np1_ba_med_0.avi",
+  "sha256": "4ea2c41f4e4a98c3f1d65c05af1fcb1fc77b1f790c8091b3ea2a69d8b6b66161",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "afa84d4e8409e8d06bd69afa68b9011425f9a53726b8d1dd64287d0e4656f19f",
+  "grid_sha256": "3ed2eaa0037346949cd6a3c52d30e47d1b0d391eb708f776e071dcb7bbefa987",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

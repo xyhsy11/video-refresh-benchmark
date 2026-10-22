@@ -1,0 +1,12 @@
+{
+  "clip": "fencing/The_Duel_-_Reel_Kick_Films_fencing_f_cm_np2_le_bad_0.avi",
+  "sha256": "4f5908c7107c1fd99581ce1d6e7d71b033426db8b7c71d3180d3031fc7a9b9d1",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "71be6bff5500549862d181597bf479322b31dfc338f860fcbd8c14df3d10e6a1",
+  "grid_sha256": "ee8edd117cf400faf356a53684a65c07609948721aa897be970bd46dfc9c33eb",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

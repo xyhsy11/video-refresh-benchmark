@@ -1,0 +1,12 @@
+{
+  "clip": "wave/Bubble_Gum_Club_2_wave_h_nm_np2_fr_med_0.avi",
+  "sha256": "6ea402ad5bc23469d32bd5f623c5174b964a5863639f686a51ed5cd2b7ac04ce",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "bbf741e34efcf1cda7707db036360cc783a41fe1b4683d7e2ddcdce589a01588",
+  "grid_sha256": "86411bc05e08babc7da4def0609d7726b9a17d1b645a3ab1e66e62d2162897c1",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

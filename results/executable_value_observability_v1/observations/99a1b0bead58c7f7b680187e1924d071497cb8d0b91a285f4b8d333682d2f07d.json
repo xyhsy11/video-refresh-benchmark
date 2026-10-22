@@ -1,0 +1,12 @@
+{
+  "clip": "walk/AmericanGangster_walk_f_nm_np1_ba_med_72.avi",
+  "sha256": "872758558be8d8d384e9a46464066f2d547b6255d7e9a1fe7f163a78a62cdecb",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "e0d3be490cfa244dcefaa6ff138817c2e3a95f1aec64644b4ad61e04d2b721a0",
+  "grid_sha256": "3dc68d1b6eb60071206e8cb97990078b48d049c3a6f985ed347157cb7370628e",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

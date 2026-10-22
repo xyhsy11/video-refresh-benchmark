@@ -1,0 +1,12 @@
+{
+  "clip": "somersault/Rush_Hour_4_Turnk_r_somersault_f_cm_np2_ri_med_1.avi",
+  "sha256": "e99fada02a6a92fc494ac24b8d4095add07bcb4d23b140536e24acae50d06c01",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "25478898092a4b20a04f3b1a790e334433fc86ccbe423aab3109a42a3ad57825",
+  "grid_sha256": "f18feee1fd23feb192e3c1199e48f210208fdae996d3fdb25a95fa49d5a25be2",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

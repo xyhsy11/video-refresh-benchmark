@@ -1,0 +1,12 @@
+{
+  "clip": "fall_floor/BLACK_HAWK_DOWN_fall_floor_f_cm_np1_fr_bad_34.avi",
+  "sha256": "9a82bd173920730908142c5a7406c72a662448b28a1fa7c4e3627fc422d14a10",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "04cc0c3a25c1b305dc86a8753ccee518c9e7217a4eeebeff1970a6ae3590e8ae",
+  "grid_sha256": "de3f49c2382144fcef4c5d4e983241fcaa474402bf90543ae6699d57eb364e17",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

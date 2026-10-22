@@ -1,0 +1,12 @@
+{
+  "clip": "pullup/32_Pull-ups_at_193IBS_pullup_f_cm_np1_ba_med_0.avi",
+  "sha256": "f78a2d3c186fae6006d5b41a1bd89bbe62fc569942521067f0d7d794a6e0481e",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "d0d525cf910dd1f2835eb6c3ff20070addb1d145c47659ae2314711eb08b3f1a",
+  "grid_sha256": "cf1de39215a67fa90d05a347d565fbce4e4692e3faacd16c840f6a49b28c9f8a",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

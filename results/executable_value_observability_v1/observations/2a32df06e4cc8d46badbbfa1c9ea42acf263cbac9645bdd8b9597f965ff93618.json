@@ -1,0 +1,12 @@
+{
+  "clip": "sword_exercise/Highlander_I_with_Christophe_Lambert_&_Sean_Connery_sword_exercise_f_cm_np2_ba_med_1.avi",
+  "sha256": "39b5f0892932e2a9b31502e0e3b2bf1bc0bd3aa1306a1ac8fcdea6cc76fb3fab",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "84895245f444411b593ba23d1c6215fab9061ad7ef1f890a0b3246cc6f5cc896",
+  "grid_sha256": "a6e528d5824f822efa14fe816bae45fc3eb05c8f311fa8d7098d751a2d2456b1",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

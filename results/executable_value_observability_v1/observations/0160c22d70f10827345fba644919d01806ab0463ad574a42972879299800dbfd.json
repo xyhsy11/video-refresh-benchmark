@@ -1,0 +1,12 @@
+{
+  "clip": "ride_horse/BethEventingTraingGeorge_ride_horse_f_cm_np1_ri_med_1.avi",
+  "sha256": "a35e8334a5b22e70e06a8e2ae82d04886584bc4425641def81a7790c41a2a80d",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "3c4ba2052ee08e0ae87c6c14919d571f4ffc001e936109cf5b7f4e7d62369b8f",
+  "grid_sha256": "f28a155c1a841968c010498ae4c6da7d01b820f5419a6e36efd1f30d082cf41f",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

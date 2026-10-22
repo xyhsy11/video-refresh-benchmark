@@ -1,0 +1,12 @@
+{
+  "clip": "run/Man_Who_Cheated_Himself_512kb_run_f_cm_np1_le_bad_5.avi",
+  "sha256": "64ecd4f0b66359230e85d359343e83a17656cabd42c203ef4c39ca36ce0c47be",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "3d1bd73fa3d3a6316669123d0ff5b2e622c31a12a3ca6d7f2bdc91305a64d832",
+  "grid_sha256": "d4049710bb02d1544c264304fb0c290a813703f1b3e0c3f41a4909dbe07cac65",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

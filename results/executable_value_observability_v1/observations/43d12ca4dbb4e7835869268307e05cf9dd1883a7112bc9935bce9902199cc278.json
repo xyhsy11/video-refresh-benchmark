@@ -1,0 +1,12 @@
+{
+  "clip": "pushup/Push_Up_Battle_pushup_u_cm_np2_le_bad_2.avi",
+  "sha256": "f21f7b15d0fd4caf47c775a1b0bd8da891b251497cd5fd86d03dcca1691f11be",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "8861b3af8c7d1347eb0ca8a7bfc1495701fe0219dea3d0e1b99d0135ec7c3b78",
+  "grid_sha256": "635c4e7b81ea46ccb4c2886f80e50439aebc0c985a3402f9c2bfc32eefb43c4c",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

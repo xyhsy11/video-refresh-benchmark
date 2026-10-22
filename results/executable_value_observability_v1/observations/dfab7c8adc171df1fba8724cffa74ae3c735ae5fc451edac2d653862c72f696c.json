@@ -1,0 +1,12 @@
+{
+  "clip": "ride_horse/HorseRiding_ride_horse_f_cm_np1_le_med_6.avi",
+  "sha256": "6a9543bef5c979fc2348c3ba9076c702e1b353bca4b37f44a8a40300abdd3b8b",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "93b9fc0379dacd5c9e4f4103b7f347632ddb253befe03db6b62222f0c1d9a8bc",
+  "grid_sha256": "ca6ba9f9ad954c71c30bceed90ebf21515c8afcfaf7981012e8830dbd01120ff",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

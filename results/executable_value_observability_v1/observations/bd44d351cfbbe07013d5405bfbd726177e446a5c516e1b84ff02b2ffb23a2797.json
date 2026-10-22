@@ -1,0 +1,12 @@
+{
+  "clip": "turn/ThreeStories_turn_u_cm_np1_fr_med_0.avi",
+  "sha256": "648d306cc4369b0f14aab0bb45a0548be4ff74cab401b6d73272d00d188fa20c",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "ffd975382bc426c367aa3d24038d7cbc33ecb632cadfe12a071ee12e71293379",
+  "grid_sha256": "69d2dc81bf14a9790f46c866a9f1e91d9b9ea885c7a41462e3a3cae119ad5b80",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

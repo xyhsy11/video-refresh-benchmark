@@ -1,0 +1,12 @@
+{
+  "clip": "fencing/Swordplay_Alliance_Rapier_and_Dagger_fight_fencing_f_cm_np2_ri_bad_1.avi",
+  "sha256": "e6fb463cb94cfc840dd6dfb867c700523efe0492ebadc1b080f56d7d5a28601e",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "882c8f4751440dbb0f60be9469e5d9ead388ffba32453b06c80aa82ebd0a0142",
+  "grid_sha256": "a3fad796511747ab7d45523b7d9b75a1e22f407f80efc50b9643395274764a50",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

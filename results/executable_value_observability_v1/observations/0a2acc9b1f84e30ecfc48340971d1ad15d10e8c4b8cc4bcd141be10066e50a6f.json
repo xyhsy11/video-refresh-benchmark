@@ -1,0 +1,12 @@
+{
+  "clip": "clap/The_Slow_Clap_clap_u_nm_np1_fr_med_24.avi",
+  "sha256": "20ef7266751f13af0b4d4abe4bbac523a1c3fb3f23e5472df027ffea65951315",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "012079255c1ae9f9f7f1f4910f1728921472d3935aa6f2eba3afa789b6ec9b5c",
+  "grid_sha256": "86c6ba4ba3af3b2579925bf973da08aa9c29402e59d0b6d2665bf4a23fa2c50f",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "eat/Hitch_Part_2_eat_h_nm_np1_fr_goo_0.avi",
+  "sha256": "016cd22e12325c75538c32c2a1151c49327ae0f11686c6958816df7f8459ee09",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "8d8445e2f5e16dbd586dc69e7c3cf0f00253ab4bfdad388116f6d1b6febd027b",
+  "grid_sha256": "00d81fd4084c2f49276c93b4a1722cd19a94eb2c01096f69856e4f0681bd79ed",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

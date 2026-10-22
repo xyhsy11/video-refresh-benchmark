@@ -1,0 +1,12 @@
+{
+  "clip": "pick/NH-__Open_Carry_Litter_Pickup_in__troubled__neighborhood_pick_f_nm_np1_le_med_0.avi",
+  "sha256": "c59ac851392fa984c286c86ab73f14a4de9dd43e0afbb29934c501061e15210c",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "0b21ae949195e3d2603fb2bc358b91f7b9ee7c0142593f4525b585d3522da7e5",
+  "grid_sha256": "bd45d4877ef3a432c8f0ac19e81da4dd631683442c69bc2cfcb532d20216cec2",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

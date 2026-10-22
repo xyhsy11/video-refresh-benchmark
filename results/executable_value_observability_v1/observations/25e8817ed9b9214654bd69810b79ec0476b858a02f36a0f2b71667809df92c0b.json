@@ -1,0 +1,12 @@
+{
+  "clip": "hit/Joey_Jordison_drum_solo_hit_u_cm_np1_ba_bad_0.avi",
+  "sha256": "4c4048d2ba6cefbe8d3ae4203836f805340e207b0780ea2f618f86f86c2795cd",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "a75c00bf7c1679b4f176a68e73bfc3e8ceb40d8dd31d297c3c685ed87ca66f37",
+  "grid_sha256": "2f07d0c4862e0838e5f8af5b6f88d6dc2dc835257eb9304626d87be1105ff7e3",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

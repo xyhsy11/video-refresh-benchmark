@@ -1,0 +1,12 @@
+{
+  "clip": "brush_hair/brushing_jrs_hair_brush_hair_u_cm_np2_le_goo_1.avi",
+  "sha256": "ac08182ddb4d28a08c190660cfa784fe74bee08e1909089c454a765194d81cd0",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "fb7480120da3f661c0c8d5e73f484afbcfd982a2b50f7d1ad77a6fb239cd653a",
+  "grid_sha256": "838a36f2f30af246c7c2b5cb98fdeb170990102a0d3b38300f18c2812a821b80",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

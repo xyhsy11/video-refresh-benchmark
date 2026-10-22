@@ -1,0 +1,12 @@
+{
+  "clip": "stand/RomeEpisode1_stand_f_cm_np1_fr_med_0.avi",
+  "sha256": "83376294a78541cbb324d856fa32d4cee8040141deb97964c1b2b393e4a0d187",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "e572ca078d01c31315c2d3a0d435f051decf4cf17b23151a8daedc0e9405b942",
+  "grid_sha256": "05e90b8054f93dcecb16094b097f2b501c4d0c9044639f85083b6a96222fcd8b",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

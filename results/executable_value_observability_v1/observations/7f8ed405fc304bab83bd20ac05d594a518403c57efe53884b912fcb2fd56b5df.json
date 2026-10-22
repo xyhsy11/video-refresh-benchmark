@@ -1,0 +1,12 @@
+{
+  "clip": "somersault/Purzelbaum_bei_der_Aufstiegsfeier_somersault_f_cm_np1_ri_med_0.avi",
+  "sha256": "7db0e14e62e13ddb36173153d912e32c564b72b1d9443b1bb79edf1c320a6269",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "fd9043b613f4542467ec74c591bdcbd83ba06f18426b133eee4232b11053666d",
+  "grid_sha256": "1facf451adc1a50300a65d9b5239c21f548bfd486f1756ae0704b68815ef16aa",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

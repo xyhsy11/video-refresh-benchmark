@@ -1,0 +1,12 @@
+{
+  "clip": "stand/FestivalofColors_stand_f_nm_np1_fr_med_0.avi",
+  "sha256": "3a9b9136bac45eac34397b5fdf396f50d3a071ed690335f7340ce38f8f86c498",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "b5cd42a6bd45e280c9b69e0f03e56274f1a55f0295e8ebb914d57e2709cfdbab",
+  "grid_sha256": "8bfcff31c2be15918078cca321af8aef2a1edc972cc87872dfc53f06699b88e6",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

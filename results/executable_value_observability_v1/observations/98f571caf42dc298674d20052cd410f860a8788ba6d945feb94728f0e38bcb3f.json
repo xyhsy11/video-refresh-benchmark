@@ -1,0 +1,12 @@
+{
+  "clip": "flic_flac/Outdoor-Turnen_flic_flac_f_cm_np1_ri_med_2.avi",
+  "sha256": "57e57364664fbe3e610a6941de4f6a9a13f455b44e5a6bb975387bbdcd5cb497",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "72ea5095c049864a670f5f3b98b012e38a3c4a0d5fd289f6d18e5fa583c33a2e",
+  "grid_sha256": "4677d62db40191dd9753e0a3c86450b0b4a77921a79a81aaa74d799e4f298b9e",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "run/The_Matrix_1_run_f_cm_np1_fr_bad_0.avi",
+  "sha256": "930b909ca112bd1551bf2edaf997e02e2633998842d332397b04c01ce9ea3d57",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "29dafe4909cf49014963fa108375282c4d39472d7912fdb52c6bce904f0999a6",
+  "grid_sha256": "9e19f4a25448f62a96e3e7d774d68e82f7ac1d909bd2a183cc3fc2db575bfc0e",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

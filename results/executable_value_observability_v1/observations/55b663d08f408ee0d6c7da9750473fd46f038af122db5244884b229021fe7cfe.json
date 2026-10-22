@@ -1,0 +1,12 @@
+{
+  "clip": "dive/BASE_Jumping_Compilation_-_Brilliant_dive_f_cm_np1_le_bad_3.avi",
+  "sha256": "f5a9c1194b57fd3c15672830c1a0e6e04abb6483bd723332c258432b74923f76",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "88486de940e883a9443f2a9000e2bf42b440f1c0826bbc6f2aba84eee95b1ab7",
+  "grid_sha256": "37d3aa73b768d0815dcf56d6ec6a824cef5a2595a2a0ead0af8fb389c5a5effc",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

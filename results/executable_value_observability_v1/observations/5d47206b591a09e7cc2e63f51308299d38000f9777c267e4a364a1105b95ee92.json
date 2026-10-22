@@ -1,0 +1,12 @@
+{
+  "clip": "drink/AMADEUS_drink_u_nm_np1_fr_goo_11.avi",
+  "sha256": "9abe4969237adc61cd01b8f918888826befcaf81ae6582b43b6333a50b789617",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "7698dec58ecb06e83129cca6882a5436210409796cc90d73431b922b63b5a978",
+  "grid_sha256": "0bd8f3a6892c160f03b261c1529a45c1be8bf089feee2c3614204096160f72cb",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

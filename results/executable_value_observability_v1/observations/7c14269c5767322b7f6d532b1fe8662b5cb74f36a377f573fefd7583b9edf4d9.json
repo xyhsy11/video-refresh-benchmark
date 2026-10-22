@@ -1,0 +1,12 @@
+{
+  "clip": "walk/LONGESTYARD_walk_f_nm_np1_fr_med_6.avi",
+  "sha256": "c5562518f0e00ee6361f96b88d71e356ef894b948392fae37b9d425d857d31a7",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "8f09084dad12d2e7dd82427e763dc038c576e1d22fee4ee96ff76cce2f9479a3",
+  "grid_sha256": "cb57559fcd7d27a2c8b1841c13aa4ca6e6151a83156a350cd8ec211a9ce8c53a",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "walk/Hitch_Part_1_walk_u_cm_np1_fr_med_0.avi",
+  "sha256": "df2b24b873a00f27f91a77a5f35572d34680e3fc50aaef1d10e5f1204f65fed7",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "8dde4663c67d1be22a0d658caf73bfb5dafa3f0508867edad30f4c6f81413527",
+  "grid_sha256": "51b06d316b44001a0a38d1d1aaac3eb73e35baba53e85b27f307d7d37c35aa41",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

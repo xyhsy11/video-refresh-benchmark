@@ -1,0 +1,12 @@
+{
+  "clip": "pick/TheBigBangS01E02TheBigBranHypothesis_pick_u_cm_np1_le_med_1.avi",
+  "sha256": "5190a65f3eb260e7f233065713752c2e48bebd9607ec243f01dca9a4c47f4fce",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "f1bd6c5f3517bf1fa98c2ddeca7cf98207916ecac3180a3898a8aad831a69d1c",
+  "grid_sha256": "b796dd2ece0c5f653582c14c30b58b423bb34290c8f5081fba793ad0b4f9666e",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "climb_stairs/Piano_stairs__-_TheFunTheory_com_-_Rolighetsteorin_se_climb_stairs_f_nm_np2_fr_med_4.avi",
+  "sha256": "269624b20a9f029f6e60cbee148369ae0a654b6c93d494c32a4c69c2c104a866",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "94b040fd85cd349690d6749bd09878f4e0304d78e016ef0fef2f5b004c9a56e2",
+  "grid_sha256": "d802492b9255f85a4e364a1c46b4c097590f58c68236d1e242a04fc9ce48d79d",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

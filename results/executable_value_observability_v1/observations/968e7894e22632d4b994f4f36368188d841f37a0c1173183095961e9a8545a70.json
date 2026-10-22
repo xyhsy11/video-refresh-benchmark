@@ -1,0 +1,12 @@
+{
+  "clip": "walk/Sixthsense_walk_u_nm_np1_fr_med_4.avi",
+  "sha256": "6259fd7145cb174f88866e4f68719f15d4356fee52d3d163290a61fceb4cbfee",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "03603461ffd1f1533c4aaad5ce1e55380950246d55ae9b99f177152124a52313",
+  "grid_sha256": "9d0440f94fbd2771ae4f067ad57732943e5c2426783d97ec4f4c08a410f41151",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

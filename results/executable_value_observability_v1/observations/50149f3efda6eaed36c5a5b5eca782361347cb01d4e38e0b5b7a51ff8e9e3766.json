@@ -1,0 +1,12 @@
+{
+  "clip": "stand/RETURN_OF_THE_KING_stand_f_cm_np1_fr_med_55.avi",
+  "sha256": "b4cdc20bed8b6e2f693cf8fbe73cf3e25b3fcba6eee61bdcf35a2635e2059363",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "303efc7dd2a5cf300c23aff04b750431535f8911e602ab32820e207aa9a96940",
+  "grid_sha256": "35aa0c470b8250b7c855f75337d883145321659605d958dc124c9146189e2fcc",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "drink/Prelinger_HabitPat1954_drink_u_nm_np1_fr_goo_15.avi",
+  "sha256": "9c5647da6bf169ccda692341a06ae1d4d6af61a05be568e0dbbb28c09c216c04",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "6ca51402083270770a65070e06b156f49779066092c377b4d20776f2e114e8fd",
+  "grid_sha256": "59dc15f3a6d463324dde7e663c924c9551ce1b5d46bd2d8ebdde0b309fbeb389",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "eat/20060723sfjffdabaum_eat_h_cm_np1_fr_goo_0.avi",
+  "sha256": "32de0ff12dc5121309a95d435d151b032d5cc6d1afd12e50fb6e51159ff0600d",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "da12b77952a5a3770e894d6ff115978f811af8d68de8581021f1d8f570408fab",
+  "grid_sha256": "2f361b85bba21aca56fcd51ea73c4b609f75f411e47ec3bb0b9f704561a0a53b",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

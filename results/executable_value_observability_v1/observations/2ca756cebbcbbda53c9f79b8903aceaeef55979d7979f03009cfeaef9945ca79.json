@@ -1,0 +1,12 @@
+{
+  "clip": "walk/MeettheFockers_walk_f_nm_np1_ba_med_9.avi",
+  "sha256": "68484a1de3c14295605284551c3c4f46471319221e6c6b491993282ba63d1993",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "618e106a3cb8c9a2ec3f001ba75a765849ca437dcdb271d1a70c125881feca4a",
+  "grid_sha256": "23ea3984bbcc0eb1b66215f14ee85eb10b3a929a70b9898680e348b459f54121",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

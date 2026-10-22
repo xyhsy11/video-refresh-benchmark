@@ -1,0 +1,12 @@
+{
+  "clip": "sit/CharlieAndTheChocolateFactory_sit_f_nm_np1_le_med_7.avi",
+  "sha256": "093415dae629ba111f09f555fc3010f227cbd547f58dbfecb2c4c47081418c83",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "adbde5ea91f5742623f60dd8757251494bf3d4718276378f7d2169873e65e7b3",
+  "grid_sha256": "0b25f14f7772e543f003abd2c5cf4c7b4a7508e7d84b5e3330338c0a316708cf",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

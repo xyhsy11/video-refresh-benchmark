@@ -1,0 +1,12 @@
+{
+  "clip": "stand/Crash_stand_f_cm_np1_le_med_15.avi",
+  "sha256": "1414afa62d6b70b00ea7727714f1d117e799a05a8fe03e428bed78397a457f11",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "1e13aefe6799820b539bd7495164a4f984936aef552be6a55935a010c6cf8de5",
+  "grid_sha256": "1c346e9a0138ff8fefedd206d5b6bbac921f1869dd602aa45534846b61d837e1",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "throw/Webbpitching0045-8-08_throw_f_cm_np1_ba_med_5.avi",
+  "sha256": "2ab061e07d2fbbde8e5ed9123d1bac30b911ac875b2dee27e110729bc9e60918",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "40c38b1cb2871ea49738be076480cc31d06a59bb741df640c7522fa574762545",
+  "grid_sha256": "0a84f2e0db8c5002917d02751632360b546acc94202cf8e71ce62a69859f41b2",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

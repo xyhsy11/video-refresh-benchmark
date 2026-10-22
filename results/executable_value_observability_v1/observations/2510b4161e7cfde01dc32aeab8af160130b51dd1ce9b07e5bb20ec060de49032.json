@@ -1,0 +1,12 @@
+{
+  "clip": "cartwheel/Parada_de_mao_cartwheel_f_cm_np1_fr_med_2.avi",
+  "sha256": "16b5bce36a4af5684b41b36bb2c4f916103c2631b11ad6e44f76079effa3dfdb",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "e08f8a863f091706e44ff665ce66fd93b627aef567f994986993d64efb57095c",
+  "grid_sha256": "6b9389ee01892f829968f822e7499c0cfaa2989785269df384c01420a87d6d8e",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

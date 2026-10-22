@@ -1,0 +1,12 @@
+{
+  "clip": "climb/Kletter-WM_2005-_Speed_Achtelfinale_Herren_Minatchev_Hroza_climb_f_cm_np2_ba_med_0.avi",
+  "sha256": "0a2ab00954e04f05ea548ada78da4366ca4c7b2410fd5d0587fb5aaaf30e4d08",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "7d55255255a17c5295359aab669123c2e57c09142f8ae407799ef1b36d7862ab",
+  "grid_sha256": "1c346e9a0138ff8fefedd206d5b6bbac921f1869dd602aa45534846b61d837e1",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

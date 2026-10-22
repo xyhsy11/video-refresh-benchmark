@@ -1,0 +1,12 @@
+{
+  "clip": "sit/AllThePresidentMen_sit_f_nm_np1_fr_goo_3.avi",
+  "sha256": "0aff1f3f1aea3f2c6c209f3a7e1f375905e449bdc549bc5f0830e780e81a4aea",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "4b4d94766387ec196c1885050a71d843a18dcf3b0d33cb06c653c8ac8837e7f7",
+  "grid_sha256": "0ee15b35622af83033d685cf4a895376f725b2b841c57cd4bb7b2e454ff504e7",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

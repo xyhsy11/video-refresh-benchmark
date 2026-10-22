@@ -1,0 +1,12 @@
+{
+  "clip": "fencing/Hamlet_(1996)_Fencing_Scenes_fencing_u_cm_np2_ri_med_4.avi",
+  "sha256": "92e60628d232034bbac1b6baa0151b0b76e34cbcbd98a3c8bee3599deee97536",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "da141f454a18424f8fd4168596c87d0c93890cce4d47d3a32be63dcab1514508",
+  "grid_sha256": "3bd4f7f313e151873821d5e8553ad60be5f95b7ef0e92a5f8170334da63de7f2",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

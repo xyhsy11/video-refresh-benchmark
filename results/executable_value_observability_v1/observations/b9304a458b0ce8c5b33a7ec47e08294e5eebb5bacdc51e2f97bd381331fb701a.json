@@ -1,0 +1,12 @@
+{
+  "clip": "draw_sword/Samurai_Fight_Scene_draw_sword_f_cm_np2_fr_goo_2.avi",
+  "sha256": "1cae319ad6a4d2eddaeeef08bdbb90021160082270b7a4389f93035519c5a7fc",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "bb4ae4c446623928bf5a815048b212d2bddc396d5c7270496387a915357281d6",
+  "grid_sha256": "5e149931ae8fff466c50f96fa973af5b09da9d72c1029be5a8f05ad31a85f8dc",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

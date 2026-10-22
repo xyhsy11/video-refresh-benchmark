@@ -1,0 +1,12 @@
+{
+  "clip": "golf/Morgan_Pressel_golf_f_cm_np1_ri_goo_0.avi",
+  "sha256": "a74b522f7d1a8dfbb88b7fb91cfd4566cc9c7e973b8dbbebc253931d500f1aa3",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "002d27067e1cb5583d7696ffcae2a277948c29f5037ca38f2a8e41d8bdc47130",
+  "grid_sha256": "162b5a3e1e27d70610f324f40d820171da989bd27b20a05bb1a4ddc4f2822617",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

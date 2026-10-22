@@ -1,0 +1,12 @@
+{
+  "clip": "climb_stairs/Increase_stride_length_by_running_stairs__working_step_over_action_speed_development_climb_stairs_f_cm_np1_le_med_2.avi",
+  "sha256": "edd6ed90726e67fde0dea0d3d0b8a4696715068eaf4b4a592858e7d68880522e",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "ed45dfac8bca6a6c96f65005ae07f9c71ae7607f69103dfd11b2d00728c5c8a0",
+  "grid_sha256": "1dfeef9ea4dcf328bd5d11eac42579a135fc54423ff5a22d3bdbb33094c55d3f",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

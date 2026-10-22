@@ -1,0 +1,12 @@
+{
+  "clip": "sit/NOVA_ELEGANTUNIVERSE3_sit_f_nm_np1_fr_med_2.avi",
+  "sha256": "7b1c5e8e11efc4cbcf0e7e205bbbc95b390b34e27bd6e71b7f747ceb64178929",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "271cc9ce8470c510b7994f51fc3548f4bc984c9de24d92bce3ff69c0f1799c24",
+  "grid_sha256": "34b5a748cd3c03c8af4ecc84a7eb1a6379f43315d606c47773e765e47bc9a4c2",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

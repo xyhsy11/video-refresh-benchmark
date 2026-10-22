@@ -1,0 +1,12 @@
+{
+  "clip": "walk/Panic_in_the_Streets_walk_u_nm_np1_fr_med_4.avi",
+  "sha256": "9e8103eef4d2217688bf8a6d60292b59a349940c4a569d3183156c4f437a36bc",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "e97fb43f59b316fd765ef3184f7ba289bf81f5bc54719b68cbbedd233b3bea31",
+  "grid_sha256": "6a7bfb190bdd9f5fc1a89ff2ec9ade4bda5de82854f7c61d75759685df53ee5e",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

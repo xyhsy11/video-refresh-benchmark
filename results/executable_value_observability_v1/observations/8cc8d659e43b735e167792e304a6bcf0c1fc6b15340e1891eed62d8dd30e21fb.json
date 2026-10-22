@@ -1,0 +1,12 @@
+{
+  "clip": "ride_horse/DressageandJumping_ride_horse_f_cm_np1_fr_med_2.avi",
+  "sha256": "914dcb845aa071fbc46bc30a6fcb5bc04f4087cddf30b6b9920ce889b672897c",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "d46d4f86aebaad324936443eadc8355cad105fe56c41072e49471fbedd2412a2",
+  "grid_sha256": "304dcbabfc621ced0a0d613167963fc7ef64010c41b69bda8350eac86e13340c",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

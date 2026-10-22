@@ -1,0 +1,12 @@
+{
+  "clip": "hit/Vorschlaghammer_hit_f_cm_np1_fr_bad_1.avi",
+  "sha256": "5676c39f085a91b07d8abd4595a00ae2fc8f2b27363aa81b6995f7d46fd4d0c0",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "50b462b64158ef406bc074943d1cd559074ee79f20c192e33cb49461f346fe02",
+  "grid_sha256": "4589b694982f3cc25dbb6c2e86f4fa4cd4f350bc2b1e2018e003d0d1bfcbd555",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

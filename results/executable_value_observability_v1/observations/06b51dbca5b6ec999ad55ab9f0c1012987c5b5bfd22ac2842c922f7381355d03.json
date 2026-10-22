@@ -1,0 +1,12 @@
+{
+  "clip": "cartwheel/Projekt_SPOHO_2008_-_27_02_08_-_Training-_Bodenk_r_4_cartwheel_f_cm_np1_ri_med_3.avi",
+  "sha256": "34b365afc381c05fb245d98993038bd1943ea3222755080c14b89b3e8c8545f6",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "f80e713a46222ada539b128eb08ccbba88617ff96513ebc22152b234684361f8",
+  "grid_sha256": "e6b11e3d04a9a19669ab6fe27b36f321921b56655233e60178662318b6ab0417",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

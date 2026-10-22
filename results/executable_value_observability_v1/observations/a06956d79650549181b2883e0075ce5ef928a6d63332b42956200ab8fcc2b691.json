@@ -1,0 +1,12 @@
+{
+  "clip": "smile/Pirates_3_smile_h_nm_np1_ri_goo_1.avi",
+  "sha256": "4bf0f824b2cc60f01d4bbade7c163aa7784f35533d03734c6860b3d435a8ed2a",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "c7e2ce5c2f21c905658d840c92a90279d89de7f012cd2f65cd755e5a06948890",
+  "grid_sha256": "7da6484a6950fa73116acc7935dbfafb455c263c53623af18d299f2b28c84710",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

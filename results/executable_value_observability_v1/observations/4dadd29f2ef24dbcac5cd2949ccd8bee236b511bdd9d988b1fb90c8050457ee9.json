@@ -1,0 +1,12 @@
+{
+  "clip": "shoot_gun/Hip_Firing_the_SAW_shoot_gun_u_cm_np1_ba_med_2.avi",
+  "sha256": "9b8e5224db477da0df3ef154ba77a8f0976f6a16fa6cf2e6c9cf3941902b3210",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "33112b954c0c031ef1c92f4f78830ca8db1210fae648329b07da58ce24d57099",
+  "grid_sha256": "e96001e611f6e8a37a2ef4437d820da970d02f93920f2b79eb443aa395e7c0b1",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

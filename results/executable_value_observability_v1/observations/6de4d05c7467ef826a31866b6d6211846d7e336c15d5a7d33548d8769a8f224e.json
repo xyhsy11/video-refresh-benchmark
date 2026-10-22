@@ -1,0 +1,12 @@
+{
+  "clip": "pour/My_First_Hefeweizen_pour_u_nm_np1_ri_med_0.avi",
+  "sha256": "57ebaeddcc3f981c1d781203ba38a5e16057768687919efa5832447a87050865",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "267b50785390ec3274d67233f08d68fd70b8f2ec5e5692f71f1f35263dc4b90a",
+  "grid_sha256": "8859c676e33793464b10a6a2b6f11e930d7af44ac8c81df43490e4aebe8a9d26",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

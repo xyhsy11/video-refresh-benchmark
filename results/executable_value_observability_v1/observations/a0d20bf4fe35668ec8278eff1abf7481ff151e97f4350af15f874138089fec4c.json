@@ -1,0 +1,12 @@
+{
+  "clip": "dive/Oberstrick_-_K_pfer_-_3m_dive_f_cm_np1_le_bad_0.avi",
+  "sha256": "d71dccd329f307d15e88a85dfbedac5de0e6e162ddf19f1f85ef6379e2827c20",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "9e468ea8982694adbf00cfd2e1da5761298a70bf530ba150a3823c66fd450569",
+  "grid_sha256": "286023db770d7b01437da3af6d6604dd588cfa4159d1a8c0242663eaf558234f",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

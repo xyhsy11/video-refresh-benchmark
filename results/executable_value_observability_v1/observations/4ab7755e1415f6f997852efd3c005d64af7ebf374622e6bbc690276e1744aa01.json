@@ -1,0 +1,12 @@
+{
+  "clip": "handstand/Handstand_tutorial_1_handstand_f_nm_np1_le_med_1.avi",
+  "sha256": "ecb96b1362da900f946f16ff3f917c9fe91655c2affd8e7ca08509386faebf06",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "0787d3ec8cc1ecafce5ea6b50168cb405214e0ff6131f09923df0a46b6b885ac",
+  "grid_sha256": "f3673a397dd731ca681ef8e42b5f05cdb8f4cdd51b6588f4fb3ca100f8c01651",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

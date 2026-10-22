@@ -1,0 +1,12 @@
+{
+  "clip": "drink/CastAway1_drink_u_nm_np1_ri_goo_7.avi",
+  "sha256": "f20e4e1670377b8afd63a418ca6d239c6fd6e763778141d1dedf44fbd8c0cd3b",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "436888b652bfe6890c3a30ff31b95c02bc9ccd0a63530aa1fa5f08f562017e3e",
+  "grid_sha256": "84ee865afde368949e5f09859ae6aef849031cbce94b96cbb5cd2d30453b4bdc",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

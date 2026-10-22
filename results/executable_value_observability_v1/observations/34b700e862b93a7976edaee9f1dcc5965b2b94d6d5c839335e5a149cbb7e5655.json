@@ -1,0 +1,12 @@
+{
+  "clip": "draw_sword/The_Last_Samurai_-_In_Your_Honor_draw_sword_u_nm_np1_fr_med_6.avi",
+  "sha256": "f0dbcb8510d59e0b791b1c8ab197d090f2f92ff3f88fa6959db92a41523160ce",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "97909fa61e2b814decd9fbd66a98f965e1027bdc2baae65ff52faaba0a097874",
+  "grid_sha256": "05f8e9730930ded418c67aec48f087299aadee4537e4f864ceeb9d4fcc25f950",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

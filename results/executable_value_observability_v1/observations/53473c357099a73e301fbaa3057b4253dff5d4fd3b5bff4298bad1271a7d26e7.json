@@ -1,0 +1,12 @@
+{
+  "clip": "pour/The_Pomegranate_Martini_pour_u_cm_np1_fr_med_1.avi",
+  "sha256": "1c1f174ee5e1fe3360a144b905a806e1dbdef727d7eb858d4aa2552c0e873895",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "fcce6edf0778b89c2d1591fe72e7730ece8534f2935a054d1ce554910bfab63b",
+  "grid_sha256": "8dfbbf575170814ff6beeaff22b46e95b647e05aa9f413a9d2ab226744ded5a5",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

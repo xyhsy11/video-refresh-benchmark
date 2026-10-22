@@ -1,0 +1,12 @@
+{
+  "clip": "eat/AMADEUS_eat_u_nm_np1_fr_med_5.avi",
+  "sha256": "c81fb00599a41caf335778e48bc1b83861d66e5480b28a06154f223bda5d5add",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "06b667e2efc47a697705010a159a0a40de0d16e9dfa73ae6c6239714d7416071",
+  "grid_sha256": "8f2980bf30f1b73c6fc911533545e48f0820ca9b0405d80455eebb2edd965faa",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

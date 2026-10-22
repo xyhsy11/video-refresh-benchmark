@@ -1,0 +1,12 @@
+{
+  "clip": "wave/DONNIE_DARKO_wave_u_nm_np1_le_goo_8.avi",
+  "sha256": "5eb77c1896256f8bd401bf336a1879711553804a0b7f5f09e975d0738c1f9f00",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "25b3d08bb04cd92a1eb49d8173b5bb4b4c5bf3f31e85611bd27464b1a497e147",
+  "grid_sha256": "3299dc86fa200c04132c52573164666a5b734748986759d9343ffbbd7f37d882",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

@@ -1,0 +1,12 @@
+{
+  "clip": "shoot_bow/Fellowship_7_shoot_bow_h_nm_np1_fr_med_8.avi",
+  "sha256": "fff7e37692d0ecf18fe01fdd3fcddc46723f124a7e947aeee88f5bf44019a51c",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "bc8c14711e1ffb554754088d4a7b81212fa8d4235be6195e566bf92e1b9c1a37",
+  "grid_sha256": "fb078df41a130fd4cd4306f2d9e5fcf5f5917e31ada2ac280fc78f505629b111",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

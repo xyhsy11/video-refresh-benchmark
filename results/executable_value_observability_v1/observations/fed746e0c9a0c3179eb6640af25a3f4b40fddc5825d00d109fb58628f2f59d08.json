@@ -1,0 +1,12 @@
+{
+  "clip": "somersault/Bodenk_r_Spo_08_somersault_f_cm_np1_le_med_0.avi",
+  "sha256": "431ba48293eab20737c27ed1a3324aa9dc566d10ad9717a21e7d1c86f5eb0757",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "37620a59d19bef490d274ce4b308bcabc7668c769a1fd33df4ef875765696b3e",
+  "grid_sha256": "ac4e73d324d2c95370bfb5026b12113326b2b85dd8d23d647de4c9747d03c17d",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

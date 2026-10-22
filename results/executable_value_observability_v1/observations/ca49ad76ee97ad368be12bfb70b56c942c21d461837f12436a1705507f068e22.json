@@ -1,0 +1,12 @@
+{
+  "clip": "handstand/Gymnastic_handstand_handstand_f_nm_np1_le_med_2.avi",
+  "sha256": "cc1b85ed01982f7574c97fcea3d6f37ea464d0510370cfd664233b1a019512be",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "3a33f9ad646523a44f8370bee6a0cee46a76a9fc40971dbca502fce307a9133e",
+  "grid_sha256": "86411bc05e08babc7da4def0609d7726b9a17d1b645a3ab1e66e62d2162897c1",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

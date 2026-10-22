@@ -1,0 +1,12 @@
+{
+  "clip": "sword/Obi-Wan_Kenobi__Anakin_Skywalker_and_Yoda_vs__Count_Dooku_sword_f_cm_np2_ri_bad_2.avi",
+  "sha256": "06f2e858e65bb1584f9e473c2d6800e9afba5f22da273a320d654c69c91ce34a",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "0be2337bf50b3a2e9f9e5deab0bc436bb576ef366fccd1a312aae8e94f16b472",
+  "grid_sha256": "b4576809ae604748e00e7b1528d04b9824744118893d8e023baa60a01737687b",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

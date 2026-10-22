@@ -1,0 +1,12 @@
+{
+  "clip": "pick/People_Fishing_pick_f_cm_np2_ri_med_0.avi",
+  "sha256": "a940d19d9f225a78ac5b97f30ef3f41eaf7e63a28cfddf68e5c6cd42d47ff6e0",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "e37fa7231a2fce403d3985e0f72bef9b52d103965412ba18a030c6aa797dc5be",
+  "grid_sha256": "1cc52f750d70afa5fb96cdf357f652ac63963874732def64124b54ed2c8b8755",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

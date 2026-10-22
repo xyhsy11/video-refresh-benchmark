@@ -1,0 +1,12 @@
+{
+  "clip": "dive/hecht_sprung_dive_f_cm_np1_ri_bad_0.avi",
+  "sha256": "be880d3d451b99cebc2ccd3379d898964e054193d9d320fa9c8b97dc772eead3",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "60b496d8d346681b12568cc3de247abd8fb0eee3ec09eb75dc240d94290cca0e",
+  "grid_sha256": "7a5610001306e915b714f90f9b8f2b14d55c3eaf5a8d98a4ba6561d8434bf72b",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}

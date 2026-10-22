@@ -1,0 +1,12 @@
+{
+  "clip": "shoot_gun/Pirates_5_shoot_gun_h_nm_np1_le_goo_2.avi",
+  "sha256": "a2259545ec8d2b1226660ac297680ed62f347a69583259d056f0f35928c38d8b",
+  "design_sha256": "da2f9461bdf7c71770f180a496b25724fa9f86f6ad64f06b96df73578a3baec4",
+  "original_sha256": "207ee74a223985df8fc84a6c116847938903274fc5b60c3798153a8cb080551d",
+  "grid_sha256": "a5e8327989dd9f0c649d5b9d87ec854bad04081eeb6b288a73f61cbb496da495",
+  "shape": [
+    12,
+    147
+  ],
+  "genuine_endpoint_thumbnails": 16
+}
