@@ -1,0 +1,13 @@
+{
+  "path": "data/source/temporal_refresh_generalization_v1/X3D_XS.pyth",
+  "exists": true,
+  "expected_sha256": "6dafc96144c88f800b190d2cb179ff69b8fd48c40afd4deca6c1e61f76fdfe86",
+  "actual_sha256": "6dafc96144c88f800b190d2cb179ff69b8fd48c40afd4deca6c1e61f76fdfe86",
+  "upstream_source_hashes": {
+    "data/source/temporal_refresh_generalization_v1/pytorchvideo-f3142bb05cdb56af0704ab6f0adfb0c7bbafe4a0/pytorchvideo/models/hub/x3d.py": "4825ccbd581408a1a5a36bdf0427d9431b64e6e3d4a9744403aba10b10c5f680",
+    "data/source/temporal_refresh_generalization_v1/pytorchvideo-f3142bb05cdb56af0704ab6f0adfb0c7bbafe4a0/pytorchvideo/models/x3d.py": "91fc57b52ecad991ffb84ad77183482cce4eb7d4e04d8ba0938b6ea6ca5b8fcd",
+    "data/source/temporal_refresh_generalization_v1/pytorchvideo-f3142bb05cdb56af0704ab6f0adfb0c7bbafe4a0/pytorchvideo/models/head.py": "52d13b0f3c8511f828c6587c73372f218618b0a480de97d288d32fe8a451956b",
+    "data/source/temporal_refresh_generalization_v1/pytorchvideo-f3142bb05cdb56af0704ab6f0adfb0c7bbafe4a0/pytorchvideo/transforms/functional.py": "aa41f70e2d62f309bd5ad77d62c88055b744b5faafe7d71aad37eb61c11a3e4c"
+  },
+  "native_validation_scope": "Historical real native-logit verification retained; fresh fitting-only native validation pending"
+}

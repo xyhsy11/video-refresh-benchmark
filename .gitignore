@@ -156,3 +156,9 @@ client_secret*.json
 !results/continuation_value_gap_v1/
 !results/continuation_value_gap_v1/**
 results/continuation_value_gap_v1/*.writing
+
+# Experiment 27 curated evidence; original RGB and feature caches stay ignored.
+!results/native_head_value_confirmation_v1/
+!results/native_head_value_confirmation_v1/**
+results/native_head_value_confirmation_v1/run.lock
+results/native_head_value_confirmation_v1/**/*.writing

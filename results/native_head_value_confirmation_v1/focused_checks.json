@@ -1,0 +1,8 @@
+{
+  "command": ".venv_temporal/Scripts/python.exe -m unittest test_native_head_value_confirmation -v",
+  "unique_checks_passed": 6,
+  "final_recorded_duration_seconds": 19.038,
+  "source": "actual captured command output in task transcript",
+  "synthetic_observations": false,
+  "scope": "exact combinatorial contracts, genuine cached fitting features and real official annotation metadata; no E27 empirical evidence"
+}

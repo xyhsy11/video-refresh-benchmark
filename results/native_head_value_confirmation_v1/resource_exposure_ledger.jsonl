@@ -1,0 +1,7 @@
+{"at_utc": "2026-10-23T04:42:22.590513+00:00", "kind": "preflight_complete", "elapsed_seconds": 42.78929419999986, "status": "BLOCKED_RESOURCE", "encoder_starts": 0, "encoder_completions": 0, "decodes": 0, "probe_fits": 0}
+{"at_utc": "2026-10-23T04:46:24.983732+00:00", "kind": "preflight_complete", "elapsed_seconds": 26.05161629999975, "status": "BLOCKED_RESOURCE", "encoder_starts": 0, "encoder_completions": 0, "decodes": 0, "probe_fits": 0}
+{"at_utc": "2026-10-23T04:51:00.613659+00:00", "kind": "real_feature_objective_contract_fit", "verification_probe_fits": 1, "scope": "one archived fitting source, mechanical check only, not E27 planning"}
+{"at_utc": "2026-10-23T04:51:03.207721+00:00", "kind": "prior_real_feature_objective_contract_fit", "verification_probe_fits": 1, "scope": "successful first objective contract test before per-fit logging was introduced; no E27 probe fit"}
+{"at_utc": "2026-10-23T04:53:10.084895+00:00", "kind": "preflight_complete", "elapsed_seconds": 36.17777350000006, "status": "BLOCKED_RESOURCE", "encoder_starts": 0, "encoder_completions": 0, "decodes": 0, "probe_fits": 0}
+{"at_utc": "2026-10-23T04:56:18.421424+00:00", "kind": "pre_exposure_implementation_refresh", "reason": "Final guards, smoke verification and reporting paths completed; no model exposure; metadata identities unchanged"}
+{"at_utc": "2026-10-23T04:58:07.240723+00:00", "kind": "pre_exposure_line_endings", "scope": "New artifacts only; explicit LF writers; no historical artifact changed"}

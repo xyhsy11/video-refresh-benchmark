@@ -1,0 +1,13 @@
+{
+  "at_utc": "2026-10-23T04:38:42.079154+00:00",
+  "head": "c4e20265aa908b38856a799bf27f2576bffb51d5",
+  "branch": "codex/native-head-value-confirmation-v1",
+  "status": "?? native_head_value_confirmation.py\n?? presentation_outputs/\n?? run_native_head_value_confirmation.py\n?? seminar/\n?? seminar_build/\n?? seminar_output/",
+  "reviewed": "013d0febe3f42399cad052d12cd3fcc612882379",
+  "reviewed_tree": "f4c21322a482a30ef8b36491f7f68893f51edfd2",
+  "actual_tree": "f4c21322a482a30ef8b36491f7f68893f51edfd2",
+  "reconciliation": "013d0fe Merge pull request #26 from xyhsy11/codex/continuation-value-gap-v1\n5c43513 Merge pull request #25 from xyhsy11/codex/continuation-value-gap-v1\naa147a1 Merge pull request #24 from xyhsy11/codex/safe-schedule-density-v1\n6a7c433 Merge pull request #23 from xyhsy11/experiment/refresh-failure-evidence-v1",
+  "tracked_tree_difference": "",
+  "AGENTS": [],
+  "authority": "Direct user authorizes commit/push; no PR/merge; preserve unrelated presentation and seminar directories"
+}
