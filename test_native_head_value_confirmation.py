@@ -23,6 +23,102 @@ ROOT = Path(__file__).resolve().parent
 
 
 class ExactContracts(unittest.TestCase):
+    def test_completed_release_is_not_reserved_twice(self):
+        from native_head_confirmation_availability import remaining_release_transfer,index,OUT
+        from native_head_value_confirmation import read
+        self.assertTrue(index('val')['complete'])
+        self.assertEqual(remaining_release_transfer('val'),0)
+        release=read(OUT/'population_rule.json')['releases']['test']
+        expected=sum(release['representations'][r['url']]['content_length'] for r in index('test')['coverage']
+            if not r['complete'] and not release['representations'][r['url']].get('cached_path'))
+        self.assertEqual(remaining_release_transfer('test'),expected)
+
+    def test_remaining_work_projection_uses_real_input_receipts(self):
+        from native_head_confirmation_availability import remaining_work_projection,OUT
+        events=[json.loads(l) for l in (OUT/'resource_exposure_ledger.jsonl').read_text().splitlines()]
+        a=remaining_work_projection(8,events);b=remaining_work_projection(20,events)
+        self.assertGreater(a['measured_successful_catalog_nontransfer_seconds'],0)
+        self.assertGreater(a['measured_catalog_archive_bytes'],0)
+        self.assertGreater(a['measured_eligible_fitting_screens'],0)
+        self.assertGreaterEqual(b['test_screening_projection_seconds'],a['test_screening_projection_seconds'])
+        self.assertGreaterEqual(b['projected_test_original_bytes'],a['projected_test_original_bytes'])
+
+    def test_archive_absence_advances_real_ranked_ice_fishing_prefix(self):
+        from native_head_confirmation_availability import membership
+        from native_head_confirmation_inputs import ordered_groups
+        from native_head_value_confirmation import read
+        cache=ROOT/'data/source/native_head_value_confirmation_v1'
+        old=read(cache/'attempt_history/d97802601500101a94c91de2a546769e9fae29ab/data/source/native_head_value_confirmation_v1/candidate_manifest.json')
+        absent='7tTouR10Qro_000092_000102.mp4'
+        self.assertEqual(membership('val',absent)['state'],'CONFIRMED_ABSENT')
+        groups=ordered_groups(old,'val')
+        self.assertFalse(any(r['filename']==absent for _,v in groups for r in v))
+        self.assertEqual(groups,ordered_groups(list(reversed(old)),'val'))
+
+    def test_present_uncached_is_still_a_required_candidate(self):
+        from native_head_confirmation_availability import membership
+        from native_head_confirmation_inputs import ordered_groups
+        from native_head_confirmation_runtime import local_path
+        from native_head_value_confirmation import read
+        rows=read(ROOT/'data/source/native_head_value_confirmation_v1/candidate_manifest.json')
+        row=next(r for r in rows if r['split']=='val' and membership('val',r['filename'])['state']=='PRESENT' and local_path(r['filename'],'val') is None)
+        self.assertEqual(ordered_groups([row],'val')[0][1],[row])
+
+    def test_independent_absence_requires_all_real_pinned_catalogs(self):
+        from native_head_value_confirmation import read
+        from verify_native_head_value_confirmation import independent_availability
+        cache=ROOT/'data/source/native_head_value_confirmation_v1';out=ROOT/'results/native_head_value_confirmation_v1'
+        rule=read(out/'population_rule.json');paths=sorted((cache/'catalogs').glob('*.json'))
+        complete=independent_availability(out,'val',rule,cache/'catalogs',cache/'metadata',cache/'scratch',paths)
+        incomplete=independent_availability(out,'val',rule,cache/'catalogs',cache/'metadata',cache/'scratch',paths[:-1])
+        self.assertEqual(complete['counts'].get('CONFIRMED_ABSENT'),25)
+        self.assertNotIn('CONFIRMED_ABSENT',incomplete['counts'])
+        self.assertEqual(incomplete['states']['7tTouR10Qro_000092_000102.mp4'],'UNKNOWN')
+        permuted=independent_availability(out,'val',rule,cache/'catalogs',cache/'metadata',cache/'scratch',list(reversed(paths)))
+        self.assertEqual(complete['states'],permuted['states'])
+
+    def test_real_multi_class_component_canonical_before_quotas(self):
+        from native_head_confirmation_inputs import ordered_groups
+        from native_head_value_confirmation import read
+        rows=read(ROOT/'data/source/native_head_value_confirmation_v1/candidate_manifest.json')
+        groups=ordered_groups(rows,'val')
+        component,members=next((c,v) for c,v in groups if len({r['y'] for r in v})>1)
+        self.assertEqual(members,sorted(members,key=lambda r:r['canonical_rank']))
+        self.assertEqual(ordered_groups(list(reversed(members)),'val'),[(component,members)])
+        # Both real classes remain in one group until a canonical clip is
+        # resolved. The group cannot consume a quota in each class.
+        self.assertEqual(len({r['component'] for r in members}),1)
+
+    def test_stale_catalog_and_inconsistent_exclusion_rejected(self):
+        from copy import deepcopy
+        from native_head_value_confirmation import read
+        from verify_native_head_value_confirmation import independent_availability,availability_exclusions_valid
+        cache=ROOT/'data/source/native_head_value_confirmation_v1';out=ROOT/'results/native_head_value_confirmation_v1'
+        rule=read(out/'population_rule.json');paths=sorted((cache/'catalogs').glob('*.json'))
+        # Corrupt a provenance identity in memory, never an empirical input or
+        # saved study record. The real legacy catalog then cannot prove absence.
+        legacy=next(p for p in paths if not read(p).get('enumeration'))
+        stale=deepcopy(rule);stale['legacy_complete_catalog_sha256'].pop(legacy.name)
+        checked=independent_availability(out,'val',stale,cache/'catalogs',cache/'metadata',cache/'scratch',paths)
+        self.assertFalse(checked['complete'])
+        self.assertNotIn('CONFIRMED_ABSENT',checked['counts'])
+        valid=independent_availability(out,'val',rule,cache/'catalogs',cache/'metadata',cache/'scratch',paths)
+        present=next(n for n,s in valid['states'].items() if s=='PRESENT')
+        # A deliberately inconsistent metadata claim must fail the contract.
+        self.assertFalse(availability_exclusions_valid([dict(split='val',filename=present,reason='archive_absent')],'val',valid['states']))
+
+    def test_population_snapshot_and_counters_survive_amendment(self):
+        from native_head_value_confirmation import read
+        from native_head_confirmation_state import totals
+        out=ROOT/'results/native_head_value_confirmation_v1'
+        snapshot=read(out/'blocked_d978026/snapshot_identity.json')
+        for name,record in snapshot['files'].items():
+            self.assertEqual(sha(ROOT/record['snapshot']),record['sha256'])
+        old=ROOT/snapshot['files']['results/native_head_value_confirmation_v1/resource_exposure_ledger.jsonl']['snapshot']
+        self.assertTrue((out/'resource_exposure_ledger.jsonl').read_bytes().startswith(old.read_bytes()))
+        for key,value in snapshot['counters'].items():
+            if isinstance(value,(int,float)):self.assertGreaterEqual(totals()[key],value)
+
     def test_amended_network_cap_preserves_real_prior_receipts(self):
         from run_native_head_value_confirmation import CAPS,network_ledger
         self.assertEqual(CAPS['network_bytes'],61*2**30)

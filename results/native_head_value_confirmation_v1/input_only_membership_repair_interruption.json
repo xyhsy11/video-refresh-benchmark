@@ -1,0 +1,9 @@
+{
+  "at_utc": "2026-10-23T09:11:15.634341+00:00",
+  "pid": 36672,
+  "process_created": 134372177472565864,
+  "genuine_interruption": true,
+  "encoder_starts": 0,
+  "reason": "Prevent stale availability publication after real catalog reparsing",
+  "preserved": "All original bytes, catalogs, completed technical receipts and cumulative counters"
+}

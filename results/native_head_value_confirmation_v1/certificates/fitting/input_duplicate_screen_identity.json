@@ -1,0 +1,8 @@
+{
+  "path": "data/source/native_head_value_confirmation_v1/input_duplicate_edges.json",
+  "sha256": "df55eb910f8105d69186149f50f1a08833a3442e9c6579469929b56dab688f1c",
+  "new_sources": 3200,
+  "historical_fingerprints": 16660,
+  "edges": 0,
+  "unavailable": "No perceptual comparison against unavailable K400 training RGB; parent identities still exclude all known train parents."
+}

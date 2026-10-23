@@ -84,3 +84,31 @@ losses, effects, estimates or interval endpoints are rounded or altered.
 The task-owned downloader was deliberately interrupted after validating its PID/birth identity to apply buffered reserved reads. Its partial original bytes remain. Recovery charges the interrupted read reservation conservatively and records a stale-lock/operation receipt; no counters are reset and no encoder call occurred. Throughput projections use only genuine transfers under the current IO recipe.
 
 A second validated task-process interruption applies direct directory-metadata retained-byte checks, replacing repeated per-file path resolution. The completed first new archive and all member/transfer bytes are preserved; resumed cataloging revalidates them. This changes accounting overhead only, with zero E27 encoder calls before the repair.
+
+## 2026-10-23 archive-available population and real execution
+
+The user-supplied d978026 resumption brief prospectively authorizes
+archive_available_v1 for both roles. See population_amendment.md,
+population_rule.json and blocked_d978026/snapshot_identity.json. All 25 proven
+validation release absences follow the same rule. Original annotations and
+forbidden-source identity edges remain in the global graph. The original
+absence reports remain historical evidence and their active blocker status is
+explicitly superseded.
+
+The real attempt independently certified 3,200 fitting components and completed
+the genuine eight-source native smoke (128 forwards, all 400 checks). Three
+validated input-only interruptions corrected the full-work resource projection,
+post-revisit availability publication, and pre-EVAL replanning reservations/smoke
+refresh; original bytes, completed receipts, exposure and cumulative counters
+were preserved. A genuine cached-archive CRC/member revisit demonstrated stale
+ledger rejection and successful republication. Existing technical-screen code
+is AST-identical to the reviewed recipe.
+
+The unchanged runner stopped at its fitting-throughput gate. An additional
+genuine ordinary-reference profile (128 forwards on the same eight sources)
+excluded smoke-only assertions and exactly matched all saved arrays. It is
+diagnostic evidence, not cached throughput, an altered active gate or an EVAL
+result. Even the smallest allowed full-study workload projects about 16.9h of
+cumulative collection under the measured gates, exceeding the unchanged 8h cap.
+No precision m was chosen; no probes, EVAL effects, final timing or figures were
+fabricated. The scientific study remains NOT_EVALUATED and incomplete.

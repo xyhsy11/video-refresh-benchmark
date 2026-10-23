@@ -1,0 +1,20 @@
+{
+  "url": "https://s3.amazonaws.com/kinetics/400/readme.md",
+  "bytes": 332,
+  "sha256": "5d16812099c8d4e91d9fc84bf1c2c8120f5501662a898b916fe8ada65bd0ebfd",
+  "path": "data/source/native_head_value_confirmation_v1/metadata/official_readme",
+  "headers": {
+    "x-amz-request-id": "Z40YZAPRCEZ3A3SM",
+    "x-amz-id-2": "q6K7JO3nRBPcfFVVMhscU5wKe86Q0R+pwDWaY7FuSvqKYHun76ElDRAJkPp1xkr0bJCuSKoOcJY7uF5iqQP6s7r9CSfXiNwp",
+    "Content-Length": "332",
+    "Accept-Ranges": "bytes",
+    "Date": "Fri, 23 Oct 2026 04:39:39 GMT",
+    "Server": "AmazonS3",
+    "Last-Modified": "Tue, 13 Apr 2021 07:40:48 GMT",
+    "ETag": "\"6ee29302a95ead540abc2f0e58b8ab25\"",
+    "Content-Type": "text/markdown",
+    "Connection": "close"
+  },
+  "at_utc": "2026-10-23T04:39:59.264473+00:00",
+  "status": "complete"
+}

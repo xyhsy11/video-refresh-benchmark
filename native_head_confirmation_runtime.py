@@ -104,6 +104,11 @@ def screen_population(split, m):
         if all(counts[r['y']]>=m for r in members):continue
         chosen = None
         for member in members:
+            from native_head_confirmation_availability import membership
+            availability=membership(split,member['filename'])
+            if availability['state']!='PRESENT':
+                from native_head_confirmation_inputs import MissingNeededInput
+                raise MissingNeededInput(split,member['filename'])
             path = local_path(member['filename'], split)
             if path is None:
                 save(OUT/f'{split}_prefix_certificate.json',dict(complete=False,per_class=m,counts=dict(counts),prefix=prefix,
@@ -114,12 +119,16 @@ def screen_population(split, m):
             if receipt.exists():
                 old=read(receipt)
                 if old['encoded_sha256']!=sha(path):raise RuntimeError('Screened source bytes changed')
+                if old['encoded_sha256']!=availability['origins'][0]['encoded_sha256']:
+                    raise RuntimeError('BLOCKED_INPUT: screened source is not the pinned archive original')
                 if old['eligible']:
                     chosen=dict(old['row'],**member);break
                 prefix.append(dict(component=component,filename=member['filename'],reason='technical_ineligible',receipt=rel(receipt)))
                 continue
             guard('collection')
             digest=sha(path)
+            if digest!=availability['origins'][0]['encoded_sha256']:
+                raise RuntimeError('BLOCKED_INPUT: cached original differs from pinned archive member')
             with metered('collection','technical-screen',source=member['filename']):
                 try:
                     encoded=path.read_bytes();pts,_=decode(encoded)
@@ -359,6 +368,42 @@ def source_values(data, predictions):
 
 
 def plan():
+    from native_head_confirmation_inputs import PlanningMembershipChanged
+    seen=set()
+    while True:
+        try:return plan_once()
+        except PlanningMembershipChanged as exc:
+            if (OUT/'evaluation_exposure.json').exists() or (OUT/'evaluation_seal.json').exists():raise
+            signature=sha(CACHE/'candidate_manifest.json')
+            if signature in seen:raise RuntimeError('BLOCKED_INPUT: joint fitting membership reconciliation did not converge') from exc
+            seen.add(signature)
+            # Preserve every superseded fitting-only output before rebuilding
+            # OOF precision. Feature arrays stay reusable for unchanged inputs;
+            # all ledger counters and prior stage receipts remain cumulative.
+            import shutil
+            generation=rank('planning-generation',now())
+            history=OUT/'planning_history'/generation;history.mkdir(parents=True)
+            names=['probes','precision_plan.json','fit_diagnostics.json','fit_oof_source_summaries.json',
+                'fit_oof_state_predictions.npz','fit_folds.json','cpu_projection.json','fitting_source_certificate.json',
+                'fitting_source_certificate_verification.json','joint_source_certificate.json','joint_source_certificate_verification.json',
+                'certificates','val_manifest.json.gz','test_manifest.json.gz','val_prefix_certificate.json','test_prefix_certificate.json',
+                'smoke_manifest.json','native_smoke_verification.json','smoke_independent_verification.json','throughput_projection.json']
+            preserved={}
+            for name in names:
+                p=OUT/name
+                if p.exists():
+                    if p.is_file():preserved[name]=sha(p)
+                    shutil.move(str(p),str(history/name))
+            current=state();save(history/'prior_stage_state.json',current)
+            current['receipts'].append(dict(stage='PREPARED',at_utc=now(),sha256={},reason=str(exc),prior_stage=current['stage'],generation=generation))
+            current['stage']='PREPARED';current['planning_generation']=generation
+            save(OUT/'stage_state.json',current)
+            save(history/'supersession.json',dict(reason=str(exc),input_candidate_sha256=signature,preserved=preserved,
+                no_eval_exposure=True,counters_reset=False))
+            event('input_only_planning_generation_superseded',reason=str(exc),generation=generation,counters_reset=False)
+
+
+def plan_once():
     from native_head_confirmation_inputs import acquire,certify,INPUT_CODE_SHA_AT_IMPORT,TRANSFER_IO_RECIPE
     from verify_native_head_value_confirmation import verify_source_certificate,scalar_loss
     from itertools import combinations
@@ -386,6 +431,18 @@ def plan():
     with metered('collection','native-model-setup'):encoder=NativeEncoder()
     smoke=sorted(fit,key=lambda r:rank('smoke',r['component']))[:8]
     if not (OUT/'smoke_manifest.json').exists():save(OUT/'smoke_manifest.json',smoke)
+    if state().get('planning_generation') and not (OUT/'native_smoke_verification.json').exists():
+        # Replanning may replace an original smoke source. Preserve prior
+        # arrays/receipts, then run eight actual currently eligible sources;
+        # cached vectors never stand in for new native checks or throughput.
+        import shutil
+        history=CACHE/'smoke_history'/state()['planning_generation']/rank('smoke-attempt',now())
+        for row in smoke:
+            p=feature_path(row)
+            if p.exists():
+                history.mkdir(parents=True,exist_ok=True)
+                for original in (p,p.with_suffix('.json')):shutil.move(str(original),str(history/original.name))
+        event('replanned_genuine_smoke_required',planning_generation=state()['planning_generation'],sources=8,counters_reset=False)
     encoder.validate_native=True
     encoder.torch.cuda.reset_peak_memory_stats()
     smoke_data=collect(smoke,encoder,'PROBE_FIT')
@@ -462,21 +519,38 @@ def plan():
     transfers=[e for e in events if e['kind']=='archive_transfer' and e.get('complete') and e.get('bytes',0)>0 and e.get('io_recipe')==TRANSFER_IO_RECIPE]
     test_archives=[r for r in read(OUT/'archive_inventory.json') if r['split']=='test' and not r.get('cached_path')]
     remaining_transfer=sum(r['content_length'] for r in test_archives if not (CACHE/'catalogs'/(rank('archive',r['url'])+'.json')).exists())
+    from native_head_confirmation_availability import remaining_work_projection
+    work=remaining_work_projection(pp['selected_m'],events)
+    projection['remaining_work']=work
+    from native_head_confirmation_state import retained_bytes
+    feature_bytes=sum(feature_path(r).stat().st_size+feature_path(r).with_suffix('.json').stat().st_size for r in smoke)/len(smoke)
+    projection['projected_additional_test_feature_bytes']=feature_bytes*400*pp['selected_m']*1.3
+    if retained_bytes()+work['projected_test_original_bytes']+projection['projected_additional_test_feature_bytes']>CAPS['retained_bytes']:
+        save(OUT/'throughput_projection.json',projection)
+        raise RuntimeError('BLOCKED_RESOURCE: actual fitting-byte projection for selected test originals/features exceeds retained allowance')
+    if counters()['cpu_seconds']+work['independent_verification_projection_seconds']>CAPS['cpu_seconds']:
+        save(OUT/'throughput_projection.json',projection)
+        raise RuntimeError('BLOCKED_RESOURCE: measured independent-verification projection exceeds remaining CPU allowance')
     if remaining_transfer and transfers:
         seconds=sum(e['acquisition_seconds'] for e in transfers);byte_count=sum(e['bytes'] for e in transfers)
         transfer_projection=remaining_transfer*seconds/byte_count*1.2
         projection.update(measured_archive_transfer_bytes=byte_count,measured_archive_transfer_seconds=seconds,
             remaining_test_archive_bytes=remaining_transfer,remaining_transfer_projection_seconds=transfer_projection,
             transfer_safety_factor=1.2,network_scope='real completed resumed/full archive body requests, including their ledger and file validation cost')
-        minimum_remaining_collection=transfer_projection+exact_projection
+        minimum_remaining_collection=transfer_projection+exact_projection+sum(work[k] for k in
+            ('test_screening_projection_seconds','test_catalog_projection_seconds','test_duplicate_projection_seconds'))
         projection['minimum_remaining_collection_projection_seconds']=minimum_remaining_collection
-        projection['missing_projection_terms']='Future test technical screening and catalog/duplicate work are additional; this gate is a lower work envelope with explicit transfer safety allowance.'
+        projection['included_projection_terms']='Full transfers, cataloging/hashing/retention, technical screening/authentication, duplicate screening, genuine reference extraction; independent verification separately gated in CPU.'
         save(OUT/'throughput_projection.json',projection)
         if counters()['collection_seconds']+minimum_remaining_collection>CAPS['collection_seconds']:
             needed=counters()['collection_seconds']+minimum_remaining_collection
             raise RuntimeError(f'BLOCKED_RESOURCE: exact m={pp["selected_m"]} requires projected collection allowance at least {needed:.0f}s before additional screening/catalog work; current cap {CAPS["collection_seconds"]}s')
     save(OUT/'throughput_projection.json',projection)
-    if counters()['collection_seconds']+exact_projection>CAPS['collection_seconds']:
+    remaining_collection=exact_projection+projection.get('remaining_transfer_projection_seconds',0)+sum(work[k] for k in
+        ('test_screening_projection_seconds','test_catalog_projection_seconds','test_duplicate_projection_seconds'))
+    projection['remaining_work_collection_projection_seconds']=remaining_collection
+    save(OUT/'throughput_projection.json',projection)
+    if counters()['collection_seconds']+remaining_collection>CAPS['collection_seconds']:
         raise RuntimeError('BLOCKED_RESOURCE: exact precision-selected EVAL m exceeds remaining collection cap')
     if counters()['timing_seconds']+projection['timing_projection_seconds']>CAPS['timing_seconds']:
         raise RuntimeError('BLOCKED_RESOURCE: genuine-smoke projection exceeds the fixed complete-system timing allowance')
@@ -807,6 +881,9 @@ def execute(mode):
     finally:
         from native_head_confirmation_state import snapshot_accounting
         snapshot_accounting()
+        from native_head_confirmation_availability import selection_attrition
+        with metered('cpu','population-attrition-report'):selection_attrition()
+        snapshot_accounting()
         write_findings()
 
 
@@ -851,8 +928,14 @@ def write_findings():
         observed=read(acquisition)
         lines += [f'Actual input-only work: {observed["validated_archives"]} complete validation archives cataloged, {observed["cataloged_original_members"]} archive members, {observed["retained_originals"]} retained original candidate/reserve files.',
             f'Technical screening: {observed["screened_inputs"]} candidates; {observed["technically_eligible_receipts"]} eligible receipts and {observed["technically_ineligible_receipts"]} technical failures. These are not a certified all-class cohort.','']
+    amended=(OUT/'population_rule.json').exists()
+    if amended:
+        attrition=read(OUT/'archive_population_attrition.json')
+        lines+=['Population rule: archive_available_v1. Inference concerns eligible archive-available official K400 clips in the fixed 400 classes; availability is not assumed missing at random.',
+            'Archive membership states: '+json.dumps({s:r['states'] for s,r in attrition['splits'].items()})+'.',
+            'The d978026 blocked attempt and old missing-input reports remain historical evidence; confirmed release absence supersedes their blocker status. See population_amendment.md and blocked_d978026/snapshot_identity.json.','']
     coverage=OUT/'annotation_archive_coverage.json'
-    if coverage.exists():
+    if coverage.exists() and not amended:
         missing=read(coverage)['prospective_prefix_missing']
         if missing:lines += ['Missing prospective fitting inputs: '+', '.join(r['filename']+' ('+r['label']+')' for r in missing)+'.',
             'The first missing parent returned oEmbed404; its public watch page returned playability ERROR (cannot be played). The second returned public oEmbed metadata, which does not supply authenticated RGB. See missing_input_public_availability.json and missing_input_parent_playability.json.','']
@@ -876,7 +959,7 @@ def write_findings():
         'Original preparation failed-attempt wall times and Git/browser control transfer are not fully metered. No complete historical end-to-end resource claim is made.',
         'Known-parent, encoded-byte and available input-only perceptual duplicate evidence cannot exclude unknown reuploads or undocumented pretraining. No universal independence or adaptive-controller speedup claim is supported.', '',
         'Use the PowerShell commands in README.md. A completed invocation performs a read-only audit; interrupted attempts remain in receipts.', '',
-        'Next research decision: obtain authentic original RGB and provenance for the required missing fitting clips before resuming this same frozen study.' if not summary else
+        'Next action: resume the same amended study after resolving the concrete current gate recorded above.' if not summary else
         'Next research decision: assess probe adequacy, conditional precision and observation overhead together before deciding whether this fixed diagnostic supports a focused empirical manuscript.',
         'Technical completion is separate from scientific benefit and does not guarantee TMLR acceptance.']
     (OUT/'findings.md').write_text('\n'.join(lines)+'\n',encoding='utf-8',newline='\n')

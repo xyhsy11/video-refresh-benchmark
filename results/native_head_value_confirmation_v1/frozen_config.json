@@ -125,18 +125,21 @@
   "synthetic_fixture_amendment": "Direct user request overrides attached synthetic-fixture instruction; exact combinatorial/structural checks and real inputs only",
   "implementation": {
     "native_head_value_confirmation.py": "f8775b4685f508b8832115c70a20aa12c7d328159f6cbffab572f6e2402d10db",
-    "run_native_head_value_confirmation.py": "9786326d51db67a145a1f6fa40398436dbbf2f6e5b4091fb8e05aafab237e193",
-    "verify_native_head_value_confirmation.py": "0c25eb867d99fae35afe64b74cd1ab052467e70a1200c0b685851078eed9f71a",
-    "test_native_head_value_confirmation.py": "addce6f649ce22883f0feac0852b3cecb880151fd2030d5203ee2e1e550ce33c",
-    "native_head_confirmation_runtime.py": "5546ba05410bfff0dc0895cd192432fd027c27c07c5897b168dabad7970180fb",
+    "run_native_head_value_confirmation.py": "9d5f13b5d2464569725414b77701e01e9ce26d1c2019fcf71a645a3cacac05d9",
+    "verify_native_head_value_confirmation.py": "d4584ae71ce3903920c2e359589dbc2ca7832407dfea8a35f3427ec12a1367a3",
+    "test_native_head_value_confirmation.py": "cb49bed75c4376d8315a1df75807460094aefbcb16a212fa3cc26b1a6be07505",
+    "native_head_confirmation_runtime.py": "e99f149688e4bb44e967159f354720105d652f59bce209e83db32ea7a6a1376a",
     "executable_value_observability.py": "65baf4f7e0b056617a77e3dfaf8ac0f1f82d87cfb225cbe9ab04d19dbea2d5e5",
     "causal_observability_policy.py": "dda0908b98b042b4e5ac88a86cead957530582d4e1f4e7a186714450a0d212c6",
     "research_utils.py": "06b0bd9df2ebbbf314a5a21e086f00e7018d7dbd7a189adac3cf2d79f0352044",
     "temporal_refresh_common.py": "5e4f53da9110e43eaa1ff4624645bdb14ade891074f09e46540615d39f7d4cbb",
-    "native_head_confirmation_inputs.py": "aaa33a3003eacb8e69ecbeb22ac343179d85d7dc9a888b4136e896ec0eda5785",
-    "native_head_confirmation_state.py": "2d9058f5d4a623311b9b92ec6534b269d9e596651e563a57260cbdedcdc72b89"
+    "native_head_confirmation_inputs.py": "a89e1d9205b1a2540f606ea5c786b87abba4a71d50e72bba65d339936034b1bb",
+    "native_head_confirmation_state.py": "2d9058f5d4a623311b9b92ec6534b269d9e596651e563a57260cbdedcdc72b89",
+    "native_head_confirmation_availability.py": "3e6576303115f496ebf6314b9b351fe347f74fd5adb658d20b613116580c40a2"
   },
   "preparation_start_head": "c4e20265aa908b38856a799bf27f2576bffb51d5",
   "actual_start_head": "a9e1942f226f341071e1a990ea446dc717a070bb",
-  "evaluation_sealed": false
+  "evaluation_sealed": false,
+  "population_rule": "archive_available_v1",
+  "population_rule_sha256": "b9b25e50e2e2e80d1efcf68cdde294397087b513224b07a3dbb6ce4eba59b240"
 }

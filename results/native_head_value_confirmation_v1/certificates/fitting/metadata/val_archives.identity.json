@@ -1,0 +1,20 @@
+{
+  "url": "https://s3.amazonaws.com/kinetics/400/val/k400_val_path.txt",
+  "bytes": 1130,
+  "sha256": "7c75bab47da18ba747e8bdd826bec9139672336fd3431caa71ff563473080e77",
+  "path": "data/source/native_head_value_confirmation_v1/metadata/val_archives",
+  "headers": {
+    "x-amz-id-2": "flV/fO3RKNNm7bMg8qqTeZgdf4wz5flp/qEt/Ve9B1ckn1QVSxsBXHOi8Z5VBqnQ8Ux/ojh1fGU=",
+    "x-amz-request-id": "VB8TQQGK8A8DK79N",
+    "Server": "AmazonS3",
+    "Date": "Fri, 23 Oct 2026 04:39:50 GMT",
+    "Last-Modified": "Wed, 14 Apr 2021 17:55:29 GMT",
+    "ETag": "\"19839353e56e5574931fb80e835bd62d\"",
+    "Accept-Ranges": "bytes",
+    "Content-Type": "text/plain",
+    "Content-Length": "1130",
+    "Connection": "close"
+  },
+  "at_utc": "2026-10-23T04:40:08.754385+00:00",
+  "status": "complete"
+}

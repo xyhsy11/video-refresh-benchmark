@@ -1,16 +1,13 @@
 {
-  "technical": "BLOCKED_INPUT",
+  "technical": "BLOCKED_RESOURCE",
   "scientific": "NOT_EVALUATED",
-  "blocker": "BLOCKED_INPUT: missing needed val prefix input 7tTouR10Qro_000092_000102.mp4",
+  "blocker": "BLOCKED_RESOURCE: fitting-only genuine throughput projection exceeds remaining collection cap",
   "no_outcomes_exposed": true,
-  "stage": "BLOCKED_FITTING_INPUT",
-  "native_classes": 400,
-  "probe_fit_model_calls": 0,
-  "eval_model_calls": 0,
-  "certified_fitting_sources": 0,
-  "certified_eval_sources": 0,
-  "primary_estimate": null,
-  "primary_interval": null,
-  "matched_opportunity": null,
-  "drift_contrast": null
+  "population_rule": "archive_available_v1",
+  "completed_stage": "FIT_CERTIFIED",
+  "certified_fitting_sources": 3200,
+  "fitting_reference_sources": 8,
+  "selected_m": null,
+  "eval_sources": 0,
+  "resource_diagnosis": "minimum_design_resource_diagnosis.json"
 }

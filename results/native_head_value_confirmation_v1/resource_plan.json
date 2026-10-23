@@ -37,7 +37,7 @@
   "no_bulk_acquisition": false,
   "current_network_cap_charged_bytes": 2995163817,
   "known_recorded_http_body_bytes": 2990969513,
-  "current_additional_retained_bytes": 6295063809,
+  "current_additional_retained_bytes": 6562296832,
   "current_temporary_working_bytes": 0,
-  "current_available_disk_bytes": 163652157440
+  "current_available_disk_bytes": 162076921856
 }

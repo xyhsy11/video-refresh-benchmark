@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+  "catalog_before_sha256": "770b2e80dcb8c132fccf04296d147bdcbae10f7f2ccc5f7c62e1d342c841b370",
+  "catalog_after_sha256": "3fd8b90c1b7a5e8a428bab466fb6e54a22a90e2ed03a65690fd09ea687f12d53",
+  "actual_original_retained": "0tlGOxUQ0Kw_000074_000084.mp4",
+  "actual_original_sha256": "acefd8f94c58e323fd1635cf4d991b1b23ee9373006156faa35fa104f96d2fef",
+  "stale_ledger_rejected": true,
+  "published_ledger_passed": true,
+  "no_network_requests": true,
+  "no_encoder_calls": true,
+  "scope": "Real cached official archive fully streamed through gzip CRC; one genuine unused validation original retained for this provenance contract, not a model outcome"
+}

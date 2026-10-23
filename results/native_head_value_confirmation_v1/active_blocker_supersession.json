@@ -1,0 +1,7 @@
+{
+  "prior_commit": "d97802601500101a94c91de2a546769e9fae29ab",
+  "rule": "archive_available_v1",
+  "historical_report_sha256": "814767add396fda6d36183c7dd8a4189d63246136642e399f30a4d77dde3b3a7",
+  "resolved_by": "CONFIRMED_ABSENT under complete pinned release, not technical ineligibility",
+  "scientific": "NOT_EVALUATED"
+}

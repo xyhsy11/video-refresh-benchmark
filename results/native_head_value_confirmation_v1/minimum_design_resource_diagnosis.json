@@ -1,0 +1,35 @@
+{
+  "at_utc": "2026-10-23T09:48:41.521266+00:00",
+  "actual_runner_status": {
+    "technical": "BLOCKED_RESOURCE",
+    "scientific": "NOT_EVALUATED",
+    "blocker": "BLOCKED_RESOURCE: fitting-only genuine throughput projection exceeds remaining collection cap",
+    "no_outcomes_exposed": true
+  },
+  "actual_smoke_sources": 8,
+  "actual_native_smoke_forwards": 128,
+  "additional_genuine_normal_profile_forwards": 128,
+  "exact_profile_array_parity": true,
+  "ordinary_reference_seconds_per_source": 3.654882625000255,
+  "smoke_assertion_seconds_per_source": 7.963754312499759,
+  "exact_selected_m": null,
+  "precision_plan_not_executed": true,
+  "minimum_allowed_design_m": 8,
+  "projection_scope": "Workload of smallest allowed cohort, using measured genuine normal-reference rate and unchanged 1.5 reference/screening safety factors; not an exact selected-m plan or a claim about measured future wall time.",
+  "projected_remaining_seconds": {
+    "fitting_reference": 17499.57800850122,
+    "evaluation_reference_at_m8": 17543.436600001223,
+    "test_transfer": 11565.906909399528,
+    "test_screening": 6471.5469840449405,
+    "test_catalog": 1200.1272922976318,
+    "test_duplicate": 125.35067359999812
+  },
+  "projected_remaining_collection_seconds": 54405.94646784455,
+  "recorded_collection_seconds": 6359.147454920052,
+  "projected_total_collection_seconds": 60765.0939227646,
+  "collection_cap_seconds": 28800,
+  "source_receipts_sha256": "a8b94387bf4abf229062495694e144febbdfb76ef7649191f804e6489cce7d67",
+  "reserved_test_route_bytes": 56094802765,
+  "conclusion": "BLOCKED_RESOURCE under fixed cumulative measured-throughput gates, including the minimum allowed full-study workload; no classes, m, recipe or empirical analysis changed.",
+  "resource_prerequisite": "A separately authorized resource amendment or an independently validated implementation with adequate genuine full-route throughput; current caps remain unchanged."
+}

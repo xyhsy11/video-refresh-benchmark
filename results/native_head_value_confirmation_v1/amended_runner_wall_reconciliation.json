@@ -1,0 +1,284 @@
+{
+  "at_utc": "2026-10-23T09:54:16.291413+00:00",
+  "receipts": [
+    {
+      "pid": 34460,
+      "process_created": 134372166566502797,
+      "start_utc": "2026-10-23T08:10:56.650280+00:00",
+      "end_utc": "2026-10-23T08:11:04.397554+00:00",
+      "basis": "Observed Windows creation through final recorded phase; unobserved tail remains unclaimed",
+      "observed_wall_seconds": 7.747274,
+      "exclusive_recorded_phase_seconds": 5.903963000000658,
+      "additional_cpu_overhead_charge_seconds": 1.8433109999993418,
+      "acquisition_subtotal_added_again": false,
+      "operation_ids": [
+        "740cd6dc46d24a12920447d2ca80f3a0",
+        "1140aa971c3d43a194092b8c9c2e692c"
+      ]
+    },
+    {
+      "pid": 9016,
+      "process_created": 134372168896955770,
+      "start_utc": "2026-10-23T08:14:49.695577+00:00",
+      "end_utc": "2026-10-23T08:17:11.679078+00:00",
+      "basis": "Observed Windows creation through final recorded phase; unobserved tail remains unclaimed",
+      "observed_wall_seconds": 141.983501,
+      "exclusive_recorded_phase_seconds": 139.70841560000008,
+      "additional_cpu_overhead_charge_seconds": 2.2750853999999094,
+      "acquisition_subtotal_added_again": false,
+      "operation_ids": [
+        "a92c8e88bc2845f0b9bc048c7ecf9a04"
+      ]
+    },
+    {
+      "pid": 10276,
+      "process_created": 134372170850451467,
+      "start_utc": "2026-10-23T08:18:05.045147+00:00",
+      "end_utc": "2026-10-23T08:18:31.706290+00:00",
+      "basis": "Observed Windows creation through final recorded phase; unobserved tail remains unclaimed",
+      "observed_wall_seconds": 26.661143,
+      "exclusive_recorded_phase_seconds": 24.40511250000054,
+      "additional_cpu_overhead_charge_seconds": 2.256030499999458,
+      "acquisition_subtotal_added_again": false,
+      "operation_ids": [
+        "507d7e730e9b42d0af380358480f2d7d"
+      ]
+    },
+    {
+      "pid": 36700,
+      "process_created": 134372171481102385,
+      "start_utc": "2026-10-23T08:19:08.110239+00:00",
+      "end_utc": "2026-10-23T08:19:14.609425+00:00",
+      "basis": "Observed Windows creation through final recorded phase; unobserved tail remains unclaimed",
+      "observed_wall_seconds": 6.499186,
+      "exclusive_recorded_phase_seconds": 4.3629507000005106,
+      "additional_cpu_overhead_charge_seconds": 2.1362352999994894,
+      "acquisition_subtotal_added_again": false,
+      "operation_ids": [
+        "4b7fda2ae91548dd89e42e7fe1b628cb"
+      ]
+    },
+    {
+      "pid": 36136,
+      "process_created": 134372171631048257,
+      "start_utc": "2026-10-23T08:19:23.104826+00:00",
+      "end_utc": "2026-10-23T08:20:03.856854+00:00",
+      "basis": "Observed Windows creation through final recorded phase; unobserved tail remains unclaimed",
+      "observed_wall_seconds": 40.752028,
+      "exclusive_recorded_phase_seconds": 38.70430319999832,
+      "additional_cpu_overhead_charge_seconds": 2.0477248000016814,
+      "acquisition_subtotal_added_again": false,
+      "operation_ids": [
+        "64020bba61e94161be22a52c7508eec4"
+      ]
+    },
+    {
+      "pid": 36052,
+      "process_created": 134372172183080661,
+      "start_utc": "2026-10-23T08:20:18.308066+00:00",
+      "end_utc": "2026-10-23T08:25:22.096771+00:00",
+      "basis": "Observed Windows creation through final recorded phase; unobserved tail remains unclaimed",
+      "observed_wall_seconds": 303.788705,
+      "exclusive_recorded_phase_seconds": 299.09071214921096,
+      "additional_cpu_overhead_charge_seconds": 4.697992850789035,
+      "acquisition_subtotal_added_again": false,
+      "operation_ids": [
+        "45d2df378cd04ae486e038345fabfd85",
+        "5fe764fe3ca14e2f91380521e8665d2c",
+        "dbf1b028d89b481c8fff2bc9eb20e669",
+        "cd6750d4ad8e4638ad826b4b2baec27f"
+      ]
+    },
+    {
+      "pid": 6224,
+      "process_created": 134372176696152474,
+      "start_utc": "2026-10-23T08:27:49.615247+00:00",
+      "end_utc": "2026-10-23T08:28:25.433031+00:00",
+      "basis": "Observed Windows creation through final recorded phase; unobserved tail remains unclaimed",
+      "observed_wall_seconds": 35.817784,
+      "exclusive_recorded_phase_seconds": 33.94508009999845,
+      "additional_cpu_overhead_charge_seconds": 1.8727039000015537,
+      "acquisition_subtotal_added_again": false,
+      "operation_ids": [
+        "9668d7065edc4a0e98ba78fee3bfc334"
+      ]
+    },
+    {
+      "pid": 36672,
+      "process_created": 134372177472565864,
+      "start_utc": "2026-10-23T08:29:07.256586+00:00",
+      "end_utc": "2026-10-23T09:11:15.588443+00:00",
+      "basis": "Observed Windows creation through final recorded phase; unobserved tail remains unclaimed",
+      "observed_wall_seconds": 2528.331857,
+      "exclusive_recorded_phase_seconds": 2523.4121116680217,
+      "additional_cpu_overhead_charge_seconds": 4.919745331978447,
+      "acquisition_subtotal_added_again": false,
+      "operation_ids": [
+        "5d3e83def19242dca192af9db15041aa",
+        "e68b6772dbdb4613a102bc9fb8768ba1",
+        "9326344aa8cc41afac0a6d3a33a2c45a",
+        "c278053b7bbc45519d12d2a18d738d81"
+      ]
+    },
+    {
+      "pid": 30788,
+      "process_created": 134372203474795116,
+      "start_utc": "2026-10-23T09:12:27.479511+00:00",
+      "end_utc": "2026-10-23T09:13:28.169409+00:00",
+      "basis": "Observed Windows creation through final recorded phase; unobserved tail remains unclaimed",
+      "observed_wall_seconds": 60.689898,
+      "exclusive_recorded_phase_seconds": 58.639103200001045,
+      "additional_cpu_overhead_charge_seconds": 2.050794799998954,
+      "acquisition_subtotal_added_again": false,
+      "operation_ids": [
+        "6adb09d580f847b681b4c27af9b70569",
+        "c7d516124fcb4832b558f213494dc667",
+        "21ccbfa3f2c64f3d88566c279df84369"
+      ]
+    },
+    {
+      "pid": 12992,
+      "process_created": 134372204302144383,
+      "start_utc": "2026-10-23T09:13:50.214438+00:00",
+      "end_utc": "2026-10-23T09:24:57.443878+00:00",
+      "basis": "Observed Windows creation through final recorded phase; unobserved tail remains unclaimed",
+      "observed_wall_seconds": 667.22944,
+      "exclusive_recorded_phase_seconds": 656.8475628067335,
+      "additional_cpu_overhead_charge_seconds": 10.381877193266405,
+      "acquisition_subtotal_added_again": false,
+      "operation_ids": [
+        "3fc5397f140d41249aec2839f784f5e1",
+        "18385e3a484a45dd9b28fdc9715d762d",
+        "dd6b02f4dfde4b14b2fd24eb69d97191",
+        "443bc19ada2948bd9bdd325ed433d33c",
+        "013de8a505bf453492bccaef62cc6d64",
+        "b49831257e754f77a53b0927f43334c1",
+        "b509584723ae43439f0617e552a900bc",
+        "a88fc104635b47328b825f2e0b64b134"
+      ]
+    },
+    {
+      "pid": 11692,
+      "process_created": 134372211323718579,
+      "start_utc": "2026-10-23T09:25:32.371858+00:00",
+      "end_utc": "2026-10-23T09:26:05.527737+00:00",
+      "basis": "Observed Windows creation through final recorded phase; unobserved tail remains unclaimed",
+      "observed_wall_seconds": 33.155879,
+      "exclusive_recorded_phase_seconds": 31.630420599998615,
+      "additional_cpu_overhead_charge_seconds": 1.5254584000013836,
+      "acquisition_subtotal_added_again": false,
+      "operation_ids": [
+        "c2dc5ae31467486ba238714ef8e685be"
+      ]
+    },
+    {
+      "pid": 25652,
+      "process_created": 134372211795964075,
+      "start_utc": "2026-10-23T09:26:19.596407+00:00",
+      "end_utc": "2026-10-23T09:26:21.674052+00:00",
+      "basis": "Observed Windows creation through final recorded phase; unobserved tail remains unclaimed",
+      "observed_wall_seconds": 2.077645,
+      "exclusive_recorded_phase_seconds": 0.19089770000027784,
+      "additional_cpu_overhead_charge_seconds": 1.8867472999997221,
+      "acquisition_subtotal_added_again": false,
+      "operation_ids": [
+        "e20f81a9896d4418a355e60bf3e45900"
+      ]
+    },
+    {
+      "pid": 35952,
+      "process_created": 134372211819915152,
+      "start_utc": "2026-10-23T09:26:21.991515+00:00",
+      "end_utc": "2026-10-23T09:41:17.055366+00:00",
+      "basis": "Windows process creation and exit times; handle held before exit",
+      "observed_wall_seconds": 895.063851,
+      "exclusive_recorded_phase_seconds": 785.313590800004,
+      "additional_cpu_overhead_charge_seconds": 109.75026019999598,
+      "acquisition_subtotal_added_again": false,
+      "operation_ids": [
+        "6b4f300440d7459ba7a3f658188a26e6",
+        "f6b2e2ccaabb4612adc5be0d40185f34",
+        "6e5184510a4c4420b80d89cd66ab2a43",
+        "196b2cbfd22d4ce586d9f693c72fad36",
+        "cb7d50dd6f5a4683be7aa9ddf6c89602",
+        "3109d957ea6c4ea6bb280b3cb875060a",
+        "3d99024887954a80b001457b8bc1074a",
+        "6cebe636b78945048f58024f92acd858",
+        "29fd360921014506a2a890746010f7b3",
+        "a09521282cfb4bd8bb2f35717a486096",
+        "e607d6e033514117a0e801f224b291b5",
+        "067fabcecadc4b3a90e0b4cb9813b62f",
+        "f5e0eb7323d240bf9363cf81b6ef79f3",
+        "dd1cfed90e924d7ba77c6d3935b859b3",
+        "573f584a23bd4b1ca8da8da9cb6bfdbe",
+        "e217506ecdd44d0bb14e1162f3e65a66",
+        "444fb38fe057486088610535b857d9df",
+        "89070ad0b6914e8e89b1b5c4fdfec502",
+        "7572039fd41845be88124ad701dea329",
+        "9c114a56daec4aca8adbe9800942b162",
+        "30c71b760a3d42e3af0f2d775bade497",
+        "41ddde9f6f7d4c6383ba46e3457d0d13",
+        "c6f3b6bbbcc74c0b958a6119802d9135",
+        "5924c026480244c1aee75260332fdfbc",
+        "ca787f89161b4135b7e66b84c6d29469",
+        "0b17a60019c34d72a8a1ba1c4f958aa5",
+        "8b6406b7bcc24f5d9debb6f4ed65bc3f",
+        "4e8fb731941a4b7db928021d50d4f94c",
+        "22966781dc3f413898caadf217199b8b",
+        "caf091013beb4b389523d9739433d4a4",
+        "c4041e11a5934e92a9f16d1222d27191",
+        "d34429cb28fc4d0aaea9ab28c7f1cb3a",
+        "0ea972d0ce2a4fa49e18b98dd73fb1e9",
+        "76877edbd2cd43719a3ff9d947fe7fea",
+        "4561eb9483a94d2d83fefe0bc2fdf070",
+        "197d9bfe4f0249e08d70126d30828f26"
+      ]
+    },
+    {
+      "pid": 37404,
+      "process_created": 134372223418281218,
+      "start_utc": "2026-10-23T09:45:41.828122+00:00",
+      "end_utc": "2026-10-23T09:46:18.440156+00:00",
+      "basis": "Observed Windows creation through final recorded phase; unobserved tail remains unclaimed",
+      "observed_wall_seconds": 36.612034,
+      "exclusive_recorded_phase_seconds": 34.82977699999901,
+      "additional_cpu_overhead_charge_seconds": 1.782257000000989,
+      "acquisition_subtotal_added_again": false,
+      "operation_ids": [
+        "d2edcb2e205d442586eb10aba907d5d3",
+        "f2452d2763ef475780873861cff6d5af",
+        "4c0724e96cee44f1a0d827133c6de89b",
+        "e8ba4bc5b52b4dae99d2cd563e1b9482",
+        "83e9f73856044c4cae371f8583452acb",
+        "c09266ab91fc49959c7a494e007ac1c4",
+        "659bada72b3543efa3bce11aed02b6d9",
+        "167ed6e72f1b4305bd7965f06dcd43b6",
+        "6b5ea0295e2247908aca89fadba3046d",
+        "25eeda356f8a4c4790e28b59de7fb93e",
+        "5a0e1aed8ec447bc8632a0156b899d98",
+        "c1bc5c47ac1f4dce9e148832b35fc665",
+        "4308cb34427846aa8e299028b5120341",
+        "2868863772db44228456989f76768c93",
+        "2aaac099e552495bb980a286ee36a64a",
+        "18f3f5fb93104212a19625fa94c30a5d",
+        "5616108696b64cd984fe495792d67eda"
+      ]
+    },
+    {
+      "pid": 33744,
+      "process_created": 134372227654509977,
+      "start_utc": "2026-10-23T09:52:45.450998+00:00",
+      "end_utc": "2026-10-23T09:52:48.362094+00:00",
+      "basis": "Observed Windows creation through final recorded phase; unobserved tail remains unclaimed",
+      "observed_wall_seconds": 2.911096,
+      "exclusive_recorded_phase_seconds": 0.19138249999923573,
+      "additional_cpu_overhead_charge_seconds": 2.7197135000007644,
+      "acquisition_subtotal_added_again": false,
+      "operation_ids": [
+        "b73b65c455374e6b83ca4434c8f95e2b"
+      ]
+    }
+  ],
+  "total_additional_cpu_seconds": 152.1459374760331,
+  "policy": "Observed between-phase runner wall conservatively charged to CPU. Acquisition remains nested in collection. Exact OS exit is available for final integrated attempt; other bounds do not invent unknown tail time."
+}

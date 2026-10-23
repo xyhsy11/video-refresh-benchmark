@@ -1,13 +1,12 @@
 {
   "adapter": "explicit-input-schemas-3",
   "path": "data/source/native_head_value_confirmation_v1/source_audit_graph.json.gz",
-  "sha256": "c3925e46c19e7fac2a54d6aa927e0b0a17bfa09d079bd146dc58771ff593a064",
-  "edges": 580582,
+  "sha256": "53977b65288f4fad197ffe869ebe97cb7682a65618f3f76f46f22e07805005d8",
+  "edges": 583584,
   "evidence_files": 150,
   "inventory_nodes": 669765,
   "model_exposed_components": 2152,
   "reserved_components": 1622,
   "unresolved_quarantined_components": 377,
-  "public_snapshot": "results/native_head_value_confirmation_v1/input_only_source_audit.json.gz",
-  "public_snapshot_sha256": "c3925e46c19e7fac2a54d6aa927e0b0a17bfa09d079bd146dc58771ff593a064"
+  "public_snapshot": "results/native_head_value_confirmation_v1/input_only_source_audit.json.gz"
 }

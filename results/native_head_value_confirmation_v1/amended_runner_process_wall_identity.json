@@ -1,0 +1,6 @@
+{
+  "raw_windows_receipt_sha256": "a44355fb59d6feb327ead1ffca7e102e8ec6523ea8638bd12d83a4da04de5df4",
+  "raw_path": "data/source/native_head_value_confirmation_v1/process_wall_raw/a44355fb59d6feb327ead1ffca7e102e8ec6523ea8638bd12d83a4da04de5df4.json",
+  "normalized_public_sha256": "32763538611fe859d1376622f0284d322b64b43f21e91deb88f62addb4e0f00f",
+  "normalization": "UTF-8 BOM/CRLF and indentation only; original raw receipt retained; all observed values unchanged"
+}

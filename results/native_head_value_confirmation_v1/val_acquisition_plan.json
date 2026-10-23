@@ -4,7 +4,7 @@
   "reserve_components_per_class": 2,
   "wanted_rows": 4000,
   "selection": "fixed canonical/component ranks, independent of archive arrival",
-  "manifest_sha256": "805b5a875782878723d244c520838f3606ffc413916c437df0e474b7b75ff0d7",
+  "manifest_sha256": "df11c023c433b501d730657651d100f0e9eceb4f135e287e05637a72758fe611",
   "new_archive_bytes": 0,
   "network_already_spent": 2995163817,
   "reserved_future_test_transfer_bytes": 56094802765,

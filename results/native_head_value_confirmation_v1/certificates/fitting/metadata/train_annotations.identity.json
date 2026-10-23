@@ -1,0 +1,20 @@
+{
+  "url": "https://s3.amazonaws.com/kinetics/400/annotations/train.csv",
+  "bytes": 10529265,
+  "sha256": "a5f585f790f35c080aa13964f14de63171e909575feb843efc1c29bb5cfc6236",
+  "path": "data/source/native_head_value_confirmation_v1/metadata/train_annotations",
+  "headers": {
+    "x-amz-id-2": "nIaikVxXwU1f5/pJRb9MpC4lupF/HLbyCAIox0GitlMRPfUyBetinYAkeJGQRrHKlRV+kN4LTicSAXseVhgECUQfSEuV2+EF",
+    "x-amz-request-id": "3C0AHSW75C43HYV4",
+    "Server": "AmazonS3",
+    "Date": "Fri, 23 Oct 2026 04:39:41 GMT",
+    "Last-Modified": "Thu, 03 Dec 2020 08:09:35 GMT",
+    "ETag": "\"09cbcda3d281603e5d817a9f09da1639-2\"",
+    "Accept-Ranges": "bytes",
+    "Content-Type": "text/csv",
+    "Content-Length": "10529265",
+    "Connection": "close"
+  },
+  "at_utc": "2026-10-23T04:40:04.249434+00:00",
+  "status": "complete"
+}

@@ -1,0 +1,6 @@
+{
+  "at_utc": "2026-10-23T10:00:07.179645+00:00",
+  "passed": true,
+  "exit_code": 0,
+  "scope": "Read-only independent source/native-array/resource/historical audit; no decode, encoder, probe or EVAL execution"
+}

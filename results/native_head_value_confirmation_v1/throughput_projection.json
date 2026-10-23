@@ -1,0 +1,9 @@
+{
+  "real_smoke_clips": 8,
+  "genuine_collection_seconds": 63.71003449999807,
+  "safety_factor": 1.5,
+  "remaining_fitting_projection_seconds": 38130.45564824884,
+  "source": "first genuine decode/native inference receipts; cached replay excluded",
+  "timing_projection_seconds": 26758.21448999919,
+  "timing_projection_basis": "twice the real dense-smoke resource time per timing arm, all four arms including fresh full decode; conservative projection, not measured timing"
+}

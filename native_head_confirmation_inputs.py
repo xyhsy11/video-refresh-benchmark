@@ -246,9 +246,10 @@ def candidate_groups(split):
 
 
 def ordered_groups(candidates,split):
+    from native_head_confirmation_availability import selectable
     grouped=defaultdict(list)
     for row in candidates:
-        if row['split']==split:grouped[row['component']].append(row)
+        if row['split']==split and selectable(row):grouped[row['component']].append(row)
     return sorted(((c,sorted(v,key=lambda r:r['canonical_rank'])) for c,v in grouped.items()),key=lambda kv:rank('component',kv[0]))
 
 
@@ -268,6 +269,11 @@ def reserve_members(split,m):
 
 
 class InputMembershipChanged(RuntimeError):
+    pass
+
+
+class PlanningMembershipChanged(RuntimeError):
+    """New input-only evidence invalidates an unexposed fitting generation."""
     pass
 
 
@@ -357,10 +363,15 @@ def catalog_archive(path,record,wanted):
     """Bounded streaming unpack, no paths/links extracted from untrusted tar."""
     split=record['split'];url=record['url'];key=rank('archive',url)
     catalog=CACHE/'catalogs'/(key+'.json')
+    from native_head_confirmation_availability import index
     if catalog.exists():
         old=read(catalog)
         if old['archive_sha256']!=sha(path):raise RuntimeError('Archive catalog identity mismatch')
-        if all((CACHE/'videos'/split/n).exists() for n in wanted if n in {m['filename'] for m in old['members']}):return old
+        valid=next(r['complete'] for r in index(split)['coverage'] if r['url']==url)
+        if valid and all((CACHE/'videos'/split/n).exists() for n in wanted if n in {m['filename'] for m in old['members']}):return old
+        preserved=CACHE/'catalog_history'/sha(catalog)/catalog.name
+        preserved.parent.mkdir(parents=True,exist_ok=True)
+        if not preserved.exists():shutil.copyfile(catalog,preserved)
     members=[];archive_sha=sha(path);total=0
     with gzip.open(path,'rb') as raw:
         with tarfile.open(fileobj=raw,mode='r|',bufsize=2**20) as tar:
@@ -395,24 +406,29 @@ def catalog_archive(path,record,wanted):
         # Consume gzip footer/CRC as well as all tar entries.
         while raw.read(2**20):pass
     result=dict(url=url,archive_sha256=archive_sha,publisher_digest_available=False,
+        enumeration=dict(complete=True,gzip_crc_drained=True,etag=record['etag'],bytes=record['content_length'],
+            list_sha256=sha(CACHE/'metadata'/f'{split}_archives')),
         local_integrity_identity=True,members=members,expanded_bytes=total)
     save(catalog,result)
+    index(split,refresh=True)
     return result
 
 
 def acquire(split='val'):
     from run_native_head_value_confirmation import event,network_ledger,CAPS
+    from native_head_confirmation_availability import index,publish,membership,remaining_release_transfer
+    index(split,refresh=True)
     if split=='test' and not (OUT/'precision_plan.json').exists():raise RuntimeError('BLOCKED_INPUT: fitting-only precision plan required before test acquisition')
     m=8 if split=='val' else read(OUT/'precision_plan.json')['selected_m']
     if m is None:raise RuntimeError('BLOCKED_PRECISION_OR_POPULATION: no allowed m')
     wanted_rows=reserve_members(split,m);wanted={r['filename'] for r in wanted_rows}
     inventory=read(OUT/'archive_inventory.json')
     records_for_split=[r for r in inventory if r['split']==split]
-    all_cataloged=all((CACHE/'catalogs'/(rank('archive',r['url'])+'.json')).exists() for r in records_for_split)
+    all_cataloged=index(split)['complete']
     # Gate all remaining shards before a stage; retries are not assumed free.
-    remaining=sum(r['content_length'] for r in records_for_split if not r.get('cached_path') and not (CACHE/'catalogs'/(rank('archive',r['url'])+'.json')).exists())
+    remaining=remaining_release_transfer(split)
     used=sum(r['bytes'] for r in network_ledger()['requests'])
-    future_test=sum(r['content_length'] for r in inventory if r['split']=='test' and not r.get('cached_path')) if split=='val' else 0
+    future_test=remaining_release_transfer('test') if split=='val' else 0
     if used+remaining+future_test>CAPS['network_bytes']:raise RuntimeError('BLOCKED_RESOURCE: staged route plus reserved test transfer exceeds remaining transfer')
     save(OUT/f'{split}_acquisition_plan.json',dict(split=split,m=m,reserve_components_per_class=2,
         wanted_rows=len(wanted_rows),selection='fixed canonical/component ranks, independent of archive arrival',
@@ -427,7 +443,8 @@ def acquire(split='val'):
             key=rank('archive',record['url']);catalog=CACHE/'catalogs'/(key+'.json')
             if catalog.exists():
                 old=read(catalog);listed={r['filename'] for r in old['members']}
-                if all((CACHE/'videos'/split/n).exists() for n in wanted&listed):continue
+                valid=next(r['complete'] for r in index(split)['coverage'] if r['url']==record['url'])
+                if valid and all((CACHE/'videos'/split/n).exists() for n in wanted&listed):continue
             print('Acquire/catalog',record['url'],flush=True)
             for attempt in range(3):
                 try:
@@ -445,6 +462,7 @@ def acquire(split='val'):
                 path.unlink()
     save(OUT/f'{split}_acquisition_receipt.json',dict(catalogs=len(records_for_split),wanted=len(wanted),
         present=sum((CACHE/'videos'/split/n).exists() for n in wanted),no_model_calls=True))
+    with metered('cpu','archive-membership-publication'):publish()
     # Newly cataloged encoded identities may change known exclusions/components
     # even when an absent higher-ranked filename itself has no local bytes.
     with metered('cpu','pre-prefix-encoded-identity-join'):rebuild_population()
@@ -454,14 +472,12 @@ def acquire(split='val'):
         except MissingNeededInput as exc:
             if exc.filename in requested:raise
             requested.add(exc.filename)
-            matches=[]
-            for p in (CACHE/'catalogs').glob('*.json'):
-                catalog=read(p)
-                if any(r['filename']==exc.filename for r in catalog['members']):matches.append(catalog['url'])
-            if len(matches)!=1:
-                save(OUT/f'{split}_unavailable_needed_input.json',dict(filename=exc.filename,split=split,
+            available=membership(split,exc.filename)
+            matches=sorted({r['url'] for r in available['origins']})
+            if available['state']!='PRESENT':
+                save(OUT/f'{split}_unresolved_needed_input.json',dict(filename=exc.filename,split=split,
                     authenticated_complete_catalogs=len(records_for_split),catalog_matches=matches,
-                    prerequisite='Supply authentic original RGB for this higher-ranked official clip, with provenance and real PTS; unavailable bytes are not scientific ineligibility.',
+                    prerequisite='Resolve UNKNOWN pinned-release membership; verified absence alone excludes a clip.',availability=available,
                     no_replacement_or_model_exposure=True))
                 raise
             record=next(r for r in records_for_split if r['url']==matches[0])
@@ -471,6 +487,9 @@ def acquire(split='val'):
                 raise RuntimeError('BLOCKED_RESOURCE: necessary deterministic-prefix archive revisit exceeds remaining transfer after reserved test route')
             event('deterministic_prefix_extension',split=split,filename=exc.filename,url=record['url'],
                 reason='Higher-ranked technical/identity resolution requires this input; rank and quotas unchanged',new_archive_bytes=revisit)
+            # Retain the current deterministic prefix/reserves for every class
+            # on this revisit, including alternate clips in multi-class groups.
+            wanted.update(r['filename'] for r in reserve_members(split,m))
             wanted.add(exc.filename)
             with metered('collection','needed-prefix-archive-revisit'):
                 path,temporary=download_archive(record)
@@ -482,6 +501,10 @@ def acquire(split='val'):
 
 def certify(split='val'):
     from native_head_confirmation_runtime import screen_population
+    from native_head_confirmation_availability import publish
+    # A rank-preserving revisit may adopt the new enumeration schema for a
+    # legacy catalog. Publish its actual new hash before copying certificates.
+    with metered('cpu','pre-certificate-availability-publication'):publish()
     m=8 if split=='val' else read(OUT/'precision_plan.json')['selected_m']
     visited=set()
     while True:
@@ -558,6 +581,7 @@ def rebuild_population():
     """Metadata coverage includes every split; locality applies only to prefixes."""
     from run_native_head_value_confirmation import annotations
     from native_head_value_confirmation import class_mapping
+    from native_head_confirmation_availability import membership,VERSION
     ann=annotations();mapping=class_mapping(read(CACHE/'metadata/native_classes'),{r['label'] for r in ann['val']})
     audit=historical_audit(observed_identities());g=audit.graph
     train={g.root('yt:'+r['youtube_id']) for r in ann['train']}
@@ -573,6 +597,10 @@ def rebuild_population():
             filename=f"{r['youtube_id']}_{int(r['time_start']):06d}_{int(r['time_end']):06d}.mp4"
             if reason:
                 exclusions.append(dict(split=split,component=component,filename=filename,reason=reason,annotation_row=i));continue
+            availability=membership(split,filename)
+            if availability['state']=='CONFIRMED_ABSENT':
+                exclusions.append(dict(split=split,component=component,filename=filename,reason='archive_absent',annotation_row=i,
+                    population_rule=VERSION,evidence=sha(OUT/f'{split}_archive_availability.json.gz')));continue
             grouped[split,component].append(dict(split=split,component=component,youtube_id=r['youtube_id'],label=r['label'],
                 y=mapping[r['label']],filename=filename,previously_exposed=component in prior,canonical_rank=rank('canonical',filename)))
     candidates=sorted([r for v in grouped.values() for r in sorted(v,key=lambda r:r['canonical_rank'])],key=lambda r:(r['split'],r['y'],rank('component',r['component']),r['canonical_rank']))
@@ -587,6 +615,13 @@ def rebuild_population():
         known_model_exposed_components=len(prior),reserved_or_unresolved_components=len(forbidden),
         isolation_limit='Known parent/bytes/available frozen duplicate evidence only; unknown reuploads and undocumented pretraining remain.')
     save(OUT/'population_feasibility.json',report)
+    old=CACHE/'attempt_history'/ 'd97802601500101a94c91de2a546769e9fae29ab'/ 'data/source/native_head_value_confirmation_v1/candidate_manifest.json'
+    if old.exists():
+        before={(r['split'],r['component'],r['filename']) for r in read(old)}
+        after={(r['split'],r['component'],r['filename']) for r in candidates}
+        save(OUT/'population_selection_changes.json',dict(version=VERSION,old_candidates_sha256=sha(old),
+            new_candidates_sha256=sha(CACHE/'candidate_manifest.json'),removed=sorted(before-after),added=sorted(after-before),
+            selected_prefix_and_reserves='Recomputed by canonical clip rank before class quotas; availability is input-only.'))
     return report
 
 
@@ -619,6 +654,8 @@ def certify_rows(rows,split,m):
     files=[OUT/'source_audit_identity.json',OUT/'historical_source_evidence.json',OUT/'candidate_manifest_identity.json',
            OUT/'source_exclusion_ledger.json',OUT/'input_duplicate_screen_identity.json',OUT/f'{split}_manifest.json.gz',OUT/f'{split}_prefix_certificate.json']
     files.append(OUT/'archive_inventory.json')
+    files += [OUT/'population_rule.json',OUT/'population_amendment.md',OUT/f'{split}_archive_availability.json.gz']
+    if split=='test':files.append(OUT/'val_archive_availability.json.gz')
     files.extend([OUT/'class_mapping.json',OUT/'model_identity.json'])
     files.extend(sorted((CACHE/'metadata').glob('*')))
     files.extend(sorted((CACHE/'catalogs').glob('*.json')))
@@ -626,9 +663,18 @@ def certify_rows(rows,split,m):
     scope='fitting' if split=='val' else 'joint'
     if split=='test':
         fit=read(OUT/'val_manifest.json.gz')
+        old_prefix=read(OUT/'val_prefix_certificate.json')
+        try:current_fit=screen_population('val',8)
+        except MissingNeededInput as exc:
+            raise PlanningMembershipChanged('New joint input evidence requires a deeper fitting prefix: '+exc.filename) from exc
+        finally:
+            save(OUT/'val_manifest.json.gz',fit)
+            save(OUT/'val_prefix_certificate.json',old_prefix)
+        if [(r['component'],r['filename']) for r in current_fit]!=[(r['component'],r['filename']) for r in fit]:
+            raise PlanningMembershipChanged('New joint input evidence changed the canonical fitting membership')
         fit_components={nodes['yt:'+r['youtube_id']] for r in fit}
-        if fit_components&{r['component'] for r in manifest}:raise RuntimeError('BLOCKED_INPUT: fitting/evaluation source collision')
-        if fit_components&forbidden:raise RuntimeError('BLOCKED_INPUT: fitting membership invalidated by joint audit')
+        if len(fit_components)!=len(fit) or fit_components&{r['component'] for r in manifest} or fit_components&forbidden:
+            raise PlanningMembershipChanged('New joint input identities invalidate fitting independence or roles')
         files += [OUT/'val_manifest.json.gz',OUT/'val_prefix_certificate.json',OUT/'precision_plan.json']
     certificate=dict(scope=scope,adapter=ADAPTER_VERSION,classes=400,per_class=m,selected_sources=len(manifest),
         input_audit_implementation_sha256=INPUT_CODE_SHA_AT_IMPORT,

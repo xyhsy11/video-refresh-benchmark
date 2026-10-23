@@ -1,0 +1,9 @@
+{
+  "at_utc": "2026-10-23T09:57:54.854926+00:00",
+  "passed": true,
+  "sources": 8,
+  "actual_profile_forwards": 128,
+  "exact_feature_logit_thumbnail_parity": true,
+  "profile_implementation_sha256": "08cbaf256b1aa451a709f01d02936faf1ef53a69cf00d26807ea1c3427706e80",
+  "scope": "Offline byte/array/receipt verification only. This replay is not throughput, a new encoder call or an EVAL outcome."
+}

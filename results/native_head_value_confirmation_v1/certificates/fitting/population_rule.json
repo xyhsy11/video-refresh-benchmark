@@ -1,0 +1,699 @@
+{
+  "version": "archive_available_v1",
+  "at_utc": "2026-10-23T08:11:01.092398+00:00",
+  "reviewed_commit": "d97802601500101a94c91de2a546769e9fae29ab",
+  "actual_head": "d97802601500101a94c91de2a546769e9fae29ab",
+  "previous_config_sha256": "0d7cafbd77ee6bd68ba688ee140a125771356dc6eaf73a47d13fdb888488e829",
+  "snapshot_sha256": "c34f9159f00b9d950a4f1356294089481a5e929e22464cd4b9dc1aa2fb34cd6d",
+  "releases": {
+    "val": {
+      "list_sha256": "7c75bab47da18ba747e8bdd826bec9139672336fd3431caa71ff563473080e77",
+      "urls": [
+        "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/val/part_2.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/val/part_4.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/val/part_5.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/val/part_7.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/val/part_8.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/val/part_13.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/val/part_15.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/val/part_17.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/val/part_18.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/val/part_19.tar.gz"
+      ],
+      "representations": {
+        "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz": {
+          "split": "val",
+          "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+          "content_length": 1546665596,
+          "cached_path": "data/source/cache_drift_v2/shards/part_0.tar.gz",
+          "etag": "\"6f237cb34b1777327342736e002aa223-185\"",
+          "last_modified": "Wed, 14 Apr 2021 17:55:29 GMT",
+          "status": 200,
+          "cached_bytes": 1546665596,
+          "cached_sha256": "1f00236f1ec7663f7f15e39eaf2ad5ff31d74cce4eb5fc8f68b44df9a71a3d27"
+        },
+        "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz": {
+          "split": "val",
+          "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+          "content_length": 1577976961,
+          "cached_path": "data/source/cache_drift_v2/shards/part_1.tar.gz",
+          "etag": "\"b6740f7144bde31e9a16a34f58a92e87-189\"",
+          "last_modified": "Wed, 14 Apr 2021 17:55:29 GMT",
+          "status": 200,
+          "cached_bytes": 1577976961,
+          "cached_sha256": "442d36834e92a9b3226a814c40744bfddbf76d3bbdc289e1e13e7baf6c1a1cd7"
+        },
+        "https://s3.amazonaws.com/kinetics/400/val/part_2.tar.gz": {
+          "split": "val",
+          "url": "https://s3.amazonaws.com/kinetics/400/val/part_2.tar.gz",
+          "content_length": 1564443902,
+          "cached_path": "data/source/cache_drift_v2/shards/part_2.tar.gz",
+          "etag": "\"a2c26b3848c7a218bd3ace04deafdfde-187\"",
+          "last_modified": "Wed, 14 Apr 2021 18:01:01 GMT",
+          "status": 200,
+          "cached_bytes": 1564443902,
+          "cached_sha256": "87410e2f34311dff8cb9e05efd97914a9c8dab5ad101c0292bf9a829eaa1b934"
+        },
+        "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz": {
+          "split": "val",
+          "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+          "content_length": 1476180406,
+          "cached_path": "data/source/cache_drift_v2/shards/part_3.tar.gz",
+          "etag": "\"cdb8514cbaac6d260aab82eb95251523-176\"",
+          "last_modified": "Wed, 14 Apr 2021 18:01:01 GMT",
+          "status": 200,
+          "cached_bytes": 1476180406,
+          "cached_sha256": "c7d41a167f836e594dc87028ad32fa7b84b0706874682d17ed1d29c94689cd0f"
+        },
+        "https://s3.amazonaws.com/kinetics/400/val/part_4.tar.gz": {
+          "split": "val",
+          "url": "https://s3.amazonaws.com/kinetics/400/val/part_4.tar.gz",
+          "content_length": 1602310844,
+          "cached_path": "data/source/cache_drift_v2/shards/part_4.tar.gz",
+          "etag": "\"92d4ca6b4716cf77ec3d222f3bf43d04-192\"",
+          "last_modified": "Wed, 14 Apr 2021 18:01:14 GMT",
+          "status": 200,
+          "cached_bytes": 1602310844,
+          "cached_sha256": "4405626bfcf8a0993cdf07d62218b1f190fa0492efcde8f5bb9579e80cfc1ad0"
+        },
+        "https://s3.amazonaws.com/kinetics/400/val/part_5.tar.gz": {
+          "split": "val",
+          "url": "https://s3.amazonaws.com/kinetics/400/val/part_5.tar.gz",
+          "content_length": 1526745719,
+          "cached_path": "data/source/cache_drift_v2/shards/part_5.tar.gz",
+          "etag": "\"0c38c570b49dc0c465af52dae1867756-183\"",
+          "last_modified": "Wed, 14 Apr 2021 18:03:27 GMT",
+          "status": 200,
+          "cached_bytes": 1526745719,
+          "cached_sha256": "d23cf16eb2c08db09f9350620d2318093775fae02f5c88502eed3e2fce900a5b"
+        },
+        "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz": {
+          "split": "val",
+          "url": "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+          "content_length": 1466433224,
+          "cached_path": "data/source/cache_drift_v2/shards/part_6.tar.gz",
+          "etag": "\"d7d27bb40194329e5ea0f5efbe7fa724-175\"",
+          "last_modified": "Wed, 14 Apr 2021 18:03:34 GMT",
+          "status": 200,
+          "cached_bytes": 1466433224,
+          "cached_sha256": "9941dcebe377c342c7fd8a258e1ea2a5a808ce5b32f21ed6b5cdda143d9848b7"
+        },
+        "https://s3.amazonaws.com/kinetics/400/val/part_7.tar.gz": {
+          "split": "val",
+          "url": "https://s3.amazonaws.com/kinetics/400/val/part_7.tar.gz",
+          "content_length": 1584117306,
+          "cached_path": "data/source/cache_drift_v2/shards/part_7.tar.gz",
+          "etag": "\"66e8c83199bc2e1b9bf5b469c58ff168-189\"",
+          "last_modified": "Wed, 14 Apr 2021 18:03:34 GMT",
+          "status": 200,
+          "cached_bytes": 1584117306,
+          "cached_sha256": "6394c8f000f5fd83148dcee8320a7ce4318da7d591384b1461c8f242b54bc6cc"
+        },
+        "https://s3.amazonaws.com/kinetics/400/val/part_8.tar.gz": {
+          "split": "val",
+          "url": "https://s3.amazonaws.com/kinetics/400/val/part_8.tar.gz",
+          "content_length": 1617834308,
+          "cached_path": "data/source/cache_drift_v2/shards/part_8.tar.gz",
+          "etag": "\"6a88d0c276da53cf5d03abf04d3c19bb-193\"",
+          "last_modified": "Wed, 14 Apr 2021 18:03:42 GMT",
+          "status": 200,
+          "cached_bytes": 1617834308,
+          "cached_sha256": "84d582d9eac4e635093ebf8275f22a642ed9c92f396660dde05a3c87b23c8f61"
+        },
+        "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz": {
+          "split": "val",
+          "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+          "content_length": 1527227822,
+          "cached_path": "data/source/cache_drift_v2/shards/part_9.tar.gz",
+          "etag": "\"0bdb643c689482f43209d8dccb8da7bd-183\"",
+          "last_modified": "Wed, 14 Apr 2021 18:03:56 GMT",
+          "status": 200,
+          "cached_bytes": 1527227822,
+          "cached_sha256": "11144ceebeb1b07ed010daa357815f2d5edb2e2c28c91d7d9993c67cf6a9d616"
+        },
+        "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz": {
+          "split": "val",
+          "url": "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+          "content_length": 1475265722,
+          "cached_path": "data/source/cache_drift_v2/shards/part_10.tar.gz",
+          "etag": "\"5b2945a2668f35ea38cbeb3fce166f5e-176\"",
+          "last_modified": "Wed, 14 Apr 2021 17:55:29 GMT",
+          "status": 200,
+          "cached_bytes": 1475265722,
+          "cached_sha256": "84cc46a4ff7984ea00ea623389a0f4ce7ca0588c0de47470a8d430fc3d05f6e3"
+        },
+        "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz": {
+          "split": "val",
+          "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+          "content_length": 1502494589,
+          "cached_path": "data/source/cache_drift_v2/shards/part_11.tar.gz",
+          "etag": "\"0280a8538487f73176e1295a770ae6be-180\"",
+          "last_modified": "Wed, 14 Apr 2021 17:55:29 GMT",
+          "status": 200,
+          "cached_bytes": 1502494589,
+          "cached_sha256": "d52e331e7a38491097173395dffdae61d7a0b6dad34e4a240751da4e63985290"
+        },
+        "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz": {
+          "split": "val",
+          "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+          "content_length": 1491709203,
+          "cached_path": "data/source/cache_drift_v2/shards/part_12.tar.gz",
+          "etag": "\"2eb22a374430398924c06b0e6e5da45e-178\"",
+          "last_modified": "Wed, 14 Apr 2021 17:55:29 GMT",
+          "status": 200,
+          "cached_bytes": 1491709203,
+          "cached_sha256": "f3e82eb1efc93909e07a216664b1db1f09355f4f09c5d87790de9891797c80d5"
+        },
+        "https://s3.amazonaws.com/kinetics/400/val/part_13.tar.gz": {
+          "split": "val",
+          "url": "https://s3.amazonaws.com/kinetics/400/val/part_13.tar.gz",
+          "content_length": 1568992712,
+          "cached_path": "data/source/cache_drift_v2/shards/part_13.tar.gz",
+          "etag": "\"f72de850a954b59f70c74cfe641d364b-188\"",
+          "last_modified": "Wed, 14 Apr 2021 17:57:52 GMT",
+          "status": 200,
+          "cached_bytes": 1568992712,
+          "cached_sha256": "90c5924b0ecc9c1e5f95b87932f1324c50eb0f11ebfc8ed1dd65eaf02b83f9a4"
+        },
+        "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz": {
+          "split": "val",
+          "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+          "content_length": 1470548062,
+          "cached_path": "data/source/cache_drift_v2/shards/part_14.tar.gz",
+          "etag": "\"162e323966c4097b0338b6364bc08fa8-176\"",
+          "last_modified": "Wed, 14 Apr 2021 17:57:55 GMT",
+          "status": 200,
+          "cached_bytes": 1470548062,
+          "cached_sha256": "f42200912c9a472f178ab5dae1cdd54b3c55923e48cd22fae7e99a21fedd38f9"
+        },
+        "https://s3.amazonaws.com/kinetics/400/val/part_15.tar.gz": {
+          "split": "val",
+          "url": "https://s3.amazonaws.com/kinetics/400/val/part_15.tar.gz",
+          "content_length": 1535436476,
+          "cached_path": null,
+          "etag": "\"f1844b91cf50a3f9e326b3f6cd9f880c-184\"",
+          "last_modified": "Wed, 14 Apr 2021 17:57:56 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz": {
+          "split": "val",
+          "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+          "content_length": 1505409596,
+          "cached_path": "data/source/cache_drift_v2/shards/part_16.tar.gz",
+          "etag": "\"c794388a4904471ec12a140f89a57c6b-180\"",
+          "last_modified": "Wed, 14 Apr 2021 17:58:01 GMT",
+          "status": 200,
+          "cached_bytes": 1505409596,
+          "cached_sha256": "7a5f9ca27c86a23fea7c9b5c5dd3c6456a70b242a0034efbd6607cf09c4c5812"
+        },
+        "https://s3.amazonaws.com/kinetics/400/val/part_17.tar.gz": {
+          "split": "val",
+          "url": "https://s3.amazonaws.com/kinetics/400/val/part_17.tar.gz",
+          "content_length": 1441614136,
+          "cached_path": null,
+          "etag": "\"e4a9eb15ee3b5cf582fa7328bf849074-172\"",
+          "last_modified": "Wed, 14 Apr 2021 17:58:03 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/val/part_18.tar.gz": {
+          "split": "val",
+          "url": "https://s3.amazonaws.com/kinetics/400/val/part_18.tar.gz",
+          "content_length": 1510521854,
+          "cached_path": "data/source/temporal_refresh_generalization_v1/shards/part_18.tar.gz",
+          "etag": "\"d38e46a5c1166f9376edb63f3bbf2250-181\"",
+          "last_modified": "Wed, 14 Apr 2021 18:00:51 GMT",
+          "status": 200,
+          "cached_bytes": 1510521854,
+          "cached_sha256": "e439fe4848147500ca79ac06c3d360c1ebf342f977597f7a7717571debf6efcf"
+        },
+        "https://s3.amazonaws.com/kinetics/400/val/part_19.tar.gz": {
+          "split": "val",
+          "url": "https://s3.amazonaws.com/kinetics/400/val/part_19.tar.gz",
+          "content_length": 1362588801,
+          "cached_path": "data/source/temporal_refresh_generalization_v1/shards/part_19.tar.gz",
+          "etag": "\"cc688cefa2e68afef6b51e237202fb56-163\"",
+          "last_modified": "Wed, 14 Apr 2021 18:01:01 GMT",
+          "status": 200,
+          "cached_bytes": 1362588801,
+          "cached_sha256": "29e0a7055d23ffa8cc2e37206b55fc5b1bc61d91f5582391954d545e214125a5"
+        }
+      },
+      "annotation_sha256": "358eaf47e7f80ebf9b17d49eb0635ad5e0fdab98a9cbd75ffdd2ee5d5e5b6944"
+    },
+    "test": {
+      "list_sha256": "c387f464daf72f9bfa7506150e7d3e4868eadb9395ae874354ca185d3d5632c6",
+      "urls": [
+        "https://s3.amazonaws.com/kinetics/400/test/part_0.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_1.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_2.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_3.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_4.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_5.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_6.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_7.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_8.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_9.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_10.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_11.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_12.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_13.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_14.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_15.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_16.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_17.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_18.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_19.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_20.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_21.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_22.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_23.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_24.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_25.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_26.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_27.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_28.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_29.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_30.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_31.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_32.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_33.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_34.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_35.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_36.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_37.tar.gz",
+        "https://s3.amazonaws.com/kinetics/400/test/part_38.tar.gz"
+      ],
+      "representations": {
+        "https://s3.amazonaws.com/kinetics/400/test/part_0.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_0.tar.gz",
+          "content_length": 1605689786,
+          "cached_path": null,
+          "etag": "\"c1e04dfcfb5feabacac1812674983ca1-192\"",
+          "last_modified": "Wed, 14 Apr 2021 18:36:17 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_1.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_1.tar.gz",
+          "content_length": 1452127095,
+          "cached_path": null,
+          "etag": "\"57d289f41e4ba4c2974e5046734ea1c0-174\"",
+          "last_modified": "Wed, 14 Apr 2021 18:36:17 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_2.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_2.tar.gz",
+          "content_length": 1472234731,
+          "cached_path": null,
+          "etag": "\"8ac4c8cd080b414708d36e1850dbc15e-176\"",
+          "last_modified": "Wed, 14 Apr 2021 18:41:43 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_3.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_3.tar.gz",
+          "content_length": 1382971873,
+          "cached_path": null,
+          "etag": "\"cd13e84317f5865ced92eaf598180667-165\"",
+          "last_modified": "Wed, 14 Apr 2021 18:47:28 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_4.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_4.tar.gz",
+          "content_length": 1375883520,
+          "cached_path": null,
+          "etag": "\"830464614f2baaedff780c18bb8aac67-165\"",
+          "last_modified": "Wed, 14 Apr 2021 18:52:33 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_5.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_5.tar.gz",
+          "content_length": 1407080577,
+          "cached_path": null,
+          "etag": "\"75fafd2e62dca780b3d337ec5ca81656-168\"",
+          "last_modified": "Wed, 14 Apr 2021 18:52:35 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_6.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_6.tar.gz",
+          "content_length": 1527057063,
+          "cached_path": null,
+          "etag": "\"aabc5f69b2639027070dd8b0a2569531-183\"",
+          "last_modified": "Wed, 14 Apr 2021 18:53:48 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_7.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_7.tar.gz",
+          "content_length": 1395596861,
+          "cached_path": null,
+          "etag": "\"178fb0f9953cbcbe2f1ece5639d4e94c-167\"",
+          "last_modified": "Wed, 14 Apr 2021 18:54:32 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_8.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_8.tar.gz",
+          "content_length": 1384923578,
+          "cached_path": null,
+          "etag": "\"28ca313978c91a22546ceabd0f51c7e3-166\"",
+          "last_modified": "Wed, 14 Apr 2021 18:54:35 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_9.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_9.tar.gz",
+          "content_length": 1468365259,
+          "cached_path": null,
+          "etag": "\"0e8b96538822790ef79f42ef92cdac9f-176\"",
+          "last_modified": "Wed, 14 Apr 2021 18:54:42 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_10.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_10.tar.gz",
+          "content_length": 1494723008,
+          "cached_path": null,
+          "etag": "\"712d38b00634ef6b8c6678d50d18849c-179\"",
+          "last_modified": "Wed, 14 Apr 2021 18:36:17 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_11.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_11.tar.gz",
+          "content_length": 1401991806,
+          "cached_path": null,
+          "etag": "\"f0213f5f25499aff421c36bdb8c01bd6-168\"",
+          "last_modified": "Wed, 14 Apr 2021 18:36:17 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_12.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_12.tar.gz",
+          "content_length": 1457451304,
+          "cached_path": null,
+          "etag": "\"26006374e75226737c1c7b6f99fca61e-174\"",
+          "last_modified": "Wed, 14 Apr 2021 18:36:17 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_13.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_13.tar.gz",
+          "content_length": 1432319925,
+          "cached_path": null,
+          "etag": "\"0bd23b0541d1c9a3c9ad489ee6a30cf3-171\"",
+          "last_modified": "Wed, 14 Apr 2021 18:38:45 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_14.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_14.tar.gz",
+          "content_length": 1431472909,
+          "cached_path": null,
+          "etag": "\"c5b9fc99873907202554366f0c870955-171\"",
+          "last_modified": "Wed, 14 Apr 2021 18:38:50 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_15.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_15.tar.gz",
+          "content_length": 1406985577,
+          "cached_path": null,
+          "etag": "\"f1dc5a9ad148f82dd0585c2cba6fa715-168\"",
+          "last_modified": "Wed, 14 Apr 2021 18:38:50 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_16.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_16.tar.gz",
+          "content_length": 1428021558,
+          "cached_path": null,
+          "etag": "\"86d27889433849342eba1e5231925479-171\"",
+          "last_modified": "Wed, 14 Apr 2021 18:38:54 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_17.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_17.tar.gz",
+          "content_length": 1426893519,
+          "cached_path": null,
+          "etag": "\"cb0c352371336ef3bdc8e005f9f19d07-171\"",
+          "last_modified": "Wed, 14 Apr 2021 18:39:05 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_18.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_18.tar.gz",
+          "content_length": 1453838355,
+          "cached_path": null,
+          "etag": "\"0099bb38db42644a26089f17940c0303-174\"",
+          "last_modified": "Wed, 14 Apr 2021 18:41:37 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_19.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_19.tar.gz",
+          "content_length": 1446519518,
+          "cached_path": null,
+          "etag": "\"88f0259c6f8e635a54e452e2d26df0cf-173\"",
+          "last_modified": "Wed, 14 Apr 2021 18:41:40 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_20.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_20.tar.gz",
+          "content_length": 1436880398,
+          "cached_path": null,
+          "etag": "\"d4b4cb514d8d623e3276a769f50dc8f7-172\"",
+          "last_modified": "Wed, 14 Apr 2021 18:41:49 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_21.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_21.tar.gz",
+          "content_length": 1421534035,
+          "cached_path": null,
+          "etag": "\"766c3f0991bb3aaa5cc7af7ab963abc3-170\"",
+          "last_modified": "Wed, 14 Apr 2021 18:41:57 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_22.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_22.tar.gz",
+          "content_length": 1421960789,
+          "cached_path": null,
+          "etag": "\"9b18217345bd266cb2f1b99e15259b94-170\"",
+          "last_modified": "Wed, 14 Apr 2021 18:44:49 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_23.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_23.tar.gz",
+          "content_length": 1414985436,
+          "cached_path": null,
+          "etag": "\"526e93047068f334fe9d145f70d1b726-169\"",
+          "last_modified": "Wed, 14 Apr 2021 18:44:54 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_24.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_24.tar.gz",
+          "content_length": 1483721309,
+          "cached_path": null,
+          "etag": "\"b97d9b0b24236ae78d05f142944c5dbe-177\"",
+          "last_modified": "Wed, 14 Apr 2021 18:44:57 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_25.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_25.tar.gz",
+          "content_length": 1423659097,
+          "cached_path": null,
+          "etag": "\"7341c3b5846144013fe758a618747c43-170\"",
+          "last_modified": "Wed, 14 Apr 2021 18:44:59 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_26.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_26.tar.gz",
+          "content_length": 1522025545,
+          "cached_path": null,
+          "etag": "\"f2c50404861747e7d430d613b1989e26-182\"",
+          "last_modified": "Wed, 14 Apr 2021 18:45:04 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_27.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_27.tar.gz",
+          "content_length": 1426016851,
+          "cached_path": null,
+          "etag": "\"ad1b28a919b198b56e20b2d446dbe882-170\"",
+          "last_modified": "Wed, 14 Apr 2021 18:47:13 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_28.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_28.tar.gz",
+          "content_length": 1461474754,
+          "cached_path": null,
+          "etag": "\"646b33d4044bd4eb420ddab163be223a-175\"",
+          "last_modified": "Wed, 14 Apr 2021 18:47:16 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_29.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_29.tar.gz",
+          "content_length": 1525585917,
+          "cached_path": null,
+          "etag": "\"304c81b8356cd638102348d97a885977-182\"",
+          "last_modified": "Wed, 14 Apr 2021 18:47:24 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_30.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_30.tar.gz",
+          "content_length": 1432843912,
+          "cached_path": null,
+          "etag": "\"85c26f005e4bb66e3a635c01ae9c63d1-171\"",
+          "last_modified": "Wed, 14 Apr 2021 18:47:40 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_31.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_31.tar.gz",
+          "content_length": 1434788925,
+          "cached_path": null,
+          "etag": "\"733e20c9c116554fa7de4585e6b04b0e-172\"",
+          "last_modified": "Wed, 14 Apr 2021 18:49:45 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_32.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_32.tar.gz",
+          "content_length": 1474066843,
+          "cached_path": null,
+          "etag": "\"570686666e8b18d8b646ca8604427556-176\"",
+          "last_modified": "Wed, 14 Apr 2021 18:49:51 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_33.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_33.tar.gz",
+          "content_length": 1439189078,
+          "cached_path": null,
+          "etag": "\"2fab801a7f6ef8fcb89732afd641a849-172\"",
+          "last_modified": "Wed, 14 Apr 2021 18:49:55 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_34.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_34.tar.gz",
+          "content_length": 1493712750,
+          "cached_path": null,
+          "etag": "\"f0d7cf9dd6fa7c1b34ca98bc418d23fe-179\"",
+          "last_modified": "Wed, 14 Apr 2021 18:50:06 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_35.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_35.tar.gz",
+          "content_length": 1448496484,
+          "cached_path": null,
+          "etag": "\"5f3bd952ef0993cb284b03b62411c431-173\"",
+          "last_modified": "Wed, 14 Apr 2021 18:50:12 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_36.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_36.tar.gz",
+          "content_length": 1536020254,
+          "cached_path": null,
+          "etag": "\"ddb053f2a7cdaec24dd52d94a9d44d61-184\"",
+          "last_modified": "Wed, 14 Apr 2021 18:52:08 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_37.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_37.tar.gz",
+          "content_length": 1480342867,
+          "cached_path": null,
+          "etag": "\"6e08ce5b4ece38fcddd738c31fb686f5-177\"",
+          "last_modified": "Wed, 14 Apr 2021 18:52:17 GMT",
+          "status": 200
+        },
+        "https://s3.amazonaws.com/kinetics/400/test/part_38.tar.gz": {
+          "split": "test",
+          "url": "https://s3.amazonaws.com/kinetics/400/test/part_38.tar.gz",
+          "content_length": 965349699,
+          "cached_path": null,
+          "etag": "\"e5f321d450a2e5b0773b8e3cc2e075e8-116\"",
+          "last_modified": "Wed, 14 Apr 2021 18:52:18 GMT",
+          "status": 200
+        }
+      },
+      "annotation_sha256": "0a552ca4de2bcc5f6da23f370541f59c43fb0f30812d1466323fbd762b93b90e"
+    }
+  },
+  "legacy_complete_catalog_sha256": {
+    "034eff304488219f45243787e6ee09d27ed6e4ecd8cd6f6a32cc35d6f5bebcde.json": "828205a4dafa39053242fdc06aed8e859c984297d9f2a6d2cddb02cd7ff1b0cb",
+    "1228feec16c9c05dcf4db40768769357b8222fca115633a4777a9e3af4af2dcc.json": "5f9939e55c02b95b97ef59b5fbd7661607337d127dfc0c6b4f496bced8deb461",
+    "1754eafa079bdd09c76754f7d963971c4f106ef1aa38e6f8409bdf1a91404c5a.json": "97049168af96979ccc0783b560b4efa3df7e27d774ad12e1fd643b3c2d8e4cc8",
+    "258a06276c8b29975618d1bbfe8e6997b7b50460ad82e03da28900b8ce80194c.json": "90e09e06ead778c9383365317f8b08d574e99123e048b6a1f071424d46e66efa",
+    "3f2419438f2f7e8d033fd76d9b41a71f46b1e0b48350fb877ecd073e4c85f379.json": "8a9edef4ce2380aa802df289cc53065a3d05302c705ceee251dc6f3ae875cc2c",
+    "439123dc14c05ec53217fb6f6789abb9ab67bc046918caa8ba85cba3c23c7629.json": "5d42c50399053b4d86172014087f12b300a6f160fa062235cb288d887d1ae40b",
+    "4561e6293d5b577da000408277a1b591900a4cb071f99e7c43db47f4a18ccee6.json": "b20313a9b3561fff17903ac63133abfd7daeceba2bbab5a4634ba8f891877aeb",
+    "4d0a801045d54fe91b890fdff0f3648cac5fd3ee2eed6089b402ea8ba900955a.json": "7ff73a393dcb2b5e523efbde7feef064ca5cfcea28fc0a909fe58f8295238c4e",
+    "5f4e96ea06f27e414c54f0e972bc6b503e998931f020318ba13f95722a41a9b3.json": "00f8b8ee94a9f8478caa347e0f5c198ac08812e2c34968f45a05f35509ff0ea2",
+    "687e48535c230eb4e951a20d4f162fb6ebb78bc2373e34f2af6a145103f9c26b.json": "c3fa4e924b6f4ddfb1b4060429ec497e8aa89ae84131b66a454aa18767c0c4ea",
+    "8b06cc8f49a1dfbc8ebb05ea5fd57c6dcc4326c02b4f166f064ef6f161d9dc3b.json": "88cc4bb41fed5983fe41ca06b8cfc861bd7acd5fb903c9641c3066c32fd4d85a",
+    "8f2c69d94708043d06424e4e45c258349d8ab823d041a05cb422d4d7df117d15.json": "f20546998039e05d951407e9758d4337a5305aa11958e1ab979bd5342e0d0b7e",
+    "968fdb3f94abc4c2793056270dba55673d21cc4430366dcfaa0d73eb19972d75.json": "5541e27e4c9ffe2d451e615aa423bd19b3e2bf821a0ec704156f1346b8b58aca",
+    "975508a8a69a7e4506039b9bf75848cb77ee5dc6c72cb491a5835195f481730e.json": "bce66f4af10d14c58dd2fb81bc21f3fbd0754aa67db1235586cba04a1e970bf6",
+    "a772e711b339f5e7675bc3368a78f164d22e5bd5297066afeec9094243c13ad8.json": "96e7eca302646bf9cd2a8db4b02dadd77c76cac43449d53bf763411e59724b6a",
+    "ac8500b5b61db8d1737c10fad6f8071e525a271a51a5298c22a839d58ef246da.json": "61a874e7c19abe14c7da3528aa52cd60bfd15842602bf14d9c0315383d192d05",
+    "aec9bc9ea68f846e39732fea390620512bebec74e200ad2727630cde7466be91.json": "33d8b01effb45b46ff6087563f592f6cec9ec3ccfc681975c3bc3d2337e5a10a",
+    "c252726e5520501679f07b66746d8d1fe26285e2ce86588070d8c8c43629ff68.json": "4a43024d5cfeabe7ede741cbb868c58c46929bceac7c04e65a32137c45f9913d",
+    "eb052015df5c68409c596b77ba40cb86c20fb719fab52b7687c261a3dfe79156.json": "4cd67d8a75d61d5dee4dfad72d832b0ed7001c675d94937256dc6dbfbcb2a6d8",
+    "ef1b9b344bfa011367ba17e24af06dfbc51ba206605ed357821ebe397ccbde0d.json": "770b2e80dcb8c132fccf04296d147bdcbae10f7f2ccc5f7c62e1d342c841b370"
+  },
+  "legacy_enumeration_evidence": {
+    "commit": "d97802601500101a94c91de2a546769e9fae29ab",
+    "implementation_sha256": "aaa33a3003eacb8e69ecbeb22ac343179d85d7dc9a888b4136e896ec0eda5785",
+    "procedure": "catalog_archive streamed every regular tar member and drained gzip through CRC before atomic catalog save; reviewed committed catalog identities pinned here"
+  },
+  "matching": "Exact official youtube_id and integer start/end filename; all duplicate occurrences must agree in encoded SHA256 and byte count; all annotation mappings must be unambiguous",
+  "population": "Eligible archive-available official K400 validation/test clips in the fixed 400 native classes",
+  "absence": "Zero matches only after every unique pinned archive representation has a verified complete catalog",
+  "uncertainty": "Availability is not assumed missing at random; inaccessible annotations are outside the target population",
+  "exposure_before_amendment": {
+    "encoder_starts": 0,
+    "encoder_completions": 0,
+    "decodes": 397,
+    "decoded_frames": 105895,
+    "probe_fits": 0,
+    "probe_completions": 0,
+    "verification_probe_fits": 8,
+    "collection_seconds": 2917.287372096083,
+    "cpu_seconds": 875.0386562000004,
+    "timing_seconds": 0,
+    "acquisition_seconds": 873.1587149000003,
+    "acquisition_upper_bound_extra_seconds": 593.074174,
+    "uncertain_encoder_calls": 0,
+    "uncertain_operations": []
+  }
+}

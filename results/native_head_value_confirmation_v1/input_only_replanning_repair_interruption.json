@@ -1,0 +1,9 @@
+{
+  "at_utc": "2026-10-23T09:24:57.493953+00:00",
+  "pid": 12992,
+  "process_created": 134372204302144383,
+  "genuine_interruption": true,
+  "encoder_starts": 0,
+  "reason": "Correct pre-EVAL replanning without resetting exposure/resource counters",
+  "preserved": "All originals, catalogs, completed screens and past attempts"
+}

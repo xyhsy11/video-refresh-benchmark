@@ -1,0 +1,7 @@
+{
+  "url": "https://s3.amazonaws.com/kinetics/400/val/part_15.tar.gz",
+  "etag": "\"f1844b91cf50a3f9e326b3f6cd9f880c-184\"",
+  "expected_bytes": 1535436476,
+  "sha256": "e81cffae748059030b5829fc09c8ee52a1813dc805139e2ae0e64766fd86fe6c",
+  "status": "complete"
+}
