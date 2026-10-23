@@ -1,5 +1,5 @@
 {
-  "at_utc": "2026-10-23T04:42:22.587520+00:00",
+  "at_utc": "2026-10-23T06:15:17.999885+00:00",
   "basis": "HEAD content-length of every listed archive; complete gzip shards, no byte-range extraction assumed",
   "archive_counts": {
     "val": 20,
@@ -12,9 +12,9 @@
   "metadata_body_bytes": 13062569,
   "complete_route_with_metadata_bytes": 59084915946,
   "largest_archive_scratch_bytes": 1617834308,
-  "available_disk_bytes": 89373769728,
+  "available_disk_bytes": 171365683200,
   "caps": {
-    "network_bytes": 21474836480,
+    "network_bytes": 65498251264,
     "retained_bytes": 21474836480,
     "collection_seconds": 28800,
     "cpu_seconds": 14400,
@@ -22,17 +22,22 @@
   },
   "exact_selected_shard_transfer_bytes": null,
   "selected_shard_uncertainty": "No authenticated public member-to-shard index retained; exact selected shard set cannot be certified without archive traversals.",
-  "conservative_route_exceeds_network_cap": true,
+  "conservative_route_exceeds_network_cap": false,
   "proposed_network_cap_gib": 61,
-  "resource_amendment": "Authorize the stated conservative network cap with 10% retry reservation, or supply an authenticated selected-member/shard index and original RGB locally. Stream one complete archive at a time; keep only selected clips. Recheck retained/scratch/throughput gates before collection.",
+  "resource_amendment": "61 GiB authorized by resumed brief; cumulative prior bytes preserved. Stream bounded complete shards and gate retained/peak/throughput separately.",
   "collection_projection_seconds": null,
   "cpu_projection_seconds": null,
   "timing_projection_seconds": null,
-  "throughput_status": "NOT_MEASURED: complete acquisition and independent source gates have not passed; eight fitting smoke inputs are not certified.",
+  "throughput_status": "NOT_MEASURED: certified fitting smoke pending; fitting and exact-m EVAL gated separately.",
   "retained_projection_bytes": null,
   "scratch_status": "Largest compressed shard is only a lower bound; expanded members/decode buffers require a separately measured peak.",
   "reference_calls_floor": 102400,
   "reference_calls_ceiling": 179200,
   "timing_calls_planned": 11760,
-  "no_bulk_acquisition": true
+  "no_bulk_acquisition": false,
+  "current_network_cap_charged_bytes": 2995163817,
+  "known_recorded_http_body_bytes": 2990969513,
+  "current_additional_retained_bytes": 6295063809,
+  "current_temporary_working_bytes": 0,
+  "current_available_disk_bytes": 163652157440
 }

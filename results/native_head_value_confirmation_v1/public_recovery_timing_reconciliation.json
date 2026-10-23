@@ -1,0 +1,9 @@
+{
+  "collection_seconds": 1.5380811999984871,
+  "reason": "Public recovery HTTP checks happened after the first certification operation finished, so their earlier concurrent-scope text was inaccurate. This append-only receipt charges their real measured elapsed once.",
+  "events": [
+    "2026-10-23T07:06:12.579963+00:00",
+    "2026-10-23T07:06:12.729877+00:00",
+    "2026-10-23T07:07:45.450982+00:00"
+  ]
+}

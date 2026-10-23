@@ -1,7 +1,10 @@
 {
-  "status": "FAILED_PREEXISTING",
+  "status": "PASS_AFTER_PORTABLE_PATH_FIX",
   "file": "run_executable_value_observability.py",
-  "current_sha256": "b97eb244cb95199e35fbea034bdd341a44867694287e0d5cd2248b6d6314482a",
-  "unchanged_since_start": true,
-  "reason": "Existing absolute local path triggers validate_release.py personal-path guard; protected historical source was preserved"
+  "reviewed_sha256": "b97eb244cb95199e35fbea034bdd341a44867694287e0d5cd2248b6d6314482a",
+  "current_sha256": "a3ae63fe638b1cd7b30b05c094f9217657ff218754075075cfbc6e37f058929d",
+  "independently_verified_only_difference": "Path('C:/AGENTS.md') -> Path(ROOT.anchor)/'AGENTS.md'",
+  "scientific_calculations_unchanged": true,
+  "public_release_validator": "PASS",
+  "protected_historical_evaluations_invoked": false
 }

@@ -117,7 +117,7 @@ def preflight(out):
         requested_reviewed_commit='5c43513d7d56719972dc2e9d9a733f65dd6075fb',
         reviewed_commit_present=subprocess.run(['git', 'cat-file', '-e', '5c43513d7d56719972dc2e9d9a733f65dd6075fb^{commit}'], cwd=ROOT, capture_output=True).returncode == 0,
         authority='Actual local checkout; no fetch/pull/switch/reset/stash; direct final user instruction authorizes commit/push',
-        applicable_AGENTS=[str(p) for p in [Path('C:/AGENTS.md'), ROOT/'AGENTS.md', ROOT/'results/AGENTS.md', out/'AGENTS.md'] if p.exists()],
+        applicable_AGENTS=[str(p) for p in [Path(ROOT.anchor)/'AGENTS.md', ROOT/'AGENTS.md', ROOT/'results/AGENTS.md', out/'AGENTS.md'] if p.exists()],
         completion_conflict='No newer completed executable-value experiment found in existing result directories'))
     save(out/'historical_fingerprint.json', history_fingerprint())
     versions = {}

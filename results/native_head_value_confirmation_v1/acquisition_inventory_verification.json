@@ -1,0 +1,137 @@
+{
+  "passed": true,
+  "errors": [],
+  "validated_archives": 20,
+  "cataloged_original_members": 19881,
+  "retained_originals": 3999,
+  "retained_original_bytes": 6147611789,
+  "screened_inputs": 199,
+  "technically_eligible_receipts": 198,
+  "technically_ineligible_receipts": 1,
+  "publisher_sha256_available": false,
+  "hash_scope": "Locally computed integrity identities of official HTTPS archives and their actual members",
+  "no_encoder_calls": true,
+  "scope": "Acquisition and partial technical-input verification only; no all-class membership/isolation certificate",
+  "archives": [
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_14.tar.gz",
+      "members": 1000,
+      "archive_sha256": "f42200912c9a472f178ab5dae1cdd54b3c55923e48cd22fae7e99a21fedd38f9",
+      "catalog_sha256": "828205a4dafa39053242fdc06aed8e859c984297d9f2a6d2cddb02cd7ff1b0cb"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_19.tar.gz",
+      "members": 881,
+      "archive_sha256": "29e0a7055d23ffa8cc2e37206b55fc5b1bc61d91f5582391954d545e214125a5",
+      "catalog_sha256": "5f9939e55c02b95b97ef59b5fbd7661607337d127dfc0c6b4f496bced8deb461"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_15.tar.gz",
+      "members": 1000,
+      "archive_sha256": "e81cffae748059030b5829fc09c8ee52a1813dc805139e2ae0e64766fd86fe6c",
+      "catalog_sha256": "97049168af96979ccc0783b560b4efa3df7e27d774ad12e1fd643b3c2d8e4cc8"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_3.tar.gz",
+      "members": 1000,
+      "archive_sha256": "c7d41a167f836e594dc87028ad32fa7b84b0706874682d17ed1d29c94689cd0f",
+      "catalog_sha256": "90e09e06ead778c9383365317f8b08d574e99123e048b6a1f071424d46e66efa"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_4.tar.gz",
+      "members": 1000,
+      "archive_sha256": "4405626bfcf8a0993cdf07d62218b1f190fa0492efcde8f5bb9579e80cfc1ad0",
+      "catalog_sha256": "8a9edef4ce2380aa802df289cc53065a3d05302c705ceee251dc6f3ae875cc2c"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_9.tar.gz",
+      "members": 1000,
+      "archive_sha256": "11144ceebeb1b07ed010daa357815f2d5edb2e2c28c91d7d9993c67cf6a9d616",
+      "catalog_sha256": "5d42c50399053b4d86172014087f12b300a6f160fa062235cb288d887d1ae40b"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_10.tar.gz",
+      "members": 1000,
+      "archive_sha256": "84cc46a4ff7984ea00ea623389a0f4ce7ca0588c0de47470a8d430fc3d05f6e3",
+      "catalog_sha256": "b20313a9b3561fff17903ac63133abfd7daeceba2bbab5a4634ba8f891877aeb"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_8.tar.gz",
+      "members": 1000,
+      "archive_sha256": "84d582d9eac4e635093ebf8275f22a642ed9c92f396660dde05a3c87b23c8f61",
+      "catalog_sha256": "7ff73a393dcb2b5e523efbde7feef064ca5cfcea28fc0a909fe58f8295238c4e"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_6.tar.gz",
+      "members": 1000,
+      "archive_sha256": "9941dcebe377c342c7fd8a258e1ea2a5a808ce5b32f21ed6b5cdda143d9848b7",
+      "catalog_sha256": "00f8b8ee94a9f8478caa347e0f5c198ac08812e2c34968f45a05f35509ff0ea2"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_5.tar.gz",
+      "members": 1000,
+      "archive_sha256": "d23cf16eb2c08db09f9350620d2318093775fae02f5c88502eed3e2fce900a5b",
+      "catalog_sha256": "c3fa4e924b6f4ddfb1b4060429ec497e8aa89ae84131b66a454aa18767c0c4ea"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_2.tar.gz",
+      "members": 1000,
+      "archive_sha256": "87410e2f34311dff8cb9e05efd97914a9c8dab5ad101c0292bf9a829eaa1b934",
+      "catalog_sha256": "88cc4bb41fed5983fe41ca06b8cfc861bd7acd5fb903c9641c3066c32fd4d85a"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_7.tar.gz",
+      "members": 1000,
+      "archive_sha256": "6394c8f000f5fd83148dcee8320a7ce4318da7d591384b1461c8f242b54bc6cc",
+      "catalog_sha256": "f20546998039e05d951407e9758d4337a5305aa11958e1ab979bd5342e0d0b7e"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_12.tar.gz",
+      "members": 1000,
+      "archive_sha256": "f3e82eb1efc93909e07a216664b1db1f09355f4f09c5d87790de9891797c80d5",
+      "catalog_sha256": "5541e27e4c9ffe2d451e615aa423bd19b3e2bf821a0ec704156f1346b8b58aca"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_1.tar.gz",
+      "members": 1000,
+      "archive_sha256": "442d36834e92a9b3226a814c40744bfddbf76d3bbdc289e1e13e7baf6c1a1cd7",
+      "catalog_sha256": "bce66f4af10d14c58dd2fb81bc21f3fbd0754aa67db1235586cba04a1e970bf6"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_13.tar.gz",
+      "members": 1000,
+      "archive_sha256": "90c5924b0ecc9c1e5f95b87932f1324c50eb0f11ebfc8ed1dd65eaf02b83f9a4",
+      "catalog_sha256": "96e7eca302646bf9cd2a8db4b02dadd77c76cac43449d53bf763411e59724b6a"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_18.tar.gz",
+      "members": 1000,
+      "archive_sha256": "e439fe4848147500ca79ac06c3d360c1ebf342f977597f7a7717571debf6efcf",
+      "catalog_sha256": "61a874e7c19abe14c7da3528aa52cd60bfd15842602bf14d9c0315383d192d05"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_16.tar.gz",
+      "members": 1000,
+      "archive_sha256": "7a5f9ca27c86a23fea7c9b5c5dd3c6456a70b242a0034efbd6607cf09c4c5812",
+      "catalog_sha256": "33d8b01effb45b46ff6087563f592f6cec9ec3ccfc681975c3bc3d2337e5a10a"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_17.tar.gz",
+      "members": 1000,
+      "archive_sha256": "c7aaef96c16e85cbf0ab3222d762a93e74a1228ad3be68219b9b97539cd53c36",
+      "catalog_sha256": "4a43024d5cfeabe7ede741cbb868c58c46929bceac7c04e65a32137c45f9913d"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_11.tar.gz",
+      "members": 1000,
+      "archive_sha256": "d52e331e7a38491097173395dffdae61d7a0b6dad34e4a240751da4e63985290",
+      "catalog_sha256": "4cd67d8a75d61d5dee4dfad72d832b0ed7001c675d94937256dc6dbfbcb2a6d8"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_0.tar.gz",
+      "members": 1000,
+      "archive_sha256": "1f00236f1ec7663f7f15e39eaf2ad5ff31d74cce4eb5fc8f68b44df9a71a3d27",
+      "catalog_sha256": "770b2e80dcb8c132fccf04296d147bdcbae10f7f2ccc5f7c62e1d342c841b370"
+    }
+  ]
+}

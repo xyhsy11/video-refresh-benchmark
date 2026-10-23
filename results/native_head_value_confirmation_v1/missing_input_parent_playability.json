@@ -1,0 +1,35 @@
+{
+  "parent": "7tTouR10Qro",
+  "url": "https://www.youtube.com/watch?v=7tTouR10Qro",
+  "http_status": 200,
+  "response_bytes": 855512,
+  "response_sha256": "266d585db8f33311d12b0968d76b280a152f42cb717b88b030dcd2dcf3d4633b",
+  "error": null,
+  "playabilityStatus": {
+    "status": "ERROR",
+    "reason": "\u3053\u306e\u52d5\u753b\u306f\u518d\u751f\u3067\u304d\u307e\u305b\u3093",
+    "errorScreen": {
+      "playerInterstitialRenderer": {
+        "content": {
+          "interstitialViewModel": {
+            "title": {
+              "content": "\u52d5\u753b\u3092\u518d\u751f\u3067\u304d\u307e\u305b\u3093"
+            },
+            "description": {
+              "content": "\u3053\u306e\u52d5\u753b\u306f\u518d\u751f\u3067\u304d\u307e\u305b\u3093"
+            },
+            "loggingDirectives": {
+              "trackingParams": "CAEQ4NYUIhMI3-edj8rPlwMV_LzpBR130zAt",
+              "visibility": {
+                "types": "12"
+              }
+            }
+          }
+        },
+        "stateEntityStoreKey": ""
+      }
+    },
+    "contextParams": "Q0FBU0FnZ0E="
+  },
+  "videoDetails_id": null
+}

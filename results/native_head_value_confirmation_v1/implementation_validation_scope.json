@@ -1,0 +1,35 @@
+{
+  "technical_status": "BLOCKED_INPUT",
+  "scientific_status": "NOT_EVALUATED",
+  "real_exercised": [
+    "20 official validation archives: integrity/catalog/retention",
+    "Two new shard downloads, real failed and range-resumed requests",
+    "Two validated stale task-process/lock recoveries with preserved receipts",
+    "Metadata/byte source graph over complete official split inventory and historical evidence",
+    "199 input-only technical screens, deterministic higher-rank missing-input stop",
+    "Independent retained-byte and historical-integrity audit",
+    "Native400 mapping and actual archived-fitting/structural contract checks"
+  ],
+  "unexecuted": [
+    "Complete all400 fitting certificate",
+    "Fresh native fitting smoke and throughput/memory gate",
+    "3200-source reference collection and four-fold OOF precision",
+    "Final probes and EVAL seal",
+    "EVAL outcomes, bootstrap effects, timing controls, figures/visual review"
+  ],
+  "limitations": [
+    "Earliest historical failed-attempt wall times remain unknown.",
+    "Interrupted body reads use an explicit 4MiB conservative upper reservation.",
+    "Some initial range-response headers were checked at execution but not persisted; they are not reconstructed as observations. Future requests retain response identity fields.",
+    "Malicious-transfer/cap-exhaustion synthetic fixtures were not generated under the direct no-simulated-data instruction; real acquisition failures and exact real-data contracts were exercised.",
+    "Unknown reuploads, undocumented pretraining and unrecorded historic exposure remain residual limits."
+  ],
+  "exact_prerequisite": {
+    "filename": "7tTouR10Qro_000092_000102.mp4",
+    "split": "val",
+    "authenticated_complete_catalogs": 20,
+    "catalog_matches": [],
+    "prerequisite": "Supply authentic original RGB for this higher-ranked official clip, with provenance and real PTS; unavailable bytes are not scientific ineligibility.",
+    "no_replacement_or_model_exposure": true
+  }
+}

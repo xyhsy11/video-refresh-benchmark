@@ -1,0 +1,16 @@
+{
+  "split": "val",
+  "m": 8,
+  "reserve_components_per_class": 2,
+  "wanted_rows": 4000,
+  "selection": "fixed canonical/component ranks, independent of archive arrival",
+  "manifest_sha256": "805b5a875782878723d244c520838f3606ffc413916c437df0e474b7b75ff0d7",
+  "new_archive_bytes": 0,
+  "network_already_spent": 2995163817,
+  "reserved_future_test_transfer_bytes": 56094802765,
+  "remaining_retry_bytes": 6408284682,
+  "retained_cap_bytes": 21474836480,
+  "free_disk_reserve_bytes": 10737418240,
+  "peak_scratch_bytes": 1684943172,
+  "plan": "Stream one whole gzip archive, catalog/hash every member, retain prospective prefix plus two reserves/class; never delete historical archives. Missing needed reserve triggers separately gated revisit."
+}

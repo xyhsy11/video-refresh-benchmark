@@ -43,3 +43,44 @@ been validated on unavailable E27 original inputs. Passing blocked-state tests
 does not certify empirical execution, a fresh cohort, complete source provenance
 or scientific success. The active caps and historical controller/confirmation
 gates are unchanged.
+
+## 2026-10-23 resumed attempt, before new scientific execution
+
+Reviewed preparation a9e1942f226f341071e1a990ea446dc717a070bb is preserved in
+preparation_a9e1942/ with hashes. Actual checkout equals that commit; no later
+E27 model calls, probes or selected EVAL sources were present. The active network
+allowance is 61*2^30 cumulative response-body bytes, including 13,062,569 already
+metered bytes. Retained data remains 20 GiB, collection 8h, CPU work 4h, timing 2h.
+A 10 GiB free-disk reserve is prospective. Git/web reference inspection is
+separately disclosed; original preparation has unknown failed-attempt wall time.
+No complete historical end-to-end accounting will be claimed.
+
+Operational repairs add programmatic schema/role auditing with scoped quarantine,
+explicit full-shard resumable acquisition, deterministic quota-prefix screening,
+fitting-first precision planning, persistent stages and receipts, exclusive phase
+timers, source-batched counters and full seal audits only at stage boundaries.
+No scientific criterion, model, feature, estimand or inference rule changes.
+Direct chat authorization includes commit/push after work and forbids simulated
+or fabricated data. Checks use real retained inputs and exact contracts only.
+No protected outcome arrays will be opened for provenance. A passed preparation
+or blocked-state audit does not constitute completion of the empirical study.
+
+### Real acquisition repair after first uncached transfer attempt
+
+The first archive GET retained exactly 18,981,494 response-body bytes in its
+partial file, and its failed request receipt remains in the cumulative ledger.
+Windows denied atomic replacement of network_ledger.json during a transient
+file-sharing conflict. Atomic JSON replacement now retries sharing violations
+with a bounded delay; response-byte reservations and partial files are preserved.
+The next GET must verify ETag, 206 and exact Content-Range at that real offset.
+No encoder, probe or EVAL outcome had run at this correction.
+
+Complete PTS/source manifests are stored as deterministic lossless JSON gzip
+archives so all-class metadata fit repository file limits. Bootstrap indices are
+stored losslessly as signed16-bit integers (maximum source count8,000), preserving
+the identical PCG64 draws, component units and all inference values. No logits,
+losses, effects, estimates or interval endpoints are rounded or altered.
+
+The task-owned downloader was deliberately interrupted after validating its PID/birth identity to apply buffered reserved reads. Its partial original bytes remain. Recovery charges the interrupted read reservation conservatively and records a stale-lock/operation receipt; no counters are reset and no encoder call occurred. Throughput projections use only genuine transfers under the current IO recipe.
+
+A second validated task-process interruption applies direct directory-metadata retained-byte checks, replacing repeated per-file path resolution. The completed first new archive and all member/transfer bytes are preserved; resumed cataloging revalidates them. This changes accounting overhead only, with zero E27 encoder calls before the repair.

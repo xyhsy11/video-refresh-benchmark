@@ -6,8 +6,11 @@ from __future__ import annotations
 
 from collections import Counter, defaultdict
 import hashlib
+import gzip
 from itertools import combinations
 import json
+import os
+import time
 from pathlib import Path
 
 import numpy as np
@@ -42,15 +45,38 @@ def sha(path):
 
 
 def read(path):
-    return json.loads(Path(path).read_text(encoding='utf-8'))
+    path=Path(path)
+    if path.name.endswith('.gz'):
+        with gzip.open(path,'rt',encoding='utf-8') as f:return json.load(f)
+    return json.loads(path.read_text(encoding='utf-8'))
 
 
 def save(path, value):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_name(path.name+'.writing')
-    tmp.write_text(json.dumps(value, indent=2, ensure_ascii=True, allow_nan=False)+'\n', encoding='utf-8',newline='\n')
-    tmp.replace(path)
+    if path.name.endswith('.gz'):
+        payload=(json.dumps(value,indent=2,ensure_ascii=True,allow_nan=False)+'\n').encode('utf-8')
+        with tmp.open('wb') as f:
+            with gzip.GzipFile(filename='',mode='wb',fileobj=f,mtime=0) as archive:archive.write(payload)
+            f.flush();os.fsync(f.fileno())
+        atomic_replace(tmp,path)
+        return
+    with tmp.open('w',encoding='utf-8',newline='\n') as f:
+        f.write(json.dumps(value, indent=2, ensure_ascii=True, allow_nan=False)+'\n')
+        f.flush();os.fsync(f.fileno())
+    atomic_replace(tmp,path)
+
+
+def atomic_replace(source,target):
+    """Readers/indexers can briefly deny Windows rename of an existing file."""
+    for attempt in range(24):
+        try:
+            Path(source).replace(target)
+            return
+        except PermissionError:
+            if attempt==23:raise
+            time.sleep(min(.05*(attempt+1),.5))
 
 
 def class_mapping(native, annotation_labels):
@@ -69,7 +95,7 @@ def class_mapping(native, annotation_labels):
     if len(mapping) != 400 or set(mapping.values()) != set(range(400)):
         raise ValueError('Official native map must contain exactly indices 0..399')
     result = {}
-    for label in annotation_labels:
+    for label in sorted(annotation_labels):
         canonical = ALIASES.get(label, label)
         if canonical not in mapping:
             raise ValueError(f'Unresolved official/native spelling: {label!r}')
@@ -250,7 +276,7 @@ def source_inference(meta, values, draw_path):
     x = np.asarray(values, dtype=float)
     if x.ndim == 1:
         x = x[:, None]
-    if x.shape[0] != len(meta) or not np.isfinite(x).all() or min(counts.values()) < 8:
+    if x.shape[0] != len(meta) or not np.isfinite(x).all() or min(counts.values()) < 8 or max(counts.values())>20 or len(set(counts.values()))!=1:
         raise ValueError('Complete finite per-source consequences required')
     groups = [np.array([i for i, m in enumerate(meta) if m['y'] == c]) for c in range(400)]
     if Path(draw_path).exists():
@@ -260,7 +286,7 @@ def source_inference(meta, values, draw_path):
             raise ValueError('Saved draw shape mismatch')
     else:
         rng = np.random.Generator(np.random.PCG64(derived_seed('bootstrap')))
-        draws = np.concatenate([rng.choice(g, size=(10000, len(g)), replace=True) for g in groups], axis=1)
+        draws = np.concatenate([rng.choice(g, size=(10000, len(g)), replace=True) for g in groups], axis=1).astype(np.int16)
         tmp = Path(str(draw_path)+'.writing')
         with tmp.open('wb') as f:
             np.savez_compressed(f, indices=draws)

@@ -1,0 +1,24 @@
+{
+  "official_val_archives_cataloged": 20,
+  "official_archived_unique_clips": 19881,
+  "prospective_prefix_missing": [
+    {
+      "component": "yt:7tTouR10Qro",
+      "filename": "7tTouR10Qro_000092_000102.mp4",
+      "label": "ice fishing",
+      "y": 163,
+      "prospective_class_ordinal": 2,
+      "members": 1
+    },
+    {
+      "component": "yt:ieIssRi8iXU",
+      "filename": "ieIssRi8iXU_000030_000040.mp4",
+      "label": "ice fishing",
+      "y": 163,
+      "prospective_class_ordinal": 3,
+      "members": 1
+    }
+  ],
+  "scope": "Input-only archive coverage of metadata-ranked prospective eight/class; actual technical screening/prefix certification remains separate",
+  "no_encoder_calls": true
+}

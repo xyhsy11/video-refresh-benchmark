@@ -115,7 +115,7 @@
     "boundary": "encoded bytes in memory -> fresh full decode/grid -> RGB prep/transfers -> encoder/native head -> pooling -> CUDA completion"
   },
   "caps": {
-    "network_bytes": 21474836480,
+    "network_bytes": 65498251264,
     "retained_bytes": 21474836480,
     "collection_seconds": 28800,
     "cpu_seconds": 14400,
@@ -124,16 +124,19 @@
   "no_simulated_data": true,
   "synthetic_fixture_amendment": "Direct user request overrides attached synthetic-fixture instruction; exact combinatorial/structural checks and real inputs only",
   "implementation": {
-    "native_head_value_confirmation.py": "42e45bdfab4c3b4b5deb2f4e728f41001a2b4e19734e6e6a55b747f659f3c98f",
-    "run_native_head_value_confirmation.py": "37f687678ca538c061f434b32718544aae46cd9c6fb20b45708f3883981cef7a",
-    "verify_native_head_value_confirmation.py": "9d9897304a2b92b1ebfd91097592764dd1c56b74cd7251e7f9e896906181f6b3",
-    "test_native_head_value_confirmation.py": "3f9b26ea1eca84740d97f732297ab9a78e566fa9ac8a447d364d8d41132edbcd",
-    "native_head_confirmation_runtime.py": "2cd5ddd87ea9c09ef9dd1329dc669db2a95411c76a04cd1a97ac71d2c3e58d58",
+    "native_head_value_confirmation.py": "f8775b4685f508b8832115c70a20aa12c7d328159f6cbffab572f6e2402d10db",
+    "run_native_head_value_confirmation.py": "9786326d51db67a145a1f6fa40398436dbbf2f6e5b4091fb8e05aafab237e193",
+    "verify_native_head_value_confirmation.py": "0c25eb867d99fae35afe64b74cd1ab052467e70a1200c0b685851078eed9f71a",
+    "test_native_head_value_confirmation.py": "addce6f649ce22883f0feac0852b3cecb880151fd2030d5203ee2e1e550ce33c",
+    "native_head_confirmation_runtime.py": "5546ba05410bfff0dc0895cd192432fd027c27c07c5897b168dabad7970180fb",
     "executable_value_observability.py": "65baf4f7e0b056617a77e3dfaf8ac0f1f82d87cfb225cbe9ab04d19dbea2d5e5",
     "causal_observability_policy.py": "dda0908b98b042b4e5ac88a86cead957530582d4e1f4e7a186714450a0d212c6",
     "research_utils.py": "06b0bd9df2ebbbf314a5a21e086f00e7018d7dbd7a189adac3cf2d79f0352044",
-    "temporal_refresh_common.py": "5e4f53da9110e43eaa1ff4624645bdb14ade891074f09e46540615d39f7d4cbb"
+    "temporal_refresh_common.py": "5e4f53da9110e43eaa1ff4624645bdb14ade891074f09e46540615d39f7d4cbb",
+    "native_head_confirmation_inputs.py": "aaa33a3003eacb8e69ecbeb22ac343179d85d7dc9a888b4136e896ec0eda5785",
+    "native_head_confirmation_state.py": "2d9058f5d4a623311b9b92ec6534b269d9e596651e563a57260cbdedcdc72b89"
   },
-  "actual_start_head": "c4e20265aa908b38856a799bf27f2576bffb51d5",
+  "preparation_start_head": "c4e20265aa908b38856a799bf27f2576bffb51d5",
+  "actual_start_head": "a9e1942f226f341071e1a990ea446dc717a070bb",
   "evaluation_sealed": false
 }
