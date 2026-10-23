@@ -1,0 +1,8 @@
+{
+  "at_utc": "2026-10-23T09:26:21.669066+00:00",
+  "reviewed_commit": "d97802601500101a94c91de2a546769e9fae29ab",
+  "old_runtime_sha256": "5546ba05410bfff0dc0895cd192432fd027c27c07c5897b168dabad7970180fb",
+  "current_runtime_sha256": "e99f149688e4bb44e967159f354720105d652f59bce209e83db32ea7a6a1376a",
+  "screening_block_ast_identical": true,
+  "scope": "Complete technical-screen block unchanged; original/grid/native-label/selection identities separately authenticated. Membership and replanning changes occur outside this block."
+}

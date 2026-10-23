@@ -107,6 +107,61 @@ def empirical_source(row, feature_file, predictions, table_file=None):
     return result,losses
 
 
+def availability_exclusions_valid(exclusions,split,states):
+    return all(r['reason']!='archive_absent' or r['split']!=split or states.get(r['filename'])=='CONFIRMED_ABSENT' for r in exclusions)
+
+
+def independent_availability(base,split,rule,catalog_directory=None,metadata_directory=None,transfer_directory=None,catalog_paths=None):
+    """Reconstruct release coverage and membership from original pinned records."""
+    import csv
+    import hashlib
+    from collections import defaultdict,Counter
+    base=Path(base);metadata=Path(metadata_directory) if metadata_directory else base/'metadata'
+    directory=Path(catalog_directory) if catalog_directory else base/'member_catalogs'
+    transfers=Path(transfer_directory) if transfer_directory else base/'transfer_receipts'
+    release=rule['releases'][split];errors=[];members=defaultdict(list);coverage=[]
+    urls=[u.strip() for u in (metadata/f'{split}_archives').read_text().splitlines() if u.strip()]
+    if urls!=release['urls'] or len(set(urls))!=len(urls) or set(urls)!=set(release['representations']):errors.append('Pinned release URL coverage differs')
+    if digest(metadata/f'{split}_archives')!=release['list_sha256'] or digest(metadata/f'{split}_annotations')!=release['annotation_sha256']:errors.append('Pinned annotation/list identity differs')
+    paths=list(catalog_paths) if catalog_paths is not None else list(directory.glob('*.json'))
+    catalogs={read(p)['url']:(p,read(p)) for p in paths if 'members' in read(p)}
+    for url in urls:
+        inv=release['representations'][url];valid=False
+        if url in catalogs:
+            p,c=catalogs[url];expected=inv.get('cached_sha256');catalog_hash=digest(p)
+            if not expected:
+                t=transfers/split/(url.rsplit('/',1)[-1]+'.transfer.json')
+                if t.exists():
+                    receipt=read(t)
+                    if receipt.get('url')==url and receipt.get('status')=='complete' and receipt.get('etag')==inv['etag'] and receipt.get('expected_bytes')==inv['content_length']:expected=receipt['sha256']
+            enum=c.get('enumeration',{})
+            enumeration=(rule['legacy_complete_catalog_sha256'].get(p.name)==catalog_hash or
+                (enum.get('complete') is True and enum.get('gzip_crc_drained') is True and enum.get('etag')==inv['etag'] and enum.get('bytes')==inv['content_length'] and enum.get('list_sha256')==release['list_sha256']))
+            valid=bool(expected and c['archive_sha256']==expected and enumeration)
+            if valid:
+                for r in c['members']:members[r['filename']].append((r['encoded_sha256'],r['bytes'],url,r['member'],catalog_hash))
+        coverage.append(valid)
+    with (metadata/f'{split}_annotations').open(encoding='utf-8-sig',newline='') as f:annotations=list(csv.DictReader(f))
+    official=defaultdict(set)
+    for r in annotations:
+        name=f"{r['youtube_id']}_{int(r['time_start']):06d}_{int(r['time_end']):06d}.mp4"
+        official[name].add(r['label'])
+    states={}
+    for name,labels in official.items():
+        origins=members.get(name,[])
+        states[name]=('UNKNOWN' if len(labels)!=1 or len({r[:2] for r in origins})>1 else
+            'PRESENT' if origins else 'CONFIRMED_ABSENT' if all(coverage) else 'UNKNOWN')
+    ledger=base/f'{split}_archive_availability.json.gz'
+    if ledger.exists() and catalog_paths is None:
+        generated=read(ledger)
+        if generated['population_rule_sha256']!=digest(base/'population_rule.json') or generated['version']!=rule['version']:errors.append('Availability ledger rule identity differs')
+        if states!={k:v['state'] for k,v in generated['rows'].items()}:errors.append('Inconsistent/forged availability state')
+        for name,r in generated['rows'].items():
+            origins=sorted((v['encoded_sha256'],v['bytes'],v['url'],v['member'],v['catalog_sha256']) for v in r['origins'])
+            if origins!=sorted(members.get(name,[])):errors.append('Availability origin evidence differs: '+name)
+    return dict(passed=not errors,errors=errors,complete=all(coverage),states=states,members=dict(members),counts=dict(Counter(states.values())),annotations=annotations)
+
+
 def verify_source_certificate(out,scope='fitting'):
     """Rebuild graph connectivity and role sets; never trust success booleans."""
     import gzip
@@ -188,6 +243,11 @@ def verify_source_certificate(out,scope='fitting'):
             historical_origins.update((c,h) for c in clips for h in hashes)
     roles=['val'] if scope=='fitting' else ['val','test'];components={}
     for split in roles:
+        rule=read(artifact/'population_rule.json')
+        availability=independent_availability(artifact,split,rule)
+        errors.extend(availability['errors'])
+        if not availability['complete']:errors.append('Source certificate has incomplete pinned release coverage')
+        if not availability_exclusions_valid(read(artifact/'source_exclusion_ledger.json'),split,availability['states']):errors.append('Forged archive-absence exclusion')
         rows=read(artifact/f'{split}_manifest.json.gz');quota=8 if split=='val' else read(artifact/'precision_plan.json')['selected_m']
         with (artifact/'metadata'/f'{split}_annotations').open(encoding='utf-8-sig',newline='') as f:
             official={f"{r['youtube_id']}_{int(r['time_start']):06d}_{int(r['time_end']):06d}.mp4":r['label'] for r in csv.DictReader(f)}
@@ -198,6 +258,22 @@ def verify_source_certificate(out,scope='fitting'):
             errors.append('Certificate native class indices differ from authenticated published ordering')
         counts={c:0 for c in range(400)};seen=set()
         candidate=read(ROOT/cert['candidate_path'])
+        # Rebuild allowed candidates from ALL original annotations and the
+        # independently reconstructed graph, rather than trusting exclusions.
+        split_roots={}
+        for sp in ('val','test'):
+            with (artifact/'metadata'/f'{sp}_annotations').open(encoding='utf-8-sig',newline='') as f:
+                split_roots[sp]={root('yt:'+r['youtube_id']) for r in csv.DictReader(f)}
+        collisions=split_roots['val']&split_roots['test']
+        expected_candidates=set()
+        for r in availability['annotations']:
+            name=f"{r['youtube_id']}_{int(r['time_start']):06d}_{int(r['time_end']):06d}.mp4"
+            component=root('yt:'+r['youtube_id'])
+            if component in train or component in forbidden or component in collisions or (split=='test' and component in exposed):continue
+            if availability['states'][name]=='CONFIRMED_ABSENT':continue
+            expected_candidates.add((canonical[component][1],name,native_map[r['label']]))
+        if expected_candidates!={(r['component'],r['filename'],r['y']) for r in candidate if r['split']==split}:
+            errors.append('Candidate inventory differs from independent full-annotation population reconstruction')
         groups={}
         for r in candidate:
             if r['split']==split:
@@ -243,6 +319,8 @@ def verify_source_certificate(out,scope='fitting'):
             if (row['filename'],row['encoded_sha256']) not in authentic_members and (row['filename'],row['encoded_sha256']) not in historical_origins:
                 errors.append('Selected bytes have no authenticated archive or historical input origin: '+row['filename'])
             if digest(ROOT/row['path'])!=row['encoded_sha256']:errors.append('Selected video identity changed')
+            if availability['states'].get(row['filename'])!='PRESENT' or (row['encoded_sha256'],row['encoded_bytes']) not in {o[:2] for o in availability['members'].get(row['filename'],[])}:
+                errors.append('Selected source is outside the pinned archive-available population')
             if not independent_grid_check(row):errors.append('Independent real PTS/grid identity mismatch: '+row['filename'])
         if set(counts.values())!={quota}:errors.append('All400 source quotas not satisfied')
         components[split]=seen
@@ -306,6 +384,16 @@ def verify(out, write=False):
             errors.append('Historical file changed/missing: '+name)
     checks['historical_files'] = len(read(out/'historical_fingerprint.json'))
     config = read(out/'frozen_config.json')
+    if (out/'population_rule.json').exists():
+        rule=read(out/'population_rule.json')
+        cache=ROOT/'data/source/native_head_value_confirmation_v1'
+        checks['archive_population']={}
+        for split in ('val','test'):
+            av=independent_availability(out,split,rule,cache/'catalogs',cache/'metadata',cache/'scratch')
+            checks['archive_population'][split]=dict(complete=av['complete'],states=av['counts'])
+            errors.extend(av['errors'])
+            if not availability_exclusions_valid(read(out/'source_exclusion_ledger.json'),split,av['states']):errors.append('Forged archive-absence exclusion')
+        if config.get('population_rule_sha256')!=digest(out/'population_rule.json'):errors.append('Configuration population rule identity differs')
     for name,expected in config['implementation'].items():
         if digest(ROOT/name)!=expected:
             errors.append('Configuration code identity changed: '+name)

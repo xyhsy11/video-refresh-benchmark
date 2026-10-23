@@ -1,0 +1,24 @@
+{
+  "at_utc": "2026-10-23T09:54:31.213620+00:00",
+  "integrated_attempt": {
+    "source": "Windows process creation and exit times; handle held before exit",
+    "start_utc": "2026-10-23T09:26:21.9915152Z",
+    "pid": 35952,
+    "measured_wall_seconds": 895.0638514,
+    "exit_utc": "2026-10-23T09:41:17.0553666Z"
+  },
+  "actual_runner_status": {
+    "technical": "BLOCKED_RESOURCE",
+    "scientific": "NOT_EVALUATED",
+    "blocker": "BLOCKED_RESOURCE: fitting-only genuine throughput projection exceeds remaining collection cap",
+    "no_outcomes_exposed": true
+  },
+  "profile_completion": {
+    "genuine_forwards": 128,
+    "exact_array_parity": true,
+    "structured_receipt_sha256": "a8b94387bf4abf229062495694e144febbdfb76ef7649191f804e6489cce7d67",
+    "shell_wrapper_exit_code": 1,
+    "warning": "PowerShell classified third-party deprecation stderr as NativeCommandError. Structured actual profile completion and exact-parity checks passed; no Python traceback."
+  },
+  "preserved_attempt_manifest_sha256": "c34f9159f00b9d950a4f1356294089481a5e929e22464cd4b9dc1aa2fb34cd6d"
+}

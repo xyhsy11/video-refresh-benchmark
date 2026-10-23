@@ -1,0 +1,2431 @@
+{
+  "version": "archive_available_v1",
+  "splits": {
+    "val": {
+      "states": {
+        "PRESENT": 19881,
+        "CONFIRMED_ABSENT": 25
+      },
+      "complete": true,
+      "per_class": {
+        "abseiling": {
+          "PRESENT": 50
+        },
+        "air drumming": {
+          "PRESENT": 49
+        },
+        "answering questions": {
+          "PRESENT": 50
+        },
+        "applauding": {
+          "PRESENT": 50
+        },
+        "applying cream": {
+          "PRESENT": 50
+        },
+        "archery": {
+          "PRESENT": 50
+        },
+        "arm wrestling": {
+          "PRESENT": 49
+        },
+        "arranging flowers": {
+          "PRESENT": 50
+        },
+        "assembling computer": {
+          "PRESENT": 50
+        },
+        "auctioning": {
+          "PRESENT": 50
+        },
+        "baby waking up": {
+          "PRESENT": 50
+        },
+        "baking cookies": {
+          "PRESENT": 49
+        },
+        "balloon blowing": {
+          "PRESENT": 49
+        },
+        "bandaging": {
+          "PRESENT": 50
+        },
+        "barbequing": {
+          "PRESENT": 50
+        },
+        "bartending": {
+          "PRESENT": 50
+        },
+        "beatboxing": {
+          "PRESENT": 50
+        },
+        "bee keeping": {
+          "PRESENT": 50
+        },
+        "belly dancing": {
+          "PRESENT": 49
+        },
+        "bench pressing": {
+          "PRESENT": 50
+        },
+        "bending back": {
+          "PRESENT": 50
+        },
+        "bending metal": {
+          "PRESENT": 50
+        },
+        "biking through snow": {
+          "PRESENT": 50
+        },
+        "blasting sand": {
+          "PRESENT": 50
+        },
+        "blowing glass": {
+          "PRESENT": 50
+        },
+        "blowing leaves": {
+          "PRESENT": 50
+        },
+        "blowing nose": {
+          "PRESENT": 50
+        },
+        "blowing out candles": {
+          "PRESENT": 50
+        },
+        "bobsledding": {
+          "PRESENT": 50
+        },
+        "bookbinding": {
+          "PRESENT": 50
+        },
+        "bouncing on trampoline": {
+          "PRESENT": 50
+        },
+        "bowling": {
+          "PRESENT": 49
+        },
+        "braiding hair": {
+          "PRESENT": 50
+        },
+        "breading or breadcrumbing": {
+          "PRESENT": 50
+        },
+        "breakdancing": {
+          "PRESENT": 50
+        },
+        "brush painting": {
+          "PRESENT": 49
+        },
+        "brushing hair": {
+          "PRESENT": 50
+        },
+        "brushing teeth": {
+          "PRESENT": 50
+        },
+        "building cabinet": {
+          "PRESENT": 50
+        },
+        "building shed": {
+          "PRESENT": 50
+        },
+        "bungee jumping": {
+          "PRESENT": 50
+        },
+        "busking": {
+          "PRESENT": 50
+        },
+        "canoeing or kayaking": {
+          "PRESENT": 50
+        },
+        "capoeira": {
+          "PRESENT": 50
+        },
+        "carrying baby": {
+          "PRESENT": 50
+        },
+        "cartwheeling": {
+          "PRESENT": 50
+        },
+        "carving pumpkin": {
+          "PRESENT": 49
+        },
+        "catching fish": {
+          "PRESENT": 50
+        },
+        "catching or throwing baseball": {
+          "PRESENT": 50
+        },
+        "catching or throwing frisbee": {
+          "PRESENT": 50
+        },
+        "catching or throwing softball": {
+          "PRESENT": 50
+        },
+        "celebrating": {
+          "PRESENT": 50
+        },
+        "changing oil": {
+          "PRESENT": 50
+        },
+        "changing wheel": {
+          "PRESENT": 50
+        },
+        "checking tires": {
+          "PRESENT": 50
+        },
+        "cheerleading": {
+          "PRESENT": 50
+        },
+        "chopping wood": {
+          "PRESENT": 49
+        },
+        "clapping": {
+          "PRESENT": 49
+        },
+        "clay pottery making": {
+          "PRESENT": 50
+        },
+        "clean and jerk": {
+          "PRESENT": 49
+        },
+        "cleaning floor": {
+          "PRESENT": 50
+        },
+        "cleaning gutters": {
+          "PRESENT": 50
+        },
+        "cleaning pool": {
+          "PRESENT": 50
+        },
+        "cleaning shoes": {
+          "PRESENT": 49
+        },
+        "cleaning toilet": {
+          "PRESENT": 50
+        },
+        "cleaning windows": {
+          "PRESENT": 50
+        },
+        "climbing a rope": {
+          "PRESENT": 50
+        },
+        "climbing ladder": {
+          "PRESENT": 50
+        },
+        "climbing tree": {
+          "PRESENT": 50
+        },
+        "contact juggling": {
+          "PRESENT": 50
+        },
+        "cooking chicken": {
+          "PRESENT": 50
+        },
+        "cooking egg": {
+          "PRESENT": 50
+        },
+        "cooking on campfire": {
+          "PRESENT": 50
+        },
+        "cooking sausages": {
+          "PRESENT": 50
+        },
+        "counting money": {
+          "PRESENT": 50
+        },
+        "country line dancing": {
+          "PRESENT": 50
+        },
+        "cracking neck": {
+          "PRESENT": 50
+        },
+        "crawling baby": {
+          "PRESENT": 50
+        },
+        "crossing river": {
+          "PRESENT": 50
+        },
+        "crying": {
+          "PRESENT": 50
+        },
+        "curling hair": {
+          "PRESENT": 50
+        },
+        "cutting nails": {
+          "PRESENT": 49
+        },
+        "cutting pineapple": {
+          "PRESENT": 50
+        },
+        "cutting watermelon": {
+          "PRESENT": 50
+        },
+        "dancing ballet": {
+          "PRESENT": 50
+        },
+        "dancing charleston": {
+          "PRESENT": 49
+        },
+        "dancing gangnam style": {
+          "PRESENT": 49
+        },
+        "dancing macarena": {
+          "PRESENT": 50
+        },
+        "deadlifting": {
+          "PRESENT": 49
+        },
+        "decorating the christmas tree": {
+          "PRESENT": 49
+        },
+        "digging": {
+          "PRESENT": 50
+        },
+        "dining": {
+          "PRESENT": 50
+        },
+        "disc golfing": {
+          "PRESENT": 50
+        },
+        "diving cliff": {
+          "PRESENT": 49
+        },
+        "dodgeball": {
+          "PRESENT": 50
+        },
+        "doing aerobics": {
+          "PRESENT": 50
+        },
+        "doing laundry": {
+          "PRESENT": 50
+        },
+        "doing nails": {
+          "PRESENT": 49
+        },
+        "drawing": {
+          "PRESENT": 49
+        },
+        "dribbling basketball": {
+          "PRESENT": 50
+        },
+        "drinking": {
+          "PRESENT": 49
+        },
+        "drinking beer": {
+          "PRESENT": 50
+        },
+        "drinking shots": {
+          "PRESENT": 49
+        },
+        "driving car": {
+          "PRESENT": 48
+        },
+        "driving tractor": {
+          "PRESENT": 50
+        },
+        "drop kicking": {
+          "PRESENT": 45,
+          "CONFIRMED_ABSENT": 4
+        },
+        "drumming fingers": {
+          "PRESENT": 50
+        },
+        "dunking basketball": {
+          "PRESENT": 49
+        },
+        "dying hair": {
+          "PRESENT": 48
+        },
+        "eating burger": {
+          "PRESENT": 49
+        },
+        "eating cake": {
+          "PRESENT": 50
+        },
+        "eating carrots": {
+          "PRESENT": 50
+        },
+        "eating chips": {
+          "PRESENT": 50
+        },
+        "eating doughnuts": {
+          "PRESENT": 49
+        },
+        "eating hotdog": {
+          "PRESENT": 50
+        },
+        "eating ice cream": {
+          "PRESENT": 50
+        },
+        "eating spaghetti": {
+          "PRESENT": 50
+        },
+        "eating watermelon": {
+          "PRESENT": 50
+        },
+        "egg hunting": {
+          "PRESENT": 50
+        },
+        "exercising arm": {
+          "PRESENT": 50
+        },
+        "exercising with an exercise ball": {
+          "PRESENT": 48
+        },
+        "extinguishing fire": {
+          "PRESENT": 50
+        },
+        "faceplanting": {
+          "PRESENT": 50
+        },
+        "feeding birds": {
+          "PRESENT": 50
+        },
+        "feeding fish": {
+          "PRESENT": 49
+        },
+        "feeding goats": {
+          "PRESENT": 50
+        },
+        "filling eyebrows": {
+          "PRESENT": 49
+        },
+        "finger snapping": {
+          "PRESENT": 50
+        },
+        "fixing hair": {
+          "PRESENT": 49
+        },
+        "flipping pancake": {
+          "PRESENT": 49
+        },
+        "flying kite": {
+          "PRESENT": 50
+        },
+        "folding clothes": {
+          "PRESENT": 50
+        },
+        "folding napkins": {
+          "PRESENT": 49
+        },
+        "folding paper": {
+          "PRESENT": 50
+        },
+        "front raises": {
+          "PRESENT": 50
+        },
+        "frying vegetables": {
+          "PRESENT": 50
+        },
+        "garbage collecting": {
+          "PRESENT": 50
+        },
+        "gargling": {
+          "PRESENT": 50
+        },
+        "getting a haircut": {
+          "PRESENT": 50
+        },
+        "getting a tattoo": {
+          "PRESENT": 49
+        },
+        "giving or receiving award": {
+          "PRESENT": 50
+        },
+        "golf chipping": {
+          "PRESENT": 50
+        },
+        "golf driving": {
+          "PRESENT": 50
+        },
+        "golf putting": {
+          "PRESENT": 49
+        },
+        "grinding meat": {
+          "PRESENT": 50
+        },
+        "grooming dog": {
+          "PRESENT": 50
+        },
+        "grooming horse": {
+          "PRESENT": 49
+        },
+        "gymnastics tumbling": {
+          "PRESENT": 49
+        },
+        "hammer throw": {
+          "PRESENT": 50
+        },
+        "headbanging": {
+          "PRESENT": 49
+        },
+        "headbutting": {
+          "PRESENT": 50
+        },
+        "high jump": {
+          "PRESENT": 50
+        },
+        "high kick": {
+          "PRESENT": 50
+        },
+        "hitting baseball": {
+          "PRESENT": 50
+        },
+        "hockey stop": {
+          "PRESENT": 50
+        },
+        "holding snake": {
+          "PRESENT": 50
+        },
+        "hopscotch": {
+          "PRESENT": 50
+        },
+        "hoverboarding": {
+          "PRESENT": 50
+        },
+        "hugging": {
+          "PRESENT": 49
+        },
+        "hula hooping": {
+          "PRESENT": 49
+        },
+        "hurdling": {
+          "PRESENT": 50
+        },
+        "hurling (sport)": {
+          "PRESENT": 50
+        },
+        "ice climbing": {
+          "PRESENT": 50
+        },
+        "ice fishing": {
+          "PRESENT": 42,
+          "CONFIRMED_ABSENT": 8
+        },
+        "ice skating": {
+          "PRESENT": 50
+        },
+        "ironing": {
+          "PRESENT": 49
+        },
+        "javelin throw": {
+          "PRESENT": 50
+        },
+        "jetskiing": {
+          "PRESENT": 50
+        },
+        "jogging": {
+          "PRESENT": 50
+        },
+        "juggling balls": {
+          "PRESENT": 50
+        },
+        "juggling fire": {
+          "PRESENT": 50
+        },
+        "juggling soccer ball": {
+          "PRESENT": 50
+        },
+        "jumping into pool": {
+          "PRESENT": 50
+        },
+        "jumpstyle dancing": {
+          "PRESENT": 50
+        },
+        "kicking field goal": {
+          "PRESENT": 50
+        },
+        "kicking soccer ball": {
+          "PRESENT": 50
+        },
+        "kissing": {
+          "PRESENT": 48,
+          "CONFIRMED_ABSENT": 2
+        },
+        "kitesurfing": {
+          "PRESENT": 50
+        },
+        "knitting": {
+          "PRESENT": 50
+        },
+        "krumping": {
+          "PRESENT": 49
+        },
+        "laughing": {
+          "PRESENT": 50
+        },
+        "laying bricks": {
+          "PRESENT": 50
+        },
+        "long jump": {
+          "PRESENT": 50
+        },
+        "lunge": {
+          "PRESENT": 50
+        },
+        "making a cake": {
+          "PRESENT": 50
+        },
+        "making a sandwich": {
+          "PRESENT": 50
+        },
+        "making bed": {
+          "PRESENT": 50
+        },
+        "making jewelry": {
+          "PRESENT": 49
+        },
+        "making pizza": {
+          "PRESENT": 50
+        },
+        "making snowman": {
+          "PRESENT": 50
+        },
+        "making sushi": {
+          "PRESENT": 50
+        },
+        "making tea": {
+          "PRESENT": 50
+        },
+        "marching": {
+          "PRESENT": 50
+        },
+        "massaging back": {
+          "PRESENT": 49
+        },
+        "massaging feet": {
+          "PRESENT": 50
+        },
+        "massaging legs": {
+          "PRESENT": 50
+        },
+        "massaging person's head": {
+          "PRESENT": 50
+        },
+        "milking cow": {
+          "PRESENT": 50
+        },
+        "mopping floor": {
+          "PRESENT": 50
+        },
+        "motorcycling": {
+          "PRESENT": 50
+        },
+        "moving furniture": {
+          "PRESENT": 50
+        },
+        "mowing lawn": {
+          "PRESENT": 50
+        },
+        "news anchoring": {
+          "PRESENT": 50
+        },
+        "opening bottle": {
+          "PRESENT": 50
+        },
+        "opening present": {
+          "PRESENT": 50
+        },
+        "paragliding": {
+          "PRESENT": 50
+        },
+        "parasailing": {
+          "PRESENT": 50
+        },
+        "parkour": {
+          "PRESENT": 48
+        },
+        "passing American football (in game)": {
+          "PRESENT": 50
+        },
+        "passing American football (not in game)": {
+          "PRESENT": 50
+        },
+        "peeling apples": {
+          "PRESENT": 50
+        },
+        "peeling potatoes": {
+          "PRESENT": 50
+        },
+        "petting animal (not cat)": {
+          "PRESENT": 49
+        },
+        "petting cat": {
+          "PRESENT": 50
+        },
+        "picking fruit": {
+          "PRESENT": 50
+        },
+        "planting trees": {
+          "PRESENT": 50
+        },
+        "plastering": {
+          "PRESENT": 50
+        },
+        "playing accordion": {
+          "PRESENT": 49
+        },
+        "playing badminton": {
+          "PRESENT": 50
+        },
+        "playing bagpipes": {
+          "PRESENT": 50
+        },
+        "playing basketball": {
+          "PRESENT": 50
+        },
+        "playing bass guitar": {
+          "PRESENT": 50
+        },
+        "playing cards": {
+          "PRESENT": 50
+        },
+        "playing cello": {
+          "PRESENT": 50
+        },
+        "playing chess": {
+          "PRESENT": 50
+        },
+        "playing clarinet": {
+          "PRESENT": 50
+        },
+        "playing controller": {
+          "PRESENT": 50
+        },
+        "playing cricket": {
+          "PRESENT": 50
+        },
+        "playing cymbals": {
+          "PRESENT": 50
+        },
+        "playing didgeridoo": {
+          "PRESENT": 50
+        },
+        "playing drums": {
+          "PRESENT": 50
+        },
+        "playing flute": {
+          "PRESENT": 50
+        },
+        "playing guitar": {
+          "PRESENT": 50
+        },
+        "playing harmonica": {
+          "PRESENT": 50
+        },
+        "playing harp": {
+          "PRESENT": 50
+        },
+        "playing ice hockey": {
+          "PRESENT": 49
+        },
+        "playing keyboard": {
+          "PRESENT": 48
+        },
+        "playing kickball": {
+          "PRESENT": 50
+        },
+        "playing monopoly": {
+          "PRESENT": 50
+        },
+        "playing organ": {
+          "PRESENT": 50
+        },
+        "playing paintball": {
+          "PRESENT": 50
+        },
+        "playing piano": {
+          "PRESENT": 50
+        },
+        "playing poker": {
+          "PRESENT": 49
+        },
+        "playing recorder": {
+          "PRESENT": 50
+        },
+        "playing saxophone": {
+          "PRESENT": 50
+        },
+        "playing squash or racquetball": {
+          "PRESENT": 50
+        },
+        "playing tennis": {
+          "PRESENT": 50
+        },
+        "playing trombone": {
+          "PRESENT": 50
+        },
+        "playing trumpet": {
+          "PRESENT": 50
+        },
+        "playing ukulele": {
+          "PRESENT": 50
+        },
+        "playing violin": {
+          "PRESENT": 50
+        },
+        "playing volleyball": {
+          "PRESENT": 49
+        },
+        "playing xylophone": {
+          "PRESENT": 50
+        },
+        "pole vault": {
+          "PRESENT": 50
+        },
+        "presenting weather forecast": {
+          "PRESENT": 50
+        },
+        "pull ups": {
+          "PRESENT": 50
+        },
+        "pumping fist": {
+          "PRESENT": 50
+        },
+        "pumping gas": {
+          "PRESENT": 49
+        },
+        "punching bag": {
+          "PRESENT": 50
+        },
+        "punching person (boxing)": {
+          "PRESENT": 49
+        },
+        "push up": {
+          "PRESENT": 49
+        },
+        "pushing car": {
+          "PRESENT": 50
+        },
+        "pushing cart": {
+          "PRESENT": 50
+        },
+        "pushing wheelchair": {
+          "PRESENT": 50
+        },
+        "reading book": {
+          "PRESENT": 50
+        },
+        "reading newspaper": {
+          "PRESENT": 50
+        },
+        "recording music": {
+          "PRESENT": 50
+        },
+        "riding a bike": {
+          "PRESENT": 49
+        },
+        "riding camel": {
+          "PRESENT": 50
+        },
+        "riding elephant": {
+          "PRESENT": 50
+        },
+        "riding mechanical bull": {
+          "PRESENT": 49
+        },
+        "riding mountain bike": {
+          "PRESENT": 49
+        },
+        "riding mule": {
+          "PRESENT": 50
+        },
+        "riding or walking with horse": {
+          "PRESENT": 48
+        },
+        "riding scooter": {
+          "PRESENT": 50
+        },
+        "riding unicycle": {
+          "PRESENT": 50
+        },
+        "ripping paper": {
+          "PRESENT": 50
+        },
+        "robot dancing": {
+          "PRESENT": 50
+        },
+        "rock climbing": {
+          "PRESENT": 50
+        },
+        "rock scissors paper": {
+          "PRESENT": 50
+        },
+        "roller skating": {
+          "PRESENT": 50
+        },
+        "running on treadmill": {
+          "PRESENT": 50
+        },
+        "sailing": {
+          "PRESENT": 49
+        },
+        "salsa dancing": {
+          "PRESENT": 49
+        },
+        "sanding floor": {
+          "PRESENT": 50
+        },
+        "scrambling eggs": {
+          "PRESENT": 50
+        },
+        "scuba diving": {
+          "PRESENT": 50
+        },
+        "setting table": {
+          "PRESENT": 50
+        },
+        "shaking hands": {
+          "PRESENT": 49
+        },
+        "shaking head": {
+          "PRESENT": 50
+        },
+        "sharpening knives": {
+          "PRESENT": 50
+        },
+        "sharpening pencil": {
+          "PRESENT": 50
+        },
+        "shaving head": {
+          "PRESENT": 50
+        },
+        "shaving legs": {
+          "PRESENT": 50
+        },
+        "shearing sheep": {
+          "PRESENT": 50
+        },
+        "shining shoes": {
+          "PRESENT": 50
+        },
+        "shooting basketball": {
+          "PRESENT": 50
+        },
+        "shooting goal (soccer)": {
+          "PRESENT": 50
+        },
+        "shot put": {
+          "PRESENT": 50
+        },
+        "shoveling snow": {
+          "PRESENT": 50
+        },
+        "shredding paper": {
+          "PRESENT": 50
+        },
+        "shuffling cards": {
+          "PRESENT": 50
+        },
+        "side kick": {
+          "PRESENT": 50
+        },
+        "sign language interpreting": {
+          "PRESENT": 48
+        },
+        "singing": {
+          "PRESENT": 50
+        },
+        "situp": {
+          "PRESENT": 50
+        },
+        "skateboarding": {
+          "PRESENT": 50
+        },
+        "ski jumping": {
+          "PRESENT": 50
+        },
+        "skiing (not slalom or crosscountry)": {
+          "PRESENT": 49
+        },
+        "skiing crosscountry": {
+          "PRESENT": 50
+        },
+        "skiing slalom": {
+          "PRESENT": 50
+        },
+        "skipping rope": {
+          "PRESENT": 50
+        },
+        "skydiving": {
+          "PRESENT": 50
+        },
+        "slacklining": {
+          "PRESENT": 50
+        },
+        "slapping": {
+          "PRESENT": 50
+        },
+        "sled dog racing": {
+          "PRESENT": 50
+        },
+        "smoking": {
+          "PRESENT": 49
+        },
+        "smoking hookah": {
+          "PRESENT": 49
+        },
+        "snatch weight lifting": {
+          "PRESENT": 50
+        },
+        "sneezing": {
+          "PRESENT": 50
+        },
+        "sniffing": {
+          "PRESENT": 48
+        },
+        "snorkeling": {
+          "PRESENT": 50
+        },
+        "snowboarding": {
+          "PRESENT": 48
+        },
+        "snowkiting": {
+          "PRESENT": 50
+        },
+        "snowmobiling": {
+          "PRESENT": 49
+        },
+        "somersaulting": {
+          "PRESENT": 50
+        },
+        "spinning poi": {
+          "PRESENT": 49
+        },
+        "spray painting": {
+          "PRESENT": 49
+        },
+        "spraying": {
+          "PRESENT": 50
+        },
+        "springboard diving": {
+          "CONFIRMED_ABSENT": 5,
+          "PRESENT": 45
+        },
+        "squat": {
+          "PRESENT": 50
+        },
+        "sticking tongue out": {
+          "PRESENT": 50
+        },
+        "stomping grapes": {
+          "PRESENT": 50
+        },
+        "stretching arm": {
+          "PRESENT": 50
+        },
+        "stretching leg": {
+          "PRESENT": 50
+        },
+        "strumming guitar": {
+          "PRESENT": 50
+        },
+        "surfing crowd": {
+          "PRESENT": 49
+        },
+        "surfing water": {
+          "PRESENT": 48
+        },
+        "sweeping floor": {
+          "PRESENT": 50
+        },
+        "swimming backstroke": {
+          "PRESENT": 50
+        },
+        "swimming breast stroke": {
+          "PRESENT": 50
+        },
+        "swimming butterfly stroke": {
+          "PRESENT": 50
+        },
+        "swing dancing": {
+          "PRESENT": 50
+        },
+        "swinging legs": {
+          "PRESENT": 50
+        },
+        "swinging on something": {
+          "PRESENT": 49
+        },
+        "sword fighting": {
+          "PRESENT": 50
+        },
+        "tai chi": {
+          "PRESENT": 50
+        },
+        "taking a shower": {
+          "PRESENT": 50
+        },
+        "tango dancing": {
+          "PRESENT": 50
+        },
+        "tap dancing": {
+          "PRESENT": 49
+        },
+        "tapping guitar": {
+          "PRESENT": 50
+        },
+        "tapping pen": {
+          "PRESENT": 50
+        },
+        "tasting beer": {
+          "PRESENT": 50
+        },
+        "tasting food": {
+          "PRESENT": 50
+        },
+        "testifying": {
+          "PRESENT": 50
+        },
+        "texting": {
+          "PRESENT": 49
+        },
+        "throwing axe": {
+          "PRESENT": 50
+        },
+        "throwing ball": {
+          "PRESENT": 50
+        },
+        "throwing discus": {
+          "PRESENT": 50
+        },
+        "tickling": {
+          "PRESENT": 50
+        },
+        "tobogganing": {
+          "PRESENT": 50
+        },
+        "tossing coin": {
+          "PRESENT": 50
+        },
+        "tossing salad": {
+          "PRESENT": 50
+        },
+        "training dog": {
+          "PRESENT": 50
+        },
+        "trapezing": {
+          "PRESENT": 50
+        },
+        "trimming or shaving beard": {
+          "PRESENT": 50
+        },
+        "trimming trees": {
+          "PRESENT": 50
+        },
+        "triple jump": {
+          "PRESENT": 49
+        },
+        "tying bow tie": {
+          "PRESENT": 49,
+          "CONFIRMED_ABSENT": 1
+        },
+        "tying knot (not on a tie)": {
+          "PRESENT": 50
+        },
+        "tying tie": {
+          "PRESENT": 50
+        },
+        "unboxing": {
+          "PRESENT": 50
+        },
+        "unloading truck": {
+          "PRESENT": 50
+        },
+        "using computer": {
+          "PRESENT": 49
+        },
+        "using remote controller (not gaming)": {
+          "PRESENT": 50
+        },
+        "using segway": {
+          "PRESENT": 46,
+          "CONFIRMED_ABSENT": 4
+        },
+        "vault": {
+          "PRESENT": 50
+        },
+        "waiting in line": {
+          "PRESENT": 50
+        },
+        "walking the dog": {
+          "PRESENT": 50
+        },
+        "washing dishes": {
+          "PRESENT": 50
+        },
+        "washing feet": {
+          "PRESENT": 50
+        },
+        "washing hair": {
+          "PRESENT": 49
+        },
+        "washing hands": {
+          "PRESENT": 50
+        },
+        "water skiing": {
+          "PRESENT": 49
+        },
+        "water sliding": {
+          "PRESENT": 50
+        },
+        "watering plants": {
+          "PRESENT": 50
+        },
+        "waxing back": {
+          "PRESENT": 50
+        },
+        "waxing chest": {
+          "PRESENT": 50
+        },
+        "waxing eyebrows": {
+          "PRESENT": 50
+        },
+        "waxing legs": {
+          "PRESENT": 50
+        },
+        "weaving basket": {
+          "PRESENT": 50
+        },
+        "welding": {
+          "PRESENT": 50
+        },
+        "whistling": {
+          "PRESENT": 50
+        },
+        "windsurfing": {
+          "PRESENT": 50
+        },
+        "wrapping present": {
+          "PRESENT": 50
+        },
+        "wrestling": {
+          "PRESENT": 50
+        },
+        "writing": {
+          "PRESENT": 50
+        },
+        "yawning": {
+          "PRESENT": 49,
+          "CONFIRMED_ABSENT": 1
+        },
+        "yoga": {
+          "PRESENT": 50
+        },
+        "zumba": {
+          "PRESENT": 46
+        }
+      },
+      "availability_sha256": "0e586f7b5b9a1c0a93920c023d438c8eec888af0c5d406bcc62f3131fb924aff"
+    },
+    "test": {
+      "states": {
+        "UNKNOWN": 39805
+      },
+      "complete": false,
+      "per_class": {
+        "abseiling": {
+          "UNKNOWN": 100
+        },
+        "air drumming": {
+          "UNKNOWN": 100
+        },
+        "answering questions": {
+          "UNKNOWN": 100
+        },
+        "applauding": {
+          "UNKNOWN": 100
+        },
+        "applying cream": {
+          "UNKNOWN": 100
+        },
+        "archery": {
+          "UNKNOWN": 100
+        },
+        "arm wrestling": {
+          "UNKNOWN": 99
+        },
+        "arranging flowers": {
+          "UNKNOWN": 100
+        },
+        "assembling computer": {
+          "UNKNOWN": 98
+        },
+        "auctioning": {
+          "UNKNOWN": 100
+        },
+        "baby waking up": {
+          "UNKNOWN": 99
+        },
+        "baking cookies": {
+          "UNKNOWN": 100
+        },
+        "balloon blowing": {
+          "UNKNOWN": 99
+        },
+        "bandaging": {
+          "UNKNOWN": 100
+        },
+        "barbequing": {
+          "UNKNOWN": 100
+        },
+        "bartending": {
+          "UNKNOWN": 100
+        },
+        "beatboxing": {
+          "UNKNOWN": 100
+        },
+        "bee keeping": {
+          "UNKNOWN": 100
+        },
+        "belly dancing": {
+          "UNKNOWN": 97
+        },
+        "bench pressing": {
+          "UNKNOWN": 100
+        },
+        "bending back": {
+          "UNKNOWN": 100
+        },
+        "bending metal": {
+          "UNKNOWN": 100
+        },
+        "biking through snow": {
+          "UNKNOWN": 100
+        },
+        "blasting sand": {
+          "UNKNOWN": 99
+        },
+        "blowing glass": {
+          "UNKNOWN": 100
+        },
+        "blowing leaves": {
+          "UNKNOWN": 100
+        },
+        "blowing nose": {
+          "UNKNOWN": 100
+        },
+        "blowing out candles": {
+          "UNKNOWN": 100
+        },
+        "bobsledding": {
+          "UNKNOWN": 100
+        },
+        "bookbinding": {
+          "UNKNOWN": 100
+        },
+        "bouncing on trampoline": {
+          "UNKNOWN": 100
+        },
+        "bowling": {
+          "UNKNOWN": 99
+        },
+        "braiding hair": {
+          "UNKNOWN": 98
+        },
+        "breading or breadcrumbing": {
+          "UNKNOWN": 100
+        },
+        "breakdancing": {
+          "UNKNOWN": 100
+        },
+        "brush painting": {
+          "UNKNOWN": 98
+        },
+        "brushing hair": {
+          "UNKNOWN": 99
+        },
+        "brushing teeth": {
+          "UNKNOWN": 100
+        },
+        "building cabinet": {
+          "UNKNOWN": 100
+        },
+        "building shed": {
+          "UNKNOWN": 99
+        },
+        "bungee jumping": {
+          "UNKNOWN": 99
+        },
+        "busking": {
+          "UNKNOWN": 100
+        },
+        "canoeing or kayaking": {
+          "UNKNOWN": 99
+        },
+        "capoeira": {
+          "UNKNOWN": 100
+        },
+        "carrying baby": {
+          "UNKNOWN": 100
+        },
+        "cartwheeling": {
+          "UNKNOWN": 99
+        },
+        "carving pumpkin": {
+          "UNKNOWN": 99
+        },
+        "catching fish": {
+          "UNKNOWN": 100
+        },
+        "catching or throwing baseball": {
+          "UNKNOWN": 100
+        },
+        "catching or throwing frisbee": {
+          "UNKNOWN": 100
+        },
+        "catching or throwing softball": {
+          "UNKNOWN": 100
+        },
+        "celebrating": {
+          "UNKNOWN": 100
+        },
+        "changing oil": {
+          "UNKNOWN": 100
+        },
+        "changing wheel": {
+          "UNKNOWN": 98
+        },
+        "checking tires": {
+          "UNKNOWN": 100
+        },
+        "cheerleading": {
+          "UNKNOWN": 100
+        },
+        "chopping wood": {
+          "UNKNOWN": 100
+        },
+        "clapping": {
+          "UNKNOWN": 99
+        },
+        "clay pottery making": {
+          "UNKNOWN": 100
+        },
+        "clean and jerk": {
+          "UNKNOWN": 100
+        },
+        "cleaning floor": {
+          "UNKNOWN": 100
+        },
+        "cleaning gutters": {
+          "UNKNOWN": 100
+        },
+        "cleaning pool": {
+          "UNKNOWN": 100
+        },
+        "cleaning shoes": {
+          "UNKNOWN": 97
+        },
+        "cleaning toilet": {
+          "UNKNOWN": 100
+        },
+        "cleaning windows": {
+          "UNKNOWN": 100
+        },
+        "climbing a rope": {
+          "UNKNOWN": 100
+        },
+        "climbing ladder": {
+          "UNKNOWN": 100
+        },
+        "climbing tree": {
+          "UNKNOWN": 100
+        },
+        "contact juggling": {
+          "UNKNOWN": 98
+        },
+        "cooking chicken": {
+          "UNKNOWN": 100
+        },
+        "cooking egg": {
+          "UNKNOWN": 99
+        },
+        "cooking on campfire": {
+          "UNKNOWN": 99
+        },
+        "cooking sausages": {
+          "UNKNOWN": 99
+        },
+        "counting money": {
+          "UNKNOWN": 100
+        },
+        "country line dancing": {
+          "UNKNOWN": 100
+        },
+        "cracking neck": {
+          "UNKNOWN": 99
+        },
+        "crawling baby": {
+          "UNKNOWN": 100
+        },
+        "crossing river": {
+          "UNKNOWN": 100
+        },
+        "crying": {
+          "UNKNOWN": 97
+        },
+        "curling hair": {
+          "UNKNOWN": 100
+        },
+        "cutting nails": {
+          "UNKNOWN": 98
+        },
+        "cutting pineapple": {
+          "UNKNOWN": 100
+        },
+        "cutting watermelon": {
+          "UNKNOWN": 99
+        },
+        "dancing ballet": {
+          "UNKNOWN": 100
+        },
+        "dancing charleston": {
+          "UNKNOWN": 99
+        },
+        "dancing gangnam style": {
+          "UNKNOWN": 97
+        },
+        "dancing macarena": {
+          "UNKNOWN": 99
+        },
+        "deadlifting": {
+          "UNKNOWN": 100
+        },
+        "decorating the christmas tree": {
+          "UNKNOWN": 100
+        },
+        "digging": {
+          "UNKNOWN": 99
+        },
+        "dining": {
+          "UNKNOWN": 99
+        },
+        "disc golfing": {
+          "UNKNOWN": 100
+        },
+        "diving cliff": {
+          "UNKNOWN": 100
+        },
+        "dodgeball": {
+          "UNKNOWN": 100
+        },
+        "doing aerobics": {
+          "UNKNOWN": 99
+        },
+        "doing laundry": {
+          "UNKNOWN": 100
+        },
+        "doing nails": {
+          "UNKNOWN": 100
+        },
+        "drawing": {
+          "UNKNOWN": 100
+        },
+        "dribbling basketball": {
+          "UNKNOWN": 100
+        },
+        "drinking": {
+          "UNKNOWN": 99
+        },
+        "drinking beer": {
+          "UNKNOWN": 98
+        },
+        "drinking shots": {
+          "UNKNOWN": 99
+        },
+        "driving car": {
+          "UNKNOWN": 99
+        },
+        "driving tractor": {
+          "UNKNOWN": 100
+        },
+        "drop kicking": {
+          "UNKNOWN": 99
+        },
+        "drumming fingers": {
+          "UNKNOWN": 100
+        },
+        "dunking basketball": {
+          "UNKNOWN": 99
+        },
+        "dying hair": {
+          "UNKNOWN": 93
+        },
+        "eating burger": {
+          "UNKNOWN": 99
+        },
+        "eating cake": {
+          "UNKNOWN": 100
+        },
+        "eating carrots": {
+          "UNKNOWN": 100
+        },
+        "eating chips": {
+          "UNKNOWN": 99
+        },
+        "eating doughnuts": {
+          "UNKNOWN": 100
+        },
+        "eating hotdog": {
+          "UNKNOWN": 100
+        },
+        "eating ice cream": {
+          "UNKNOWN": 100
+        },
+        "eating spaghetti": {
+          "UNKNOWN": 99
+        },
+        "eating watermelon": {
+          "UNKNOWN": 100
+        },
+        "egg hunting": {
+          "UNKNOWN": 100
+        },
+        "exercising arm": {
+          "UNKNOWN": 99
+        },
+        "exercising with an exercise ball": {
+          "UNKNOWN": 100
+        },
+        "extinguishing fire": {
+          "UNKNOWN": 100
+        },
+        "faceplanting": {
+          "UNKNOWN": 100
+        },
+        "feeding birds": {
+          "UNKNOWN": 100
+        },
+        "feeding fish": {
+          "UNKNOWN": 100
+        },
+        "feeding goats": {
+          "UNKNOWN": 100
+        },
+        "filling eyebrows": {
+          "UNKNOWN": 97
+        },
+        "finger snapping": {
+          "UNKNOWN": 100
+        },
+        "fixing hair": {
+          "UNKNOWN": 100
+        },
+        "flipping pancake": {
+          "UNKNOWN": 99
+        },
+        "flying kite": {
+          "UNKNOWN": 99
+        },
+        "folding clothes": {
+          "UNKNOWN": 100
+        },
+        "folding napkins": {
+          "UNKNOWN": 99
+        },
+        "folding paper": {
+          "UNKNOWN": 100
+        },
+        "front raises": {
+          "UNKNOWN": 100
+        },
+        "frying vegetables": {
+          "UNKNOWN": 100
+        },
+        "garbage collecting": {
+          "UNKNOWN": 99
+        },
+        "gargling": {
+          "UNKNOWN": 99
+        },
+        "getting a haircut": {
+          "UNKNOWN": 100
+        },
+        "getting a tattoo": {
+          "UNKNOWN": 98
+        },
+        "giving or receiving award": {
+          "UNKNOWN": 100
+        },
+        "golf chipping": {
+          "UNKNOWN": 100
+        },
+        "golf driving": {
+          "UNKNOWN": 100
+        },
+        "golf putting": {
+          "UNKNOWN": 100
+        },
+        "grinding meat": {
+          "UNKNOWN": 100
+        },
+        "grooming dog": {
+          "UNKNOWN": 100
+        },
+        "grooming horse": {
+          "UNKNOWN": 100
+        },
+        "gymnastics tumbling": {
+          "UNKNOWN": 100
+        },
+        "hammer throw": {
+          "UNKNOWN": 100
+        },
+        "headbanging": {
+          "UNKNOWN": 99
+        },
+        "headbutting": {
+          "UNKNOWN": 99
+        },
+        "high jump": {
+          "UNKNOWN": 98
+        },
+        "high kick": {
+          "UNKNOWN": 100
+        },
+        "hitting baseball": {
+          "UNKNOWN": 100
+        },
+        "hockey stop": {
+          "UNKNOWN": 100
+        },
+        "holding snake": {
+          "UNKNOWN": 100
+        },
+        "hopscotch": {
+          "UNKNOWN": 100
+        },
+        "hoverboarding": {
+          "UNKNOWN": 100
+        },
+        "hugging": {
+          "UNKNOWN": 100
+        },
+        "hula hooping": {
+          "UNKNOWN": 99
+        },
+        "hurdling": {
+          "UNKNOWN": 100
+        },
+        "hurling (sport)": {
+          "UNKNOWN": 99
+        },
+        "ice climbing": {
+          "UNKNOWN": 100
+        },
+        "ice fishing": {
+          "UNKNOWN": 100
+        },
+        "ice skating": {
+          "UNKNOWN": 98
+        },
+        "ironing": {
+          "UNKNOWN": 99
+        },
+        "javelin throw": {
+          "UNKNOWN": 100
+        },
+        "jetskiing": {
+          "UNKNOWN": 100
+        },
+        "jogging": {
+          "UNKNOWN": 98
+        },
+        "juggling balls": {
+          "UNKNOWN": 100
+        },
+        "juggling fire": {
+          "UNKNOWN": 100
+        },
+        "juggling soccer ball": {
+          "UNKNOWN": 100
+        },
+        "jumping into pool": {
+          "UNKNOWN": 100
+        },
+        "jumpstyle dancing": {
+          "UNKNOWN": 99
+        },
+        "kicking field goal": {
+          "UNKNOWN": 100
+        },
+        "kicking soccer ball": {
+          "UNKNOWN": 100
+        },
+        "kissing": {
+          "UNKNOWN": 100
+        },
+        "kitesurfing": {
+          "UNKNOWN": 98
+        },
+        "knitting": {
+          "UNKNOWN": 100
+        },
+        "krumping": {
+          "UNKNOWN": 99
+        },
+        "laughing": {
+          "UNKNOWN": 100
+        },
+        "laying bricks": {
+          "UNKNOWN": 100
+        },
+        "long jump": {
+          "UNKNOWN": 99
+        },
+        "lunge": {
+          "UNKNOWN": 100
+        },
+        "making a cake": {
+          "UNKNOWN": 100
+        },
+        "making a sandwich": {
+          "UNKNOWN": 100
+        },
+        "making bed": {
+          "UNKNOWN": 100
+        },
+        "making jewelry": {
+          "UNKNOWN": 100
+        },
+        "making pizza": {
+          "UNKNOWN": 100
+        },
+        "making snowman": {
+          "UNKNOWN": 98
+        },
+        "making sushi": {
+          "UNKNOWN": 100
+        },
+        "making tea": {
+          "UNKNOWN": 100
+        },
+        "marching": {
+          "UNKNOWN": 99
+        },
+        "massaging back": {
+          "UNKNOWN": 94
+        },
+        "massaging feet": {
+          "UNKNOWN": 100
+        },
+        "massaging legs": {
+          "UNKNOWN": 100
+        },
+        "massaging person's head": {
+          "UNKNOWN": 100
+        },
+        "milking cow": {
+          "UNKNOWN": 100
+        },
+        "mopping floor": {
+          "UNKNOWN": 100
+        },
+        "motorcycling": {
+          "UNKNOWN": 99
+        },
+        "moving furniture": {
+          "UNKNOWN": 100
+        },
+        "mowing lawn": {
+          "UNKNOWN": 100
+        },
+        "news anchoring": {
+          "UNKNOWN": 100
+        },
+        "opening bottle": {
+          "UNKNOWN": 100
+        },
+        "opening present": {
+          "UNKNOWN": 100
+        },
+        "paragliding": {
+          "UNKNOWN": 100
+        },
+        "parasailing": {
+          "UNKNOWN": 99
+        },
+        "parkour": {
+          "UNKNOWN": 99
+        },
+        "passing American football (in game)": {
+          "UNKNOWN": 100
+        },
+        "passing American football (not in game)": {
+          "UNKNOWN": 100
+        },
+        "peeling apples": {
+          "UNKNOWN": 100
+        },
+        "peeling potatoes": {
+          "UNKNOWN": 100
+        },
+        "petting animal (not cat)": {
+          "UNKNOWN": 100
+        },
+        "petting cat": {
+          "UNKNOWN": 100
+        },
+        "picking fruit": {
+          "UNKNOWN": 99
+        },
+        "planting trees": {
+          "UNKNOWN": 100
+        },
+        "plastering": {
+          "UNKNOWN": 100
+        },
+        "playing accordion": {
+          "UNKNOWN": 100
+        },
+        "playing badminton": {
+          "UNKNOWN": 99
+        },
+        "playing bagpipes": {
+          "UNKNOWN": 100
+        },
+        "playing basketball": {
+          "UNKNOWN": 99
+        },
+        "playing bass guitar": {
+          "UNKNOWN": 99
+        },
+        "playing cards": {
+          "UNKNOWN": 100
+        },
+        "playing cello": {
+          "UNKNOWN": 99
+        },
+        "playing chess": {
+          "UNKNOWN": 100
+        },
+        "playing clarinet": {
+          "UNKNOWN": 100
+        },
+        "playing controller": {
+          "UNKNOWN": 100
+        },
+        "playing cricket": {
+          "UNKNOWN": 100
+        },
+        "playing cymbals": {
+          "UNKNOWN": 100
+        },
+        "playing didgeridoo": {
+          "UNKNOWN": 100
+        },
+        "playing drums": {
+          "UNKNOWN": 100
+        },
+        "playing flute": {
+          "UNKNOWN": 100
+        },
+        "playing guitar": {
+          "UNKNOWN": 100
+        },
+        "playing harmonica": {
+          "UNKNOWN": 100
+        },
+        "playing harp": {
+          "UNKNOWN": 100
+        },
+        "playing ice hockey": {
+          "UNKNOWN": 99
+        },
+        "playing keyboard": {
+          "UNKNOWN": 100
+        },
+        "playing kickball": {
+          "UNKNOWN": 100
+        },
+        "playing monopoly": {
+          "UNKNOWN": 99
+        },
+        "playing organ": {
+          "UNKNOWN": 100
+        },
+        "playing paintball": {
+          "UNKNOWN": 100
+        },
+        "playing piano": {
+          "UNKNOWN": 99
+        },
+        "playing poker": {
+          "UNKNOWN": 100
+        },
+        "playing recorder": {
+          "UNKNOWN": 99
+        },
+        "playing saxophone": {
+          "UNKNOWN": 99
+        },
+        "playing squash or racquetball": {
+          "UNKNOWN": 100
+        },
+        "playing tennis": {
+          "UNKNOWN": 100
+        },
+        "playing trombone": {
+          "UNKNOWN": 100
+        },
+        "playing trumpet": {
+          "UNKNOWN": 99
+        },
+        "playing ukulele": {
+          "UNKNOWN": 99
+        },
+        "playing violin": {
+          "UNKNOWN": 100
+        },
+        "playing volleyball": {
+          "UNKNOWN": 100
+        },
+        "playing xylophone": {
+          "UNKNOWN": 100
+        },
+        "pole vault": {
+          "UNKNOWN": 99
+        },
+        "presenting weather forecast": {
+          "UNKNOWN": 100
+        },
+        "pull ups": {
+          "UNKNOWN": 100
+        },
+        "pumping fist": {
+          "UNKNOWN": 100
+        },
+        "pumping gas": {
+          "UNKNOWN": 99
+        },
+        "punching bag": {
+          "UNKNOWN": 100
+        },
+        "punching person (boxing)": {
+          "UNKNOWN": 94
+        },
+        "push up": {
+          "UNKNOWN": 100
+        },
+        "pushing car": {
+          "UNKNOWN": 100
+        },
+        "pushing cart": {
+          "UNKNOWN": 100
+        },
+        "pushing wheelchair": {
+          "UNKNOWN": 100
+        },
+        "reading book": {
+          "UNKNOWN": 99
+        },
+        "reading newspaper": {
+          "UNKNOWN": 100
+        },
+        "recording music": {
+          "UNKNOWN": 100
+        },
+        "riding a bike": {
+          "UNKNOWN": 99
+        },
+        "riding camel": {
+          "UNKNOWN": 100
+        },
+        "riding elephant": {
+          "UNKNOWN": 100
+        },
+        "riding mechanical bull": {
+          "UNKNOWN": 100
+        },
+        "riding mountain bike": {
+          "UNKNOWN": 100
+        },
+        "riding mule": {
+          "UNKNOWN": 100
+        },
+        "riding or walking with horse": {
+          "UNKNOWN": 98
+        },
+        "riding scooter": {
+          "UNKNOWN": 99
+        },
+        "riding unicycle": {
+          "UNKNOWN": 98
+        },
+        "ripping paper": {
+          "UNKNOWN": 99
+        },
+        "robot dancing": {
+          "UNKNOWN": 99
+        },
+        "rock climbing": {
+          "UNKNOWN": 100
+        },
+        "rock scissors paper": {
+          "UNKNOWN": 100
+        },
+        "roller skating": {
+          "UNKNOWN": 100
+        },
+        "running on treadmill": {
+          "UNKNOWN": 99
+        },
+        "sailing": {
+          "UNKNOWN": 100
+        },
+        "salsa dancing": {
+          "UNKNOWN": 100
+        },
+        "sanding floor": {
+          "UNKNOWN": 100
+        },
+        "scrambling eggs": {
+          "UNKNOWN": 99
+        },
+        "scuba diving": {
+          "UNKNOWN": 100
+        },
+        "setting table": {
+          "UNKNOWN": 99
+        },
+        "shaking hands": {
+          "UNKNOWN": 100
+        },
+        "shaking head": {
+          "UNKNOWN": 100
+        },
+        "sharpening knives": {
+          "UNKNOWN": 100
+        },
+        "sharpening pencil": {
+          "UNKNOWN": 99
+        },
+        "shaving head": {
+          "UNKNOWN": 99
+        },
+        "shaving legs": {
+          "UNKNOWN": 99
+        },
+        "shearing sheep": {
+          "UNKNOWN": 100
+        },
+        "shining shoes": {
+          "UNKNOWN": 100
+        },
+        "shooting basketball": {
+          "UNKNOWN": 100
+        },
+        "shooting goal (soccer)": {
+          "UNKNOWN": 99
+        },
+        "shot put": {
+          "UNKNOWN": 100
+        },
+        "shoveling snow": {
+          "UNKNOWN": 100
+        },
+        "shredding paper": {
+          "UNKNOWN": 100
+        },
+        "shuffling cards": {
+          "UNKNOWN": 100
+        },
+        "side kick": {
+          "UNKNOWN": 100
+        },
+        "sign language interpreting": {
+          "UNKNOWN": 94
+        },
+        "singing": {
+          "UNKNOWN": 100
+        },
+        "situp": {
+          "UNKNOWN": 100
+        },
+        "skateboarding": {
+          "UNKNOWN": 100
+        },
+        "ski jumping": {
+          "UNKNOWN": 100
+        },
+        "skiing (not slalom or crosscountry)": {
+          "UNKNOWN": 100
+        },
+        "skiing crosscountry": {
+          "UNKNOWN": 100
+        },
+        "skiing slalom": {
+          "UNKNOWN": 99
+        },
+        "skipping rope": {
+          "UNKNOWN": 100
+        },
+        "skydiving": {
+          "UNKNOWN": 100
+        },
+        "slacklining": {
+          "UNKNOWN": 99
+        },
+        "slapping": {
+          "UNKNOWN": 98
+        },
+        "sled dog racing": {
+          "UNKNOWN": 100
+        },
+        "smoking": {
+          "UNKNOWN": 94
+        },
+        "smoking hookah": {
+          "UNKNOWN": 99
+        },
+        "snatch weight lifting": {
+          "UNKNOWN": 100
+        },
+        "sneezing": {
+          "UNKNOWN": 100
+        },
+        "sniffing": {
+          "UNKNOWN": 100
+        },
+        "snorkeling": {
+          "UNKNOWN": 100
+        },
+        "snowboarding": {
+          "UNKNOWN": 99
+        },
+        "snowkiting": {
+          "UNKNOWN": 99
+        },
+        "snowmobiling": {
+          "UNKNOWN": 98
+        },
+        "somersaulting": {
+          "UNKNOWN": 100
+        },
+        "spinning poi": {
+          "UNKNOWN": 99
+        },
+        "spray painting": {
+          "UNKNOWN": 100
+        },
+        "spraying": {
+          "UNKNOWN": 100
+        },
+        "springboard diving": {
+          "UNKNOWN": 99
+        },
+        "squat": {
+          "UNKNOWN": 99
+        },
+        "sticking tongue out": {
+          "UNKNOWN": 99
+        },
+        "stomping grapes": {
+          "UNKNOWN": 100
+        },
+        "stretching arm": {
+          "UNKNOWN": 100
+        },
+        "stretching leg": {
+          "UNKNOWN": 100
+        },
+        "strumming guitar": {
+          "UNKNOWN": 100
+        },
+        "surfing crowd": {
+          "UNKNOWN": 99
+        },
+        "surfing water": {
+          "UNKNOWN": 99
+        },
+        "sweeping floor": {
+          "UNKNOWN": 100
+        },
+        "swimming backstroke": {
+          "UNKNOWN": 100
+        },
+        "swimming breast stroke": {
+          "UNKNOWN": 100
+        },
+        "swimming butterfly stroke": {
+          "UNKNOWN": 100
+        },
+        "swing dancing": {
+          "UNKNOWN": 99
+        },
+        "swinging legs": {
+          "UNKNOWN": 100
+        },
+        "swinging on something": {
+          "UNKNOWN": 100
+        },
+        "sword fighting": {
+          "UNKNOWN": 100
+        },
+        "tai chi": {
+          "UNKNOWN": 100
+        },
+        "taking a shower": {
+          "UNKNOWN": 100
+        },
+        "tango dancing": {
+          "UNKNOWN": 100
+        },
+        "tap dancing": {
+          "UNKNOWN": 98
+        },
+        "tapping guitar": {
+          "UNKNOWN": 100
+        },
+        "tapping pen": {
+          "UNKNOWN": 100
+        },
+        "tasting beer": {
+          "UNKNOWN": 100
+        },
+        "tasting food": {
+          "UNKNOWN": 100
+        },
+        "testifying": {
+          "UNKNOWN": 100
+        },
+        "texting": {
+          "UNKNOWN": 99
+        },
+        "throwing axe": {
+          "UNKNOWN": 100
+        },
+        "throwing ball": {
+          "UNKNOWN": 100
+        },
+        "throwing discus": {
+          "UNKNOWN": 99
+        },
+        "tickling": {
+          "UNKNOWN": 100
+        },
+        "tobogganing": {
+          "UNKNOWN": 100
+        },
+        "tossing coin": {
+          "UNKNOWN": 99
+        },
+        "tossing salad": {
+          "UNKNOWN": 99
+        },
+        "training dog": {
+          "UNKNOWN": 99
+        },
+        "trapezing": {
+          "UNKNOWN": 100
+        },
+        "trimming or shaving beard": {
+          "UNKNOWN": 99
+        },
+        "trimming trees": {
+          "UNKNOWN": 100
+        },
+        "triple jump": {
+          "UNKNOWN": 100
+        },
+        "tying bow tie": {
+          "UNKNOWN": 100
+        },
+        "tying knot (not on a tie)": {
+          "UNKNOWN": 99
+        },
+        "tying tie": {
+          "UNKNOWN": 100
+        },
+        "unboxing": {
+          "UNKNOWN": 100
+        },
+        "unloading truck": {
+          "UNKNOWN": 100
+        },
+        "using computer": {
+          "UNKNOWN": 100
+        },
+        "using remote controller (not gaming)": {
+          "UNKNOWN": 98
+        },
+        "using segway": {
+          "UNKNOWN": 99
+        },
+        "vault": {
+          "UNKNOWN": 100
+        },
+        "waiting in line": {
+          "UNKNOWN": 100
+        },
+        "walking the dog": {
+          "UNKNOWN": 100
+        },
+        "washing dishes": {
+          "UNKNOWN": 100
+        },
+        "washing feet": {
+          "UNKNOWN": 99
+        },
+        "washing hair": {
+          "UNKNOWN": 97
+        },
+        "washing hands": {
+          "UNKNOWN": 100
+        },
+        "water skiing": {
+          "UNKNOWN": 99
+        },
+        "water sliding": {
+          "UNKNOWN": 100
+        },
+        "watering plants": {
+          "UNKNOWN": 99
+        },
+        "waxing back": {
+          "UNKNOWN": 100
+        },
+        "waxing chest": {
+          "UNKNOWN": 100
+        },
+        "waxing eyebrows": {
+          "UNKNOWN": 99
+        },
+        "waxing legs": {
+          "UNKNOWN": 100
+        },
+        "weaving basket": {
+          "UNKNOWN": 100
+        },
+        "welding": {
+          "UNKNOWN": 100
+        },
+        "whistling": {
+          "UNKNOWN": 100
+        },
+        "windsurfing": {
+          "UNKNOWN": 100
+        },
+        "wrapping present": {
+          "UNKNOWN": 100
+        },
+        "wrestling": {
+          "UNKNOWN": 99
+        },
+        "writing": {
+          "UNKNOWN": 100
+        },
+        "yawning": {
+          "UNKNOWN": 99
+        },
+        "yoga": {
+          "UNKNOWN": 97
+        },
+        "zumba": {
+          "UNKNOWN": 95
+        }
+      },
+      "availability_sha256": "11b2515adf57d233cac278edc49c096ae71b43a04bc6a2c2e064c70a7faa329f"
+    }
+  }
+}

@@ -8,7 +8,9 @@ adaptive controller. Technical feasibility and scientific success are separate.
 
 The direct request authorizes commit and push after the work; it supersedes the
 attachment's no-push sentence. No PR, merge, paid service, terms acceptance,
-environment upgrade, population substitution or historical overwrite is authorized.
+environment upgrade or historical overwrite is authorized. The 2026-10-23
+archive-availability population amendment is explicitly authorized and fixed in
+population_rule.json and population_amendment.md before model execution.
 The direct prohibition on simulated data supersedes the attachment's request for
 synthetic fixtures. Verification uses exact mathematical contracts, official
 metadata, and explicitly identified replay of genuine stored fitting inputs.
@@ -17,7 +19,9 @@ metadata, and explicitly identified replay of genuine stored fitting inputs.
 
 Retain the fixed official native400 X3D-XS checkpoint. PROBE_FIT comprises eight
 independent eligible original validation components per native class, one clip
-per global component: 3,200 sources. EVAL comprises m independent original test
+per global component: 3,200 sources. Both roles are restricted uniformly to the
+pinned authenticated archive-available population (archive_available_v1).
+EVAL comprises m independent original test
 components per class, m=8..20 chosen only by fitting-only OOF precision. Preserve
 all 400 classes; never use correctness, confidence, loss, motion, gain or density
 for eligibility or replacement. Official labels alone do not establish freshness.
@@ -33,8 +37,9 @@ must remain explicit limitations rather than universal-independence claims.
 
 Choose a single technically eligible canonical clip across all classes in a
 component using SHA256 ranks before quota allocation. The rank bytes are UTF-8
-`study|20261023|purpose|identifier`, documented in code. Unavailable higher-ranked
-bytes have unknown eligibility; they cannot be quietly skipped for convenience.
+`study|20261023|purpose|identifier`, documented in code. Proven absence from every
+verified archive in the pinned split excludes a clip. PRESENT uncached clips and
+UNKNOWN membership remain unresolved; local absence cannot justify skipping.
 Known fit/test or train/test collisions are quarantined. Legacy historical
 exclusion unions mix exposure and reservation: prior validation exposure is
 permitted for fitting when reservation status is resolved. An unresolved union
@@ -219,7 +224,8 @@ candidates. This is conservative finite evidence, not universal independence.
 Acquisition freezes a rank-ordered quota plus two reserve components/class before
 archive traversal. All members of those components are retained when present;
 archive arrival never chooses membership. Every skipped preceding candidate must
-have actual technical failure evidence. Missing higher ranks block; irrelevant
+have source-role exclusion, verified archive absence, or actual technical failure
+evidence. Missing required PRESENT/UNKNOWN higher ranks block; irrelevant
 lower ranks require no local bytes. A reserve shortfall requires a separately
 gated deterministic next prefix/revisit, never a favorable substitution.
 

@@ -27,7 +27,7 @@ planning, acquires/certifies the exact selected test cohort, fits final probes,
 seals identities, and evaluates/times/verifies only after each gate passes.
 Test acquisition requires the real fitting-only precision plan. `plan` stops
 after sealing and does not expose EVAL. No user-created success certificate or
-hand-edited ledger is required. A missing high-ranked source blocks its prefix;
+hand-edited ledger is required. A required PRESENT/UNKNOWN source blocks its prefix;
 missing irrelevant lower-ranked files do not block it.
 
 `status`, `dry-run` and `audit` are read-only. `dry-run` reports actual missing
@@ -69,13 +69,29 @@ parent/byte/perceptual evidence cannot exclude unknown reuploads or undocumented
 pretraining. Implementation verification alone is not empirical completion.
 
 
-The current attempt is BLOCKED_INPUT / NOT_EVALUATED. See
-[val_unavailable_needed_input.json](val_unavailable_needed_input.json) for the
-first exact missing source, [archive coverage](annotation_archive_coverage.json)
-and [public-source checks](missing_input_parent_playability.json). Both acquire
-and resume retain this gate until authentic higher-ranked inputs are available.
+The former d978026 attempt was BLOCKED_INPUT / NOT_EVALUATED. Its
+[snapshot](blocked_d978026/snapshot_identity.json), old missing-input reports and
+public-source checks remain historical evidence. The prospective
+[population amendment](population_amendment.md) supersedes release-absent blockers
+uniformly for both splits. [population_rule.json](population_rule.json) pins the
+release; all-annotation availability ledgers distinguish PRESENT,
+CONFIRMED_ABSENT and UNKNOWN. Required PRESENT uncached bytes still need acquisition.
+Current status and actual executed stages are reported in status.json and findings.md.
 The public [member catalogs](archive_member_catalogs.json.gz) and
 [input-only graph](input_only_source_audit.json.gz) contain real metadata/byte
 identities. They do not certify a complete fitting/evaluation cohort. Dependent
 fitting/EVAL/timing paths have not been exercised on a complete E27 population;
 passing contract and blocked-state checks does not validate those empirical stages.
+
+The amended attempt reached `FIT_CERTIFIED`: 3,200 fitting sources, eight per
+native class. Genuine native reference data exist for eight sources, with 128
+smoke forwards plus 128 additional ordinary-reference diagnostic forwards on
+the same sources; all arrays matched exactly. The runner stopped at
+`BLOCKED_RESOURCE / NOT_EVALUATED`. No probes, OOF-selected m, EVAL outcomes,
+final timing or figures exist. See
+[resource diagnosis](minimum_design_resource_diagnosis.json) and
+[actual scope](implementation_validation_scope.json). The smallest permitted
+full-study workload projects about 16.9 cumulative collection hours under the
+measured gates against the unchanged 8-hour cap. This is a projection, not an
+observed future duration. A resource amendment or independently validated
+adequate implementation is needed before further integrated execution.

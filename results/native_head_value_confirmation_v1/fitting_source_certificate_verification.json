@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "errors": [],
+  "independent_connectivity": true,
+  "evidence_files": 150,
+  "selected_sources": {
+    "val": 3200
+  },
+  "authenticated_archive_members": 19881,
+  "no_model_calls": true
+}

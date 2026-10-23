@@ -1,24 +1,25 @@
 {
-  "start_head": "a9e1942f226f341071e1a990ea446dc717a070bb",
+  "reviewed_commit": "d97802601500101a94c91de2a546769e9fae29ab",
   "branch": "codex/native-head-value-confirmation-v1",
-  "technical": "BLOCKED_INPUT",
+  "population_rule": "archive_available_v1",
+  "technical": "BLOCKED_RESOURCE",
   "scientific": "NOT_EVALUATED",
-  "blocker": {
-    "filename": "7tTouR10Qro_000092_000102.mp4",
-    "split": "val",
-    "authenticated_complete_catalogs": 20,
-    "catalog_matches": [],
-    "prerequisite": "Supply authentic original RGB for this higher-ranked official clip, with provenance and real PTS; unavailable bytes are not scientific ineligibility.",
-    "no_replacement_or_model_exposure": true
-  },
+  "completed_stage": "FIT_CERTIFIED",
+  "certified_fitting_sources": 3200,
+  "fitting_reference_sources": 8,
+  "eval_sources": 0,
+  "selected_m": null,
+  "actual_runner_blocker": "BLOCKED_RESOURCE: fitting-only genuine throughput projection exceeds remaining collection cap",
+  "resource_diagnosis": "minimum_design_resource_diagnosis.json",
+  "genuine_native_smoke_forwards": 128,
+  "additional_genuine_profile_forwards": 128,
+  "probe_fits": 0,
+  "resume_condition": "Explicit resource amendment or separately validated adequate implementation. Current measured full-route gates fail under unchanged caps. No manual provenance certificate or recovery of release-absent clips is required.",
   "resume_commands": [
     ".\\.venv_temporal\\Scripts\\python.exe run_native_head_value_confirmation.py status",
     ".\\.venv_temporal\\Scripts\\python.exe run_native_head_value_confirmation.py dry-run",
-    ".\\.venv_temporal\\Scripts\\python.exe run_native_head_value_confirmation.py acquire --split val",
     ".\\.venv_temporal\\Scripts\\python.exe run_native_head_value_confirmation.py resume",
     ".\\.venv_temporal\\Scripts\\python.exe run_native_head_value_confirmation.py audit"
   ],
-  "resume_condition": "Authentic required higher-ranked RGB and provenance must be available; no lower-ranked replacement is authorized.",
-  "next_research_decision": "Obtain the missing original fitting inputs before resuming the same frozen E27 study.",
-  "verification": "16 exact/real-input checks, release validator and independent blocked-state input/historical audit passed; empirical verification NOT_RUN"
+  "no_scientific_completion_claim": true
 }

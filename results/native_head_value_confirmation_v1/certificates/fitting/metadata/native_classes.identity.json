@@ -1,0 +1,26 @@
+{
+  "url": "https://dl.fbaipublicfiles.com/pyslowfast/dataset/class_names/kinetics_classnames.json",
+  "bytes": 10326,
+  "sha256": "00c6a6afcc5a121287419e8ae4075bd591b0bb816d04fb7720d526f04024e1a2",
+  "path": "data/source/native_head_value_confirmation_v1/metadata/native_classes",
+  "headers": {
+    "Content-Type": "text/plain",
+    "Content-Length": "10326",
+    "Connection": "close",
+    "Accept-Ranges": "bytes",
+    "Date": "Thu, 22 Oct 2026 11:22:24 GMT",
+    "Server": "AmazonS3",
+    "Last-Modified": "Tue, 08 Dec 2020 08:36:20 GMT",
+    "ETag": "\"71b7f098381e4badf3e1d2d3ce5cfc5a\"",
+    "x-amz-meta-s3cmd-attrs": "atime:1607416491/ctime:1607416490/gid:1185300674/gname:lyttonhao/md5:71b7f098381e4badf3e1d2d3ce5cfc5a/mode:33188/mtime:1607416490/uid:1185300674/uname:lyttonhao",
+    "x-amz-version-id": "WyLGHAmFBTlDPYI1QXPvo1vcpOb5.9K5",
+    "x-amz-server-side-encryption": "AES256",
+    "X-Cache": "Hit from cloudfront",
+    "Via": "1.1 631f00f37f31351e19a97838d0b8b83a.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "NRT12-P7",
+    "X-Amz-Cf-Id": "MKinQExH03lH6-qQ1m6GxF9Z67CyXW-ggYFY1vlOSH27TCAOG8qj8w==",
+    "Age": "62234"
+  },
+  "at_utc": "2026-10-23T04:39:57.875194+00:00",
+  "status": "complete"
+}

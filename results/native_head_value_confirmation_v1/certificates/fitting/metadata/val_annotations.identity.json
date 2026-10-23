@@ -1,0 +1,20 @@
+{
+  "url": "https://s3.amazonaws.com/kinetics/400/annotations/val.csv",
+  "bytes": 810935,
+  "sha256": "358eaf47e7f80ebf9b17d49eb0635ad5e0fdab98a9cbd75ffdd2ee5d5e5b6944",
+  "path": "data/source/native_head_value_confirmation_v1/metadata/val_annotations",
+  "headers": {
+    "x-amz-id-2": "cCRRzwyTxKHoBJcxfySYADg+w7XOUYOa3Ux5YgH8TkAl1HDWX2lLIzkdto79H4YTgVN6pDa12ZQ=",
+    "x-amz-request-id": "5M1GW5NH0A9JS1B4",
+    "Server": "AmazonS3",
+    "Date": "Fri, 23 Oct 2026 04:39:46 GMT",
+    "Last-Modified": "Thu, 03 Dec 2020 08:09:58 GMT",
+    "ETag": "\"d4c3572b2cd08b92414754faf72ea1b2\"",
+    "Accept-Ranges": "bytes",
+    "Content-Type": "text/csv",
+    "Content-Length": "810935",
+    "Connection": "close"
+  },
+  "at_utc": "2026-10-23T04:40:06.116474+00:00",
+  "status": "complete"
+}

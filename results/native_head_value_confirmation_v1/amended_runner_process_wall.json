@@ -1,0 +1,7 @@
+{
+  "source": "Windows process creation and exit times; handle held before exit",
+  "start_utc": "2026-10-23T09:26:21.9915152Z",
+  "pid": 35952,
+  "measured_wall_seconds": 895.0638514,
+  "exit_utc": "2026-10-23T09:41:17.0553666Z"
+}

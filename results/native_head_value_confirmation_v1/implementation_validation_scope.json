@@ -1,35 +1,62 @@
 {
-  "technical_status": "BLOCKED_INPUT",
+  "technical_status": "BLOCKED_RESOURCE",
   "scientific_status": "NOT_EVALUATED",
   "real_exercised": [
-    "20 official validation archives: integrity/catalog/retention",
-    "Two new shard downloads, real failed and range-resumed requests",
-    "Two validated stale task-process/lock recoveries with preserved receipts",
-    "Metadata/byte source graph over complete official split inventory and historical evidence",
-    "199 input-only technical screens, deterministic higher-rank missing-input stop",
-    "Independent retained-byte and historical-integrity audit",
-    "Native400 mapping and actual archived-fitting/structural contract checks"
+    "20 pinned validation archives; all 19,906 annotation records classified; 25 confirmed absences",
+    "39-archive test release pinned before model work; membership remains UNKNOWN",
+    "3221 real technical screen receipts and cached-shard rank-preserving prefix extension",
+    "Independent 3200-source fitting certificate, eight per native class",
+    "Genuine fitting smoke: eight sources, 128 forwards, all 400 native checks and independent all 455 scalar checks",
+    "Additional ordinary-reference diagnosis: eight genuine sources, 128 forwards, exact feature/logit/thumbnail parity",
+    "Real full-CRC cached-archive revisit: stale ledger rejected, republished ledger independently accepted",
+    "24 exact/real-input checks, release validator and cumulative interruption/accounting receipts"
   ],
   "unexecuted": [
-    "Complete all400 fitting certificate",
-    "Fresh native fitting smoke and throughput/memory gate",
-    "3200-source reference collection and four-fold OOF precision",
+    "Remaining 3,192 fitting references",
+    "Four-fold OOF and selected m",
+    "Test catalog/acquisition and final joint source certificate",
     "Final probes and EVAL seal",
-    "EVAL outcomes, bootstrap effects, timing controls, figures/visual review"
+    "EVAL effects/intervals, final timing, figures and visual review"
   ],
+  "resource_diagnosis": {
+    "at_utc": "2026-10-23T09:48:41.521266+00:00",
+    "actual_runner_status": {
+      "technical": "BLOCKED_RESOURCE",
+      "scientific": "NOT_EVALUATED",
+      "blocker": "BLOCKED_RESOURCE: fitting-only genuine throughput projection exceeds remaining collection cap",
+      "no_outcomes_exposed": true
+    },
+    "actual_smoke_sources": 8,
+    "actual_native_smoke_forwards": 128,
+    "additional_genuine_normal_profile_forwards": 128,
+    "exact_profile_array_parity": true,
+    "ordinary_reference_seconds_per_source": 3.654882625000255,
+    "smoke_assertion_seconds_per_source": 7.963754312499759,
+    "exact_selected_m": null,
+    "precision_plan_not_executed": true,
+    "minimum_allowed_design_m": 8,
+    "projection_scope": "Workload of smallest allowed cohort, using measured genuine normal-reference rate and unchanged 1.5 reference/screening safety factors; not an exact selected-m plan or a claim about measured future wall time.",
+    "projected_remaining_seconds": {
+      "fitting_reference": 17499.57800850122,
+      "evaluation_reference_at_m8": 17543.436600001223,
+      "test_transfer": 11565.906909399528,
+      "test_screening": 6471.5469840449405,
+      "test_catalog": 1200.1272922976318,
+      "test_duplicate": 125.35067359999812
+    },
+    "projected_remaining_collection_seconds": 54405.94646784455,
+    "recorded_collection_seconds": 6359.147454920052,
+    "projected_total_collection_seconds": 60765.0939227646,
+    "collection_cap_seconds": 28800,
+    "source_receipts_sha256": "a8b94387bf4abf229062495694e144febbdfb76ef7649191f804e6489cce7d67",
+    "reserved_test_route_bytes": 56094802765,
+    "conclusion": "BLOCKED_RESOURCE under fixed cumulative measured-throughput gates, including the minimum allowed full-study workload; no classes, m, recipe or empirical analysis changed.",
+    "resource_prerequisite": "A separately authorized resource amendment or an independently validated implementation with adequate genuine full-route throughput; current caps remain unchanged."
+  },
   "limitations": [
-    "Earliest historical failed-attempt wall times remain unknown.",
-    "Interrupted body reads use an explicit 4MiB conservative upper reservation.",
-    "Some initial range-response headers were checked at execution but not persisted; they are not reconstructed as observations. Future requests retain response identity fields.",
-    "Malicious-transfer/cap-exhaustion synthetic fixtures were not generated under the direct no-simulated-data instruction; real acquisition failures and exact real-data contracts were exercised.",
-    "Unknown reuploads, undocumented pretraining and unrecorded historic exposure remain residual limits."
-  ],
-  "exact_prerequisite": {
-    "filename": "7tTouR10Qro_000092_000102.mp4",
-    "split": "val",
-    "authenticated_complete_catalogs": 20,
-    "catalog_matches": [],
-    "prerequisite": "Supply authentic original RGB for this higher-ranked official clip, with provenance and real PTS; unavailable bytes are not scientific ineligibility.",
-    "no_replacement_or_model_exposure": true
-  }
+    "Projections use genuine fitting/input receipts; they are not observed future timings.",
+    "Historical unknown failed-attempt/control-traffic limits remain disclosed.",
+    "Known identity/perceptual links cannot exclude unknown reuploads or undocumented pretraining.",
+    "No simulated empirical data or successful visual-review receipt generated."
+  ]
 }

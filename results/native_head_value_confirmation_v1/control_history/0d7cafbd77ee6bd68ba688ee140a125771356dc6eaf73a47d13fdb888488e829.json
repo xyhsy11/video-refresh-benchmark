@@ -1,0 +1,142 @@
+{
+  "study": "native_head_value_confirmation_v1",
+  "seed": 20261023,
+  "derived_seeds": {
+    "bootstrap": 15552382322768671916,
+    "timing": 9136926058068098148,
+    "smoke": 1373718018358276240
+  },
+  "generators": "SHA256 UTF-8 ranks; numpy Generator(PCG64) bootstrap/timing",
+  "classes": 400,
+  "N": 16,
+  "K": 4,
+  "periodic": [
+    0,
+    4,
+    8,
+    12
+  ],
+  "states": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "pooling": "C candidate reuse count /16 on native logits",
+  "primary": "V(HGH)-V(HG), twelve independently reset complete-schedule CE reductions/source",
+  "practical_nats": 0.01,
+  "precision_halfwidth": 0.005,
+  "fit_components_per_class": 8,
+  "folds": 4,
+  "eval_m_range": [
+    8,
+    20
+  ],
+  "variance_inflation": 1.5,
+  "variance_sensitivities": [
+    1.0,
+    2.0
+  ],
+  "views": {
+    "S": 19,
+    "H": 432,
+    "HG": 464,
+    "HGH": 496
+  },
+  "head": "unchanged native400, no recognition-head fitting/scaler/temperature",
+  "checkpoint_sha256": "6dafc96144c88f800b190d2cb179ff69b8fd48c40afd4deca6c1e61f76fdfe86",
+  "pytorchvideo_revision": "f3142bb05cdb56af0704ab6f0adfb0c7bbafe4a0",
+  "aliases": {},
+  "ridge": {
+    "alpha": 1,
+    "intercept": "unpenalized",
+    "objective": "normalized weighted half-MSE + alpha/2 L2",
+    "scaling": "training-only weighted mean/population SD; SD<=1e-12 ->1; mean-one weights"
+  },
+  "decision": ">1e-12 refresh; <-1e-12 hold; otherwise preserve original Periodic action",
+  "continuation": "E25 deterministic periodic repair from original Periodic prefixes",
+  "grid": {
+    "offsets_seconds": [
+      -1.5666666666666667,
+      -1.0666666666666667,
+      -0.5333333333333333,
+      0
+    ],
+    "candidates": 16,
+    "tolerance_seconds": 1e-09,
+    "pts": "greatest actual presentation timestamp <= requested +1e-9; four distinct frames; no padding",
+    "endpoints": "16 desired endpoints linearly spaced between first and last technically supported actual PTS, then floor resolve",
+    "crop": 182,
+    "short_side": 182,
+    "mean": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "std": [
+      0.225,
+      0.225,
+      0.225
+    ],
+    "model_zoo": "4x12 nominal; historical uniform4 over48 virtual frames gives [0,15,31,47]/30"
+  },
+  "bootstrap": {
+    "draws": 10000,
+    "percentile": [
+      0.025,
+      0.975
+    ],
+    "method": "linear",
+    "unit": "whole independent component within native class",
+    "paired": true
+  },
+  "analytic": "unbiased within-class variance; Welch-Satterthwaite t sensitivity",
+  "uncertainty": "Approximate conditional95; fixed checkpoint/classes/final probes; excludes fit variation/unknown duplicates",
+  "timing": {
+    "classes": 60,
+    "components": 60,
+    "warmups": 2,
+    "repetitions": 5,
+    "threads": 1,
+    "arms": [
+      "Dense16",
+      "PeriodicB4",
+      "PeriodicB4_unused_HG",
+      "PeriodicB4_unused_HGH"
+    ],
+    "boundary": "encoded bytes in memory -> fresh full decode/grid -> RGB prep/transfers -> encoder/native head -> pooling -> CUDA completion"
+  },
+  "caps": {
+    "network_bytes": 65498251264,
+    "retained_bytes": 21474836480,
+    "collection_seconds": 28800,
+    "cpu_seconds": 14400,
+    "timing_seconds": 7200
+  },
+  "no_simulated_data": true,
+  "synthetic_fixture_amendment": "Direct user request overrides attached synthetic-fixture instruction; exact combinatorial/structural checks and real inputs only",
+  "implementation": {
+    "native_head_value_confirmation.py": "f8775b4685f508b8832115c70a20aa12c7d328159f6cbffab572f6e2402d10db",
+    "run_native_head_value_confirmation.py": "9786326d51db67a145a1f6fa40398436dbbf2f6e5b4091fb8e05aafab237e193",
+    "verify_native_head_value_confirmation.py": "0c25eb867d99fae35afe64b74cd1ab052467e70a1200c0b685851078eed9f71a",
+    "test_native_head_value_confirmation.py": "addce6f649ce22883f0feac0852b3cecb880151fd2030d5203ee2e1e550ce33c",
+    "native_head_confirmation_runtime.py": "5546ba05410bfff0dc0895cd192432fd027c27c07c5897b168dabad7970180fb",
+    "executable_value_observability.py": "65baf4f7e0b056617a77e3dfaf8ac0f1f82d87cfb225cbe9ab04d19dbea2d5e5",
+    "causal_observability_policy.py": "dda0908b98b042b4e5ac88a86cead957530582d4e1f4e7a186714450a0d212c6",
+    "research_utils.py": "06b0bd9df2ebbbf314a5a21e086f00e7018d7dbd7a189adac3cf2d79f0352044",
+    "temporal_refresh_common.py": "5e4f53da9110e43eaa1ff4624645bdb14ade891074f09e46540615d39f7d4cbb",
+    "native_head_confirmation_inputs.py": "aaa33a3003eacb8e69ecbeb22ac343179d85d7dc9a888b4136e896ec0eda5785",
+    "native_head_confirmation_state.py": "2d9058f5d4a623311b9b92ec6534b269d9e596651e563a57260cbdedcdc72b89"
+  },
+  "preparation_start_head": "c4e20265aa908b38856a799bf27f2576bffb51d5",
+  "actual_start_head": "a9e1942f226f341071e1a990ea446dc717a070bb",
+  "evaluation_sealed": false
+}

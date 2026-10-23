@@ -43,7 +43,7 @@ CODE = ['native_head_value_confirmation.py', 'run_native_head_value_confirmation
         'verify_native_head_value_confirmation.py', 'test_native_head_value_confirmation.py',
         'native_head_confirmation_runtime.py', 'executable_value_observability.py',
         'causal_observability_policy.py', 'research_utils.py', 'temporal_refresh_common.py',
-        'native_head_confirmation_inputs.py', 'native_head_confirmation_state.py']
+        'native_head_confirmation_inputs.py', 'native_head_confirmation_state.py', 'native_head_confirmation_availability.py']
 SOURCES = dict(
     cvdf_readme='https://raw.githubusercontent.com/cvdfoundation/kinetics-dataset/main/README.md',
     cvdf_revision='https://api.github.com/repos/cvdfoundation/kinetics-dataset/commits/main',
@@ -289,6 +289,8 @@ def freeze_config():
         preparation_start_head=read(OUT/'checkout_audit.json')['head'],
         actual_start_head=read(OUT/'resumed_checkout_audit.json')['head'] if (OUT/'resumed_checkout_audit.json').exists() else git('rev-parse','HEAD'),
         evaluation_sealed=False)
+    if (OUT/'population_rule.json').exists():
+        config.update(population_rule='archive_available_v1',population_rule_sha256=sha(OUT/'population_rule.json'))
     save(OUT/'frozen_config.json', config)
 
 
@@ -385,7 +387,8 @@ def dry_run():
     result=dict(status=read(OUT/'status.json'),next_split=split,selected_m=m,
         prospective_prefix_and_reserve_rows=len(rows),
         missing_needed_or_reserve_bytes=sum(local_path(r['filename'],split) is None for r in rows),
-        technical_eligibility='Only actual screening receipts establish eligibility; missing data are unresolved, never excluded.',
+        population_rule='archive_available_v1',
+        technical_eligibility='Confirmed absence from the complete pinned release excludes a clip; PRESENT uncached and UNKNOWN required clips remain unresolved.',
         all_lower_ranked_locality_required=False,model_calls=0,decodes=0,network_bytes=0,read_only=True)
     print(json.dumps(result,indent=2))
     return result
@@ -415,7 +418,12 @@ def main():
     parser.add_argument('--online', action='store_true', help='Public metadata/HEAD requests only, no archives/model calls')
     args = parser.parse_args()
     if args.mode == 'status':
-        print(json.dumps(read(OUT/'status.json'),indent=2))
+        status=read(OUT/'status.json')
+        if (OUT/'population_rule.json').exists():
+            from native_head_confirmation_availability import VERSION
+            status.update(population_rule=VERSION,archive_population=read(OUT/'archive_population_attrition.json')['splits'])
+            status['archive_population']={s:dict(complete=r['complete'],states=r['states']) for s,r in status['archive_population'].items()}
+        print(json.dumps(status,indent=2))
         return 0
     if args.mode == 'dry-run':
         dry_run();return 0

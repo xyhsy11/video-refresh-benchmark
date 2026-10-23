@@ -1,13 +1,29 @@
 {
   "passed": true,
   "scope": "identity/resource audit",
-  "technical_status": "BLOCKED_INPUT",
+  "technical_status": "BLOCKED_RESOURCE",
   "scientific_status": "NOT_EVALUATED",
   "empirical_verification": "NOT_RUN",
   "checks": {
     "historical_files": 9667,
+    "archive_population": {
+      "val": {
+        "complete": true,
+        "states": {
+          "PRESENT": 19881,
+          "CONFIRMED_ABSENT": 25
+        }
+      },
+      "test": {
+        "complete": false,
+        "states": {
+          "UNKNOWN": 39805
+        }
+      }
+    },
     "checkpoint_authenticated": true,
     "native_classes": 400,
+    "native_smoke_affine_max_error": 3.061976450169368e-06,
     "archives_priced": 59,
     "complete_uncached_route_bytes": 59071853377,
     "acquisition_inventory": {
@@ -15,23 +31,34 @@
       "errors": [],
       "validated_archives": 20,
       "cataloged_original_members": 19881,
-      "retained_originals": 3999,
-      "retained_original_bytes": 6147611789,
-      "screened_inputs": 199,
-      "technically_eligible_receipts": 198,
-      "technically_ineligible_receipts": 1,
+      "retained_originals": 4002,
+      "retained_original_bytes": 6149070705,
+      "screened_inputs": 3221,
+      "technically_eligible_receipts": 3200,
+      "technically_ineligible_receipts": 21,
       "publisher_sha256_available": false,
       "hash_scope": "Locally computed integrity identities of official HTTPS archives and their actual members",
       "no_encoder_calls": true,
       "scope": "Acquisition and partial technical-input verification only; no all-class membership/isolation certificate"
     },
-    "source_audit_edges": 580582,
+    "source_audit_edges": 583584,
     "source_evidence_files": 150,
+    "fitting_source_certificate": {
+      "passed": true,
+      "errors": [],
+      "independent_connectivity": true,
+      "evidence_files": 150,
+      "selected_sources": {
+        "val": 3200
+      },
+      "authenticated_archive_members": 19881,
+      "no_model_calls": true
+    },
     "new_eval_exposure_absent": true
   },
   "errors": [],
   "no_encoder_or_decode_calls": true,
-  "saved_feature_affine_replay": false,
+  "saved_feature_affine_replay": true,
   "synthetic_data_used": false,
   "completion_note": "A passed blocked-state audit is not technical completion of the experiment or scientific evidence."
 }
