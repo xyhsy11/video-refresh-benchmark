@@ -1,0 +1,21 @@
+{
+  "technical": "BLOCKED_RESOURCE",
+  "scientific": "NOT_EVALUATED",
+  "eval_model_calls": 0,
+  "probe_fit_model_calls": 0,
+  "population_minima": {
+    "val": 46,
+    "test": 93
+  },
+  "blockers": [
+    "No complete technically verified/canonical all400 source manifests or evaluation seal",
+    "No authenticated member-to-shard index; full public archive route exceeds cap",
+    "Legacy mixed exposure/reservation unions require source-role resolution before fitting",
+    "Fitting-only smoke throughput, OOF precision, final probes and genuine timing pending"
+  ],
+  "primary_estimate": null,
+  "primary_interval": null,
+  "matched_opportunity": null,
+  "drift_contrast": null,
+  "no_outcomes_exposed": true
+}
