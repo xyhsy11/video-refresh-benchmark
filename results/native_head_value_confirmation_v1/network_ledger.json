@@ -1,5 +1,5 @@
 {
-  "cap_bytes": 21474836480,
+  "cap_bytes": 65498251264,
   "requests": [
     {
       "url": "https://raw.githubusercontent.com/cvdfoundation/kinetics-dataset/main/README.md",
@@ -282,6 +282,69 @@
       },
       "at_utc": "2026-10-23T04:40:09.406511+00:00",
       "status": "complete"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_15.tar.gz",
+      "bytes": 18981494,
+      "status": "failed",
+      "at_utc": "2026-10-23T06:42:05.425519+00:00",
+      "range_offset": 0
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_15.tar.gz",
+      "etag": "\"f1844b91cf50a3f9e326b3f6cd9f880c-184\"",
+      "bytes_received": 1390156406,
+      "read_reservation": 4194304,
+      "at_utc": "2026-10-23T06:43:54.946056+00:00",
+      "status": "interrupted_conservative",
+      "bytes": 1394350710
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_15.tar.gz",
+      "bytes": 126298576,
+      "known_response_body_bytes": 126298576,
+      "uncertain_read_upper_bound_bytes": 0,
+      "status": "complete",
+      "at_utc": "2026-10-23T06:54:25.470270+00:00",
+      "range_offset": 1409137900,
+      "io_recipe": "buffered_4MiB_reserved_v1"
+    },
+    {
+      "url": "https://s3.amazonaws.com/kinetics/400/val/part_17.tar.gz",
+      "bytes": 1441614136,
+      "known_response_body_bytes": 1441614136,
+      "uncertain_read_upper_bound_bytes": 0,
+      "status": "complete",
+      "at_utc": "2026-10-23T07:02:30.370171+00:00",
+      "range_offset": 0,
+      "io_recipe": "buffered_4MiB_reserved_v1"
+    },
+    {
+      "url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D7tTouR10Qro&format=json",
+      "bytes": 9,
+      "known_response_body_bytes": 9,
+      "status": "public_parent_availability",
+      "http_status": 404,
+      "error": null,
+      "at_utc": "2026-10-23T07:06:12.567477+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DieIssRi8iXU&format=json",
+      "bytes": 811,
+      "known_response_body_bytes": 811,
+      "status": "public_parent_availability",
+      "http_status": 200,
+      "error": null,
+      "at_utc": "2026-10-23T07:06:12.717123+00:00"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7tTouR10Qro",
+      "bytes": 855512,
+      "known_response_body_bytes": 855512,
+      "status": "public_original_parent_check",
+      "http_status": 200,
+      "error": null,
+      "at_utc": "2026-10-23T07:07:44.565180+00:00"
     }
   ],
   "inflight": null,

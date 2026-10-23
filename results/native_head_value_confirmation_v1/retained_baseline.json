@@ -1,0 +1,13 @@
+{
+  "reviewed_commit": "a9e1942f226f341071e1a990ea446dc717a070bb",
+  "pre_E27_task_bytes": 0,
+  "scope": "All E27 cache/result files count, including preparation and snapshots.",
+  "historical_roots": [
+    "data/source/cache_drift_v2",
+    "data/source/temporal_refresh_generalization_v1"
+  ],
+  "reuse": "Historical files authenticated individually before use; never deleted or modified.",
+  "free_disk_reserve_bytes": 10737418240,
+  "original_accounting_sha256": "72b926d36873cd6244f11d3cb5328a823a94c1e210c4505e53e884386cbab211",
+  "initial_failed_preparation_wall_time": "unknown, preserved; complete historic end-to-end accounting unavailable"
+}

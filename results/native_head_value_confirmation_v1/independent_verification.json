@@ -1,7 +1,7 @@
 {
   "passed": true,
   "scope": "identity/resource audit",
-  "technical_status": "BLOCKED_RESOURCE",
+  "technical_status": "BLOCKED_INPUT",
   "scientific_status": "NOT_EVALUATED",
   "empirical_verification": "NOT_RUN",
   "checks": {
@@ -10,10 +10,28 @@
     "native_classes": 400,
     "archives_priced": 59,
     "complete_uncached_route_bytes": 59071853377,
+    "acquisition_inventory": {
+      "passed": true,
+      "errors": [],
+      "validated_archives": 20,
+      "cataloged_original_members": 19881,
+      "retained_originals": 3999,
+      "retained_original_bytes": 6147611789,
+      "screened_inputs": 199,
+      "technically_eligible_receipts": 198,
+      "technically_ineligible_receipts": 1,
+      "publisher_sha256_available": false,
+      "hash_scope": "Locally computed integrity identities of official HTTPS archives and their actual members",
+      "no_encoder_calls": true,
+      "scope": "Acquisition and partial technical-input verification only; no all-class membership/isolation certificate"
+    },
+    "source_audit_edges": 580582,
+    "source_evidence_files": 150,
     "new_eval_exposure_absent": true
   },
   "errors": [],
-  "no_model_or_decode_calls": true,
+  "no_encoder_or_decode_calls": true,
+  "saved_feature_affine_replay": false,
   "synthetic_data_used": false,
   "completion_note": "A passed blocked-state audit is not technical completion of the experiment or scientific evidence."
 }

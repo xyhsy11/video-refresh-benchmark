@@ -169,7 +169,7 @@ repetitions within source. Report paired HG-Periodic, HGH-Periodic, HGH-HG media
 and p95 source differences; do not sum nested medians or give oracle quality
 Periodic latency. E26's10ms is only a descriptive reference with a different boundary.
 
-Caps:20GiB new HTTP response-body bytes including full archives/retries,20GiB new
+Caps:61GiB cumulative new HTTP response-body bytes including prior E27 metadata, full archives, failed attempts and retries;20GiB new
 retained data plus separately checked peak scratch,8h collection,4h CPU work,2h
 timing, no paid services. Metadata preflight prices complete gzip archives before
 bulk extraction/fitting; individual range extraction is not assumed. Genuine
@@ -177,7 +177,7 @@ eight-clip fitting smoke must project throughput before bulk work. Saved-feature
 replay uses zero encoder calls and is not measured compute savings. Every actual
 download, decode, forward attempt/completion, fit and saved byte must be logged.
 Git control traffic is separately disclosed, not represented as metered dataset
-transfer. No new archives are automatically downloaded by this implementation.
+transfer. Explicit acquire commands and the resume entrypoint may download bounded official archives under the cumulative gate. Temporary task-created archives are removed only after verified catalog/retained-member receipts; historical caches are never deleted.
 
 ## Verification and completion
 
@@ -195,3 +195,44 @@ timings and visually inspected four PDF/PNG figures can become COMPLETE.
 Unexecuted stages remain explicit. See findings.md for the actual state,
 resource_amendment.md for the measured route estimate, and README.md for commands.
 Preserve HMDB26B BLOCKED_INPUT and all19/19.1/23A/23B gates.
+
+## Resumed operational amendment (2026-10-23, before new model exposure)
+
+The immutable preparation is preparation_a9e1942/ at commit a9e1942. The 61 GiB
+allowance replaces only the earlier network cap. Real bytes already spent remain
+in network_ledger.json. Additional retained data includes all E27 artifacts above
+a pre-E27 zero-byte task baseline, with a separate 10 GiB free-disk reserve.
+Original failed preparation wall times are unknown and remain disclosed.
+
+Programmatic source audit adapters identify JSON/JSONL and their gzip copies,
+record every graph edge's file/pointer, namespace families by dataset, and use
+exact role fields plus original file-level reservation membership. Mixed legacy
+unions remain quarantined unless affirmative nonreserved evidence resolves them;
+new input inventory does not resolve a historical role. Protected/reserved
+components are excluded from both roles. Unknown unrelated components do not
+block eligible prefixes. All official parent links, observed member hashes and
+available frozen three-frame duplicate evidence join before source certification.
+The two historical image conversion conventions are both retained prospectively;
+all three 63-bit DCT distances <=4 and PTS-span ratio >=.9 define duplicate
+candidates. This is conservative finite evidence, not universal independence.
+
+Acquisition freezes a rank-ordered quota plus two reserve components/class before
+archive traversal. All members of those components are retained when present;
+archive arrival never chooses membership. Every skipped preceding candidate must
+have actual technical failure evidence. Missing higher ranks block; irrelevant
+lower ranks require no local bytes. A reserve shortfall requires a separately
+gated deterministic next prefix/revisit, never a favorable substitution.
+
+Persistent stages preserve receipts and finished outputs. Source collection has
+pre-attempt receipts and in-memory forward counters flushed in finally blocks;
+an interrupted operation is uncertain and blocks further compute until evidence
+resolves it. A full seal audit occurs at stage entry/resume and final verification.
+Each current source and used code/probe controls are authenticated as used.
+Full fresh timing decode retains only the frozen grid's frames and reconstructs
+actual PTS; native affine validation occurs on fitting smoke outside timing.
+
+Fitting throughput gates 3,200 fitting sources first, with 1.5 safety allowance
+from real first-collection smoke receipts; cached replay is excluded. EVAL is
+gated separately using only the fixed OOF-selected m. Final fitting and EVAL
+remain forbidden until the respective independently checked source certificates.
+No claim follows from an implementation check or partial source acquisition.

@@ -1,0 +1,8 @@
+{
+  "known_preparation_preflight_seconds": 105.01868399999967,
+  "known_separate_command_elapsed_seconds": 79.01514410000118,
+  "charged_cpu_seconds": 184.03382810000085,
+  "command_count": 10,
+  "reason": "Reconcile known original E27 preparation work without resetting its receipts; original unrecorded failed-attempt durations remain unknown.",
+  "overlap_policy": "Preflight commands excluded from external-command sum to avoid counting an internal phase twice."
+}

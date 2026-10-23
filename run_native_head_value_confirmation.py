@@ -1,8 +1,8 @@
 """Fail-closed Experiment 27 runner: metadata preflight, real input screening,
 fitting-only planning, sealed single-intervention evaluation, and read-only audit.
 
-No archive is downloaded automatically. The preflight prices the official route
-before a new acquisition implementation or resource amendment can be authorized.
+Archive acquisition is explicit, metered and input-only. Resume advances the
+persistent stages only after their authenticated prerequisites pass.
 """
 from __future__ import annotations
 
@@ -36,13 +36,14 @@ ROOT = Path(__file__).resolve().parent
 OUT = ROOT/'results'/STUDY
 CACHE = ROOT/'data/source'/STUDY
 ASSETS = ROOT/'data/source/temporal_refresh_generalization_v1'
-REVIEWED = '013d0febe3f42399cad052d12cd3fcc612882379'
-CAPS = dict(network_bytes=20*2**30, retained_bytes=20*2**30,
+REVIEWED = 'a9e1942f226f341071e1a990ea446dc717a070bb'
+CAPS = dict(network_bytes=61*2**30, retained_bytes=20*2**30,
             collection_seconds=8*3600, cpu_seconds=4*3600, timing_seconds=2*3600)
 CODE = ['native_head_value_confirmation.py', 'run_native_head_value_confirmation.py',
         'verify_native_head_value_confirmation.py', 'test_native_head_value_confirmation.py',
         'native_head_confirmation_runtime.py', 'executable_value_observability.py',
-        'causal_observability_policy.py', 'research_utils.py', 'temporal_refresh_common.py']
+        'causal_observability_policy.py', 'research_utils.py', 'temporal_refresh_common.py',
+        'native_head_confirmation_inputs.py', 'native_head_confirmation_state.py']
 SOURCES = dict(
     cvdf_readme='https://raw.githubusercontent.com/cvdfoundation/kinetics-dataset/main/README.md',
     cvdf_revision='https://api.github.com/repos/cvdfoundation/kinetics-dataset/commits/main',
@@ -69,12 +70,16 @@ def event(kind, **fields):
     OUT.mkdir(parents=True, exist_ok=True)
     with (OUT/'resource_exposure_ledger.jsonl').open('a', encoding='utf-8',newline='\n') as f:
         f.write(json.dumps(dict(at_utc=now(), kind=kind, **fields), allow_nan=False)+'\n')
+        f.flush()
+        os.fsync(f.fileno())
 
 
 def network_ledger():
     p = OUT/'network_ledger.json'
     if p.exists():
-        return read(p)
+        state = read(p)
+        state['cap_bytes'] = CAPS['network_bytes']
+        return state
     # These three public metadata bodies were inspected before this runner existed.
     records = []
     for name, urlkey in [('cvdf_readme', 'cvdf_readme'), ('val_list', 'val_archives'), ('test_list', 'test_archives')]:
@@ -150,7 +155,7 @@ def metadata_paths():
     for p in (ROOT/'results').rglob('*'):
         if not p.is_file() or STUDY in p.parts or not accept.search(p.name) or deny.search(p.name):
             continue
-        if p.suffix == '.json' or p.name.endswith('.jsonl.gz') or p.suffix == '.jsonl':
+        if p.suffix == '.json' or p.name.endswith(('.json.gz','.jsonl.gz')) or p.suffix == '.jsonl':
             result.append(p)
     # Retain input-only inventories that never reached a tracked experiment.
     for p in (ROOT/'data/source/causal_observability_v1').glob('*population.json'):
@@ -177,102 +182,9 @@ class Union:
 
 
 def history_graph():
-    graph = Union()
-    exposed, reserved, evidence = set(), set(), []
-    id_pattern = re.compile(r'^([A-Za-z0-9_-]{11})(?:_\d{6}_\d{6})?(?:\.mp4)?$')
-
-    def nodes_of(obj):
-        nodes = []
-        for key in ('youtube_id', 'source_video_id', 'original_parent_id', 'parent_youtube_id', 'video_id'):
-            value = obj.get(key)
-            if isinstance(value, str) and id_pattern.fullmatch(value):
-                nodes.append('yt:'+id_pattern.fullmatch(value).group(1))
-        for key in ('original_url','source_url','parent_url','youtube_url'):
-            value = obj.get(key)
-            if isinstance(value,str):
-                match = re.search(r'(?:youtu\.be/|[?&]v=)([A-Za-z0-9_-]{11})(?:[?&#/]|$)',value)
-                if match:
-                    nodes.append('yt:'+match.group(1))
-        for key in ('clip', 'key', 'filename', 'relative_path', 'path'):
-            value = obj.get(key)
-            if isinstance(value, str) and value.lower().endswith(('.avi', '.mp4')):
-                name = value.replace('\\', '/').split('/')[-1]
-                nodes.append('clip:'+name)
-                match = id_pattern.fullmatch(name)
-                if match:
-                    nodes.append('yt:'+match.group(1))
-                ucf = re.fullmatch(r'v_(.+)_g(\d+)_c\d+\.avi', name, flags=re.I)
-                if ucf:
-                    nodes.append('ucf:'+ucf.group(1).lower()+':g'+ucf.group(2))
-        for key in ('encoded_sha256', 'video_sha256', 'file_sha256'):
-            if isinstance(obj.get(key), str) and re.fullmatch('[0-9a-f]{64}', obj[key]):
-                nodes.append('bytes:'+obj[key])
-        fi = obj.get('file_identity')
-        if isinstance(fi, dict) and fi.get('sha256'):
-            nodes.append('bytes:'+fi['sha256'])
-        if nodes and isinstance(obj.get('sha256'), str) and re.fullmatch('[0-9a-f]{64}', obj['sha256']):
-            nodes.append('bytes:'+obj['sha256'])
-        for key in ('source_family', 'family', 'global_component', 'duplicate_component'):
-            if nodes and isinstance(obj.get(key), str):
-                nodes.append('family:'+obj[key])
-        return nodes
-
-    def walk(obj, inherited_reserved=False):
-        if isinstance(obj, list):
-            for item in obj:
-                walk(item, inherited_reserved)
-        elif isinstance(obj, dict):
-            role = str(obj.get('role', obj.get('recognition_role', ''))).lower()
-            is_reserved = inherited_reserved or any(s in role for s in ('protected', 'reserved', 'holdout'))
-            nodes = nodes_of(obj)
-            graph.join(nodes)
-            exposed.update(nodes)
-            if is_reserved:
-                reserved.update(nodes)
-            # Existing HMDB component graph, including cross-class/title/pHash links.
-            if 'members' in obj and 'source_family' in obj:
-                members = obj['members']
-                if isinstance(members, list):
-                    graph.join(['family:'+obj['source_family']]+['clip:'+str(m).split('/')[-1] for m in members])
-            for key in ('source_ids', 'excluded_source_ids', 'prior_source_ids'):
-                for value in obj.get(key, []) if isinstance(obj.get(key), list) else []:
-                    if isinstance(value, str) and id_pattern.fullmatch(value):
-                        node = 'yt:'+id_pattern.fullmatch(value).group(1)
-                        graph.root(node)
-                        exposed.add(node)
-            for key in ('file_hashes','excluded_file_hashes','encoded_hashes'):
-                for value in obj.get(key,[]) if isinstance(obj.get(key),list) else []:
-                    if isinstance(value,str) and re.fullmatch('[0-9a-f]{64}',value):
-                        node = 'bytes:'+value
-                        graph.root(node)
-                        exposed.add(node)
-            # Collection ledgers often key records by parent ID instead of
-            # repeating it inside each video record.
-            videos = obj.get('videos')
-            if isinstance(videos,dict):
-                for key,value in videos.items():
-                    match = id_pattern.fullmatch(key)
-                    if match and isinstance(value,dict):
-                        walk(dict(value,source_video_id=match.group(1)),is_reserved)
-            for value in obj.values():
-                if isinstance(value, (dict, list)):
-                    walk(value, is_reserved)
-
-    for path in metadata_paths():
-        if path.name.endswith('.gz'):
-            with gzip.open(path, 'rt', encoding='utf-8') as f:
-                for line in f:
-                    walk(json.loads(line))
-        elif path.suffix == '.jsonl':
-            for line in path.read_text(encoding='utf-8').splitlines():
-                walk(json.loads(line))
-        else:
-            walk(read(path))
-        evidence.append(dict(path=rel(path), sha256=sha(path)))
-    # Legacy exclusion unions conflate prior exposure and reservation. They
-    # exclude EVAL, but do NOT prove every exposed validation parent reserved.
-    # Keep this ambiguity as an explicit pre-extraction prerequisite.
-    return graph, exposed, reserved, evidence
+    from native_head_confirmation_inputs import historical_audit
+    audit = historical_audit()
+    return audit.graph, audit.exposed, audit.forbidden, audit.evidence
 
 
 def annotations():
@@ -284,55 +196,8 @@ def annotations():
 
 
 def population(rows, mapping):
-    graph, exposed, reserved, evidence = history_graph()
-    for split, records in rows.items():
-        for r in records:
-            graph.root('yt:'+r['youtube_id'])
-    train = {graph.root('yt:'+r['youtube_id']) for r in rows['train']}
-    prior = {graph.root(k) for k in exposed}
-    protected = {graph.root(k) for k in reserved}
-    both = {graph.root('yt:'+r['youtube_id']) for r in rows['val']} & {graph.root('yt:'+r['youtube_id']) for r in rows['test']}
-    grouped = defaultdict(list)
-    excluded = Counter()
-    for split in ('val', 'test'):
-        for r in rows[split]:
-            component = graph.root('yt:'+r['youtube_id'])
-            reason = ('known_train_component' if component in train else
-                      'fit_test_collision' if component in both else
-                      'protected_or_reserved_component' if component in protected else
-                      'previously_exposed_component' if split == 'test' and component in prior else None)
-            if reason:
-                excluded[(split, reason)] += 1
-                continue
-            name = f"{r['youtube_id']}_{int(r['time_start']):06d}_{int(r['time_end']):06d}.mp4"
-            grouped[(split, component)].append(dict(split=split, component=component,
-                youtube_id=r['youtube_id'], label=r['label'], y=mapping[r['label']], filename=name,
-                previously_exposed=component in prior, canonical_rank=rank('canonical', name)))
-    candidates = []
-    for (split, component), members in grouped.items():
-        # This is the input-only prospective canonical order. Actual technical
-        # eligibility must be resolved before canonical membership is sealed.
-        candidates.extend(sorted(members, key=lambda m: m['canonical_rank']))
-    candidates.sort(key=lambda m: (m['split'], m['y'], rank('component', m['component']), m['canonical_rank']))
-    counts = {split: Counter(min(mm, key=lambda m:m['canonical_rank'])['y'] for (sp, _), mm in grouped.items() if sp == split) for split in ('val', 'test')}
-    report = dict(metadata_only=True, technically_verified=False,
-        annotation_rows={k: len(v) for k, v in rows.items()},
-        candidate_components={k: sum(v.values()) for k,v in counts.items()},
-        per_class={k:{str(c):v[c] for c in range(400)} for k,v in counts.items()},
-        exclusions=[dict(split=s, reason=r, rows=n) for (s,r),n in sorted(excluded.items())],
-        minimum_components={k:min(v.get(c,0) for c in range(400)) for k,v in counts.items()},
-        historical_metadata_files=len(evidence), known_prior_youtube_components=len(prior),
-        limitations=['Unknown reuploads, unknown UCF/HMDB to Kinetics parent aliases and incomplete checkpoint pretraining provenance remain.',
-                    'Legacy exclusion unions conflate prior exposure/reservation; unresolved reservation provenance must be certified before fitting.',
-                    'No eligibility, source freshness or quota certificate follows from annotation counts alone.'])
-    save(OUT/'historical_source_evidence.json', evidence)
-    save(CACHE/'historical_source_nodes.json',dict(
-        component_by_node={node:graph.root(node) for node in list(graph.parent)},
-        exposed_components=sorted(prior),protected_components=sorted(protected),train_components=sorted(train)))
-    save(OUT/'population_feasibility.json', report)
-    save(CACHE/'candidate_manifest.json', candidates)
-    save(OUT/'candidate_manifest_identity.json', dict(path=rel(CACHE/'candidate_manifest.json'), sha256=sha(CACHE/'candidate_manifest.json'), rows=len(candidates)))
-    return report
+    from native_head_confirmation_inputs import rebuild_population
+    return rebuild_population()
 
 
 def archive_inventory():
@@ -386,9 +251,9 @@ def archive_inventory():
         selected_shard_uncertainty='No authenticated public member-to-shard index retained; exact selected shard set cannot be certified without archive traversals.',
         conservative_route_exceeds_network_cap=new+used > CAPS['network_bytes'],
         proposed_network_cap_gib=int(np.ceil((new+used)*1.10/2**30)),
-        resource_amendment='Authorize the stated conservative network cap with 10% retry reservation, or supply an authenticated selected-member/shard index and original RGB locally. Stream one complete archive at a time; keep only selected clips. Recheck retained/scratch/throughput gates before collection.',
+        resource_amendment='61 GiB authorized by resumed brief; cumulative prior bytes preserved. Stream bounded complete shards and gate retained/peak/throughput separately.',
         collection_projection_seconds=None, cpu_projection_seconds=None, timing_projection_seconds=None,
-        throughput_status='NOT_MEASURED: complete acquisition and independent source gates have not passed; eight fitting smoke inputs are not certified.',
+        throughput_status='NOT_MEASURED: certified fitting smoke pending; fitting and exact-m EVAL gated separately.',
         retained_projection_bytes=None, scratch_status='Largest compressed shard is only a lower bound; expanded members/decode buffers require a separately measured peak.',
         reference_calls_floor=16*(3200+3200), reference_calls_ceiling=16*(3200+8000),
         timing_calls_planned=60*7*(16+4+4+4), no_bulk_acquisition=True)
@@ -421,13 +286,17 @@ def freeze_config():
                     boundary='encoded bytes in memory -> fresh full decode/grid -> RGB prep/transfers -> encoder/native head -> pooling -> CUDA completion'),
         caps=CAPS, no_simulated_data=True, synthetic_fixture_amendment='Direct user request overrides attached synthetic-fixture instruction; exact combinatorial/structural checks and real inputs only',
         implementation={n:sha(ROOT/n) for n in CODE if (ROOT/n).is_file()},
-        actual_start_head=read(OUT/'checkout_audit.json')['head'], evaluation_sealed=False)
+        preparation_start_head=read(OUT/'checkout_audit.json')['head'],
+        actual_start_head=read(OUT/'resumed_checkout_audit.json')['head'] if (OUT/'resumed_checkout_audit.json').exists() else git('rev-parse','HEAD'),
+        evaluation_sealed=False)
     save(OUT/'frozen_config.json', config)
 
 
 def preflight(online=False):
     started = time.perf_counter()
-    if (OUT/'evaluation_seal.json').exists():
+    from native_head_confirmation_state import state, initialize
+    initialize()
+    if state()['stage'] != 'PREPARED' or (OUT/'evaluation_seal.json').exists():
         return audit()
     OUT.mkdir(parents=True, exist_ok=True)
     CACHE.mkdir(parents=True, exist_ok=True)
@@ -489,7 +358,7 @@ def preflight(online=False):
             population_minima=pop['minimum_components'],
             blockers=['No complete technically verified/canonical all400 source manifests or evaluation seal',
                       'No authenticated member-to-shard index; full public archive route exceeds cap' if resources['conservative_route_exceeds_network_cap'] else 'Original RGB acquisition/input screening pending',
-                      'Legacy mixed exposure/reservation unions require source-role resolution before fitting',
+                      'Scoped programmatic source audit generated; selected-byte/PTS/duplicate certification pending',
                       'Fitting-only smoke throughput, OOF precision, final probes and genuine timing pending'],
             primary_estimate=None, primary_interval=None, matched_opportunity=None, drift_contrast=None,
             no_outcomes_exposed=True)
@@ -507,14 +376,33 @@ def audit():
     return result
 
 
+def dry_run():
+    from native_head_confirmation_inputs import reserve_members
+    from native_head_confirmation_runtime import local_path
+    split='test' if (OUT/'precision_plan.json').exists() else 'val'
+    m=read(OUT/'precision_plan.json')['selected_m'] if split=='test' else 8
+    rows=reserve_members(split,m) if m is not None else []
+    result=dict(status=read(OUT/'status.json'),next_split=split,selected_m=m,
+        prospective_prefix_and_reserve_rows=len(rows),
+        missing_needed_or_reserve_bytes=sum(local_path(r['filename'],split) is None for r in rows),
+        technical_eligibility='Only actual screening receipts establish eligibility; missing data are unresolved, never excluded.',
+        all_lower_ranked_locality_required=False,model_calls=0,decodes=0,network_bytes=0,read_only=True)
+    print(json.dumps(result,indent=2))
+    return result
+
+
 @contextmanager
 def run_lock():
     OUT.mkdir(parents=True,exist_ok=True)
     path = OUT/'run.lock'
+    if path.exists():
+        from native_head_confirmation_state import recover_lock
+        recover_lock(path)
     handle = os.open(path,os.O_CREAT|os.O_EXCL|os.O_WRONLY)
     try:
         with os.fdopen(handle,'w',encoding='utf-8') as f:
-            json.dump(dict(pid=os.getpid(),started_at_utc=now()),f)
+            from native_head_confirmation_state import process_identity
+            json.dump(dict(pid=os.getpid(),process_created=process_identity(os.getpid()),started_at_utc=now()),f)
         yield
     finally:
         path.unlink()
@@ -522,18 +410,38 @@ def run_lock():
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('mode', choices=['preflight','dry-run','plan','run','resume','verify','audit','finalize'])
+    parser.add_argument('mode', choices=['status','preflight','dry-run','acquire','certify','plan','run','resume','verify','audit','finalize'])
+    parser.add_argument('--split',choices=['val','test'],default='val')
     parser.add_argument('--online', action='store_true', help='Public metadata/HEAD requests only, no archives/model calls')
     args = parser.parse_args()
+    if args.mode == 'status':
+        print(json.dumps(read(OUT/'status.json'),indent=2))
+        return 0
+    if args.mode == 'dry-run':
+        dry_run();return 0
     if args.mode == 'audit':
         return 0 if audit()['passed'] else 1
     with run_lock():
+        from native_head_confirmation_state import initialize, metered
+        initialize()
+        if read(OUT/'status.json').get('technical') == 'COMPLETE':
+            return 0 if audit()['passed'] else 1
+        if (OUT/'evaluation_seal.json').exists() and args.mode in ('preflight','dry-run','acquire','certify','plan'):
+            return 0 if audit()['passed'] else 1
+        if args.mode in ('acquire','certify'):
+            from native_head_confirmation_inputs import acquire, certify
+            from native_head_confirmation_runtime import execute_input_stage
+            return execute_input_stage(args.mode,args.split)
         if args.mode in ('preflight','dry-run'):
-            result = preflight(args.online)
+            with metered('cpu','metadata-preflight'):
+                result = preflight(args.online)
             return 0 if result.get('technical') == 'COMPLETE' else 2
         if args.mode == 'verify':
             from verify_native_head_value_confirmation import verify
-            result = verify(OUT, write=True)
+            from native_head_confirmation_state import snapshot_accounting
+            with metered('cpu','independent-verification'):
+                result = verify(OUT, write=True)
+            snapshot_accounting()
             print(json.dumps(result, indent=2))
             return 0 if result['passed'] else 1
         from native_head_confirmation_runtime import execute

@@ -1,0 +1,22 @@
+{
+  "receipts": [
+    {
+      "command": "initial six E27 real/exact checks",
+      "reported_suite_seconds": 42.905
+    },
+    {
+      "command": "first expanded twelve E27 real/exact checks",
+      "reported_suite_seconds": 23.0
+    },
+    {
+      "command": "first release validator pass",
+      "tool_wall_seconds": 8.7532639
+    },
+    {
+      "command": "second release validator pass",
+      "tool_wall_seconds": 5.1551817
+    }
+  ],
+  "source": "Actual command outputs in this task, added without resetting earlier ledger entries",
+  "unmetered_scope": "Implementation editing and source-document reading are outside scientific CPU phase measurements; end-to-end wall includes them."
+}

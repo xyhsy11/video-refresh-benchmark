@@ -1,0 +1,6 @@
+{
+  "interrupted_requests": 1,
+  "upper_seconds": 593.074174,
+  "stop_observed_at_utc": "2026-10-23T06:53:48.020230+00:00",
+  "basis": "From actual request-start receipt through observed process termination; true elapsed may be smaller. Already included in collection phase; no second collection charge."
+}

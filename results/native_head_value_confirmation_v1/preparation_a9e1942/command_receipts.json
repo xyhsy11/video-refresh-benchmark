@@ -1,0 +1,126 @@
+[
+  {
+    "command": [
+      ".venv_temporal/Scripts/python.exe",
+      "-m",
+      "py_compile",
+      "native_head_value_confirmation.py",
+      "run_native_head_value_confirmation.py",
+      "native_head_confirmation_runtime.py",
+      "verify_native_head_value_confirmation.py",
+      "test_native_head_value_confirmation.py"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.23720449999973425,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      ".venv_temporal/Scripts/python.exe",
+      "run_native_head_value_confirmation.py",
+      "plan"
+    ],
+    "returncode": 2,
+    "elapsed_seconds": 2.3560483999999633,
+    "stdout": "{\"technical\": \"BLOCKED_RESOURCE\", \"scientific\": \"NOT_EVALUATED\", \"message\": \"Source-role certificate missing; no extraction/fitting/EVAL calls. See findings.md.\"}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      ".venv_temporal/Scripts/python.exe",
+      "run_native_head_value_confirmation.py",
+      "resume"
+    ],
+    "returncode": 2,
+    "elapsed_seconds": 2.571899900000062,
+    "stdout": "{\"technical\": \"BLOCKED_RESOURCE\", \"scientific\": \"NOT_EVALUATED\", \"message\": \"Source-role certificate missing; no extraction/fitting/EVAL calls. See findings.md.\"}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      ".venv_temporal/Scripts/python.exe",
+      "run_native_head_value_confirmation.py",
+      "verify"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 32.23241710000002,
+    "stdout": "{\n  \"passed\": true,\n  \"scope\": \"identity/resource audit\",\n  \"technical_status\": \"BLOCKED_RESOURCE\",\n  \"scientific_status\": \"NOT_EVALUATED\",\n  \"empirical_verification\": \"NOT_RUN\",\n  \"checks\": {\n    \"historical_files\": 9667,\n    \"checkpoint_authenticated\": true,\n    \"native_classes\": 400,\n    \"archives_priced\": 59,\n    \"complete_uncached_route_bytes\": 59071853377,\n    \"new_eval_exposure_absent\": true\n  },\n  \"errors\": [],\n  \"no_model_or_decode_calls\": true,\n  \"synthetic_data_used\": false,\n  \"completion_note\": \"A passed blocked-state audit is not technical completion of the experiment or scientific evidence.\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      ".venv_temporal/Scripts/python.exe",
+      "run_native_head_value_confirmation.py",
+      "audit"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 11.18066379999982,
+    "stdout": "{\n  \"passed\": true,\n  \"scope\": \"identity/resource audit\",\n  \"technical_status\": \"BLOCKED_RESOURCE\",\n  \"scientific_status\": \"NOT_EVALUATED\",\n  \"empirical_verification\": \"NOT_RUN\",\n  \"checks\": {\n    \"historical_files\": 9667,\n    \"checkpoint_authenticated\": true,\n    \"native_classes\": 400,\n    \"archives_priced\": 59,\n    \"complete_uncached_route_bytes\": 59071853377,\n    \"new_eval_exposure_absent\": true\n  },\n  \"errors\": [],\n  \"no_model_or_decode_calls\": true,\n  \"synthetic_data_used\": false,\n  \"completion_note\": \"A passed blocked-state audit is not technical completion of the experiment or scientific evidence.\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      ".venv_temporal/Scripts/python.exe",
+      "validate_release.py"
+    ],
+    "returncode": 1,
+    "elapsed_seconds": 1.9626074000002518,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\video-refresh-baseline\\validate_release.py\", line 95, in <module>\n    main()\n  File \"C:\\video-refresh-baseline\\validate_release.py\", line 82, in main\n    raise AssertionError(f\"Personal/local absolute path in public file: {path.name}\")\nAssertionError: Personal/local absolute path in public file: run_executable_value_observability.py\n"
+  },
+  {
+    "command": [
+      ".venv_temporal/Scripts/python.exe",
+      "-m",
+      "py_compile",
+      "native_head_value_confirmation.py",
+      "run_native_head_value_confirmation.py",
+      "native_head_confirmation_runtime.py",
+      "verify_native_head_value_confirmation.py",
+      "test_native_head_value_confirmation.py"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.29089040000008026,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      ".venv_temporal/Scripts/python.exe",
+      "run_native_head_value_confirmation.py",
+      "verify"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 15.202489100000093,
+    "stdout": "{\n  \"passed\": true,\n  \"scope\": \"identity/resource audit\",\n  \"technical_status\": \"BLOCKED_RESOURCE\",\n  \"scientific_status\": \"NOT_EVALUATED\",\n  \"empirical_verification\": \"NOT_RUN\",\n  \"checks\": {\n    \"historical_files\": 9667,\n    \"checkpoint_authenticated\": true,\n    \"native_classes\": 400,\n    \"archives_priced\": 59,\n    \"complete_uncached_route_bytes\": 59071853377,\n    \"new_eval_exposure_absent\": true\n  },\n  \"errors\": [],\n  \"no_model_or_decode_calls\": true,\n  \"synthetic_data_used\": false,\n  \"completion_note\": \"A passed blocked-state audit is not technical completion of the experiment or scientific evidence.\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      ".venv_temporal/Scripts/python.exe",
+      "-m",
+      "py_compile",
+      "native_head_value_confirmation.py",
+      "run_native_head_value_confirmation.py",
+      "native_head_confirmation_runtime.py",
+      "verify_native_head_value_confirmation.py",
+      "test_native_head_value_confirmation.py"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.2867530000003171,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": [
+      ".venv_temporal/Scripts/python.exe",
+      "run_native_head_value_confirmation.py",
+      "verify"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 12.694170500000837,
+    "stdout": "{\n  \"passed\": true,\n  \"scope\": \"identity/resource audit\",\n  \"technical_status\": \"BLOCKED_RESOURCE\",\n  \"scientific_status\": \"NOT_EVALUATED\",\n  \"empirical_verification\": \"NOT_RUN\",\n  \"checks\": {\n    \"historical_files\": 9667,\n    \"checkpoint_authenticated\": true,\n    \"native_classes\": 400,\n    \"archives_priced\": 59,\n    \"complete_uncached_route_bytes\": 59071853377,\n    \"new_eval_exposure_absent\": true\n  },\n  \"errors\": [],\n  \"no_model_or_decode_calls\": true,\n  \"synthetic_data_used\": false,\n  \"completion_note\": \"A passed blocked-state audit is not technical completion of the experiment or scientific evidence.\"\n}\n",
+    "stderr": ""
+  }
+]

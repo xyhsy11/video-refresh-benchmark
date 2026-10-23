@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "scope": "identity/resource audit",
+  "technical_status": "BLOCKED_RESOURCE",
+  "scientific_status": "NOT_EVALUATED",
+  "empirical_verification": "NOT_RUN",
+  "checks": {
+    "historical_files": 9667,
+    "checkpoint_authenticated": true,
+    "native_classes": 400,
+    "archives_priced": 59,
+    "complete_uncached_route_bytes": 59071853377,
+    "new_eval_exposure_absent": true
+  },
+  "errors": [],
+  "no_model_or_decode_calls": true,
+  "synthetic_data_used": false,
+  "completion_note": "A passed blocked-state audit is not technical completion of the experiment or scientific evidence."
+}

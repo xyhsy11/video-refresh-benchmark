@@ -11,6 +11,7 @@ import json
 from pathlib import Path
 import unittest
 import tempfile
+import gzip
 
 import numpy as np
 
@@ -22,6 +23,93 @@ ROOT = Path(__file__).resolve().parent
 
 
 class ExactContracts(unittest.TestCase):
+    def test_amended_network_cap_preserves_real_prior_receipts(self):
+        from run_native_head_value_confirmation import CAPS,network_ledger
+        self.assertEqual(CAPS['network_bytes'],61*2**30)
+        self.assertEqual(CAPS['retained_bytes'],20*2**30)
+        old=json.loads((ROOT/'results/native_head_value_confirmation_v1/preparation_a9e1942/network_ledger.json').read_text(encoding='utf-8'))
+        current=network_ledger()
+        self.assertEqual(current['requests'][:len(old['requests'])],old['requests'])
+
+    def test_real_population_order_independent_of_manifest_arrival(self):
+        from native_head_confirmation_inputs import ordered_groups
+        rows=json.loads((ROOT/'data/source/native_head_value_confirmation_v1/candidate_manifest.json').read_text(encoding='utf-8'))
+        for split in ('val','test'):
+            self.assertEqual(ordered_groups(rows,split),ordered_groups(list(reversed(rows)),split))
+
+    def test_compressed_real_screening_adapter(self):
+        from native_head_confirmation_inputs import records
+        path=ROOT/'results/causal_observability_population_v2/screening_evidence.jsonl.gz'
+        obj,pointer=next(records(path))
+        with gzip.open(path,'rt',encoding='utf-8') as f:expected=json.loads(next(f))
+        self.assertEqual(obj,expected)
+        self.assertEqual(pointer,'/records/0')
+        self.assertEqual(len(obj['fingerprints']),3)
+
+    def test_lossless_deterministic_json_gzip_on_official_metadata(self):
+        from native_head_value_confirmation import read,save
+        official=read(ROOT/'data/source/native_head_value_confirmation_v1/metadata/native_classes')
+        with tempfile.TemporaryDirectory(prefix='native27-real-map-') as temp:
+            a=Path(temp)/'a.json.gz';b=Path(temp)/'b.json.gz'
+            save(a,official);save(b,official)
+            self.assertEqual(sha(a),sha(b))
+            self.assertEqual(read(a),official)
+
+    def test_actual_duplicate_schema_and_dataset_namespace(self):
+        from native_head_confirmation_inputs import clip_nodes
+        audit=json.loads((ROOT/'results/ucf101_proxy_replication_v1/duplicate_and_pretraining_audit.json').read_text(encoding='utf-8'))
+        self.assertGreater(len(audit['edges']),0)
+        for edge in audit['edges']:
+            for k in ('a','b'):
+                self.assertTrue(all(n.startswith(('clip:ucf:','family:ucf:')) for n in clip_nodes(edge[k])))
+        hmdb=json.loads((ROOT/'results/causal_observability_population_v2/source_family_audit.json').read_text(encoding='utf-8'))
+        member=hmdb['components'][0]['members'][0]
+        self.assertTrue(clip_nodes(member)[0].startswith('clip:hmdb:'))
+
+    def test_live_lock_owner_authenticated_without_packages(self):
+        import os
+        from native_head_confirmation_state import process_identity
+        value=process_identity(os.getpid())
+        self.assertIsInstance(value,int)
+        self.assertEqual(value,process_identity(os.getpid()))
+
+    def test_real_windows_memory_counters(self):
+        from native_head_confirmation_state import memory_snapshot
+        measured=memory_snapshot()
+        self.assertGreater(measured['process_working_set_bytes'],0)
+        self.assertGreaterEqual(measured['process_peak_working_set_bytes'],measured['process_working_set_bytes'])
+        self.assertGreaterEqual(measured['system_ram_bytes'],measured['system_available_ram_bytes'])
+
+    def test_preparation_snapshot_has_unchanged_real_hashes(self):
+        base=ROOT/'results/native_head_value_confirmation_v1/preparation_a9e1942'
+        identity=json.loads((base/'snapshot_identity.json').read_text(encoding='utf-8'))
+        for name,digest in identity['files'].items():self.assertEqual(sha(base/name),digest)
+
+    def test_real_role_and_list_hash_evidence_coverage(self):
+        identity=json.loads((ROOT/'results/native_head_value_confirmation_v1/source_audit_identity.json').read_text(encoding='utf-8'))
+        with gzip.open(ROOT/identity['path'],'rt',encoding='utf-8') as f:graph=json.load(f)
+        nodes=graph['component_by_node'];reserved=set(graph['reserved_components'])
+        exclusion=json.loads((ROOT/'results/temporal_refresh_generalization_v1/source_exclusions.json').read_text(encoding='utf-8'))
+        self.assertIsInstance(exclusion['encoded_sha256'],list)
+        self.assertTrue(all('bytes:'+h in nodes for h in exclusion['encoded_sha256']))
+        dataset=json.loads((ROOT/'results/fresh_refresh_confirmation_v1/frozen_test_manifest.json').read_text(encoding='utf-8'))
+        fresh=[r for r in dataset['videos'] if r.get('experiment_split')=='fresh_test']
+        self.assertGreater(len(fresh),0)
+        for row in fresh:self.assertIn(nodes['yt:'+row['source_video_id']],reserved)
+        self.assertTrue(all(e.get('file') and 'pointer' in e for e in graph['edges']))
+
+    def test_incremental_counters_equal_real_append_only_ledger(self):
+        from native_head_confirmation_state import totals
+        path=ROOT/'results/native_head_value_confirmation_v1/resource_exposure_ledger.jsonl'
+        for attempt in range(3):
+            before=path.read_bytes();actual=totals();after=path.read_bytes()
+            if before==after:break
+        else:self.skipTest('A real concurrent append occurred during every snapshot')
+        records=[json.loads(line) for line in before.splitlines()]
+        for key,value in actual.items():
+            if key!='uncertain_operations':self.assertEqual(value,sum(r.get(key,0) for r in records))
+        self.assertEqual(actual,totals())
+
     def test_complete_legal_space_and_independent_tail(self):
         self.assertEqual(len(SCHEDULES),455)
         self.assertEqual(len(set(SCHEDULES)),455)

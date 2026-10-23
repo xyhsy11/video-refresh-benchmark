@@ -1,0 +1,20 @@
+{
+  "at_utc": "2026-10-23T04:56:18.430399+00:00",
+  "new_http_body_bytes": 13062569,
+  "new_video_archive_downloads": 0,
+  "archive_head_requests": 59,
+  "new_encoder_starts": 0,
+  "new_encoder_completions": 0,
+  "new_decodes": 0,
+  "study_probe_fits": 0,
+  "verification_probe_fits": 2,
+  "successful_preflight_seconds": 105.01868399999967,
+  "initial_mapping_failed_attempts": 2,
+  "initial_failed_attempt_elapsed_seconds": null,
+  "new_cache_bytes_at_snapshot": 56409343,
+  "new_result_bytes_before_this_receipt": 1813591,
+  "evaluation_exposure": false,
+  "inference_latency_seconds": null,
+  "git_control_transfer_bytes": null,
+  "accounting_scope": "Metered HTTP bodies and real ledger events. Initial failed metadata-map wall times and Git control traffic are unmetered; no complete end-to-end accounting claim. Saved-byte values are snapshots, not peak scratch."
+}

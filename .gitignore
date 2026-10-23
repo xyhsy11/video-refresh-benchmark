@@ -162,3 +162,10 @@ results/continuation_value_gap_v1/*.writing
 !results/native_head_value_confirmation_v1/**
 results/native_head_value_confirmation_v1/run.lock
 results/native_head_value_confirmation_v1/**/*.writing
+
+# Earlier uncompressed E27 working manifests stay local; canonical public
+# manifests use lossless .json.gz so complete PTS evidence fits GitHub limits.
+results/native_head_value_confirmation_v1/val_manifest.json
+results/native_head_value_confirmation_v1/test_manifest.json
+results/native_head_value_confirmation_v1/certificates/**/val_manifest.json
+results/native_head_value_confirmation_v1/certificates/**/test_manifest.json

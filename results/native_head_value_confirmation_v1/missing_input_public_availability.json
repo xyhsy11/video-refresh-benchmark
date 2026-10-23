@@ -1,0 +1,39 @@
+{
+  "checks": [
+    {
+      "parent": "7tTouR10Qro",
+      "canonical_parent_url": "https://www.youtube.com/watch?v=7tTouR10Qro",
+      "metadata_url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D7tTouR10Qro&format=json",
+      "http_status": 404,
+      "response_bytes": 9,
+      "response_sha256": "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5",
+      "error": null,
+      "body_excerpt": "Not Found"
+    },
+    {
+      "parent": "ieIssRi8iXU",
+      "canonical_parent_url": "https://www.youtube.com/watch?v=ieIssRi8iXU",
+      "metadata_url": "https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DieIssRi8iXU&format=json",
+      "http_status": 200,
+      "response_bytes": 811,
+      "response_sha256": "6235f107dba2c0876227e0d1a6ee892699025d12c17d1153c24af9444b356e00",
+      "error": null,
+      "metadata": {
+        "title": "Ice Fishing Lake Trout - What!",
+        "author_name": "Ryan Coulter Fishing",
+        "author_url": "https://www.youtube.com/@ryancoulterfishing4290",
+        "type": "video",
+        "height": 113,
+        "width": 200,
+        "version": "1.0",
+        "provider_name": "YouTube",
+        "provider_url": "https://www.youtube.com/",
+        "thumbnail_height": 360,
+        "thumbnail_width": 480,
+        "thumbnail_url": "https://i.ytimg.com/vi/ieIssRi8iXU/hqdefault.jpg",
+        "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/ieIssRi8iXU?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"Ice Fishing Lake Trout - What!\"></iframe>"
+      }
+    }
+  ],
+  "scope": "Public official-parent availability only, no authentication/cookies/terms changes and no model calls"
+}

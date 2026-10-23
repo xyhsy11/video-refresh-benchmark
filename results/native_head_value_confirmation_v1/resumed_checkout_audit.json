@@ -1,0 +1,16 @@
+{
+  "head": "a9e1942f226f341071e1a990ea446dc717a070bb",
+  "branch": "codex/native-head-value-confirmation-v1",
+  "reviewed": "a9e1942f226f341071e1a990ea446dc717a070bb",
+  "changes_since_reviewed": [],
+  "AGENTS": [],
+  "unrelated_preserved": [
+    "presentation_outputs/",
+    "seminar/",
+    "seminar_build/",
+    "seminar_output/"
+  ],
+  "authority": "Direct chat authorizes commit and push after this attempt; conflicts in the attached brief do not override it.",
+  "goal_started_epoch": 1792735131,
+  "goal_time_source": "active goal createdAt returned by goal tool, preserved for resumed end-to-end wall accounting"
+}
