@@ -1,0 +1,14 @@
+test_cumulative_caps_and_frozen_code_preserved (test_native_head_task1.Task1Contracts.test_cumulative_caps_and_frozen_code_preserved) ... ok
+test_existing_authentic_source_reuses_without_model_calls (test_native_head_task1.Task1Contracts.test_existing_authentic_source_reuses_without_model_calls) ... ok
+test_fold_membership_and_integrity_guard (test_native_head_task1.Task1Contracts.test_fold_membership_and_integrity_guard) ... ok
+test_no_eval_or_test_acquisition_reachable_from_fit_plan (test_native_head_task1.Task1Contracts.test_no_eval_or_test_acquisition_reachable_from_fit_plan) ... ok
+test_ordinary_profile_uses_real_receipts_and_excludes_cached_replay (test_native_head_task1.Task1Contracts.test_ordinary_profile_uses_real_receipts_and_excludes_cached_replay) ... ok
+test_partial_operation_blocks_without_recompute (test_native_head_task1.Task1Contracts.test_partial_operation_blocks_without_recompute) ... ok
+test_precision_arithmetic_on_real_input_metadata_only (test_native_head_task1.Task1Contracts.test_precision_arithmetic_on_real_input_metadata_only) ... ok
+test_resource_ledger_independent_roundoff_bounded_sum (test_native_head_task1.Task1Contracts.test_resource_ledger_independent_roundoff_bounded_sum) ... ok
+test_session_pauses_only_at_explicit_safe_boundary (test_native_head_task1.Task1Contracts.test_session_pauses_only_at_explicit_safe_boundary) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 10.009s
+
+OK

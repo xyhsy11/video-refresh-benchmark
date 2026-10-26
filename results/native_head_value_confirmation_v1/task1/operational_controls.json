@@ -1,0 +1,17 @@
+{
+  "sha256": {
+    "fit_plan_native_head_confirmation.py": "df3b210bfe08b4ee20a4f82a0b843a897f5cffe3c12bbeb78216eb489324db3b",
+    "verify_native_head_task1.py": "4fde218818ca17db46600ee00c2d617e986afff1e192dd8d4b2372ee63aeabc0",
+    "test_native_head_task1.py": "209198edc81376c1cd76ba9b0b5e8312e38223b9f5428db22a84682f461cf987"
+  },
+  "frozen_config_sha256": "acb9ec346dcdd4b572f299e2588368df462b51806c3af1212e17bb7be5dedbf5",
+  "stop_stage": "OOF_COMPLETE",
+  "maximum_session_seconds": 21600,
+  "caps": {
+    "network_bytes": 65498251264,
+    "retained_bytes": 21474836480,
+    "collection_seconds": 28800,
+    "cpu_seconds": 14400,
+    "timing_seconds": 7200
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "passed": true,
+  "errors": [],
+  "records": [
+    {
+      "source": "yt:v_u78W2k6ls",
+      "seconds": 2.33300539999982,
+      "ledger_seconds": 2.3315163999996003,
+      "array_sha256": "cc30237d7e1bd23b575a5b1e9657e2fa7f2aabfebda5f1a7d0d55aa67f67247a"
+    },
+    {
+      "source": "yt:0-H_tyg7F14",
+      "seconds": 2.6345171999982995,
+      "ledger_seconds": 2.632659799999601,
+      "array_sha256": "8d1c1e75ef34db2dcd3d412669a87c189b93e307f12acc75671d6ec434641014"
+    },
+    {
+      "source": "yt:Dz64L1FfG_o",
+      "seconds": 2.088680900000327,
+      "ledger_seconds": 2.086889500000325,
+      "array_sha256": "113a42585c67fd3dbb8c05b9e144906d9d451fbab7572e5737c31c1f29c77c1a"
+    },
+    {
+      "source": "yt:F0hGTWMUJto",
+      "seconds": 2.9610317000006035,
+      "ledger_seconds": 2.959463600000163,
+      "array_sha256": "6785ffeda8ffbd6550d232352f63b5eee74c318d8714cac0b6287f63d087b08a"
+    },
+    {
+      "source": "yt:9SMKZVbMSwM",
+      "seconds": 4.396905700001298,
+      "ledger_seconds": 4.3953332000000955,
+      "array_sha256": "cdfa646a009f48451213b926f6e197ec67012aa9acef6617e688e6e2c07fae50"
+    },
+    {
+      "source": "yt:l3QonCoHifg",
+      "seconds": 5.101448200000959,
+      "ledger_seconds": 5.099891099998786,
+      "array_sha256": "98bcaf86f220caa83722862ecccfd1c63001b367ae856d44edcf6ba98e29ca7b"
+    },
+    {
+      "source": "yt:RxO7IEU7_I8",
+      "seconds": 6.905243100000007,
+      "ledger_seconds": 6.90358180000112,
+      "array_sha256": "6e3b921ffc733835091c04d383bdcd45a2730972f07c4199a0cebde7c6c8b279"
+    },
+    {
+      "source": "yt:qmyPAHdM__M",
+      "seconds": 2.8182288000007247,
+      "ledger_seconds": 2.816768400000001,
+      "array_sha256": "5e5d67c618f737bd180da8efaca0a5b990998cbf3d23d2952430e7dcc8a9fa00"
+    }
+  ],
+  "mean": 3.654882625000255,
+  "sd": 1.6746387668034977,
+  "min": 2.088680900000327,
+  "max": 6.905243100000007,
+  "median": 2.889630250000664,
+  "cpu_seconds": {
+    "offline-source-enumeration": [
+      0.17944600000009814,
+      0.1312177999989217,
+      0.09945820000029926,
+      0.21296050000091782,
+      0.08276079999996,
+      0.13629220000075293,
+      0.07748019999962708,
+      0.13367340000149852
+    ],
+    "source-input-controls": [
+      0.08489220000046771,
+      0.15601520000018354,
+      0.15317860000141081,
+      0.11646289999953297,
+      0.25233920000027865,
+      0.09662329999991925,
+      0.18358880000050704,
+      0.09477419999893755
+    ],
+    "cached-source-authentication": [],
+    "normal-reference-exact-array-comparison": [
+      0.03254639999977371,
+      0.03503869999985909,
+      0.030982599999333615,
+      0.035028000000238535,
+      0.03914420000000973,
+      0.03058249999958207,
+      0.04288610000003246,
+      0.04355290000057721
+    ],
+    "smoke-scalar-verification": [
+      10.682482100000925
+    ]
+  },
+  "counters": {
+    "encoder_starts": 256,
+    "encoder_completions": 256,
+    "decodes": 6443,
+    "decoded_frames": 1700881,
+    "probe_fits": 0,
+    "probe_completions": 0,
+    "verification_probe_fits": 12,
+    "collection_seconds": 6359.147454920052,
+    "cpu_seconds": 2405.1520158760304,
+    "timing_seconds": 0,
+    "acquisition_seconds": 873.1587149000003,
+    "acquisition_upper_bound_extra_seconds": 593.074174,
+    "uncertain_encoder_calls": 0,
+    "uncertain_operations": []
+  },
+  "retained_bytes": 6562359195,
+  "missing_originals": [],
+  "remaining_sources": 3192,
+  "wall_seconds": 3.4950650000009773
+}

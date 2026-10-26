@@ -1,0 +1,38 @@
+test_actual_duplicate_schema_and_dataset_namespace (test_native_head_value_confirmation.ExactContracts.test_actual_duplicate_schema_and_dataset_namespace) ... ok
+test_amended_network_cap_preserves_real_prior_receipts (test_native_head_value_confirmation.ExactContracts.test_amended_network_cap_preserves_real_prior_receipts) ... ok
+test_archive_absence_advances_real_ranked_ice_fishing_prefix (test_native_head_value_confirmation.ExactContracts.test_archive_absence_advances_real_ranked_ice_fishing_prefix) ... ok
+test_bootstrap_units_and_analytic_variance_on_real_official_metadata (test_native_head_value_confirmation.ExactContracts.test_bootstrap_units_and_analytic_variance_on_real_official_metadata) ... ok
+test_complete_legal_space_and_independent_tail (test_native_head_value_confirmation.ExactContracts.test_complete_legal_space_and_independent_tail) ... ok
+test_completed_release_is_not_reserved_twice (test_native_head_value_confirmation.ExactContracts.test_completed_release_is_not_reserved_twice) ... ok
+test_compressed_real_screening_adapter (test_native_head_value_confirmation.ExactContracts.test_compressed_real_screening_adapter) ... ok
+test_duration_weights_by_explicit_cache_visits (test_native_head_value_confirmation.ExactContracts.test_duration_weights_by_explicit_cache_visits) ... ok
+test_incremental_counters_equal_real_append_only_ledger (test_native_head_value_confirmation.ExactContracts.test_incremental_counters_equal_real_append_only_ledger) ... FAIL
+test_independent_absence_requires_all_real_pinned_catalogs (test_native_head_value_confirmation.ExactContracts.test_independent_absence_requires_all_real_pinned_catalogs) ... ok
+test_live_lock_owner_authenticated_without_packages (test_native_head_value_confirmation.ExactContracts.test_live_lock_owner_authenticated_without_packages) ... ok
+test_lossless_deterministic_json_gzip_on_official_metadata (test_native_head_value_confirmation.ExactContracts.test_lossless_deterministic_json_gzip_on_official_metadata) ... ok
+test_official_native_map_and_real_annotation_labels (test_native_head_value_confirmation.ExactContracts.test_official_native_map_and_real_annotation_labels) ... ok
+test_population_snapshot_and_counters_survive_amendment (test_native_head_value_confirmation.ExactContracts.test_population_snapshot_and_counters_survive_amendment) ... ok
+test_preparation_snapshot_has_unchanged_real_hashes (test_native_head_value_confirmation.ExactContracts.test_preparation_snapshot_has_unchanged_real_hashes) ... ok
+test_present_uncached_is_still_a_required_candidate (test_native_head_value_confirmation.ExactContracts.test_present_uncached_is_still_a_required_candidate) ... ok
+test_real_fitting_feature_ridge_objective (test_native_head_value_confirmation.ExactContracts.test_real_fitting_feature_ridge_objective) ... ok
+test_real_multi_class_component_canonical_before_quotas (test_native_head_value_confirmation.ExactContracts.test_real_multi_class_component_canonical_before_quotas) ... ok
+test_real_population_order_independent_of_manifest_arrival (test_native_head_value_confirmation.ExactContracts.test_real_population_order_independent_of_manifest_arrival) ... ok
+test_real_role_and_list_hash_evidence_coverage (test_native_head_value_confirmation.ExactContracts.test_real_role_and_list_hash_evidence_coverage) ... ok
+test_real_stored_validation_features_and_native_history_schema (test_native_head_value_confirmation.ExactContracts.test_real_stored_validation_features_and_native_history_schema) ... ok
+test_real_windows_memory_counters (test_native_head_value_confirmation.ExactContracts.test_real_windows_memory_counters) ... ok
+test_remaining_work_projection_uses_real_input_receipts (test_native_head_value_confirmation.ExactContracts.test_remaining_work_projection_uses_real_input_receipts) ... ok
+test_stale_catalog_and_inconsistent_exclusion_rejected (test_native_head_value_confirmation.ExactContracts.test_stale_catalog_and_inconsistent_exclusion_rejected) ... ok
+
+======================================================================
+FAIL: test_incremental_counters_equal_real_append_only_ledger (test_native_head_value_confirmation.ExactContracts.test_incremental_counters_equal_real_append_only_ledger)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\video-refresh-baseline\test_native_head_value_confirmation.py", line 206, in test_incremental_counters_equal_real_append_only_ledger
+    if key!='uncertain_operations':self.assertEqual(value,sum(r.get(key,0) for r in records))
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 2618.3264798760306 != 2618.3264798760315
+
+----------------------------------------------------------------------
+Ran 24 tests in 22.790s
+
+FAILED (failures=1)

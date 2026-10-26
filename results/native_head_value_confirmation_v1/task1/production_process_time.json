@@ -1,0 +1,12 @@
+{
+  "startup_wall_seconds": 2.8374059,
+  "process_start_utc": "2026-10-26T16:44:15.8858591+09:00",
+  "observed_at_utc": "2026-10-26T20:53:55.9074635+09:00",
+  "session_start_utc": "2026-10-26T16:44:18.723265+09:00",
+  "pid": 49944,
+  "basis": "OS process birth to recorded fitting session start, preserving fractional seconds; pre-session process wall separately charged to CPU budget",
+  "post_session_upper_seconds": 13.277870599999005,
+  "first_stopped_observation_utc": "2026-10-26T12:26:36.7365642+00:00",
+  "session_wall_seconds": 16924.7354286,
+  "shutdown_basis": "Conservative upper wall bound from saved session elapsed end to first OOF_COMPLETE observation; includes polling delay, not exact teardown time"
+}

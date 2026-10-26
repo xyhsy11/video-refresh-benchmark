@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "difference": {
+    "encoder_starts": 0.0,
+    "encoder_completions": 0.0,
+    "decodes": 0.0,
+    "decoded_frames": 0.0,
+    "probe_fits": 0.0,
+    "probe_completions": 0.0,
+    "verification_probe_fits": 0.0,
+    "collection_seconds": 0.0,
+    "cpu_seconds": -4.547473508864641e-13,
+    "timing_seconds": 0.0,
+    "acquisition_seconds": 0.0,
+    "acquisition_upper_bound_extra_seconds": 0.0,
+    "uncertain_encoder_calls": 0.0
+  },
+  "explanation": "Python 3.12 built-in sum uses compensated summation; frozen incremental totals uses +=. Existing exact-equality test differs at floating roundoff only. No ledger values changed or reset.",
+  "discrete_counters_exact": true
+}

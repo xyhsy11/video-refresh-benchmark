@@ -1,0 +1,44 @@
+{
+  "scope": "Stage 1 only; complete-study gate remains unchanged in frozen integrated runner",
+  "remaining_sources": 32,
+  "reference_safety_factor": 1.5,
+  "reference_seconds_per_source": 3.942169829873424,
+  "remaining_collection_seconds": 189.22415183392434,
+  "remaining_cpu_projection_seconds": 9198.351589874615,
+  "scalar_verification_projection_seconds": 6409.489260000555,
+  "unmeasured_oof_and_audit_reserve_seconds": 1800,
+  "additional_retained_projection_bytes": 444493856,
+  "scratch_reserve_bytes": 2147483648,
+  "current": {
+    "encoder_starts": 50816,
+    "encoder_completions": 50816,
+    "decodes": 9603,
+    "decoded_frames": 2536619,
+    "probe_fits": 0,
+    "probe_completions": 0,
+    "verification_probe_fits": 13,
+    "collection_seconds": 18825.92950152007,
+    "cpu_seconds": 3683.055718676003,
+    "timing_seconds": 0,
+    "acquisition_seconds": 873.1587149000003,
+    "acquisition_upper_bound_extra_seconds": 593.074174,
+    "uncertain_encoder_calls": 0,
+    "uncertain_operations": [
+      {
+        "at_utc": "2026-10-26T11:32:47.844017+00:00",
+        "kind": "operation_start",
+        "operation_id": "837829d651dc48e88bf218d0b792573b",
+        "category": "cpu",
+        "label": "task1-progress-resource-check",
+        "pid": 49944,
+        "process_created": 134374742558858591,
+        "started_epoch": 1793014367.8440173
+      }
+    ]
+  },
+  "available_disk_bytes": 154612711424,
+  "fits_collection_cap": true,
+  "fits_cpu_cap": true,
+  "fits_retained_cap": true,
+  "fits_free_disk": true
+}

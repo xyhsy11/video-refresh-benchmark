@@ -1,0 +1,35 @@
+[
+  {
+    "command": [
+      "python",
+      "-m",
+      "unittest",
+      "test_native_head_value_confirmation",
+      "-v"
+    ],
+    "exit_code": 1,
+    "wall_seconds": 25.447102399999494,
+    "output": "task1/check_0.txt"
+  },
+  {
+    "command": [
+      "python",
+      "-m",
+      "unittest",
+      "test_native_head_task1",
+      "-v"
+    ],
+    "exit_code": 1,
+    "wall_seconds": 6.614458000000013,
+    "output": "task1/check_1.txt"
+  },
+  {
+    "command": [
+      "python",
+      "validate_release.py"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 4.8476546999991115,
+    "output": "task1/check_2.txt"
+  }
+]

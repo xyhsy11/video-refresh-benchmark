@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "errors": [],
+  "checks": {
+    "sources": 3200,
+    "folds": 4,
+    "probe_models": 32,
+    "maximum_scalar_loss_error": 1.4210854715202004e-14,
+    "maximum_ridge_gradient": 7.873042495720739e-15,
+    "maximum_heldout_prediction_error": 1.2656542480726785e-14,
+    "selected_m": 8
+  },
+  "scope": "Independent fitting OOF development verification; no fresh evaluation evidence",
+  "native_forwards": 0,
+  "probe_fits": 0,
+  "evaluation_outcomes_accessed": false
+}

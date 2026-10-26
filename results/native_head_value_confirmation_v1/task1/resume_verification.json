@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "completed_folds_reloaded": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "heldout_source_rows_per_fold": 800,
+  "heldout_state_rows_per_fold": 9600,
+  "native_forwards": 0,
+  "probe_fits": 0,
+  "cumulative_counters_unchanged": true,
+  "safe_pause_and_new_session_counter_preservation": true,
+  "scope": "Control tests on authentic saved references/folds; no new six-hour production session, model execution, refitting, or evaluation. Temporary control receipts are not empirical experiment results."
+}

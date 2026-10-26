@@ -1,0 +1,10 @@
+{
+  "8": {
+    "network_gib": 70,
+    "retained_gib": 20,
+    "collection_hours": 27,
+    "cpu_hours": 7,
+    "timing_hours": 10,
+    "free_disk_reserve_gib": 10
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "at_utc": "2026-10-26T12:30:52.373235+00:00",
+  "commands": [
+    {
+      "command": [
+        "python",
+        "-B",
+        "audit_native_head_task1_checkpoints.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 75.69204100000206,
+      "output": "task1/task1-final-checkpoint-audit.txt",
+      "output_sha256": "d84618ecb9a3dab45b3e3485d966708db0cd24541286ba1478f43a1dcc1cef3f",
+      "label": "task1-final-checkpoint-audit"
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "verify_native_head_task1_resume.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 7.199982599999203,
+      "output": "task1/task1-final-resume-check.txt",
+      "output_sha256": "fd5cf77deb6f81aabf88e157854ee8b5047df698b301b6d4a942d4b0a7427212",
+      "label": "task1-final-resume-check"
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "report_native_head_task1_diagnostics.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 42.30145619999894,
+      "output": "task1/task1-final-development-diagnostics.txt",
+      "output_sha256": "aff11dfcf7c8077b4d64b90599848a957e6805c32cae25719e3a55cd486b5547",
+      "label": "task1-final-development-diagnostics"
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "-m",
+        "unittest",
+        "test_native_head_task1",
+        "-v"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 12.764039600002434,
+      "output": "task1/task1-final-focused-tests.txt",
+      "output_sha256": "fe73b9d3ff14453570a0ac0a122fa14c0ddd325f6b560e76f87de04e98331eab",
+      "label": "task1-final-focused-tests"
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "validate_release.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 4.698105899999064,
+      "output": "task1/task1-final-release-validation.txt",
+      "output_sha256": "ce1cffb5953cea1f9d0e425607af5ab7e76a7d02a6034796cad1de55690fd139",
+      "label": "task1-final-release-validation"
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "propose_native_head_task1_resources.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 35.14310520000072,
+      "output": "task1/task1-final-resource-proposal.txt",
+      "output_sha256": "749f509751d0e9e0dd4db6f295f361339fa302e25e7999fe0943ac858f109a0e",
+      "label": "task1-final-resource-proposal"
+    },
+    {
+      "command": [
+        "python",
+        "-B",
+        "propose_native_head_task1_resources.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 12.98966140000266,
+      "output": "task1/task1-resource-proposal-stage-allocation.txt",
+      "output_sha256": "749f509751d0e9e0dd4db6f295f361339fa302e25e7999fe0943ac858f109a0e",
+      "label": "task1-resource-proposal-stage-allocation"
+    }
+  ],
+  "passed": true,
+  "controller_sha256": "127cb935421af010dfd252d12eadf5df755579fffc2366dad93e5a0854a88bda"
+}

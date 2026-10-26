@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "tests": 9,
+  "command": "python -B -m unittest test_native_head_task1 -v",
+  "exit_code": 0,
+  "elapsed_seconds": 7.1458775,
+  "code_sha256": "209198edc81376c1cd76ba9b0b5e8312e38223b9f5428db22a84682f461cf987"
+}

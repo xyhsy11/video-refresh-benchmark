@@ -1,0 +1,160 @@
+{
+  "selected_m": 8,
+  "scope": "Proposal only; caps unchanged. Endpoint scenarios are not selected evaluation sizes.",
+  "current": {
+    "encoder_starts": 51328,
+    "encoder_completions": 51328,
+    "decodes": 9635,
+    "decoded_frames": 2545676,
+    "probe_fits": 32,
+    "probe_completions": 32,
+    "verification_probe_fits": 13,
+    "collection_seconds": 18963.53055162008,
+    "cpu_seconds": 7540.3685329760065,
+    "timing_seconds": 0,
+    "acquisition_seconds": 873.1587149000003,
+    "acquisition_upper_bound_extra_seconds": 593.074174,
+    "uncertain_encoder_calls": 0,
+    "uncertain_operations": [
+      {
+        "at_utc": "2026-10-26T12:35:25.651324+00:00",
+        "kind": "operation_start",
+        "operation_id": "c2ecc154be2b4ec19cc9730ffa0fb5b4",
+        "category": "cpu",
+        "label": "task1-future-resource-proposal",
+        "pid": 70144,
+        "process_created": 134374917235339992,
+        "started_epoch": 1793018125.6503246
+      }
+    ],
+    "network_cap_charged_bytes": 2995163817,
+    "known_response_body_bytes": 2990969513,
+    "retained_bytes": 6993057280,
+    "scratch_bytes": 0,
+    "free_disk_bytes": 157666934784,
+    "free_disk_reserve_bytes": 10737418240,
+    "memory": {
+      "process_working_set_bytes": 222699520,
+      "process_peak_working_set_bytes": 280518656,
+      "system_ram_bytes": 34110488576,
+      "system_available_ram_bytes": 9742864384,
+      "scope": "Current process lifetime; earlier unmetered processes are not inferred"
+    },
+    "remaining": {
+      "network_bytes": 62503087447,
+      "retained_bytes": 14481779200,
+      "collection_seconds": 9836.469448379921,
+      "cpu_seconds": 6859.6314670239935,
+      "timing_seconds": 7200
+    }
+  },
+  "current_snapshot_scope": "Taken during the proposal CPU operation; that receipt closes after writing. The final handoff resource snapshot includes completed post-run work.",
+  "reference_seconds_per_source": 3.945757428728079,
+  "ordinary_new_sources_measured": 3192,
+  "observed_ordinary_reference_distribution": {
+    "n": 3192,
+    "mean_seconds": 3.945757428728079,
+    "sample_sd_seconds": 1.8914401021342913,
+    "quantiles_seconds": {
+      "minimum": 0.9770596999987902,
+      "p05": 1.7316820650004956,
+      "p25": 2.342010299999856,
+      "median": 3.179325350001818,
+      "p75": 5.519296100000247,
+      "p95": 7.284649089998854,
+      "maximum": 9.53705120000086
+    }
+  },
+  "measured_offline_and_authentication_cpu_seconds_per_source": 0.2761306812629245,
+  "measured_full_oof_verification_seconds": [
+    3030.0581502000023
+  ],
+  "fitting_process_memory": {
+    "process_working_set_bytes": 1243471872,
+    "process_peak_working_set_bytes": 2569760768,
+    "system_ram_bytes": 34110488576,
+    "system_available_ram_bytes": 9021489152,
+    "scope": "Current process lifetime; earlier unmetered processes are not inferred"
+  },
+  "cuda_memory": {
+    "cuda_peak_allocated_bytes": 68930048,
+    "cuda_peak_reserved_bytes": 90177536
+  },
+  "measured_complete_fold_cpu_seconds": [
+    6.4619746999997005,
+    6.3810713999992,
+    7.593213000000105,
+    6.738381899998785
+  ],
+  "test_archive_bytes": 56094802765,
+  "source_receipts_sha256": "a8b94387bf4abf229062495694e144febbdfb76ef7649191f804e6489cce7d67",
+  "cases": {
+    "8": {
+      "m": 8,
+      "evaluation_sources": 3200,
+      "genuine_evaluation_forwards": 51200,
+      "stages": {
+        "test_transfer_seconds": 11565.90690939953,
+        "future_native_model_setup_seconds": 32.97601769999892,
+        "test_catalog_seconds": 1200.1272922976318,
+        "test_screening_seconds": 6471.5469840449405,
+        "test_duplicate_seconds": 125.35067359999812,
+        "evaluation_reference_seconds": 18939.63565789478,
+        "final_probe_fit_seconds": 13.587320499998896,
+        "independent_verification_seconds": 6857.988933800552,
+        "evaluation_offline_cpu_seconds": 1325.4272700620377,
+        "complete_system_timing_seconds": 26758.21448999919,
+        "future_audit_analysis_cpu_reserve_seconds": 1800.0
+      },
+      "task_allocation_seconds": {
+        "task2_preparation": 19825.018853642097,
+        "task3_evaluation_execution": 20281.55093680682,
+        "task4_analysis_timing_verification": 34984.191758849745
+      },
+      "source_certification_scope": "Technical screening projection uses complete measured certify-val wall, including authentication, failed attempts and certificate work. Historical source-audit allowance is allocated to Task 2; remaining independent verification to Task 4. No cost is removed or counted twice.",
+      "minimum_projected_cumulative": {
+        "network_bytes": 59089966582,
+        "retained_bytes": 15582061789,
+        "collection_seconds": 57299.07408655695,
+        "cpu_seconds": 17537.372057338594,
+        "timing_seconds": 26758.21448999919
+      },
+      "recommended_cumulative": {
+        "network_gib": 70,
+        "retained_gib": 20,
+        "collection_hours": 27,
+        "cpu_hours": 7,
+        "timing_hours": 10,
+        "free_disk_reserve_gib": 10
+      },
+      "unchanged_full_study_collection_gate_seconds": 76585.45912866102,
+      "expected_future_stage_wall_seconds": 75090.76154929865,
+      "unfinished_task1_reference_projection_seconds": 0.0,
+      "unfinished_task1_cpu_reserve_seconds": 0,
+      "projected_recorded_total_machine_wall_seconds": 101594.66063389476,
+      "work_basis": {
+        "test_screening_projection_seconds": 6471.5469840449405,
+        "test_catalog_projection_seconds": 1200.1272922976318,
+        "test_duplicate_projection_seconds": 125.35067359999812,
+        "independent_verification_projection_seconds": 6857.988933800552,
+        "measured_fitting_certification_seconds": 3451.491724823968,
+        "measured_eligible_fitting_screens": 3200,
+        "measured_successful_catalog_nontransfer_seconds": 64.238023599999,
+        "measured_catalog_archive_bytes": 4503796331,
+        "safety_factor": 1.5,
+        "projected_test_original_bytes": 8129140953.375,
+        "projection_scope": "Measured input-only/genuine fitting work extrapolated conservatively; projections are not observed test measurements. Reference collection separately includes actual decode, hashing, RGB preprocessing, GPU synchronization and feature persistence."
+      }
+    }
+  },
+  "assumptions": [
+    "Transfer and screening rates may change across test archives.",
+    "Final probe time is extrapolated from genuine fixed folds when available; otherwise 1800 seconds is unmeasured planning reserve.",
+    "Timing retains the existing conservative full-system smoke gate; no final timing experiment was run.",
+    "Future analysis/audit reserve is an unmeasured 1800 CPU seconds.",
+    "Retained original size uses measured fitting bytes with 1.3 inflation; scratch peak still needs future-stage validation.",
+    "Unknown reuploads, test membership/technical failures and rank-preserving revisits may block the fixed population.",
+    "Reference profile has eight sources; subsequent genuine fitting measurements are reported separately."
+  ],
+  "activated": false
+}

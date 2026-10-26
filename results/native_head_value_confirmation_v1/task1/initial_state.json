@@ -1,0 +1,45 @@
+{
+  "at_utc": "2026-10-26T07:41:17.349226+00:00",
+  "repository_commit": "2f42e5315600b3e53ccfcc0a60bce576821bf6c0",
+  "branch": "codex/native-head-value-confirmation-v1",
+  "working_tree": "?? presentation_outputs/\n?? presentations/\n?? results/native_head_value_confirmation_v1/task1/\n?? seminar/\n?? seminar_build/\n?? seminar_output/",
+  "counters": {
+    "encoder_starts": 256,
+    "encoder_completions": 256,
+    "decodes": 6443,
+    "decoded_frames": 1700881,
+    "probe_fits": 0,
+    "probe_completions": 0,
+    "verification_probe_fits": 12,
+    "collection_seconds": 6359.147454920052,
+    "cpu_seconds": 2405.1520158760304,
+    "timing_seconds": 0,
+    "acquisition_seconds": 873.1587149000003,
+    "acquisition_upper_bound_extra_seconds": 593.074174,
+    "uncertain_encoder_calls": 0,
+    "uncertain_operations": []
+  },
+  "preserved_files": {
+    "results/native_head_value_confirmation_v1/status.json": "0e3b31e6582a22ba7e96d0db5dbf5c623186d3b68a85ada99b824c90d25ac6a7",
+    "results/native_head_value_confirmation_v1/stage_state.json": "08f9471d6c4d465c93292054f11e2ecec406a9381aa989ec971bb6a902ef7c09",
+    "results/native_head_value_confirmation_v1/execution_accounting.json": "c09a8af2b2e217c075afbd0f9e0cc8d6c770de38e0667d2b92d3842e5e538db3",
+    "results/native_head_value_confirmation_v1/resource_plan.json": "72a1a5cbbeedd5d5abd1f2bb8ecb7300d49aed925000b0437629c414b13dc0b7",
+    "results/native_head_value_confirmation_v1/resource_exposure_ledger.jsonl": "7232c69b01a880dd8256957d5e190e68b56e3a7c0062a7ae3d3c2e805f9b5d6f",
+    "results/native_head_value_confirmation_v1/frozen_config.json": "acb9ec346dcdd4b572f299e2588368df462b51806c3af1212e17bb7be5dedbf5"
+  },
+  "frozen_code": {
+    "native_head_value_confirmation.py": "f8775b4685f508b8832115c70a20aa12c7d328159f6cbffab572f6e2402d10db",
+    "run_native_head_value_confirmation.py": "9d5f13b5d2464569725414b77701e01e9ce26d1c2019fcf71a645a3cacac05d9",
+    "verify_native_head_value_confirmation.py": "d4584ae71ce3903920c2e359589dbc2ca7832407dfea8a35f3427ec12a1367a3",
+    "test_native_head_value_confirmation.py": "cb49bed75c4376d8315a1df75807460094aefbcb16a212fa3cc26b1a6be07505",
+    "native_head_confirmation_runtime.py": "e99f149688e4bb44e967159f354720105d652f59bce209e83db32ea7a6a1376a",
+    "executable_value_observability.py": "65baf4f7e0b056617a77e3dfaf8ac0f1f82d87cfb225cbe9ab04d19dbea2d5e5",
+    "causal_observability_policy.py": "dda0908b98b042b4e5ac88a86cead957530582d4e1f4e7a186714450a0d212c6",
+    "research_utils.py": "06b0bd9df2ebbbf314a5a21e086f00e7018d7dbd7a189adac3cf2d79f0352044",
+    "temporal_refresh_common.py": "5e4f53da9110e43eaa1ff4624645bdb14ade891074f09e46540615d39f7d4cbb",
+    "native_head_confirmation_inputs.py": "a89e1d9205b1a2540f606ea5c786b87abba4a71d50e72bba65d339936034b1bb",
+    "native_head_confirmation_state.py": "2d9058f5d4a623311b9b92ec6534b269d9e596651e563a57260cbdedcdc72b89",
+    "native_head_confirmation_availability.py": "3e6576303115f496ebf6314b9b351fe347f74fd5adb658d20b613116580c40a2"
+  },
+  "profile_implementation_sha256": "08cbaf256b1aa451a709f01d02936faf1ef53a69cf00d26807ea1c3427706e80"
+}

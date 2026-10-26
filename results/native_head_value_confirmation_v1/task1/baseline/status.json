@@ -1,0 +1,13 @@
+{
+  "technical": "BLOCKED_RESOURCE",
+  "scientific": "NOT_EVALUATED",
+  "blocker": "BLOCKED_RESOURCE: fitting-only genuine throughput projection exceeds remaining collection cap",
+  "no_outcomes_exposed": true,
+  "population_rule": "archive_available_v1",
+  "completed_stage": "FIT_CERTIFIED",
+  "certified_fitting_sources": 3200,
+  "fitting_reference_sources": 8,
+  "selected_m": null,
+  "eval_sources": 0,
+  "resource_diagnosis": "minimum_design_resource_diagnosis.json"
+}

@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "errors": [],
+  "scope": "Independent original-input, saved-reference and durable checkpoint audit; OOF empirical validity reported separately",
+  "verified_original_sources": 3200,
+  "verified_reference_sources": 3200,
+  "new_journaled_sources": 3192,
+  "counters_independent": {
+    "encoder_starts": 51328,
+    "encoder_completions": 51328,
+    "probe_fits": 32,
+    "probe_completions": 32,
+    "collection_seconds": 18963.53055162008,
+    "cpu_seconds": 7347.175267276003,
+    "timing_seconds": 0
+  },
+  "evaluation_absence": {
+    "joint_source_certificate.json": true,
+    "evaluation_seal.json": true,
+    "evaluation_exposure.json": true,
+    "test_manifest.json.gz": true,
+    "eval_source_summaries.json": true,
+    "summary.json": true,
+    "bootstrap_draws.npz": true
+  },
+  "cumulative_reconciliation_differences": {
+    "encoder_starts": 0,
+    "encoder_completions": 0,
+    "probe_fits": 0,
+    "probe_completions": 0,
+    "collection_seconds": 0.0,
+    "cpu_seconds": 0.0,
+    "timing_seconds": 0
+  },
+  "model_checkpoint_sha256": "6dafc96144c88f800b190d2cb179ff69b8fd48c40afd4deca6c1e61f76fdfe86",
+  "class_mapping_sha256": "2945c209195a4fbb9f941d48fa5a2733af73b8dd1a717b9eed5e063ce5d80444",
+  "evaluation_model_calls": 0,
+  "evaluation_outcomes_accessed": false,
+  "all_references_complete": true,
+  "oof_complete": true,
+  "replay_not_model_throughput": true
+}

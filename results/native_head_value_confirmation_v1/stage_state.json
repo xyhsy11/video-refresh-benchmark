@@ -1,11 +1,20 @@
 {
-  "stage": "FIT_CERTIFIED",
+  "stage": "OOF_COMPLETE",
   "receipts": [
     {
       "stage": "FIT_CERTIFIED",
       "at_utc": "2026-10-23T09:38:30.806432+00:00",
       "sha256": {
         "results/native_head_value_confirmation_v1/fitting_source_certificate.json": "53f05450a2a3398faf7532cdda208934a01fc7c3379b81d91c00ea9d48a8b757"
+      }
+    },
+    {
+      "stage": "OOF_COMPLETE",
+      "at_utc": "2026-10-26T12:26:23.285225+00:00",
+      "sha256": {
+        "results/native_head_value_confirmation_v1/precision_plan.json": "112b69e38a2e0f36d326555ee7e5d239bb321fbe7f59df42f73306b767012887",
+        "results/native_head_value_confirmation_v1/fit_oof_state_predictions.npz": "a90494b1157d0f3902a0e6255da0815ab9adf3a3bb93125222f991f2b0e021e9",
+        "results/native_head_value_confirmation_v1/task1/oof_verification.json": "d6660cf3915c18d5089b550c245dd9eec0807373bf43d416fa68afc9146e33b9"
       }
     }
   ],

@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "sources": 8,
+  "genuine_forwards": 128,
+  "seconds": [
+    2.33300539999982,
+    2.6345171999982995,
+    2.088680900000327,
+    2.9610317000006035,
+    4.396905700001298,
+    5.101448200000959,
+    6.905243100000007,
+    2.8182288000007247
+  ],
+  "mean_seconds": 3.654882625000255,
+  "sample_sd_seconds": 1.6746387668034977,
+  "minimum_seconds": 2.088680900000327,
+  "maximum_seconds": 6.905243100000007,
+  "median_seconds": 2.889630250000664,
+  "safety_factor": 1.5,
+  "array_parity": true,
+  "evidence_sha256": {
+    "data/source/native_head_value_confirmation_v1/reference_throughput/3d7b247b3d5872d3dbd39d19ec06011d3bd66e66348011099bb47c640e1b0bf0/f9f383ceae537522ac81218b16e291662086833fee06cbb12f856bac4840f218.npz": "cc30237d7e1bd23b575a5b1e9657e2fa7f2aabfebda5f1a7d0d55aa67f67247a",
+    "data/source/native_head_value_confirmation_v1/reference_throughput/3d7b247b3d5872d3dbd39d19ec06011d3bd66e66348011099bb47c640e1b0bf0/f9f383ceae537522ac81218b16e291662086833fee06cbb12f856bac4840f218.json": "5475dccdcb16550468935cd995f1aae3a95be04877eef61cf2f39c086f5618b1",
+    "data/source/native_head_value_confirmation_v1/reference_throughput/3d7b247b3d5872d3dbd39d19ec06011d3bd66e66348011099bb47c640e1b0bf0/9e39a356c422e3b2fe10f0b7b431e0c52ea892c5ccab280470a850c6cb5b0265.npz": "8d1c1e75ef34db2dcd3d412669a87c189b93e307f12acc75671d6ec434641014",
+    "data/source/native_head_value_confirmation_v1/reference_throughput/3d7b247b3d5872d3dbd39d19ec06011d3bd66e66348011099bb47c640e1b0bf0/9e39a356c422e3b2fe10f0b7b431e0c52ea892c5ccab280470a850c6cb5b0265.json": "9fa8c6c62c7b0f7cd995e6e6d34a476042debfcd9ed5bbc7cd1cee9e234d5999",
+    "data/source/native_head_value_confirmation_v1/reference_throughput/3d7b247b3d5872d3dbd39d19ec06011d3bd66e66348011099bb47c640e1b0bf0/c4bc016ff9c77f518b6075f1be4172e69435a6d661538829981388062e35de4c.npz": "113a42585c67fd3dbb8c05b9e144906d9d451fbab7572e5737c31c1f29c77c1a",
+    "data/source/native_head_value_confirmation_v1/reference_throughput/3d7b247b3d5872d3dbd39d19ec06011d3bd66e66348011099bb47c640e1b0bf0/c4bc016ff9c77f518b6075f1be4172e69435a6d661538829981388062e35de4c.json": "cbd9d3ae0754d5bd4fc6311d32199c27d92a098111223f9aa60cf0ae88459dda",
+    "data/source/native_head_value_confirmation_v1/reference_throughput/3d7b247b3d5872d3dbd39d19ec06011d3bd66e66348011099bb47c640e1b0bf0/219b72c42d2b01fff57c0334e08d6b7a4cffda22497bbd00c55e68bdb5099255.npz": "6785ffeda8ffbd6550d232352f63b5eee74c318d8714cac0b6287f63d087b08a",
+    "data/source/native_head_value_confirmation_v1/reference_throughput/3d7b247b3d5872d3dbd39d19ec06011d3bd66e66348011099bb47c640e1b0bf0/219b72c42d2b01fff57c0334e08d6b7a4cffda22497bbd00c55e68bdb5099255.json": "36b26d8f3ee4577cb1841d3301f8c42746eb32f0e06e29a05ed1e14d442e9efc",
+    "data/source/native_head_value_confirmation_v1/reference_throughput/3d7b247b3d5872d3dbd39d19ec06011d3bd66e66348011099bb47c640e1b0bf0/0099a19d109308c2c9ad37aaf03865c0bf909861348058621994193f336fc4b9.npz": "cdfa646a009f48451213b926f6e197ec67012aa9acef6617e688e6e2c07fae50",
+    "data/source/native_head_value_confirmation_v1/reference_throughput/3d7b247b3d5872d3dbd39d19ec06011d3bd66e66348011099bb47c640e1b0bf0/0099a19d109308c2c9ad37aaf03865c0bf909861348058621994193f336fc4b9.json": "82d1ca709139f9da2e2740558c2d7e6d0924d6cad6771504e1360748646341b6",
+    "data/source/native_head_value_confirmation_v1/reference_throughput/3d7b247b3d5872d3dbd39d19ec06011d3bd66e66348011099bb47c640e1b0bf0/e3c4e22970a474fbc8dd7d16b4b0ade17d3ff6e33b514675494bd30fa318d86a.npz": "98bcaf86f220caa83722862ecccfd1c63001b367ae856d44edcf6ba98e29ca7b",
+    "data/source/native_head_value_confirmation_v1/reference_throughput/3d7b247b3d5872d3dbd39d19ec06011d3bd66e66348011099bb47c640e1b0bf0/e3c4e22970a474fbc8dd7d16b4b0ade17d3ff6e33b514675494bd30fa318d86a.json": "39331bbda822d0d89692e50e634bc5744e2589cd651dcdd9c05eb99fd3b74904",
+    "data/source/native_head_value_confirmation_v1/reference_throughput/3d7b247b3d5872d3dbd39d19ec06011d3bd66e66348011099bb47c640e1b0bf0/f5e3c012c089288f1763e3c49677cd11c4481524e3590573d2380b3b7ad78763.npz": "6e3b921ffc733835091c04d383bdcd45a2730972f07c4199a0cebde7c6c8b279",
+    "data/source/native_head_value_confirmation_v1/reference_throughput/3d7b247b3d5872d3dbd39d19ec06011d3bd66e66348011099bb47c640e1b0bf0/f5e3c012c089288f1763e3c49677cd11c4481524e3590573d2380b3b7ad78763.json": "a085e556a0373aa5d123ec3f6f0dfebb74457eb8cbc46c9b3802afa8ca0a9a41",
+    "data/source/native_head_value_confirmation_v1/reference_throughput/3d7b247b3d5872d3dbd39d19ec06011d3bd66e66348011099bb47c640e1b0bf0/d620607a14adc9c20e6e800ede1a99fb1aa75154ce83565d844ec2eca5308a21.npz": "5e5d67c618f737bd180da8efaca0a5b990998cbf3d23d2952430e7dcc8a9fa00",
+    "data/source/native_head_value_confirmation_v1/reference_throughput/3d7b247b3d5872d3dbd39d19ec06011d3bd66e66348011099bb47c640e1b0bf0/d620607a14adc9c20e6e800ede1a99fb1aa75154ce83565d844ec2eca5308a21.json": "d1b4bf564966eb013094c492b43fc551e9907095038db644bb1e2171b3a3fe4d"
+  },
+  "profile_sha256": "a8b94387bf4abf229062495694e144febbdfb76ef7649191f804e6489cce7d67",
+  "boundary": "Includes source hashing/read, decode, RGB preparation, CUDA-synchronized native inference, output writes and collection guard. Model setup separate. Smoke affine assertions and offline features/targets excluded and separately charged.",
+  "limitation": "Eight preselected smoke sources are not a representative throughput study. Component times were not separately instrumented; no retrospective timing decomposition is claimed. Cached authentication/parity replay is CPU audit, never GPU throughput."
+}

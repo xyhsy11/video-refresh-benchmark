@@ -1,0 +1,13 @@
+{
+  "stage": "FIT_CERTIFIED",
+  "receipts": [
+    {
+      "stage": "FIT_CERTIFIED",
+      "at_utc": "2026-10-23T09:38:30.806432+00:00",
+      "sha256": {
+        "results/native_head_value_confirmation_v1/fitting_source_certificate.json": "53f05450a2a3398faf7532cdda208934a01fc7c3379b81d91c00ea9d48a8b757"
+      }
+    }
+  ],
+  "schema": 1
+}

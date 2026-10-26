@@ -1,0 +1,18 @@
+{
+  "actual": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "versions": {
+      "numpy": "2.5.2",
+      "scipy": "1.18.1",
+      "torch": "2.14.1+cu132",
+      "torchvision": "0.29.1+cu132",
+      "pytorchvideo": null,
+      "av": "19.0.1",
+      "Pillow": "12.3.0",
+      "threadpoolctl": "3.7.0",
+      "scikit-learn": "1.9.1"
+    },
+    "no_package_changes": true
+  },
+  "matches_historical": true
+}
